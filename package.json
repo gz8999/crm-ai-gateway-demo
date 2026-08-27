@@ -1,0 +1,37 @@
+{
+  "name": "crm-ai-gateway-demo",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "dev:full": "concurrently \"npm run server\" \"npm run dev\"",
+    "dev:external-demo": "node scripts/start-external-demo.mjs .env.external.local",
+    "dev:glm52-demo": "node scripts/start-external-demo.mjs .env.glm52.local",
+    "dev:u2-demo": "node scripts/start-external-demo.mjs .env.u2.local",
+    "server": "node server/index.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "build": "tsc && vite build && node scripts/verify-production-bundle.mjs",
+    "goal4a:validate": "node scripts/run-goal4a-llm-validation.mjs",
+    "evaluate:quality": "node scripts/evaluate-ai-decision-quality.mjs",
+    "audit:health-calibration": "node scripts/audit-health-score-calibration.mjs",
+    "preview": "vite preview --host 127.0.0.1"
+  },
+  "dependencies": {
+    "@azure/msal-node": "^5.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "concurrently": "^9.2.1",
+    "dotenv": "^17.4.2",
+    "express": "^4.19.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.7"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.10.2",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3"
+  }
+}

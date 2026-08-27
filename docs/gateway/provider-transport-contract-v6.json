@@ -1,0 +1,71 @@
+{
+  "version": "Provider Transport Contract v6",
+  "profile": "v6-r5",
+  "activation": "explicit-opt-in",
+  "purpose": "Remove all provider-generated free text from Tool Arguments and expand catalog references deterministically on the server.",
+  "providerOutput": {
+    "allowed": [
+      "catalog codes",
+      "request-scoped evidence tokens",
+      "enum values",
+      "fixed booleans"
+    ],
+    "freeTextAllowed": false,
+    "unknownReferenceAllowed": false,
+    "duplicateReferenceAllowed": false
+  },
+  "deterministicExpansion": {
+    "target": "Decision Pack Model Response v2",
+    "catalogCounts": {
+      "factCatalog": 14,
+      "inferenceCatalog": 5,
+      "actionCatalog": 5,
+      "confidenceCatalog": 3,
+      "evidenceCatalog": 5,
+      "deterministicMappingIterations": 1000,
+      "deterministicCanonicalHashCount": 1,
+      "externalLlmCalls": 0,
+      "d365Get": 0,
+      "crmPost": 0,
+      "crmPatch": 0,
+      "crmDelete": 0,
+      "productionRequests": 0
+    },
+    "mappingIterations": 1000,
+    "canonicalHashCount": 1
+  },
+  "strictSchema": {
+    "serializable": true,
+    "totalSchemaNodeCount": 114,
+    "typedNodeCount": 110,
+    "anyOfNodeCount": 4,
+    "refNodeCount": 0,
+    "missingTypeAnyOfRefCount": 0,
+    "missingTypeAnyOfRefPaths": [],
+    "objectCount": 27,
+    "requiredCoverageCount": 27,
+    "missingRequiredCount": 0,
+    "missingRequiredPaths": [],
+    "missingAdditionalPropertiesCount": 0,
+    "missingAdditionalPropertiesPaths": [],
+    "missingArrayItemsCount": 0,
+    "missingArrayItemsPaths": [],
+    "unsupportedKeywordCount": 0,
+    "unsupportedKeywords": [],
+    "schemaHash": "44d6a254afecd0e2e2a91ed05207582705e1fc98d5c2cddb04e355129e4c78bc",
+    "stringSurface": {
+      "totalStringNodeCount": 50,
+      "enumStringNodeCount": 50,
+      "patternTextCount": 0,
+      "freeTextCount": 0,
+      "freeTextPaths": [],
+      "enumOnlyReady": true
+    }
+  },
+  "runtimeStatus": {
+    "offlineReady": true,
+    "providerRequestCompatibilityReady": false,
+    "nextSyntheticProbeAuthorized": false,
+    "realCanaryAuthorized": false
+  }
+}

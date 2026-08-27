@@ -1,0 +1,67 @@
+{
+  "version": "Provider Transport Contract v3",
+  "profile": "v6-r2",
+  "purpose": "Bind every risk category to request-scoped compatible Safe Evidence and make all safety assertions structurally mandatory.",
+  "requestScopedSchema": true,
+  "safeEvidenceCatalog": {
+    "allowedFields": [
+      "evidenceToken",
+      "evidenceTypes"
+    ],
+    "forbiddenFields": [
+      "evidenceValue",
+      "expectedCategory",
+      "expectedAnswer",
+      "scenarioId",
+      "goldenMetadata",
+      "customerIdentity",
+      "exactAmount",
+      "rawTimeline"
+    ]
+  },
+  "riskCategoryContract": {
+    "schemaStrategy": "One anyOf branch per evidence-supported category. Each branch fixes the category code and restricts evidenceTokens to compatible request tokens.",
+    "minimumRuntimeCount": 1,
+    "schemaValidation": true,
+    "runtimeCompatibilityValidation": true,
+    "unknownCategory": "fail-closed",
+    "unknownEvidenceToken": "fail-closed",
+    "incompatibleEvidenceType": "fail-closed"
+  },
+  "safetyContract": {
+    "fixedFlags": {
+      "identityMasked": true,
+      "exactAmountWithheld": true,
+      "rawTimelineWithheld": true,
+      "crmWritebackPerformed": false
+    },
+    "requiredAssertions": {
+      "SAFE_CONTEXT_ONLY": true,
+      "NO_RAW_CRM": true,
+      "NO_IDENTITY": true,
+      "NO_EXACT_AMOUNT": true,
+      "NO_RAW_TIMELINE": true,
+      "NO_CRM_WRITEBACK": true
+    },
+    "canonicalMapping": "The server removes policyAssertions and deterministically supplies the complete Canonical v2 policyCodes array."
+  },
+  "strictSchemaRules": {
+    "allObjectPropertiesRequired": true,
+    "additionalProperties": false,
+    "unsupportedKeywordCount": 0
+  },
+  "historicalCompatibility": {
+    "v1SchemaHash": "12838eecacdaabe7f2e1a55c660847652dcfc2abcb87e381f1b45d8aba851236",
+    "v2SchemaHash": "69083368d8ea37beb074441a723eb274cfbcebb6ef86b5a429ff90695e74869d",
+    "legacyProfilesModified": false,
+    "historicalEvidenceModified": false
+  },
+  "offlineSyntheticFixture": {
+    "schemaHash": "9056533322a5b05ce7ea6be9b21f4579efc0088ff61c1a0b2e1c94a503df77eb",
+    "evidenceTokenCount": 5,
+    "evidenceSupportedCategoryCount": 8,
+    "excludedUnsupportedCategories": [
+      "route"
+    ]
+  }
+}

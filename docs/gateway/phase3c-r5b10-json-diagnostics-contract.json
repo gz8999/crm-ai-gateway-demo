@@ -1,0 +1,39 @@
+{
+  "version": "Tool Arguments Serialization Diagnostics v1",
+  "parsePolicy": "single_standard_json_parse_no_repair",
+  "publicFields": [
+    "argumentsLength",
+    "argumentsSha256",
+    "utf8Valid",
+    "bomPresent",
+    "firstCharacterCategory",
+    "lastCharacterCategory",
+    "braceBalance",
+    "bracketBalance",
+    "stringStateAtEnd",
+    "firstInvalidControlCharacterType",
+    "invalidEscapeType",
+    "parseErrorMessage",
+    "parseErrorOffset",
+    "parseErrorLine",
+    "parseErrorColumn",
+    "surroundingCodePointClasses",
+    "trailingDataPresent",
+    "truncationIndicators",
+    "syntaxCategory"
+  ],
+  "prohibitedPublicFields": [
+    "rawArguments",
+    "rawWindow",
+    "requestBody",
+    "responseBody",
+    "syntheticInput"
+  ],
+  "quarantine": {
+    "directory": "local-artifacts/gateway/phase3c-r5b10",
+    "directoryMode": "0700",
+    "fileMode": "0600",
+    "rawDeletedAfterDiagnosis": true
+  },
+  "repairAllowed": false
+}

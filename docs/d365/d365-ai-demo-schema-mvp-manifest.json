@@ -1,0 +1,231 @@
+{
+  "schemaVersion": "r2-mvp-1.0",
+  "designOnly": true,
+  "language": "zh-CN",
+  "sourceAudit": {
+    "artifact": "docs/gateway/d365-ai-analysis-field-catalog.json",
+    "environment": "org91f5f65f.crm5.dynamics.com",
+    "inheritedDataverseGetCount": 589,
+    "schemaWrites": 0,
+    "businessWrites": 0,
+    "productionRequests": 0,
+    "externalLlmCalls": 0
+  },
+  "scope": {
+    "included": [
+      "opportunity.aigw_nextaction",
+      "opportunity.aigw_nextactiondate",
+      "aigw_customerservicecoverage",
+      "aigw_interactionsignal"
+    ],
+    "excluded": [
+      "Customer Relationship History",
+      "External Intelligence Snapshot",
+      "remaining ADD candidates",
+      "AI answer fields",
+      "Golden metadata",
+      "Demo data",
+      "Gateway runtime code"
+    ]
+  },
+  "securityInvariants": {
+    "rawDataSent": false,
+    "exactAmountSentToModel": false,
+    "customerIdentityMasked": true,
+    "externalModelCalled": false,
+    "departmentFilterBeforeSafeContext": true,
+    "timelineRawTextExternal": false,
+    "crmWrites": false
+  },
+  "entities": [
+    {
+      "displayNameZh": "商机",
+      "displayNameEn": "Opportunity",
+      "logicalName": "opportunity",
+      "existing": true,
+      "ownership": "UserOwned",
+      "primaryName": "name",
+      "changes": "add two optional fact fields only",
+      "fields": [
+        {
+          "displayNameZh": "下一步行动",
+          "displayNameEn": "Next Action",
+          "logicalName": "aigw_nextaction",
+          "schemaName": "Aigw_Nextaction",
+          "classification": "ADD",
+          "dataType": "SingleLineOfText",
+          "maxLength": 500,
+          "requiredLevel": "None",
+          "auditing": true,
+          "validForCreate": true,
+          "validForUpdate": true,
+          "form": "AI Gateway Opportunity Demo - Full Replica / Summary / AI营业跟进",
+          "view": "所有案件 - AI Demo Full Replica, optional column",
+          "safeContext": ["nextActionPresent"],
+          "externalLlmAllowed": false,
+          "containsIdentity": false,
+          "containsExactAmount": false,
+          "notes": "营业人员确认的事实；原文不发送给 Provider"
+        },
+        {
+          "displayNameZh": "下一步行动日期",
+          "displayNameEn": "Next Action Date",
+          "logicalName": "aigw_nextactiondate",
+          "schemaName": "Aigw_Nextactiondate",
+          "classification": "ADD",
+          "dataType": "DateOnly",
+          "requiredLevel": "None",
+          "auditing": true,
+          "validForCreate": true,
+          "validForUpdate": true,
+          "timezoneBehavior": "DateOnly",
+          "form": "AI Gateway Opportunity Demo - Full Replica / Summary / AI营业跟进",
+          "view": "所有案件 - AI Demo Full Replica, optional column",
+          "safeContext": ["nextActionDueState", "nextActionOverdueBand"],
+          "safeContextValues": ["missing", "overdue", "due_soon", "future", "completed", "invalid_order"],
+          "externalLlmAllowed": true,
+          "externalLlmRule": "relative state only; never exact date",
+          "containsIdentity": false,
+          "containsExactAmount": false,
+          "notes": "日期一致性由后续 Business Rule 或 Gateway validation 实现"
+        }
+      ]
+    },
+    {
+      "displayNameZh": "客户服务覆盖",
+      "displayNameEn": "Customer Service Coverage",
+      "logicalName": "aigw_customerservicecoverage",
+      "existing": false,
+      "ownership": "UserOrTeamOwned",
+      "ownerPolicy": "responsible department Owner Team",
+      "primaryName": "aigw_name",
+      "fields": [
+        {"displayNameZh":"名称","displayNameEn":"Name","logicalName":"aigw_name","dataType":"SingleLineOfText","maxLength":200,"requiredLevel":"Application Required","classification":"ADD","safeContext":"exclude"},
+        {"displayNameZh":"客户","displayNameEn":"Account","logicalName":"aigw_accountid","dataType":"Lookup(account)","requiredLevel":"Business Required","classification":"ADD","safeContext":"account token only","externalLlmAllowed":false},
+        {"displayNameZh":"服务类型","displayNameEn":"Service Type","logicalName":"aigw_servicetype","dataType":"Choice","requiredLevel":"Business Required","choicePlan":"Service Type","classification":"ADD","safeContext":"normalized category","externalLlmAllowed":true},
+        {"displayNameZh":"覆盖状态","displayNameEn":"Coverage Status","logicalName":"aigw_coveragestatus","dataType":"Choice","requiredLevel":"Business Required","choicePlan":"Coverage Status","classification":"ADD","safeContext":"coverage status","externalLlmAllowed":true},
+        {"displayNameZh":"开始日期","displayNameEn":"Start Date","logicalName":"aigw_startdate","dataType":"DateOnly","requiredLevel":"Conditional","classification":"ADD","safeContext":"relative date state","externalLlmAllowed":true},
+        {"displayNameZh":"结束日期","displayNameEn":"End Date","logicalName":"aigw_enddate","dataType":"DateOnly","requiredLevel":"Conditional","classification":"ADD","safeContext":"stopped/former relative state","externalLlmAllowed":true},
+        {"displayNameZh":"负责部门","displayNameEn":"Responsible Department","logicalName":"aigw_responsibledepartment","dataType":"Lookup(team)","requiredLevel":"Business Required","lookupTarget":"team","classification":"ADD","safeContext":"department category only","externalLlmAllowed":false},
+        {"displayNameZh":"下次机会窗口","displayNameEn":"Next Opportunity Window","logicalName":"aigw_nextopportunitywindow","dataType":"DateOnly","requiredLevel":"None","classification":"ADD","safeContext":"nextOpportunityWindowState","externalLlmAllowed":true},
+        {"displayNameZh":"收入区间","displayNameEn":"Revenue Band","logicalName":"aigw_revenueband","dataType":"Choice","requiredLevel":"None","choicePlan":"Revenue Band","classification":"ADD","safeContext":"revenue band","externalLlmAllowed":true,"containsExactAmount":false},
+        {"displayNameZh":"毛利区间","displayNameEn":"Margin Band","logicalName":"aigw_marginband","dataType":"Choice","requiredLevel":"None","choicePlan":"Margin Band","classification":"ADD","safeContext":"margin band","externalLlmAllowed":true,"containsExactAmount":false},
+        {"displayNameZh":"服务满意度","displayNameEn":"Service Satisfaction","logicalName":"aigw_servicesatisfaction","dataType":"Choice","requiredLevel":"None","choicePlan":"Service Satisfaction","classification":"ADD","safeContext":"satisfactionBand","externalLlmAllowed":true},
+        {"displayNameZh":"最近提案日期","displayNameEn":"Last Proposal Date","logicalName":"aigw_lastproposaldate","dataType":"DateOnly","requiredLevel":"None","classification":"ADD","safeContext":"relative date state","externalLlmAllowed":true},
+        {"displayNameZh":"脱敏说明","displayNameEn":"Sanitized Notes","logicalName":"aigw_notes","dataType":"MultilineText","maxLength":1000,"requiredLevel":"None","classification":"ADD","safeContext":"sanitized summary only","externalLlmAllowed":"conditional","notes":"raw free text is excluded"},
+        {"displayNameZh":"Demo Token","displayNameEn":"Demo Token","logicalName":"aigw_demotoken","dataType":"SingleLineOfText","maxLength":100,"requiredLevel":"None","classification":"ADD","safeContext":"exclude","externalLlmAllowed":false}
+      ]
+    },
+    {
+      "displayNameZh": "AI互动信号",
+      "displayNameEn": "AI Interaction Signal",
+      "logicalName": "aigw_interactionsignal",
+      "existing": false,
+      "ownership": "UserOrTeamOwned",
+      "ownerPolicy": "sales department Owner Team",
+      "primaryName": "aigw_name",
+      "fields": [
+        {"displayNameZh":"名称","displayNameEn":"Name","logicalName":"aigw_name","dataType":"SingleLineOfText","maxLength":200,"requiredLevel":"Application Required","classification":"ADD","safeContext":"exclude"},
+        {"displayNameZh":"互动 Token","displayNameEn":"Interaction Token","logicalName":"aigw_interactiontoken","dataType":"SingleLineOfText","maxLength":100,"requiredLevel":"Business Required","alternateKey":true,"classification":"ADD","safeContext":"exclude"},
+        {"displayNameZh":"客户","displayNameEn":"Account","logicalName":"aigw_accountid","dataType":"Lookup(account)","requiredLevel":"Business Required","classification":"ADD","safeContext":"account token only","externalLlmAllowed":false},
+        {"displayNameZh":"商机","displayNameEn":"Opportunity","logicalName":"aigw_opportunityid","dataType":"Lookup(opportunity)","requiredLevel":"None","classification":"ADD","safeContext":"opportunity token only","externalLlmAllowed":false},
+        {"displayNameZh":"来源活动 Token","displayNameEn":"Source Activity Token","logicalName":"aigw_sourceactivitytoken","dataType":"SingleLineOfText","maxLength":100,"requiredLevel":"None","classification":"ADD","safeContext":"exclude","externalLlmAllowed":false},
+        {"displayNameZh":"活动日期","displayNameEn":"Activity Date","logicalName":"aigw_activitydate","dataType":"DateOnly","requiredLevel":"Business Required","classification":"ADD","safeContext":"relative date category","externalLlmAllowed":true},
+        {"displayNameZh":"活动类型","displayNameEn":"Activity Type","logicalName":"aigw_activitytype","dataType":"Choice","requiredLevel":"Business Required","choicePlan":"Activity Type","classification":"ADD","safeContext":"activity category","externalLlmAllowed":true},
+        {"displayNameZh":"互动方向","displayNameEn":"Direction","logicalName":"aigw_direction","dataType":"Choice","requiredLevel":"Business Required","choicePlan":"Direction","classification":"ADD","safeContext":"direction category","externalLlmAllowed":true},
+        {"displayNameZh":"结果类别","displayNameEn":"Result Category","logicalName":"aigw_resultcategory","dataType":"Choice","requiredLevel":"None","choicePlan":"Result Category","classification":"ADD","safeContext":"result category","externalLlmAllowed":true},
+        {"displayNameZh":"下一步","displayNameEn":"Next Step","logicalName":"aigw_nextstep","dataType":"SingleLineOfText","maxLength":500,"requiredLevel":"None","classification":"ADD","safeContext":"sanitized action text","externalLlmAllowed":true},
+        {"displayNameZh":"提及预算","displayNameEn":"Budget Mentioned","logicalName":"aigw_budgetmentioned","dataType":"TwoOptions","requiredLevel":"None","classification":"ADD","safeContext":"boolean","externalLlmAllowed":true},
+        {"displayNameZh":"决策人参与","displayNameEn":"Decision Maker Involved","logicalName":"aigw_decisionmakerinvolved","dataType":"TwoOptions","requiredLevel":"None","classification":"ADD","safeContext":"boolean only","externalLlmAllowed":true},
+        {"displayNameZh":"存在异议","displayNameEn":"Objection Present","logicalName":"aigw_objectionpresent","dataType":"TwoOptions","requiredLevel":"None","classification":"ADD","safeContext":"boolean","externalLlmAllowed":true},
+        {"displayNameZh":"异议类别","displayNameEn":"Objection Category","logicalName":"aigw_objectioncategory","dataType":"Choice","requiredLevel":"None","choicePlan":"Objection Category","classification":"ADD","safeContext":"objection category","externalLlmAllowed":true},
+        {"displayNameZh":"提及竞争对手","displayNameEn":"Competitor Mentioned","logicalName":"aigw_competitormentioned","dataType":"TwoOptions","requiredLevel":"None","classification":"ADD","safeContext":"presence only","externalLlmAllowed":true},
+        {"displayNameZh":"形成承诺","displayNameEn":"Commitment Made","logicalName":"aigw_commitmentmade","dataType":"TwoOptions","requiredLevel":"None","classification":"ADD","safeContext":"boolean","externalLlmAllowed":true},
+        {"displayNameZh":"承诺日期","displayNameEn":"Commitment Due Date","logicalName":"aigw_commitmentduedate","dataType":"DateOnly","requiredLevel":"None","classification":"ADD","safeContext":"overdue band","externalLlmAllowed":true},
+        {"displayNameZh":"承诺完成","displayNameEn":"Commitment Completed","logicalName":"aigw_commitmentcompleted","dataType":"TwoOptions","requiredLevel":"None","classification":"ADD","safeContext":"boolean","externalLlmAllowed":true},
+        {"displayNameZh":"客户响应程度","displayNameEn":"Customer Response Level","logicalName":"aigw_customerresponselevel","dataType":"Choice","requiredLevel":"None","choicePlan":"Customer Response Level","classification":"ADD","safeContext":"response category","externalLlmAllowed":true},
+        {"displayNameZh":"情绪","displayNameEn":"Sentiment","logicalName":"aigw_sentiment","dataType":"Choice","requiredLevel":"None","choicePlan":"Sentiment","classification":"ADD","safeContext":"bounded category","externalLlmAllowed":true},
+        {"displayNameZh":"服务问题类别","displayNameEn":"Service Issue Category","logicalName":"aigw_serviceissuecategory","dataType":"Choice","requiredLevel":"None","choicePlan":"Service Issue Category","classification":"ADD","safeContext":"issue category","externalLlmAllowed":true},
+        {"displayNameZh":"问题已解决","displayNameEn":"Issue Resolved","logicalName":"aigw_issueresolved","dataType":"TwoOptions","requiredLevel":"None","classification":"ADD","safeContext":"boolean","externalLlmAllowed":true},
+        {"displayNameZh":"脱敏摘要","displayNameEn":"Sanitized Summary","logicalName":"aigw_sanitizedsummary","dataType":"MultilineText","maxLength":1000,"requiredLevel":"Conditional","classification":"ADD","safeContext":"sanitized summary after scan","externalLlmAllowed":"conditional"},
+        {"displayNameZh":"销售部门","displayNameEn":"Sales Department","logicalName":"aigw_salesdepartment","dataType":"Lookup(team)","requiredLevel":"Business Required","classification":"ADD","safeContext":"department category only","externalLlmAllowed":false},
+        {"displayNameZh":"Demo Token","displayNameEn":"Demo Token","logicalName":"aigw_demotoken","dataType":"SingleLineOfText","maxLength":100,"requiredLevel":"None","classification":"ADD","safeContext":"exclude","externalLlmAllowed":false}
+      ]
+    }
+  ],
+  "choices": {
+    "reusePolicy": "Only reuse a Global Choice when exact labels, semantic scope, active state and ownership are confirmed by Metadata; never guess option values.",
+    "implementationValuePolicy": "Create or reuse through Metadata and record returned values; this manifest contains labels only.",
+    "localChoicePlans": [
+      {"name":"Service Type","logicalPurpose":"aigw_servicetype","options":["国内运输","国际海运","国际空运","铁路运输","仓储运营","门店配送","冷链物流","跨境电商物流","供应链解决方案","其他"]},
+      {"name":"Coverage Status","logicalPurpose":"aigw_coveragestatus","options":["已覆盖","提案中","未覆盖","曾经覆盖","已停止","待确认"]},
+      {"name":"Activity Type","logicalPurpose":"aigw_activitytype","options":["电话","会议","任务","Note","邮件沟通摘要","现场拜访","内部会议"]},
+      {"name":"Direction","logicalPurpose":"aigw_direction","options":["客户→我方","我方→客户","内部"]},
+      {"name":"Result Category","logicalPurpose":"aigw_resultcategory","options":["已确认","部分确认","待客户回复","待内部处理","延期","拒绝","完成","无结果"]},
+      {"name":"Objection Category","logicalPurpose":"aigw_objectioncategory","options":["价格","时效","服务能力","实施周期","合同条款","系统接口","合规","其他"]},
+      {"name":"Customer Response Level","logicalPurpose":"aigw_customerresponselevel","options":["积极","正常","低频","无回复","明确拒绝"]},
+      {"name":"Sentiment","logicalPurpose":"aigw_sentiment","options":["正面","中性","偏负面","负面","未判断"]},
+      {"name":"Service Issue Category","logicalPurpose":"aigw_serviceissuecategory","options":["运输时效","服务质量","计费","系统接口","仓储作业","合规","其他"]},
+      {"name":"Revenue Band","logicalPurpose":"aigw_revenueband","options":["无收入","低","中","高","战略级","未确认"]},
+      {"name":"Margin Band","logicalPurpose":"aigw_marginband","options":["负毛利","低","正常","较高","未确认"]},
+      {"name":"Service Satisfaction","logicalPurpose":"aigw_servicesatisfaction","options":["很满意","满意","一般","需改善","未确认"]}
+    ]
+  },
+  "relationships": [
+    {"name":"aigw_account_customerservicecoverage","from":"account","to":"aigw_customerservicecoverage","cardinality":"1:N","deleteBehavior":"Restrict","purpose":"保留覆盖历史"},
+    {"name":"aigw_account_interactionsignal","from":"account","to":"aigw_interactionsignal","cardinality":"1:N","deleteBehavior":"Restrict","purpose":"Account 级互动聚合"},
+    {"name":"aigw_opportunity_interactionsignal","from":"opportunity","to":"aigw_interactionsignal","cardinality":"1:N","deleteBehavior":"Restrict","purpose":"案件级互动范围"},
+    {"name":"source_activity_trace","from":"native activity","to":"aigw_interactionsignal","cardinality":"non-owning token reference","deleteBehavior":"NoCascade","purpose":"仅保存 source activity token，不保存 GUID"}
+  ],
+  "formsAndViews": {
+    "opportunity": {"form":"AI Gateway Opportunity Demo - Full Replica","tab":"Summary","section":"AI营业跟进","fields":["aigw_nextaction","aigw_nextactiondate"],"protectedFormChanged":false},
+    "aigw_customerservicecoverage": {"mainForm":"客户服务覆盖 Main Form","views":["Active Coverage View","历史 Coverage View"],"accountSubgrid":true,"sitemap":false},
+    "aigw_interactionsignal": {"mainForm":"AI互动信号 Main Form","views":["Recent Interaction Signals View"],"opportunitySubgrid":true,"accountSubgrid":true,"sitemap":false,"defaultMode":"read-only"}
+  },
+  "timelinePipeline": {
+    "stages":["Raw Timeline","Sanitization","Structured Signals","Safe Timeline Summary","Gateway / External LLM"],
+    "excludedSources":["subject raw text","description raw text","notetext raw text","email body","meeting minutes","ActivityParty identity","customer name","contact name","exact quote","exact amount"],
+    "demoEmailPolicy":"Prefer annotation with sanitized communication summary unless no-send automation safety is proven"
+  },
+  "safeContext": {
+    "opportunity":["nextActionPresent","nextActionDueState","nextActionOverdueBand"],
+    "coverage":["serviceCoverageBand","coveredServiceCategories","uncoveredServiceCategories","formerServiceCategories","stoppedServiceCategories","whitespaceCategory","nextOpportunityWindowState","satisfactionBand"],
+    "interaction":["interactionCountBand","interactionFrequencyTrend","lastMeaningfulContactState","decisionMakerCoverage","objectionCountBand","competitorMentionState","overdueCommitmentCountBand","customerResponseTrend","sentimentTrend","unresolvedIssueCountBand"],
+    "providerDenied":["Customer Name","Contact Name","Account GUID","Opportunity GUID","Activity GUID","exact amount","exact date","Owner Name","Department GUID","raw Timeline","raw Note","raw Email","raw Location/POL/POD","AI answer","Golden metadata"]
+  },
+  "timelineStories": {
+    "count": 19,
+    "specification": "docs/d365/d365-ai-demo-timeline-content-spec-zh.md",
+    "futureVolume": {"opportunities100":"800-1200 native Timeline items","opportunities150":"1200-1600 native Timeline items"}
+  },
+  "gates": {
+    "schemaMvpScopeFrozen": true,
+    "chineseBusinessDocumentationReady": true,
+    "opportunityNextActionDesignReady": true,
+    "customerServiceCoverageDesignReady": true,
+    "interactionSignalDesignReady": true,
+    "timelineContentSpecificationReady": true,
+    "choiceDesignReady": true,
+    "ownershipDesignReady": true,
+    "relationshipDesignReady": true,
+    "formViewDesignReady": true,
+    "safeContextMappingReady": true,
+    "schemaDesignReady": true,
+    "schemaImplementationReady": false,
+    "demoDataDesignReady": false,
+    "p0": 0,
+    "p1": 0,
+    "schemaWrites": 0,
+    "businessWrites": 0,
+    "productionRequests": 0,
+    "externalLlmCalls": 0
+  },
+  "catalogCorrections": {
+    "metadataRegenerated": false,
+    "canonicalCoverageField": "aigw_coveragestatus",
+    "canonicalInteractionSourceField": "aigw_sourceactivitytoken",
+    "prioritySeveritySeparated": true,
+    "businessDocumentsChineseFirst": true,
+    "optionValuesGuessed": false
+  }
+}

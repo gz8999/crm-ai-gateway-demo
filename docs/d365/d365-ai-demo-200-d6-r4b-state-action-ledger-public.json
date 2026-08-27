@@ -1,0 +1,45 @@
+{
+  "phase": "Phase 1C-5R2G-D6-R4B",
+  "actionCount": 1,
+  "actions": [
+    {
+      "alias": "FULL-LOSE-CANARY-TOKEN",
+      "opportunityToken": "DEMO-OPP-012",
+      "actionType": "LoseOpportunity",
+      "actionStatus": "Succeeded",
+      "status": 4,
+      "expectedActualCount": 0,
+      "actualCountBefore": 0,
+      "actualCountAfter": 0,
+      "actualCreatedByStateAction": false,
+      "actualRevenue": null,
+      "actualEnd": "2026-06-30",
+      "stateTransition": "0/1 -> 2/4",
+      "opportunityCloseCreated": true,
+      "opportunityCloseActualRevenue": null,
+      "attachmentCount": 0,
+      "bpfClassification": "A / BPF Lose Side Effect=None",
+      "relatedBusinessHashUnchanged": true,
+      "requestCorrelationRecordedPrivately": true,
+      "frozenActualEndApplied": true
+    }
+  ],
+  "requestDelta": {
+    "ActualGET": 10,
+    "LoseOpportunityAttempts": 1,
+    "LoseOpportunitySuccess": 1,
+    "WinOpportunityAttempts": 0,
+    "ActualPOST": 0,
+    "TimelinePOST": 0,
+    "SignalPOST": 0,
+    "PATCH": 0,
+    "DELETE": 0,
+    "Publish": 0,
+    "BPFWrites": 0,
+    "OtherBusinessPOST": 0,
+    "ProductionRequests": 0,
+    "ExternalLLMCalls": 0
+  },
+  "otherLoseActionsExecuted": 0,
+  "otherWinActionsExecuted": 0
+}

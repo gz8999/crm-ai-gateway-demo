@@ -1,0 +1,21 @@
+{
+  "phase": "Phase 1C-5R2G-D2",
+  "ownerTokens": [
+    "OWNER-DEMO-01",
+    "OWNER-DEMO-02",
+    "OWNER-DEMO-03",
+    "OWNER-DEMO-04",
+    "OWNER-DEMO-05",
+    "OWNER-DEMO-06"
+  ],
+  "d1CandidateAliases": [
+    "OWNER-CANDIDATE-01",
+    "OWNER-CANDIDATE-02"
+  ],
+  "candidateType": "Implementation-principal candidates from D1; ordinary interactive test-user status not proven in offline D2.",
+  "recommendedStrategy": "Map all six synthetic Owner tokens to one approved active ordinary interactive test user.",
+  "ownerCandidateMappingReady": true,
+  "ownerMappingApproved": false,
+  "approvalBlocker": "No approved ordinary interactive test user mapping is present in the supplied manifests.",
+  "dataverseQueryPerformedInD2": false
+}

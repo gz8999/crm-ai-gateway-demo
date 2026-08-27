@@ -1,0 +1,18 @@
+{
+  "strategy": "json_path_plus_exact_enum_match",
+  "approvedCodePaths": [
+    "$.limitations.codes[]",
+    "$.safety.policyCodes[]"
+  ],
+  "approvedSafetyPolicyCodes": [
+    "SAFE_CONTEXT_ONLY",
+    "NO_RAW_CRM",
+    "NO_IDENTITY",
+    "NO_EXACT_AMOUNT",
+    "NO_RAW_TIMELINE",
+    "NO_CRM_WRITEBACK"
+  ],
+  "globalSubstringAllowlist": false,
+  "businessTextExceptions": 0,
+  "unknownCodeBehavior": "schema_fail_and_no_local_render"
+}

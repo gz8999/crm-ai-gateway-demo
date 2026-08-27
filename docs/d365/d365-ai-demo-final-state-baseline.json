@@ -1,0 +1,32 @@
+{
+  "phase": "Phase 1C-5R2G-D6-R5",
+  "status": "FROZEN",
+  "stateDistribution": {
+    "Won": 91,
+    "Active": 100,
+    "Lost": 9,
+    "opportunityClose": {
+      "win": 91,
+      "lose": 9,
+      "total": 100,
+      "duplicate": 0,
+      "attachments": 0
+    }
+  },
+  "actualContract": "Frozen Expected Actual Count: Expected=1 requires one matching Actual; Expected=0 requires zero Actuals.",
+  "stateActions": {
+    "winActionsCompleted": 91,
+    "loseActionsCompleted": 9,
+    "remainingWinActions": 0,
+    "remainingLoseActions": 0,
+    "noActualCreatedByStateActions": true
+  },
+  "modifiedOnlyByApprovedOfficialActions": true,
+  "nonTargetBusinessIntegrity": true,
+  "gates": {
+    "stateDistributionReady": true,
+    "opportunityCloseReady": true,
+    "actualContractReady": true,
+    "nonTargetBusinessIntegrityReady": true
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "phase": "Phase 1C-5R2G-D5-R3",
+  "ledger": [
+    {
+      "action": "WinOpportunity",
+      "opportunityToken": "DEMO-OPP-015",
+      "attempts": 1,
+      "successes": 1,
+      "status": 3,
+      "actualEnd": "2026-05-01",
+      "opportunityCloseCount": 1,
+      "bpfSideEffect": "A",
+      "integrityPreserved": true
+    },
+    {
+      "action": "LoseOpportunity",
+      "opportunityToken": "DEMO-OPP-026",
+      "attempts": 1,
+      "successes": 1,
+      "status": 4,
+      "actualEnd": "2026-05-18",
+      "lostReason": "07: 提案细节",
+      "opportunityCloseCount": 1,
+      "bpfSideEffect": "A",
+      "integrityPreserved": true
+    }
+  ],
+  "pilotDistribution": { "won": 1, "active": 22, "lost": 1 },
+  "remainingWinTokens": [
+    "DEMO-OPP-028",
+    "DEMO-OPP-038",
+    "DEMO-OPP-130",
+    "DEMO-OPP-135",
+    "DEMO-OPP-181",
+    "DEMO-OPP-199"
+  ],
+  "remainingWinActionsAuthorized": false,
+  "cleanupAuthorized": false,
+  "fullImportStarted": false
+}

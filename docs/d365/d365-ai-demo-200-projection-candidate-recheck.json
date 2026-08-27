@@ -1,0 +1,33 @@
+{
+  "phase": "Phase 1C-5R2G-D3A",
+  "workbook": "artifacts/d365/CRM_AI_Gateway_D365_Demo_200_ProjectionCandidate_v1.xlsx",
+  "sha256": "7a3a1d5b0cc3b0a4137f9eeaf33cacd707ef07f965bf8c8478aa235cfb1a5f11",
+  "rows": {
+    "Account": 60,
+    "Contact": 120,
+    "Opportunity": 200,
+    "Actual": 130,
+    "Coverage": 240,
+    "Timeline": 1800,
+    "Signal": 1350
+  },
+  "realLogicalOrTechnicalColumnsOnly": true,
+  "choiceUsesMetadataValue": true,
+  "lookupsUseSafeTokens": true,
+  "guidCount": 0,
+  "apiPayloadPresent": false,
+  "executableImportScriptPresent": false,
+  "actualCloseDateReferences": [
+    "_actual_close_date_for_action"
+  ],
+  "directStateStatusCreateOrPatchColumns": [],
+  "ownerMappingApprovalTrueCount": 0,
+  "departmentTeamApprovalTrueCount": 0,
+  "otrFallbackCount": 10,
+  "otrFallbackPreservesOriginal": true,
+  "otrFallbackClaimsExactMatch": 0,
+  "coverageOtherSemanticPreservationReady": true,
+  "projectionCandidateGenerated": true,
+  "projectionCandidateRecheckReady": true,
+  "importProjectionReady": false
+}

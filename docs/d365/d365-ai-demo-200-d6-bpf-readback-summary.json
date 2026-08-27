@@ -1,0 +1,14 @@
+{
+  "phase": "Phase 1C-5R2G-D6",
+  "expectedNew": 176,
+  "expectedFinal": 200,
+  "currentNew": 4,
+  "currentTotal": 28,
+  "initialStageCount": 28,
+  "duplicateCount": 0,
+  "unexpectedProcessCount": 0,
+  "manualBpfWrites": 0,
+  "processOrder": 0,
+  "exactPartialReadbackReady": true,
+  "fullReady": false
+}

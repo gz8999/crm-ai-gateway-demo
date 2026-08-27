@@ -1,0 +1,115 @@
+{
+  "phase": "Phase 1C-5R2G-D2",
+  "sourceWorkbook": {
+    "filename": "CRM_AI_Gateway_D365_Demo_200_v1(1).xlsx",
+    "sizeBytes": 828128,
+    "sha256": "8b5ccf042669b64a42652fde5cac901ffd599408a3dab5911cd884c0c2c9aacb",
+    "integrityReady": true
+  },
+  "derivedWorkbook": {
+    "filename": "CRM_AI_Gateway_D365_Demo_200_v1_1.xlsx",
+    "sizeBytes": 952684,
+    "sha256": "e19e41b95c4392858e2702c0b4a239fb545697947bd556832d17734304ad28dd",
+    "reimportSucceeded": true,
+    "formulaErrorCount": 0
+  },
+  "projectionCandidate": {
+    "filename": "CRM_AI_Gateway_D365_Demo_200_ProjectionCandidate_v1.xlsx",
+    "sizeBytes": 566684,
+    "sha256": "7a3a1d5b0cc3b0a4137f9eeaf33cacd707ef07f965bf8c8478aa235cfb1a5f11",
+    "reimportSucceeded": true,
+    "formulaErrorCount": 0
+  },
+  "counts": {
+    "Account": 60,
+    "Contact": 120,
+    "Opportunity": 200,
+    "ActualManagement": 130,
+    "ServiceCoverage": 240,
+    "Timeline": 1800,
+    "InteractionSignal": 1350
+  },
+  "choice": {
+    "customerNeedUnknownCount": 0,
+    "proposalUnknownCount": 0,
+    "lcmsTmsViolationCount": 0,
+    "choiceSemanticConflictCount": 0
+  },
+  "primaryNames": {
+    "ready": true,
+    "duplicateCount": 0,
+    "overMaxLengthCount": 0,
+    "ActualManagement": 130,
+    "ServiceCoverage": 240,
+    "InteractionSignal": 1350
+  },
+  "polPod": {
+    "resolvedExactCount": 6,
+    "resolvedNormalizedCount": 5,
+    "fallbackOTRCount": 10,
+    "blockedCount": 0
+  },
+  "compactPilot": {
+    "Account": 7,
+    "Contact": 9,
+    "Opportunity": 24,
+    "ActualManagement": 12,
+    "ServiceCoverage": 15,
+    "Timeline": 206,
+    "InteractionSignal": 154
+  },
+  "requests": {
+    "metadataGET": 0,
+    "referenceGET": 0,
+    "businessCRMGET": 0,
+    "POST": 0,
+    "PATCH": 0,
+    "DELETE": 0,
+    "Publish": 0,
+    "productionRequests": 0,
+    "externalLLMCalls": 0
+  },
+  "issues": {
+    "P0": 0,
+    "P1": 2,
+    "P2": [
+      "21 display labels retain explicit consolidation/normalization decisions.",
+      "Display-only columns remain outside CRM projection.",
+      "10 distinct POL/POD values use explicit OTR fallback rather than exact master matches."
+    ],
+    "remainingP1": [
+      "Owner mapping is not approved.",
+      "Seven department Teams are not created or approved."
+    ]
+  },
+  "gates": {
+    "OriginalDemo200IntegrityReady": true,
+    "DerivedDemo200V1_1Generated": true,
+    "CustomerNeedTextChoiceSeparationReady": true,
+    "ProposalTextChoiceSeparationReady": true,
+    "CustomTablePrimaryNamesReady": true,
+    "OrganizationGroupSemanticMappingReady": true,
+    "PolPodReconciliationReady": true,
+    "OwnerCandidateMappingReady": true,
+    "OwnerMappingApproved": false,
+    "TeamSetupPlanReady": true,
+    "TeamSetupAuthorized": false,
+    "DepartmentTeamMappingApproved": false,
+    "CoverageSemanticPreservationReady": true,
+    "CompactPilotRecommended": true,
+    "CompactPilotAccountCount": 7,
+    "CompactPilotOpportunityCount": 24,
+    "CompactPilotCoversSevenDepartments": true,
+    "CompactPilotCoversEightScenarios": true,
+    "ProjectionCandidateGenerated": true,
+    "ImportProjectionReady": false,
+    "PilotWorkbookGenerated": false,
+    "DataverseWrites": 0,
+    "BusinessCRMReads": 0,
+    "ProductionRequests": 0,
+    "ExternalLLMCalls": 0,
+    "PilotImportReady": false,
+    "PilotImportAuthorized": false,
+    "FullImportReady": false
+  }
+}

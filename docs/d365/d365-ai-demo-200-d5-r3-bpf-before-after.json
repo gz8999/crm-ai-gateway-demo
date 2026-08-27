@@ -1,0 +1,32 @@
+{
+  "phase": "Phase 1C-5R2G-D5-R3",
+  "opportunityToken": "DEMO-OPP-026",
+  "process": "销售流程 - AI Demo Full Replica",
+  "sameInstance": true,
+  "before": {
+    "instanceCount": 1,
+    "duplicateCount": 0,
+    "unexpectedProcessCount": 0,
+    "statecode": 0,
+    "statuscode": 1,
+    "activeStage": "授予资格",
+    "traversedPathStageCount": 1
+  },
+  "after": {
+    "instanceCount": 1,
+    "duplicateCount": 0,
+    "unexpectedProcessCount": 0,
+    "statecode": 0,
+    "statuscode": 1,
+    "activeStage": "授予资格",
+    "traversedPathStageCount": 1
+  },
+  "classification": {
+    "code": "A",
+    "label": "BPF Lose Side Effect=None",
+    "severity": null,
+    "ready": true
+  },
+  "processOrder": 0,
+  "bpfWrites": 0
+}

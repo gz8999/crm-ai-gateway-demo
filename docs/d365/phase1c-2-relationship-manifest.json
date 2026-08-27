@@ -1,0 +1,108 @@
+{
+  "phase": "1C-2",
+  "title": "Atomically create Opportunity lookup and relationship",
+  "dryRun": true,
+  "authorizationPhrase": "CONFIRM_D365_TEST_WRITE_PHASE_1C_2_RELATIONSHIP",
+  "targetEnvironment": "https://your-org.crm.dynamics.com",
+  "solution": "CRMAIGatewayDemo",
+  "writes": {
+    "atomicWrite": true,
+    "createRelationship": {
+      "schemaName": "aigw_opportunity_actualmanagement",
+      "referencedEntity": "opportunity",
+      "referencingEntity": "aigw_actualmanagement",
+      "lookup": {
+        "logicalName": "aigw_opportunityid",
+        "schemaName": "aigw_OpportunityId",
+        "requiredLevel": "ApplicationRequired"
+      },
+      "cascadeConfiguration": {
+        "Assign": "NoCascade",
+        "Delete": "Restrict",
+        "Merge": "NoCascade",
+        "Reparent": "NoCascade",
+        "Share": "NoCascade",
+        "Unshare": "NoCascade",
+        "RollupView": "NoCascade"
+      },
+      "rationale": "Restrict prevents deleting an Opportunity that still has actual records; all other operations avoid implicit propagation."
+    },
+    "counts": {
+      "lookupFieldsCreated": 1,
+      "relationshipsCreated": 1,
+      "totalBusinessFieldsAfterPhase": 40
+    },
+    "webApiDryRun": {
+      "headers": {
+        "MSCRM.SolutionUniqueName": "CRMAIGatewayDemo"
+      },
+      "requests": [
+        {
+          "method": "POST",
+          "endpoint": "/api/data/v9.2/RelationshipDefinitions",
+          "payload": {
+            "@odata.type": "Microsoft.Dynamics.CRM.OneToManyRelationshipMetadata",
+            "SchemaName": "aigw_opportunity_actualmanagement",
+            "ReferencedEntity": "opportunity",
+            "ReferencingEntity": "aigw_actualmanagement",
+            "CascadeConfiguration": {
+              "Assign": "NoCascade",
+              "Delete": "Restrict",
+              "Merge": "NoCascade",
+              "Reparent": "NoCascade",
+              "Share": "NoCascade",
+              "Unshare": "NoCascade",
+              "RollupView": "NoCascade"
+            },
+            "Lookup": {
+              "@odata.type": "Microsoft.Dynamics.CRM.LookupAttributeMetadata",
+              "SchemaName": "aigw_OpportunityId",
+              "DisplayName": {
+                "@odata.type": "Microsoft.Dynamics.CRM.Label",
+                "LocalizedLabels": [
+                  {
+                    "@odata.type": "Microsoft.Dynamics.CRM.LocalizedLabel",
+                    "Label": "Related Opportunity",
+                    "LanguageCode": 1033
+                  },
+                  {
+                    "@odata.type": "Microsoft.Dynamics.CRM.LocalizedLabel",
+                    "Label": "相关商机",
+                    "LanguageCode": 2052
+                  }
+                ]
+              },
+              "RequiredLevel": {
+                "Value": "ApplicationRequired",
+                "CanBeChanged": true,
+                "ManagedPropertyLogicalName": "canmodifyrequirementlevelsettings"
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+  "prerequisites": [
+    "Phase 1C-1 table and 39 fields exist",
+    "aigw_opportunityid and relationship remain absent",
+    "No actual records exist",
+    "Current Opportunity metadata hash is backed up"
+  ],
+  "validation": [
+    "Insert is one RelationshipDefinitions request containing the Lookup",
+    "Read relationship and lookup metadata",
+    "Verify ApplicationRequired",
+    "Verify Delete=Restrict and other cascades=NoCascade",
+    "Verify Opportunity fields/data are unchanged"
+  ],
+  "publishImpact": "Strictly no publish in Phase 1C-2. The relationship is expected to become publishable through the new referencing table only. If Dataverse requires publishing opportunity, stop and report.",
+  "rollback": "Atomic request prevents intentional partial creation. Record relationship/lookup MetadataIds; physical deletion requires separate authorization and must occur before any dependent view/subgrid/data.",
+  "forbidden": [
+    "Production CRM",
+    "Existing Business Rule/BPF activation or modification",
+    "Opportunity data mutation unless explicitly stated",
+    "External LLM",
+    "Broad PublishXml"
+  ]
+}

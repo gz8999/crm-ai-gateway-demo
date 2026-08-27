@@ -1,0 +1,7 @@
+{
+  "phase": "1C-5",
+  "supersededBy": "local-artifacts/d365/docs/d365/phase1c-5-synthetic-actuals-manifest.json",
+  "authorizationPhrase": "CONFIRM_D365_TEST_WRITE_PHASE_1C_5_SYNTHETIC_ACTUALS",
+  "plannedCount": 100,
+  "writeExecuted": false
+}

@@ -1,0 +1,10 @@
+<grid name="resultset" object="{ACTUAL_MANAGEMENT_OBJECT_TYPE_CODE}" jump="aigw_name" select="1" icon="1" preview="1">
+  <row name="result" id="aigw_actualmanagementid">
+    <cell name="aigw_name" width="240" />
+    <cell name="aigw_opportunityid" width="240" />
+    <cell name="aigw_expectedorderdate" width="130" />
+    <cell name="aigw_annualactualrevenue" width="150" />
+    <cell name="aigw_annualactualrevenue_base" width="170" />
+    <cell name="modifiedon" width="140" />
+  </row>
+</grid>

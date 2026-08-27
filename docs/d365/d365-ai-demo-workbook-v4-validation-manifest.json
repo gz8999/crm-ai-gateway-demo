@@ -1,0 +1,95 @@
+{
+  "phase": "Phase 1C-5R2G-B-R2 direct department/business remediation",
+  "sourceWorkbook": "CRM_AI_Gateway_D365_Chinese_Demo_Data_v3.xlsx",
+  "outputWorkbook": "CRM_AI_Gateway_D365_Chinese_Demo_Data_v4.xlsx",
+  "workbook": {
+    "sizeBytes": 731565,
+    "sha256": "f08a94a3caa62950dbaa96e2767e39afe6c79072296394db9d8736a3b2f683fd",
+    "reimportSucceeded": true,
+    "formulaErrorCount": 0
+  },
+  "departmentRules": {
+    "salesDepartmentDistribution": {
+      "01": 108,
+      "03": 30,
+      "04": 12
+    },
+    "bookingDepartmentDistribution": {
+      "26": 75,
+      "1": 63,
+      "9": 6,
+      "2": 6
+    },
+    "relationsReady": true,
+    "detailType06LcmsCount": 0
+  },
+  "opportunity": {
+    "count": 150,
+    "uniqueNameCount": 150,
+    "opportunityTypeLabels": [
+      "其他",
+      "新增",
+      "现有",
+      "现有-新增"
+    ],
+    "caseStageLabels": [
+      "信息录入",
+      "可行性研究/报价",
+      "客户访问演示",
+      "提交报价",
+      "收到订单"
+    ],
+    "detailTypeDistribution": {
+      "2": 45,
+      "3": 42,
+      "91": 30,
+      "8": 12,
+      "7": 21
+    },
+    "completenessFailCount": 0
+  },
+  "timeline": {
+    "count": 1400,
+    "exactDuplicateCount": 0,
+    "normalizedUniqueRatio": 0.9892857142857143,
+    "meetingBriefCount": 370,
+    "minimumCharacters": {
+      "phonecall": 228,
+      "appointment": 580,
+      "task": 209,
+      "annotation": 189
+    }
+  },
+  "interactionSignal": {
+    "count": 1050,
+    "departmentTokenDistribution": {
+      "DEPT-01": 754,
+      "DEPT-03": 210,
+      "DEPT-04": 86
+    },
+    "missingSourceCount": 0
+  },
+  "safety": {
+    "dataverseRequests": 0,
+    "externalLlmCalls": 0,
+    "guidCount": 0,
+    "productionHostnameCount": 0
+  },
+  "gates": {
+    "DepartmentBusinessMappingReady": true,
+    "BookingDepartmentRelationReady": true,
+    "OpportunityDetailRelationReady": true,
+    "ForbiddenDetail06LcmsAbsent": true,
+    "OpportunityNamesAndDescriptionsReady": true,
+    "OpportunityTypeChineseOnly": true,
+    "CaseStageChineseOnly": true,
+    "TimelineBusinessAlignmentReady": true,
+    "InteractionSignalBusinessAlignmentReady": true,
+    "WorkbookTechnicalValidationReady": true,
+    "WorkbookUserAcceptanceReady": false,
+    "PilotImportReady": false
+  },
+  "P0": 0,
+  "P1": 0,
+  "P2": 0
+}

@@ -1,0 +1,202 @@
+{
+  "phase": "Phase 1C-5R2G-C1-R2",
+  "mode": "read-only-reference-mapping-decision-pack",
+  "generatedAt": "2026-07-17T00:11:22.502Z",
+  "environment": "test-only",
+  "workbook": {
+    "originalV4": {
+      "path": "artifacts/d365/CRM_AI_Gateway_D365_Chinese_Demo_Data_v4.xlsx",
+      "sha256": "f08a94a3caa62950dbaa96e2767e39afe6c79072296394db9d8736a3b2f683fd",
+      "unchanged": true
+    },
+    "v4_1": {
+      "path": "artifacts/d365/CRM_AI_Gateway_D365_Chinese_Demo_Data_v4_1.xlsx",
+      "sizeBytes": 732677,
+      "sha256": "1447d01c62e8e692c871ff9b0189a11bfc8eb48457a7eb47e09509878747b268",
+      "reimportSucceeded": true,
+      "formulaErrorCount": 0
+    }
+  },
+  "counts": {
+    "Account": 30,
+    "Contact": 60,
+    "Opportunity": 150,
+    "ActualManagement": 100,
+    "ServiceCoverage": 210,
+    "Timeline": 1400,
+    "InteractionSignal": 1050,
+    "totalBusinessRows": 3000
+  },
+  "contactLookup": {
+    "parentContactCount": 150,
+    "primaryContactCount": 0
+  },
+  "metadata": {
+    "entitiesChecked": 15,
+    "unknownLogicalNames": [],
+    "unknownChoiceValues": 0,
+    "choiceSemanticConflicts": 0,
+    "solutionFound": true,
+    "solutionManaged": false,
+    "solutionComponentCount": 176
+  },
+  "choices": {
+    "detail91Count": 30,
+    "medicalDevices20Count": 12,
+    "goods21Count": 0,
+    "goods91Count": 66,
+    "globalInitiative91Count": 150,
+    "knownDisplayLabelP2": [
+      {
+        "attribute": "aigw_opportunitytype",
+        "classification": "known-display-label-P2"
+      },
+      {
+        "attribute": "aigw_casestage",
+        "classification": "known-display-label-P2"
+      }
+    ]
+  },
+  "owner": {
+    "candidateMappingReady": true,
+    "mappingApproved": false,
+    "singleOwnerReady": true,
+    "multiOwnerReady": false,
+    "activeInteractiveCandidateCount": 2,
+    "securityReadyCandidateCount": 2
+  },
+  "departmentTeam": {
+    "candidatesReady": false,
+    "mappingApproved": false,
+    "teamSetupRequired": true,
+    "suitableCandidateCount": 0
+  },
+  "pilot": {
+    "phase": "Phase 1C-5R2G-C1-R2",
+    "generatedAt": "2026-07-17T00:11:22.502Z",
+    "selectionStatus": "RECOMMENDED_NOT_APPROVED",
+    "accountTokens": [
+      "A-002",
+      "A-006",
+      "A-015",
+      "A-019"
+    ],
+    "counts": {
+      "Account": 4,
+      "Contact": 8,
+      "Opportunity": 20,
+      "ActualManagement": 12,
+      "ServiceCoverage": 28,
+      "Timeline": 260,
+      "InteractionSignal": 194
+    },
+    "timelineExtraction": "Complete extraction for all 20 selected opportunities; no story truncation.",
+    "interactionSignal": {
+      "selectedExistingSignals": 194,
+      "selectedTimelineRows": 260,
+      "selectedRatio": 0.7461538461538462,
+      "fullWorkbookRatio": 0.75,
+      "note": "All existing signals linked to selected Timeline rows are included. The fixed subset ratio is not artificially padded."
+    },
+    "coverage": {
+      "salesDepartments": [
+        "1",
+        "3",
+        "4"
+      ],
+      "bookingDepartments": [
+        "1",
+        "2",
+        "26",
+        "9"
+      ],
+      "opportunityStates": [
+        "0",
+        "1",
+        "2"
+      ],
+      "opportunityDetails": [
+        "2",
+        "3",
+        "7",
+        "8",
+        "91"
+      ],
+      "requiredScenarios": [
+        "stalled-high-value",
+        "budget-actual-gap",
+        "meeting-prep",
+        "multi-risk-priority",
+        "healthy-control"
+      ],
+      "coveredScenarios": [
+        "budget-actual-gap",
+        "healthy-control",
+        "meeting-prep",
+        "multi-risk-priority",
+        "stalled-high-value"
+      ],
+      "allRequiredScenariosCovered": true
+    },
+    "fourAccountPilotRecommended": true,
+    "fourAccountPilotApproved": false,
+    "pilotDatasetDefined": false,
+    "pilotWorkbookGenerated": false,
+    "pilotImportReady": false,
+    "pilotImportAuthorized": false
+  },
+  "requests": {
+    "metadataGET": 100,
+    "systemUserReferenceGET": 2,
+    "teamReferenceGET": 1,
+    "securityMetadataGET": 47,
+    "businessUnitMetadataGET": 1,
+    "businessCRMGET": 0,
+    "POST": 0,
+    "PATCH": 0,
+    "DELETE": 0,
+    "Publish": 0,
+    "productionRequests": 0,
+    "externalLLMCalls": 0,
+    "note": "Security Metadata GET includes one rejected malformed diagnostic GET; no fallback, write, or production request occurred."
+  },
+  "issues": {
+    "p0": 0,
+    "p1": 1,
+    "p2": 2,
+    "p1Items": [
+      "No three distinct existing owner teams have both approved department semantics and required security roles."
+    ],
+    "p2Items": [
+      "Opportunity Type and Case Stage retain approved simplified Chinese display labels.",
+      "The exact four-account subset contains 194 existing signals for 260 Timeline rows (74.615%); the full workbook remains exactly 75%."
+    ]
+  },
+  "gates": {
+    "V4_1IntegrityReady": true,
+    "ContactLookupContractReady": true,
+    "UnknownLogicalNames": 0,
+    "ChoiceMetadataContractReady": true,
+    "ChoiceSemanticConflictCount": 0,
+    "OwnerCandidateMappingReady": true,
+    "OwnerMappingApproved": false,
+    "DepartmentTeamCandidatesReady": false,
+    "DepartmentTeamMappingApproved": false,
+    "TeamSetupRequired": true,
+    "FourAccountPilotRecommended": true,
+    "FourAccountPilotApproved": false,
+    "ReferenceMappingDecisionPackReady": true,
+    "PilotDatasetDefined": false,
+    "PilotWorkbookGenerated": false,
+    "P0Count": 0,
+    "P1Count": 1,
+    "P2Count": 2,
+    "DataverseWrites": 0,
+    "BusinessCRMReads": 0,
+    "ProductionRequests": 0,
+    "ExternalLLMCalls": 0,
+    "PilotImportReady": false,
+    "PilotImportAuthorized": false,
+    "FullImportReady": false
+  }
+}

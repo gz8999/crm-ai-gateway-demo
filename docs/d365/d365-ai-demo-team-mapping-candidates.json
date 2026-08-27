@@ -1,0 +1,59 @@
+{
+  "phase": "Phase 1C-5R2G-C1-R2",
+  "generatedAt": "2026-07-17T00:11:22.502Z",
+  "privacy": "Public decision metadata only; no team name, GUID, or membership details.",
+  "environmentSummary": {
+    "nonDefaultTeams": 46,
+    "nonDefaultOwnerTeams": 37,
+    "securityReadyBusinessCandidates": 0
+  },
+  "rows": [
+    {
+      "departmentToken": "DEPT-01",
+      "businessMeaning": "01: Dept1(Industry) / domestic contract logistics",
+      "candidateCount": 0,
+      "active": false,
+      "securityReady": false,
+      "recommended": false,
+      "approvalRequired": true
+    },
+    {
+      "departmentToken": "DEPT-03",
+      "businessMeaning": "03: Dept2(LCMS) / computer procurement and system installation",
+      "candidateCount": 0,
+      "active": false,
+      "securityReady": false,
+      "recommended": false,
+      "approvalRequired": true
+    },
+    {
+      "departmentToken": "DEPT-04",
+      "businessMeaning": "04: Dept3(Project Cargo) / heavy project cargo logistics",
+      "candidateCount": 0,
+      "active": false,
+      "securityReady": false,
+      "recommended": false,
+      "approvalRequired": true
+    }
+  ],
+  "futureSetupRecommendation": [
+    {
+      "departmentToken": "DEPT-01",
+      "suggestedSecurityToken": "CRM-AI-DEMO-DEPT-01",
+      "minimumPermissionPlan": "Interactionsignal Read/Create/Write/Append/Append To plus referenced Account/Opportunity/Team access; verify before assignment."
+    },
+    {
+      "departmentToken": "DEPT-03",
+      "suggestedSecurityToken": "CRM-AI-DEMO-DEPT-03",
+      "minimumPermissionPlan": "Interactionsignal Read/Create/Write/Append/Append To plus referenced Account/Opportunity/Team access; verify before assignment."
+    },
+    {
+      "departmentToken": "DEPT-04",
+      "suggestedSecurityToken": "CRM-AI-DEMO-DEPT-04",
+      "minimumPermissionPlan": "Interactionsignal Read/Create/Write/Append/Append To plus referenced Account/Opportunity/Team access; verify before assignment."
+    }
+  ],
+  "departmentTeamCandidatesReady": false,
+  "departmentTeamMappingApproved": false,
+  "teamSetupRequired": true
+}

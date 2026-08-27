@@ -1,0 +1,24 @@
+{
+  "phase": "PHASE3C-R5B6",
+  "requestToken": "R5B6-SYNTH-V2-001",
+  "httpSuccess": true,
+  "choiceCountReady": true,
+  "finishReasonReady": true,
+  "toolCallReady": true,
+  "argumentStringReady": true,
+  "jsonReady": false,
+  "schemaV2Ready": false,
+  "schemaErrors": [],
+  "canonicalMappingReady": false,
+  "evidenceValidationReady": false,
+  "evidenceErrors": [],
+  "unsupportedClaimCount": 0,
+  "safetyReady": false,
+  "safetyErrors": [
+    "ARGUMENT_JSON_INVALID"
+  ],
+  "hallucinationAuditReady": false,
+  "status": "stopped-safety",
+  "stopReason": "ARGUMENT_JSON_INVALID",
+  "providerRequestCompatibilityReady": false
+}

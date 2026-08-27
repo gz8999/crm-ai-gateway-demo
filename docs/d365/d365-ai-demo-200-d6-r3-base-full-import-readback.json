@@ -1,0 +1,28 @@
+{
+  "phase": "Phase 1C-5R2G-D6-R3",
+  "status": "FAILED_SAFE_STOP",
+  "entityCounts": {
+    "Account": 60,
+    "Contact": 120,
+    "Opportunity": 200,
+    "ServiceCoverage": 240,
+    "ActualManagement": 130,
+    "Timeline": 207,
+    "InteractionSignal": 154
+  },
+  "explicitRecordCount": 1111,
+  "targetExplicitRecordCount": 3900,
+  "opportunityState": {
+    "Won": 7,
+    "Active": 192,
+    "Lost": 1
+  },
+  "opportunityClose": {
+    "total": 8,
+    "importedTimelineExcludesOpportunityClose": true
+  },
+  "plugin": {
+    "enabled": 7,
+    "disabled": 0
+  }
+}

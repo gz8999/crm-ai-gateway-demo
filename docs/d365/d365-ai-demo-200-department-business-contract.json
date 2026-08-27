@@ -1,0 +1,159 @@
+{
+  "06: FF": {
+    "demoCount": 172,
+    "business": [
+      "海运出口",
+      "空运出口",
+      "空运进口",
+      "海运进口",
+      "国际运输咨询",
+      "国内集疏运",
+      "跨境公路"
+    ],
+    "bookingDepartmentExamples": [
+      "09: Shanghai Ocean Export",
+      "14: Guangzhou branch",
+      "07: Shanghai Air Export",
+      "08: Shanghai Air Import",
+      "02: International Div.",
+      "10: Shanghai Ocean Import"
+    ],
+    "opportunityDetail": [
+      "05: 货运代理",
+      "07: 物流咨询",
+      "03: 运输"
+    ],
+    "transportModes": [
+      "03: OE",
+      "01: AE",
+      "02: AI",
+      "04: OI",
+      "05: CBT",
+      "06: Domestic",
+      "91: Others"
+    ]
+  },
+  "01: Dept1(Industry)": {
+    "demoCount": 11,
+    "business": [
+      "仓储运营",
+      "国内运输",
+      "库内作业",
+      "物流咨询"
+    ],
+    "bookingDepartmentExamples": [
+      "01: Domestic Div.",
+      "26: Domestic Div East Shanghai WH"
+    ],
+    "opportunityDetail": [
+      "01: 仓库",
+      "02: 仓库运营",
+      "03: 运输",
+      "07: 物流咨询"
+    ],
+    "transportModes": [
+      "06: Domestic",
+      "91: Others"
+    ]
+  },
+  "03: Dept2(LCMS)": {
+    "demoCount": 6,
+    "business": [
+      "台式机采购",
+      "笔记本换机",
+      "一体机采购",
+      "标准镜像",
+      "系统安装",
+      "资产标签",
+      "数据迁移"
+    ],
+    "bookingDepartmentExamples": [
+      "01: Domestic Div.",
+      "26: Domestic Div East Shanghai WH"
+    ],
+    "opportunityDetail": [
+      "91: 其他"
+    ],
+    "forbidden": [
+      "06: LCMS（运输管理系统）"
+    ],
+    "transportModes": [
+      "91: Others"
+    ]
+  },
+  "02: Dept1(Distribution)": {
+    "demoCount": 4,
+    "business": [
+      "门店配送",
+      "区域DC运营",
+      "电商履约与退货"
+    ],
+    "bookingDepartmentExamples": [
+      "01: Domestic Div.",
+      "03: Beijing branch"
+    ],
+    "opportunityDetail": [
+      "02: 仓库运营",
+      "03: 运输"
+    ],
+    "transportModes": [
+      "06: Domestic"
+    ]
+  },
+  "04: Dept3(Project Cargo)": {
+    "demoCount": 3,
+    "business": [
+      "重型设备出口",
+      "生产线迁移",
+      "大型设备搬入与安装"
+    ],
+    "bookingDepartmentExamples": [
+      "02: International Div.",
+      "09: Shanghai Ocean Export",
+      "05: Suzhou branch"
+    ],
+    "opportunityDetail": [
+      "08: 项目物流"
+    ],
+    "transportModes": [
+      "03: OE",
+      "91: Others"
+    ]
+  },
+  "05: Dept3(Dangerous Goods)": {
+    "demoCount": 2,
+    "business": [
+      "危险化学品出口",
+      "危险品国内运输"
+    ],
+    "bookingDepartmentExamples": [
+      "17: [FCC]"
+    ],
+    "opportunityDetail": [
+      "05: 货运代理",
+      "03: 运输"
+    ],
+    "transportModes": [
+      "03: OE",
+      "06: Domestic"
+    ]
+  },
+  "91: Others": {
+    "demoCount": 2,
+    "business": [
+      "绿色物流",
+      "跨部门综合改善"
+    ],
+    "bookingDepartmentExamples": [
+      "01: Domestic Div.",
+      "91: Others"
+    ],
+    "opportunityDetail": [
+      "07: 物流咨询",
+      "91: 其他"
+    ],
+    "transportModes": [
+      "91: Others"
+    ]
+  }
+}

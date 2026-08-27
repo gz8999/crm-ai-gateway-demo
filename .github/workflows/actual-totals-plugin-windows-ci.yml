@@ -1,0 +1,74 @@
+name: Actual Totals Plugin Windows CI
+
+on:
+  workflow_dispatch:
+
+# Automatic triggers are intentionally disabled until the stable signing secret
+# is configured. Restore this block after the secret gate is complete.
+# push:
+#   branches:
+#     - main
+#   paths:
+#     - "plugins/ActualTotals/**"
+#     - "docs/d365/phase1c-5r2a-ci-manifest.json"
+#     - ".github/workflows/actual-totals-plugin-windows-ci.yml"
+#     - "package.json"
+#     - "package-lock.json"
+# pull_request:
+#   paths:
+#     - "plugins/ActualTotals/**"
+#     - "docs/d365/phase1c-5r2b-plugin-registration-manifest.json"
+#     - ".github/workflows/actual-totals-plugin-windows-ci.yml"
+#     - "package.json"
+#     - "package-lock.json"
+
+permissions:
+  contents: read
+
+jobs:
+  build-test-inspect:
+    runs-on: windows-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup .NET SDK
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: "8.0.x"
+          cache: true
+          cache-dependency-path: |
+            plugins/ActualTotals/**/*.csproj
+
+      - name: Setup MSBuild
+        uses: microsoft/setup-msbuild@v2
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+
+      - name: Install Node dependencies
+        run: npm ci
+
+      - name: Node regression tests
+        run: npm test
+
+      - name: Frontend production build
+        run: npm run build
+
+      - name: Restore, test, build, sign, and inspect Plugin
+        shell: pwsh
+        env:
+          ACTUAL_TOTALS_SNK_BASE64: ${{ secrets.ACTUAL_TOTALS_SNK_BASE64 }}
+        run: ./plugins/ActualTotals/scripts/Invoke-WindowsCi.ps1 -RepositoryRoot $PWD
+
+      - name: Upload Plugin artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: actual-totals-plugin-windows-release
+          path: plugins/ActualTotals/artifacts/Release/
+          if-no-files-found: error
+          retention-days: 14

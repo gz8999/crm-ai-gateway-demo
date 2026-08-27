@@ -1,0 +1,23 @@
+# Phase 3C-R5B8 Synthetic Validation Report
+
+- Synthetic flags ready: **true**
+- Forbidden fields / CRM tokens / identity / exact amount / raw Timeline / Scenario-Golden: **0/0/0/0/0/0**
+- HTTP 200: **true**
+- finish_reason=tool_calls: **true**
+- Tool Call: **true**
+- Arguments string: **true**
+- JSON parse: **true**
+- Schema: **true**
+- Canonical Mapping: **true**
+- Evidence: **not-run**
+- Safety: **false**
+- Unsupported claims: **0**
+- Private capture/removal: **1/1**
+- Raw File Exists After Removal: **false**
+- External LLM Calls: **2**
+- Provider Request Compatibility Ready: **true**
+- Output Safety Hold: **true**
+- Real Canary Authorized: **false**
+- D365 GET: **0**
+- CRM Writeback: **false**
+- Production Requests: **0**

@@ -1,0 +1,29 @@
+{
+  "phase": "1C-6",
+  "title": "Read-only end-to-end validation",
+  "dryRun": true,
+  "authorizationPhrase": "CONFIRM_D365_TEST_READ_PHASE_1C_6_VALIDATE",
+  "targetEnvironment": "https://your-org.crm.dynamics.com",
+  "solution": "CRMAIGatewayDemo",
+  "writes": {
+    "none": true
+  },
+  "prerequisites": [
+    "Relevant prior phase completed"
+  ],
+  "validation": [
+    "Metadata/relationship/view/subgrid/record counts",
+    "Protected Form/View/BR/BPF hashes",
+    "No external AI",
+    "Safe Context contains only derived bands/trends"
+  ],
+  "publishImpact": "None; GET only.",
+  "rollback": "Not applicable.",
+  "forbidden": [
+    "Production CRM",
+    "Existing Business Rule/BPF activation or modification",
+    "Opportunity data mutation unless explicitly stated",
+    "External LLM",
+    "Broad PublishXml"
+  ]
+}

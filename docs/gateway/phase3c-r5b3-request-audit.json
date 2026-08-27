@@ -1,0 +1,37 @@
+{
+  "phase": "PHASE3C-R5B3",
+  "records": [
+    {
+      "requestToken": "R5B3-SYNTH-V2-001",
+      "provider": "openai-compatible",
+      "model": "deepseek-v4-pro",
+      "endpointAlias": "deepseek-beta",
+      "contextVersion": "Synthetic Safe Context v2",
+      "schemaVersion": "DeepSeek Decision Tool Schema v2",
+      "requestSchemaHash": "476cecc436dc452abc50988d337d779398159e8e0a4003bc8aa6153cbdab22b7",
+      "requestBodyHash": "deee02fcea89a86f113936b5fda439387dcfc47465bd331fab70aec29c869735",
+      "responseBodyHash": null,
+      "toolArgumentsHash": null,
+      "latencyMs": 15015,
+      "tokenUsage": null,
+      "estimatedCostUsd": null,
+      "httpStatus": 200,
+      "contractResult": "not-run",
+      "safetyResult": "not-run",
+      "evidenceResult": "not-run",
+      "hallucinationAudit": "not-run",
+      "errorObservation": null,
+      "rawRequestBody": false,
+      "rawResponseBody": false,
+      "safeContextStored": false,
+      "secretStored": false
+    }
+  ],
+  "externalLlmCalls": 1,
+  "retryCount": 0,
+  "fixtureFallbackCount": 0,
+  "d365Get": 0,
+  "crmWriteback": false,
+  "productionRequests": 0,
+  "browserExternalProviderRequests": 0
+}

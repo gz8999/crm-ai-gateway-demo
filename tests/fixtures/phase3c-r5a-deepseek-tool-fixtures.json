@@ -1,0 +1,52 @@
+{
+  "minimalValid": {
+    "facts": [
+      { "label": "Priority", "value": "Monitor", "evidenceToken": "safeContext.priority" }
+    ],
+    "inferences": [
+      { "inference": "Continue monitoring the supplied signals.", "evidenceTokens": ["safeContext.priority"] }
+    ],
+    "evidence": [
+      { "evidenceToken": "safeContext.priority", "value": "Monitor" }
+    ],
+    "confidence": { "level": "High", "reason": "The supplied signal is clear." },
+    "recommendedActions": [
+      { "action": "Maintain review cadence", "ownerRole": "待人工指定", "dueWindow": "待人工确定", "basis": "safeContext.priority", "draftStatus": "Draft only" }
+    ],
+    "priority": "Monitor",
+    "riskCategories": [],
+    "provider": "openai-compatible",
+    "model": "deepseek-v4-pro",
+    "modelVersion": "deepseek-v4-pro",
+    "fallback": { "state": "not_applicable", "reason": "No fallback used." },
+    "safety": { "customerIdentityMasked": true, "exactAmountSentToModel": false, "rawTimelineSent": false, "crmWritebackEnabled": false },
+    "limitations": ["Safe Context only."]
+  },
+  "fullValid": {
+    "facts": [
+      { "label": "Priority", "value": "High", "evidenceToken": "safeContext.priority" },
+      { "label": "Data quality", "value": "Review required", "evidenceToken": "safeContext.dataQualityStatus" }
+    ],
+    "inferences": [
+      { "inference": "The supplied signals support a focused review.", "evidenceTokens": ["safeContext.priority", "safeContext.dataQualityStatus"] },
+      { "inference": "The next decision should remain evidence-led.", "evidenceTokens": ["safeContext.priority"] }
+    ],
+    "evidence": [
+      { "evidenceToken": "safeContext.priority", "value": "High" },
+      { "evidenceToken": "safeContext.dataQualityStatus", "value": "Review required" }
+    ],
+    "confidence": { "level": "Medium", "reason": "Some supplied signals require confirmation." },
+    "recommendedActions": [
+      { "action": "Confirm the open decision point", "ownerRole": "待人工指定", "dueWindow": "待人工确定", "basis": "safeContext.dataQualityStatus", "draftStatus": "Draft only" },
+      { "action": "Review the evidence chain", "ownerRole": "待人工指定", "dueWindow": "待人工确定", "basis": "safeContext.priority", "draftStatus": "Draft only" }
+    ],
+    "priority": "High",
+    "riskCategories": ["data-quality"],
+    "provider": "openai-compatible",
+    "model": "deepseek-v4-pro",
+    "modelVersion": "deepseek-v4-pro",
+    "fallback": { "state": "not_applicable", "reason": "No fallback used." },
+    "safety": { "customerIdentityMasked": true, "exactAmountSentToModel": false, "rawTimelineSent": false, "crmWritebackEnabled": false },
+    "limitations": ["Safe Context only.", "Draft actions require human review."]
+  }
+}

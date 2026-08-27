@@ -1,0 +1,8 @@
+{
+  "status": "completed",
+  "canonicalRolePublicToken": "ROLE-CANONICAL-01",
+  "duplicateRolesDeleted": 2,
+  "duplicateRoleResidualCount": 0,
+  "preDeleteChecks": ["exact name", "target BU", "unmanaged", "current D3B creation window", "platform base privileges only", "no user assignment", "no team assignment", "no business dependency"],
+  "existingBusinessRolesModified": false
+}

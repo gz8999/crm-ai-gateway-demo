@@ -1,0 +1,62 @@
+{
+  "phase": "Phase 1C-5R2G-D5",
+  "exactReadbackCount": 3,
+  "byEntity": {
+    "Account": {
+      "attempt": 1,
+      "created": 1,
+      "reused": 0,
+      "failed": 0
+    },
+    "Contact": {
+      "attempt": 1,
+      "created": 1,
+      "reused": 0,
+      "failed": 0
+    },
+    "Opportunity": {
+      "attempt": 1,
+      "created": 1,
+      "reused": 0,
+      "failed": 0
+    },
+    "ServiceCoverage": {
+      "attempt": 0,
+      "created": 0,
+      "reused": 0,
+      "failed": 0
+    },
+    "ActualManagement": {
+      "attempt": 0,
+      "created": 0,
+      "reused": 0,
+      "failed": 0
+    },
+    "Timeline": {
+      "attempt": 0,
+      "created": 0,
+      "reused": 0,
+      "failed": 0
+    },
+    "InteractionSignal": {
+      "attempt": 0,
+      "created": 0,
+      "reused": 0,
+      "failed": 0
+    }
+  },
+  "relationshipReadbackReady": false,
+  "canaryRelationshipReadbackReady": true,
+  "choiceReadbackReady": true,
+  "bpfInstanceCount": 1,
+  "canaryOpportunityState": {
+    "statecode": 0,
+    "statuscode": 1,
+    "actualclosedateBlank": true
+  },
+  "plugin": {
+    "enabled": 7,
+    "disabled": 0,
+    "ready": true
+  }
+}

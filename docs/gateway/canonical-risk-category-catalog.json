@@ -1,0 +1,99 @@
+{
+  "version": "Canonical Risk Category Catalog v1",
+  "source": {
+    "module": "server/decision/deterministicProvider.mjs",
+    "classifier": "classifySignals",
+    "rule": "Exact deterministic signal codes already used by the Decision Pack business rules."
+  },
+  "categories": [
+    {
+      "code": "contradiction",
+      "labelEn": "Data contradiction",
+      "labelZh": "数据矛盾",
+      "allowedEvidenceTypes": [
+        "DATA_QUALITY",
+        "DECISION_READINESS"
+      ],
+      "aliases": []
+    },
+    {
+      "code": "gap",
+      "labelEn": "Budget or actual gap",
+      "labelZh": "预算与实绩偏差",
+      "allowedEvidenceTypes": [
+        "FINANCIAL_VARIANCE"
+      ],
+      "aliases": []
+    },
+    {
+      "code": "growth",
+      "labelEn": "Account growth hypothesis",
+      "labelZh": "客户增长假设",
+      "allowedEvidenceTypes": [
+        "SERVICE_COVERAGE",
+        "ACCOUNT_GROWTH"
+      ],
+      "aliases": []
+    },
+    {
+      "code": "healthy",
+      "labelEn": "Healthy monitoring",
+      "labelZh": "健康监测",
+      "allowedEvidenceTypes": [
+        "PIPELINE_PROGRESS",
+        "DATA_QUALITY",
+        "DECISION_READINESS"
+      ],
+      "aliases": []
+    },
+    {
+      "code": "meeting",
+      "labelEn": "Meeting readiness",
+      "labelZh": "会议准备度",
+      "allowedEvidenceTypes": [
+        "ENGAGEMENT"
+      ],
+      "aliases": []
+    },
+    {
+      "code": "multi-risk",
+      "labelEn": "Multiple risk signals",
+      "labelZh": "多项风险信号",
+      "allowedEvidenceTypes": [
+        "PIPELINE_PROGRESS",
+        "DATA_QUALITY"
+      ],
+      "aliases": []
+    },
+    {
+      "code": "portfolio-priority",
+      "labelEn": "Portfolio priority",
+      "labelZh": "组合优先级",
+      "allowedEvidenceTypes": [
+        "PORTFOLIO_SCOPE",
+        "PIPELINE_PROGRESS"
+      ],
+      "aliases": []
+    },
+    {
+      "code": "route",
+      "labelEn": "Route consistency",
+      "labelZh": "路线一致性",
+      "allowedEvidenceTypes": [
+        "ROUTE_CONSISTENCY"
+      ],
+      "aliases": []
+    },
+    {
+      "code": "stalled",
+      "labelEn": "Pipeline stagnation",
+      "labelZh": "商机停滞",
+      "allowedEvidenceTypes": [
+        "PIPELINE_PROGRESS",
+        "FINANCIAL_BAND",
+        "RELATIVE_DATE"
+      ],
+      "aliases": []
+    }
+  ]
+}

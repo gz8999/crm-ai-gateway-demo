@@ -1,0 +1,19 @@
+{
+  "phase": "Phase 1C-5R2G-D6-R4B",
+  "opportunityToken": "DEMO-OPP-012",
+  "before": {
+    "instanceCount": 1,
+    "activeStage": "授予资格",
+    "traversedPath": "initial",
+    "exactInstanceIdRecordedPrivately": true
+  },
+  "after": {
+    "instanceCount": 1,
+    "activeStage": "授予资格",
+    "traversedPath": "initial",
+    "exactInstanceIdRecordedPrivately": true
+  },
+  "classification": "A / BPF Lose Side Effect=None",
+  "duplicateCount": 0,
+  "unexpectedProcessCount": 0
+}

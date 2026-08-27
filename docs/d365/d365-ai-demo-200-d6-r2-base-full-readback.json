@@ -1,0 +1,52 @@
+{
+  "phase": "Phase 1C-5R2G-D6-R2",
+  "environmentAlias": "TEST-ORG",
+  "generatedAt": "2026-07-18T02:38:11.142Z",
+  "productionRequests": 0,
+  "externalLlmCalls": 0,
+  "p0": 0,
+  "p1": 0,
+  "p2": 0,
+  "status": "D6_R2_COVERAGE_ACTUAL_COMPLETED",
+  "explicitRecordCount": 1110,
+  "entityCounts": {
+    "Account": 60,
+    "Contact": 120,
+    "Opportunity": 200,
+    "ServiceCoverage": 240,
+    "ActualManagement": 130,
+    "Timeline": 206,
+    "InteractionSignal": 154
+  },
+  "stateDistribution": {
+    "Won": 7,
+    "Active": 192,
+    "Lost": 1
+  },
+  "opportunityClose": {
+    "total": 8,
+    "duplicates": 0,
+    "attachments": 0
+  },
+  "bpf": {
+    "targetInstanceCount": 200,
+    "initialStageCount": 200,
+    "duplicateCount": 0,
+    "unexpectedProcessCount": 0
+  },
+  "plugin": {
+    "enabled": 7,
+    "disabled": 0,
+    "ready": true
+  },
+  "timelineDelta": 0,
+  "signalDelta": 0,
+  "privateExactRecordCount": 1110,
+  "privateBpfReadbackCount": 200,
+  "baseFullDataImportCompleted": false,
+  "fullImportCompleted": false,
+  "stateActionsDeferred": true,
+  "cleanupAuthorized": false,
+  "cleanupExecuted": false,
+  "gatewayFullDatasetIntegrationReady": false
+}

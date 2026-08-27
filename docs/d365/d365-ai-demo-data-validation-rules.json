@@ -1,0 +1,237 @@
+{
+  "version": "1.0.0",
+  "contract": "docs/d365/d365-ai-demo-data-generation-contract.json",
+  "rules": [
+    {
+      "id": "COUNT-001",
+      "severity": "P1",
+      "assert": "counts equal 30 accounts, 60 contacts, 150 opportunities, 100 actuals, 210 coverage, 1400 timeline, 1050 signals"
+    },
+    {
+      "id": "SCHEMA-REF-001",
+      "severity": "P1",
+      "assert": "every CRM logical name in the generation mapping exists in the frozen deployed Schema references"
+    },
+    {
+      "id": "SCHEMA-REF-002",
+      "severity": "P1",
+      "assert": "design-only or nonexistent fields are forbidden from CRM generation mappings"
+    },
+    {
+      "id": "KEY-001",
+      "severity": "P1",
+      "assert": "Coverage Alternate Key is exactly Aigw_CustomerservicecoverageKey over aigw_accountid, aigw_servicetype and aigw_startdate"
+    },
+    {
+      "id": "KEY-002",
+      "severity": "P1",
+      "assert": "aigw_demotoken is a synthetic import/read-before-write/cleanup token and is not marked as an Alternate Key"
+    },
+    {
+      "id": "SIGNAL-001",
+      "severity": "P1",
+      "assert": "Interaction Signal deployedFieldSet deep-equals the 25-field frozen Schema manifest"
+    },
+    {
+      "id": "SIGNAL-002",
+      "severity": "P1",
+      "assert": "aigw_nextstepdate, aigw_hascommitment, aigw_hasdecisionmaker and aigw_hasissue never occur in CRM mappings"
+    },
+    {
+      "id": "REL-001",
+      "severity": "P1",
+      "assert": "every account has exactly 2 contacts and 5 opportunities"
+    },
+    {
+      "id": "REL-002",
+      "severity": "P1",
+      "assert": "every contact, opportunity, actual, coverage, timeline and signal token resolves to its declared parent"
+    },
+    {
+      "id": "ACT-001",
+      "severity": "P0",
+      "assert": "each opportunity has at most one Actual Management record"
+    },
+    {
+      "id": "ACT-002",
+      "severity": "P1",
+      "assert": "55 won plus 45 active opportunities have Actual; lost opportunities have none"
+    },
+    {
+      "id": "ACT-003",
+      "severity": "P1",
+      "assert": "annual revenue equals April through March revenue and parent annual revenue matches plugin outcome"
+    },
+    {
+      "id": "ACT-004",
+      "severity": "P1",
+      "assert": "annual GP is derived from April through March GP and is not written to a nonexistent field"
+    },
+    {
+      "id": "CHOICE-001",
+      "severity": "P0",
+      "assert": "all local Choice values deep-equal the frozen 12-field, 75-option R3B manifest"
+    },
+    {
+      "id": "COV-001",
+      "severity": "P1",
+      "assert": "coverage token is unique and same account/service windows do not overlap"
+    },
+    {
+      "id": "COV-002",
+      "severity": "P1",
+      "assert": "null Start Date proposal/uncovered rows use demo-token lookup plus normalized Account, Service Type, Status and Next Opportunity Window conflict checks without claiming Alternate Key coverage"
+    },
+    {
+      "id": "TL-001",
+      "severity": "P1",
+      "assert": "timeline is chronological by opportunity and every opportunity has at least 3 activity types"
+    },
+    {
+      "id": "TL-002",
+      "severity": "P0",
+      "assert": "no outgoing email, real identity, exact business amount or raw source transcript is generated"
+    },
+    {
+      "id": "SIG-001",
+      "severity": "P1",
+      "assert": "1050 signals map to existing timeline tokens and equal 75 percent coverage"
+    },
+    {
+      "id": "SIG-002",
+      "severity": "P0",
+      "assert": "signals contain sanitized summary and codes only; no identity, GUID, exact amount, raw timeline or AI answer"
+    },
+    {
+      "id": "SCN-001",
+      "severity": "P1",
+      "assert": "eight primary scenario counts equal 15,15,12,12,10,10,16,10 and sum to 100"
+    },
+    {
+      "id": "SCN-002",
+      "severity": "P1",
+      "assert": "50 background opportunities are present and are not tagged as primary Golden scenarios in CRM"
+    },
+    {
+      "id": "SCN-003",
+      "severity": "P0",
+      "assert": "healthy-control records contain coherent healthy facts and no fabricated high or critical risk"
+    },
+    {
+      "id": "SAFE-001",
+      "severity": "P0",
+      "assert": "Safe Context excludes identity, GUID, exact amounts, raw Timeline, Location/POL/POD values, scenario ids and Golden metadata"
+    },
+    {
+      "id": "SAFE-002",
+      "severity": "P0",
+      "assert": "rawDataSent=false, exactAmountSentToModel=false and customerIdentityMasked=true"
+    },
+    {
+      "id": "SAFE-003",
+      "severity": "P0",
+      "assert": "department scope is applied before Safe Context construction"
+    },
+    {
+      "id": "FIELD-001",
+      "severity": "P0",
+      "assert": "deprecated opportunity.aigw_yearrevenueactualcny is never written"
+    },
+    {
+      "id": "FIELD-002",
+      "severity": "P0",
+      "assert": "no CRM field stores AI risk, AI priority, scenario id, expected answer or forbidden claim"
+    },
+    {
+      "id": "ROUTE-001",
+      "severity": "P1",
+      "assert": "Location and POL/POD references resolve only to frozen active master data and are never created by this dataset"
+    },
+    {
+      "id": "TOKEN-001",
+      "severity": "P0",
+      "assert": "all record tokens and generation-run composite keys are unique"
+    },
+    {
+      "id": "CLEAN-001",
+      "severity": "P1",
+      "assert": "cleanup manifest contains every created token in reverse dependency order and excludes Location/POL/POD"
+    },
+    {
+      "id": "ISOLATION-001",
+      "severity": "P0",
+      "assert": "no production hostname, credential, real customer information or production GUID occurs in generated artifacts"
+    },
+    {
+      "id": "OFFLINE-001",
+      "severity": "P0",
+      "assert": "design validation performs zero Dataverse requests and zero external LLM calls"
+    },
+    {
+      "id": "C1-FIELD-001",
+      "severity": "P1",
+      "assert": "every v4 workbook CRM field resolves to a deployed logical name; Opportunity Contact 1 uses parentcontactid"
+    },
+    {
+      "id": "C1-CHOICE-001",
+      "severity": "P1",
+      "assert": "every v4 used Choice value and semantic label matches current test-environment Metadata"
+    },
+    {
+      "id": "C1-LOOKUP-001",
+      "severity": "P1",
+      "assert": "every Owner and Team reference token has exactly one approved active test-environment mapping"
+    },
+    {
+      "id": "C1-PILOT-001",
+      "severity": "P1",
+      "assert": "the approved Pilot account count and mandatory scenario coverage are simultaneously satisfiable without changing v4 rows"
+    },
+    {
+      "id": "C1-R2-FIELD-001",
+      "severity": "P1",
+      "assert": "v4.1 Opportunity contains parentcontactid and contains zero primarycontactid columns"
+    },
+    {
+      "id": "C1-R2-CHOICE-001",
+      "severity": "P1",
+      "assert": "Medical Devices uses Goods value 20 and Goods value 21 usage count is zero"
+    },
+    {
+      "id": "C1-R2-CHOICE-002",
+      "severity": "P1",
+      "assert": "Detail 91, Goods 91 and Global Initiative 91 match current Metadata semantics"
+    },
+    {
+      "id": "C1-R2-OWNER-001",
+      "severity": "P1",
+      "assert": "Owner candidate strategies remain unapproved until explicit user selection"
+    },
+    {
+      "id": "C1-R2-TEAM-001",
+      "severity": "P1",
+      "assert": "DEPT-01, DEPT-03 and DEPT-04 resolve to three distinct approved Teams; one Team cannot satisfy multiple department tokens"
+    },
+    {
+      "id": "C1-R2-PILOT-001",
+      "severity": "P1",
+      "assert": "recommended Pilot Account tokens deep-equal A-002, A-006, A-015 and A-019"
+    },
+    {
+      "id": "C1-R2-PILOT-002",
+      "severity": "P1",
+      "assert": "four-account recommendation covers stalled-high-value, budget-actual-gap, meeting-prep, multi-risk-priority and healthy-control"
+    },
+    {
+      "id": "C1-R2-READONLY-001",
+      "severity": "P0",
+      "assert": "reference mapping decision phase performs zero Dataverse writes and zero business CRM record reads"
+    }
+  ],
+  "completion": {
+    "p0Allowed": 0,
+    "p1Allowed": 0,
+    "offlineWorkbookGenerationReadyWhenAllRulesPass": true,
+    "pilotImportRequiresSeparateAuthorization": true
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "phase": "Phase 1C-5R2G-D5-R1A",
+  "explicitPilotRecordCount": 427,
+  "entityReadback": {
+    "Account": {
+      "expected": 7,
+      "exactReadback": 7,
+      "createdThisPhase": 0,
+      "reusedThisPhase": 7,
+      "failed": 0
+    },
+    "Contact": {
+      "expected": 9,
+      "exactReadback": 9,
+      "createdThisPhase": 0,
+      "reusedThisPhase": 9,
+      "failed": 0
+    },
+    "Opportunity": {
+      "expected": 24,
+      "exactReadback": 24,
+      "createdThisPhase": 0,
+      "reusedThisPhase": 24,
+      "failed": 0
+    },
+    "ServiceCoverage": {
+      "expected": 15,
+      "exactReadback": 15,
+      "createdThisPhase": 0,
+      "reusedThisPhase": 15,
+      "failed": 0
+    },
+    "ActualManagement": {
+      "expected": 12,
+      "exactReadback": 12,
+      "createdThisPhase": 0,
+      "reusedThisPhase": 12,
+      "failed": 0
+    },
+    "Timeline": {
+      "expected": 206,
+      "exactReadback": 206,
+      "createdThisPhase": 28,
+      "reusedThisPhase": 178,
+      "failed": 0
+    },
+    "InteractionSignal": {
+      "expected": 154,
+      "exactReadback": 154,
+      "createdThisPhase": 154,
+      "reusedThisPhase": 0,
+      "failed": 0
+    }
+  },
+  "opportunityDistribution": {
+    "Active": 24,
+    "Won": 0,
+    "Lost": 0
+  },
+  "relationshipReadbackReady": true,
+  "choiceReadbackReady": true,
+  "actualOnePerOpportunityReady": true,
+  "plugin": {
+    "enabled": 7,
+    "disabled": 0,
+    "ready": true
+  },
+  "stateActionsDeferred": true,
+  "businessDataDeltaOutsidePilot": 0
+}

@@ -1,0 +1,13 @@
+{
+  "version": "1.0",
+  "name": "CRM AI Gateway Decision Evaluation Contract",
+  "aliasOf": "ai-decision-evaluation-contract.json",
+  "status": "offline-evaluation-only",
+  "dimensions": ["factAccuracy", "evidenceCoverage", "inferenceQuality", "confidenceQuality", "actionQuality", "safetyCompliance"],
+  "scoreRange": [0, 100],
+  "overallScore": "arithmetic mean of six dimensions",
+  "rawCrmDataAllowed": false,
+  "goldenMetadataAllowedInRuntime": false,
+  "externalLlm": false,
+  "crmWriteback": false
+}

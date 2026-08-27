@@ -1,0 +1,12 @@
+{
+  "decision": "approved",
+  "reason": "Dataverse Organization-owned tables expose only Global privilege depth for these operations.",
+  "exceptions": [
+    { "entity": "aigw_actualmanagement", "privileges": ["Create", "Read", "Write", "Append", "AppendTo"], "depth": "Global" },
+    { "entity": "aigw_location", "privileges": ["Read", "AppendTo"], "depth": "Global" },
+    { "entity": "aigw_polpodlocation", "privileges": ["Read", "AppendTo"], "depth": "Global" },
+    { "entity": "transactioncurrency", "privileges": ["Read", "AppendTo"], "depth": "Global" }
+  ],
+  "otherEntities": "D3A minimum matrix depths preserved",
+  "deleteCustomizationPublish": "not granted"
+}

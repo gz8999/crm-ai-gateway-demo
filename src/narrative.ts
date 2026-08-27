@@ -1,0 +1,43 @@
+export type NarrativeEvidence = { alias: string; token: string };
+export type NarrativeActionDraft = { action: string; basis: string; evidence: string[]; ownerRole: string; dueWindow: string; status: string };
+export type NarrativeSnapshot = {
+  label: "Validated LLM Analysis Snapshot";
+  opportunityToken: string;
+  healthScore: number;
+  healthGrade: "S" | "A" | "B" | "C" | "D" | "Z";
+  executiveSummary: string;
+  riskExplanation: string[];
+  recommendedActionDraft: NarrativeActionDraft[];
+  limitationStatement: string[];
+  confidenceBand: "HIGH" | "MEDIUM" | "LOW";
+  evidence: NarrativeEvidence[];
+  providerAlias: string;
+  modelAlias: string;
+  contractVersion: string;
+  providerProfile: string;
+  requestHash: string;
+  responseHash: string;
+  contextVersion: string;
+  validatedAt: string;
+  latencyMs: number;
+  tokenUsage: Record<string, number> | null;
+  estimatedCostUsd: number;
+  safetyResult: "pass";
+  externalModelCalled: true;
+  crmWriteback: false;
+};
+
+export type NarrativeRuntimeStatus = {
+  contractVersion: string;
+  providerProfile: string;
+  validatedSnapshotCount: number;
+  validatedTokens: string[];
+  liveApprovedToken: string;
+  externalAutoRun: false;
+  liveCallUsed: boolean;
+  crmWriteback: false;
+  productionRequests: number;
+  rawCrmExposure: number;
+  exactAmountExposure: number;
+  rawTimelineExposure: number;
+};

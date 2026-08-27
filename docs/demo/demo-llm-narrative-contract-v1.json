@@ -1,0 +1,34 @@
+{
+  "contractVersion": "Demo LLM Narrative Contract v1",
+  "providerProfile": "DeepSeek Pro Minimal Narrative v1",
+  "toolName": "emit_demo_narrative",
+  "purpose": "仅返回请求范围内的叙事选择代码，由服务端确定性展开。",
+  "output": {
+    "type": "object",
+    "required": [
+      "summaryCode",
+      "riskExplanationCodes",
+      "actionCodes",
+      "evidenceAliases",
+      "limitationCodes",
+      "confidenceBand"
+    ],
+    "additionalProperties": false,
+    "freeText": false,
+    "fields": {
+      "summaryCode": ["STABLE_PROGRESS", "REVIEW_REQUIRED", "HIGH_RISK_REVIEW", "GROWTH_POTENTIAL"],
+      "riskExplanationCodes": ["NO_MATERIAL_RISK", "STALLED_PROGRESS", "FINANCIAL_VARIANCE", "DATA_CONTRADICTION", "ROUTE_REVIEW", "MULTI_RISK_REVIEW", "MEETING_PREPARATION"],
+      "actionCodes": ["CONTINUE_MONITORING", "CONFIRM_NEXT_STEP", "RECONCILE_FACTS", "REVIEW_BUDGET_ACTUAL", "PREPARE_CUSTOMER_MEETING", "CONFIRM_ROUTE_AND_COVERAGE", "ALIGN_STAKEHOLDERS"],
+      "evidenceAliases": "仅允许当前请求服务端生成的 E01... 别名，每个别名不得重复。",
+      "limitationCodes": ["IDENTITY_MASKED", "EXACT_AMOUNT_WITHHELD", "RAW_TIMELINE_WITHHELD", "DETERMINISTIC_SCORE_AUTHORITY", "HUMAN_REVIEW_REQUIRED"],
+      "confidenceBand": ["HIGH", "MEDIUM", "LOW"]
+    }
+  },
+  "serverRules": [
+    "模型不得输出 Health Score、CRM 事实、客户身份、精确金额、原始 Timeline 或写回声明。",
+    "Evidence Alias 必须来自当前 Safe Context allowlist。",
+    "服务端负责枚举校验、证据校验、脱敏校验和确定性文本展开。",
+    "非法 JSON、未知代码、重复别名或安全失败均 fail-closed。",
+    "Retry=0，自动 fallback=0，浏览器不得直连 Provider。"
+  ]
+}

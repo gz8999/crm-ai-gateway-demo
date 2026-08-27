@@ -1,0 +1,26 @@
+{
+  "phase": "Phase 3C",
+  "runId": "PHASE3C-R4",
+  "records": [
+    {
+      "requestToken": "PHASE3C-R4-CONTRACT-01",
+      "opportunityToken": "DEMO-OPP-002",
+      "page": "cockpit",
+      "provider": "openai-compatible",
+      "model": "deepseek-v4-pro",
+      "contextVersion": "Safe Context v2",
+      "safeContextHash": "13c492a589e8e58f8d464b8d418668aacffc5f0150fe82e63dc0d71c4907e29c",
+      "providerInputHash": "e5d2c2b59968967167e0c80fcfbc6c38b88749c9b47055545113fd6abda43b64",
+      "latencyMs": 155,
+      "attempts": 1,
+      "httpStatus": 400,
+      "tokenUsage": null,
+      "estimatedCostUsd": null,
+      "timestamp": "2026-07-19T03:06:31.606Z"
+    }
+  ],
+  "requestCount": 1,
+  "externalModelCalls": 1,
+  "crmWriteback": false,
+  "productionRequests": 0
+}

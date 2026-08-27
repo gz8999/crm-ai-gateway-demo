@@ -1,0 +1,89 @@
+{
+  "phase": "Phase 1C-5R2G-D6",
+  "status": "STOPPED_AT_FIRST_FAILURE",
+  "batches": [
+    {
+      "batchId": "A1",
+      "entity": "Account",
+      "expected": 30,
+      "attempt": 30,
+      "created": 30,
+      "reused": 0,
+      "failed": 0,
+      "completed": true,
+      "blocker": null
+    },
+    {
+      "batchId": "A2",
+      "entity": "Account",
+      "expected": 23,
+      "attempt": 23,
+      "created": 23,
+      "reused": 0,
+      "failed": 0,
+      "completed": true,
+      "blocker": null
+    },
+    {
+      "batchId": "C1",
+      "entity": "Contact",
+      "expected": 30,
+      "attempt": 30,
+      "created": 30,
+      "reused": 0,
+      "failed": 0,
+      "completed": true,
+      "blocker": null
+    },
+    {
+      "batchId": "C2",
+      "entity": "Contact",
+      "expected": 30,
+      "attempt": 30,
+      "created": 30,
+      "reused": 0,
+      "failed": 0,
+      "completed": true,
+      "blocker": null
+    },
+    {
+      "batchId": "C3",
+      "entity": "Contact",
+      "expected": 30,
+      "attempt": 30,
+      "created": 30,
+      "reused": 0,
+      "failed": 0,
+      "completed": true,
+      "blocker": null
+    },
+    {
+      "batchId": "C4",
+      "entity": "Contact",
+      "expected": 21,
+      "attempt": 21,
+      "created": 21,
+      "reused": 0,
+      "failed": 0,
+      "completed": true,
+      "blocker": null
+    },
+    {
+      "batchId": "O1",
+      "entity": "Opportunity",
+      "expected": 22,
+      "attempt": 5,
+      "created": 4,
+      "reused": 0,
+      "failed": 1,
+      "completed": false,
+      "blocker": {
+        "status": 400,
+        "message": "The supplied reference link -- /aigw_locations() -- is invalid. Expecting a reference link of the form /entityset(key)."
+      }
+    }
+  ],
+  "nextRecoveryBatch": "O1",
+  "nextRecoveryToken": "DEMO-OPP-005",
+  "automaticRollbackExecuted": false
+}

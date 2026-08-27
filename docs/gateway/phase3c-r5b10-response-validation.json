@@ -1,0 +1,55 @@
+{
+  "variants": [
+    {
+      "id": "A",
+      "jsonParseReady": true,
+      "schemaReady": true,
+      "canonicalMappingReady": true,
+      "canonicalContractReady": true,
+      "evidenceReady": false,
+      "safetyReady": true,
+      "ready": false,
+      "failureCategory": "EVIDENCE_INVALID"
+    },
+    {
+      "id": "B",
+      "status": "Not Executed"
+    },
+    {
+      "id": "C",
+      "status": "Not Executed"
+    },
+    {
+      "id": "D",
+      "status": "Not Executed"
+    }
+  ],
+  "counts": {
+    "externalLlmCalls": 1,
+    "variantACalls": 1,
+    "variantBCalls": 0,
+    "variantCCalls": 0,
+    "variantDCalls": 0,
+    "httpSuccess": 1,
+    "toolCallSuccess": 1,
+    "jsonParseAttempts": 1,
+    "jsonParseSuccess": 1,
+    "schemaAttempts": 1,
+    "schemaSuccess": 1,
+    "canonicalAttempts": 1,
+    "canonicalSuccess": 1,
+    "evidenceAttempts": 1,
+    "evidenceSuccess": 0,
+    "safetyAttempts": 1,
+    "safetySuccess": 1,
+    "retry": 0,
+    "fallback": 0,
+    "d365Get": 0,
+    "crmPost": 0,
+    "crmPatch": 0,
+    "crmDelete": 0,
+    "crmWriteback": false,
+    "productionRequests": 0,
+    "browserExternalRequests": 0
+  }
+}

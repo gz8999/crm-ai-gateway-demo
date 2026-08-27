@@ -1,0 +1,174 @@
+{
+  "phase": "Phase 1C-5R2G-D6-R2",
+  "environmentAlias": "TEST-ORG",
+  "generatedAt": "2026-07-18T02:38:11.142Z",
+  "productionRequests": 0,
+  "externalLlmCalls": 0,
+  "p0": 0,
+  "p1": 0,
+  "p2": 0,
+  "localVerification": {
+    "npmTestPassed": true,
+    "npmTestCount": 459,
+    "npmBuildPassed": true,
+    "productionBundleIsolationPassed": true,
+    "gitDiffCheckPassed": true,
+    "sensitiveScanPassed": true,
+    "publicGuidCount": 0,
+    "gatewaySourceDiffCount": 0,
+    "privateManifestGitignored": true
+  },
+  "authorization": "Coverage and Actual only",
+  "baseline": {
+    "explicitRecords": 767,
+    "entityCounts": {
+      "Account": 60,
+      "Contact": 120,
+      "Opportunity": 200,
+      "ServiceCoverage": 15,
+      "ActualManagement": 12,
+      "Timeline": 206,
+      "InteractionSignal": 154
+    },
+    "stateDistribution": {
+      "Won": 7,
+      "Active": 192,
+      "Lost": 1
+    },
+    "bpf": 200,
+    "opportunityClose": 8,
+    "plugin": {
+      "enabled": 7,
+      "disabled": 0
+    }
+  },
+  "complement": {
+    "ServiceCoverage": 225,
+    "ActualManagement": 118,
+    "overlap": 0,
+    "duplicateToken": 0,
+    "missingParentToken": 0,
+    "desiredActualParents": {
+      "Won": 84,
+      "Active": 34,
+      "Lost": 0
+    }
+  },
+  "execution": {
+    "coverage": {
+      "attempt": 225,
+      "created": 225,
+      "reused": 0,
+      "failed": 0
+    },
+    "actual": {
+      "attempt": 118,
+      "created": 118,
+      "reused": 0,
+      "failed": 0
+    }
+  },
+  "final": {
+    "explicitRecordCount": 1110,
+    "entityCounts": {
+      "Account": 60,
+      "Contact": 120,
+      "Opportunity": 200,
+      "ServiceCoverage": 240,
+      "ActualManagement": 130,
+      "Timeline": 206,
+      "InteractionSignal": 154
+    },
+    "coveragePerAccount": 4,
+    "actual": {
+      "total": 130,
+      "uniquePerOpportunity": true
+    },
+    "parentOpportunityExpectedSyncCount": 118,
+    "parentOpportunityUnexpectedBusinessChangeCount": 0,
+    "distribution": {
+      "Won": 7,
+      "Active": 192,
+      "Lost": 1
+    },
+    "opportunityClose": {
+      "total": 8,
+      "duplicates": 0,
+      "attachments": 0
+    },
+    "bpf": {
+      "targetInstanceCount": 200,
+      "initialStageCount": 200,
+      "duplicateCount": 0,
+      "unexpectedProcessCount": 0
+    },
+    "timelineDelta": 0,
+    "signalDelta": 0,
+    "plugin": {
+      "enabled": 7,
+      "disabled": 0,
+      "ready": true
+    },
+    "workflow": {
+      "processOrder": 0,
+      "definitionHash": "aac15b0adae5d1041df319b7dd187cc4a517c446725e6f2785e68939c015dbf8"
+    }
+  },
+  "requestDelta": {
+    "preflightGET": 1746,
+    "businessCRMGET": 3194,
+    "platformGET": 1377,
+    "securityGET": 12,
+    "opportunityCloseGET": 472,
+    "AccountPOST": 0,
+    "ContactPOST": 0,
+    "OpportunityPOST": 0,
+    "CoveragePOST": 225,
+    "ActualPOST": 118,
+    "TimelinePOST": 0,
+    "SignalPOST": 0,
+    "BpfInstancePOST": 0,
+    "BpfInstancePATCH": 0,
+    "BpfInstanceDELETE": 0,
+    "WinOpportunityAttempts": 0,
+    "WinOpportunitySuccess": 0,
+    "LoseOpportunityAttempts": 0,
+    "LoseOpportunitySuccess": 0,
+    "PATCH": 0,
+    "DELETE": 0,
+    "Publish": 0,
+    "BPFWrites": 0,
+    "TeamRoleMembershipChanges": 0,
+    "ProductionRequests": 0,
+    "ExternalLLMCalls": 0
+  },
+  "gates": {
+    "d6R1BaselineCommitCreated": true,
+    "remainingCoverageComplementReady": true,
+    "remainingActualComplementReady": true,
+    "coverageCanaryCompositeKeyReady": true,
+    "coverageCanaryNullStartDateReady": true,
+    "coverageImportReady": true,
+    "coverageFinalCount": 240,
+    "coveragePerAccountReady": true,
+    "actualCanaryReady": true,
+    "actualImportReady": true,
+    "actualFinalCount": 130,
+    "oneActualPerOpportunityReady": true,
+    "annualActualRevenueIntegrityReady": true,
+    "parentOpportunityPluginSyncReady": true,
+    "parentUnexpectedBusinessChangeCount": 0,
+    "opportunityStateIntegrityReady": true,
+    "bpfRuntimeIntegrityReady": true,
+    "timelineSignalIntegrityReady": true,
+    "d6R2CoverageActualImportCompleted": true,
+    "baseFullDataImportCompleted": false,
+    "fullImportCompleted": false,
+    "stateActionsDeferred": true,
+    "cleanupAuthorized": false,
+    "cleanupExecuted": false,
+    "gatewayFullDatasetIntegrationReady": false,
+    "productionIsolationReady": true
+  },
+  "blockers": []
+}

@@ -1,0 +1,56 @@
+{
+  "version": "D365-FROZEN-V2",
+  "source": "D365 Frozen Dataset GET -> Department Filter -> Safe Context -> Demo Provider",
+  "environment": {
+    "allowedHostname": "org91f5f65f.crm5.dynamics.com",
+    "productionHostnameDenied": "lcn-crm.crm7.dynamics.com",
+    "aiProvider": "demo",
+    "externalLlmEnabled": false,
+    "crmWritebackEnabled": false
+  },
+  "frozenDataset": {
+    "accounts": 60,
+    "contacts": 120,
+    "opportunities": 200,
+    "actualManagement": 130,
+    "serviceCoverage": 240,
+    "timeline": 1800,
+    "interactionSignal": 1350,
+    "opportunityClose": 100,
+    "targetBpf": 200,
+    "stateDistribution": { "won": 91, "active": 100, "lost": 9 }
+  },
+  "departmentFilter": {
+    "mustRunBeforeSafeContext": true,
+    "options": ["all", "dept1-industry", "dept1-distribution", "dept2-lcms", "dept3-project-cargo", "dept3-dangerous-goods", "ff", "others"]
+  },
+  "allowedSafeFields": [
+    "opportunityToken", "accountToken", "customerToken", "ownerToken", "salesDepartment", "opportunityState", "stage", "priority", "forecastCategory", "relativeDateStatus", "stagnationBand", "revenueBand", "marginBand", "budgetBand", "actualBand", "annualRevenueBand", "annualMarginBand", "varianceCategory", "budgetVarianceBand", "marginVarianceBand", "trend", "elapsedPeriodCategory", "dataQualityCodes", "missingCodes", "contradictionCodes", "transportMode", "routeConsistency", "needSummary", "proposalSummary", "progressSummary", "meetingWindow", "stakeholderCoverage", "openQuestionCount", "decisionReadiness", "closeFact", "timelineSignalCount", "coverageCategory", "accountAggregate"
+  ],
+  "forbidden": [
+    "customer display name", "contact identity", "email", "phone", "address", "Dataverse GUID", "exact amount", "raw Timeline body", "raw Annotation body", "raw OpportunityClose text", "User/Team identity", "Scenario ID", "Golden assertions", "expected AI answer", "credentials"
+  ],
+  "outputContract": {
+    "providerUsed": "demo",
+    "safeContextUsed": true,
+    "externalModelCalled": false,
+    "rawDataSent": false,
+    "factInferenceEvidenceActionSeparated": true
+  },
+  "healthScoreIntegration": {
+    "contractVersion": "Opportunity Health Score Contract v2",
+    "componentVersion": "health-score-engine-2.0.0",
+    "gradeThresholds": {
+      "S": 90,
+      "A": 80,
+      "B": 70,
+      "C": 60,
+      "D": 50,
+      "Z": 0
+    },
+    "confidenceSeparateFromHealth": true,
+    "evidenceCoverageRange": [0, 100],
+    "statusUsedAsOneEvidenceDimension": true,
+    "recalibrationRequired": false
+  }
+}

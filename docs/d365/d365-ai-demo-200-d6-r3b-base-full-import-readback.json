@@ -1,0 +1,37 @@
+{
+  "phase": "Phase 1C-5R2G-D6-R3B",
+  "status": "BASE_EXPLICIT_DATA_COMPLETE",
+  "entityCounts": {
+    "Account": 60,
+    "Contact": 120,
+    "Opportunity": 200,
+    "ServiceCoverage": 240,
+    "ActualManagement": 130,
+    "Timeline": 1800,
+    "InteractionSignal": 1350
+  },
+  "explicitRecordCount": 3900,
+  "opportunityState": {
+    "Won": 7,
+    "Active": 192,
+    "Lost": 1
+  },
+  "opportunityClose": 8,
+  "actual": {
+    "total": 130,
+    "uniquePerOpportunity": true
+  },
+  "plugin": {
+    "enabled": 7,
+    "disabled": 0,
+    "ready": true
+  },
+  "bpf": {
+    "targetInstanceCount": 200,
+    "initialStageCount": 200,
+    "duplicateCount": 0,
+    "unexpectedProcessCount": 0
+  },
+  "stateActionsDeferred": true,
+  "fullImportCompleted": false
+}

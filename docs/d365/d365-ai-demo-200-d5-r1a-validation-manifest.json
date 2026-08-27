@@ -1,0 +1,232 @@
+{
+  "phase": "Phase 1C-5R2G-D5-R1A",
+  "environmentAlias": "TEST-ORG",
+  "generatedAt": "2026-07-17T09:54:36.140Z",
+  "serverDate": "2026-07-17",
+  "serverDateSource": "Dataverse HTTP Date header",
+  "classification": {
+    "pastOrCurrentAnnotationCount": 41,
+    "futureAnnotationCount": 4,
+    "phonecallCount": 60,
+    "appointmentCount": 52,
+    "taskCount": 49,
+    "otherActivityCount": 0
+  },
+  "futureAnnotations": [
+    {
+      "token": "TL-1630",
+      "parentOpportunityToken": "DEMO-OPP-181",
+      "businessEffectiveDate": "2026-07-30",
+      "dateProjectionMode": "BodyPlannedDate",
+      "overriddenCreatedOnSent": false,
+      "plannedDateMarkerCount": 1,
+      "ownerReadbackReady": true,
+      "attachmentAbsent": true,
+      "systemCreatedOnReady": true,
+      "exactReadbackReady": true
+    },
+    {
+      "token": "TL-1634",
+      "parentOpportunityToken": "DEMO-OPP-181",
+      "businessEffectiveDate": "2026-08-19",
+      "dateProjectionMode": "BodyPlannedDate",
+      "overriddenCreatedOnSent": false,
+      "plannedDateMarkerCount": 1,
+      "ownerReadbackReady": true,
+      "attachmentAbsent": true,
+      "systemCreatedOnReady": true,
+      "exactReadbackReady": true
+    },
+    {
+      "token": "TL-1786",
+      "parentOpportunityToken": "DEMO-OPP-199",
+      "businessEffectiveDate": "2026-07-23",
+      "dateProjectionMode": "BodyPlannedDate",
+      "overriddenCreatedOnSent": false,
+      "plannedDateMarkerCount": 1,
+      "ownerReadbackReady": true,
+      "attachmentAbsent": true,
+      "systemCreatedOnReady": true,
+      "exactReadbackReady": true
+    },
+    {
+      "token": "TL-1790",
+      "parentOpportunityToken": "DEMO-OPP-199",
+      "businessEffectiveDate": "2026-09-06",
+      "dateProjectionMode": "BodyPlannedDate",
+      "overriddenCreatedOnSent": false,
+      "plannedDateMarkerCount": 1,
+      "ownerReadbackReady": true,
+      "attachmentAbsent": true,
+      "systemCreatedOnReady": true,
+      "exactReadbackReady": true
+    }
+  ],
+  "expectedCounts": {
+    "Account": 7,
+    "Contact": 9,
+    "Opportunity": 24,
+    "ServiceCoverage": 15,
+    "ActualManagement": 12,
+    "Timeline": 206,
+    "InteractionSignal": 154
+  },
+  "entityReadback": {
+    "Account": {
+      "expected": 7,
+      "exactReadback": 7,
+      "createdThisPhase": 0,
+      "reusedThisPhase": 7,
+      "failed": 0
+    },
+    "Contact": {
+      "expected": 9,
+      "exactReadback": 9,
+      "createdThisPhase": 0,
+      "reusedThisPhase": 9,
+      "failed": 0
+    },
+    "Opportunity": {
+      "expected": 24,
+      "exactReadback": 24,
+      "createdThisPhase": 0,
+      "reusedThisPhase": 24,
+      "failed": 0
+    },
+    "ServiceCoverage": {
+      "expected": 15,
+      "exactReadback": 15,
+      "createdThisPhase": 0,
+      "reusedThisPhase": 15,
+      "failed": 0
+    },
+    "ActualManagement": {
+      "expected": 12,
+      "exactReadback": 12,
+      "createdThisPhase": 0,
+      "reusedThisPhase": 12,
+      "failed": 0
+    },
+    "Timeline": {
+      "expected": 206,
+      "exactReadback": 206,
+      "createdThisPhase": 28,
+      "reusedThisPhase": 178,
+      "failed": 0
+    },
+    "InteractionSignal": {
+      "expected": 154,
+      "exactReadback": 154,
+      "createdThisPhase": 154,
+      "reusedThisPhase": 0,
+      "failed": 0
+    }
+  },
+  "timeline": {
+    "logicalTotal": 206,
+    "finalCreatedOrReused": 206,
+    "createdThisPhase": 28,
+    "reusedThisPhase": 178,
+    "finalFailed": 0,
+    "historicalRejectedPosts": 1
+  },
+  "interactionSignal": {
+    "total": 154,
+    "createdThisPhase": 154,
+    "missingSourceCount": 0,
+    "sourceTypeMismatchCount": 0,
+    "sourceDateMismatchCount": 0
+  },
+  "opportunity": {
+    "Active": 24,
+    "Won": 0,
+    "Lost": 0,
+    "stateStatusReadyCount": 24,
+    "actualCloseDateEmptyCount": 24
+  },
+  "bpf": {
+    "targetInstanceCount": 24,
+    "targetInstanceDelta": 0,
+    "duplicateCount": 0,
+    "unexpectedProcessCount": 0,
+    "initialStageReadyCount": 24,
+    "manualWrites": 0
+  },
+  "plugin": {
+    "enabled": 7,
+    "disabled": 0,
+    "ready": true
+  },
+  "requestStats": {
+    "preflightGET": 10,
+    "businessCRMGET": 1476,
+    "platformGET": 196,
+    "timelineGET": 773,
+    "timelineGETDerivation": "357 pre-submit validation reads + 412 successful resume reads + 4 final owner/attachment readbacks",
+    "timelinePOSTAttempts": 28,
+    "timelinePOSTSuccess": 28,
+    "timelineHistoricalRejections": 1,
+    "signalGET": 308,
+    "signalPOSTAttempts": 154,
+    "signalPOSTSuccess": 154,
+    "PATCH": 0,
+    "DELETE": 0,
+    "Publish": 0,
+    "WinOpportunity": 0,
+    "LoseOpportunity": 0,
+    "bpfWrites": 0,
+    "productionRequests": 0,
+    "externalLLMCalls": 0
+  },
+  "resolvedIssues": [
+    {
+      "issue": "Future Annotation Date Contract",
+      "status": "Resolved"
+    },
+    {
+      "issue": "Local Annotation payload navigation assertion",
+      "status": "Closed",
+      "serverPOST": 0
+    }
+  ],
+  "currentIssues": [
+    {
+      "severity": "P2",
+      "issue": "State Actions Deferred"
+    }
+  ],
+  "p0": 0,
+  "p1": 0,
+  "p2": 1,
+  "gates": {
+    "annotationDateContractReady": true,
+    "futureAnnotationProjectionReady": true,
+    "tl1630CanaryReady": true,
+    "timelineImportReady": true,
+    "timelineLogicalCount": 206,
+    "timelineFinalFailedCount": 0,
+    "timelineHistoricalRejectionCount": 1,
+    "signalImportReady": true,
+    "signalCount": 154,
+    "basePilotDataImportCompleted": true,
+    "explicitPilotRecordCount": 427,
+    "pilotOpportunityActiveCount": 24,
+    "targetBpfInstanceCount": 24,
+    "duplicateBpfCount": 0,
+    "unexpectedBpfCount": 0,
+    "pilotStateActionsDeferred": true,
+    "winOpportunityCount": 0,
+    "loseOpportunityCount": 0,
+    "pilotExactReadbackReady": true,
+    "pilotExactIdManifestReady": true,
+    "pilotCleanupAuthorized": false,
+    "cleanupExecuted": false,
+    "existingNonPilotDataModified": false,
+    "pilotScopeExceeded": false,
+    "productionIsolationReady": true,
+    "pilotImportCompleted": false,
+    "fullImportStarted": false,
+    "fullImportAuthorized": false
+  },
+  "blockers": []
+}

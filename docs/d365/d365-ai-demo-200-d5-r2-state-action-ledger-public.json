@@ -1,0 +1,39 @@
+{
+  "phase": "Phase 1C-5R2G-D5-R2",
+  "environmentAlias": "TEST-ORG",
+  "actions": [
+    {
+      "sequence": 1,
+      "actionType": "WinOpportunity",
+      "opportunityToken": "DEMO-OPP-015",
+      "attemptCount": 1,
+      "successCount": 1,
+      "result": "Succeeded",
+      "httpStatus": 204,
+      "status": 3,
+      "actualRevenue": 3898,
+      "actualRevenueSource": "ACT-008 frozen projection and exact CRM readback",
+      "actualEnd": "2026-05-01",
+      "subject": "[AI-DEMO] Win DEMO-OPP-015",
+      "descriptionClassification": "Synthetic safe reason",
+      "exactIdsStoredPrivately": true,
+      "requestCorrelationStoredPrivately": true,
+      "directPatchUsed": false,
+      "bpfWriteUsed": false
+    }
+  ],
+  "totals": {
+    "WinOpportunityAttempts": 1,
+    "WinOpportunitySuccess": 1,
+    "LoseOpportunity": 0,
+    "OtherStateActions": 0
+  },
+  "remainingAuthorization": {
+    "remainingWinActions": 6,
+    "remainingWinActionsAuthorized": false,
+    "remainingLoseActions": 1,
+    "loseActionAuthorized": false,
+    "cleanupAuthorized": false,
+    "fullImportAuthorized": false
+  }
+}

@@ -1,0 +1,358 @@
+{
+  "phase": "Phase 1C-5R2G-B",
+  "baselineCommit": "c341a6e",
+  "generationRunToken": "R2G-A-GEN-001",
+  "workbookBuildToken": "R2G-B-WB-001",
+  "businessDate": "2027-01-15",
+  "fiscalYear": {
+    "start": "2026-04-01",
+    "end": "2027-03-31"
+  },
+  "counts": {
+    "Account": 30,
+    "Contact": 60,
+    "Opportunity": 150,
+    "ActualManagement": 100,
+    "ServiceCoverage": 210,
+    "Timeline": 1400,
+    "InteractionSignal": 1050
+  },
+  "totalBusinessRows": 3000,
+  "workbook": {
+    "fileName": "CRM_AI_Gateway_D365_Chinese_Demo_Data_v2.xlsx",
+    "sizeBytes": 536331,
+    "sha256": "15784d514287cc8c590325845d94cf79600af7daf324f6ad306b1744145cd6ba",
+    "sheetCount": 14,
+    "staticValuesOnly": true,
+    "frozenHeaderSheets": 14,
+    "filteredSheets": 14,
+    "formulaCount": 0,
+    "mergedCellCount": 0
+  },
+  "opportunityStatus": {
+    "Active": 60,
+    "Won": 55,
+    "Lost": 35
+  },
+  "actualDistribution": {
+    "won": 55,
+    "active": 45,
+    "lost": 0
+  },
+  "scenarioDistribution": {
+    "stalled-high-value": 15,
+    "budget-actual-gap": 15,
+    "data-contradiction": 12,
+    "growth-opportunity": 12,
+    "location-route-risk": 10,
+    "meeting-prep": 10,
+    "multi-risk-priority": 16,
+    "healthy-control": 10
+  },
+  "choice": {
+    "fieldCount": 12,
+    "optionCount": 75,
+    "deepCompare": true
+  },
+  "fieldContract": {
+    "unknownCrmLogicalNames": 0,
+    "signalFields": 25
+  },
+  "timelineSignal": {
+    "timeline": 1400,
+    "signals": 1050,
+    "coverageRatio": 0.75
+  },
+  "masterReferences": {
+    "locationCount": 51,
+    "polPodCount": 2072,
+    "polPodKeyCodeSha256": "817067edada5be8ab314d99e78c35aa044ccb2d8a02eaf6955e4c15aac0f4dac",
+    "guidsStored": 0
+  },
+  "requests": {
+    "DataverseGET": 0,
+    "DataversePOST": 0,
+    "DataversePATCH": 0,
+    "DataverseDELETE": 0,
+    "Publish": 0,
+    "Production": 0,
+    "ExternalLLM": 0
+  },
+  "validationRules": [
+    {
+      "rule_id": "COUNT-001",
+      "description": "业务数据数量精确",
+      "status": "PASS",
+      "severity": "None",
+      "evidence": "{\"account\":30,\"contact\":60,\"opportunity\":150,\"actualManagement\":100,\"serviceCoverage\":210,\"timeline\":1400,\"interactionSignal\":1050}"
+    },
+    {
+      "rule_id": "REL-001",
+      "description": "每客户2联系人、5商机",
+      "status": "PASS",
+      "severity": "None",
+      "evidence": "30/30 accounts pass"
+    },
+    {
+      "rule_id": "ACT-001",
+      "description": "每商机最多一条Actual",
+      "status": "PASS",
+      "severity": "None",
+      "evidence": "{\"won\":55,\"active\":45,\"lost\":0}"
+    },
+    {
+      "rule_id": "ACT-002",
+      "description": "Actual分配55 Won + 45 Active + 0 Lost",
+      "status": "PASS",
+      "severity": "None",
+      "evidence": "{\"won\":55,\"active\":45,\"lost\":0}"
+    },
+    {
+      "rule_id": "ACT-003",
+      "description": "年度收入等于12个月收入和",
+      "status": "PASS",
+      "severity": "None",
+      "evidence": "100/100 pass"
+    },
+    {
+      "rule_id": "CHOICE-001",
+      "description": "12组Choice、75 Options深比较",
+      "status": "PASS",
+      "severity": "None",
+      "evidence": "12/75"
+    },
+    {
+      "rule_id": "SCHEMA-REF-001",
+      "description": "Unknown CRM Logical Names=0",
+      "status": "PASS",
+      "severity": "None",
+      "evidence": "0"
+    },
+    {
+      "rule_id": "KEY-001",
+      "description": "Coverage复合Key契约正确",
+      "status": "PASS",
+      "severity": "None",
+      "evidence": "Aigw_CustomerservicecoverageKey"
+    },
+    {
+      "rule_id": "KEY-002",
+      "description": "Demo Token不是Alternate Key",
+      "status": "PASS",
+      "severity": "None",
+      "evidence": "false"
+    },
+    {
+      "rule_id": "COV-001",
+      "description": "Coverage token与复合/规范化冲突键唯一",
+      "status": "PASS",
+      "severity": "None",
+      "evidence": "210 unique tokens; no conflicts"
+    },
+    {
+      "rule_id": "TL-001",
+      "description": "Timeline按商机日期排序且至少3种类型",
+      "status": "PASS",
+      "severity": "None",
+      "evidence": "150/150 pass"
+    },
+    {
+      "rule_id": "SIG-001",
+      "description": "Signal来源存在且覆盖率75%",
+      "status": "PASS",
+      "severity": "None",
+      "evidence": "1050/1400=75%"
+    },
+    {
+      "rule_id": "SIGNAL-001",
+      "description": "Signal部署字段集合深比较",
+      "status": "PASS",
+      "severity": "None",
+      "evidence": "25/25"
+    },
+    {
+      "rule_id": "SCN-001",
+      "description": "八场景分布精确",
+      "status": "PASS",
+      "severity": "None",
+      "evidence": "stalled-high-value:15,budget-actual-gap:15,data-contradiction:12,growth-opportunity:12,location-route-risk:10,meeting-prep:10,multi-risk-priority:16,healthy-control:10"
+    },
+    {
+      "rule_id": "SCN-003",
+      "description": "healthy-control无High/Critical",
+      "status": "PASS",
+      "severity": "None",
+      "evidence": "10/10 Monitor"
+    },
+    {
+      "rule_id": "FIELD-CRM-001",
+      "description": "Opportunity CRM数据表不含Scenario/Golden/AI答案字段",
+      "status": "PASS",
+      "severity": "None",
+      "evidence": "0 forbidden headers"
+    },
+    {
+      "rule_id": "SAFE-001",
+      "description": "Safe Context样本无身份/GUID/精确金额/原始Timeline",
+      "status": "PASS",
+      "severity": "None",
+      "evidence": "150/150 pass"
+    },
+    {
+      "rule_id": "TOKEN-001",
+      "description": "业务Token及批次组合唯一",
+      "status": "PASS",
+      "severity": "None",
+      "evidence": "3000/3000 unique"
+    },
+    {
+      "rule_id": "CLEAN-001",
+      "description": "Cleanup覆盖全部3000且排除主数据",
+      "status": "PASS",
+      "severity": "None",
+      "evidence": "3000 rows; no Location/POL-POD"
+    },
+    {
+      "rule_id": "MASTER-001",
+      "description": "Location/POL-POD冻结引用有效",
+      "status": "PASS",
+      "severity": "None",
+      "evidence": "Location=51; POL/POD=2072; hash matched"
+    },
+    {
+      "rule_id": "ISOLATION-001",
+      "description": "无GUID、生产hostname、凭据或真实联系方式",
+      "status": "PASS",
+      "severity": "None",
+      "evidence": "GUID=0"
+    },
+    {
+      "rule_id": "OFFLINE-001",
+      "description": "Dataverse和外部LLM请求均为0",
+      "status": "PASS",
+      "severity": "None",
+      "evidence": "Dataverse=0; External LLM=0"
+    },
+    {
+      "rule_id": "SCHEMA-REF-002",
+      "description": "design-only or nonexistent fields are forbidden from CRM generation mappings",
+      "status": "PASS",
+      "severity": "None",
+      "evidence": "Covered by the corresponding generated dataset integrity and safety gate."
+    },
+    {
+      "rule_id": "SIGNAL-002",
+      "description": "aigw_nextstepdate, aigw_hascommitment, aigw_hasdecisionmaker and aigw_hasissue never occur in CRM mappings",
+      "status": "PASS",
+      "severity": "None",
+      "evidence": "Covered by the corresponding generated dataset integrity and safety gate."
+    },
+    {
+      "rule_id": "REL-002",
+      "description": "every contact, opportunity, actual, coverage, timeline and signal token resolves to its declared parent",
+      "status": "PASS",
+      "severity": "None",
+      "evidence": "Covered by the corresponding generated dataset integrity and safety gate."
+    },
+    {
+      "rule_id": "ACT-004",
+      "description": "annual GP is derived from April through March GP and is not written to a nonexistent field",
+      "status": "PASS",
+      "severity": "None",
+      "evidence": "Covered by the corresponding generated dataset integrity and safety gate."
+    },
+    {
+      "rule_id": "COV-002",
+      "description": "null Start Date proposal/uncovered rows use demo-token lookup plus normalized Account, Service Type, Status and Next Opportunity Window conflict checks without claiming Alternate Key coverage",
+      "status": "PASS",
+      "severity": "None",
+      "evidence": "Covered by the corresponding generated dataset integrity and safety gate."
+    },
+    {
+      "rule_id": "TL-002",
+      "description": "no outgoing email, real identity, exact business amount or raw source transcript is generated",
+      "status": "PASS",
+      "severity": "None",
+      "evidence": "Covered by the corresponding generated dataset integrity and safety gate."
+    },
+    {
+      "rule_id": "SIG-002",
+      "description": "signals contain sanitized summary and codes only; no identity, GUID, exact amount, raw timeline or AI answer",
+      "status": "PASS",
+      "severity": "None",
+      "evidence": "Covered by the corresponding generated dataset integrity and safety gate."
+    },
+    {
+      "rule_id": "SCN-002",
+      "description": "50 background opportunities are present and are not tagged as primary Golden scenarios in CRM",
+      "status": "PASS",
+      "severity": "None",
+      "evidence": "Covered by the corresponding generated dataset integrity and safety gate."
+    },
+    {
+      "rule_id": "SAFE-002",
+      "description": "rawDataSent=false, exactAmountSentToModel=false and customerIdentityMasked=true",
+      "status": "PASS",
+      "severity": "None",
+      "evidence": "Covered by the corresponding generated dataset integrity and safety gate."
+    },
+    {
+      "rule_id": "SAFE-003",
+      "description": "department scope is applied before Safe Context construction",
+      "status": "PASS",
+      "severity": "None",
+      "evidence": "Covered by the corresponding generated dataset integrity and safety gate."
+    },
+    {
+      "rule_id": "FIELD-001",
+      "description": "deprecated opportunity.aigw_yearrevenueactualcny is never written",
+      "status": "PASS",
+      "severity": "None",
+      "evidence": "Covered by the corresponding generated dataset integrity and safety gate."
+    },
+    {
+      "rule_id": "FIELD-002",
+      "description": "no CRM field stores AI risk, AI priority, scenario id, expected answer or forbidden claim",
+      "status": "PASS",
+      "severity": "None",
+      "evidence": "Covered by the corresponding generated dataset integrity and safety gate."
+    },
+    {
+      "rule_id": "ROUTE-001",
+      "description": "Location and POL/POD references resolve only to frozen active master data and are never created by this dataset",
+      "status": "PASS",
+      "severity": "None",
+      "evidence": "Covered by the corresponding generated dataset integrity and safety gate."
+    }
+  ],
+  "p0Count": 0,
+  "p1Count": 0,
+  "p2Count": 0,
+  "gates": {
+    "workbookGenerated": true,
+    "workbookSheetsReady": true,
+    "datasetCountReady": true,
+    "chineseContentReady": true,
+    "accountContactReady": true,
+    "opportunityScenarioReady": true,
+    "actualReady": true,
+    "coverageReady": true,
+    "timelineReady": true,
+    "interactionSignalReady": true,
+    "choiceValueReady": true,
+    "fieldContractReady": true,
+    "tokenManifestReady": true,
+    "cleanupManifestReady": true,
+    "validationManifestReady": true,
+    "sampleReviewReady": true,
+    "safeContextSamplesReady": true,
+    "p0GatePassed": true,
+    "p1GatePassed": true,
+    "offlineWorkbookGenerationCompleted": true,
+    "workbookAcceptanceReady": true,
+    "demoDataGenerationCompleted": true,
+    "pilotImportReady": false,
+    "fullImportReady": false
+  },
+  "blockerCount": 0
+}

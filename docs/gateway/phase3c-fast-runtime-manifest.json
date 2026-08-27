@@ -1,0 +1,170 @@
+{
+  "phase": "GOAL 3C-FAST",
+  "baselineCommit": "ffdbb7e",
+  "startedAt": "2026-07-19T16:22:00.693Z",
+  "provider": "DeepSeek",
+  "model": "deepseek-v4-pro",
+  "profile": "v6-r5",
+  "transportContractVersion": "Provider Transport Contract v6",
+  "canonicalContractVersion": "Decision Pack Model Response v2",
+  "syntheticPreflight": {
+    "ready": true,
+    "secretReady": true,
+    "providerReady": true,
+    "requestReady": true,
+    "requestShape": {
+      "serializable": true,
+      "totalSchemaNodeCount": 114,
+      "typedNodeCount": 110,
+      "anyOfNodeCount": 4,
+      "refNodeCount": 0,
+      "missingTypeAnyOfRefCount": 0,
+      "missingTypeAnyOfRefPaths": [],
+      "objectCount": 27,
+      "requiredCoverageCount": 27,
+      "missingRequiredCount": 0,
+      "missingRequiredPaths": [],
+      "missingAdditionalPropertiesCount": 0,
+      "missingAdditionalPropertiesPaths": [],
+      "missingArrayItemsCount": 0,
+      "missingArrayItemsPaths": [],
+      "unsupportedKeywordCount": 0,
+      "unsupportedKeywords": [],
+      "schemaHash": "44d6a254afecd0e2e2a91ed05207582705e1fc98d5c2cddb04e355129e4c78bc"
+    },
+    "retryCount": 0,
+    "fallbackCount": 0
+  },
+  "scenarioPlan": {
+    "ready": true,
+    "scenarioCount": 8,
+    "departmentCount": 7,
+    "stateCoverage": [
+      "Active",
+      "Lost",
+      "Won"
+    ],
+    "healthBandCoverage": [
+      "high",
+      "low",
+      "medium"
+    ],
+    "duplicateTokenCount": 0,
+    "demoOpp002Reused": true
+  },
+  "synthetic": {
+    "ready": false,
+    "probes": [
+      {
+        "token": "SYNTHETIC-1",
+        "ready": false,
+        "httpStatus": 200,
+        "finishReason": "tool_calls",
+        "toolCallCount": 1,
+        "toolCallName": "emit_decision_pack",
+        "jsonReady": true,
+        "transportReady": false,
+        "canonicalReady": false,
+        "evidenceReady": false,
+        "safetyReady": false,
+        "unsupportedFactCount": 1,
+        "hallucinationHardFailureCount": 2,
+        "requestBodyHash": "1969a0332f72955996d5c1fb10b49869b5ce333f3c98f754ed1a5881bffa7fd1",
+        "requestSchemaHash": "44d6a254afecd0e2e2a91ed05207582705e1fc98d5c2cddb04e355129e4c78bc",
+        "responseBodyHash": "acf5d3eef8037fe12b51b53439ca845dafcec76ac9f612b98beddc748e85c2ef",
+        "toolArgumentsHash": "7438349a5b060bf3cdb4c7bb5b3f4ace6b6b018162420830cdf67a3bc2824394",
+        "canonicalHash": null,
+        "correlationHash": "b584cb06bd3d0755aa12cb1ac183fca27b6fb10def72bcaee326291c32fb5419",
+        "latencyMs": 9493,
+        "usage": {
+          "prompt_tokens": 4731,
+          "completion_tokens": 1093,
+          "total_tokens": 5824
+        },
+        "estimatedCostUsd": 0.001784,
+        "quality": null,
+        "failureCategory": "ARGUMENT_SCHEMA_INVALID"
+      }
+    ],
+    "stopReason": "ARGUMENT_SCHEMA_INVALID"
+  },
+  "d365": {
+    "ready": false,
+    "requestCount": 0,
+    "productionRequests": 0
+  },
+  "realCanary": {
+    "ready": false
+  },
+  "scenarios": {
+    "ready": false,
+    "results": []
+  },
+  "completedAt": "2026-07-19T16:22:10.259Z",
+  "stopReason": "ARGUMENT_SCHEMA_INVALID",
+  "requestStats": {
+    "syntheticExternalCalls": 1,
+    "realCanaryExternalCalls": 0,
+    "scenarioExternalCalls": 0,
+    "totalExternalCalls": 1,
+    "d365Get": 179,
+    "crmPost": 0,
+    "crmPatch": 0,
+    "crmDelete": 0,
+    "crmWriteback": false,
+    "productionRequests": 0,
+    "browserExternalCalls": 0,
+    "retryCount": 0,
+    "fallbackCount": 0,
+    "phaseRuntimeD365Get": 0,
+    "qualityEvaluationD365Get": 179
+  },
+  "gates": {
+    "syntheticRepeatabilityReady": false,
+    "providerRequestCompatibilityReady": false,
+    "providerRepeatabilityReady": false,
+    "demoOpp002RealCanaryReady": false,
+    "eightScenarioCanaryReady": false,
+    "validatedExternalSnapshots": 0,
+    "demoSnapshotRuntimeReady": false,
+    "deterministicBaselinePreserved": true,
+    "externalLlmAutoRun": false,
+    "crmWriteback": false,
+    "productionRequests": 0,
+    "rawCrmExposure": 0,
+    "exactAmountExposure": 0,
+    "rawTimelineExposure": 0,
+    "full24CanaryComplete": false,
+    "modelComparisonReady": false,
+    "productionReady": false,
+    "demoExternalLlmValidationReady": false,
+    "executiveDemoDataReady": false,
+    "demoUiSnapshotIntegrationReady": false
+  },
+  "p0Count": 0,
+  "p1Count": 1,
+  "p2Count": 0,
+  "qualityEvaluation": {
+    "status": "passed",
+    "sampleSize": 60,
+    "scenarioPassCount": 8,
+    "d365Get": 179,
+    "crmWrites": 0,
+    "productionRequests": 0,
+    "externalLlmCalls": 0
+  },
+  "secret": {
+    "oldExposedApiKeyRevoked": true,
+    "newServerSideSecretReady": true,
+    "secretBrowserExposure": false,
+    "secretGitExposure": false,
+    "secretBundleExposure": false,
+    "secretLogExposure": false,
+    "secretReportExposure": false
+  },
+  "snapshots": {
+    "ready": false,
+    "count": 0,
+    "validations": []
+  }
+}

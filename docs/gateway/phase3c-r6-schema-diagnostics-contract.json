@@ -1,0 +1,43 @@
+{
+  "version": "Phase 3C R6 Schema Diagnostics Contract v1",
+  "validator": {
+    "name": "Gateway JSON Schema Diagnostics",
+    "version": "1.0.0"
+  },
+  "allowedErrorFields": [
+    "instancePath",
+    "schemaPath",
+    "keyword",
+    "expectedType",
+    "actualJsonType",
+    "missingProperty",
+    "unexpectedProperty",
+    "allowedEnumCount",
+    "enumMembership",
+    "arrayLength",
+    "minItems",
+    "maxItems",
+    "stringLength",
+    "patternMatched",
+    "fixedValueMatched"
+  ],
+  "forbidden": [
+    "actual field value",
+    "raw Tool Arguments",
+    "raw response",
+    "CRM token",
+    "Evidence token value",
+    "identity",
+    "exact amount",
+    "secret",
+    "Authorization"
+  ],
+  "evidenceDiagnostics": [
+    "tokenCount",
+    "tokenSetHash",
+    "unknownTokenCount",
+    "duplicateTokenCount",
+    "allowlistMembershipBitmapHash"
+  ],
+  "rawArgumentsCount": 0
+}

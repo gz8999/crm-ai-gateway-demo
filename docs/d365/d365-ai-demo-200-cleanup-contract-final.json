@@ -1,0 +1,37 @@
+{
+  "phase": "Phase 1C-5R2G-D5",
+  "cleanupAuthorized": false,
+  "cleanupReady": false,
+  "requiredKeys": [
+    "stable token",
+    "generation run token",
+    "exact platform ID manifest created only after an approved import"
+  ],
+  "reverseOrder": [
+    "InteractionSignal",
+    "Timeline",
+    "ActualManagement",
+    "ServiceCoverage",
+    "Opportunity",
+    "Contact",
+    "Account"
+  ],
+  "excludedFromCleanup": [
+    "transaction currency",
+    "Location",
+    "POL/POD",
+    "Owner/User",
+    "seven demo teams",
+    "canonical role",
+    "Choice",
+    "Schema",
+    "BPF",
+    "Solution component"
+  ],
+  "pilotManifest": "docs/d365/d365-ai-demo-200-d5-pilot-cleanup-manifest.json",
+  "pilotCleanupReady": false,
+  "cleanupExecuted": false,
+  "pilotPartialCreatedCount": 3,
+  "pilotUnexpectedBpfInstanceCount": 1,
+  "pilotCleanupBlockedReason": "BPF instance cleanup is outside the current authorization."
+}

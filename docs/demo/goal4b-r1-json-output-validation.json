@@ -1,0 +1,134 @@
+{
+  "phase": "GOAL 4B-R1",
+  "transport": "response_format=json_object",
+  "toolsSent": false,
+  "toolChoiceSent": false,
+  "singleContentParse": true,
+  "repair": false,
+  "retryCount": 0,
+  "fallbackCount": 0,
+  "synthetic": [
+    {
+      "label": "synthetic-01",
+      "ok": true,
+      "reason": "",
+      "diagnosticCategory": "",
+      "requestBodyHash": "ff929c9c5adaa4be8e16ec9956eafe57e3980cfd8fe8ff174ee4c9c6a3674c24",
+      "requestSchemaHash": "6189eb670d3d028dfaee1e13e74b2e9086aaac13aa430fbcee115fb8874000fc",
+      "evidenceContractHash": "06cbc257c7b36912787556bbbc0190a39867aa586a50b2f610465ad8919477a7",
+      "evidenceAliasCount": 4,
+      "observation": {
+        "httpStatus": 200,
+        "choiceCount": 1,
+        "finishReason": "stop",
+        "messageContentPresent": true,
+        "messageContentType": "string",
+        "messageContentLength": 1245,
+        "messageContentHash": "8cb83c71f8bdbc6064aacdc5e2559eb5c8559e5d868fb4c7db7ab45ab61b0452",
+        "responseBodyHash": "467e2a09e0c8497fbd7b52132cf16ca6899faa49271ea80d6891e08c4760d27d",
+        "responseIdHash": "3ac895c8942b49d95d2ae8b5c046917cadfc2e3f8c4cd7308d6482ab71dafb05",
+        "latencyMs": 217,
+        "tokenUsage": {
+          "prompt_tokens": 1751,
+          "completion_tokens": 513,
+          "total_tokens": 2264
+        }
+      }
+    },
+    {
+      "label": "synthetic-02",
+      "ok": true,
+      "reason": "",
+      "diagnosticCategory": "",
+      "requestBodyHash": "ff929c9c5adaa4be8e16ec9956eafe57e3980cfd8fe8ff174ee4c9c6a3674c24",
+      "requestSchemaHash": "6189eb670d3d028dfaee1e13e74b2e9086aaac13aa430fbcee115fb8874000fc",
+      "evidenceContractHash": "06cbc257c7b36912787556bbbc0190a39867aa586a50b2f610465ad8919477a7",
+      "evidenceAliasCount": 4,
+      "observation": {
+        "httpStatus": 200,
+        "choiceCount": 1,
+        "finishReason": "stop",
+        "messageContentPresent": true,
+        "messageContentType": "string",
+        "messageContentLength": 1309,
+        "messageContentHash": "16e5583475f3ed929d1e484ca12acc11e7246bb75540212d9aa826c1a1e10b71",
+        "responseBodyHash": "c2826da777bbae2bc375d7c65dea21ffab927adaf9e4e853559ffa07bc0a21cb",
+        "responseIdHash": "dd23c1be61c45edef0813a6daceee15182461992fd82ae18485bab6883caaf61",
+        "latencyMs": 257,
+        "tokenUsage": {
+          "prompt_tokens": 1751,
+          "completion_tokens": 514,
+          "total_tokens": 2265
+        }
+      }
+    }
+  ],
+  "real": [
+    {
+      "label": "DEMO-OPP-010",
+      "ok": true,
+      "reason": "",
+      "diagnosticCategory": "",
+      "requestBodyHash": "976944cfabc7e2aaa45f3d56056113bfb2ef8afa45701bcfaf49368f81f7ec0f",
+      "requestSchemaHash": "735f1fbbaadb6ebb04c91b73077f8aefe16ea08d038163e6e2007fd70349baf3",
+      "evidenceContractHash": "06cbc257c7b36912787556bbbc0190a39867aa586a50b2f610465ad8919477a7",
+      "evidenceAliasCount": 8,
+      "observation": {
+        "httpStatus": 200,
+        "choiceCount": 1,
+        "finishReason": "stop",
+        "messageContentPresent": true,
+        "messageContentType": "string",
+        "messageContentLength": 2477,
+        "messageContentHash": "7e410506320851136ab40802243474132d30124744fe6267c9599caba5b6516f",
+        "responseBodyHash": "71d3b4a6324f77535b60b385a5c767c2d73afc88a3d887a313187b98e7108a0a",
+        "responseIdHash": "dbb7678298a715a2d7ccd88a3a1d35907448a0c35fd39c4ad96d3399d338952d",
+        "latencyMs": 172,
+        "tokenUsage": {
+          "prompt_tokens": 8438,
+          "completion_tokens": 1065,
+          "total_tokens": 9503
+        }
+      }
+    },
+    {
+      "label": "DEMO-OPP-030",
+      "ok": true,
+      "reason": "",
+      "diagnosticCategory": "",
+      "requestBodyHash": "becb0e05a4e82c445adaec7a5b241b61ae679401528aa8e75c1e1038bc417a48",
+      "requestSchemaHash": "735f1fbbaadb6ebb04c91b73077f8aefe16ea08d038163e6e2007fd70349baf3",
+      "evidenceContractHash": "06cbc257c7b36912787556bbbc0190a39867aa586a50b2f610465ad8919477a7",
+      "evidenceAliasCount": 8,
+      "observation": {
+        "httpStatus": 200,
+        "choiceCount": 1,
+        "finishReason": "stop",
+        "messageContentPresent": true,
+        "messageContentType": "string",
+        "messageContentLength": 2381,
+        "messageContentHash": "9e57d643834692632fef36cd9ef981b8f8ae13ca845e5264a40146452b062fc3",
+        "responseBodyHash": "ed24756a74ce6c21c0c7ce415c848b39c5c97ea1a7d79b779e28a34564002546",
+        "responseIdHash": "96ba12334278ecd3abe365a8d7252c113a50666ce13b612d3caf7b87752d4e3e",
+        "latencyMs": 187,
+        "tokenUsage": {
+          "prompt_tokens": 10027,
+          "completion_tokens": 1068,
+          "total_tokens": 11095
+        }
+      }
+    }
+  ],
+  "priorExternalLlmCalls": 0,
+  "externalLlmCalls": 4,
+  "newExternalLlmCalls": 4,
+  "d365Get": 2,
+  "crmWriteback": false,
+  "productionRequests": 0,
+  "validationScope": [
+    "Synthetic 2/2",
+    "DEMO-OPP-010",
+    "DEMO-OPP-030"
+  ],
+  "stableTransportReady": true
+}

@@ -1,0 +1,10 @@
+{
+  "phase": "Phase 1C-5R2G-D6-R3",
+  "status": "FAILED_SAFE_STOP",
+  "targetInstanceCount": 200,
+  "initialStageCount": 200,
+  "duplicateCount": 0,
+  "unexpectedProcessCount": 0,
+  "processOrder": 0,
+  "definitionHashUnchanged": true
+}

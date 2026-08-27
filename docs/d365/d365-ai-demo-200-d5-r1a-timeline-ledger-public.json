@@ -1,0 +1,2077 @@
+{
+  "phase": "Phase 1C-5R2G-D5-R1A",
+  "logicalCount": 206,
+  "finalFailedCount": 0,
+  "historicalRejectionCount": 1,
+  "historicalRejectedAttempts": [
+    {
+      "stableToken": "TL-1630",
+      "activityType": "annotation",
+      "HTTPStatus": 400,
+      "reasonAlias": "FUTURE_SYSTEM_DATE_REJECTED",
+      "residualRecordCount": 0
+    }
+  ],
+  "records": [
+    {
+      "stableToken": "TL-0119",
+      "parentOpportunityToken": "DEMO-OPP-015",
+      "activityType": "phonecall",
+      "businessEffectiveDate": "2026-02-23",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-0120",
+      "parentOpportunityToken": "DEMO-OPP-015",
+      "activityType": "appointment",
+      "businessEffectiveDate": "2026-03-01",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-0121",
+      "parentOpportunityToken": "DEMO-OPP-015",
+      "activityType": "task",
+      "businessEffectiveDate": "2026-03-07",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-0122",
+      "parentOpportunityToken": "DEMO-OPP-015",
+      "activityType": "annotation",
+      "businessEffectiveDate": "2026-03-13",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "HistoricalSystemDateOverride",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-0123",
+      "parentOpportunityToken": "DEMO-OPP-015",
+      "activityType": "phonecall",
+      "businessEffectiveDate": "2026-03-19",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-0124",
+      "parentOpportunityToken": "DEMO-OPP-015",
+      "activityType": "appointment",
+      "businessEffectiveDate": "2026-03-25",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-0125",
+      "parentOpportunityToken": "DEMO-OPP-015",
+      "activityType": "task",
+      "businessEffectiveDate": "2026-03-31",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-0126",
+      "parentOpportunityToken": "DEMO-OPP-015",
+      "activityType": "annotation",
+      "businessEffectiveDate": "2026-04-06",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "HistoricalSystemDateOverride",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-0127",
+      "parentOpportunityToken": "DEMO-OPP-015",
+      "activityType": "phonecall",
+      "businessEffectiveDate": "2026-04-12",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-0128",
+      "parentOpportunityToken": "DEMO-OPP-015",
+      "activityType": "appointment",
+      "businessEffectiveDate": "2026-04-18",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-0129",
+      "parentOpportunityToken": "DEMO-OPP-015",
+      "activityType": "task",
+      "businessEffectiveDate": "2026-04-24",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-0130",
+      "parentOpportunityToken": "DEMO-OPP-015",
+      "activityType": "annotation",
+      "businessEffectiveDate": "2026-05-01",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "HistoricalSystemDateOverride",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-0155",
+      "parentOpportunityToken": "DEMO-OPP-019",
+      "activityType": "phonecall",
+      "businessEffectiveDate": "2026-05-07",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-0156",
+      "parentOpportunityToken": "DEMO-OPP-019",
+      "activityType": "appointment",
+      "businessEffectiveDate": "2026-05-17",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-0157",
+      "parentOpportunityToken": "DEMO-OPP-019",
+      "activityType": "task",
+      "businessEffectiveDate": "2026-05-27",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-0158",
+      "parentOpportunityToken": "DEMO-OPP-019",
+      "activityType": "annotation",
+      "businessEffectiveDate": "2026-06-06",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "HistoricalSystemDateOverride",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-0159",
+      "parentOpportunityToken": "DEMO-OPP-019",
+      "activityType": "phonecall",
+      "businessEffectiveDate": "2026-06-16",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-0160",
+      "parentOpportunityToken": "DEMO-OPP-019",
+      "activityType": "appointment",
+      "businessEffectiveDate": "2026-06-26",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-0161",
+      "parentOpportunityToken": "DEMO-OPP-019",
+      "activityType": "task",
+      "businessEffectiveDate": "2026-07-06",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-0162",
+      "parentOpportunityToken": "DEMO-OPP-019",
+      "activityType": "annotation",
+      "businessEffectiveDate": "2026-07-17",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "HistoricalSystemDateOverride",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-0219",
+      "parentOpportunityToken": "DEMO-OPP-026",
+      "activityType": "phonecall",
+      "businessEffectiveDate": "2026-02-10",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-0220",
+      "parentOpportunityToken": "DEMO-OPP-026",
+      "activityType": "appointment",
+      "businessEffectiveDate": "2026-02-20",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-0221",
+      "parentOpportunityToken": "DEMO-OPP-026",
+      "activityType": "task",
+      "businessEffectiveDate": "2026-03-03",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-0222",
+      "parentOpportunityToken": "DEMO-OPP-026",
+      "activityType": "annotation",
+      "businessEffectiveDate": "2026-03-14",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "HistoricalSystemDateOverride",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-0223",
+      "parentOpportunityToken": "DEMO-OPP-026",
+      "activityType": "phonecall",
+      "businessEffectiveDate": "2026-03-25",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-0224",
+      "parentOpportunityToken": "DEMO-OPP-026",
+      "activityType": "appointment",
+      "businessEffectiveDate": "2026-04-04",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-0225",
+      "parentOpportunityToken": "DEMO-OPP-026",
+      "activityType": "task",
+      "businessEffectiveDate": "2026-04-15",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-0226",
+      "parentOpportunityToken": "DEMO-OPP-026",
+      "activityType": "annotation",
+      "businessEffectiveDate": "2026-04-26",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "HistoricalSystemDateOverride",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-0227",
+      "parentOpportunityToken": "DEMO-OPP-026",
+      "activityType": "phonecall",
+      "businessEffectiveDate": "2026-05-07",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-0228",
+      "parentOpportunityToken": "DEMO-OPP-026",
+      "activityType": "appointment",
+      "businessEffectiveDate": "2026-05-18",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-0237",
+      "parentOpportunityToken": "DEMO-OPP-028",
+      "activityType": "phonecall",
+      "businessEffectiveDate": "2025-12-30",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-0238",
+      "parentOpportunityToken": "DEMO-OPP-028",
+      "activityType": "appointment",
+      "businessEffectiveDate": "2026-01-11",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-0239",
+      "parentOpportunityToken": "DEMO-OPP-028",
+      "activityType": "task",
+      "businessEffectiveDate": "2026-01-23",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-0240",
+      "parentOpportunityToken": "DEMO-OPP-028",
+      "activityType": "annotation",
+      "businessEffectiveDate": "2026-02-04",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "HistoricalSystemDateOverride",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-0241",
+      "parentOpportunityToken": "DEMO-OPP-028",
+      "activityType": "phonecall",
+      "businessEffectiveDate": "2026-02-17",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-0242",
+      "parentOpportunityToken": "DEMO-OPP-028",
+      "activityType": "appointment",
+      "businessEffectiveDate": "2026-03-01",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-0243",
+      "parentOpportunityToken": "DEMO-OPP-028",
+      "activityType": "task",
+      "businessEffectiveDate": "2026-03-13",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-0244",
+      "parentOpportunityToken": "DEMO-OPP-028",
+      "activityType": "annotation",
+      "businessEffectiveDate": "2026-03-25",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "HistoricalSystemDateOverride",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-0245",
+      "parentOpportunityToken": "DEMO-OPP-028",
+      "activityType": "phonecall",
+      "businessEffectiveDate": "2026-04-07",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-0267",
+      "parentOpportunityToken": "DEMO-OPP-031",
+      "activityType": "phonecall",
+      "businessEffectiveDate": "2025-12-10",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-0268",
+      "parentOpportunityToken": "DEMO-OPP-031",
+      "activityType": "appointment",
+      "businessEffectiveDate": "2026-01-06",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-0269",
+      "parentOpportunityToken": "DEMO-OPP-031",
+      "activityType": "task",
+      "businessEffectiveDate": "2026-02-02",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-0270",
+      "parentOpportunityToken": "DEMO-OPP-031",
+      "activityType": "annotation",
+      "businessEffectiveDate": "2026-03-02",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "HistoricalSystemDateOverride",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-0271",
+      "parentOpportunityToken": "DEMO-OPP-031",
+      "activityType": "phonecall",
+      "businessEffectiveDate": "2026-03-29",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-0272",
+      "parentOpportunityToken": "DEMO-OPP-031",
+      "activityType": "appointment",
+      "businessEffectiveDate": "2026-04-25",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-0273",
+      "parentOpportunityToken": "DEMO-OPP-031",
+      "activityType": "task",
+      "businessEffectiveDate": "2026-05-23",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-0274",
+      "parentOpportunityToken": "DEMO-OPP-031",
+      "activityType": "annotation",
+      "businessEffectiveDate": "2026-06-19",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "HistoricalSystemDateOverride",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-0275",
+      "parentOpportunityToken": "DEMO-OPP-031",
+      "activityType": "phonecall",
+      "businessEffectiveDate": "2026-07-17",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-0325",
+      "parentOpportunityToken": "DEMO-OPP-038",
+      "activityType": "phonecall",
+      "businessEffectiveDate": "2026-03-20",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-0326",
+      "parentOpportunityToken": "DEMO-OPP-038",
+      "activityType": "appointment",
+      "businessEffectiveDate": "2026-03-26",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-0327",
+      "parentOpportunityToken": "DEMO-OPP-038",
+      "activityType": "task",
+      "businessEffectiveDate": "2026-04-02",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-0328",
+      "parentOpportunityToken": "DEMO-OPP-038",
+      "activityType": "annotation",
+      "businessEffectiveDate": "2026-04-08",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "HistoricalSystemDateOverride",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-0329",
+      "parentOpportunityToken": "DEMO-OPP-038",
+      "activityType": "phonecall",
+      "businessEffectiveDate": "2026-04-15",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-0330",
+      "parentOpportunityToken": "DEMO-OPP-038",
+      "activityType": "appointment",
+      "businessEffectiveDate": "2026-04-21",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-0331",
+      "parentOpportunityToken": "DEMO-OPP-038",
+      "activityType": "task",
+      "businessEffectiveDate": "2026-04-28",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-0332",
+      "parentOpportunityToken": "DEMO-OPP-038",
+      "activityType": "annotation",
+      "businessEffectiveDate": "2026-05-04",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "HistoricalSystemDateOverride",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-0333",
+      "parentOpportunityToken": "DEMO-OPP-038",
+      "activityType": "phonecall",
+      "businessEffectiveDate": "2026-05-11",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-0488",
+      "parentOpportunityToken": "DEMO-OPP-056",
+      "activityType": "phonecall",
+      "businessEffectiveDate": "2026-06-02",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-0489",
+      "parentOpportunityToken": "DEMO-OPP-056",
+      "activityType": "appointment",
+      "businessEffectiveDate": "2026-06-06",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-0490",
+      "parentOpportunityToken": "DEMO-OPP-056",
+      "activityType": "task",
+      "businessEffectiveDate": "2026-06-11",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-0491",
+      "parentOpportunityToken": "DEMO-OPP-056",
+      "activityType": "annotation",
+      "businessEffectiveDate": "2026-06-15",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "HistoricalSystemDateOverride",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-0492",
+      "parentOpportunityToken": "DEMO-OPP-056",
+      "activityType": "phonecall",
+      "businessEffectiveDate": "2026-06-20",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-0493",
+      "parentOpportunityToken": "DEMO-OPP-056",
+      "activityType": "appointment",
+      "businessEffectiveDate": "2026-06-24",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-0494",
+      "parentOpportunityToken": "DEMO-OPP-056",
+      "activityType": "task",
+      "businessEffectiveDate": "2026-06-29",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-0495",
+      "parentOpportunityToken": "DEMO-OPP-056",
+      "activityType": "annotation",
+      "businessEffectiveDate": "2026-07-03",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "HistoricalSystemDateOverride",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-0496",
+      "parentOpportunityToken": "DEMO-OPP-056",
+      "activityType": "phonecall",
+      "businessEffectiveDate": "2026-07-08",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-0497",
+      "parentOpportunityToken": "DEMO-OPP-056",
+      "activityType": "appointment",
+      "businessEffectiveDate": "2026-07-12",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-0498",
+      "parentOpportunityToken": "DEMO-OPP-056",
+      "activityType": "task",
+      "businessEffectiveDate": "2026-07-17",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-0536",
+      "parentOpportunityToken": "DEMO-OPP-062",
+      "activityType": "phonecall",
+      "businessEffectiveDate": "2025-12-27",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-0537",
+      "parentOpportunityToken": "DEMO-OPP-062",
+      "activityType": "appointment",
+      "businessEffectiveDate": "2026-01-16",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-0538",
+      "parentOpportunityToken": "DEMO-OPP-062",
+      "activityType": "task",
+      "businessEffectiveDate": "2026-02-05",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-0539",
+      "parentOpportunityToken": "DEMO-OPP-062",
+      "activityType": "annotation",
+      "businessEffectiveDate": "2026-02-25",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "HistoricalSystemDateOverride",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-0540",
+      "parentOpportunityToken": "DEMO-OPP-062",
+      "activityType": "phonecall",
+      "businessEffectiveDate": "2026-03-17",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-0541",
+      "parentOpportunityToken": "DEMO-OPP-062",
+      "activityType": "appointment",
+      "businessEffectiveDate": "2026-04-07",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-0542",
+      "parentOpportunityToken": "DEMO-OPP-062",
+      "activityType": "task",
+      "businessEffectiveDate": "2026-04-27",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-0543",
+      "parentOpportunityToken": "DEMO-OPP-062",
+      "activityType": "annotation",
+      "businessEffectiveDate": "2026-05-17",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "HistoricalSystemDateOverride",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-0544",
+      "parentOpportunityToken": "DEMO-OPP-062",
+      "activityType": "phonecall",
+      "businessEffectiveDate": "2026-06-06",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-0545",
+      "parentOpportunityToken": "DEMO-OPP-062",
+      "activityType": "appointment",
+      "businessEffectiveDate": "2026-06-26",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-0546",
+      "parentOpportunityToken": "DEMO-OPP-062",
+      "activityType": "task",
+      "businessEffectiveDate": "2026-07-17",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-0722",
+      "parentOpportunityToken": "DEMO-OPP-081",
+      "activityType": "phonecall",
+      "businessEffectiveDate": "2026-01-13",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-0723",
+      "parentOpportunityToken": "DEMO-OPP-081",
+      "activityType": "appointment",
+      "businessEffectiveDate": "2026-02-28",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-0724",
+      "parentOpportunityToken": "DEMO-OPP-081",
+      "activityType": "task",
+      "businessEffectiveDate": "2026-04-15",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-0725",
+      "parentOpportunityToken": "DEMO-OPP-081",
+      "activityType": "annotation",
+      "businessEffectiveDate": "2026-05-31",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "HistoricalSystemDateOverride",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-0726",
+      "parentOpportunityToken": "DEMO-OPP-081",
+      "activityType": "phonecall",
+      "businessEffectiveDate": "2026-07-17",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-0752",
+      "parentOpportunityToken": "DEMO-OPP-085",
+      "activityType": "phonecall",
+      "businessEffectiveDate": "2026-02-24",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-0753",
+      "parentOpportunityToken": "DEMO-OPP-085",
+      "activityType": "appointment",
+      "businessEffectiveDate": "2026-03-31",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-0754",
+      "parentOpportunityToken": "DEMO-OPP-085",
+      "activityType": "task",
+      "businessEffectiveDate": "2026-05-06",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-0755",
+      "parentOpportunityToken": "DEMO-OPP-085",
+      "activityType": "annotation",
+      "businessEffectiveDate": "2026-06-11",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "HistoricalSystemDateOverride",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-0756",
+      "parentOpportunityToken": "DEMO-OPP-085",
+      "activityType": "phonecall",
+      "businessEffectiveDate": "2026-07-17",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-0757",
+      "parentOpportunityToken": "DEMO-OPP-086",
+      "activityType": "phonecall",
+      "businessEffectiveDate": "2026-03-14",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-0758",
+      "parentOpportunityToken": "DEMO-OPP-086",
+      "activityType": "appointment",
+      "businessEffectiveDate": "2026-03-31",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-0759",
+      "parentOpportunityToken": "DEMO-OPP-086",
+      "activityType": "task",
+      "businessEffectiveDate": "2026-04-18",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-0760",
+      "parentOpportunityToken": "DEMO-OPP-086",
+      "activityType": "annotation",
+      "businessEffectiveDate": "2026-05-06",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "HistoricalSystemDateOverride",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-0761",
+      "parentOpportunityToken": "DEMO-OPP-086",
+      "activityType": "phonecall",
+      "businessEffectiveDate": "2026-05-24",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-0762",
+      "parentOpportunityToken": "DEMO-OPP-086",
+      "activityType": "appointment",
+      "businessEffectiveDate": "2026-06-11",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-0763",
+      "parentOpportunityToken": "DEMO-OPP-086",
+      "activityType": "task",
+      "businessEffectiveDate": "2026-06-29",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-0764",
+      "parentOpportunityToken": "DEMO-OPP-086",
+      "activityType": "annotation",
+      "businessEffectiveDate": "2026-07-17",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "HistoricalSystemDateOverride",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-0807",
+      "parentOpportunityToken": "DEMO-OPP-092",
+      "activityType": "phonecall",
+      "businessEffectiveDate": "2026-01-03",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-0808",
+      "parentOpportunityToken": "DEMO-OPP-092",
+      "activityType": "appointment",
+      "businessEffectiveDate": "2026-02-20",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-0809",
+      "parentOpportunityToken": "DEMO-OPP-092",
+      "activityType": "task",
+      "businessEffectiveDate": "2026-04-10",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-0810",
+      "parentOpportunityToken": "DEMO-OPP-092",
+      "activityType": "annotation",
+      "businessEffectiveDate": "2026-05-29",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "HistoricalSystemDateOverride",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-0811",
+      "parentOpportunityToken": "DEMO-OPP-092",
+      "activityType": "phonecall",
+      "businessEffectiveDate": "2026-07-17",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1171",
+      "parentOpportunityToken": "DEMO-OPP-130",
+      "activityType": "phonecall",
+      "businessEffectiveDate": "2026-05-16",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1172",
+      "parentOpportunityToken": "DEMO-OPP-130",
+      "activityType": "appointment",
+      "businessEffectiveDate": "2026-05-20",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1173",
+      "parentOpportunityToken": "DEMO-OPP-130",
+      "activityType": "task",
+      "businessEffectiveDate": "2026-05-25",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1174",
+      "parentOpportunityToken": "DEMO-OPP-130",
+      "activityType": "annotation",
+      "businessEffectiveDate": "2026-05-30",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "HistoricalSystemDateOverride",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1175",
+      "parentOpportunityToken": "DEMO-OPP-130",
+      "activityType": "phonecall",
+      "businessEffectiveDate": "2026-06-04",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1176",
+      "parentOpportunityToken": "DEMO-OPP-130",
+      "activityType": "appointment",
+      "businessEffectiveDate": "2026-06-09",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1177",
+      "parentOpportunityToken": "DEMO-OPP-130",
+      "activityType": "task",
+      "businessEffectiveDate": "2026-06-13",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1178",
+      "parentOpportunityToken": "DEMO-OPP-130",
+      "activityType": "annotation",
+      "businessEffectiveDate": "2026-06-18",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "HistoricalSystemDateOverride",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1179",
+      "parentOpportunityToken": "DEMO-OPP-130",
+      "activityType": "phonecall",
+      "businessEffectiveDate": "2026-06-23",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1180",
+      "parentOpportunityToken": "DEMO-OPP-130",
+      "activityType": "appointment",
+      "businessEffectiveDate": "2026-06-28",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1181",
+      "parentOpportunityToken": "DEMO-OPP-130",
+      "activityType": "task",
+      "businessEffectiveDate": "2026-07-03",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1182",
+      "parentOpportunityToken": "DEMO-OPP-130",
+      "activityType": "annotation",
+      "businessEffectiveDate": "2026-07-08",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "HistoricalSystemDateOverride",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1202",
+      "parentOpportunityToken": "DEMO-OPP-133",
+      "activityType": "phonecall",
+      "businessEffectiveDate": "2026-05-11",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1203",
+      "parentOpportunityToken": "DEMO-OPP-133",
+      "activityType": "appointment",
+      "businessEffectiveDate": "2026-05-27",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1204",
+      "parentOpportunityToken": "DEMO-OPP-133",
+      "activityType": "task",
+      "businessEffectiveDate": "2026-06-13",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1205",
+      "parentOpportunityToken": "DEMO-OPP-133",
+      "activityType": "annotation",
+      "businessEffectiveDate": "2026-06-30",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "HistoricalSystemDateOverride",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1206",
+      "parentOpportunityToken": "DEMO-OPP-133",
+      "activityType": "phonecall",
+      "businessEffectiveDate": "2026-07-17",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1214",
+      "parentOpportunityToken": "DEMO-OPP-135",
+      "activityType": "phonecall",
+      "businessEffectiveDate": "2025-12-13",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1215",
+      "parentOpportunityToken": "DEMO-OPP-135",
+      "activityType": "appointment",
+      "businessEffectiveDate": "2025-12-30",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1216",
+      "parentOpportunityToken": "DEMO-OPP-135",
+      "activityType": "task",
+      "businessEffectiveDate": "2026-01-17",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1217",
+      "parentOpportunityToken": "DEMO-OPP-135",
+      "activityType": "annotation",
+      "businessEffectiveDate": "2026-02-04",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "HistoricalSystemDateOverride",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1218",
+      "parentOpportunityToken": "DEMO-OPP-135",
+      "activityType": "phonecall",
+      "businessEffectiveDate": "2026-02-22",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1219",
+      "parentOpportunityToken": "DEMO-OPP-135",
+      "activityType": "appointment",
+      "businessEffectiveDate": "2026-03-12",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1220",
+      "parentOpportunityToken": "DEMO-OPP-135",
+      "activityType": "task",
+      "businessEffectiveDate": "2026-03-29",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1221",
+      "parentOpportunityToken": "DEMO-OPP-135",
+      "activityType": "annotation",
+      "businessEffectiveDate": "2026-04-16",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "HistoricalSystemDateOverride",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1222",
+      "parentOpportunityToken": "DEMO-OPP-135",
+      "activityType": "phonecall",
+      "businessEffectiveDate": "2026-05-04",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1223",
+      "parentOpportunityToken": "DEMO-OPP-135",
+      "activityType": "appointment",
+      "businessEffectiveDate": "2026-05-22",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1224",
+      "parentOpportunityToken": "DEMO-OPP-135",
+      "activityType": "task",
+      "businessEffectiveDate": "2026-06-09",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1225",
+      "parentOpportunityToken": "DEMO-OPP-135",
+      "activityType": "annotation",
+      "businessEffectiveDate": "2026-06-27",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "HistoricalSystemDateOverride",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1252",
+      "parentOpportunityToken": "DEMO-OPP-139",
+      "activityType": "phonecall",
+      "businessEffectiveDate": "2026-06-28",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1253",
+      "parentOpportunityToken": "DEMO-OPP-139",
+      "activityType": "appointment",
+      "businessEffectiveDate": "2026-06-29",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1254",
+      "parentOpportunityToken": "DEMO-OPP-139",
+      "activityType": "task",
+      "businessEffectiveDate": "2026-07-01",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1255",
+      "parentOpportunityToken": "DEMO-OPP-139",
+      "activityType": "annotation",
+      "businessEffectiveDate": "2026-07-03",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "HistoricalSystemDateOverride",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1256",
+      "parentOpportunityToken": "DEMO-OPP-139",
+      "activityType": "phonecall",
+      "businessEffectiveDate": "2026-07-05",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1257",
+      "parentOpportunityToken": "DEMO-OPP-139",
+      "activityType": "appointment",
+      "businessEffectiveDate": "2026-07-07",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1258",
+      "parentOpportunityToken": "DEMO-OPP-139",
+      "activityType": "task",
+      "businessEffectiveDate": "2026-07-09",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1259",
+      "parentOpportunityToken": "DEMO-OPP-139",
+      "activityType": "annotation",
+      "businessEffectiveDate": "2026-07-11",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "HistoricalSystemDateOverride",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1260",
+      "parentOpportunityToken": "DEMO-OPP-139",
+      "activityType": "phonecall",
+      "businessEffectiveDate": "2026-07-13",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1261",
+      "parentOpportunityToken": "DEMO-OPP-139",
+      "activityType": "appointment",
+      "businessEffectiveDate": "2026-07-15",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1262",
+      "parentOpportunityToken": "DEMO-OPP-139",
+      "activityType": "task",
+      "businessEffectiveDate": "2026-07-17",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1279",
+      "parentOpportunityToken": "DEMO-OPP-142",
+      "activityType": "phonecall",
+      "businessEffectiveDate": "2026-01-24",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1280",
+      "parentOpportunityToken": "DEMO-OPP-142",
+      "activityType": "appointment",
+      "businessEffectiveDate": "2026-02-17",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1281",
+      "parentOpportunityToken": "DEMO-OPP-142",
+      "activityType": "task",
+      "businessEffectiveDate": "2026-03-14",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1282",
+      "parentOpportunityToken": "DEMO-OPP-142",
+      "activityType": "annotation",
+      "businessEffectiveDate": "2026-04-08",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "HistoricalSystemDateOverride",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1283",
+      "parentOpportunityToken": "DEMO-OPP-142",
+      "activityType": "phonecall",
+      "businessEffectiveDate": "2026-05-03",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1284",
+      "parentOpportunityToken": "DEMO-OPP-142",
+      "activityType": "appointment",
+      "businessEffectiveDate": "2026-05-28",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1285",
+      "parentOpportunityToken": "DEMO-OPP-142",
+      "activityType": "task",
+      "businessEffectiveDate": "2026-06-22",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1286",
+      "parentOpportunityToken": "DEMO-OPP-142",
+      "activityType": "annotation",
+      "businessEffectiveDate": "2026-07-17",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "HistoricalSystemDateOverride",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1312",
+      "parentOpportunityToken": "DEMO-OPP-146",
+      "activityType": "phonecall",
+      "businessEffectiveDate": "2026-01-02",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1313",
+      "parentOpportunityToken": "DEMO-OPP-146",
+      "activityType": "appointment",
+      "businessEffectiveDate": "2026-02-10",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1314",
+      "parentOpportunityToken": "DEMO-OPP-146",
+      "activityType": "task",
+      "businessEffectiveDate": "2026-03-21",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1315",
+      "parentOpportunityToken": "DEMO-OPP-146",
+      "activityType": "annotation",
+      "businessEffectiveDate": "2026-04-29",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "HistoricalSystemDateOverride",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1316",
+      "parentOpportunityToken": "DEMO-OPP-146",
+      "activityType": "phonecall",
+      "businessEffectiveDate": "2026-06-07",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1317",
+      "parentOpportunityToken": "DEMO-OPP-146",
+      "activityType": "appointment",
+      "businessEffectiveDate": "2026-07-17",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1384",
+      "parentOpportunityToken": "DEMO-OPP-155",
+      "activityType": "phonecall",
+      "businessEffectiveDate": "2026-05-11",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1385",
+      "parentOpportunityToken": "DEMO-OPP-155",
+      "activityType": "appointment",
+      "businessEffectiveDate": "2026-05-22",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1386",
+      "parentOpportunityToken": "DEMO-OPP-155",
+      "activityType": "task",
+      "businessEffectiveDate": "2026-06-02",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1387",
+      "parentOpportunityToken": "DEMO-OPP-155",
+      "activityType": "annotation",
+      "businessEffectiveDate": "2026-06-13",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "HistoricalSystemDateOverride",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1388",
+      "parentOpportunityToken": "DEMO-OPP-155",
+      "activityType": "phonecall",
+      "businessEffectiveDate": "2026-06-24",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1389",
+      "parentOpportunityToken": "DEMO-OPP-155",
+      "activityType": "appointment",
+      "businessEffectiveDate": "2026-07-05",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1390",
+      "parentOpportunityToken": "DEMO-OPP-155",
+      "activityType": "task",
+      "businessEffectiveDate": "2026-07-17",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1518",
+      "parentOpportunityToken": "DEMO-OPP-170",
+      "activityType": "phonecall",
+      "businessEffectiveDate": "2026-01-15",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1519",
+      "parentOpportunityToken": "DEMO-OPP-170",
+      "activityType": "appointment",
+      "businessEffectiveDate": "2026-02-10",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1520",
+      "parentOpportunityToken": "DEMO-OPP-170",
+      "activityType": "task",
+      "businessEffectiveDate": "2026-03-08",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1521",
+      "parentOpportunityToken": "DEMO-OPP-170",
+      "activityType": "annotation",
+      "businessEffectiveDate": "2026-04-03",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "HistoricalSystemDateOverride",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1522",
+      "parentOpportunityToken": "DEMO-OPP-170",
+      "activityType": "phonecall",
+      "businessEffectiveDate": "2026-04-29",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1523",
+      "parentOpportunityToken": "DEMO-OPP-170",
+      "activityType": "appointment",
+      "businessEffectiveDate": "2026-05-25",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1524",
+      "parentOpportunityToken": "DEMO-OPP-170",
+      "activityType": "task",
+      "businessEffectiveDate": "2026-06-20",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1525",
+      "parentOpportunityToken": "DEMO-OPP-170",
+      "activityType": "annotation",
+      "businessEffectiveDate": "2026-07-17",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "HistoricalSystemDateOverride",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1623",
+      "parentOpportunityToken": "DEMO-OPP-181",
+      "activityType": "phonecall",
+      "businessEffectiveDate": "2026-06-26",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1624",
+      "parentOpportunityToken": "DEMO-OPP-181",
+      "activityType": "appointment",
+      "businessEffectiveDate": "2026-06-30",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1625",
+      "parentOpportunityToken": "DEMO-OPP-181",
+      "activityType": "task",
+      "businessEffectiveDate": "2026-07-05",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1626",
+      "parentOpportunityToken": "DEMO-OPP-181",
+      "activityType": "annotation",
+      "businessEffectiveDate": "2026-07-10",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "HistoricalSystemDateOverride",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1627",
+      "parentOpportunityToken": "DEMO-OPP-181",
+      "activityType": "phonecall",
+      "businessEffectiveDate": "2026-07-15",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1628",
+      "parentOpportunityToken": "DEMO-OPP-181",
+      "activityType": "appointment",
+      "businessEffectiveDate": "2026-07-20",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1629",
+      "parentOpportunityToken": "DEMO-OPP-181",
+      "activityType": "task",
+      "businessEffectiveDate": "2026-07-25",
+      "r1aResult": "Reused",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1630",
+      "parentOpportunityToken": "DEMO-OPP-181",
+      "activityType": "annotation",
+      "businessEffectiveDate": "2026-07-30",
+      "r1aResult": "Created",
+      "dateProjectionMode": "BodyPlannedDate",
+      "systemDateFieldSent": false,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1631",
+      "parentOpportunityToken": "DEMO-OPP-181",
+      "activityType": "phonecall",
+      "businessEffectiveDate": "2026-08-04",
+      "r1aResult": "Created",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1632",
+      "parentOpportunityToken": "DEMO-OPP-181",
+      "activityType": "appointment",
+      "businessEffectiveDate": "2026-08-09",
+      "r1aResult": "Created",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1633",
+      "parentOpportunityToken": "DEMO-OPP-181",
+      "activityType": "task",
+      "businessEffectiveDate": "2026-08-14",
+      "r1aResult": "Created",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1634",
+      "parentOpportunityToken": "DEMO-OPP-181",
+      "activityType": "annotation",
+      "businessEffectiveDate": "2026-08-19",
+      "r1aResult": "Created",
+      "dateProjectionMode": "BodyPlannedDate",
+      "systemDateFieldSent": false,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1739",
+      "parentOpportunityToken": "DEMO-OPP-194",
+      "activityType": "phonecall",
+      "businessEffectiveDate": "2026-05-20",
+      "r1aResult": "Created",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1740",
+      "parentOpportunityToken": "DEMO-OPP-194",
+      "activityType": "appointment",
+      "businessEffectiveDate": "2026-05-31",
+      "r1aResult": "Created",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1741",
+      "parentOpportunityToken": "DEMO-OPP-194",
+      "activityType": "task",
+      "businessEffectiveDate": "2026-06-12",
+      "r1aResult": "Created",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1742",
+      "parentOpportunityToken": "DEMO-OPP-194",
+      "activityType": "annotation",
+      "businessEffectiveDate": "2026-06-23",
+      "r1aResult": "Created",
+      "dateProjectionMode": "HistoricalSystemDateOverride",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1743",
+      "parentOpportunityToken": "DEMO-OPP-194",
+      "activityType": "phonecall",
+      "businessEffectiveDate": "2026-07-05",
+      "r1aResult": "Created",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1744",
+      "parentOpportunityToken": "DEMO-OPP-194",
+      "activityType": "appointment",
+      "businessEffectiveDate": "2026-07-17",
+      "r1aResult": "Created",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1757",
+      "parentOpportunityToken": "DEMO-OPP-196",
+      "activityType": "phonecall",
+      "businessEffectiveDate": "2026-01-24",
+      "r1aResult": "Created",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1758",
+      "parentOpportunityToken": "DEMO-OPP-196",
+      "activityType": "appointment",
+      "businessEffectiveDate": "2026-02-17",
+      "r1aResult": "Created",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1759",
+      "parentOpportunityToken": "DEMO-OPP-196",
+      "activityType": "task",
+      "businessEffectiveDate": "2026-03-14",
+      "r1aResult": "Created",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1760",
+      "parentOpportunityToken": "DEMO-OPP-196",
+      "activityType": "annotation",
+      "businessEffectiveDate": "2026-04-08",
+      "r1aResult": "Created",
+      "dateProjectionMode": "HistoricalSystemDateOverride",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1761",
+      "parentOpportunityToken": "DEMO-OPP-196",
+      "activityType": "phonecall",
+      "businessEffectiveDate": "2026-05-03",
+      "r1aResult": "Created",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1762",
+      "parentOpportunityToken": "DEMO-OPP-196",
+      "activityType": "appointment",
+      "businessEffectiveDate": "2026-05-28",
+      "r1aResult": "Created",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1763",
+      "parentOpportunityToken": "DEMO-OPP-196",
+      "activityType": "task",
+      "businessEffectiveDate": "2026-06-22",
+      "r1aResult": "Created",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1764",
+      "parentOpportunityToken": "DEMO-OPP-196",
+      "activityType": "annotation",
+      "businessEffectiveDate": "2026-07-17",
+      "r1aResult": "Created",
+      "dateProjectionMode": "HistoricalSystemDateOverride",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1783",
+      "parentOpportunityToken": "DEMO-OPP-199",
+      "activityType": "phonecall",
+      "businessEffectiveDate": "2026-06-20",
+      "r1aResult": "Created",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1784",
+      "parentOpportunityToken": "DEMO-OPP-199",
+      "activityType": "appointment",
+      "businessEffectiveDate": "2026-07-01",
+      "r1aResult": "Created",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1785",
+      "parentOpportunityToken": "DEMO-OPP-199",
+      "activityType": "task",
+      "businessEffectiveDate": "2026-07-12",
+      "r1aResult": "Created",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1786",
+      "parentOpportunityToken": "DEMO-OPP-199",
+      "activityType": "annotation",
+      "businessEffectiveDate": "2026-07-23",
+      "r1aResult": "Created",
+      "dateProjectionMode": "BodyPlannedDate",
+      "systemDateFieldSent": false,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1787",
+      "parentOpportunityToken": "DEMO-OPP-199",
+      "activityType": "phonecall",
+      "businessEffectiveDate": "2026-08-04",
+      "r1aResult": "Created",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1788",
+      "parentOpportunityToken": "DEMO-OPP-199",
+      "activityType": "appointment",
+      "businessEffectiveDate": "2026-08-15",
+      "r1aResult": "Created",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1789",
+      "parentOpportunityToken": "DEMO-OPP-199",
+      "activityType": "task",
+      "businessEffectiveDate": "2026-08-26",
+      "r1aResult": "Created",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1790",
+      "parentOpportunityToken": "DEMO-OPP-199",
+      "activityType": "annotation",
+      "businessEffectiveDate": "2026-09-06",
+      "r1aResult": "Created",
+      "dateProjectionMode": "BodyPlannedDate",
+      "systemDateFieldSent": false,
+      "exactReadbackReady": true
+    },
+    {
+      "stableToken": "TL-1791",
+      "parentOpportunityToken": "DEMO-OPP-199",
+      "activityType": "phonecall",
+      "businessEffectiveDate": "2026-09-18",
+      "r1aResult": "Created",
+      "dateProjectionMode": "ActivityScheduleField",
+      "systemDateFieldSent": null,
+      "exactReadbackReady": true
+    }
+  ]
+}

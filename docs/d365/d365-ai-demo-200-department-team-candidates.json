@@ -1,0 +1,17 @@
+{
+  "phase": "Phase 1C-5R2G-D1",
+  "departmentTokens": [
+    "DEPT-01",
+    "DEPT-02",
+    "DEPT-03",
+    "DEPT-04",
+    "DEPT-05",
+    "DEPT-06",
+    "DEPT-91"
+  ],
+  "qualifiedExistingTeamCandidateCount": 0,
+  "departmentTeamCandidatesReady": false,
+  "teamSetupRequired": true,
+  "noSharedTeamRule": "Three or more department tokens must never share one Team.",
+  "departmentTeamMappingApproved": false
+}

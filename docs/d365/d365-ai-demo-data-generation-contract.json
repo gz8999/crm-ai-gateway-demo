@@ -1,0 +1,264 @@
+{
+  "contractVersion": "1.0.0",
+  "phase": "Phase 1C-5R2G-A",
+  "title": "Chinese D365 AI demo data generation contract",
+  "mode": "offline-design-only",
+  "baseline": {
+    "schemaCommit": "a3734ca",
+    "formViewSecurityCommit": "6299ed2",
+    "solutionRepairCommit": "a476213",
+    "choiceRepairCommit": "b6b0ebf",
+    "runtimeGateCommit": "43e9455b58259c414e5815942fea960be25c431d",
+    "demoBaselineDate": "2027-01-15",
+    "fiscalYear": "2026-04-01/2027-03-31"
+  },
+  "executionBoundary": {
+    "dataverseRequests": 0,
+    "externalLlmCalls": 0,
+    "formalWorkbookGenerated": false,
+    "dataversePayloadGenerated": false,
+    "pilotImportStarted": false,
+    "fullImportStarted": false
+  },
+  "latestMetadataPreflight": {
+    "phase": "Phase 1C-5R2G-C1",
+    "authoritativeWorkbook": "CRM_AI_Gateway_D365_Chinese_Demo_Data_v4.xlsx",
+    "authoritativeWorkbookSha256": "f08a94a3caa62950dbaa96e2767e39afe6c79072296394db9d8736a3b2f683fd",
+    "metadataSchemaPreflightReady": false,
+    "choiceMetadataPreflightReady": false,
+    "lookupResolutionReady": false,
+    "pilotDatasetDefined": false,
+    "pilotWorkbookGenerated": false,
+    "pilotImportReady": false,
+    "pilotImportAuthorized": false,
+    "p1Count": 5,
+    "report": "docs/d365/d365-ai-demo-v4-metadata-preflight-report.md"
+  },
+  "scale": {
+    "accounts": 30,
+    "contacts": 60,
+    "opportunities": 150,
+    "actualManagement": 100,
+    "serviceCoverage": 210,
+    "nativeTimeline": 1400,
+    "interactionSignals": 1050
+  },
+  "identity": {
+    "accountToken": "A-{001..030}",
+    "contactToken": "C-{001..060}",
+    "opportunityToken": "DEMO-OPP-{001..150}",
+    "actualToken": "ACT-{001..100}",
+    "coverageToken": "COV-{001..210}",
+    "timelineToken": "TL-{0001..1400}",
+    "signalToken": "SIG-{0001..1050}",
+    "generationRunToken": "R2G-A-GEN-001",
+    "guidPolicy": "Dataverse GUIDs are assigned only by a later import run and are never part of the offline design key."
+  },
+  "accountContactModel": {
+    "accountsPerIndustry": 3,
+    "opportunitiesPerAccount": 5,
+    "contactsPerAccount": 2,
+    "industries": [
+      "汽车与零部件", "消费品", "电子与半导体", "医药与医疗", "工业制造",
+      "化工与材料", "零售与电商", "能源与基础设施", "食品与冷链", "跨境贸易"
+    ],
+    "requiredContactCoverage": ["业务联系人", "决策或审批联系人"],
+    "contactRolePool": ["业务负责人", "采购负责人", "财务审批人", "决策影响人", "运营联系人"],
+    "syntheticOnly": true
+  },
+  "opportunityModel": {
+    "statusDistribution": {"active": 60, "won": 55, "lost": 35},
+    "actualAllocation": {
+      "wonWithActual": 55,
+      "activeWithActual": 45,
+      "activeWithoutActual": 15,
+      "lostWithActual": 0,
+      "maxActualPerOpportunity": 1
+    },
+    "budgetCoverage": ["预算内", "预算外"],
+    "requiredStoryFacts": [
+      "客户与联系人关系", "阶段与状态", "案件类型与优先级", "受注确度",
+      "客户需求", "提案内容", "调查背景", "决裁者", "下一步与日期",
+      "服务与货物", "运输模式", "Location", "POL/POD", "预算或实绩事实"
+    ],
+    "deprecatedWriteDenylist": ["opportunity.aigw_yearrevenueactualcny"],
+    "scenarioFieldsInCrm": false
+  },
+  "scenarioDistribution": [
+    {"id": "stalled-high-value", "count": 15, "defaultToken": "DEMO-OPP-001", "expectedPriority": "high"},
+    {"id": "budget-actual-gap", "count": 15, "defaultToken": "DEMO-OPP-016", "expectedPriority": "high"},
+    {"id": "data-contradiction", "count": 12, "defaultToken": "DEMO-OPP-031", "expectedPriority": "high"},
+    {"id": "growth-opportunity", "count": 12, "defaultToken": "DEMO-OPP-043", "expectedPriority": "medium"},
+    {"id": "location-route-risk", "count": 10, "defaultToken": "DEMO-OPP-055", "expectedPriority": "medium"},
+    {"id": "meeting-prep", "count": 10, "defaultToken": "DEMO-OPP-065", "expectedPriority": "medium"},
+    {"id": "multi-risk-priority", "count": 16, "defaultToken": "DEMO-OPP-075", "expectedPriority": "critical"},
+    {"id": "healthy-control", "count": 10, "defaultToken": "DEMO-OPP-091", "expectedPriority": "monitor"}
+  ],
+  "backgroundDistribution": [
+    {"category": "normal-business", "count": 10},
+    {"category": "mild-risk", "count": 8},
+    {"category": "renewal", "count": 8},
+    {"category": "upsell", "count": 7},
+    {"category": "new-customer", "count": 7},
+    {"category": "won-implementation", "count": 4},
+    {"category": "lost-review", "count": 3},
+    {"category": "historical-service", "count": 3}
+  ],
+  "actualModel": {
+    "entity": "aigw_actualmanagement",
+    "months": ["april", "may", "june", "july", "august", "september", "october", "november", "december", "january", "february", "march"],
+    "monthlyMetrics": ["actualrevenue", "actualgp", "actualmp"],
+    "storedAnnualRevenue": "aigw_annualactualrevenue",
+    "parentRevenueTarget": "opportunity.aigw_yearrevenueactual",
+    "annualGrossProfit": "DERIVE from the 12 monthly GP fields",
+    "fiscalYearField": null,
+    "pluginContract": "One Actual Management record per Opportunity; parent annual revenue is synchronized by the deployed plugin.",
+    "exactAmountsExternalLlmAllowed": false
+  },
+  "coverageModel": {
+    "entity": "aigw_customerservicecoverage",
+    "recordsPerAccount": 7,
+    "total": 210,
+    "alternateKey": {
+      "schemaName": "Aigw_CustomerservicecoverageKey",
+      "attributes": ["aigw_accountid", "aigw_servicetype", "aigw_startdate"],
+      "status": "Active"
+    },
+    "demoToken": {
+      "attribute": "aigw_demotoken",
+      "purpose": ["synthetic import", "read-before-write", "cleanup"],
+      "isAlternateKey": false
+    },
+    "nullStartDateConflictCheck": {
+      "appliesTo": ["提案中", "未覆盖"],
+      "lookupBy": "aigw_demotoken",
+      "normalizedBusinessFields": ["aigw_accountid", "aigw_servicetype", "aigw_coveragestatus", "aigw_nextopportunitywindow"],
+      "alternateKeyProtectionClaimed": false
+    },
+    "noOverlappingWindowsForSameAccountService": true,
+    "requiredHistoryStates": ["当前覆盖", "曾经覆盖", "已停止", "空白机会"],
+    "choiceValueSource": "docs/d365/d365-ai-demo-local-choice-option-values.json"
+  },
+  "timelineModel": {
+    "total": 1400,
+    "types": ["phonecall", "appointment", "task", "annotation"],
+    "emailPolicy": "Do not send email. Represent a sanitized communication summary with annotation unless a later no-send email contract is approved.",
+    "distribution": [
+      {"tier": "strategic-or-high-risk", "opportunities": 40, "recordsEach": 18, "records": 720},
+      {"tier": "core-standard", "opportunities": 60, "recordsEach": 8, "records": 480},
+      {"tier": "background-simple", "opportunities": 50, "recordsEach": 4, "records": 200}
+    ],
+    "minimumActivityTypesPerOpportunity": 3,
+    "orderedBy": ["opportunityToken", "activityDate", "timelineToken"],
+    "rawTextExternalLlmAllowed": false
+  },
+  "interactionSignalModel": {
+    "entity": "aigw_interactionsignal",
+    "total": 1050,
+    "timelineCoverageRatio": 0.75,
+    "pipeline": ["native timeline", "sanitization", "interaction signal", "safe summary", "Gateway"],
+    "sourceTokenOnly": true,
+    "deployedFieldSet": [
+      "aigw_name", "aigw_interactiontoken", "aigw_accountid", "aigw_opportunityid",
+      "aigw_sourceactivitytoken", "aigw_activitydate", "aigw_activitytype", "aigw_direction",
+      "aigw_resultcategory", "aigw_nextstep", "aigw_budgetmentioned", "aigw_decisionmakerinvolved",
+      "aigw_objectionpresent", "aigw_objectioncategory", "aigw_competitormentioned",
+      "aigw_commitmentmade", "aigw_commitmentduedate", "aigw_commitmentcompleted",
+      "aigw_customerresponselevel", "aigw_sentiment", "aigw_serviceissuecategory",
+      "aigw_issueresolved", "aigw_sanitizedsummary", "aigw_salesdepartment", "aigw_demotoken"
+    ],
+    "twoOptionsFields": [
+      "aigw_budgetmentioned", "aigw_decisionmakerinvolved", "aigw_objectionpresent",
+      "aigw_competitormentioned", "aigw_commitmentmade", "aigw_commitmentcompleted", "aigw_issueresolved"
+    ],
+    "dateSemantics": {
+      "aigw_activitydate": "source interaction date",
+      "aigw_commitmentduedate": "commitment deadline only; never a generic next-step date"
+    },
+    "derivedOnly": ["hasIssue"],
+    "invalidFieldDenylist": ["aigw_nextstepdate", "aigw_hascommitment", "aigw_hasdecisionmaker", "aigw_hasissue"],
+    "excluded": ["identity", "GUID", "exact amount", "raw timeline text", "AI conclusion", "scenario id", "golden assertion"],
+    "choiceValueSource": "docs/d365/d365-ai-demo-local-choice-option-values.json"
+  },
+  "fieldSources": {
+    "schemaManifest": "docs/d365/d365-ai-demo-schema-mvp-manifest.json",
+    "choiceManifest": "docs/d365/d365-ai-demo-local-choice-option-values.json",
+    "fieldCatalog": "docs/gateway/d365-ai-analysis-field-catalog.json",
+    "timelineSpec": "docs/d365/d365-ai-demo-timeline-content-spec-zh.md"
+  },
+  "schemaReconciliation": {
+    "authority": [
+      "docs/d365/d365-ai-demo-schema-mvp-core-implementation.md",
+      "docs/d365/d365-ai-demo-schema-mvp-design-zh.md",
+      "docs/d365/d365-ai-demo-local-choice-option-values.json",
+      "commit:43e9455b58259c414e5815942fea960be25c431d"
+    ],
+    "unknownCrmLogicalNames": [],
+    "unknownCrmLogicalNameCount": 0,
+    "invalidNamesAreDenylistOnly": true
+  },
+  "locationAndRoute": {
+    "locationEntity": "aigw_location",
+    "activeLocationCount": 51,
+    "locationLookup": "opportunity.aigw_opportunitylocation",
+    "polPodEntity": "aigw_polpodlocation",
+    "polPodPrimaryName": "aigw_keycode",
+    "opportunityLookups": ["aigw_sealandpollookup", "aigw_sealandpodlookup", "aigw_airpollookup", "aigw_airpodlookup"],
+    "createMasterData": false,
+    "safeContextUsesRawValues": false
+  },
+  "safeContext": {
+    "allowed": [
+      "synthetic tokens", "categories", "bands", "trend codes", "relative date states",
+      "sanitized summaries", "route consistency", "coverage bands", "interaction signal codes"
+    ],
+    "excluded": [
+      "customer name", "contact identity", "email", "phone", "address", "GUID", "exact amount",
+      "raw timeline text", "Location value", "POL/POD value", "scenario id", "golden metadata", "AI answer fields"
+    ],
+    "rawDataSent": false,
+    "exactAmountSentToModel": false,
+    "customerIdentityMasked": true,
+    "departmentFilterBeforeBuild": true
+  },
+  "importAndCleanup": {
+    "importOrder": ["account", "contact", "opportunity", "aigw_actualmanagement", "aigw_customerservicecoverage", "native timeline", "aigw_interactionsignal"],
+    "cleanupOrder": ["aigw_interactionsignal", "native timeline", "aigw_actualmanagement", "aigw_customerservicecoverage", "opportunity", "contact", "account"],
+    "readBeforeWrite": true,
+    "idempotencyKey": "generationRunToken + record token",
+    "partialFailure": "Stop subsequent writes; preserve created records and emit an exact cleanup manifest.",
+    "locationAndPolPodExcludedFromCleanup": true
+  },
+  "gates": {
+    "schemaContractReconciled": true,
+    "unknownCrmLogicalNames": 0,
+    "coverageAlternateKeyContractReady": true,
+    "coverageDemoTokenContractReady": true,
+    "interactionSignalFieldContractReady": true,
+    "validationContractReady": true,
+    "p0Count": 0,
+    "p1Count": 0,
+    "demoDataScopeFrozen": true,
+    "chineseBusinessContentReady": true,
+    "accountContactModelReady": true,
+    "opportunityStoryModelReady": true,
+    "actualModelReady": true,
+    "coverageHistoryModelReady": true,
+    "timelineStoryModelReady": true,
+    "interactionSignalMappingReady": true,
+    "eightScenarioDistributionReady": true,
+    "healthyControlReady": true,
+    "fieldMappingReady": true,
+    "choiceValueMappingReady": true,
+    "locationMappingReady": true,
+    "importOrderReady": true,
+    "cleanupContractReady": true,
+    "validationContractReady": true,
+    "safeContextContractReady": true,
+    "demoDataDesignReady": true,
+    "offlineWorkbookGenerationReady": true,
+    "demoDataGenerationStarted": false,
+    "pilotImportReady": false,
+    "fullImportReady": false
+  }
+}

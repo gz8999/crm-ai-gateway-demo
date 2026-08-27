@@ -1,0 +1,369 @@
+{
+  "phase": "Phase 1C-5R2G-D2",
+  "currency": {
+    "token": "CNY",
+    "resolved": true
+  },
+  "location": {
+    "distinctWorkbookValues": 17,
+    "resolved": true,
+    "mappings": [
+      {
+        "source": "04: Beijing",
+        "target": "01: Beijing"
+      },
+      {
+        "source": "06: Shenzhen",
+        "target": "06: Shenzhen"
+      },
+      {
+        "source": "05: Guangzhou",
+        "target": "05: Guangzhou"
+      },
+      {
+        "source": "11: Qingdao",
+        "target": "12: Qingdao"
+      },
+      {
+        "source": "03: Suzhou",
+        "target": "29: Suzhou"
+      },
+      {
+        "source": "10: Ningbo",
+        "target": "32: Ningbo"
+      },
+      {
+        "source": "13: Dalian",
+        "target": "13: Dalian"
+      },
+      {
+        "source": "14: Wuxi",
+        "target": "30: Wuxi"
+      },
+      {
+        "source": "09: Wuhan",
+        "target": "09: Wuhan"
+      },
+      {
+        "source": "07: Chongqing",
+        "target": "04: Chongqing"
+      },
+      {
+        "source": "02: Shanghai",
+        "target": "02: Shanghai"
+      },
+      {
+        "source": "08: Chengdu",
+        "target": "10: Chengdu"
+      },
+      {
+        "source": "18: Hefei",
+        "target": "23: Hefei"
+      },
+      {
+        "source": "16: Xiamen",
+        "target": "18: Xiamen"
+      },
+      {
+        "source": "12: Tianjin",
+        "target": "03: Tianjin"
+      },
+      {
+        "source": "15: Hangzhou",
+        "target": "07: Hangzhou"
+      },
+      {
+        "source": "17: Nanjing",
+        "target": "08: Nanjing"
+      }
+    ]
+  },
+  "polPod": {
+    "resolvedExactCount": 6,
+    "resolvedNormalizedCount": 5,
+    "fallbackOTRCount": 10,
+    "blockedCount": 0,
+    "rows": [
+      {
+        "source": "0402: CNSHA",
+        "projectedTarget": "0402: CNSHA",
+        "resolution": "Resolved Exact",
+        "usageCount": 18,
+        "exactMatch": true,
+        "normalizedMatch": false,
+        "fallbackOTR": false,
+        "blocked": false,
+        "note": "Reused D1 read-only resolution."
+      },
+      {
+        "source": "0403: CNNGB",
+        "projectedTarget": "0374: CNNGB",
+        "resolution": "Resolved Normalized",
+        "usageCount": 21,
+        "exactMatch": false,
+        "normalizedMatch": true,
+        "fallbackOTR": false,
+        "blocked": false,
+        "note": "Reused D1 read-only resolution."
+      },
+      {
+        "source": "0404: CNTNJ",
+        "projectedTarget": "9999: OTR",
+        "resolution": "Fallback OTR",
+        "usageCount": 16,
+        "exactMatch": false,
+        "normalizedMatch": false,
+        "fallbackOTR": true,
+        "blocked": false,
+        "note": "Fallback OTR is not an exact airport/port match."
+      },
+      {
+        "source": "0405: CNTAO",
+        "projectedTarget": "0430: CNTAO",
+        "resolution": "Resolved Normalized",
+        "usageCount": 20,
+        "exactMatch": false,
+        "normalizedMatch": true,
+        "fallbackOTR": false,
+        "blocked": false,
+        "note": "Reused D1 read-only resolution."
+      },
+      {
+        "source": "0406: CNYTN",
+        "projectedTarget": "0484: CNYTN",
+        "resolution": "Resolved Normalized",
+        "usageCount": 24,
+        "exactMatch": false,
+        "normalizedMatch": true,
+        "fallbackOTR": false,
+        "blocked": false,
+        "note": "Reused D1 read-only resolution."
+      },
+      {
+        "source": "1121: JPTYO",
+        "projectedTarget": "1121: JPTYO",
+        "resolution": "Resolved Exact",
+        "usageCount": 16,
+        "exactMatch": true,
+        "normalizedMatch": false,
+        "fallbackOTR": false,
+        "blocked": false,
+        "note": "Reused D1 read-only resolution."
+      },
+      {
+        "source": "1153: KRPUS",
+        "projectedTarget": "1153: KRPUS",
+        "resolution": "Resolved Exact",
+        "usageCount": 16,
+        "exactMatch": true,
+        "normalizedMatch": false,
+        "fallbackOTR": false,
+        "blocked": false,
+        "note": "Reused D1 read-only resolution."
+      },
+      {
+        "source": "1305: MXZLO",
+        "projectedTarget": "1305: MXZLO",
+        "resolution": "Resolved Exact",
+        "usageCount": 15,
+        "exactMatch": true,
+        "normalizedMatch": false,
+        "fallbackOTR": false,
+        "blocked": false,
+        "note": "Reused D1 read-only resolution."
+      },
+      {
+        "source": "1759: USATL",
+        "projectedTarget": "1759: USATL",
+        "resolution": "Resolved Exact",
+        "usageCount": 9,
+        "exactMatch": true,
+        "normalizedMatch": false,
+        "fallbackOTR": false,
+        "blocked": false,
+        "note": "Reused D1 read-only resolution."
+      },
+      {
+        "source": "2201: DEHAM",
+        "projectedTarget": "0560: DEHAM",
+        "resolution": "Resolved Normalized",
+        "usageCount": 20,
+        "exactMatch": false,
+        "normalizedMatch": true,
+        "fallbackOTR": false,
+        "blocked": false,
+        "note": "Reused D1 read-only resolution."
+      },
+      {
+        "source": "2501: SGSIN",
+        "projectedTarget": "1619: SGSIN",
+        "resolution": "Resolved Normalized",
+        "usageCount": 23,
+        "exactMatch": false,
+        "normalizedMatch": true,
+        "fallbackOTR": false,
+        "blocked": false,
+        "note": "Reused D1 read-only resolution."
+      },
+      {
+        "source": "9999: OTR",
+        "projectedTarget": "9999: OTR",
+        "resolution": "Resolved Exact",
+        "usageCount": 466,
+        "exactMatch": true,
+        "normalizedMatch": false,
+        "fallbackOTR": false,
+        "blocked": false,
+        "note": "Reused D1 read-only resolution."
+      },
+      {
+        "source": "AMS: Amsterdam",
+        "projectedTarget": "9999: OTR",
+        "resolution": "Fallback OTR",
+        "usageCount": 16,
+        "exactMatch": false,
+        "normalizedMatch": false,
+        "fallbackOTR": true,
+        "blocked": false,
+        "note": "Fallback OTR is not an exact airport/port match."
+      },
+      {
+        "source": "CAN: Guangzhou Baiyun",
+        "projectedTarget": "9999: OTR",
+        "resolution": "Fallback OTR",
+        "usageCount": 14,
+        "exactMatch": false,
+        "normalizedMatch": false,
+        "fallbackOTR": true,
+        "blocked": false,
+        "note": "Fallback OTR is not an exact airport/port match."
+      },
+      {
+        "source": "DXB: Dubai",
+        "projectedTarget": "9999: OTR",
+        "resolution": "Fallback OTR",
+        "usageCount": 9,
+        "exactMatch": false,
+        "normalizedMatch": false,
+        "fallbackOTR": true,
+        "blocked": false,
+        "note": "Fallback OTR is not an exact airport/port match."
+      },
+      {
+        "source": "LAX: Los Angeles",
+        "projectedTarget": "9999: OTR",
+        "resolution": "Fallback OTR",
+        "usageCount": 12,
+        "exactMatch": false,
+        "normalizedMatch": false,
+        "fallbackOTR": true,
+        "blocked": false,
+        "note": "Fallback OTR is not an exact airport/port match."
+      },
+      {
+        "source": "NRT: Tokyo Narita",
+        "projectedTarget": "9999: OTR",
+        "resolution": "Fallback OTR",
+        "usageCount": 16,
+        "exactMatch": false,
+        "normalizedMatch": false,
+        "fallbackOTR": true,
+        "blocked": false,
+        "note": "Fallback OTR is not an exact airport/port match."
+      },
+      {
+        "source": "PEK: Beijing Capital",
+        "projectedTarget": "9999: OTR",
+        "resolution": "Fallback OTR",
+        "usageCount": 21,
+        "exactMatch": false,
+        "normalizedMatch": false,
+        "fallbackOTR": true,
+        "blocked": false,
+        "note": "Fallback OTR is not an exact airport/port match."
+      },
+      {
+        "source": "PVG: Shanghai Pudong",
+        "projectedTarget": "9999: OTR",
+        "resolution": "Fallback OTR",
+        "usageCount": 17,
+        "exactMatch": false,
+        "normalizedMatch": false,
+        "fallbackOTR": true,
+        "blocked": false,
+        "note": "Fallback OTR is not an exact airport/port match."
+      },
+      {
+        "source": "SIN: Singapore",
+        "projectedTarget": "9999: OTR",
+        "resolution": "Fallback OTR",
+        "usageCount": 15,
+        "exactMatch": false,
+        "normalizedMatch": false,
+        "fallbackOTR": true,
+        "blocked": false,
+        "note": "Fallback OTR is not an exact airport/port match."
+      },
+      {
+        "source": "SZX: Shenzhen Baoan",
+        "projectedTarget": "9999: OTR",
+        "resolution": "Fallback OTR",
+        "usageCount": 16,
+        "exactMatch": false,
+        "normalizedMatch": false,
+        "fallbackOTR": true,
+        "blocked": false,
+        "note": "Fallback OTR is not an exact airport/port match."
+      }
+    ]
+  },
+  "owner": {
+    "phase": "Phase 1C-5R2G-D2",
+    "ownerTokens": [
+      "OWNER-DEMO-01",
+      "OWNER-DEMO-02",
+      "OWNER-DEMO-03",
+      "OWNER-DEMO-04",
+      "OWNER-DEMO-05",
+      "OWNER-DEMO-06"
+    ],
+    "d1CandidateAliases": [
+      "OWNER-CANDIDATE-01",
+      "OWNER-CANDIDATE-02"
+    ],
+    "candidateType": "Implementation-principal candidates from D1; ordinary interactive test-user status not proven in offline D2.",
+    "recommendedStrategy": "Map all six synthetic Owner tokens to one approved active ordinary interactive test user.",
+    "ownerCandidateMappingReady": true,
+    "ownerMappingApproved": false,
+    "approvalBlocker": "No approved ordinary interactive test user mapping is present in the supplied manifests.",
+    "dataverseQueryPerformedInD2": false
+  },
+  "departmentTeams": {
+    "tokens": [
+      "DEPT-01",
+      "DEPT-02",
+      "DEPT-03",
+      "DEPT-04",
+      "DEPT-05",
+      "DEPT-06",
+      "DEPT-91"
+    ],
+    "teamSetupPlanReady": true,
+    "teamSetupAuthorized": false,
+    "departmentTeamMappingApproved": false
+  },
+  "coverageDepartmentProjection": {
+    "海运出口": "DEPT-06",
+    "空运出口": "DEPT-06",
+    "空运进口": "DEPT-06",
+    "海运进口": "DEPT-06",
+    "国内运输": "DEPT-01",
+    "仓储运营": "DEPT-01",
+    "物流咨询": "DEPT-01",
+    "门店配送": "DEPT-02",
+    "电脑采购与部署": "DEPT-03",
+    "项目物流": "DEPT-04",
+    "危险品物流": "DEPT-05",
+    "绿色物流": "DEPT-91"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "phase": "Phase 1C-5R2G-D6-R3B",
+  "token": "TL-0653",
+  "projectionMode": "SameDayBodyDate",
+  "businessEffectiveDate": "2026-07-18",
+  "originalBodyHash": "e4d13b255c49658d38d72d155fbef0e7072363d9f3f0eb79c048a7c003a0ccc1",
+  "bodyMarkerCount": 1,
+  "overriddenCreatedOnSent": false,
+  "systemCreatedOnPresent": true,
+  "exactReadback": true,
+  "parentPreserved": true,
+  "subjectPreserved": true,
+  "attachment": false
+}

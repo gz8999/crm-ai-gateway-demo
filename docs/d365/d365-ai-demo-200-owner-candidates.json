@@ -1,0 +1,33 @@
+{
+  "phase": "Phase 1C-5R2G-D1",
+  "ownerTokens": [
+    "OWNER-DEMO-01",
+    "OWNER-DEMO-02",
+    "OWNER-DEMO-03",
+    "OWNER-DEMO-04",
+    "OWNER-DEMO-05",
+    "OWNER-DEMO-06"
+  ],
+  "candidateCount": 2,
+  "strategies": [
+    {
+      "id": "OWNER-STRATEGY-A",
+      "description": "Map all six synthetic Owner tokens to one approved implementation principal.",
+      "candidateAliases": [
+        "OWNER-CANDIDATE-01"
+      ],
+      "approved": false
+    },
+    {
+      "id": "OWNER-STRATEGY-B",
+      "description": "Distribute six synthetic Owner tokens across two approved implementation principals.",
+      "candidateAliases": [
+        "OWNER-CANDIDATE-01",
+        "OWNER-CANDIDATE-02"
+      ],
+      "approved": false
+    }
+  ],
+  "approvalRequired": true,
+  "ownerMappingApproved": false
+}

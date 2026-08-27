@@ -1,0 +1,89 @@
+{
+  "phase": "1C-3",
+  "title": "Create general Actual Management system view",
+  "dryRun": true,
+  "authorizationPhrase": "CONFIRM_D365_TEST_WRITE_PHASE_1C_3_VIEW",
+  "targetEnvironment": "https://your-org.crm.dynamics.com",
+  "solution": "CRMAIGatewayDemo",
+  "writes": {
+    "createSavedQuery": {
+      "name": "实绩管理 - AI Demo",
+      "defaultForSubgrid": true,
+      "demoOnly": false,
+      "fetchXmlFile": "docs/d365/phase1c0-actual-management-view-fetchxml-draft.xml",
+      "layoutXmlFile": "docs/d365/phase1c0-actual-management-view-layoutxml-draft.xml",
+      "columns": [
+        {
+          "logicalName": "aigw_name",
+          "width": 240
+        },
+        {
+          "logicalName": "aigw_opportunityid",
+          "width": 240
+        },
+        {
+          "logicalName": "aigw_expectedorderdate",
+          "width": 130
+        },
+        {
+          "logicalName": "aigw_annualactualrevenue",
+          "width": 150
+        },
+        {
+          "logicalName": "aigw_annualactualrevenue_base",
+          "width": 170
+        },
+        {
+          "logicalName": "modifiedon",
+          "width": 140
+        }
+      ]
+    },
+    "optionalDemoOnlyMainList": {
+      "deferred": true,
+      "suggestedName": "实绩管理 - AI Demo Only",
+      "defaultForSubgrid": false
+    },
+    "webApiDryRun": {
+      "headers": {
+        "MSCRM.SolutionUniqueName": "CRMAIGatewayDemo"
+      },
+      "requests": [
+        {
+          "method": "POST",
+          "endpoint": "/api/data/v9.2/savedqueries",
+          "payload": {
+            "name": "实绩管理 - AI Demo",
+            "returnedtypecode": "aigw_actualmanagement",
+            "querytype": 0,
+            "isquickfindquery": false,
+            "fetchxml": "<fetch version=\"1.0\" output-format=\"xml-platform\" mapping=\"logical\" distinct=\"false\">\n  <entity name=\"aigw_actualmanagement\">\n    <attribute name=\"aigw_name\" />\n    <attribute name=\"aigw_opportunityid\" />\n    <attribute name=\"aigw_expectedorderdate\" />\n    <attribute name=\"aigw_annualactualrevenue\" />\n    <attribute name=\"aigw_annualactualrevenue_base\" />\n    <attribute name=\"modifiedon\" />\n    <order attribute=\"modifiedon\" descending=\"true\" />\n  </entity>\n</fetch>\n",
+            "layoutxml": "<grid name=\"resultset\" object=\"{ACTUAL_MANAGEMENT_OBJECT_TYPE_CODE}\" jump=\"aigw_name\" select=\"1\" icon=\"1\" preview=\"1\">\n  <row name=\"result\" id=\"aigw_actualmanagementid\">\n    <cell name=\"aigw_name\" width=\"240\" />\n    <cell name=\"aigw_opportunityid\" width=\"240\" />\n    <cell name=\"aigw_expectedorderdate\" width=\"130\" />\n    <cell name=\"aigw_annualactualrevenue\" width=\"150\" />\n    <cell name=\"aigw_annualactualrevenue_base\" width=\"170\" />\n    <cell name=\"modifiedon\" width=\"140\" />\n  </row>\n</grid>\n"
+          }
+        }
+      ]
+    }
+  },
+  "prerequisites": [
+    "Table and relationship metadata IDs exist",
+    "ObjectTypeCode is read from created table",
+    "Draft LayoutXML object placeholder is replaced from metadata",
+    "aigw_annualactualrevenue_base exists as the generated base Money attribute"
+  ],
+  "validation": [
+    "Read SavedQuery",
+    "Verify six columns and widths",
+    "Verify no filter or link-entity",
+    "Execute FetchXML",
+    "Verify modifiedon descending"
+  ],
+  "publishImpact": "No PublishXml in Phase 1C-3. View visibility in App is not required.",
+  "rollback": "Record the new SavedQuery ID. Delete only that ID after separate delete authorization; never modify an existing view.",
+  "forbidden": [
+    "Production CRM",
+    "Existing Business Rule/BPF activation or modification",
+    "Opportunity data mutation unless explicitly stated",
+    "External LLM",
+    "Broad PublishXml"
+  ]
+}

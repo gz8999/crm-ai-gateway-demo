@@ -1,0 +1,30 @@
+{
+  "phase": "Phase 1C-6F-A",
+  "defaultDepartment": "all",
+  "filterBeforeSafeContext": true,
+  "counts": {
+    "all": 24,
+    "dept1-industry": 1,
+    "dept1-distribution": 2,
+    "dept2-lcms": 1,
+    "dept3-project-cargo": 1,
+    "dept3-dangerous-goods": 1,
+    "ff": 17,
+    "others": 1
+  },
+  "validatedSurfaces": [
+    "Opportunity count",
+    "State distribution",
+    "Risk queue",
+    "Portfolio aggregate",
+    "Meeting signals",
+    "Coverage",
+    "Timeline-derived signals"
+  ],
+  "browserEvidence": {
+    "ffCount": 17,
+    "fallback": "disabled",
+    "mixedPartialData": false
+  },
+  "ready": true
+}

@@ -1,0 +1,36 @@
+{
+  "phase": "Phase 1C-5R2G-D6",
+  "expectedRemaining": {
+    "win": 84,
+    "lose": 8
+  },
+  "attempted": {
+    "win": 0,
+    "lose": 0
+  },
+  "succeeded": {
+    "win": 0,
+    "lose": 0
+  },
+  "currentDistribution": {
+    "Won": 7,
+    "Active": 20,
+    "Lost": 1
+  },
+  "finalTargetDistribution": {
+    "Won": 91,
+    "Active": 100,
+    "Lost": 9
+  },
+  "currentOpportunityClose": {
+    "total": 8,
+    "win": 7,
+    "lose": 1,
+    "duplicate": 0,
+    "attachments": 0,
+    "newCloseCount": 0
+  },
+  "finalOpportunityCloseTarget": 100,
+  "statePatchCount": 0,
+  "completed": false
+}

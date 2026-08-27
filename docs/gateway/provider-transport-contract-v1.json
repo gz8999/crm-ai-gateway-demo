@@ -1,0 +1,140 @@
+{
+  "version": "Provider Transport Contract v1",
+  "canonicalTarget": "Decision Pack Model Response v2",
+  "schemaHash": "12838eecacdaabe7f2e1a55c660847652dcfc2abcb87e381f1b45d8aba851236",
+  "mappingPolicy": "deterministic-no-invention",
+  "schema": {
+    "type": "object",
+    "properties": {
+      "facts": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "label": { "type": "string" },
+            "value": { "type": "string" },
+            "evidenceToken": { "type": "string" }
+          },
+          "required": ["label", "value", "evidenceToken"],
+          "additionalProperties": false
+        }
+      },
+      "inferences": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "inference": { "type": "string" },
+            "evidenceTokens": { "type": "array", "items": { "type": "string" } }
+          },
+          "required": ["inference", "evidenceTokens"],
+          "additionalProperties": false
+        }
+      },
+      "evidence": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "evidenceToken": { "type": "string" },
+            "value": { "type": "string" }
+          },
+          "required": ["evidenceToken", "value"],
+          "additionalProperties": false
+        }
+      },
+      "confidence": {
+        "type": "object",
+        "properties": {
+          "level": { "type": "string", "enum": ["High", "Medium", "Low"] },
+          "reason": { "type": "string" }
+        },
+        "required": ["level", "reason"],
+        "additionalProperties": false
+      },
+      "recommendedActions": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "properties": {
+            "action": { "type": "string" },
+            "ownerRole": { "type": "string" },
+            "dueWindow": { "type": "string" },
+            "basis": { "type": "string" },
+            "draftStatus": { "type": "string", "enum": ["Draft only"] },
+            "evidenceTokens": { "type": "array", "items": { "type": "string" } }
+          },
+          "required": ["action", "ownerRole", "dueWindow", "basis", "draftStatus", "evidenceTokens"],
+          "additionalProperties": false
+        }
+      },
+      "priority": { "type": "string", "enum": ["Critical", "High", "Medium", "Low", "Monitor"] },
+      "riskCategories": { "type": "array", "items": { "type": "string" } },
+      "provider": { "type": "string" },
+      "model": { "type": "string" },
+      "modelVersion": { "type": "string" },
+      "fallback": {
+        "type": "object",
+        "properties": {
+          "state": { "type": "string", "enum": ["not_applicable", "used"] },
+          "reason": { "type": "string" }
+        },
+        "required": ["state", "reason"],
+        "additionalProperties": false
+      },
+      "safety": {
+        "type": "object",
+        "properties": {
+          "identityMasked": { "type": "boolean", "enum": [true] },
+          "exactAmountWithheld": { "type": "boolean", "enum": [true] },
+          "rawTimelineWithheld": { "type": "boolean", "enum": [true] },
+          "crmWritebackPerformed": { "type": "boolean", "enum": [false] },
+          "policyCodes": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": ["SAFE_CONTEXT_ONLY", "NO_RAW_CRM", "NO_IDENTITY", "NO_EXACT_AMOUNT", "NO_RAW_TIMELINE", "NO_CRM_WRITEBACK"]
+            }
+          }
+        },
+        "required": ["identityMasked", "exactAmountWithheld", "rawTimelineWithheld", "crmWritebackPerformed", "policyCodes"],
+        "additionalProperties": false
+      },
+      "limitations": {
+        "anyOf": [
+          {
+            "type": "object",
+            "properties": {
+              "codes": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "enum": ["IDENTITY_MASKED", "EXACT_AMOUNT_WITHHELD", "RAW_TIMELINE_WITHHELD", "INSUFFICIENT_EVIDENCE", "DATA_CONTRADICTION", "NO_ACTUAL_DATA", "NO_COVERAGE_DATA", "STALE_INTERACTION_DATA", "MODEL_UNCERTAINTY"]
+                }
+              }
+            },
+            "required": ["codes"],
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "properties": {
+              "codes": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "enum": ["IDENTITY_MASKED", "EXACT_AMOUNT_WITHHELD", "RAW_TIMELINE_WITHHELD", "INSUFFICIENT_EVIDENCE", "DATA_CONTRADICTION", "NO_ACTUAL_DATA", "NO_COVERAGE_DATA", "STALE_INTERACTION_DATA", "MODEL_UNCERTAINTY", "OTHER_APPROVED_LIMITATION"]
+                }
+              },
+              "otherCodeDetail": { "type": "string" }
+            },
+            "required": ["codes", "otherCodeDetail"],
+            "additionalProperties": false
+          }
+        ]
+      }
+    },
+    "required": ["facts", "inferences", "evidence", "confidence", "recommendedActions", "priority", "riskCategories", "provider", "model", "modelVersion", "fallback", "safety", "limitations"],
+    "additionalProperties": false
+  }
+}

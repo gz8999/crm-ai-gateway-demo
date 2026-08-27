@@ -1,0 +1,65 @@
+{
+  "phase": "Phase 1C-5R2G-C1-R1",
+  "mode": "offline-workbook-correction",
+  "source": {
+    "file": "CRM_AI_Gateway_D365_Chinese_Demo_Data_v4.xlsx",
+    "sizeBytes": 731565,
+    "sha256": "f08a94a3caa62950dbaa96e2767e39afe6c79072296394db9d8736a3b2f683fd",
+    "modified": false
+  },
+  "derived": {
+    "file": "CRM_AI_Gateway_D365_Chinese_Demo_Data_v4_1.xlsx",
+    "sizeBytes": 732677,
+    "sha256": "1447d01c62e8e692c871ff9b0189a11bfc8eb48457a7eb47e09509878747b268",
+    "reimportSucceeded": true,
+    "formulaErrorCount": 0
+  },
+  "validation": {
+    "rowCount": 150,
+    "columnCount": 123,
+    "parentcontactidPresent": true,
+    "primarycontactidPresent": false,
+    "medicalDevice20Count": 12,
+    "goods21Count": 0,
+    "detail91IncorrectLabelCount": 0,
+    "goods91IncorrectLabelCount": 0,
+    "global91IncorrectLabelCount": 0,
+    "businessRowCount": 3000,
+    "stableTokensPreserved": true,
+    "knownUnknownLogicalNamesAfterCorrection": 0,
+    "knownChoiceConflictGroupsAfterCorrection": 0,
+    "dataverseRequests": 0,
+    "dataverseWrites": 0,
+    "productionRequests": 0,
+    "externalLlmCalls": 0
+  },
+  "issues": {
+    "p0": 0,
+    "p1": 3,
+    "p2": 1,
+    "remainingP1": [
+      "Owner Token mapping not approved",
+      "Signal Department Team mapping not approved",
+      "3-Account Pilot contract cannot cover five mandatory scenarios"
+    ],
+    "remainingP2": [
+      "Opportunity Type and Case Stage use approved simplified Chinese display labels rather than exact Metadata label text"
+    ]
+  },
+  "gates": {
+    "OriginalV4IntegrityReady": true,
+    "DerivedV4_1Generated": true,
+    "ContactLookupContractReady": true,
+    "KnownUnknownLogicalNames": 0,
+    "ChoiceMetadataContractReady": true,
+    "ChoiceSemanticConflictCount": 0,
+    "WorkbookTechnicalValidationReady": true,
+    "OwnerMappingApproved": false,
+    "DepartmentTeamMappingApproved": false,
+    "PilotDatasetDefined": false,
+    "PilotWorkbookGenerated": false,
+    "PilotImportReady": false,
+    "PilotImportAuthorized": false,
+    "FullImportReady": false
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "ready": true,
+  "profile": "v6-r6",
+  "transportContractVersion": "Provider Transport Contract v7",
+  "cardinalityContractVersion": "Decision Pack Cardinality Contract v1",
+  "cardinalityContractHash": "fce9a5277979b6c35d515395720892857ae7afcb756d627cfac6b1811792376b",
+  "toolSchemaHash": "c93f3998a705af0a3fa9de3943d66be69b64f7c2aad0b278397b3c4492b72ce6",
+  "runtimeSchemaHash": "c93f3998a705af0a3fa9de3943d66be69b64f7c2aad0b278397b3c4492b72ce6",
+  "schemaCardinalityMismatchCount": 0,
+  "runtimeOnlyCardinalityRules": 0,
+  "toolOnlyCardinalityRules": 0,
+  "independentCardinalityConstants": 0,
+  "directChecks": [
+    {
+      "path": "facts",
+      "rejectedAtToolSchema": true
+    },
+    {
+      "path": "inferences",
+      "rejectedAtToolSchema": true
+    },
+    {
+      "path": "recommendedActions",
+      "rejectedAtToolSchema": true
+    },
+    {
+      "path": "riskCategories",
+      "rejectedAtToolSchema": true
+    },
+    {
+      "path": "limitations.codes",
+      "rejectedAtToolSchema": true
+    },
+    {
+      "path": "inference.evidenceTokens",
+      "rejectedAtToolSchema": true
+    },
+    {
+      "path": "action.evidenceTokens",
+      "rejectedAtToolSchema": true
+    },
+    {
+      "path": "riskCategory.evidenceTokens",
+      "rejectedAtToolSchema": true
+    }
+  ],
+  "lint": {
+    "serializable": true,
+    "totalSchemaNodeCount": 387,
+    "typedNodeCount": 166,
+    "anyOfNodeCount": 14,
+    "refNodeCount": 207,
+    "missingTypeAnyOfRefCount": 0,
+    "missingTypeAnyOfRefPaths": [],
+    "objectCount": 91,
+    "requiredCoverageCount": 91,
+    "missingRequiredCount": 0,
+    "missingRequiredPaths": [],
+    "missingAdditionalPropertiesCount": 0,
+    "missingAdditionalPropertiesPaths": [],
+    "missingArrayItemsCount": 0,
+    "missingArrayItemsPaths": [],
+    "unsupportedKeywordCount": 0,
+    "unsupportedKeywords": [],
+    "schemaHash": "c93f3998a705af0a3fa9de3943d66be69b64f7c2aad0b278397b3c4492b72ce6"
+  },
+  "requestShapeReady": true
+}

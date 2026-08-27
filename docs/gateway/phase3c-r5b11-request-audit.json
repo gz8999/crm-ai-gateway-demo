@@ -1,0 +1,76 @@
+{
+  "phase": "PHASE3C-R5B11",
+  "status": "stopped-safety",
+  "stopReason": "RISK_CATEGORY_INVALID",
+  "provider": "openai-compatible",
+  "model": "deepseek-v4-pro",
+  "endpointAlias": "deepseek-beta",
+  "hashes": {
+    "syntheticInputHash": "c29324c327e500c9e9a8ac7d17edee4f581df91659ca9943dbc22874ab6e3ac0",
+    "requestEnvelopeHash": "0200042697a2d56fcafc0967ea968c8faa053c0d7a98da8581cb5f1749db44e1",
+    "transportSchemaHash": "12838eecacdaabe7f2e1a55c660847652dcfc2abcb87e381f1b45d8aba851236",
+    "canonicalSchemaHash": "fb5f9464ff2e4728b5a28b6f278ccbfe9b9683563435b30821b19a130d5a44d4",
+    "evidenceAllowlistHash": "faac004aae1092399acaee8c961aae4f9be4133993ccfe9f405d7e79a0f2394d"
+  },
+  "counts": {
+    "externalLlmCalls": 1,
+    "probe1Calls": 1,
+    "probe2Calls": 0,
+    "httpSuccess": 1,
+    "toolCallSuccess": 1,
+    "jsonParseAttempts": 1,
+    "jsonParseSuccess": 1,
+    "transportSchemaAttempts": 1,
+    "transportSchemaSuccess": 1,
+    "actionEvidenceValidationAttempts": 1,
+    "actionEvidenceValidationSuccess": 1,
+    "canonicalMappingAttempts": 1,
+    "canonicalMappingSuccess": 1,
+    "canonicalContractAttempts": 1,
+    "canonicalContractSuccess": 1,
+    "evidenceValidationAttempts": 1,
+    "evidenceValidationSuccess": 1,
+    "safetyAttempts": 1,
+    "safetySuccess": 1,
+    "retry": 0,
+    "fallback": 0,
+    "d365Get": 0,
+    "crmPost": 0,
+    "crmPatch": 0,
+    "crmDelete": 0,
+    "crmWriteback": false,
+    "productionRequests": 0,
+    "browserExternalRequests": 0,
+    "latencyMs": [
+      11469
+    ],
+    "inputTokens": 1729,
+    "outputTokens": 951,
+    "totalTokens": 2680,
+    "estimatedCostUsd": 0.00268
+  },
+  "probes": [
+    {
+      "probe": 1,
+      "requestToken": "R5B11-SYNTH-1",
+      "requestCorrelationHash": "d747bd08c8d4a9fff2e64f3e3c45b9429cbdf5286a9525098bb323a194720c13",
+      "requestEnvelopeHash": "0200042697a2d56fcafc0967ea968c8faa053c0d7a98da8581cb5f1749db44e1",
+      "responseBodyHash": "821e67869dc1259dd528fa36b801787f073f667684d27f26286981a2eef01076",
+      "argumentHash": "5769a982672168a8f227c9a74b88b823fdd18c5cda3a02da57aae60439730a59",
+      "httpStatus": 200,
+      "finishReason": "tool_calls",
+      "toolCallCount": 1,
+      "argumentType": "string",
+      "argumentLength": 3039,
+      "usage": {
+        "prompt_tokens": 1729,
+        "completion_tokens": 951,
+        "total_tokens": 2680
+      },
+      "latencyMs": 11469,
+      "estimatedCostUsd": 0.00268,
+      "ready": false,
+      "failureCategory": "RISK_CATEGORY_INVALID"
+    }
+  ]
+}

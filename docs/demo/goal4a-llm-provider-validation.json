@@ -1,0 +1,32 @@
+{
+  "preflight": {
+    "providerConfigured": true,
+    "externalAuthorization": true,
+    "browserDirectCalls": 0,
+    "crmWriteback": false,
+    "productionRequests": 0,
+    "retryCount": 0,
+    "fallbackCount": 0,
+    "syntheticInput": {
+      "testOnly": true,
+      "syntheticProbe": true,
+      "d365Record": false,
+      "runtimeEligible": false,
+      "realCanary": false,
+      "realCrmTokenCount": 0,
+      "forbiddenFieldCount": 0
+    }
+  },
+  "synthetic": [],
+  "realCanary": {
+    "ok": true,
+    "skipped": true,
+    "reason": "previously_passed_in_prior_run"
+  },
+  "scenarioCount": 5,
+  "externalCalls": 16,
+  "newExternalCalls": 5,
+  "retries": 0,
+  "fallback": 0,
+  "externalLayerReady": false
+}

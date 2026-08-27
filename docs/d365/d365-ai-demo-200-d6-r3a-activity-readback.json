@@ -1,0 +1,14 @@
+{
+  "phase": "Phase 1C-5R2G-D6-R3A",
+  "status": "FAILED_SAFE_STOP",
+  "currentTimelineCount": 1568,
+  "importedTimelineExcludesOpportunityClose": true,
+  "attachmentCount": 0,
+  "bodyHashMismatchCount": 0,
+  "dateProjectionMismatchCount": 1,
+  "failed": {
+    "token": "TL-0653",
+    "businessEffectiveDate": "2026-07-18",
+    "systemDateWriteRejected": true
+  }
+}

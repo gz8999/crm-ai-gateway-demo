@@ -1,0 +1,122 @@
+{
+  "phase": "Phase 1C-5R2G-D5-R2",
+  "environmentAlias": "TEST-ORG",
+  "completedAt": "2026-07-17T11:18:12.076Z",
+  "authorization": {
+    "winCanaryAuthorized": true,
+    "opportunityToken": "DEMO-OPP-015",
+    "allowedSuccessfulActions": 1,
+    "remainingWinActionsAuthorized": false,
+    "loseActionAuthorized": false,
+    "cleanupAuthorized": false,
+    "fullImportAuthorized": false
+  },
+  "action": {
+    "type": "WinOpportunity",
+    "attempts": 1,
+    "successes": 1,
+    "httpStatus": 204,
+    "status": 3,
+    "actualRevenue": 3898,
+    "actualRevenueSource": "ACT-008 frozen projection and exact CRM readback",
+    "actualEnd": "2026-05-01",
+    "directCloseFieldPatch": false
+  },
+  "before": {
+    "opportunityStateStatus": "0/1",
+    "actualCloseDate": null,
+    "opportunityCloseCount": 0,
+    "importedTimelineCount": 12,
+    "activityAggregateCount": 9,
+    "targetBpfInstanceCount": 1,
+    "targetBpfDuplicateCount": 0,
+    "activeOpportunityCount": 24
+  },
+  "after": {
+    "opportunityStateStatus": "1/3",
+    "actualCloseDate": "2026-05-01",
+    "opportunityActualValue": 3898,
+    "opportunityCloseCount": 1,
+    "opportunityCloseAttachmentCount": 0,
+    "importedTimelineCount": 12,
+    "activityAggregateCount": 10,
+    "targetBpfInstanceCount": 1,
+    "targetBpfDuplicateCount": 0,
+    "stateDistribution": {
+      "Won": 1,
+      "Active": 23,
+      "Lost": 0
+    }
+  },
+  "pilot": {
+    "explicitRecordCount": 427,
+    "entityCounts": {
+      "Account": 7,
+      "Contact": 9,
+      "Opportunity": 24,
+      "ServiceCoverage": 15,
+      "ActualManagement": 12,
+      "Timeline": 206,
+      "InteractionSignal": 154
+    },
+    "targetBpfInstanceCount": 24,
+    "duplicateBpfCount": 0,
+    "unexpectedProcessCount": 0,
+    "pluginEnabled": 7,
+    "pluginDisabled": 0
+  },
+  "bpfPlatformSideEffectClassification": {
+    "code": "A",
+    "label": "BPF Close Side Effect=None",
+    "severity": null
+  },
+  "requests": {
+    "PreflightGET": 503,
+    "BusinessCRMGET": 866,
+    "OpportunityCloseGET": 4,
+    "BPFGET": 138,
+    "WinOpportunityAttempts": 1,
+    "WinOpportunitySuccess": 1,
+    "LoseOpportunity": 0,
+    "PATCH": 0,
+    "DELETE": 0,
+    "Publish": 0,
+    "BPFWrites": 0,
+    "OtherStateActions": 0,
+    "ProductionRequests": 0,
+    "ExternalLLMCalls": 0
+  },
+  "issues": {
+    "p0": 0,
+    "p1": 0,
+    "p2": 0
+  },
+  "gates": {
+    "winCanaryAuthorized": true,
+    "winCanaryPreflightReady": true,
+    "winCanaryActionExecuted": true,
+    "winCanaryReadbackReady": true,
+    "opportunityWonStateReady": true,
+    "opportunityCloseReady": true,
+    "actualRevenueIntegrityReady": true,
+    "actualCloseDateIntegrityReady": true,
+    "importedTimelineIntegrityReady": true,
+    "interactionSignalIntegrityReady": true,
+    "actualManagementIntegrityReady": true,
+    "bpfInstanceIntegrityReady": true,
+    "nonCanaryOpportunityIntegrityReady": true,
+    "productionIsolationReady": true,
+    "remainingWinActionsAuthorized": false,
+    "loseActionAuthorized": false,
+    "pilotStateActionsCompleted": false,
+    "pilotImportCompleted": false,
+    "pilotCleanupAuthorized": false,
+    "cleanupExecuted": false,
+    "fullImportStarted": false
+  },
+  "blockers": [
+    "The remaining six WinOpportunity actions require separate authorization.",
+    "The single LoseOpportunity action requires separate authorization.",
+    "Pilot cleanup and Full Import remain unauthorized."
+  ]
+}

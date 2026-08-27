@@ -1,0 +1,50 @@
+{
+  "phase": "PHASE3C-R5B1",
+  "records": [
+    {
+      "requestToken": "R5B1-SYNTH-TOOL-001",
+      "provider": "openai-compatible",
+      "model": "deepseek-v4-pro",
+      "endpointAlias": "deepseek-beta",
+      "contextVersion": "Synthetic Safe Context v1",
+      "requestSchemaHash": "a376afe2f6bd222b626d40413c6b971e5993d673785d371520487cda5ad2b1d2",
+      "requestBodyHash": "d995cab903283135357cba25f2b942845ea8666184d752b7c35fd9fed25cc0fe",
+      "responseBodyHash": "7b6cc850c67ccfcb95e4b537356088abb00e6ed96f0c1178012407b679f1d8bf",
+      "toolArgumentsHash": null,
+      "latencyMs": 191,
+      "tokenUsage": null,
+      "estimatedCostUsd": null,
+      "httpStatus": 400,
+      "contractResult": "not-run",
+      "safetyResult": "not-run",
+      "errorObservation": {
+        "providerErrorObservabilityVersion": "Provider Error Observability Contract v1",
+        "httpStatus": 400,
+        "providerErrorCode": "invalid_request_error",
+        "providerErrorType": "invalid_request_error",
+        "providerErrorParam": null,
+        "sanitizedErrorMessage": "Invalid tool parameters schema : one of `type`, `anyOf`, `$ref` field is required",
+        "requestCorrelationToken": "R5B1-SYNTH-TOOL-001",
+        "responseTimestamp": "2026-07-19T04:26:50.104Z",
+        "endpointAlias": "deepseek-beta",
+        "modelAlias": "deepseek-v4-pro",
+        "requestSchemaHash": "a376afe2f6bd222b626d40413c6b971e5993d673785d371520487cda5ad2b1d2",
+        "requestBodyHash": "d995cab903283135357cba25f2b942845ea8666184d752b7c35fd9fed25cc0fe",
+        "responseBodyHash": "7b6cc850c67ccfcb95e4b537356088abb00e6ed96f0c1178012407b679f1d8bf",
+        "bodyTruncated": false,
+        "bodyAvailable": true,
+        "contentType": "application/octet-stream",
+        "bodyLength": 180
+      },
+      "rawRequestBody": false,
+      "rawResponseBody": false,
+      "safeContextStored": false
+    }
+  ],
+  "externalLlmCalls": 1,
+  "retryCount": 0,
+  "fixtureFallbackCount": 0,
+  "stopReason": "provider_http_400",
+  "crmWriteback": false,
+  "productionRequests": 0
+}

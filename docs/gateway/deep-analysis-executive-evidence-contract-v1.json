@@ -1,0 +1,28 @@
+{
+  "version": "Deep Analysis Executive Evidence Contract v1",
+  "contractHash": "06cbc257c7b36912787556bbbc0190a39867aa586a50b2f610465ad8919477a7",
+  "topLevel": {
+    "required": [
+      "executiveSummary",
+      "timelineConclusion",
+      "customerPosition",
+      "decisionClarity",
+      "keyThemes",
+      "blockers",
+      "contradictions",
+      "risks",
+      "opportunities",
+      "recommendedActions",
+      "evidenceAliases",
+      "confidenceBand",
+      "limitations"
+    ],
+    "additionalProperties": false
+  },
+  "evidenceAliases": { "minItems": 1, "maxItems": 8, "uniqueItems": true },
+  "keyThemes": { "minItems": 1, "maxItems": 3, "fields": ["title", "analysis", "evidenceAliases"] },
+  "contradictions": { "minItems": 0, "maxItems": 3, "fields": ["analysis", "evidenceAliases", "confidenceBand"] },
+  "otherEvidenceItems": { "minItems": 0, "maxItems": 3, "fields": ["analysis", "evidenceAliases"] },
+  "recommendedActions": { "minItems": 0, "maxItems": 5, "fields": ["action", "reason", "evidenceAliases"] },
+  "evidenceAliasesPerItem": { "minItems": 1, "maxItems": 4, "uniqueItems": true }
+}

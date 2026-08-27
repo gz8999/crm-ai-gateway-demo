@@ -1,0 +1,151 @@
+{
+  "phase": "Phase 1C-5R2G-D2",
+  "teamType": "Owner Team",
+  "businessUnit": "Test environment target Business Unit; read-only confirmation required before creation.",
+  "teams": [
+    {
+      "token": "DEPT-01",
+      "proposedName": "CRM-AI-DEMO-DEPT-01",
+      "createAuthorized": false,
+      "memberStrategy": "One approved ordinary interactive Demo user plus explicitly approved observers only.",
+      "mappingApproved": false
+    },
+    {
+      "token": "DEPT-02",
+      "proposedName": "CRM-AI-DEMO-DEPT-02",
+      "createAuthorized": false,
+      "memberStrategy": "One approved ordinary interactive Demo user plus explicitly approved observers only.",
+      "mappingApproved": false
+    },
+    {
+      "token": "DEPT-03",
+      "proposedName": "CRM-AI-DEMO-DEPT-03",
+      "createAuthorized": false,
+      "memberStrategy": "One approved ordinary interactive Demo user plus explicitly approved observers only.",
+      "mappingApproved": false
+    },
+    {
+      "token": "DEPT-04",
+      "proposedName": "CRM-AI-DEMO-DEPT-04",
+      "createAuthorized": false,
+      "memberStrategy": "One approved ordinary interactive Demo user plus explicitly approved observers only.",
+      "mappingApproved": false
+    },
+    {
+      "token": "DEPT-05",
+      "proposedName": "CRM-AI-DEMO-DEPT-05",
+      "createAuthorized": false,
+      "memberStrategy": "One approved ordinary interactive Demo user plus explicitly approved observers only.",
+      "mappingApproved": false
+    },
+    {
+      "token": "DEPT-06",
+      "proposedName": "CRM-AI-DEMO-DEPT-06",
+      "createAuthorized": false,
+      "memberStrategy": "One approved ordinary interactive Demo user plus explicitly approved observers only.",
+      "mappingApproved": false
+    },
+    {
+      "token": "DEPT-91",
+      "proposedName": "CRM-AI-DEMO-DEPT-91",
+      "createAuthorized": false,
+      "memberStrategy": "One approved ordinary interactive Demo user plus explicitly approved observers only.",
+      "mappingApproved": false
+    }
+  ],
+  "minimumRole": {
+    "name": "CRM AI Demo Department Minimal",
+    "permissions": [
+      {
+        "entity": "account",
+        "create": false,
+        "read": "BusinessUnit",
+        "write": false,
+        "delete": false,
+        "append": true,
+        "appendTo": false
+      },
+      {
+        "entity": "contact",
+        "create": false,
+        "read": "BusinessUnit",
+        "write": false,
+        "delete": false,
+        "append": true,
+        "appendTo": false
+      },
+      {
+        "entity": "opportunity",
+        "create": false,
+        "read": "BusinessUnit",
+        "write": false,
+        "delete": false,
+        "append": true,
+        "appendTo": true
+      },
+      {
+        "entity": "aigw_customerservicecoverage",
+        "create": true,
+        "read": "BusinessUnit",
+        "write": "User",
+        "delete": false,
+        "append": true,
+        "appendTo": true
+      },
+      {
+        "entity": "aigw_actualmanagement",
+        "create": true,
+        "read": "BusinessUnit",
+        "write": "User",
+        "delete": false,
+        "append": true,
+        "appendTo": true
+      },
+      {
+        "entity": "aigw_interactionsignal",
+        "create": true,
+        "read": "BusinessUnit",
+        "write": "User",
+        "delete": false,
+        "append": true,
+        "appendTo": true
+      },
+      {
+        "entity": "phonecall/appointment/task/annotation",
+        "create": true,
+        "read": "BusinessUnit",
+        "write": "User",
+        "delete": false,
+        "append": true,
+        "appendTo": true
+      },
+      {
+        "entity": "aigw_location/POL-POD",
+        "create": false,
+        "read": "Organization",
+        "write": false,
+        "delete": false,
+        "append": false,
+        "appendTo": true
+      }
+    ],
+    "privilegesExplicitlyDenied": [
+      "Delete business data",
+      "Customization",
+      "Publish",
+      "Security role administration",
+      "Team administration outside this setup",
+      "Production access"
+    ]
+  },
+  "runtimeTests": [
+    "Ordinary user can read selected Account/Contact/Opportunity.",
+    "Ordinary user can create Coverage/Actual/Signal and append to selected parents.",
+    "Ordinary user can create phonecall/appointment/task/annotation; Email and attachments remain prohibited.",
+    "User cannot delete business data or modify schema/security.",
+    "Each DEPT token resolves to exactly one distinct active Team."
+  ],
+  "teamSetupPlanReady": true,
+  "teamSetupAuthorized": false,
+  "departmentTeamMappingApproved": false
+}

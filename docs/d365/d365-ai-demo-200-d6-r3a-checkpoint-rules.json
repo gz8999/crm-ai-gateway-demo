@@ -1,0 +1,32 @@
+{
+  "phase": "Phase 1C-5R2G-D6-R3A",
+  "active": {
+    "statecode": 0,
+    "statuscode": 1,
+    "actualclosedate": null
+  },
+  "won": {
+    "statecode": 1,
+    "statuscode": 3,
+    "actualclosedate": "frozen-state-action-date"
+  },
+  "lost": {
+    "statecode": 2,
+    "statuscode": 4,
+    "actualclosedate": "frozen-state-action-date"
+  },
+  "batchComparison": [
+    "statecode",
+    "statuscode",
+    "actualclosedate",
+    "protectedBusinessHash",
+    "owner",
+    "department",
+    "account",
+    "contact",
+    "bpfInstance",
+    "bpfStage",
+    "bpfTraversedPath"
+  ],
+  "allOpportunityCloseDatesMustBeNull": false
+}

@@ -1,0 +1,167 @@
+{
+  "phase": "Phase 1C-5R2G-D1",
+  "generatedAt": "2026-07-17T03:24:33.775Z",
+  "host": "org91f5f65f.crm5.dynamics.com",
+  "workbook": {
+    "path": "artifacts/d365/CRM_AI_Gateway_D365_Demo_200_v1.xlsx",
+    "size": 828128,
+    "sha256": "8b5ccf042669b64a42652fde5cac901ffd599408a3dab5911cd884c0c2c9aacb"
+  },
+  "counts": {
+    "Account": 60,
+    "Contact": 120,
+    "Opportunity": 200,
+    "ActualManagement": 130,
+    "ServiceCoverage": 240,
+    "Timeline": 1800,
+    "InteractionSignal": 1350,
+    "TotalBusinessRows": 3900
+  },
+  "stateDistribution": {
+    "赢单": 91,
+    "开放": 100,
+    "丢单": 9
+  },
+  "salesDepartmentDistribution": {
+    "06: FF": 172,
+    "04: Dept3(Project Cargo)": 3,
+    "01: Dept1(Industry)": 11,
+    "02: Dept1(Distribution)": 4,
+    "05: Dept3(Dangerous Goods)": 2,
+    "91: Others": 2,
+    "03: Dept2(LCMS)": 6
+  },
+  "timeline": {
+    "count": 1800,
+    "exactDuplicateCount": 0,
+    "normalizedUniqueRatio": 1,
+    "appointmentCount": 448,
+    "invalidAppointmentCount": 0
+  },
+  "signal": {
+    "count": 1350,
+    "missingSourceCount": 0,
+    "coverageRatio": 0.75
+  },
+  "anonymization": {
+    "guidCount": 0,
+    "emailCount": 0,
+    "phoneCount": 0,
+    "productionHostnameCount": 0,
+    "sourceOverlap": {
+      "customerNameExactOverlap": 0,
+      "caseNameExactOverlap": 0,
+      "descriptionExactOverlap": 0,
+      "budgetExactOverlap": 0,
+      "guidCount": 0,
+      "emailCount": 0,
+      "phoneCount": 0
+    }
+  },
+  "references": {
+    "CNYMatches": 1,
+    "activeLocations": 51,
+    "activePolPodLocations": 2072,
+    "missingLocations": [],
+    "missingPolPod": [
+      "NRT: Tokyo Narita",
+      "PEK: Beijing Capital",
+      "AMS: Amsterdam",
+      "SZX: Shenzhen Baoan",
+      "SIN: Singapore",
+      "CAN: Guangzhou Baiyun",
+      "PVG: Shanghai Pudong",
+      "LAX: Los Angeles",
+      "0404: CNTNJ",
+      "DXB: Dubai"
+    ]
+  },
+  "requests": {
+    "metadataGET": 104,
+    "choiceMetadataGET": 43,
+    "relationshipMetadataGET": 15,
+    "referenceMasterGET": 3,
+    "systemUserGET": 2,
+    "teamGET": 1,
+    "securityMetadataGET": 46,
+    "businessCRMGET": 0,
+    "POST": 0,
+    "PATCH": 0,
+    "DELETE": 0,
+    "Publish": 0,
+    "productionRequests": 0,
+    "externalLLMCalls": 0
+  },
+  "p0": [],
+  "p1": [
+    {
+      "id": "TEAM-SETUP",
+      "detail": "Seven distinct approved department Teams are not available."
+    },
+    {
+      "id": "REFERENCE-POLPOD",
+      "detail": [
+        "NRT: Tokyo Narita",
+        "PEK: Beijing Capital",
+        "AMS: Amsterdam",
+        "SZX: Shenzhen Baoan",
+        "SIN: Singapore",
+        "CAN: Guangzhou Baiyun",
+        "PVG: Shanghai Pudong",
+        "LAX: Los Angeles",
+        "0404: CNTNJ",
+        "DXB: Dubai"
+      ]
+    }
+  ],
+  "p2": [
+    {
+      "id": "CHOICE-CONSOLIDATION",
+      "detail": "21 source labels use explicit consolidation mapping."
+    },
+    {
+      "id": "DISPLAY-COLUMNS",
+      "detail": "Display-only source columns remain outside the future CRM projection."
+    }
+  ],
+  "gates": {
+    "Demo200WorkbookIntegrityReady": true,
+    "Demo200AuthoritativeWorkbookReady": true,
+    "DatasetCountReady": true,
+    "DepartmentDistributionReady": true,
+    "DepartmentBusinessContractReady": true,
+    "OpportunityNarrativeReady": true,
+    "TimelineQualityReady": true,
+    "InteractionSignalReady": true,
+    "AnonymizationReady": true,
+    "FieldMetadataPreflightReady": true,
+    "UnknownLogicalNames": 0,
+    "ChoiceMetadataPreflightReady": true,
+    "UnknownChoiceValues": 0,
+    "ChoiceSemanticConflictCount": 0,
+    "OwnerCandidateMappingReady": true,
+    "OwnerMappingApproved": false,
+    "DepartmentTeamCandidatesReady": false,
+    "DepartmentTeamMappingApproved": false,
+    "TeamSetupRequired": true,
+    "CoverageDepartmentProjectionReady": true,
+    "ImportProjectionReady": false,
+    "ImportProjectionWorkbookGenerated": false,
+    "PilotCandidateDefined": true,
+    "PilotCandidateOpportunityCount": 25,
+    "PilotCoversAllSevenDepartments": true,
+    "PilotWorkbookGenerated": false,
+    "P0Count": 0,
+    "P1Count": 2,
+    "P2Count": 2,
+    "DataverseWrites": 0,
+    "BusinessCRMReads": 0,
+    "ProductionRequests": 0,
+    "ExternalLLMCalls": 0,
+    "PilotImportReady": false,
+    "PilotImportAuthorized": false,
+    "FullImportReady": false,
+    "DemoDataGenerationCompleted": true,
+    "V2V3V4V4_1SupersededForImport": true
+  }
+}

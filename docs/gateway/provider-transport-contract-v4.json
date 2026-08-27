@@ -1,0 +1,75 @@
+{
+  "version": "Provider Transport Contract v4",
+  "profile": "v6-r3",
+  "purpose": "Reduce Tool Arguments serialization risk while preserving strict evidence, safety, and Canonical v2 contracts.",
+  "activation": "explicit-opt-in",
+  "requestScopedSchema": true,
+  "evidenceReferences": {
+    "facts": "request evidence token enum",
+    "inferences": "request evidence token enum",
+    "evidence": "request evidence token enum",
+    "recommendedActions": "request evidence token enum",
+    "riskCategories": "request category and compatible evidence anyOf"
+  },
+  "freeText": {
+    "singleLine": true,
+    "maximumCharactersByPattern": 240,
+    "forbidden": [
+      "double quote",
+      "backslash",
+      "U+0000 through U+001F control characters"
+    ],
+    "schemaKeyword": "pattern"
+  },
+  "fixedValues": {
+    "ownerRole": "待人工指定",
+    "dueWindow": "待人工确定",
+    "provider": "openai-compatible",
+    "model": "request configured model",
+    "modelVersion": "request configured model",
+    "fallbackState": "not_applicable",
+    "fallbackReason": "NONE"
+  },
+  "parsing": {
+    "removeUtf8Bom": true,
+    "trimOuterWhitespace": true,
+    "jsonParseAttempts": 1,
+    "repair": false,
+    "retry": false,
+    "fallback": false
+  },
+  "safeDiagnostics": {
+    "rawArgumentsStored": false,
+    "rawResponseStored": false,
+    "allowed": [
+      "arguments length",
+      "arguments SHA-256",
+      "first and last character category",
+      "brace and bracket counts",
+      "JSON parse error type and position",
+      "token usage",
+      "latency"
+    ]
+  },
+  "strictSchema": {
+    "schemaHashForR5CShape": "63e279545bc601ff16d89c4cad4ede283c029c25c647ca13506106de1b07e27e",
+    "schemaBytesForR5CShape": 6652,
+    "schemaNodeCount": 84,
+    "missingTypeAnyOfRefCount": 0,
+    "missingRequiredCount": 0,
+    "missingAdditionalPropertiesCount": 0,
+    "unsupportedKeywordCount": 0
+  },
+  "historicalCompatibility": {
+    "v1SchemaHash": "12838eecacdaabe7f2e1a55c660847652dcfc2abcb87e381f1b45d8aba851236",
+    "v2SchemaHash": "69083368d8ea37beb074441a723eb274cfbcebb6ef86b5a429ff90695e74869d",
+    "r5cV6R2SchemaHash": "9f60da6a132df46cd44d12efaf49d516ac989f79446b32b22d3ab6da60a3f5eb",
+    "legacyProfilesModified": false,
+    "historicalEvidenceModified": false
+  },
+  "runtimeStatus": {
+    "offlineReady": true,
+    "providerCompatibilityReady": false,
+    "realCanaryAuthorized": false
+  }
+}

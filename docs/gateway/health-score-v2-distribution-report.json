@@ -1,0 +1,192 @@
+{
+  "contractVersion": "Opportunity Health Score Contract v2",
+  "scoreCount": 200,
+  "summary": {
+    "count": 200,
+    "averageScore": 80.61,
+    "minimumScore": 59.8,
+    "maximumScore": 93.22,
+    "gradeDistribution": {
+      "S": 68,
+      "A": 23,
+      "B": 61,
+      "C": 46,
+      "D": 2,
+      "Z": 0
+    }
+  },
+  "runtimeStateDistribution": {
+    "active": 100,
+    "won": 91,
+    "lost": 9
+  },
+  "scenarioCalibration": {
+    "count": 8,
+    "rows": [
+      {
+        "scenarioId": "stalled-high-value",
+        "opportunityToken": "DEMO-6C-OPP-001",
+        "healthScore": 50.15,
+        "grade": "D",
+        "confidence": "High",
+        "keyRiskCount": 4,
+        "deterministic": true,
+        "safeContextUsed": true,
+        "externalModelCalled": false,
+        "rawDataSent": false
+      },
+      {
+        "scenarioId": "budget-actual-gap",
+        "opportunityToken": "DEMO-6C-OPP-016",
+        "healthScore": 70.9,
+        "grade": "B",
+        "confidence": "High",
+        "keyRiskCount": 2,
+        "deterministic": true,
+        "safeContextUsed": true,
+        "externalModelCalled": false,
+        "rawDataSent": false
+      },
+      {
+        "scenarioId": "data-contradiction",
+        "opportunityToken": "DEMO-6C-OPP-031",
+        "healthScore": 50.05,
+        "grade": "D",
+        "confidence": "Low",
+        "keyRiskCount": 4,
+        "deterministic": true,
+        "safeContextUsed": true,
+        "externalModelCalled": false,
+        "rawDataSent": false
+      },
+      {
+        "scenarioId": "growth-opportunity",
+        "opportunityToken": "DEMO-6C-OPP-043",
+        "healthScore": 74.2,
+        "grade": "B",
+        "confidence": "High",
+        "keyRiskCount": 1,
+        "deterministic": true,
+        "safeContextUsed": true,
+        "externalModelCalled": false,
+        "rawDataSent": false
+      },
+      {
+        "scenarioId": "location-route-risk",
+        "opportunityToken": "DEMO-6C-OPP-055",
+        "healthScore": 69.7,
+        "grade": "C",
+        "confidence": "High",
+        "keyRiskCount": 3,
+        "deterministic": true,
+        "safeContextUsed": true,
+        "externalModelCalled": false,
+        "rawDataSent": false
+      },
+      {
+        "scenarioId": "meeting-prep",
+        "opportunityToken": "DEMO-6C-OPP-065",
+        "healthScore": 71.05,
+        "grade": "B",
+        "confidence": "High",
+        "keyRiskCount": 2,
+        "deterministic": true,
+        "safeContextUsed": true,
+        "externalModelCalled": false,
+        "rawDataSent": false
+      },
+      {
+        "scenarioId": "multi-risk-priority",
+        "opportunityToken": "DEMO-6C-OPP-075",
+        "healthScore": 37.87,
+        "grade": "Z",
+        "confidence": "Low",
+        "keyRiskCount": 4,
+        "deterministic": true,
+        "safeContextUsed": true,
+        "externalModelCalled": false,
+        "rawDataSent": false
+      },
+      {
+        "scenarioId": "healthy-control",
+        "opportunityToken": "DEMO-6C-OPP-091",
+        "healthScore": 85.65,
+        "grade": "A",
+        "confidence": "High",
+        "keyRiskCount": 0,
+        "deterministic": true,
+        "safeContextUsed": true,
+        "externalModelCalled": false,
+        "rawDataSent": false
+      }
+    ],
+    "healthyControl": {
+      "grade": "A",
+      "healthScore": 85.65,
+      "ready": true
+    },
+    "riskGradeCoverage": {
+      "observed": [
+        "B",
+        "C",
+        "D",
+        "Z"
+      ],
+      "required": [
+        "C",
+        "D",
+        "Z"
+      ],
+      "hasC": true,
+      "hasD": true,
+      "hasZ": true,
+      "ready": true
+    },
+    "ready": true
+  },
+  "canaryCoverage": {
+    "departments": [
+      "Dept1 Distribution",
+      "Dept1 Industry",
+      "Dept2 LCMS",
+      "Dept3 Dangerous Goods",
+      "Dept3 Project Cargo",
+      "FF",
+      "Others"
+    ],
+    "states": [
+      "Active",
+      "Lost",
+      "Won"
+    ],
+    "healthBands": [
+      "high",
+      "low",
+      "medium"
+    ],
+    "confidenceLevels": [
+      "High",
+      "Medium"
+    ],
+    "actualPresence": [
+      "none",
+      "present"
+    ],
+    "timelineDensity": [
+      "rich"
+    ],
+    "coverageBands": [
+      "broad"
+    ],
+    "evaluationLenses": [
+      "budget-actual-gap",
+      "data-contradiction",
+      "growth-opportunity",
+      "healthy-control",
+      "meeting-prep"
+    ]
+  },
+  "p0": 0,
+  "p1": 0,
+  "p2": 1
+}

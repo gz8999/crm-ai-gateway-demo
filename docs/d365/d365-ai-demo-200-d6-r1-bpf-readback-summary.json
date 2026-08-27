@@ -1,0 +1,21 @@
+{
+  "phase": "Phase 1C-5R2G-D6-R1",
+  "workflow": "销售流程 - AI Demo Full Replica",
+  "processOrder": 0,
+  "definitionUnchanged": true,
+  "before": {
+    "targetInstanceCount": 28,
+    "initialStageCount": 28,
+    "duplicateCount": 0,
+    "unexpectedProcessCount": 0
+  },
+  "automaticInstancesAdded": 172,
+  "manualBpfWrites": 0,
+  "after": {
+    "targetInstanceCount": 200,
+    "initialStageCount": 200,
+    "duplicateCount": 0,
+    "unexpectedProcessCount": 0
+  },
+  "ready": true
+}

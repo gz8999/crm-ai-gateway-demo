@@ -1,0 +1,146 @@
+{
+  "phase": "Phase 3C",
+  "runId": "PHASE3C-R4",
+  "status": "stopped-safety",
+  "stopReason": "provider_http_400",
+  "auditReason": null,
+  "environment": {
+    "dataverseHostname": "org91f5f65f.crm5.dynamics.com",
+    "productionRequests": 0,
+    "dataverseMethods": [
+      "GET"
+    ],
+    "crmWriteback": false
+  },
+  "provider": {
+    "provider": "openai-compatible",
+    "baseUrl": "https://api.deepseek.com/beta",
+    "model": "deepseek-v4-pro",
+    "nativeJsonMode": "strict-tool",
+    "gate": {
+      "provider": "openai-compatible",
+      "providerRequested": "openai-compatible",
+      "externalAiEnabled": true,
+      "configured": true,
+      "safeContextOnly": true,
+      "rawDataSent": false,
+      "fallbackReason": ""
+    },
+    "externalCalls": 1,
+    "maxExternalCalls": 24,
+    "singleAttempt": true,
+    "contextVersion": "Safe Context v2"
+  },
+  "frozenSelection": {
+    "count": 24,
+    "selectionHash": "729dc1fff18a6459e74dc669d0aef23d093e5634b4de3eaf81217222b42f4b22",
+    "records": [
+      "DEMO-OPP-002",
+      "DEMO-OPP-003",
+      "DEMO-OPP-004",
+      "DEMO-OPP-005",
+      "DEMO-OPP-006",
+      "DEMO-OPP-007",
+      "DEMO-OPP-008",
+      "DEMO-OPP-009",
+      "DEMO-OPP-010",
+      "DEMO-OPP-011",
+      "DEMO-OPP-012",
+      "DEMO-OPP-013",
+      "DEMO-OPP-014",
+      "DEMO-OPP-015",
+      "DEMO-OPP-016",
+      "DEMO-OPP-017",
+      "DEMO-OPP-018",
+      "DEMO-OPP-019",
+      "DEMO-OPP-026",
+      "DEMO-OPP-028",
+      "DEMO-OPP-030",
+      "DEMO-OPP-046",
+      "DEMO-OPP-056",
+      "DEMO-OPP-057"
+    ]
+  },
+  "safeContext": {
+    "source": "D365 Frozen Dataset GET -> Safe Context v2",
+    "counts": {
+      "opportunity": 200,
+      "account": 60,
+      "contact": 120,
+      "actual": 130,
+      "coverage": 240,
+      "timeline": 1800,
+      "signal": 1350,
+      "opportunityClose": 100,
+      "bpf": 200
+    },
+    "stateDistribution": {
+      "active": 100,
+      "won": 91,
+      "lost": 9
+    },
+    "customerIdentityMasked": true,
+    "exactAmountSentToModel": false,
+    "rawTimelineSent": false,
+    "scenarioIdSent": false,
+    "goldenMetadataSent": false,
+    "rawCrmSent": false
+  },
+  "scenarioCoverage": {
+    "stalled-high-value": {
+      "tokenCount": 0,
+      "evidenceReady": true
+    },
+    "budget-actual-gap": {
+      "tokenCount": 1,
+      "evidenceReady": true
+    },
+    "data-contradiction": {
+      "tokenCount": 0,
+      "evidenceReady": true
+    },
+    "growth-opportunity": {
+      "tokenCount": 0,
+      "evidenceReady": true
+    },
+    "location-route-risk": {
+      "tokenCount": 1,
+      "evidenceReady": true
+    },
+    "meeting-prep": {
+      "tokenCount": 0,
+      "evidenceReady": true
+    },
+    "multi-risk-priority": {
+      "tokenCount": 2,
+      "evidenceReady": true
+    },
+    "healthy-control": {
+      "tokenCount": 1,
+      "evidenceReady": true
+    }
+  },
+  "execution": {
+    "requestedCount": 1,
+    "completedCount": 0,
+    "attemptedCount": 1,
+    "remainingCount": 23
+  },
+  "requestStats": {
+    "d365Get": 179,
+    "d365Post": 0,
+    "d365Patch": 0,
+    "d365Delete": 0,
+    "productionRequests": 0,
+    "externalLlmCalls": 1,
+    "crmWrites": 0
+  },
+  "aggregate": {
+    "completed": 0,
+    "failed": 1,
+    "totalEstimatedCostUsd": 0,
+    "avgLatencyMs": null,
+    "allResponseContractsPass": false,
+    "allSafetyPass": false
+  }
+}

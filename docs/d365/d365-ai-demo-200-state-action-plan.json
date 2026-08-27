@@ -1,0 +1,55 @@
+{
+  "phase": "Phase 1C-5R2G-D4",
+  "authorized": false,
+  "rules": {
+    "createAllAsActive": true,
+    "directStatePatch": false,
+    "directStatusPatch": false,
+    "directActualCloseDatePatch": false,
+    "officialActionOnly": true
+  },
+  "groups": [
+    {
+      "stateGroup": "Active",
+      "count": 100,
+      "createState": "Open",
+      "action": "None",
+      "actionAuthorized": false,
+      "readbackFields": [
+        "statecode",
+        "statuscode",
+        "modifiedon"
+      ]
+    },
+    {
+      "stateGroup": "Won",
+      "count": 91,
+      "createState": "Open",
+      "action": "WinOpportunity",
+      "actionAuthorized": false,
+      "readbackFields": [
+        "statecode",
+        "statuscode",
+        "actualclosedate",
+        "opportunityid"
+      ]
+    },
+    {
+      "stateGroup": "Lost",
+      "count": 9,
+      "createState": "Open",
+      "action": "LoseOpportunity",
+      "actionAuthorized": false,
+      "readbackFields": [
+        "statecode",
+        "statuscode",
+        "actualclosedate",
+        "opportunityid"
+      ]
+    }
+  ],
+  "requestsExecuted": {
+    "winOpportunity": 0,
+    "loseOpportunity": 0
+  }
+}

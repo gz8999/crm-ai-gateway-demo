@@ -1,0 +1,22 @@
+{
+  "phase": "Phase 1C-5R2G-D6-R3",
+  "status": "FAILED_SAFE_STOP",
+  "createdTimeline": [
+    {
+      "stableToken": "TL-0001",
+      "activityEntity": "phonecall",
+      "createdOrReused": "Created",
+      "result": "Created",
+      "businessEffectiveDate": "2025-11-09",
+      "dateProjectionMode": "ScheduledEnd",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    }
+  ],
+  "futureAnnotationContract": {
+    "applied": false,
+    "reason": "Future Annotation Canary was not reached."
+  },
+  "activityTypeMismatchCount": 0,
+  "attachmentCount": 0
+}

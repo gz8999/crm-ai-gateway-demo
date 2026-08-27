@@ -1,0 +1,13 @@
+{
+  "approvedCandidateMappingCount": 6,
+  "membershipCount": 7,
+  "teamRoleAssignmentCount": 7,
+  "teamRolePerTeamCount": 1,
+  "canonicalRoleOnly": true,
+  "deletedRoleResidualReferenceCount": 0,
+  "ordinaryUserSecurityConfigurationReady": true,
+  "existingBusinessRoleModified": false,
+  "existingBusinessTeamModified": false,
+  "businessDataDelta": 0,
+  "productionRequests": 0
+}

@@ -1,0 +1,22 @@
+{
+  "phase": "Phase 1C-5R2G-D5-R4",
+  "process": "销售流程 - AI Demo Full Replica",
+  "initialStage": "授予资格",
+  "before": { "targetInstanceCount": 24, "duplicateCount": 0, "unexpectedProcessCount": 0, "initialStageCount": 24 },
+  "after": { "targetInstanceCount": 24, "duplicateCount": 0, "unexpectedProcessCount": 0, "initialStageCount": 24 },
+  "remainingWinClassifications": [
+    { "opportunityToken": "DEMO-OPP-028", "classification": "A", "sideEffect": "None" },
+    { "opportunityToken": "DEMO-OPP-038", "classification": "A", "sideEffect": "None" },
+    { "opportunityToken": "DEMO-OPP-130", "classification": "A", "sideEffect": "None" },
+    { "opportunityToken": "DEMO-OPP-135", "classification": "A", "sideEffect": "None" },
+    { "opportunityToken": "DEMO-OPP-181", "classification": "A", "sideEffect": "None" },
+    { "opportunityToken": "DEMO-OPP-199", "classification": "A", "sideEffect": "None" }
+  ],
+  "definitionHashBefore": "aac15b0adae5d1041df319b7dd187cc4a517c446725e6f2785e68939c015dbf8",
+  "definitionHashAfter": "aac15b0adae5d1041df319b7dd187cc4a517c446725e6f2785e68939c015dbf8",
+  "processOrder": 0,
+  "manualBpfWrites": 0,
+  "nextStageActions": 0,
+  "completeActions": 0,
+  "ready": true
+}

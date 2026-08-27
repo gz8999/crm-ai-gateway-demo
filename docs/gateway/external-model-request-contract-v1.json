@@ -1,0 +1,49 @@
+{
+  "version": "External Model Request Contract v1",
+  "providerInput": [
+    "opportunityToken",
+    "accountToken",
+    "department",
+    "industryCategory",
+    "state",
+    "stage",
+    "amountBand",
+    "marginBand",
+    "budgetActualDeviationBand",
+    "relativeDate",
+    "timelineSummary",
+    "interactionSignal",
+    "coverageStatus",
+    "evidenceTokens",
+    "deterministicHealthComponents",
+    "dataQualitySignals"
+  ],
+  "forbidden": [
+    "customerName",
+    "contactIdentity",
+    "email",
+    "phone",
+    "dataverseGuid",
+    "exactRevenue",
+    "exactGp",
+    "rawTimeline",
+    "rawOpportunityClose",
+    "contractText",
+    "userOrTeamIdentity",
+    "scenarioId",
+    "goldenMetadata",
+    "expectedAnswer",
+    "credentials"
+  ],
+  "safety": {
+    "customerIdentityMasked": true,
+    "exactAmountSentToModel": false,
+    "rawTimelineSent": false,
+    "crmWritebackEnabled": false
+  },
+  "execution": {
+    "externalCanaryAuthorizedRequired": true,
+    "browserDirectCall": false,
+    "externalLlmCallsThisGoal": 0
+  }
+}

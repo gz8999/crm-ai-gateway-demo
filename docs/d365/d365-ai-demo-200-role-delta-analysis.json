@@ -1,0 +1,95 @@
+{
+  "phase": "Phase 1C-5R2G-D3A",
+  "roleAlias": "ROLE-CANDIDATE-CRM-AI-DEMO-DEPARTMENT-MINIMAL",
+  "proposedName": "CRM AI Demo Department Minimal",
+  "businessUnitAlias": "BU-CANDIDATE-01",
+  "reusableRoleCount": 0,
+  "roleReuseCandidateReady": false,
+  "roleCreationRequired": true,
+  "minimumRoleSpecificationReady": true,
+  "permissions": [
+    {
+      "entity": "account",
+      "create": false,
+      "read": "BusinessUnit",
+      "write": false,
+      "delete": false,
+      "append": true,
+      "appendTo": false
+    },
+    {
+      "entity": "contact",
+      "create": false,
+      "read": "BusinessUnit",
+      "write": false,
+      "delete": false,
+      "append": true,
+      "appendTo": false
+    },
+    {
+      "entity": "opportunity",
+      "create": false,
+      "read": "BusinessUnit",
+      "write": false,
+      "delete": false,
+      "append": true,
+      "appendTo": true
+    },
+    {
+      "entity": "aigw_customerservicecoverage",
+      "create": true,
+      "read": "BusinessUnit",
+      "write": "User",
+      "delete": false,
+      "append": true,
+      "appendTo": true
+    },
+    {
+      "entity": "aigw_actualmanagement",
+      "create": true,
+      "read": "BusinessUnit",
+      "write": "User",
+      "delete": false,
+      "append": true,
+      "appendTo": true
+    },
+    {
+      "entity": "aigw_interactionsignal",
+      "create": true,
+      "read": "BusinessUnit",
+      "write": "User",
+      "delete": false,
+      "append": true,
+      "appendTo": true
+    },
+    {
+      "entity": "phonecall/appointment/task/annotation",
+      "create": true,
+      "read": "BusinessUnit",
+      "write": "User",
+      "delete": false,
+      "append": true,
+      "appendTo": true
+    },
+    {
+      "entity": "aigw_location/POL-POD",
+      "create": false,
+      "read": "Organization",
+      "write": false,
+      "delete": false,
+      "append": false,
+      "appendTo": true
+    }
+  ],
+  "privilegesExplicitlyDenied": [
+    "Delete business data",
+    "Customization",
+    "Publish",
+    "Security role administration",
+    "Team administration outside this setup",
+    "Production access"
+  ],
+  "containsDelete": false,
+  "containsCustomizationOrPublish": false,
+  "note": "No reusable role exists in the target Business Unit; creation requires a separate approved D3B write phase."
+}

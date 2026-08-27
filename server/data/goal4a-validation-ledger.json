@@ -1,0 +1,25 @@
+{
+  "version": "goal4a-validation-ledger-v1",
+  "externalCalls": 16,
+  "newExternalCalls": 5,
+  "requestTokens": [
+    "GOAL4A-R5-SYN-01",
+    "GOAL4A-R5-SYN-02",
+    "GOAL4A-R5-REAL-CANARY-002",
+    "GOAL4A-R5-SCENARIO-stalled-high-value",
+    "GOAL4A-R5-SCENARIO-budget-actual-gap",
+    "GOAL4A-R5-SCENARIO-data-contradiction",
+    "GOAL4A-R5-SCENARIO-growth-opportunity",
+    "GOAL4A-R5-SCENARIO-location-route-risk",
+    "GOAL4A-R5-SCENARIO-meeting-prep",
+    "GOAL4A-R5-SCENARIO-multi-risk-priority",
+    "GOAL4A-R5-SCENARIO-healthy-control"
+  ],
+  "safety": {
+    "rawCrmExposure": 0,
+    "exactAmountExposure": 0,
+    "rawTimelineExposure": 0,
+    "crmWriteback": false,
+    "productionRequests": 0
+  }
+}

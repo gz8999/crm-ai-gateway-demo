@@ -1,0 +1,56 @@
+{
+  "01: Dept1(Industry)": {
+    "business": [
+      "仓储",
+      "国内运输",
+      "库内作业",
+      "门店配送",
+      "冷链",
+      "物流咨询"
+    ],
+    "bookingDepartments": [
+      "01: Domestic Div.",
+      "26: Domestic Div East Shanghai WH"
+    ],
+    "opportunityDetailTypes": [
+      "02: 仓库运营",
+      "03: 运输",
+      "07: 物流咨询"
+    ]
+  },
+  "03: Dept2(LCMS)": {
+    "business": [
+      "台式机采购",
+      "笔记本采购",
+      "一体机采购",
+      "工作站采购",
+      "标准镜像",
+      "系统安装",
+      "现场部署"
+    ],
+    "bookingDepartments": [
+      "26: Domestic Div East Shanghai WH"
+    ],
+    "opportunityDetailTypes": [
+      "91: Others"
+    ]
+  },
+  "04: Dept3(Project Cargo)": {
+    "business": [
+      "重型设备出口",
+      "包装",
+      "吊装",
+      "海运",
+      "目的地搬入",
+      "安装搬运"
+    ],
+    "bookingDepartments": [
+      "02: International Div.",
+      "09: Shanghai Ocean Export"
+    ],
+    "opportunityDetailTypes": [
+      "08: 项目物流"
+    ]
+  },
+  "forbiddenOpportunityDetailType": "06: LCMS（运输管理系统）"
+}

@@ -1,0 +1,421 @@
+{
+  "version": "external-llm-canary-selection-v1",
+  "selectionOnly": true,
+  "providerInputScenarioIds": false,
+  "count": 24,
+  "records": [
+    {
+      "opportunityToken": "DEMO-OPP-001",
+      "department": "FF",
+      "state": "Won",
+      "healthBand": "high",
+      "healthGrade": "A",
+      "confidence": "High",
+      "actualPresence": "present",
+      "timelineDensity": "rich",
+      "coverageBand": "broad",
+      "evaluationLenses": [
+        "growth-opportunity",
+        "healthy-control"
+      ]
+    },
+    {
+      "opportunityToken": "DEMO-OPP-008",
+      "department": "Dept3 Project Cargo",
+      "state": "Active",
+      "healthBand": "medium",
+      "healthGrade": "B",
+      "confidence": "Medium",
+      "actualPresence": "none",
+      "timelineDensity": "rich",
+      "coverageBand": "broad",
+      "evaluationLenses": [
+        "data-contradiction",
+        "growth-opportunity"
+      ]
+    },
+    {
+      "opportunityToken": "DEMO-OPP-012",
+      "department": "Dept1 Industry",
+      "state": "Lost",
+      "healthBand": "low",
+      "healthGrade": "C",
+      "confidence": "High",
+      "actualPresence": "none",
+      "timelineDensity": "rich",
+      "coverageBand": "broad",
+      "evaluationLenses": [
+        "budget-actual-gap",
+        "growth-opportunity"
+      ]
+    },
+    {
+      "opportunityToken": "DEMO-OPP-030",
+      "department": "Dept1 Distribution",
+      "state": "Won",
+      "healthBand": "high",
+      "healthGrade": "A",
+      "confidence": "High",
+      "actualPresence": "present",
+      "timelineDensity": "rich",
+      "coverageBand": "broad",
+      "evaluationLenses": [
+        "growth-opportunity",
+        "healthy-control"
+      ]
+    },
+    {
+      "opportunityToken": "DEMO-OPP-046",
+      "department": "Dept3 Dangerous Goods",
+      "state": "Active",
+      "healthBand": "medium",
+      "healthGrade": "B",
+      "confidence": "Medium",
+      "actualPresence": "none",
+      "timelineDensity": "rich",
+      "coverageBand": "broad",
+      "evaluationLenses": [
+        "data-contradiction",
+        "growth-opportunity"
+      ]
+    },
+    {
+      "opportunityToken": "DEMO-OPP-056",
+      "department": "Others",
+      "state": "Active",
+      "healthBand": "medium",
+      "healthGrade": "B",
+      "confidence": "Medium",
+      "actualPresence": "present",
+      "timelineDensity": "rich",
+      "coverageBand": "broad",
+      "evaluationLenses": [
+        "budget-actual-gap",
+        "data-contradiction",
+        "growth-opportunity"
+      ]
+    },
+    {
+      "opportunityToken": "DEMO-OPP-057",
+      "department": "Dept2 LCMS",
+      "state": "Active",
+      "healthBand": "medium",
+      "healthGrade": "B",
+      "confidence": "Medium",
+      "actualPresence": "none",
+      "timelineDensity": "rich",
+      "coverageBand": "broad",
+      "evaluationLenses": [
+        "data-contradiction",
+        "growth-opportunity"
+      ]
+    },
+    {
+      "opportunityToken": "DEMO-OPP-002",
+      "department": "FF",
+      "state": "Active",
+      "healthBand": "medium",
+      "healthGrade": "B",
+      "confidence": "Medium",
+      "actualPresence": "none",
+      "timelineDensity": "rich",
+      "coverageBand": "broad",
+      "evaluationLenses": [
+        "data-contradiction",
+        "growth-opportunity"
+      ]
+    },
+    {
+      "opportunityToken": "DEMO-OPP-003",
+      "department": "FF",
+      "state": "Won",
+      "healthBand": "high",
+      "healthGrade": "A",
+      "confidence": "High",
+      "actualPresence": "present",
+      "timelineDensity": "rich",
+      "coverageBand": "broad",
+      "evaluationLenses": [
+        "growth-opportunity",
+        "healthy-control"
+      ]
+    },
+    {
+      "opportunityToken": "DEMO-OPP-004",
+      "department": "FF",
+      "state": "Active",
+      "healthBand": "medium",
+      "healthGrade": "B",
+      "confidence": "Medium",
+      "actualPresence": "none",
+      "timelineDensity": "rich",
+      "coverageBand": "broad",
+      "evaluationLenses": [
+        "data-contradiction",
+        "growth-opportunity"
+      ]
+    },
+    {
+      "opportunityToken": "DEMO-OPP-005",
+      "department": "FF",
+      "state": "Won",
+      "healthBand": "high",
+      "healthGrade": "A",
+      "confidence": "High",
+      "actualPresence": "present",
+      "timelineDensity": "rich",
+      "coverageBand": "broad",
+      "evaluationLenses": [
+        "growth-opportunity",
+        "healthy-control"
+      ]
+    },
+    {
+      "opportunityToken": "DEMO-OPP-006",
+      "department": "FF",
+      "state": "Won",
+      "healthBand": "high",
+      "healthGrade": "A",
+      "confidence": "High",
+      "actualPresence": "present",
+      "timelineDensity": "rich",
+      "coverageBand": "broad",
+      "evaluationLenses": [
+        "growth-opportunity",
+        "healthy-control"
+      ]
+    },
+    {
+      "opportunityToken": "DEMO-OPP-007",
+      "department": "FF",
+      "state": "Active",
+      "healthBand": "medium",
+      "healthGrade": "B",
+      "confidence": "Medium",
+      "actualPresence": "none",
+      "timelineDensity": "rich",
+      "coverageBand": "broad",
+      "evaluationLenses": [
+        "data-contradiction",
+        "growth-opportunity"
+      ]
+    },
+    {
+      "opportunityToken": "DEMO-OPP-009",
+      "department": "FF",
+      "state": "Won",
+      "healthBand": "high",
+      "healthGrade": "A",
+      "confidence": "High",
+      "actualPresence": "present",
+      "timelineDensity": "rich",
+      "coverageBand": "broad",
+      "evaluationLenses": [
+        "growth-opportunity",
+        "healthy-control"
+      ]
+    },
+    {
+      "opportunityToken": "DEMO-OPP-010",
+      "department": "FF",
+      "state": "Active",
+      "healthBand": "low",
+      "healthGrade": "C",
+      "confidence": "Medium",
+      "actualPresence": "none",
+      "timelineDensity": "rich",
+      "coverageBand": "broad",
+      "evaluationLenses": [
+        "data-contradiction",
+        "growth-opportunity"
+      ]
+    },
+    {
+      "opportunityToken": "DEMO-OPP-011",
+      "department": "FF",
+      "state": "Active",
+      "healthBand": "low",
+      "healthGrade": "C",
+      "confidence": "Medium",
+      "actualPresence": "none",
+      "timelineDensity": "rich",
+      "coverageBand": "broad",
+      "evaluationLenses": [
+        "data-contradiction",
+        "growth-opportunity"
+      ]
+    },
+    {
+      "opportunityToken": "DEMO-OPP-013",
+      "department": "FF",
+      "state": "Active",
+      "healthBand": "low",
+      "healthGrade": "C",
+      "confidence": "Medium",
+      "actualPresence": "present",
+      "timelineDensity": "rich",
+      "coverageBand": "broad",
+      "evaluationLenses": [
+        "budget-actual-gap",
+        "data-contradiction",
+        "growth-opportunity"
+      ]
+    },
+    {
+      "opportunityToken": "DEMO-OPP-014",
+      "department": "FF",
+      "state": "Won",
+      "healthBand": "high",
+      "healthGrade": "A",
+      "confidence": "High",
+      "actualPresence": "present",
+      "timelineDensity": "rich",
+      "coverageBand": "broad",
+      "evaluationLenses": [
+        "growth-opportunity",
+        "healthy-control"
+      ]
+    },
+    {
+      "opportunityToken": "DEMO-OPP-015",
+      "department": "FF",
+      "state": "Won",
+      "healthBand": "high",
+      "healthGrade": "A",
+      "confidence": "High",
+      "actualPresence": "present",
+      "timelineDensity": "rich",
+      "coverageBand": "broad",
+      "evaluationLenses": [
+        "growth-opportunity",
+        "healthy-control"
+      ]
+    },
+    {
+      "opportunityToken": "DEMO-OPP-016",
+      "department": "FF",
+      "state": "Active",
+      "healthBand": "low",
+      "healthGrade": "C",
+      "confidence": "Medium",
+      "actualPresence": "none",
+      "timelineDensity": "rich",
+      "coverageBand": "broad",
+      "evaluationLenses": [
+        "data-contradiction",
+        "growth-opportunity"
+      ]
+    },
+    {
+      "opportunityToken": "DEMO-OPP-017",
+      "department": "FF",
+      "state": "Won",
+      "healthBand": "high",
+      "healthGrade": "A",
+      "confidence": "High",
+      "actualPresence": "present",
+      "timelineDensity": "rich",
+      "coverageBand": "broad",
+      "evaluationLenses": [
+        "growth-opportunity",
+        "meeting-prep",
+        "healthy-control"
+      ]
+    },
+    {
+      "opportunityToken": "DEMO-OPP-018",
+      "department": "FF",
+      "state": "Active",
+      "healthBand": "medium",
+      "healthGrade": "B",
+      "confidence": "Medium",
+      "actualPresence": "none",
+      "timelineDensity": "rich",
+      "coverageBand": "broad",
+      "evaluationLenses": [
+        "data-contradiction",
+        "growth-opportunity"
+      ]
+    },
+    {
+      "opportunityToken": "DEMO-OPP-019",
+      "department": "FF",
+      "state": "Active",
+      "healthBand": "medium",
+      "healthGrade": "B",
+      "confidence": "Medium",
+      "actualPresence": "present",
+      "timelineDensity": "rich",
+      "coverageBand": "broad",
+      "evaluationLenses": [
+        "budget-actual-gap",
+        "data-contradiction",
+        "growth-opportunity"
+      ]
+    },
+    {
+      "opportunityToken": "DEMO-OPP-020",
+      "department": "FF",
+      "state": "Won",
+      "healthBand": "high",
+      "healthGrade": "A",
+      "confidence": "High",
+      "actualPresence": "present",
+      "timelineDensity": "rich",
+      "coverageBand": "broad",
+      "evaluationLenses": [
+        "growth-opportunity",
+        "healthy-control"
+      ]
+    }
+  ],
+  "coverage": {
+    "departments": [
+      "Dept1 Distribution",
+      "Dept1 Industry",
+      "Dept2 LCMS",
+      "Dept3 Dangerous Goods",
+      "Dept3 Project Cargo",
+      "FF",
+      "Others"
+    ],
+    "states": [
+      "Active",
+      "Lost",
+      "Won"
+    ],
+    "healthBands": [
+      "high",
+      "low",
+      "medium"
+    ],
+    "confidenceLevels": [
+      "High",
+      "Medium"
+    ],
+    "actualPresence": [
+      "none",
+      "present"
+    ],
+    "timelineDensity": [
+      "rich"
+    ],
+    "coverageBands": [
+      "broad"
+    ],
+    "evaluationLenses": [
+      "budget-actual-gap",
+      "data-contradiction",
+      "growth-opportunity",
+      "healthy-control",
+      "meeting-prep"
+    ]
+  },
+  "safety": {
+    "noGuid": true,
+    "noExactAmounts": true,
+    "noRawTimeline": true,
+    "noIdentity": true,
+    "noGoldenMetadataToProvider": true
+  }
+}

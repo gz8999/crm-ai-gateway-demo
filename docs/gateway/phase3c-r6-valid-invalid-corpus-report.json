@@ -1,0 +1,199 @@
+{
+  "validCorpus": {
+    "ready": true,
+    "generated": 1000,
+    "passed": 1000,
+    "unexpectedFailureCount": 0,
+    "failures": [],
+    "deterministicMappingMismatchCount": 0,
+    "canonicalHashCount": 940,
+    "coverage": {
+      "riskCategories": [
+        "contradiction",
+        "gap",
+        "growth",
+        "healthy",
+        "meeting",
+        "multi-risk",
+        "portfolio-priority",
+        "route",
+        "stalled"
+      ],
+      "evidenceTypes": [
+        "ACCOUNT_GROWTH",
+        "DATA_QUALITY",
+        "DECISION_READINESS",
+        "ENGAGEMENT",
+        "FINANCIAL_BAND",
+        "FINANCIAL_VARIANCE",
+        "PIPELINE_PROGRESS",
+        "PORTFOLIO_SCOPE",
+        "RELATIVE_DATE",
+        "ROUTE_CONSISTENCY",
+        "SERVICE_COVERAGE"
+      ],
+      "limitationCodes": [
+        "DATA_CONTRADICTION",
+        "EXACT_AMOUNT_WITHHELD",
+        "IDENTITY_MASKED",
+        "INSUFFICIENT_EVIDENCE",
+        "MODEL_UNCERTAINTY",
+        "NO_ACTUAL_DATA",
+        "NO_COVERAGE_DATA",
+        "RAW_TIMELINE_WITHHELD",
+        "STALE_INTERACTION_DATA"
+      ],
+      "actionCodes": [
+        "ACT-CONFIRM-DECISION",
+        "ACT-CONFIRM-NEXT-STEP",
+        "ACT-RECONCILE-DATA",
+        "ACT-REVIEW-COVERAGE",
+        "ACT-REVIEW-VARIANCE"
+      ],
+      "confidenceLevels": [
+        "High",
+        "Low",
+        "Medium"
+      ],
+      "priorities": [
+        "Critical",
+        "High",
+        "Low",
+        "Medium",
+        "Monitor"
+      ],
+      "singleEvidence": true,
+      "multipleEvidence": true,
+      "minArray": true,
+      "maxArray": true
+    },
+    "coverageReady": true
+  },
+  "invalidCorpus": {
+    "ready": true,
+    "caseCount": 17,
+    "rejectedCount": 17,
+    "unexpectedPassCount": 0,
+    "results": [
+      {
+        "name": "missing_required",
+        "rejected": true,
+        "primaryFailureClass": "ARRAY_MIN_ITEMS",
+        "affectedJsonPath": "/facts",
+        "schemaKeyword": "minItems"
+      },
+      {
+        "name": "additional_property",
+        "rejected": true,
+        "primaryFailureClass": "UNEXPECTED_PROPERTY",
+        "affectedJsonPath": "",
+        "schemaKeyword": "additionalProperties"
+      },
+      {
+        "name": "wrong_type",
+        "rejected": true,
+        "primaryFailureClass": "ARRAY_MIN_ITEMS",
+        "affectedJsonPath": "/facts",
+        "schemaKeyword": "minItems"
+      },
+      {
+        "name": "unknown_enum",
+        "rejected": true,
+        "primaryFailureClass": "ENUM_MISMATCH",
+        "affectedJsonPath": "/priority",
+        "schemaKeyword": "enum"
+      },
+      {
+        "name": "provider_const",
+        "rejected": true,
+        "primaryFailureClass": "CONST_MISMATCH",
+        "affectedJsonPath": "/provider",
+        "schemaKeyword": "enum"
+      },
+      {
+        "name": "model_const",
+        "rejected": true,
+        "primaryFailureClass": "CONST_MISMATCH",
+        "affectedJsonPath": "/model",
+        "schemaKeyword": "enum"
+      },
+      {
+        "name": "fallback_const",
+        "rejected": true,
+        "primaryFailureClass": "CONST_MISMATCH",
+        "affectedJsonPath": "/fallback/reason",
+        "schemaKeyword": "enum"
+      },
+      {
+        "name": "safety_missing",
+        "rejected": true,
+        "primaryFailureClass": "SAFETY_STATEMENT_INVALID",
+        "affectedJsonPath": "/safety",
+        "schemaKeyword": "enum"
+      },
+      {
+        "name": "safety_value",
+        "rejected": true,
+        "primaryFailureClass": "SAFETY_STATEMENT_INVALID",
+        "affectedJsonPath": "/safety",
+        "schemaKeyword": "enum"
+      },
+      {
+        "name": "unknown_evidence",
+        "rejected": true,
+        "primaryFailureClass": "EVIDENCE_NOT_ALLOWLISTED",
+        "affectedJsonPath": "/",
+        "schemaKeyword": "enum"
+      },
+      {
+        "name": "duplicate_evidence",
+        "rejected": true,
+        "primaryFailureClass": "EVIDENCE_DUPLICATE",
+        "affectedJsonPath": "/inferences",
+        "schemaKeyword": "uniqueItems"
+      },
+      {
+        "name": "empty_evidence",
+        "rejected": true,
+        "primaryFailureClass": "ARRAY_MIN_ITEMS",
+        "affectedJsonPath": "/riskCategories",
+        "schemaKeyword": "minItems"
+      },
+      {
+        "name": "category_evidence_incompatible",
+        "rejected": true,
+        "primaryFailureClass": "CATEGORY_EVIDENCE_INCOMPATIBLE",
+        "affectedJsonPath": "/riskCategories",
+        "schemaKeyword": "compatibility"
+      },
+      {
+        "name": "action_without_evidence",
+        "rejected": true,
+        "primaryFailureClass": "ARRAY_MIN_ITEMS",
+        "affectedJsonPath": "/recommendedActions",
+        "schemaKeyword": "minItems"
+      },
+      {
+        "name": "string_too_long",
+        "rejected": true,
+        "primaryFailureClass": "STRING_TOO_LONG",
+        "affectedJsonPath": "/provider",
+        "schemaKeyword": "maxLength"
+      },
+      {
+        "name": "pattern_mismatch",
+        "rejected": true,
+        "primaryFailureClass": "ENUM_MISMATCH",
+        "affectedJsonPath": "/facts/0/factCode",
+        "schemaKeyword": "enum"
+      },
+      {
+        "name": "health_score_override",
+        "rejected": true,
+        "primaryFailureClass": "UNEXPECTED_PROPERTY",
+        "affectedJsonPath": "",
+        "schemaKeyword": "additionalProperties"
+      }
+    ]
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "phase": "Phase 1C-5R2G-D2",
+  "requiredOrder": [
+    "InteractionSignal",
+    "Timeline",
+    "ActualManagement",
+    "ServiceCoverage",
+    "Opportunity",
+    "Contact",
+    "Account"
+  ],
+  "stableTokenRequired": true,
+  "generationRunTokenRequired": true,
+  "exactRecordIdManifestAvailable": false,
+  "executionAuthorized": false,
+  "cleanupReady": false,
+  "compactPilotCounts": {
+    "Account": 7,
+    "Contact": 9,
+    "Opportunity": 24,
+    "ActualManagement": 12,
+    "ServiceCoverage": 15,
+    "Timeline": 206,
+    "InteractionSignal": 154
+  },
+  "excluded": [
+    "Location",
+    "POL/POD",
+    "Owner/User",
+    "Team",
+    "Choice",
+    "Schema",
+    "BPF",
+    "Solution Component"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "status": "manifest_only",
+  "allowedFutureRollback": [
+    "remove seven canonical role assignments",
+    "remove seven approved memberships",
+    "delete only the seven exact Teams created by this phase",
+    "delete canonical role only with a separate cleanup authorization"
+  ],
+  "noRollbackExecuted": true,
+  "businessDataCleanup": false
+}

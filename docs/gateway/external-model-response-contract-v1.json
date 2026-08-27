@@ -1,0 +1,44 @@
+{
+  "version": "Decision Pack Model Response v1",
+  "additionalProperties": false,
+  "strictNativeTransport": "DeepSeek beta strict Tool Calling",
+  "required": [
+    "facts",
+    "inferences",
+    "evidence",
+    "confidence",
+    "recommendedActions",
+    "priority",
+    "riskCategories",
+    "provider",
+    "model",
+    "modelVersion",
+    "fallback",
+    "safety",
+    "limitations"
+  ],
+  "factRule": "每条 Fact 必须引用 Evidence Token。",
+  "inferenceRule": "必须标记为 Model Inference，不得伪装 CRM Fact。",
+  "actionRule": [
+    "action",
+    "ownerRole",
+    "dueWindow",
+    "basis",
+    "status=Draft only"
+  ],
+  "forbidden": [
+    "unsupported CRM fact",
+    "已写回CRM",
+    "exact identity",
+    "exact amount",
+    "raw Timeline claim",
+    "无Evidence的确定性事实"
+  ],
+  "safety": {
+    "rawIdentityExposure": false,
+    "guidExposure": false,
+    "exactAmountExposure": false,
+    "rawTimelineExposure": false,
+    "scenarioGoldenExposure": false
+  }
+}

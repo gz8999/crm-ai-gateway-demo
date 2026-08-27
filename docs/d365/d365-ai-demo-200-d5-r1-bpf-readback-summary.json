@@ -1,0 +1,234 @@
+{
+  "phase": "Phase 1C-5R2G-D5-R1",
+  "targetProcessAlias": "aigw_ai_demo_full_replica",
+  "initialStageAlias": "授予资格",
+  "targetInstanceCount": 24,
+  "duplicateInstanceCount": 0,
+  "unexpectedProcessCount": 0,
+  "initialStageReadyCount": 24,
+  "processOrder": 0,
+  "workflowActive": true,
+  "manualBpfWrites": {
+    "POST": 0,
+    "PATCH": 0,
+    "DELETE": 0
+  },
+  "opportunities": [
+    {
+      "opportunityToken": "DEMO-OPP-015",
+      "targetInstanceCount": 1,
+      "duplicateCount": 0,
+      "unexpectedProcessCount": 0,
+      "activeStageAlias": "授予资格",
+      "createdOrReused": "Reused",
+      "readbackAttempts": 1
+    },
+    {
+      "opportunityToken": "DEMO-OPP-019",
+      "targetInstanceCount": 1,
+      "duplicateCount": 0,
+      "unexpectedProcessCount": 0,
+      "activeStageAlias": "授予资格",
+      "createdOrReused": "PlatformCreated",
+      "readbackAttempts": 1
+    },
+    {
+      "opportunityToken": "DEMO-OPP-026",
+      "targetInstanceCount": 1,
+      "duplicateCount": 0,
+      "unexpectedProcessCount": 0,
+      "activeStageAlias": "授予资格",
+      "createdOrReused": "PlatformCreated",
+      "readbackAttempts": 1
+    },
+    {
+      "opportunityToken": "DEMO-OPP-028",
+      "targetInstanceCount": 1,
+      "duplicateCount": 0,
+      "unexpectedProcessCount": 0,
+      "activeStageAlias": "授予资格",
+      "createdOrReused": "PlatformCreated",
+      "readbackAttempts": 1
+    },
+    {
+      "opportunityToken": "DEMO-OPP-031",
+      "targetInstanceCount": 1,
+      "duplicateCount": 0,
+      "unexpectedProcessCount": 0,
+      "activeStageAlias": "授予资格",
+      "createdOrReused": "PlatformCreated",
+      "readbackAttempts": 1
+    },
+    {
+      "opportunityToken": "DEMO-OPP-038",
+      "targetInstanceCount": 1,
+      "duplicateCount": 0,
+      "unexpectedProcessCount": 0,
+      "activeStageAlias": "授予资格",
+      "createdOrReused": "PlatformCreated",
+      "readbackAttempts": 1
+    },
+    {
+      "opportunityToken": "DEMO-OPP-056",
+      "targetInstanceCount": 1,
+      "duplicateCount": 0,
+      "unexpectedProcessCount": 0,
+      "activeStageAlias": "授予资格",
+      "createdOrReused": "PlatformCreated",
+      "readbackAttempts": 1
+    },
+    {
+      "opportunityToken": "DEMO-OPP-062",
+      "targetInstanceCount": 1,
+      "duplicateCount": 0,
+      "unexpectedProcessCount": 0,
+      "activeStageAlias": "授予资格",
+      "createdOrReused": "PlatformCreated",
+      "readbackAttempts": 1
+    },
+    {
+      "opportunityToken": "DEMO-OPP-081",
+      "targetInstanceCount": 1,
+      "duplicateCount": 0,
+      "unexpectedProcessCount": 0,
+      "activeStageAlias": "授予资格",
+      "createdOrReused": "PlatformCreated",
+      "readbackAttempts": 1
+    },
+    {
+      "opportunityToken": "DEMO-OPP-085",
+      "targetInstanceCount": 1,
+      "duplicateCount": 0,
+      "unexpectedProcessCount": 0,
+      "activeStageAlias": "授予资格",
+      "createdOrReused": "PlatformCreated",
+      "readbackAttempts": 1
+    },
+    {
+      "opportunityToken": "DEMO-OPP-086",
+      "targetInstanceCount": 1,
+      "duplicateCount": 0,
+      "unexpectedProcessCount": 0,
+      "activeStageAlias": "授予资格",
+      "createdOrReused": "PlatformCreated",
+      "readbackAttempts": 1
+    },
+    {
+      "opportunityToken": "DEMO-OPP-092",
+      "targetInstanceCount": 1,
+      "duplicateCount": 0,
+      "unexpectedProcessCount": 0,
+      "activeStageAlias": "授予资格",
+      "createdOrReused": "PlatformCreated",
+      "readbackAttempts": 1
+    },
+    {
+      "opportunityToken": "DEMO-OPP-130",
+      "targetInstanceCount": 1,
+      "duplicateCount": 0,
+      "unexpectedProcessCount": 0,
+      "activeStageAlias": "授予资格",
+      "createdOrReused": "PlatformCreated",
+      "readbackAttempts": 1
+    },
+    {
+      "opportunityToken": "DEMO-OPP-133",
+      "targetInstanceCount": 1,
+      "duplicateCount": 0,
+      "unexpectedProcessCount": 0,
+      "activeStageAlias": "授予资格",
+      "createdOrReused": "PlatformCreated",
+      "readbackAttempts": 1
+    },
+    {
+      "opportunityToken": "DEMO-OPP-135",
+      "targetInstanceCount": 1,
+      "duplicateCount": 0,
+      "unexpectedProcessCount": 0,
+      "activeStageAlias": "授予资格",
+      "createdOrReused": "PlatformCreated",
+      "readbackAttempts": 1
+    },
+    {
+      "opportunityToken": "DEMO-OPP-139",
+      "targetInstanceCount": 1,
+      "duplicateCount": 0,
+      "unexpectedProcessCount": 0,
+      "activeStageAlias": "授予资格",
+      "createdOrReused": "PlatformCreated",
+      "readbackAttempts": 1
+    },
+    {
+      "opportunityToken": "DEMO-OPP-142",
+      "targetInstanceCount": 1,
+      "duplicateCount": 0,
+      "unexpectedProcessCount": 0,
+      "activeStageAlias": "授予资格",
+      "createdOrReused": "PlatformCreated",
+      "readbackAttempts": 1
+    },
+    {
+      "opportunityToken": "DEMO-OPP-146",
+      "targetInstanceCount": 1,
+      "duplicateCount": 0,
+      "unexpectedProcessCount": 0,
+      "activeStageAlias": "授予资格",
+      "createdOrReused": "PlatformCreated",
+      "readbackAttempts": 1
+    },
+    {
+      "opportunityToken": "DEMO-OPP-155",
+      "targetInstanceCount": 1,
+      "duplicateCount": 0,
+      "unexpectedProcessCount": 0,
+      "activeStageAlias": "授予资格",
+      "createdOrReused": "PlatformCreated",
+      "readbackAttempts": 1
+    },
+    {
+      "opportunityToken": "DEMO-OPP-170",
+      "targetInstanceCount": 1,
+      "duplicateCount": 0,
+      "unexpectedProcessCount": 0,
+      "activeStageAlias": "授予资格",
+      "createdOrReused": "PlatformCreated",
+      "readbackAttempts": 1
+    },
+    {
+      "opportunityToken": "DEMO-OPP-181",
+      "targetInstanceCount": 1,
+      "duplicateCount": 0,
+      "unexpectedProcessCount": 0,
+      "activeStageAlias": "授予资格",
+      "createdOrReused": "PlatformCreated",
+      "readbackAttempts": 1
+    },
+    {
+      "opportunityToken": "DEMO-OPP-194",
+      "targetInstanceCount": 1,
+      "duplicateCount": 0,
+      "unexpectedProcessCount": 0,
+      "activeStageAlias": "授予资格",
+      "createdOrReused": "PlatformCreated",
+      "readbackAttempts": 1
+    },
+    {
+      "opportunityToken": "DEMO-OPP-196",
+      "targetInstanceCount": 1,
+      "duplicateCount": 0,
+      "unexpectedProcessCount": 0,
+      "activeStageAlias": "授予资格",
+      "createdOrReused": "PlatformCreated",
+      "readbackAttempts": 1
+    },
+    {
+      "opportunityToken": "DEMO-OPP-199",
+      "targetInstanceCount": 1,
+      "duplicateCount": 0,
+      "unexpectedProcessCount": 0,
+      "activeStageAlias": "授予资格",
+      "createdOrReused": "PlatformCreated",
+      "readbackAttempts": 1
+    }
+  ]
+}

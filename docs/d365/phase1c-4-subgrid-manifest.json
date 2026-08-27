@@ -1,0 +1,103 @@
+{
+  "phase": "1C-4A",
+  "status": "dry-run-only",
+  "target": {
+    "environment": "https://your-org.crm.dynamics.com",
+    "solution": "CRMAIGatewayDemo",
+    "formId": "<FULL_REPLICA_FORM_ID>",
+    "formName": "AI Gateway Opportunity Demo - Full Replica",
+    "tabName": "aigw_fr_tab_actuals",
+    "tabId": "<ACTUALS_TAB_ID>",
+    "sectionName": "aigw_fr_actuals_information",
+    "sectionId": "<ACTUALS_SECTION_ID>"
+  },
+  "preconditions": {
+    "expectedUnpublishedFormXmlSha256": "c4848cacb77528073b5a80e8af93b17133b4d6cd1071904473510eb6b2aedebf",
+    "expectedUnpublishedFormJsonSha256": "cd5680657cb7af11d2fa5ac9b30dc71fe7bcf0cc0d00139bd43792a99bc029e9",
+    "formInactive": true,
+    "formNonDefault": true,
+    "relationshipMetadataId": "<ACTUAL_MANAGEMENT_RELATIONSHIP_METADATA_ID>",
+    "savedQueryId": "<ACTUAL_MANAGEMENT_VIEW_ID>",
+    "aiProvider": "demo",
+    "allowExternalAi": false
+  },
+  "recommendedWriteMethod": "Power Apps Form Designer manual related-records Subgrid, Save only, no Publish",
+  "fallbackPatch": {
+    "authorized": false,
+    "endpoint": "/api/data/v9.2/systemforms(<FULL_REPLICA_FORM_ID>)",
+    "method": "PATCH",
+    "fields": [
+      "formxml"
+    ],
+      "payloadSource": "local-artifacts/d365/docs/d365/phase1c4-full-replica-formxml-draft.xml",
+    "formJsonMustNotBeWritten": true
+  },
+  "subgrid": {
+    "table": "aigw_actualmanagement",
+    "relationship": "aigw_opportunity_actualmanagement",
+    "lookup": "aigw_opportunityid",
+    "viewId": "<ACTUAL_MANAGEMENT_VIEW_ID>",
+    "viewName": "实绩管理 - AI Demo",
+    "controlId": "aigw_actualmanagement_subgrid",
+    "cellId": "{A1C40001-7C11-4F31-9D42-1C4A00000001}",
+    "uniqueId": "{A1C40002-7C11-4F31-9D42-1C4A00000002}",
+    "records": "Only related records",
+    "rows": 10,
+    "autoExpand": false,
+    "search": true,
+    "index": false,
+    "chart": false,
+    "viewSelector": true,
+    "commandBar": true,
+    "allowCreate": "Enabled when the command bar is visible and the user has Create privilege",
+    "allowDelete": "Not encoded as a FormXML flag; keep Delete privilege unavailable for the applicable security role or configure the command bar in a separately authorized phase"
+  },
+  "protected": [
+    "original Opportunity Form",
+    "original View",
+    "App",
+    "Business Rule",
+    "BPF",
+    "Opportunity data",
+    "Actual Management data",
+    "FormJSON"
+  ],
+  "publish": {
+    "requiredForSaveOnly": false,
+    "executed": false,
+    "futureGate": "Publish only the new Full Replica systemform component under a separate authorization; never broad PublishXml or opportunity entity publish."
+  },
+  "rollback": {
+    "beforeBackup": "backups/dataverse/<this-run>/00_unpublished_form_before.xml",
+    "manualDesigner": "Remove only aigw_actualmanagement_subgrid before Publish",
+    "apiFallback": "Restore exact pre-1C-4 unpublished FormXML only under separate authorization"
+  },
+  "phases": [
+    {
+      "id": "1C-4A",
+      "action": "Generate diff and manifest",
+      "write": false
+    },
+    {
+      "id": "1C-4B",
+      "action": "Add related-records Subgrid to unpublished Full Replica",
+      "write": true,
+      "separateAuthorizationRequired": true
+    },
+    {
+      "id": "1C-4C",
+      "action": "Power Apps Designer Save only to synchronize platform representation",
+      "publish": false
+    },
+    {
+      "id": "1C-4D",
+      "action": "Read-only FormXML/FormJSON and relationship/view validation",
+      "write": false
+    },
+    {
+      "id": "1C-4E",
+      "action": "Separate targeted publish gate",
+      "separateAuthorizationRequired": true
+    }
+  ]
+}

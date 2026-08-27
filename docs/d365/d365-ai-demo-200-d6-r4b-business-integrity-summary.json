@@ -1,0 +1,32 @@
+{
+  "phase": "Phase 1C-5R2G-D6-R4B",
+  "canaryToken": "DEMO-OPP-012",
+  "explicitRecordCountBeforeAfter": [
+    3900,
+    3900
+  ],
+  "timelineCountBeforeAfter": [
+    1800,
+    1800
+  ],
+  "signalCountBeforeAfter": [
+    1350,
+    1350
+  ],
+  "actualCountBeforeAfter": [
+    130,
+    130
+  ],
+  "coverageCountBeforeAfter": [
+    240,
+    240
+  ],
+  "canaryActualCountBeforeAfter": [
+    0,
+    0
+  ],
+  "actualCreatedByStateAction": false,
+  "nonCanaryOpportunityStateHashUnchanged": true,
+  "relatedBusinessHashUnchanged": true,
+  "nonDemoModified": false
+}

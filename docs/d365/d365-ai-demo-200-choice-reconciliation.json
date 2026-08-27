@@ -1,0 +1,4394 @@
+{
+  "phase": "Phase 1C-5R2G-D1",
+  "rows": [
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_organizationgroup_choice",
+      "displayLabel": "01: BD Sales(CL)",
+      "metadataValue": 1,
+      "metadataLabels": [
+        "01: BD Sales(CL)",
+        "01: BD Sales(CL)"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_organizationgroup_choice",
+      "displayLabel": "02: BD Sales(FF)",
+      "metadataValue": 2,
+      "metadataLabels": [
+        "02: BD Sales(FF)",
+        "02: BD Sales(FF)"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_organizationgroup_choice",
+      "displayLabel": "03: Dalian branch",
+      "metadataValue": 3,
+      "metadataLabels": [
+        "03: Dalian branch",
+        "03: Dalian branch"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_organizationgroup_choice",
+      "displayLabel": "04: Beijing branch",
+      "metadataValue": 4,
+      "metadataLabels": [
+        "04: Beijing branch",
+        "04: Beijing branch"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_organizationgroup_choice",
+      "displayLabel": "05: Suzhou branch",
+      "metadataValue": 5,
+      "metadataLabels": [
+        "05: Suzhou branch",
+        "05: Suzhou branch"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_organizationgroup_choice",
+      "displayLabel": "06: Chongqing branch",
+      "metadataValue": 6,
+      "metadataLabels": [
+        "06: Chongqing branch",
+        "06: Chongqing branch"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_organizationgroup_choice",
+      "displayLabel": "07: EHB Sales",
+      "metadataValue": 7,
+      "metadataLabels": [
+        "07: EHB Sales",
+        "07: EHB Sales"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_organizationgroup_choice",
+      "displayLabel": "08: LTW Sales",
+      "metadataValue": 8,
+      "metadataLabels": [
+        "08: LTW Sales",
+        "08: LTW Sales"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_organizationgroup_choice",
+      "displayLabel": "09: LHK Sales",
+      "metadataValue": 9,
+      "metadataLabels": [
+        "09: LHK Sales",
+        "09: LHK Sales"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_organizationgroup_choice",
+      "displayLabel": "10: AL sales",
+      "metadataValue": 10,
+      "metadataLabels": [
+        "10: AL sales",
+        "10: AL sales"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_organizationgroup_choice",
+      "displayLabel": "11: Wuxi branch",
+      "metadataValue": 11,
+      "metadataLabels": [
+        "11: Wuxi branch",
+        "11: Wuxi branch"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_organizationgroup_choice",
+      "displayLabel": "12: Qingdao branch",
+      "metadataValue": 12,
+      "metadataLabels": [
+        "12: Qingdao branch",
+        "12: Qingdao branch"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_organizationgroup_choice",
+      "displayLabel": "13: Guangzhou branch",
+      "metadataValue": 13,
+      "metadataLabels": [
+        "13: Guangzhou branch",
+        "13: Guangzhou branch"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_organizationgroup_choice",
+      "displayLabel": "14: Shenzhen branch",
+      "metadataValue": 14,
+      "metadataLabels": [
+        "14: Shenzhen branch",
+        "14: Shenzhen branch"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_organizationgroup_choice",
+      "displayLabel": "15: Zhuhai branch",
+      "metadataValue": 15,
+      "metadataLabels": [
+        "15: Zhuhai branch",
+        "15: Zhuhai branch"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_organizationgroup_choice",
+      "displayLabel": "16: KA East(FF)",
+      "metadataValue": 16,
+      "metadataLabels": [
+        "16: KA(FF)",
+        "16: KA(FF)"
+      ],
+      "resolution": "numeric-code",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_organizationgroup_choice",
+      "displayLabel": "17: KA South(FF)",
+      "metadataValue": 17,
+      "metadataLabels": [
+        "17: CS(FF)",
+        "17: CS(FF)"
+      ],
+      "resolution": "numeric-code",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_organizationgroup_choice",
+      "displayLabel": "91: Others",
+      "metadataValue": 91,
+      "metadataLabels": [
+        "91: Others",
+        "91: Others"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_organizationgroup_choice",
+      "displayLabel": "18: OKAM",
+      "metadataValue": 91,
+      "metadataLabels": [
+        "91: Others",
+        "91: Others"
+      ],
+      "resolution": "approved-consolidation",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_organizationgroup_choice",
+      "displayLabel": "19: CS(FF)",
+      "metadataValue": 17,
+      "metadataLabels": [
+        "17: CS(FF)",
+        "17: CS(FF)"
+      ],
+      "resolution": "approved-consolidation",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_salesdepartment_choice",
+      "displayLabel": "01: Dept1(Industry)",
+      "metadataValue": 1,
+      "metadataLabels": [
+        "01: Dept1(Industry)",
+        "01: Dept1(Industry)"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_salesdepartment_choice",
+      "displayLabel": "02: Dept1(Distribution)",
+      "metadataValue": 2,
+      "metadataLabels": [
+        "02: Dept1(Distribution)",
+        "02: Dept1(Distribution)"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_salesdepartment_choice",
+      "displayLabel": "03: Dept2(LCMS)",
+      "metadataValue": 3,
+      "metadataLabels": [
+        "03: Dept2(LCMS)",
+        "03: Dept2(LCMS)"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_salesdepartment_choice",
+      "displayLabel": "04: Dept3(Project Cargo)",
+      "metadataValue": 4,
+      "metadataLabels": [
+        "04: Dept3(Project Cargo)",
+        "04: Dept3(Project Cargo)"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_salesdepartment_choice",
+      "displayLabel": "05: Dept3(Dangerous Goods)",
+      "metadataValue": 5,
+      "metadataLabels": [
+        "05: Dept3(Dangerous Goods)",
+        "05: Dept3(Dangerous Goods)"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_salesdepartment_choice",
+      "displayLabel": "06: FF",
+      "metadataValue": 6,
+      "metadataLabels": [
+        "06: FF",
+        "06: FF"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_salesdepartment_choice",
+      "displayLabel": "91: Others",
+      "metadataValue": 91,
+      "metadataLabels": [
+        "91: Others",
+        "91: Others"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_bookingdepartment_choice",
+      "displayLabel": "01: Domestic Div.",
+      "metadataValue": 1,
+      "metadataLabels": [
+        "01: Domestic Div.",
+        "01: Domestic Div."
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_bookingdepartment_choice",
+      "displayLabel": "02: International Div.",
+      "metadataValue": 2,
+      "metadataLabels": [
+        "02: International Div.",
+        "02: International Div."
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_bookingdepartment_choice",
+      "displayLabel": "03: Beijing branch",
+      "metadataValue": 3,
+      "metadataLabels": [
+        "03: Beijing branch",
+        "03: Beijing branch"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_bookingdepartment_choice",
+      "displayLabel": "04: Dalian branch",
+      "metadataValue": 4,
+      "metadataLabels": [
+        "04: Dalian branch",
+        "04: Dalian branch"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_bookingdepartment_choice",
+      "displayLabel": "05: Suzhou branch",
+      "metadataValue": 5,
+      "metadataLabels": [
+        "05: Suzhou branch",
+        "05: Suzhou branch"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_bookingdepartment_choice",
+      "displayLabel": "06: Chongqing branch",
+      "metadataValue": 6,
+      "metadataLabels": [
+        "06: Chongqing branch",
+        "06: Chongqing branch"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_bookingdepartment_choice",
+      "displayLabel": "07: Shanghai Air Export",
+      "metadataValue": 7,
+      "metadataLabels": [
+        "07: Shanghai Air Export",
+        "07: Shanghai Air Export"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_bookingdepartment_choice",
+      "displayLabel": "08: Shanghai Air Import",
+      "metadataValue": 8,
+      "metadataLabels": [
+        "08: Shanghai Air Import",
+        "08: Shanghai Air Import"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_bookingdepartment_choice",
+      "displayLabel": "09: Shanghai Ocean Export",
+      "metadataValue": 9,
+      "metadataLabels": [
+        "09: Shanghai Ocean Export",
+        "09: Shanghai Ocean Export"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_bookingdepartment_choice",
+      "displayLabel": "10: Shanghai Ocean Import",
+      "metadataValue": 10,
+      "metadataLabels": [
+        "10: Shanghai Ocean Import",
+        "10: Shanghai Ocean Import"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_bookingdepartment_choice",
+      "displayLabel": "11: Wuxi branch",
+      "metadataValue": 11,
+      "metadataLabels": [
+        "11: Wuxi branch",
+        "11: Wuxi branch"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_bookingdepartment_choice",
+      "displayLabel": "12: Qingdao branch",
+      "metadataValue": 12,
+      "metadataLabels": [
+        "12: Qingdao branch",
+        "12: Qingdao branch"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_bookingdepartment_choice",
+      "displayLabel": "14: Guangzhou branch",
+      "metadataValue": 14,
+      "metadataLabels": [
+        "14: Guangzhou branch",
+        "14: Guangzhou branch"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_bookingdepartment_choice",
+      "displayLabel": "15: Zhuhai branch",
+      "metadataValue": 15,
+      "metadataLabels": [
+        "15: Zhuhai branch",
+        "15: Zhuhai branch"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_bookingdepartment_choice",
+      "displayLabel": "16: Shenzhen branch",
+      "metadataValue": 16,
+      "metadataLabels": [
+        "16: Shenzhen branch",
+        "16: Shenzhen branch"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_bookingdepartment_choice",
+      "displayLabel": "17: [FCC]",
+      "metadataValue": 17,
+      "metadataLabels": [
+        "17: [FCC]",
+        "17: [FCC]"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_bookingdepartment_choice",
+      "displayLabel": "18: [EHB]",
+      "metadataValue": 18,
+      "metadataLabels": [
+        "18: [EHB]",
+        "18: [EHB]"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_bookingdepartment_choice",
+      "displayLabel": "19: [LHK]",
+      "metadataValue": 19,
+      "metadataLabels": [
+        "19: [LHK]",
+        "19: [LHK]"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_bookingdepartment_choice",
+      "displayLabel": "20: [LTW]",
+      "metadataValue": 20,
+      "metadataLabels": [
+        "20: [LTW]",
+        "20: [LTW]"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_bookingdepartment_choice",
+      "displayLabel": "21: [VSE]",
+      "metadataValue": 21,
+      "metadataLabels": [
+        "21: [VSE]",
+        "21: [VSE]"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_bookingdepartment_choice",
+      "displayLabel": "22: [AL]",
+      "metadataValue": 22,
+      "metadataLabels": [
+        "22: [AL]",
+        "22: [AL]"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_bookingdepartment_choice",
+      "displayLabel": "23: LD other country",
+      "metadataValue": 23,
+      "metadataLabels": [
+        "23: LD other country",
+        "23: LD other country"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_bookingdepartment_choice",
+      "displayLabel": "24: LD Japan",
+      "metadataValue": 24,
+      "metadataLabels": [
+        "24: LD Japan",
+        "24: LD Japan"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_bookingdepartment_choice",
+      "displayLabel": "25: LD others",
+      "metadataValue": 25,
+      "metadataLabels": [
+        "25: LD others",
+        "25: LD others"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_bookingdepartment_choice",
+      "displayLabel": "91: Others",
+      "metadataValue": 91,
+      "metadataLabels": [
+        "91: Others",
+        "91: Others"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_bookingdepartment_choice",
+      "displayLabel": "26: Domestic Div East Shanghai WH",
+      "metadataValue": 26,
+      "metadataLabels": [
+        "26: Domestic Div East Shanghai WH",
+        "26: Domestic Div East Shanghai WH"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_budgetstatus",
+      "displayLabel": "01: 预算内",
+      "metadataValue": 1,
+      "metadataLabels": [
+        "01: 预算内",
+        "01: 预算内"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_budgetstatus",
+      "displayLabel": "02: 预算外",
+      "metadataValue": 0,
+      "metadataLabels": [
+        "预算外",
+        "预算外"
+      ],
+      "resolution": "boolean-semantic",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_opportunitytype",
+      "displayLabel": "01：新增",
+      "metadataValue": 1,
+      "metadataLabels": [
+        "01：新增",
+        "01：新增"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_opportunitytype",
+      "displayLabel": "02：现有",
+      "metadataValue": 2,
+      "metadataLabels": [
+        "02: 现有",
+        "02: 现有"
+      ],
+      "resolution": "normalized-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_opportunitytype",
+      "displayLabel": "01：现有-新增",
+      "metadataValue": 3,
+      "metadataLabels": [
+        "01：现有-新增",
+        "01：现有-新增"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_opportunitytype",
+      "displayLabel": "91：其他",
+      "metadataValue": 91,
+      "metadataLabels": [
+        "91：其他",
+        "91：其他"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_opportunityrelationship",
+      "displayLabel": "01: [LD]",
+      "metadataValue": 1,
+      "metadataLabels": [
+        "01: [LD]",
+        "01: [LD]"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_opportunityrelationship",
+      "displayLabel": "02: [LX]",
+      "metadataValue": 2,
+      "metadataLabels": [
+        "02: [LX]",
+        "02: [LX]"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_opportunityrelationship",
+      "displayLabel": "03: [BML]",
+      "metadataValue": 3,
+      "metadataLabels": [
+        "03: [BML]",
+        "03: [BML]"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_opportunityrelationship",
+      "displayLabel": "04: [ESA]",
+      "metadataValue": 4,
+      "metadataLabels": [
+        "04: [ESA]",
+        "04: [ESA]"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_opportunityrelationship",
+      "displayLabel": "05: [FJL]",
+      "metadataValue": 5,
+      "metadataLabels": [
+        "05: [FJL]",
+        "05: [FJL]"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_opportunityrelationship",
+      "displayLabel": "06: [LAP]",
+      "metadataValue": 6,
+      "metadataLabels": [
+        "06: [LAP]",
+        "06: [LAP]"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_opportunityrelationship",
+      "displayLabel": "07: [LAU]",
+      "metadataValue": 7,
+      "metadataLabels": [
+        "07: [LAU]",
+        "07: [LAU]"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_opportunityrelationship",
+      "displayLabel": "08: [LCN]",
+      "metadataValue": 8,
+      "metadataLabels": [
+        "08: [LCN]",
+        "08: [LCN]"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_opportunityrelationship",
+      "displayLabel": "09: [LEU]",
+      "metadataValue": 9,
+      "metadataLabels": [
+        "09: [LEU]",
+        "09: [LEU]"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_opportunityrelationship",
+      "displayLabel": "10: [LHK]",
+      "metadataValue": 10,
+      "metadataLabels": [
+        "10: [LHK]",
+        "10: [LHK]"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_opportunityrelationship",
+      "displayLabel": "11: [LKR]",
+      "metadataValue": 11,
+      "metadataLabels": [
+        "11: [LKR]",
+        "11: [LKR]"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_opportunityrelationship",
+      "displayLabel": "12: [LMY]",
+      "metadataValue": 12,
+      "metadataLabels": [
+        "12: [LMY]",
+        "12: [LMY]"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_opportunityrelationship",
+      "displayLabel": "13: [LTH]",
+      "metadataValue": 13,
+      "metadataLabels": [
+        "13: [LTH]",
+        "13: [LTH]"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_opportunityrelationship",
+      "displayLabel": "14: [LTW]",
+      "metadataValue": 14,
+      "metadataLabels": [
+        "14: [LTW]",
+        "14: [LTW]"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_opportunityrelationship",
+      "displayLabel": "15: [LUS]",
+      "metadataValue": 15,
+      "metadataLabels": [
+        "15: [LUS]",
+        "15: [LUS]"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_opportunityrelationship",
+      "displayLabel": "16: [LVN]",
+      "metadataValue": 16,
+      "metadataLabels": [
+        "16: [LVN]",
+        "16: [LVN]"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_opportunityrelationship",
+      "displayLabel": "17: [MARS]",
+      "metadataValue": 17,
+      "metadataLabels": [
+        "17: [MARS]",
+        "17: [MARS]"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_opportunityrelationship",
+      "displayLabel": "18: [MIF]",
+      "metadataValue": 18,
+      "metadataLabels": [
+        "18: [MIF]",
+        "18: [MIF]"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_opportunityrelationship",
+      "displayLabel": "19: [SGW]",
+      "metadataValue": 19,
+      "metadataLabels": [
+        "19: [SGW]",
+        "19: [SGW]"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_opportunityrelationship",
+      "displayLabel": "20: [VML]",
+      "metadataValue": 20,
+      "metadataLabels": [
+        "20: [VML]",
+        "20: [VML]"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_opportunityrelationship",
+      "displayLabel": "21: [VSE]",
+      "metadataValue": 21,
+      "metadataLabels": [
+        "21: [VSE]",
+        "21: [VSE]"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_opportunityrelationship",
+      "displayLabel": "22: [VTC]",
+      "metadataValue": 22,
+      "metadataLabels": [
+        "22: [VTC]",
+        "22: [VTC]"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_opportunityrelationship",
+      "displayLabel": "23: [FCC]",
+      "metadataValue": 23,
+      "metadataLabels": [
+        "23: [FCC]",
+        "23: [FCC]"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_opportunityrelationship",
+      "displayLabel": "24: [AIT]",
+      "metadataValue": 24,
+      "metadataLabels": [
+        "24: [AIT]",
+        "24: [AIT]"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_opportunityrelationship",
+      "displayLabel": "25: [AL]",
+      "metadataValue": 25,
+      "metadataLabels": [
+        "25: [AL]",
+        "25: [AL]"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_opportunityrelationship",
+      "displayLabel": "26: Nisshin",
+      "metadataValue": 26,
+      "metadataLabels": [
+        "26: Nisshin",
+        "26: Nisshin"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_opportunityrelationship",
+      "displayLabel": "27: Other Agent",
+      "metadataValue": 27,
+      "metadataLabels": [
+        "27: Other Agent",
+        "27: Other Agent"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_opportunityrelationship",
+      "displayLabel": "91: Others",
+      "metadataValue": 91,
+      "metadataLabels": [
+        "91: Others",
+        "91: Others"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_casestage",
+      "displayLabel": "01: L1(信息录入)",
+      "metadataValue": 1,
+      "metadataLabels": [
+        "01: L1(信息录入)",
+        "01: L1(信息录入)"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_casestage",
+      "displayLabel": "02: L2(可行性研究/报价)",
+      "metadataValue": 2,
+      "metadataLabels": [
+        "02: L2(可行性研究/报价)",
+        "02: L2(可行性研究/报价)"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_casestage",
+      "displayLabel": "03: L3(客户访问演示)",
+      "metadataValue": 3,
+      "metadataLabels": [
+        "03: L3(客户访问演示)",
+        "03: L3(客户访问演示)"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_casestage",
+      "displayLabel": "04: L4(提交报价)",
+      "metadataValue": 4,
+      "metadataLabels": [
+        "04: L4(提交报价)",
+        "04: L4(提交报价)"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_casestage",
+      "displayLabel": "05: L5(收到订单)",
+      "metadataValue": 5,
+      "metadataLabels": [
+        "05: L5(收到订单)",
+        "05: L5(收到订单)"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_opportunitydetailtype",
+      "displayLabel": "01: 仓库",
+      "metadataValue": 1,
+      "metadataLabels": [
+        "01: 仓库",
+        "01: 仓库"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_opportunitydetailtype",
+      "displayLabel": "02: 仓库运营",
+      "metadataValue": 2,
+      "metadataLabels": [
+        "02: 仓库运营",
+        "02: 仓库运营"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_opportunitydetailtype",
+      "displayLabel": "03: 运输",
+      "metadataValue": 3,
+      "metadataLabels": [
+        "03: 运输",
+        "03: 运输"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_opportunitydetailtype",
+      "displayLabel": "04: WMS（仓库管理系统）",
+      "metadataValue": 4,
+      "metadataLabels": [
+        "04: WMS（仓库管理系统）",
+        "04: WMS（仓库管理系统）"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_opportunitydetailtype",
+      "displayLabel": "05: 货运代理",
+      "metadataValue": 5,
+      "metadataLabels": [
+        "05: 货运代理",
+        "05: 货运代理"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_opportunitydetailtype",
+      "displayLabel": "06: LCMS（运输管理系统）",
+      "metadataValue": 6,
+      "metadataLabels": [
+        "06: LCMS（运输管理系统）",
+        "06: LCMS（运输管理系统）"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_opportunitydetailtype",
+      "displayLabel": "07: 物流咨询",
+      "metadataValue": 7,
+      "metadataLabels": [
+        "07: 物流咨询",
+        "07: 物流咨询"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_opportunitydetailtype",
+      "displayLabel": "08: 项目物流",
+      "metadataValue": 8,
+      "metadataLabels": [
+        "08: 项目物流",
+        "08: 项目物流"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_opportunitydetailtype",
+      "displayLabel": "91: 其他",
+      "metadataValue": 91,
+      "metadataLabels": [
+        "91: 其他",
+        "91: 其他"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_opportunitylist_bool",
+      "displayLabel": "01: Indicate",
+      "metadataValue": 1,
+      "metadataLabels": [
+        "是 / 进入列表",
+        "是 / 进入列表"
+      ],
+      "resolution": "numeric-code",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_opportunitylist_bool",
+      "displayLabel": "02: Unindicate",
+      "metadataValue": 0,
+      "metadataLabels": [
+        "否 / 不进入列表",
+        "否 / 不进入列表"
+      ],
+      "resolution": "boolean-semantic",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_globalinitiative",
+      "displayLabel": "01: A1(在全球范围内拓展空运 FF 能力)",
+      "metadataValue": 1,
+      "metadataLabels": [
+        "01: A1(在全球范围内拓展空运 FF 能力)",
+        "01: A1(在全球范围内拓展空运 FF 能力)"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_globalinitiative",
+      "displayLabel": "02: A2(在全球范围内拓展海运 FF 能力)",
+      "metadataValue": 2,
+      "metadataLabels": [
+        "02: A2(在全球范围内拓展海运 FF 能力)",
+        "02: A2(在全球范围内拓展海运 FF 能力)"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_globalinitiative",
+      "displayLabel": "03: A3(贸易通道管理/中小企业销售)",
+      "metadataValue": 3,
+      "metadataLabels": [
+        "03: A3(贸易通道管理/中小企业销售)",
+        "03: A3(贸易通道管理/中小企业销售)"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_globalinitiative",
+      "displayLabel": "04: A4(网络优化)",
+      "metadataValue": 4,
+      "metadataLabels": [
+        "04: A4(网络优化)",
+        "04: A4(网络优化)"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_globalinitiative",
+      "displayLabel": "05: A5(欧洲 FF 能力增长)",
+      "metadataValue": 5,
+      "metadataLabels": [
+        "05: A5(欧洲 FF 能力增长)",
+        "05: A5(欧洲 FF 能力增长)"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_globalinitiative",
+      "displayLabel": "06: A6(RFQ 响应单位)",
+      "metadataValue": 6,
+      "metadataLabels": [
+        "06: A6(RFQ 响应单位)",
+        "06: A6(RFQ 响应单位)"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_globalinitiative",
+      "displayLabel": "07: B1(在美国和墨西哥拓展综合物流)",
+      "metadataValue": 7,
+      "metadataLabels": [
+        "07: B1(在美国和墨西哥拓展综合物流)",
+        "07: B1(在美国和墨西哥拓展综合物流)"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_globalinitiative",
+      "displayLabel": "08: B2(加强整个欧洲的铁路物流)",
+      "metadataValue": 8,
+      "metadataLabels": [
+        "08: B2(加强整个欧洲的铁路物流)",
+        "08: B2(加强整个欧洲的铁路物流)"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_globalinitiative",
+      "displayLabel": "09: C1(为中国带来增长)",
+      "metadataValue": 9,
+      "metadataLabels": [
+        "09: C1(为中国带来增长)",
+        "09: C1(为中国带来增长)"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_globalinitiative",
+      "displayLabel": "10: C2(为东南亚带来增长)",
+      "metadataValue": 10,
+      "metadataLabels": [
+        "10: C2(为东南亚带来增长)",
+        "10: C2(为东南亚带来增长)"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_globalinitiative",
+      "displayLabel": "11: C3(与现有的 CL 客户发展综合物流)",
+      "metadataValue": 11,
+      "metadataLabels": [
+        "11: C3(与现有的 CL 客户发展综合物流)",
+        "11: C3(与现有的 CL 客户发展综合物流)"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_globalinitiative",
+      "displayLabel": "12: C4(通过 GAP 实现非 JP KA)",
+      "metadataValue": 12,
+      "metadataLabels": [
+        "12: C4(通过 GAP 实现非 JP KA)",
+        "12: C4(通过 GAP 实现非 JP KA)"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_globalinitiative",
+      "displayLabel": "13: C5(行业计划)",
+      "metadataValue": 13,
+      "metadataLabels": [
+        "13: C5(行业计划)",
+        "13: C5(行业计划)"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_globalinitiative",
+      "displayLabel": "14: D1(SG&A优化)",
+      "metadataValue": 14,
+      "metadataLabels": [
+        "14: D1(SG&A优化)",
+        "14: D1(SG&A优化)"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_globalinitiative",
+      "displayLabel": "15: E1(货物智选实施)",
+      "metadataValue": 15,
+      "metadataLabels": [
+        "15: E1(货物智选实施)",
+        "15: E1(货物智选实施)"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_globalinitiative",
+      "displayLabel": "91: 无",
+      "metadataValue": 91,
+      "metadataLabels": [
+        "91: 无",
+        "91: 无"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_alpscooperation",
+      "displayLabel": "Yes",
+      "metadataValue": 1,
+      "metadataLabels": [
+        "Yes",
+        "Yes"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_alpscooperation",
+      "displayLabel": "No",
+      "metadataValue": 0,
+      "metadataLabels": [
+        "No",
+        "No"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_winprobabilityrank",
+      "displayLabel": "01: Z",
+      "metadataValue": 100000000,
+      "metadataLabels": [
+        "Z"
+      ],
+      "resolution": "rank-code",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_winprobabilityrank",
+      "displayLabel": "02: A",
+      "metadataValue": 100000001,
+      "metadataLabels": [
+        "02: A",
+        "02: A"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_winprobabilityrank",
+      "displayLabel": "03: B",
+      "metadataValue": 100000002,
+      "metadataLabels": [
+        "B"
+      ],
+      "resolution": "rank-code",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_winprobabilityrank",
+      "displayLabel": "04: C",
+      "metadataValue": 100000003,
+      "metadataLabels": [
+        "C"
+      ],
+      "resolution": "rank-code",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_winprobabilityrank",
+      "displayLabel": "05: D",
+      "metadataValue": 100000004,
+      "metadataLabels": [
+        "D"
+      ],
+      "resolution": "rank-code",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_winprobabilityrank",
+      "displayLabel": "06: Y",
+      "metadataValue": 100000005,
+      "metadataLabels": [
+        "Y"
+      ],
+      "resolution": "rank-code",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_goodshandled",
+      "displayLabel": "01: 汽车零部件",
+      "metadataValue": 1,
+      "metadataLabels": [
+        "01: 汽车零部件",
+        "01: 汽车零部件"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_goodshandled",
+      "displayLabel": "02: 电子元件",
+      "metadataValue": 2,
+      "metadataLabels": [
+        "02: 电子元件",
+        "02: 电子元件"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_goodshandled",
+      "displayLabel": "03: 家用电器",
+      "metadataValue": 3,
+      "metadataLabels": [
+        "03: 家用电器",
+        "03: 家用电器"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_goodshandled",
+      "displayLabel": "04: 家居用品",
+      "metadataValue": 4,
+      "metadataLabels": [
+        "04: 家居用品",
+        "04: 家居用品"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_goodshandled",
+      "displayLabel": "05: 工业产品",
+      "metadataValue": 5,
+      "metadataLabels": [
+        "05: 工业产品",
+        "05: 工业产品"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_goodshandled",
+      "displayLabel": "06: 食品",
+      "metadataValue": 6,
+      "metadataLabels": [
+        "06: 食品",
+        "06: 食品"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_goodshandled",
+      "displayLabel": "07: 药品",
+      "metadataValue": 7,
+      "metadataLabels": [
+        "07: 药品",
+        "07: 药品"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_goodshandled",
+      "displayLabel": "08: 化学品",
+      "metadataValue": 8,
+      "metadataLabels": [
+        "08: 化学品",
+        "08: 化学品"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_goodshandled",
+      "displayLabel": "09: 危险品",
+      "metadataValue": 9,
+      "metadataLabels": [
+        "09: 危险品",
+        "09: 危险品"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_goodshandled",
+      "displayLabel": "10: 纺织品",
+      "metadataValue": 10,
+      "metadataLabels": [
+        "10: 纺织品",
+        "10: 纺织品"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_goodshandled",
+      "displayLabel": "11: 半导体",
+      "metadataValue": 11,
+      "metadataLabels": [
+        "11: 半导体",
+        "11: 半导体"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_goodshandled",
+      "displayLabel": "12: 建筑材料",
+      "metadataValue": 12,
+      "metadataLabels": [
+        "12: 建筑材料",
+        "12: 建筑材料"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_goodshandled",
+      "displayLabel": "13: 机械零部件",
+      "metadataValue": 13,
+      "metadataLabels": [
+        "13: 机械零部件",
+        "13: 机械零部件"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_goodshandled",
+      "displayLabel": "14: 图书",
+      "metadataValue": 14,
+      "metadataLabels": [
+        "14: 图书",
+        "14: 图书"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_goodshandled",
+      "displayLabel": "15: 服装",
+      "metadataValue": 15,
+      "metadataLabels": [
+        "15: 服装",
+        "15: 服装"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_goodshandled",
+      "displayLabel": "16: 玩具",
+      "metadataValue": 16,
+      "metadataLabels": [
+        "16: 玩具",
+        "16: 玩具"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_goodshandled",
+      "displayLabel": "17: 化妆品",
+      "metadataValue": 17,
+      "metadataLabels": [
+        "17: 化妆品",
+        "17: 化妆品"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_goodshandled",
+      "displayLabel": "18: 农产品",
+      "metadataValue": 18,
+      "metadataLabels": [
+        "18: 农产品",
+        "18: 农产品"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_goodshandled",
+      "displayLabel": "19: 饮料",
+      "metadataValue": 19,
+      "metadataLabels": [
+        "19: 饮料",
+        "19: 饮料"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_goodshandled",
+      "displayLabel": "20: 医疗器械",
+      "metadataValue": 20,
+      "metadataLabels": [
+        "20: 医疗器械",
+        "20: 医疗器械"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_goodshandled",
+      "displayLabel": "21: 文具",
+      "metadataValue": 21,
+      "metadataLabels": [
+        "21: 文具",
+        "21: 文具"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_goodshandled",
+      "displayLabel": "22: 钢铁产品",
+      "metadataValue": 22,
+      "metadataLabels": [
+        "22: 钢铁产品",
+        "22: 钢铁产品"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_goodshandled",
+      "displayLabel": "23: 塑料制品",
+      "metadataValue": 23,
+      "metadataLabels": [
+        "23: 塑料制品",
+        "23: 塑料制品"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_goodshandled",
+      "displayLabel": "24: 橡胶制品",
+      "metadataValue": 24,
+      "metadataLabels": [
+        "24: 橡胶制品",
+        "24: 橡胶制品"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_goodshandled",
+      "displayLabel": "25: 木材",
+      "metadataValue": 25,
+      "metadataLabels": [
+        "25: 木材",
+        "25: 木材"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_goodshandled",
+      "displayLabel": "26: 纸制品",
+      "metadataValue": 26,
+      "metadataLabels": [
+        "26: 纸制品",
+        "26: 纸制品"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_goodshandled",
+      "displayLabel": "27: 玻璃制品",
+      "metadataValue": 27,
+      "metadataLabels": [
+        "27: 玻璃制品",
+        "27: 玻璃制品"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_goodshandled",
+      "displayLabel": "28: 陶瓷制品",
+      "metadataValue": 28,
+      "metadataLabels": [
+        "28: 陶瓷制品",
+        "28: 陶瓷制品"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_goodshandled",
+      "displayLabel": "29: 电池",
+      "metadataValue": 29,
+      "metadataLabels": [
+        "29: 电池",
+        "29: 电池"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_goodshandled",
+      "displayLabel": "30: 燃料",
+      "metadataValue": 30,
+      "metadataLabels": [
+        "30: 燃料",
+        "30: 燃料"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_goodshandled",
+      "displayLabel": "31: 冷冻食品",
+      "metadataValue": 31,
+      "metadataLabels": [
+        "31: 冷冻食品",
+        "31: 冷冻食品"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_goodshandled",
+      "displayLabel": "32: LCMS",
+      "metadataValue": 32,
+      "metadataLabels": [
+        "32: LCMS",
+        "32: LCMS"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_goodshandled",
+      "displayLabel": "33: 重型货物",
+      "metadataValue": 33,
+      "metadataLabels": [
+        "33: 重型货物",
+        "33: 重型货物"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_goodshandled",
+      "displayLabel": "91: 其他",
+      "metadataValue": 91,
+      "metadataLabels": [
+        "91: 其他",
+        "91: 其他"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_projectsizeunit",
+      "displayLabel": "01: ㎡ (square meter)",
+      "metadataValue": 1,
+      "metadataLabels": [
+        "01: ㎡ (square meter)",
+        "01: ㎡ (square meter)"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_projectsizeunit",
+      "displayLabel": "02: ㎥ (cubic meter)",
+      "metadataValue": 2,
+      "metadataLabels": [
+        "02: ㎥ (cubic meter)",
+        "02: ㎥ (cubic meter)"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_projectsizeunit",
+      "displayLabel": "03: ton",
+      "metadataValue": 3,
+      "metadataLabels": [
+        "03: ton",
+        "03: ton"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_projectsizeunit",
+      "displayLabel": "04: TEU",
+      "metadataValue": 4,
+      "metadataLabels": [
+        "04: TEU",
+        "04: TEU"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_projectsizeunit",
+      "displayLabel": "05: set",
+      "metadataValue": 5,
+      "metadataLabels": [
+        "05: set",
+        "05: set"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_projectsizeunit",
+      "displayLabel": "06: trucks",
+      "metadataValue": 6,
+      "metadataLabels": [
+        "06: trucks",
+        "06: trucks"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_projectsizeunit",
+      "displayLabel": "07: units",
+      "metadataValue": 7,
+      "metadataLabels": [
+        "07: units",
+        "07: units"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_projectsizeunit",
+      "displayLabel": "08: cartons",
+      "metadataValue": 8,
+      "metadataLabels": [
+        "08: cartons",
+        "08: cartons"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_projectsizeunit",
+      "displayLabel": "09: pieces",
+      "metadataValue": 9,
+      "metadataLabels": [
+        "09: pieces",
+        "09: pieces"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_projectsizeunit",
+      "displayLabel": "10: lines",
+      "metadataValue": 10,
+      "metadataLabels": [
+        "10: lines",
+        "10: lines"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_projectsizeunit",
+      "displayLabel": "11: Shipment",
+      "metadataValue": 11,
+      "metadataLabels": [
+        "11: Shipment",
+        "11: Shipment"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_projectsizeunit",
+      "displayLabel": "12: None",
+      "metadataValue": 12,
+      "metadataLabels": [
+        "12: None",
+        "12: None"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_researchbackground_choice",
+      "displayLabel": "01: 联系",
+      "metadataValue": 1,
+      "metadataLabels": [
+        "01: 联系",
+        "01: 联系"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_researchbackground_choice",
+      "displayLabel": "02: 来自日本 LD 的关系",
+      "metadataValue": 2,
+      "metadataLabels": [
+        "02: 来自日本 LD 的关系",
+        "02: 来自日本 LD 的关系"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_researchbackground_choice",
+      "displayLabel": "03: 来自其他国家 LD 的关系",
+      "metadataValue": 3,
+      "metadataLabels": [
+        "03: 来自其他国家 LD 的关系",
+        "03: 来自其他国家 LD 的关系"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_researchbackground_choice",
+      "displayLabel": "04: 来自我们网站的咨询",
+      "metadataValue": 4,
+      "metadataLabels": [
+        "04: 来自我们网站的咨询",
+        "04: 来自我们网站的咨询"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_researchbackground_choice",
+      "displayLabel": "05: 来自客户的电话",
+      "metadataValue": 5,
+      "metadataLabels": [
+        "05: 来自客户的电话",
+        "05: 来自客户的电话"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_researchbackground_choice",
+      "displayLabel": "06: 定期竞争/招投标",
+      "metadataValue": 6,
+      "metadataLabels": [
+        "06: 定期竞争/招投标",
+        "06: 定期竞争/招投标"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_researchbackground_choice",
+      "displayLabel": "07: 我方的接洽",
+      "metadataValue": 7,
+      "metadataLabels": [
+        "07: 我方的接洽",
+        "07: 我方的接洽"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_researchbackground_choice",
+      "displayLabel": "09: 销售线索",
+      "metadataValue": 9,
+      "metadataLabels": [
+        "09: 销售线索",
+        "09: 销售线索"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_researchbackground_choice",
+      "displayLabel": "10: 来自合作公司的关系",
+      "metadataValue": 10,
+      "metadataLabels": [
+        "10: 来自合作公司的关系",
+        "10: 来自合作公司的关系"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_researchbackground_choice",
+      "displayLabel": "11: 来自日立集团的关系",
+      "metadataValue": 11,
+      "metadataLabels": [
+        "11: 来自日立集团的关系",
+        "11: 来自日立集团的关系"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_researchbackground_choice",
+      "displayLabel": "12: 来自Alps的关系",
+      "metadataValue": 12,
+      "metadataLabels": [
+        "12: 来自Alps的关系",
+        "12: 来自Alps的关系"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_researchbackground_choice",
+      "displayLabel": "13: 过去案件的再访",
+      "metadataValue": 13,
+      "metadataLabels": [
+        "13: 过去案件的再访",
+        "13: 过去案件的再访"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_researchbackground_choice",
+      "displayLabel": "91: 其他",
+      "metadataValue": 91,
+      "metadataLabels": [
+        "91: 其他",
+        "91: 其他"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_warehousescale",
+      "displayLabel": "01: 1～500㎡",
+      "metadataValue": 1,
+      "metadataLabels": [
+        "01: 1～500㎡",
+        "01: 1～500㎡"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_warehousescale",
+      "displayLabel": "02: 501～1,000㎡",
+      "metadataValue": 2,
+      "metadataLabels": [
+        "02: 501～1,000㎡",
+        "02: 501～1,000㎡"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_warehousescale",
+      "displayLabel": "03: 1,001～2,000㎡",
+      "metadataValue": 3,
+      "metadataLabels": [
+        "03: 1,001～2,000㎡",
+        "03: 1,001～2,000㎡"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_warehousescale",
+      "displayLabel": "04: 2,001～3,000㎡",
+      "metadataValue": 4,
+      "metadataLabels": [
+        "04: 2,001～3,000㎡",
+        "04: 2,001～3,000㎡"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_warehousescale",
+      "displayLabel": "05: 3,001～5,000㎡",
+      "metadataValue": 5,
+      "metadataLabels": [
+        "05: 3,001～5,000㎡",
+        "05: 3,001～5,000㎡"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_warehousescale",
+      "displayLabel": "06: 5,001～7,500㎡",
+      "metadataValue": 6,
+      "metadataLabels": [
+        "06: 5,001～7,500㎡",
+        "06: 5,001～7,500㎡"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_warehousescale",
+      "displayLabel": "07: 7,501～10,000㎡",
+      "metadataValue": 7,
+      "metadataLabels": [
+        "07: 7,501～10,000㎡",
+        "07: 7,501～10,000㎡"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_warehousescale",
+      "displayLabel": "08: 10,001～15,000㎡",
+      "metadataValue": 8,
+      "metadataLabels": [
+        "08: 10,001～15,000㎡",
+        "08: 10,001～15,000㎡"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_warehousescale",
+      "displayLabel": "09: 15,001～20,000㎡",
+      "metadataValue": 9,
+      "metadataLabels": [
+        "09: 15,001～20,000㎡",
+        "09: 15,001～20,000㎡"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_warehousescale",
+      "displayLabel": "10: 20,001㎡ over",
+      "metadataValue": 10,
+      "metadataLabels": [
+        "10: 20,001㎡ over",
+        "10: 20,001㎡ over"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_warehousescale",
+      "displayLabel": "11: No warehouse operations",
+      "metadataValue": 11,
+      "metadataLabels": [
+        "11: No warehouse operations",
+        "11: No warehouse operations"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_warehousescale",
+      "displayLabel": "91: Others",
+      "metadataValue": 91,
+      "metadataLabels": [
+        "91: Others",
+        "91: Others"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_wonreason_choice",
+      "displayLabel": "01: 成本(仓库)",
+      "metadataValue": 1,
+      "metadataLabels": [
+        "01: 成本(仓库)",
+        "01: 成本(仓库)"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_wonreason_choice",
+      "displayLabel": "02: 成本(运营)",
+      "metadataValue": 2,
+      "metadataLabels": [
+        "02: 成本(运营)",
+        "02: 成本(运营)"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_wonreason_choice",
+      "displayLabel": "03: 成本(运输)",
+      "metadataValue": 3,
+      "metadataLabels": [
+        "03: 成本(运输)",
+        "03: 成本(运输)"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_wonreason_choice",
+      "displayLabel": "04: 成本(FF)",
+      "metadataValue": 4,
+      "metadataLabels": [
+        "04: 成本(FF)",
+        "04: 成本(FF)"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_wonreason_choice",
+      "displayLabel": "05: 成本(所有)",
+      "metadataValue": 5,
+      "metadataLabels": [
+        "05: 成本(所有)",
+        "05: 成本(所有)"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_wonreason_choice",
+      "displayLabel": "06: 成本(其他)",
+      "metadataValue": 6,
+      "metadataLabels": [
+        "06: 成本(其他)",
+        "06: 成本(其他)"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_wonreason_choice",
+      "displayLabel": "07: 提案细节",
+      "metadataValue": 7,
+      "metadataLabels": [
+        "07: 提案细节",
+        "07: 提案细节"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_wonreason_choice",
+      "displayLabel": "08: 仓库位置",
+      "metadataValue": 8,
+      "metadataLabels": [
+        "08: 仓库位置",
+        "08: 仓库位置"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_wonreason_choice",
+      "displayLabel": "09: 现有运营",
+      "metadataValue": 9,
+      "metadataLabels": [
+        "09: 现有运营",
+        "09: 现有运营"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_wonreason_choice",
+      "displayLabel": "10: 物流质量",
+      "metadataValue": 10,
+      "metadataLabels": [
+        "10: 物流质量",
+        "10: 物流质量"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_wonreason_choice",
+      "displayLabel": "11: 系统(WMS/TMS/其他)",
+      "metadataValue": 11,
+      "metadataLabels": [
+        "11: 系统(WMS/TMS/其他)",
+        "11: 系统(WMS/TMS/其他)"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_wonreason_choice",
+      "displayLabel": "12: DX/可视化",
+      "metadataValue": 12,
+      "metadataLabels": [
+        "12: DX/可视化",
+        "12: DX/可视化"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_wonreason_choice",
+      "displayLabel": "91: 其他",
+      "metadataValue": 91,
+      "metadataLabels": [
+        "91: 其他",
+        "91: 其他"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_lostreason_choice",
+      "displayLabel": "01: 成本(仓库)",
+      "metadataValue": 1,
+      "metadataLabels": [
+        "01: 成本(仓库)",
+        "01: 成本(仓库)"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_lostreason_choice",
+      "displayLabel": "02: 成本(运营)",
+      "metadataValue": 2,
+      "metadataLabels": [
+        "02: 成本(运营)",
+        "02: 成本(运营)"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_lostreason_choice",
+      "displayLabel": "03: 成本(运输)",
+      "metadataValue": 3,
+      "metadataLabels": [
+        "03: 成本(运输)",
+        "03: 成本(运输)"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_lostreason_choice",
+      "displayLabel": "04: 成本(FF)",
+      "metadataValue": 4,
+      "metadataLabels": [
+        "04: 成本(FF)",
+        "04: 成本(FF)"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_lostreason_choice",
+      "displayLabel": "05: 成本(所有)",
+      "metadataValue": 5,
+      "metadataLabels": [
+        "05: 成本(所有)",
+        "05: 成本(所有)"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_lostreason_choice",
+      "displayLabel": "06: 成本(其他)",
+      "metadataValue": 6,
+      "metadataLabels": [
+        "06: 成本(其他)",
+        "06: 成本(其他)"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_lostreason_choice",
+      "displayLabel": "07: 提案细节",
+      "metadataValue": 7,
+      "metadataLabels": [
+        "07: 提案细节",
+        "07: 提案细节"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_lostreason_choice",
+      "displayLabel": "08: 仓库位置",
+      "metadataValue": 8,
+      "metadataLabels": [
+        "08: 仓库位置",
+        "08: 仓库位置"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_lostreason_choice",
+      "displayLabel": "09: 现有运营",
+      "metadataValue": 9,
+      "metadataLabels": [
+        "09: 现有运营",
+        "09: 现有运营"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_lostreason_choice",
+      "displayLabel": "10: 物流质量",
+      "metadataValue": 10,
+      "metadataLabels": [
+        "10: 物流质量",
+        "10: 物流质量"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_lostreason_choice",
+      "displayLabel": "11: 系统(WMS/TMS/其他)",
+      "metadataValue": 11,
+      "metadataLabels": [
+        "11: 系统(WMS/TMS/其他)",
+        "11: 系统(WMS/TMS/其他)"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_lostreason_choice",
+      "displayLabel": "12: DX/可视化",
+      "metadataValue": 12,
+      "metadataLabels": [
+        "12: DX/可视化",
+        "12: DX/可视化"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_lostreason_choice",
+      "displayLabel": "91: 其他",
+      "metadataValue": 91,
+      "metadataLabels": [
+        "91: 其他",
+        "91: 其他"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_tradeterms",
+      "displayLabel": "01: EXW",
+      "metadataValue": 1,
+      "metadataLabels": [
+        "01: EXW",
+        "01: EXW"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_tradeterms",
+      "displayLabel": "02: FCA",
+      "metadataValue": 2,
+      "metadataLabels": [
+        "02: FCA",
+        "02: FCA"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_tradeterms",
+      "displayLabel": "03: FOB",
+      "metadataValue": 3,
+      "metadataLabels": [
+        "03: FOB",
+        "03: FOB"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_tradeterms",
+      "displayLabel": "04: CFR",
+      "metadataValue": 4,
+      "metadataLabels": [
+        "04: CFR",
+        "04: CFR"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_tradeterms",
+      "displayLabel": "05: CPT",
+      "metadataValue": 5,
+      "metadataLabels": [
+        "05: CPT",
+        "05: CPT"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_tradeterms",
+      "displayLabel": "06: CIF",
+      "metadataValue": 6,
+      "metadataLabels": [
+        "06: CIF",
+        "06: CIF"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_tradeterms",
+      "displayLabel": "07: CIP",
+      "metadataValue": 7,
+      "metadataLabels": [
+        "07: CIP",
+        "07: CIP"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_tradeterms",
+      "displayLabel": "08: DAP",
+      "metadataValue": 8,
+      "metadataLabels": [
+        "08: DAP",
+        "08: DAP"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_tradeterms",
+      "displayLabel": "09: DDU",
+      "metadataValue": 9,
+      "metadataLabels": [
+        "09: DDU",
+        "09: DDU"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_tradeterms",
+      "displayLabel": "10: DDP",
+      "metadataValue": 10,
+      "metadataLabels": [
+        "10: DDP",
+        "10: DDP"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_tradeterms",
+      "displayLabel": "11: Not Yet Determined",
+      "metadataValue": 11,
+      "metadataLabels": [
+        "11: Not Yet Determined",
+        "11: Not Yet Determined"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_tradeterms",
+      "displayLabel": "12: Others",
+      "metadataValue": 12,
+      "metadataLabels": [
+        "12: Others",
+        "12: Others"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_transportmode",
+      "displayLabel": "01: AE",
+      "metadataValue": 1,
+      "metadataLabels": [
+        "01: AE",
+        "01: AE"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_transportmode",
+      "displayLabel": "02: AI",
+      "metadataValue": 2,
+      "metadataLabels": [
+        "02: AI",
+        "02: AI"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_transportmode",
+      "displayLabel": "03: OE",
+      "metadataValue": 3,
+      "metadataLabels": [
+        "03: OE",
+        "03: OE"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_transportmode",
+      "displayLabel": "04: OI",
+      "metadataValue": 4,
+      "metadataLabels": [
+        "04: OI",
+        "04: OI"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_transportmode",
+      "displayLabel": "05: CBT",
+      "metadataValue": 5,
+      "metadataLabels": [
+        "05: CBT",
+        "05: CBT"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_transportmode",
+      "displayLabel": "06: Domestic",
+      "metadataValue": 6,
+      "metadataLabels": [
+        "06: Domestic",
+        "06: Domestic"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_transportmode",
+      "displayLabel": "91: Others",
+      "metadataValue": 91,
+      "metadataLabels": [
+        "91: Others",
+        "91: Others"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_spotcontinuous",
+      "displayLabel": "01：一次性",
+      "metadataValue": 0,
+      "metadataLabels": [
+        "01 一次性"
+      ],
+      "resolution": "normalized-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_spotcontinuous",
+      "displayLabel": "02：持续性",
+      "metadataValue": 1,
+      "metadataLabels": [
+        "02 持续性"
+      ],
+      "resolution": "normalized-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_decider_choice",
+      "displayLabel": "01：海外客户",
+      "metadataValue": 1,
+      "metadataLabels": [
+        "01：海外客户",
+        "01：海外客户"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_decider_choice",
+      "displayLabel": "02：中国客户",
+      "metadataValue": 2,
+      "metadataLabels": [
+        "02：中国客户",
+        "02：中国客户"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_decider_choice",
+      "displayLabel": "91：其他",
+      "metadataValue": 91,
+      "metadataLabels": [
+        "91：其他",
+        "91：其他"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "statecode",
+      "displayLabel": "开放",
+      "metadataValue": 0,
+      "metadataLabels": [
+        "Open",
+        "开放"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "statecode",
+      "displayLabel": "赢单",
+      "metadataValue": 1,
+      "metadataLabels": [
+        "Won",
+        "赢单"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "statecode",
+      "displayLabel": "丢单",
+      "metadataValue": 2,
+      "metadataLabels": [
+        "Lost",
+        "丢单"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "statuscode",
+      "displayLabel": "无效案件",
+      "metadataValue": 4,
+      "metadataLabels": [
+        "Canceled",
+        "已取消"
+      ],
+      "resolution": "state-aware-status",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "statuscode",
+      "displayLabel": "有效案件",
+      "metadataValue": 1,
+      "metadataLabels": [
+        "In Progress",
+        "有效案件"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "statuscode",
+      "displayLabel": "已收到询盘及报价请求（RFQ）",
+      "metadataValue": 388560000,
+      "metadataLabels": [
+        "RFQ Received",
+        "已收到询盘及报价请求（RFQ）"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "statuscode",
+      "displayLabel": "提案 / 已报价",
+      "metadataValue": 388560001,
+      "metadataLabels": [
+        "Proposal / Quoted",
+        "提案 / 已报价"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "statuscode",
+      "displayLabel": "预中标",
+      "metadataValue": 1,
+      "metadataLabels": [
+        "In Progress",
+        "有效案件"
+      ],
+      "resolution": "state-aware-status",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "statuscode",
+      "displayLabel": "已签约",
+      "metadataValue": 3,
+      "metadataLabels": [
+        "Won",
+        "赢单"
+      ],
+      "resolution": "state-aware-status",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "statuscode",
+      "displayLabel": "已取消",
+      "metadataValue": 4,
+      "metadataLabels": [
+        "Canceled",
+        "已取消"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "statuscode",
+      "displayLabel": "售完",
+      "metadataValue": 5,
+      "metadataLabels": [
+        "Out-Sold",
+        "售完"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_customerneed_choice",
+      "displayLabel": "01: 定期竞争/招投标",
+      "metadataValue": 1,
+      "metadataLabels": [
+        "01: 定期竞争/招投标",
+        "01: 定期竞争/招投标"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_customerneed_choice",
+      "displayLabel": "02: 竞争性报价",
+      "metadataValue": 2,
+      "metadataLabels": [
+        "02: 竞争性报价",
+        "02: 竞争性报价"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_customerneed_choice",
+      "displayLabel": "03: 物流质量管理",
+      "metadataValue": 3,
+      "metadataLabels": [
+        "03: 物流质量管理",
+        "03: 物流质量管理"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_customerneed_choice",
+      "displayLabel": "04: 现有客户的业务扩展",
+      "metadataValue": 4,
+      "metadataLabels": [
+        "04: 现有客户的业务扩展",
+        "04: 现有客户的业务扩展"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_customerneed_choice",
+      "displayLabel": "05: 仓库搬迁",
+      "metadataValue": 5,
+      "metadataLabels": [
+        "05: 仓库搬迁",
+        "05: 仓库搬迁"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_customerneed_choice",
+      "displayLabel": "06: 扩展新领域",
+      "metadataValue": 6,
+      "metadataLabels": [
+        "06: 扩展新领域",
+        "06: 扩展新领域"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_customerneed_choice",
+      "displayLabel": "07: 对现有分包商不满意",
+      "metadataValue": 7,
+      "metadataLabels": [
+        "对现有分包商不满意",
+        "对现有分包商不满意"
+      ],
+      "resolution": "numeric-code",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_customerneed_choice",
+      "displayLabel": "08: 自动化操作",
+      "metadataValue": 8,
+      "metadataLabels": [
+        "自动化操作",
+        "自动化操作"
+      ],
+      "resolution": "numeric-code",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_customerneed_choice",
+      "displayLabel": "09: WMS（仓库管理系统）",
+      "metadataValue": 9,
+      "metadataLabels": [
+        "WMS（仓库管理系统）",
+        "WMS（仓库管理系统）"
+      ],
+      "resolution": "numeric-code",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_customerneed_choice",
+      "displayLabel": "10: 物流咨询",
+      "metadataValue": 10,
+      "metadataLabels": [
+        "物流咨询",
+        "物流咨询"
+      ],
+      "resolution": "numeric-code",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_customerneed_choice",
+      "displayLabel": "91: 其他",
+      "metadataValue": 91,
+      "metadataLabels": [
+        "其他",
+        "其他"
+      ],
+      "resolution": "numeric-code",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_proposalcontent_choice",
+      "displayLabel": "01: 降低成本（仓库）",
+      "metadataValue": 1,
+      "metadataLabels": [
+        "降低成本（仓库）",
+        "降低成本（仓库）"
+      ],
+      "resolution": "numeric-code",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_proposalcontent_choice",
+      "displayLabel": "02: 降低成本（操作）",
+      "metadataValue": 2,
+      "metadataLabels": [
+        "降低成本（操作）",
+        "降低成本（操作）"
+      ],
+      "resolution": "numeric-code",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_proposalcontent_choice",
+      "displayLabel": "03: 降低成本（运输）",
+      "metadataValue": 3,
+      "metadataLabels": [
+        "降低成本（运输）",
+        "降低成本（运输）"
+      ],
+      "resolution": "numeric-code",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_proposalcontent_choice",
+      "displayLabel": "04: 降低成本（FF）",
+      "metadataValue": 4,
+      "metadataLabels": [
+        "降低成本（FF）",
+        "降低成本（FF）"
+      ],
+      "resolution": "numeric-code",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_proposalcontent_choice",
+      "displayLabel": "05: 降低成本（所有）",
+      "metadataValue": 5,
+      "metadataLabels": [
+        "降低成本（所有）",
+        "降低成本（所有）"
+      ],
+      "resolution": "numeric-code",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_proposalcontent_choice",
+      "displayLabel": "06: 降低成本（其他）",
+      "metadataValue": 6,
+      "metadataLabels": [
+        "降低成本（其他）",
+        "降低成本（其他）"
+      ],
+      "resolution": "numeric-code",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_proposalcontent_choice",
+      "displayLabel": "07: 仓库搬迁",
+      "metadataValue": 7,
+      "metadataLabels": [
+        "仓库搬迁",
+        "仓库搬迁"
+      ],
+      "resolution": "numeric-code",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_proposalcontent_choice",
+      "displayLabel": "08: 物流质量管理",
+      "metadataValue": 8,
+      "metadataLabels": [
+        "物流质量管理",
+        "物流质量管理"
+      ],
+      "resolution": "numeric-code",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_proposalcontent_choice",
+      "displayLabel": "09: 自动化操作",
+      "metadataValue": 9,
+      "metadataLabels": [
+        "自动化操作",
+        "自动化操作"
+      ],
+      "resolution": "numeric-code",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_proposalcontent_choice",
+      "displayLabel": "10: WMS（仓库管理系统）",
+      "metadataValue": 10,
+      "metadataLabels": [
+        "WMS（仓库管理系统）",
+        "WMS（仓库管理系统）"
+      ],
+      "resolution": "numeric-code",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_proposalcontent_choice",
+      "displayLabel": "11: TMS（运输管理系统）",
+      "metadataValue": 11,
+      "metadataLabels": [
+        "TMS（运输管理系统）",
+        "TMS（运输管理系统）"
+      ],
+      "resolution": "numeric-code",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_proposalcontent_choice",
+      "displayLabel": "12: 其他系统",
+      "metadataValue": 12,
+      "metadataLabels": [
+        "其他系统",
+        "其他系统"
+      ],
+      "resolution": "numeric-code",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_proposalcontent_choice",
+      "displayLabel": "13: 绿色物流",
+      "metadataValue": 13,
+      "metadataLabels": [
+        "绿色物流",
+        "绿色物流"
+      ],
+      "resolution": "numeric-code",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_proposalcontent_choice",
+      "displayLabel": "14: DX/可视化",
+      "metadataValue": 14,
+      "metadataLabels": [
+        "DX/可视化",
+        "DX/可视化"
+      ],
+      "resolution": "numeric-code",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_proposalcontent_choice",
+      "displayLabel": "15: 物流咨询",
+      "metadataValue": 15,
+      "metadataLabels": [
+        "物流咨询",
+        "物流咨询"
+      ],
+      "resolution": "numeric-code",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_proposalcontent_choice",
+      "displayLabel": "91: 其他",
+      "metadataValue": 91,
+      "metadataLabels": [
+        "其他",
+        "其他"
+      ],
+      "resolution": "numeric-code",
+      "importable": true
+    },
+    {
+      "entity": "aigw_customerservicecoverage",
+      "attribute": "aigw_servicetype",
+      "displayLabel": "门店配送",
+      "metadataValue": 388560005,
+      "metadataLabels": [
+        "Store Delivery",
+        "门店配送"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "aigw_customerservicecoverage",
+      "attribute": "aigw_servicetype",
+      "displayLabel": "仓储运营",
+      "metadataValue": 388560004,
+      "metadataLabels": [
+        "Warehouse Operations",
+        "仓储运营"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "aigw_customerservicecoverage",
+      "attribute": "aigw_servicetype",
+      "displayLabel": "海运出口",
+      "metadataValue": 388560001,
+      "metadataLabels": [
+        "International Ocean Freight",
+        "国际海运"
+      ],
+      "resolution": "explicit-semantic-map",
+      "importable": true
+    },
+    {
+      "entity": "aigw_customerservicecoverage",
+      "attribute": "aigw_servicetype",
+      "displayLabel": "空运出口",
+      "metadataValue": 388560002,
+      "metadataLabels": [
+        "International Air Freight",
+        "国际空运"
+      ],
+      "resolution": "explicit-semantic-map",
+      "importable": true
+    },
+    {
+      "entity": "aigw_customerservicecoverage",
+      "attribute": "aigw_servicetype",
+      "displayLabel": "国内运输",
+      "metadataValue": 388560000,
+      "metadataLabels": [
+        "Domestic Transport",
+        "国内运输"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "aigw_customerservicecoverage",
+      "attribute": "aigw_servicetype",
+      "displayLabel": "物流咨询",
+      "metadataValue": 388560008,
+      "metadataLabels": [
+        "Supply Chain Solutions",
+        "供应链解决方案"
+      ],
+      "resolution": "explicit-semantic-map",
+      "importable": true
+    },
+    {
+      "entity": "aigw_customerservicecoverage",
+      "attribute": "aigw_servicetype",
+      "displayLabel": "危险品物流",
+      "metadataValue": 388560009,
+      "metadataLabels": [
+        "Other",
+        "其他"
+      ],
+      "resolution": "explicit-semantic-map",
+      "importable": true
+    },
+    {
+      "entity": "aigw_customerservicecoverage",
+      "attribute": "aigw_servicetype",
+      "displayLabel": "空运进口",
+      "metadataValue": 388560002,
+      "metadataLabels": [
+        "International Air Freight",
+        "国际空运"
+      ],
+      "resolution": "explicit-semantic-map",
+      "importable": true
+    },
+    {
+      "entity": "aigw_customerservicecoverage",
+      "attribute": "aigw_servicetype",
+      "displayLabel": "海运进口",
+      "metadataValue": 388560001,
+      "metadataLabels": [
+        "International Ocean Freight",
+        "国际海运"
+      ],
+      "resolution": "explicit-semantic-map",
+      "importable": true
+    },
+    {
+      "entity": "aigw_customerservicecoverage",
+      "attribute": "aigw_servicetype",
+      "displayLabel": "电脑采购与部署",
+      "metadataValue": 388560009,
+      "metadataLabels": [
+        "Other",
+        "其他"
+      ],
+      "resolution": "explicit-semantic-map",
+      "importable": true
+    },
+    {
+      "entity": "aigw_customerservicecoverage",
+      "attribute": "aigw_servicetype",
+      "displayLabel": "项目物流",
+      "metadataValue": 388560009,
+      "metadataLabels": [
+        "Other",
+        "其他"
+      ],
+      "resolution": "explicit-semantic-map",
+      "importable": true
+    },
+    {
+      "entity": "aigw_customerservicecoverage",
+      "attribute": "aigw_coveragestatus",
+      "displayLabel": "当前覆盖",
+      "metadataValue": 388560000,
+      "metadataLabels": [
+        "Covered",
+        "已覆盖"
+      ],
+      "resolution": "explicit-semantic-map",
+      "importable": true
+    },
+    {
+      "entity": "aigw_customerservicecoverage",
+      "attribute": "aigw_coveragestatus",
+      "displayLabel": "曾经覆盖",
+      "metadataValue": 388560003,
+      "metadataLabels": [
+        "Previously Covered",
+        "曾经覆盖"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "aigw_customerservicecoverage",
+      "attribute": "aigw_coveragestatus",
+      "displayLabel": "已停止",
+      "metadataValue": 388560004,
+      "metadataLabels": [
+        "Stopped",
+        "已停止"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "aigw_customerservicecoverage",
+      "attribute": "aigw_coveragestatus",
+      "displayLabel": "空白机会",
+      "metadataValue": 388560002,
+      "metadataLabels": [
+        "Not Covered",
+        "未覆盖"
+      ],
+      "resolution": "explicit-semantic-map",
+      "importable": true
+    },
+    {
+      "entity": "aigw_customerservicecoverage",
+      "attribute": "aigw_servicesatisfaction",
+      "displayLabel": "一般",
+      "metadataValue": 388560002,
+      "metadataLabels": [
+        "Neutral",
+        "一般"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "aigw_customerservicecoverage",
+      "attribute": "aigw_servicesatisfaction",
+      "displayLabel": "较满意",
+      "metadataValue": 388560001,
+      "metadataLabels": [
+        "Satisfied",
+        "满意"
+      ],
+      "resolution": "explicit-semantic-map",
+      "importable": true
+    },
+    {
+      "entity": "aigw_customerservicecoverage",
+      "attribute": "aigw_servicesatisfaction",
+      "displayLabel": "需改善",
+      "metadataValue": 388560003,
+      "metadataLabels": [
+        "Needs Improvement",
+        "需改善"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "aigw_customerservicecoverage",
+      "attribute": "aigw_servicesatisfaction",
+      "displayLabel": "未评价",
+      "metadataValue": 388560004,
+      "metadataLabels": [
+        "Unconfirmed",
+        "未确认"
+      ],
+      "resolution": "explicit-semantic-map",
+      "importable": true
+    },
+    {
+      "entity": "aigw_customerservicecoverage",
+      "attribute": "aigw_servicesatisfaction",
+      "displayLabel": "满意",
+      "metadataValue": 388560001,
+      "metadataLabels": [
+        "Satisfied",
+        "满意"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "aigw_customerservicecoverage",
+      "attribute": "aigw_revenueband",
+      "displayLabel": "中",
+      "metadataValue": 388560002,
+      "metadataLabels": [
+        "Medium",
+        "中"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "aigw_customerservicecoverage",
+      "attribute": "aigw_revenueband",
+      "displayLabel": "中高",
+      "metadataValue": 388560003,
+      "metadataLabels": [
+        "High",
+        "高"
+      ],
+      "resolution": "explicit-semantic-map",
+      "importable": true
+    },
+    {
+      "entity": "aigw_customerservicecoverage",
+      "attribute": "aigw_revenueband",
+      "displayLabel": "低",
+      "metadataValue": 388560001,
+      "metadataLabels": [
+        "Low",
+        "低"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "aigw_customerservicecoverage",
+      "attribute": "aigw_revenueband",
+      "displayLabel": "高",
+      "metadataValue": 388560003,
+      "metadataLabels": [
+        "High",
+        "高"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "aigw_customerservicecoverage",
+      "attribute": "aigw_marginband",
+      "displayLabel": "高",
+      "metadataValue": 388560003,
+      "metadataLabels": [
+        "Higher",
+        "较高"
+      ],
+      "resolution": "explicit-semantic-map",
+      "importable": true
+    },
+    {
+      "entity": "aigw_customerservicecoverage",
+      "attribute": "aigw_marginband",
+      "displayLabel": "中高",
+      "metadataValue": 388560003,
+      "metadataLabels": [
+        "Higher",
+        "较高"
+      ],
+      "resolution": "explicit-semantic-map",
+      "importable": true
+    },
+    {
+      "entity": "aigw_customerservicecoverage",
+      "attribute": "aigw_marginband",
+      "displayLabel": "低",
+      "metadataValue": 388560001,
+      "metadataLabels": [
+        "Low",
+        "低"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "aigw_customerservicecoverage",
+      "attribute": "aigw_marginband",
+      "displayLabel": "中",
+      "metadataValue": 388560002,
+      "metadataLabels": [
+        "Normal",
+        "正常"
+      ],
+      "resolution": "explicit-semantic-map",
+      "importable": true
+    },
+    {
+      "entity": "aigw_interactionsignal",
+      "attribute": "aigw_activitytype",
+      "displayLabel": "phonecall",
+      "metadataValue": 388560000,
+      "metadataLabels": [
+        "Phone Call",
+        "电话"
+      ],
+      "resolution": "normalized-label",
+      "importable": true
+    },
+    {
+      "entity": "aigw_interactionsignal",
+      "attribute": "aigw_activitytype",
+      "displayLabel": "appointment",
+      "metadataValue": 388560001,
+      "metadataLabels": [
+        "Meeting",
+        "会议"
+      ],
+      "resolution": "explicit-semantic-map",
+      "importable": true
+    },
+    {
+      "entity": "aigw_interactionsignal",
+      "attribute": "aigw_activitytype",
+      "displayLabel": "annotation",
+      "metadataValue": 388560003,
+      "metadataLabels": [
+        "Note",
+        "Note"
+      ],
+      "resolution": "explicit-semantic-map",
+      "importable": true
+    },
+    {
+      "entity": "aigw_interactionsignal",
+      "attribute": "aigw_activitytype",
+      "displayLabel": "task",
+      "metadataValue": 388560002,
+      "metadataLabels": [
+        "Task",
+        "任务"
+      ],
+      "resolution": "normalized-label",
+      "importable": true
+    },
+    {
+      "entity": "aigw_interactionsignal",
+      "attribute": "aigw_direction",
+      "displayLabel": "我方→客户",
+      "metadataValue": 388560001,
+      "metadataLabels": [
+        "Us to Customer",
+        "我方→客户"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "aigw_interactionsignal",
+      "attribute": "aigw_direction",
+      "displayLabel": "内部/双方",
+      "metadataValue": 388560002,
+      "metadataLabels": [
+        "Internal",
+        "内部"
+      ],
+      "resolution": "explicit-semantic-map",
+      "importable": true
+    },
+    {
+      "entity": "aigw_interactionsignal",
+      "attribute": "aigw_resultcategory",
+      "displayLabel": "部分确认",
+      "metadataValue": 388560001,
+      "metadataLabels": [
+        "Partially Confirmed",
+        "部分确认"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "aigw_interactionsignal",
+      "attribute": "aigw_resultcategory",
+      "displayLabel": "已确认",
+      "metadataValue": 388560000,
+      "metadataLabels": [
+        "Confirmed",
+        "已确认"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "aigw_interactionsignal",
+      "attribute": "aigw_resultcategory",
+      "displayLabel": "待内部处理",
+      "metadataValue": 388560003,
+      "metadataLabels": [
+        "Awaiting Internal Action",
+        "待内部处理"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "aigw_interactionsignal",
+      "attribute": "aigw_resultcategory",
+      "displayLabel": "完成",
+      "metadataValue": 388560006,
+      "metadataLabels": [
+        "Completed",
+        "完成"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "aigw_interactionsignal",
+      "attribute": "aigw_resultcategory",
+      "displayLabel": "延期",
+      "metadataValue": 388560004,
+      "metadataLabels": [
+        "Delayed",
+        "延期"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "aigw_interactionsignal",
+      "attribute": "aigw_resultcategory",
+      "displayLabel": "待客户回复",
+      "metadataValue": 388560002,
+      "metadataLabels": [
+        "Awaiting Customer",
+        "待客户回复"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "aigw_interactionsignal",
+      "attribute": "aigw_resultcategory",
+      "displayLabel": "拒绝",
+      "metadataValue": 388560005,
+      "metadataLabels": [
+        "Rejected",
+        "拒绝"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "aigw_interactionsignal",
+      "attribute": "aigw_customerresponselevel",
+      "displayLabel": "正常",
+      "metadataValue": 388560001,
+      "metadataLabels": [
+        "Normal",
+        "正常"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "aigw_interactionsignal",
+      "attribute": "aigw_customerresponselevel",
+      "displayLabel": "积极",
+      "metadataValue": 388560000,
+      "metadataLabels": [
+        "Positive",
+        "积极"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "aigw_interactionsignal",
+      "attribute": "aigw_customerresponselevel",
+      "displayLabel": "低频",
+      "metadataValue": 388560002,
+      "metadataLabels": [
+        "Low Frequency",
+        "低频"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "aigw_interactionsignal",
+      "attribute": "aigw_customerresponselevel",
+      "displayLabel": "明确拒绝",
+      "metadataValue": 388560004,
+      "metadataLabels": [
+        "Explicit Rejection",
+        "明确拒绝"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "aigw_interactionsignal",
+      "attribute": "aigw_sentiment",
+      "displayLabel": "中性",
+      "metadataValue": 388560001,
+      "metadataLabels": [
+        "Neutral",
+        "中性"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "aigw_interactionsignal",
+      "attribute": "aigw_sentiment",
+      "displayLabel": "正面",
+      "metadataValue": 388560000,
+      "metadataLabels": [
+        "Positive",
+        "正面"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "aigw_interactionsignal",
+      "attribute": "aigw_sentiment",
+      "displayLabel": "偏负面",
+      "metadataValue": 388560002,
+      "metadataLabels": [
+        "Slightly Negative",
+        "偏负面"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "aigw_interactionsignal",
+      "attribute": "aigw_sentiment",
+      "displayLabel": "负面",
+      "metadataValue": 388560003,
+      "metadataLabels": [
+        "Negative",
+        "负面"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "aigw_interactionsignal",
+      "attribute": "aigw_objectioncategory",
+      "displayLabel": "价格",
+      "metadataValue": 388560000,
+      "metadataLabels": [
+        "Price",
+        "价格"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "aigw_interactionsignal",
+      "attribute": "aigw_objectioncategory",
+      "displayLabel": "系统接口",
+      "metadataValue": 388560005,
+      "metadataLabels": [
+        "System Interface",
+        "系统接口"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "aigw_interactionsignal",
+      "attribute": "aigw_objectioncategory",
+      "displayLabel": "时效",
+      "metadataValue": 388560001,
+      "metadataLabels": [
+        "Timeliness",
+        "时效"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "aigw_interactionsignal",
+      "attribute": "aigw_objectioncategory",
+      "displayLabel": "服务能力",
+      "metadataValue": 388560002,
+      "metadataLabels": [
+        "Service Capability",
+        "服务能力"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "aigw_interactionsignal",
+      "attribute": "aigw_objectioncategory",
+      "displayLabel": "实施周期",
+      "metadataValue": 388560003,
+      "metadataLabels": [
+        "Implementation Cycle",
+        "实施周期"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "aigw_interactionsignal",
+      "attribute": "aigw_objectioncategory",
+      "displayLabel": "其他",
+      "metadataValue": 388560007,
+      "metadataLabels": [
+        "Other",
+        "其他"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "aigw_interactionsignal",
+      "attribute": "aigw_objectioncategory",
+      "displayLabel": "合同条款",
+      "metadataValue": 388560004,
+      "metadataLabels": [
+        "Contract Terms",
+        "合同条款"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "aigw_interactionsignal",
+      "attribute": "aigw_objectioncategory",
+      "displayLabel": "合规",
+      "metadataValue": 388560006,
+      "metadataLabels": [
+        "Compliance",
+        "合规"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "aigw_interactionsignal",
+      "attribute": "aigw_serviceissuecategory",
+      "displayLabel": "运输时效",
+      "metadataValue": 388560000,
+      "metadataLabels": [
+        "Transport Timeliness",
+        "运输时效"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    },
+    {
+      "entity": "aigw_interactionsignal",
+      "attribute": "aigw_serviceissuecategory",
+      "displayLabel": "合规",
+      "metadataValue": 388560005,
+      "metadataLabels": [
+        "Compliance",
+        "合规"
+      ],
+      "resolution": "exact-label",
+      "importable": true
+    }
+  ],
+  "unknownChoiceValues": [],
+  "semanticConflicts": [],
+  "explicitConsolidations": [
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_organizationgroup_choice",
+      "displayLabel": "18: OKAM",
+      "metadataValue": 91,
+      "metadataLabels": [
+        "91: Others",
+        "91: Others"
+      ],
+      "resolution": "approved-consolidation",
+      "importable": true
+    },
+    {
+      "entity": "opportunity",
+      "attribute": "aigw_organizationgroup_choice",
+      "displayLabel": "19: CS(FF)",
+      "metadataValue": 17,
+      "metadataLabels": [
+        "17: CS(FF)",
+        "17: CS(FF)"
+      ],
+      "resolution": "approved-consolidation",
+      "importable": true
+    },
+    {
+      "entity": "aigw_customerservicecoverage",
+      "attribute": "aigw_servicetype",
+      "displayLabel": "海运出口",
+      "metadataValue": 388560001,
+      "metadataLabels": [
+        "International Ocean Freight",
+        "国际海运"
+      ],
+      "resolution": "explicit-semantic-map",
+      "importable": true
+    },
+    {
+      "entity": "aigw_customerservicecoverage",
+      "attribute": "aigw_servicetype",
+      "displayLabel": "空运出口",
+      "metadataValue": 388560002,
+      "metadataLabels": [
+        "International Air Freight",
+        "国际空运"
+      ],
+      "resolution": "explicit-semantic-map",
+      "importable": true
+    },
+    {
+      "entity": "aigw_customerservicecoverage",
+      "attribute": "aigw_servicetype",
+      "displayLabel": "物流咨询",
+      "metadataValue": 388560008,
+      "metadataLabels": [
+        "Supply Chain Solutions",
+        "供应链解决方案"
+      ],
+      "resolution": "explicit-semantic-map",
+      "importable": true
+    },
+    {
+      "entity": "aigw_customerservicecoverage",
+      "attribute": "aigw_servicetype",
+      "displayLabel": "危险品物流",
+      "metadataValue": 388560009,
+      "metadataLabels": [
+        "Other",
+        "其他"
+      ],
+      "resolution": "explicit-semantic-map",
+      "importable": true
+    },
+    {
+      "entity": "aigw_customerservicecoverage",
+      "attribute": "aigw_servicetype",
+      "displayLabel": "空运进口",
+      "metadataValue": 388560002,
+      "metadataLabels": [
+        "International Air Freight",
+        "国际空运"
+      ],
+      "resolution": "explicit-semantic-map",
+      "importable": true
+    },
+    {
+      "entity": "aigw_customerservicecoverage",
+      "attribute": "aigw_servicetype",
+      "displayLabel": "海运进口",
+      "metadataValue": 388560001,
+      "metadataLabels": [
+        "International Ocean Freight",
+        "国际海运"
+      ],
+      "resolution": "explicit-semantic-map",
+      "importable": true
+    },
+    {
+      "entity": "aigw_customerservicecoverage",
+      "attribute": "aigw_servicetype",
+      "displayLabel": "电脑采购与部署",
+      "metadataValue": 388560009,
+      "metadataLabels": [
+        "Other",
+        "其他"
+      ],
+      "resolution": "explicit-semantic-map",
+      "importable": true
+    },
+    {
+      "entity": "aigw_customerservicecoverage",
+      "attribute": "aigw_servicetype",
+      "displayLabel": "项目物流",
+      "metadataValue": 388560009,
+      "metadataLabels": [
+        "Other",
+        "其他"
+      ],
+      "resolution": "explicit-semantic-map",
+      "importable": true
+    },
+    {
+      "entity": "aigw_customerservicecoverage",
+      "attribute": "aigw_coveragestatus",
+      "displayLabel": "当前覆盖",
+      "metadataValue": 388560000,
+      "metadataLabels": [
+        "Covered",
+        "已覆盖"
+      ],
+      "resolution": "explicit-semantic-map",
+      "importable": true
+    },
+    {
+      "entity": "aigw_customerservicecoverage",
+      "attribute": "aigw_coveragestatus",
+      "displayLabel": "空白机会",
+      "metadataValue": 388560002,
+      "metadataLabels": [
+        "Not Covered",
+        "未覆盖"
+      ],
+      "resolution": "explicit-semantic-map",
+      "importable": true
+    },
+    {
+      "entity": "aigw_customerservicecoverage",
+      "attribute": "aigw_servicesatisfaction",
+      "displayLabel": "较满意",
+      "metadataValue": 388560001,
+      "metadataLabels": [
+        "Satisfied",
+        "满意"
+      ],
+      "resolution": "explicit-semantic-map",
+      "importable": true
+    },
+    {
+      "entity": "aigw_customerservicecoverage",
+      "attribute": "aigw_servicesatisfaction",
+      "displayLabel": "未评价",
+      "metadataValue": 388560004,
+      "metadataLabels": [
+        "Unconfirmed",
+        "未确认"
+      ],
+      "resolution": "explicit-semantic-map",
+      "importable": true
+    },
+    {
+      "entity": "aigw_customerservicecoverage",
+      "attribute": "aigw_revenueband",
+      "displayLabel": "中高",
+      "metadataValue": 388560003,
+      "metadataLabels": [
+        "High",
+        "高"
+      ],
+      "resolution": "explicit-semantic-map",
+      "importable": true
+    },
+    {
+      "entity": "aigw_customerservicecoverage",
+      "attribute": "aigw_marginband",
+      "displayLabel": "高",
+      "metadataValue": 388560003,
+      "metadataLabels": [
+        "Higher",
+        "较高"
+      ],
+      "resolution": "explicit-semantic-map",
+      "importable": true
+    },
+    {
+      "entity": "aigw_customerservicecoverage",
+      "attribute": "aigw_marginband",
+      "displayLabel": "中高",
+      "metadataValue": 388560003,
+      "metadataLabels": [
+        "Higher",
+        "较高"
+      ],
+      "resolution": "explicit-semantic-map",
+      "importable": true
+    },
+    {
+      "entity": "aigw_customerservicecoverage",
+      "attribute": "aigw_marginband",
+      "displayLabel": "中",
+      "metadataValue": 388560002,
+      "metadataLabels": [
+        "Normal",
+        "正常"
+      ],
+      "resolution": "explicit-semantic-map",
+      "importable": true
+    },
+    {
+      "entity": "aigw_interactionsignal",
+      "attribute": "aigw_activitytype",
+      "displayLabel": "appointment",
+      "metadataValue": 388560001,
+      "metadataLabels": [
+        "Meeting",
+        "会议"
+      ],
+      "resolution": "explicit-semantic-map",
+      "importable": true
+    },
+    {
+      "entity": "aigw_interactionsignal",
+      "attribute": "aigw_activitytype",
+      "displayLabel": "annotation",
+      "metadataValue": 388560003,
+      "metadataLabels": [
+        "Note",
+        "Note"
+      ],
+      "resolution": "explicit-semantic-map",
+      "importable": true
+    },
+    {
+      "entity": "aigw_interactionsignal",
+      "attribute": "aigw_direction",
+      "displayLabel": "内部/双方",
+      "metadataValue": 388560002,
+      "metadataLabels": [
+        "Internal",
+        "内部"
+      ],
+      "resolution": "explicit-semantic-map",
+      "importable": true
+    }
+  ]
+}

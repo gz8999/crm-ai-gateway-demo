@@ -1,0 +1,95 @@
+{
+  "phase": "Phase 1C-5R2G-D2",
+  "source": "d365-ai-demo-200-choice-reconciliation.json",
+  "customerNeed": {
+    "rowCount": 200,
+    "unknownCount": 0,
+    "distribution": {
+      "3": 140,
+      "1": 26,
+      "4": 14,
+      "6": 8,
+      "91": 3,
+      "10": 4,
+      "2": 5
+    },
+    "mapping": {
+      "1": "01: 定期竞争/招投标",
+      "2": "02: 竞争性报价",
+      "3": "03: 物流质量管理",
+      "4": "04: 现有客户的业务扩展",
+      "5": "05: 仓库搬迁",
+      "6": "06: 扩展新领域",
+      "7": "对现有分包商不满意",
+      "8": "自动化操作",
+      "9": "WMS（仓库管理系统）",
+      "10": "物流咨询",
+      "91": "其他"
+    }
+  },
+  "proposalContent": {
+    "rowCount": 200,
+    "unknownCount": 0,
+    "distribution": {
+      "4": 167,
+      "91": 5,
+      "8": 3,
+      "3": 6,
+      "1": 5,
+      "13": 1,
+      "12": 6,
+      "15": 7
+    },
+    "mapping": {
+      "1": "降低成本（仓库）",
+      "2": "降低成本（操作）",
+      "3": "降低成本（运输）",
+      "4": "降低成本（FF）",
+      "5": "降低成本（所有）",
+      "6": "降低成本（其他）",
+      "7": "仓库搬迁",
+      "8": "物流质量管理",
+      "9": "自动化操作",
+      "10": "WMS（仓库管理系统）",
+      "11": "TMS（运输管理系统）",
+      "12": "其他系统",
+      "13": "绿色物流",
+      "14": "DX/可视化",
+      "15": "物流咨询",
+      "91": "其他"
+    },
+    "lcmsTmsViolationCount": 0
+  },
+  "organizationGroupDecisions": [
+    {
+      "display": "16: KA East(FF)",
+      "metadataValue": 16,
+      "metadataLabel": "16: KA(FF)",
+      "decision": "metadata-renamed-label",
+      "semanticConflict": false
+    },
+    {
+      "display": "17: KA South(FF)",
+      "metadataValue": 17,
+      "metadataLabel": "17: CS(FF)",
+      "decision": "metadata-renamed-label; source display retained",
+      "semanticConflict": false
+    },
+    {
+      "display": "18: OKAM",
+      "metadataValue": 91,
+      "metadataLabel": "91: Others",
+      "decision": "approved-consolidation",
+      "semanticConflict": false
+    },
+    {
+      "display": "19: CS(FF)",
+      "metadataValue": 17,
+      "metadataLabel": "17: CS(FF)",
+      "decision": "semantic-consolidation",
+      "semanticConflict": false
+    }
+  ],
+  "choiceSemanticConflictCount": 0,
+  "displayLabelConsolidationP2": true
+}

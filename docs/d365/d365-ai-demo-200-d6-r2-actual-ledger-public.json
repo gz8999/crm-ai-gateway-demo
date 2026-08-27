@@ -1,0 +1,2379 @@
+{
+  "phase": "Phase 1C-5R2G-D6-R2",
+  "environmentAlias": "TEST-ORG",
+  "generatedAt": "2026-07-18T02:38:11.142Z",
+  "productionRequests": 0,
+  "externalLlmCalls": 0,
+  "p0": 0,
+  "p1": 0,
+  "p2": 0,
+  "canary": "ACT-001",
+  "attempt": 118,
+  "created": 118,
+  "reused": 0,
+  "failed": 0,
+  "finalCount": 130,
+  "oneActualPerOpportunity": true,
+  "records": [
+    {
+      "stableToken": "ACT-001",
+      "opportunityToken": "DEMO-OPP-001",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-002",
+      "opportunityToken": "DEMO-OPP-003",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-003",
+      "opportunityToken": "DEMO-OPP-005",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-004",
+      "opportunityToken": "DEMO-OPP-006",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-005",
+      "opportunityToken": "DEMO-OPP-009",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-006",
+      "opportunityToken": "DEMO-OPP-013",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-007",
+      "opportunityToken": "DEMO-OPP-014",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-009",
+      "opportunityToken": "DEMO-OPP-017",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-011",
+      "opportunityToken": "DEMO-OPP-020",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-012",
+      "opportunityToken": "DEMO-OPP-021",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-013",
+      "opportunityToken": "DEMO-OPP-022",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-014",
+      "opportunityToken": "DEMO-OPP-023",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-015",
+      "opportunityToken": "DEMO-OPP-024",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-016",
+      "opportunityToken": "DEMO-OPP-027",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-018",
+      "opportunityToken": "DEMO-OPP-029",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-019",
+      "opportunityToken": "DEMO-OPP-030",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-020",
+      "opportunityToken": "DEMO-OPP-033",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-022",
+      "opportunityToken": "DEMO-OPP-039",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-023",
+      "opportunityToken": "DEMO-OPP-040",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-024",
+      "opportunityToken": "DEMO-OPP-043",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-025",
+      "opportunityToken": "DEMO-OPP-045",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-026",
+      "opportunityToken": "DEMO-OPP-047",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-027",
+      "opportunityToken": "DEMO-OPP-048",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-028",
+      "opportunityToken": "DEMO-OPP-049",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-029",
+      "opportunityToken": "DEMO-OPP-051",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-030",
+      "opportunityToken": "DEMO-OPP-053",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-031",
+      "opportunityToken": "DEMO-OPP-054",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-032",
+      "opportunityToken": "DEMO-OPP-055",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-034",
+      "opportunityToken": "DEMO-OPP-058",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-035",
+      "opportunityToken": "DEMO-OPP-059",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-037",
+      "opportunityToken": "DEMO-OPP-063",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-038",
+      "opportunityToken": "DEMO-OPP-064",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-039",
+      "opportunityToken": "DEMO-OPP-067",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-040",
+      "opportunityToken": "DEMO-OPP-068",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-041",
+      "opportunityToken": "DEMO-OPP-069",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-042",
+      "opportunityToken": "DEMO-OPP-070",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-043",
+      "opportunityToken": "DEMO-OPP-071",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-044",
+      "opportunityToken": "DEMO-OPP-072",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-045",
+      "opportunityToken": "DEMO-OPP-073",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-046",
+      "opportunityToken": "DEMO-OPP-074",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-047",
+      "opportunityToken": "DEMO-OPP-076",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-048",
+      "opportunityToken": "DEMO-OPP-077",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-049",
+      "opportunityToken": "DEMO-OPP-078",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-050",
+      "opportunityToken": "DEMO-OPP-079",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-051",
+      "opportunityToken": "DEMO-OPP-080",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-052",
+      "opportunityToken": "DEMO-OPP-082",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-053",
+      "opportunityToken": "DEMO-OPP-083",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-054",
+      "opportunityToken": "DEMO-OPP-084",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-055",
+      "opportunityToken": "DEMO-OPP-088",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-056",
+      "opportunityToken": "DEMO-OPP-089",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-057",
+      "opportunityToken": "DEMO-OPP-090",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-058",
+      "opportunityToken": "DEMO-OPP-091",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-059",
+      "opportunityToken": "DEMO-OPP-093",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-060",
+      "opportunityToken": "DEMO-OPP-095",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-061",
+      "opportunityToken": "DEMO-OPP-096",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-062",
+      "opportunityToken": "DEMO-OPP-097",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-063",
+      "opportunityToken": "DEMO-OPP-098",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-064",
+      "opportunityToken": "DEMO-OPP-099",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-065",
+      "opportunityToken": "DEMO-OPP-100",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-066",
+      "opportunityToken": "DEMO-OPP-102",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-067",
+      "opportunityToken": "DEMO-OPP-104",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-068",
+      "opportunityToken": "DEMO-OPP-105",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-069",
+      "opportunityToken": "DEMO-OPP-107",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-070",
+      "opportunityToken": "DEMO-OPP-109",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-071",
+      "opportunityToken": "DEMO-OPP-111",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-072",
+      "opportunityToken": "DEMO-OPP-112",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-073",
+      "opportunityToken": "DEMO-OPP-113",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-074",
+      "opportunityToken": "DEMO-OPP-114",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-075",
+      "opportunityToken": "DEMO-OPP-117",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-076",
+      "opportunityToken": "DEMO-OPP-118",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-077",
+      "opportunityToken": "DEMO-OPP-119",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-078",
+      "opportunityToken": "DEMO-OPP-120",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-079",
+      "opportunityToken": "DEMO-OPP-122",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-080",
+      "opportunityToken": "DEMO-OPP-125",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-081",
+      "opportunityToken": "DEMO-OPP-126",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-082",
+      "opportunityToken": "DEMO-OPP-127",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-083",
+      "opportunityToken": "DEMO-OPP-129",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-085",
+      "opportunityToken": "DEMO-OPP-131",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-086",
+      "opportunityToken": "DEMO-OPP-132",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-088",
+      "opportunityToken": "DEMO-OPP-137",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-089",
+      "opportunityToken": "DEMO-OPP-138",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-091",
+      "opportunityToken": "DEMO-OPP-140",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-092",
+      "opportunityToken": "DEMO-OPP-143",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-093",
+      "opportunityToken": "DEMO-OPP-145",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-094",
+      "opportunityToken": "DEMO-OPP-147",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-095",
+      "opportunityToken": "DEMO-OPP-150",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-096",
+      "opportunityToken": "DEMO-OPP-151",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-097",
+      "opportunityToken": "DEMO-OPP-152",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-098",
+      "opportunityToken": "DEMO-OPP-153",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-099",
+      "opportunityToken": "DEMO-OPP-154",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-100",
+      "opportunityToken": "DEMO-OPP-156",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-101",
+      "opportunityToken": "DEMO-OPP-157",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-102",
+      "opportunityToken": "DEMO-OPP-159",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-103",
+      "opportunityToken": "DEMO-OPP-160",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-104",
+      "opportunityToken": "DEMO-OPP-161",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-105",
+      "opportunityToken": "DEMO-OPP-162",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-106",
+      "opportunityToken": "DEMO-OPP-166",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-107",
+      "opportunityToken": "DEMO-OPP-167",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-108",
+      "opportunityToken": "DEMO-OPP-168",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-109",
+      "opportunityToken": "DEMO-OPP-169",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-110",
+      "opportunityToken": "DEMO-OPP-172",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-111",
+      "opportunityToken": "DEMO-OPP-173",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-112",
+      "opportunityToken": "DEMO-OPP-174",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-113",
+      "opportunityToken": "DEMO-OPP-177",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-114",
+      "opportunityToken": "DEMO-OPP-178",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-115",
+      "opportunityToken": "DEMO-OPP-179",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-116",
+      "opportunityToken": "DEMO-OPP-180",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-118",
+      "opportunityToken": "DEMO-OPP-182",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-119",
+      "opportunityToken": "DEMO-OPP-185",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-120",
+      "opportunityToken": "DEMO-OPP-187",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-121",
+      "opportunityToken": "DEMO-OPP-188",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-122",
+      "opportunityToken": "DEMO-OPP-189",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-123",
+      "opportunityToken": "DEMO-OPP-190",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-124",
+      "opportunityToken": "DEMO-OPP-192",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-125",
+      "opportunityToken": "DEMO-OPP-195",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-127",
+      "opportunityToken": "DEMO-OPP-197",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-128",
+      "opportunityToken": "DEMO-OPP-198",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    },
+    {
+      "stableToken": "ACT-130",
+      "opportunityToken": "DEMO-OPP-200",
+      "result": "Created",
+      "postStatus": 201,
+      "annualActualRevenueMatchesMonthlySum": true,
+      "parentSyncMatches": true,
+      "parentProtectedBusinessHashUnchanged": true,
+      "stateStatusUnchanged": true,
+      "actualCloseDateUnchanged": true,
+      "bpfInstanceUnchanged": true,
+      "bpfStagePathUnchanged": true,
+      "approvedDeltaFields": [
+        "aigw_yearrevenueactual",
+        "modifiedon",
+        "versionnumber"
+      ],
+      "exactReadback": true,
+      "cleanupEligible": true
+    }
+  ]
+}

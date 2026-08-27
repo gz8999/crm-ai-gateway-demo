@@ -1,0 +1,36 @@
+{
+  "phase": "Phase 1C-5R2G-D5-R3",
+  "explicitPilotRecords": 427,
+  "entityCounts": {
+    "account": 7,
+    "contact": 9,
+    "opportunity": 24,
+    "serviceCoverage": 15,
+    "actualManagement": 12,
+    "timeline": 206,
+    "interactionSignal": 154
+  },
+  "target": {
+    "opportunityToken": "DEMO-OPP-026",
+    "protectedBusinessHashBefore": "00d0082ce693a02a77a50545ddeb723d7cdd64d6d2b7d2cdb02f0a97458f3573",
+    "protectedBusinessHashAfter": "00d0082ce693a02a77a50545ddeb723d7cdd64d6d2b7d2cdb02f0a97458f3573",
+    "actual": { "before": 0, "after": 0, "hashUnchanged": true },
+    "importedTimeline": { "before": 10, "after": 10, "hashUnchanged": true },
+    "interactionSignal": { "before": 7, "after": 7, "hashUnchanged": true },
+    "coverage": { "before": 2, "after": 2, "hashUnchanged": true },
+    "annotation": { "before": 2, "after": 2, "hashUnchanged": true },
+    "activityAggregate": { "before": 8, "after": 9, "authorizedDelta": 1 }
+  },
+  "nonCanaryBusinessHashBefore": "7dcc64563a301700e64bad56fbee8271cef4298ee81ffa7dc8a42d0258af53ff",
+  "nonCanaryBusinessHashAfter": "7dcc64563a301700e64bad56fbee8271cef4298ee81ffa7dc8a42d0258af53ff",
+  "winCanaryIntegrityPreserved": true,
+  "otherActiveOpportunityCount": 22,
+  "pilotStateDistribution": { "won": 1, "active": 22, "lost": 1 },
+  "targetBpfInstances": 24,
+  "duplicateBpf": 0,
+  "unexpectedProcess": 0,
+  "plugin": { "enabled": 7, "disabled": 0 },
+  "existingNonPilotDataModified": false,
+  "productionRequests": 0,
+  "ready": true
+}

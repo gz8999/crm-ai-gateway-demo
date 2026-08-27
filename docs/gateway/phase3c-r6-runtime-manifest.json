@@ -1,0 +1,514 @@
+{
+  "phase": "PHASE 3C-R6",
+  "baseline": {
+    "implementation": "ffdbb7e",
+    "safetyStop": "f3f70cd"
+  },
+  "profile": "v6-r5",
+  "provider": "DeepSeek",
+  "model": "deepseek-v4-pro",
+  "transportContractVersion": "Provider Transport Contract v6",
+  "canonicalContractVersion": "Decision Pack Model Response v2",
+  "hashes": {
+    "schemaHash": "03ba75705f83042cf4b229fc18fa7e76f940190f6b7d3276c0d600c1536ea610",
+    "requestEnvelopeHash": "039d9f8fdc31568875080ba36543009bf08c0b492ff3b253dfeff9e85739f04c",
+    "requestByteHash": "e76c7b00dda1c6d46fe31c671d4651041c65fc585a90c96181e5d958675ae2b1",
+    "evidenceAllowlistHash": "6761b620d3c936cf42c770b7de11c6789c1992fe9f08ff36eaa2c1f50fa03d5f"
+  },
+  "schemaAudit": {
+    "ready": true,
+    "transportFieldCount": 12,
+    "requiredFieldCount": 71,
+    "constFieldCount": 54,
+    "enumFieldCount": 62,
+    "dynamicEvidenceEnumCount": 19,
+    "arrayContractCount": 24,
+    "patternContractCount": 0,
+    "canonicalMappingCoverage": 100,
+    "unmappedTransportFields": [],
+    "missingCanonicalRequirements": [],
+    "arrayContracts": [
+      {
+        "pointer": "#/properties/facts",
+        "minItems": 1,
+        "maxItems": null,
+        "source": "semantic-validator"
+      },
+      {
+        "pointer": "#/properties/inferences",
+        "minItems": 1,
+        "maxItems": 3,
+        "source": "semantic-validator"
+      },
+      {
+        "pointer": "#/properties/inferences/items/anyOf/0/properties/evidenceTokens",
+        "minItems": 1,
+        "maxItems": null,
+        "source": "semantic-validator"
+      },
+      {
+        "pointer": "#/properties/inferences/items/anyOf/1/properties/evidenceTokens",
+        "minItems": 1,
+        "maxItems": null,
+        "source": "semantic-validator"
+      },
+      {
+        "pointer": "#/properties/inferences/items/anyOf/2/properties/evidenceTokens",
+        "minItems": 1,
+        "maxItems": null,
+        "source": "semantic-validator"
+      },
+      {
+        "pointer": "#/properties/inferences/items/anyOf/3/properties/evidenceTokens",
+        "minItems": 1,
+        "maxItems": null,
+        "source": "semantic-validator"
+      },
+      {
+        "pointer": "#/properties/inferences/items/anyOf/4/properties/evidenceTokens",
+        "minItems": 1,
+        "maxItems": null,
+        "source": "semantic-validator"
+      },
+      {
+        "pointer": "#/properties/recommendedActions",
+        "minItems": 1,
+        "maxItems": 3,
+        "source": "semantic-validator"
+      },
+      {
+        "pointer": "#/properties/recommendedActions/items/anyOf/0/properties/evidenceTokens",
+        "minItems": 1,
+        "maxItems": null,
+        "source": "semantic-validator"
+      },
+      {
+        "pointer": "#/properties/recommendedActions/items/anyOf/1/properties/evidenceTokens",
+        "minItems": 1,
+        "maxItems": null,
+        "source": "semantic-validator"
+      },
+      {
+        "pointer": "#/properties/recommendedActions/items/anyOf/2/properties/evidenceTokens",
+        "minItems": 1,
+        "maxItems": null,
+        "source": "semantic-validator"
+      },
+      {
+        "pointer": "#/properties/recommendedActions/items/anyOf/3/properties/evidenceTokens",
+        "minItems": 1,
+        "maxItems": null,
+        "source": "semantic-validator"
+      },
+      {
+        "pointer": "#/properties/recommendedActions/items/anyOf/4/properties/evidenceTokens",
+        "minItems": 1,
+        "maxItems": null,
+        "source": "semantic-validator"
+      },
+      {
+        "pointer": "#/properties/riskCategories",
+        "minItems": 1,
+        "maxItems": null,
+        "source": "semantic-validator"
+      },
+      {
+        "pointer": "#/properties/riskCategories/items/anyOf/0/properties/evidenceTokens",
+        "minItems": 1,
+        "maxItems": null,
+        "source": "semantic-validator"
+      },
+      {
+        "pointer": "#/properties/riskCategories/items/anyOf/1/properties/evidenceTokens",
+        "minItems": 1,
+        "maxItems": null,
+        "source": "semantic-validator"
+      },
+      {
+        "pointer": "#/properties/riskCategories/items/anyOf/2/properties/evidenceTokens",
+        "minItems": 1,
+        "maxItems": null,
+        "source": "semantic-validator"
+      },
+      {
+        "pointer": "#/properties/riskCategories/items/anyOf/3/properties/evidenceTokens",
+        "minItems": 1,
+        "maxItems": null,
+        "source": "semantic-validator"
+      },
+      {
+        "pointer": "#/properties/riskCategories/items/anyOf/4/properties/evidenceTokens",
+        "minItems": 1,
+        "maxItems": null,
+        "source": "semantic-validator"
+      },
+      {
+        "pointer": "#/properties/riskCategories/items/anyOf/5/properties/evidenceTokens",
+        "minItems": 1,
+        "maxItems": null,
+        "source": "semantic-validator"
+      },
+      {
+        "pointer": "#/properties/riskCategories/items/anyOf/6/properties/evidenceTokens",
+        "minItems": 1,
+        "maxItems": null,
+        "source": "semantic-validator"
+      },
+      {
+        "pointer": "#/properties/riskCategories/items/anyOf/7/properties/evidenceTokens",
+        "minItems": 1,
+        "maxItems": null,
+        "source": "semantic-validator"
+      },
+      {
+        "pointer": "#/properties/riskCategories/items/anyOf/8/properties/evidenceTokens",
+        "minItems": 1,
+        "maxItems": null,
+        "source": "semantic-validator"
+      },
+      {
+        "pointer": "#/properties/limitations/properties/codes",
+        "minItems": 1,
+        "maxItems": null,
+        "source": "semantic-validator"
+      }
+    ],
+    "schemaGeneratorSingleSourceReady": true,
+    "schemaHash": "03ba75705f83042cf4b229fc18fa7e76f940190f6b7d3276c0d600c1536ea610",
+    "lint": {
+      "serializable": true,
+      "totalSchemaNodeCount": 118,
+      "typedNodeCount": 114,
+      "anyOfNodeCount": 4,
+      "refNodeCount": 0,
+      "missingTypeAnyOfRefCount": 0,
+      "missingTypeAnyOfRefPaths": [],
+      "objectCount": 28,
+      "requiredCoverageCount": 28,
+      "missingRequiredCount": 0,
+      "missingRequiredPaths": [],
+      "missingAdditionalPropertiesCount": 0,
+      "missingAdditionalPropertiesPaths": [],
+      "missingArrayItemsCount": 0,
+      "missingArrayItemsPaths": [],
+      "unsupportedKeywordCount": 0,
+      "unsupportedKeywords": [],
+      "schemaHash": "03ba75705f83042cf4b229fc18fa7e76f940190f6b7d3276c0d600c1536ea610"
+    },
+    "requestShapeReady": true
+  },
+  "validCorpus": {
+    "ready": true,
+    "generated": 1000,
+    "passed": 1000,
+    "unexpectedFailureCount": 0,
+    "failures": [],
+    "deterministicMappingMismatchCount": 0,
+    "canonicalHashCount": 940,
+    "coverage": {
+      "riskCategories": [
+        "contradiction",
+        "gap",
+        "growth",
+        "healthy",
+        "meeting",
+        "multi-risk",
+        "portfolio-priority",
+        "route",
+        "stalled"
+      ],
+      "evidenceTypes": [
+        "ACCOUNT_GROWTH",
+        "DATA_QUALITY",
+        "DECISION_READINESS",
+        "ENGAGEMENT",
+        "FINANCIAL_BAND",
+        "FINANCIAL_VARIANCE",
+        "PIPELINE_PROGRESS",
+        "PORTFOLIO_SCOPE",
+        "RELATIVE_DATE",
+        "ROUTE_CONSISTENCY",
+        "SERVICE_COVERAGE"
+      ],
+      "limitationCodes": [
+        "DATA_CONTRADICTION",
+        "EXACT_AMOUNT_WITHHELD",
+        "IDENTITY_MASKED",
+        "INSUFFICIENT_EVIDENCE",
+        "MODEL_UNCERTAINTY",
+        "NO_ACTUAL_DATA",
+        "NO_COVERAGE_DATA",
+        "RAW_TIMELINE_WITHHELD",
+        "STALE_INTERACTION_DATA"
+      ],
+      "actionCodes": [
+        "ACT-CONFIRM-DECISION",
+        "ACT-CONFIRM-NEXT-STEP",
+        "ACT-RECONCILE-DATA",
+        "ACT-REVIEW-COVERAGE",
+        "ACT-REVIEW-VARIANCE"
+      ],
+      "confidenceLevels": [
+        "High",
+        "Low",
+        "Medium"
+      ],
+      "priorities": [
+        "Critical",
+        "High",
+        "Low",
+        "Medium",
+        "Monitor"
+      ],
+      "singleEvidence": true,
+      "multipleEvidence": true,
+      "minArray": true,
+      "maxArray": true
+    },
+    "coverageReady": true
+  },
+  "invalidCorpus": {
+    "ready": true,
+    "caseCount": 17,
+    "rejectedCount": 17,
+    "unexpectedPassCount": 0,
+    "results": [
+      {
+        "name": "missing_required",
+        "rejected": true,
+        "primaryFailureClass": "ARRAY_MIN_ITEMS",
+        "affectedJsonPath": "/facts",
+        "schemaKeyword": "minItems"
+      },
+      {
+        "name": "additional_property",
+        "rejected": true,
+        "primaryFailureClass": "UNEXPECTED_PROPERTY",
+        "affectedJsonPath": "",
+        "schemaKeyword": "additionalProperties"
+      },
+      {
+        "name": "wrong_type",
+        "rejected": true,
+        "primaryFailureClass": "ARRAY_MIN_ITEMS",
+        "affectedJsonPath": "/facts",
+        "schemaKeyword": "minItems"
+      },
+      {
+        "name": "unknown_enum",
+        "rejected": true,
+        "primaryFailureClass": "ENUM_MISMATCH",
+        "affectedJsonPath": "/priority",
+        "schemaKeyword": "enum"
+      },
+      {
+        "name": "provider_const",
+        "rejected": true,
+        "primaryFailureClass": "CONST_MISMATCH",
+        "affectedJsonPath": "/provider",
+        "schemaKeyword": "enum"
+      },
+      {
+        "name": "model_const",
+        "rejected": true,
+        "primaryFailureClass": "CONST_MISMATCH",
+        "affectedJsonPath": "/model",
+        "schemaKeyword": "enum"
+      },
+      {
+        "name": "fallback_const",
+        "rejected": true,
+        "primaryFailureClass": "CONST_MISMATCH",
+        "affectedJsonPath": "/fallback/reason",
+        "schemaKeyword": "enum"
+      },
+      {
+        "name": "safety_missing",
+        "rejected": true,
+        "primaryFailureClass": "SAFETY_STATEMENT_INVALID",
+        "affectedJsonPath": "/safety",
+        "schemaKeyword": "enum"
+      },
+      {
+        "name": "safety_value",
+        "rejected": true,
+        "primaryFailureClass": "SAFETY_STATEMENT_INVALID",
+        "affectedJsonPath": "/safety",
+        "schemaKeyword": "enum"
+      },
+      {
+        "name": "unknown_evidence",
+        "rejected": true,
+        "primaryFailureClass": "EVIDENCE_NOT_ALLOWLISTED",
+        "affectedJsonPath": "/",
+        "schemaKeyword": "enum"
+      },
+      {
+        "name": "duplicate_evidence",
+        "rejected": true,
+        "primaryFailureClass": "EVIDENCE_DUPLICATE",
+        "affectedJsonPath": "/inferences",
+        "schemaKeyword": "uniqueItems"
+      },
+      {
+        "name": "empty_evidence",
+        "rejected": true,
+        "primaryFailureClass": "ARRAY_MIN_ITEMS",
+        "affectedJsonPath": "/riskCategories",
+        "schemaKeyword": "minItems"
+      },
+      {
+        "name": "category_evidence_incompatible",
+        "rejected": true,
+        "primaryFailureClass": "CATEGORY_EVIDENCE_INCOMPATIBLE",
+        "affectedJsonPath": "/riskCategories",
+        "schemaKeyword": "compatibility"
+      },
+      {
+        "name": "action_without_evidence",
+        "rejected": true,
+        "primaryFailureClass": "ARRAY_MIN_ITEMS",
+        "affectedJsonPath": "/recommendedActions",
+        "schemaKeyword": "minItems"
+      },
+      {
+        "name": "string_too_long",
+        "rejected": true,
+        "primaryFailureClass": "STRING_TOO_LONG",
+        "affectedJsonPath": "/provider",
+        "schemaKeyword": "maxLength"
+      },
+      {
+        "name": "pattern_mismatch",
+        "rejected": true,
+        "primaryFailureClass": "ENUM_MISMATCH",
+        "affectedJsonPath": "/facts/0/factCode",
+        "schemaKeyword": "enum"
+      },
+      {
+        "name": "health_score_override",
+        "rejected": true,
+        "primaryFailureClass": "UNEXPECTED_PROPERTY",
+        "affectedJsonPath": "",
+        "schemaKeyword": "additionalProperties"
+      }
+    ]
+  },
+  "inputSafety": {
+    "ready": true,
+    "forbiddenFieldCount": 0,
+    "realCrmTokenCount": 0,
+    "guidCount": 0,
+    "identityCount": 0,
+    "exactAmountCount": 0,
+    "rawTimelineCount": 0,
+    "scenarioGoldenCount": 0
+  },
+  "offlineReady": true,
+  "probe": {
+    "authorized": true,
+    "executed": true,
+    "ready": false,
+    "httpStatus": 200,
+    "finishReason": "tool_calls",
+    "toolCallCount": 1,
+    "toolCallName": "emit_decision_pack",
+    "jsonReady": true,
+    "transportSchemaReady": false,
+    "evidenceReady": false,
+    "categoryEvidenceCompatibilityReady": true,
+    "canonicalMappingReady": false,
+    "canonicalV2Ready": false,
+    "safetyReady": false,
+    "unsupportedCrmFactCount": 0,
+    "hallucinationHardFailureCount": 0,
+    "latencyMs": 10771,
+    "usage": {
+      "prompt_tokens": 4905,
+      "completion_tokens": 1078,
+      "total_tokens": 5983
+    },
+    "estimatedCostUsd": 0.001826,
+    "requestEnvelopeHash": "039d9f8fdc31568875080ba36543009bf08c0b492ff3b253dfeff9e85739f04c",
+    "schemaHash": "03ba75705f83042cf4b229fc18fa7e76f940190f6b7d3276c0d600c1536ea610",
+    "argumentsLength": 2606,
+    "argumentsSha256": "e3d256d3eb44089a66da94f8d6cd5ca515287a25f0194a627e953d4c21ecefc0",
+    "topLevelKeyCount": 12,
+    "topLevelKeySetHash": "165987f8c4d4ea5b64fca04eacf2c673780cdf5552145c7cd974b88a8d44daba",
+    "schemaErrorCount": 0,
+    "schemaDiagnostics": {
+      "validatorName": "Gateway JSON Schema Diagnostics",
+      "validatorVersion": "1.0.0",
+      "errors": []
+    },
+    "classification": {
+      "primarySchemaFailureClass": "ARRAY_MIN_ITEMS",
+      "affectedJsonPath": "/inferences",
+      "schemaKeyword": "minItems",
+      "secondaryFailureCount": 1
+    },
+    "evidenceDiagnostics": {
+      "topLevelKeyCount": 12,
+      "topLevelKeySetHash": "165987f8c4d4ea5b64fca04eacf2c673780cdf5552145c7cd974b88a8d44daba",
+      "tokenCount": 17,
+      "tokenSetHash": "1df43251e609e7af98bc5efec9544c11c1f91cb019dc9ba6cd8aa2e4ea924ac9",
+      "unknownTokenCount": 0,
+      "duplicateTokenCount": 12,
+      "allowlistMembershipBitmapHash": "07992e8cb501c42f56a579fa0818cbe8562cb6decffcfb6a6e122cb4d9084dcd"
+    },
+    "correlationHash": "2faa2177cc0c1738a9792739fe292e50e34b6584cb61c1bfd976b967e3469609",
+    "rawArgumentsCount": 0,
+    "quarantineWriteCount": 0,
+    "quarantineDeleteAttemptCount": 0,
+    "quarantineDeleteVerified": true
+  },
+  "requestStats": {
+    "externalLlmCalls": 1,
+    "httpSuccess": 1,
+    "httpFailure": 0,
+    "toolCallCount": 1,
+    "contractValidResponseCount": 0,
+    "retryCount": 0,
+    "fallbackCount": 0,
+    "d365Get": 0,
+    "crmPost": 0,
+    "crmPatch": 0,
+    "crmDelete": 0,
+    "crmWriteback": false,
+    "productionRequests": 0,
+    "browserExternalProviderRequests": 0
+  },
+  "gates": {
+    "transportSchemaDiagnosticsReady": true,
+    "transportOfflineValidCorpusReady": true,
+    "invalidCorpusFailClosed": true,
+    "schemaGeneratorSingleSourceReady": true,
+    "canonicalMappingCoverage": 100,
+    "secretIsolationReady": true,
+    "singleOnlineContractProbeReady": false,
+    "providerRequestCompatibilityReady": false,
+    "providerRepeatabilityReady": false,
+    "realCanaryAuthorized": false,
+    "executiveDemoDeterministicModeReady": true,
+    "retryCount": 0,
+    "fallbackCount": 0,
+    "d365Get": 0,
+    "crmWriteback": false,
+    "productionRequests": 0,
+    "rawArgumentsCount": 0,
+    "syntheticInputSafetyReady": true,
+    "offlineReady": true
+  },
+  "p0Count": 0,
+  "p1Count": 1,
+  "p2Count": 0,
+  "secret": {
+    "ready": true,
+    "browserExposure": false,
+    "gitExposure": false,
+    "bundleExposure": false,
+    "logExposure": false,
+    "reportExposure": false
+  },
+  "stopReason": "ARGUMENT_SCHEMA_INVALID"
+}

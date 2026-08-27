@@ -1,0 +1,139 @@
+{
+  "phase": "Phase 1C-5R2G-C1-R2",
+  "generatedAt": "2026-07-17T00:11:22.502Z",
+  "privacy": "Public decision metadata only; no user name, email, GUID, or organization details.",
+  "pool": {
+    "activeInteractiveCandidates": 2,
+    "securityReadyCandidates": 2,
+    "distinctCandidatesRequiredForMultiOwner": 6
+  },
+  "strategies": [
+    {
+      "id": "A",
+      "name": "Pilot Minimal",
+      "description": "All six Owner tokens use one existing active test user for Pilot only.",
+      "rows": [
+        {
+          "ownerToken": "OWNER-DEMO-01",
+          "strategy": "A",
+          "candidateCount": 1,
+          "active": true,
+          "securityReady": true,
+          "recommended": true,
+          "approvalRequired": true
+        },
+        {
+          "ownerToken": "OWNER-DEMO-02",
+          "strategy": "A",
+          "candidateCount": 1,
+          "active": true,
+          "securityReady": true,
+          "recommended": true,
+          "approvalRequired": true
+        },
+        {
+          "ownerToken": "OWNER-DEMO-03",
+          "strategy": "A",
+          "candidateCount": 1,
+          "active": true,
+          "securityReady": true,
+          "recommended": true,
+          "approvalRequired": true
+        },
+        {
+          "ownerToken": "OWNER-DEMO-04",
+          "strategy": "A",
+          "candidateCount": 1,
+          "active": true,
+          "securityReady": true,
+          "recommended": true,
+          "approvalRequired": true
+        },
+        {
+          "ownerToken": "OWNER-DEMO-05",
+          "strategy": "A",
+          "candidateCount": 1,
+          "active": true,
+          "securityReady": true,
+          "recommended": true,
+          "approvalRequired": true
+        },
+        {
+          "ownerToken": "OWNER-DEMO-06",
+          "strategy": "A",
+          "candidateCount": 1,
+          "active": true,
+          "securityReady": true,
+          "recommended": true,
+          "approvalRequired": true
+        }
+      ],
+      "ready": true
+    },
+    {
+      "id": "B",
+      "name": "Multi-owner",
+      "description": "Six Owner tokens require six distinct existing active test users.",
+      "rows": [
+        {
+          "ownerToken": "OWNER-DEMO-01",
+          "strategy": "B",
+          "candidateCount": 2,
+          "active": true,
+          "securityReady": false,
+          "recommended": false,
+          "approvalRequired": true
+        },
+        {
+          "ownerToken": "OWNER-DEMO-02",
+          "strategy": "B",
+          "candidateCount": 2,
+          "active": true,
+          "securityReady": false,
+          "recommended": false,
+          "approvalRequired": true
+        },
+        {
+          "ownerToken": "OWNER-DEMO-03",
+          "strategy": "B",
+          "candidateCount": 2,
+          "active": true,
+          "securityReady": false,
+          "recommended": false,
+          "approvalRequired": true
+        },
+        {
+          "ownerToken": "OWNER-DEMO-04",
+          "strategy": "B",
+          "candidateCount": 2,
+          "active": true,
+          "securityReady": false,
+          "recommended": false,
+          "approvalRequired": true
+        },
+        {
+          "ownerToken": "OWNER-DEMO-05",
+          "strategy": "B",
+          "candidateCount": 2,
+          "active": true,
+          "securityReady": false,
+          "recommended": false,
+          "approvalRequired": true
+        },
+        {
+          "ownerToken": "OWNER-DEMO-06",
+          "strategy": "B",
+          "candidateCount": 2,
+          "active": true,
+          "securityReady": false,
+          "recommended": false,
+          "approvalRequired": true
+        }
+      ],
+      "ready": false,
+      "shortfall": 4
+    }
+  ],
+  "ownerCandidateMappingReady": true,
+  "ownerMappingApproved": false
+}

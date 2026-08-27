@@ -1,0 +1,83 @@
+{
+  "contractVersion": "Provider Success Response Observability Contract v1",
+  "purpose": "Metadata-only observation for HTTP 2xx Provider responses.",
+  "strictExtractionPath": "choices[0].message.tool_calls[0].function.arguments",
+  "requiredChecks": [
+    "finish_reason exists",
+    "finish_reason=tool_calls",
+    "tool_calls is an array",
+    "tool_calls.length=1",
+    "tool_calls[0].type=function",
+    "function.name=emit_decision_pack",
+    "function.arguments is a string",
+    "stream=false"
+  ],
+  "allowedFields": [
+    "httpStatus",
+    "choiceCount",
+    "selectedChoiceIndex",
+    "finishReason",
+    "messageContentPresent",
+    "reasoningContentPresent",
+    "toolCallsCount",
+    "toolCallType",
+    "functionName",
+    "argumentsRuntimeType",
+    "argumentsLength",
+    "argumentsSha256",
+    "firstNonWhitespaceCharacterCategory",
+    "lastNonWhitespaceCharacterCategory",
+    "leftBraceCount",
+    "rightBraceCount",
+    "leftBracketCount",
+    "rightBracketCount",
+    "jsonParseErrorType",
+    "jsonParseErrorPosition",
+    "completionTokens",
+    "maxTokens",
+    "responseId",
+    "requestCorrelationToken",
+    "responseTimestamp",
+    "latencyMs"
+  ],
+  "argumentParsing": {
+    "bomRemoval": true,
+    "trimOuterWhitespace": true,
+    "jsonParseCount": 1,
+    "schemaValidationAfterParse": true,
+    "markdownFenceRepair": false,
+    "explanatoryTextExtraction": false,
+    "bracketRepair": false,
+    "fieldCompletion": false,
+    "secondJsonParse": false,
+    "objectStringifyAsProviderSuccess": false,
+    "llmRepair": false,
+    "failClosed": true
+  },
+  "failureCategories": [
+    "OUTPUT_TRUNCATED",
+    "TOOL_CALL_NOT_COMPLETED",
+    "TOOL_CALL_SHAPE_INVALID",
+    "TOOL_NAME_INVALID",
+    "ARGUMENT_TYPE_INVALID",
+    "ARGUMENT_EMPTY",
+    "ARGUMENT_JSON_INVALID",
+    "ARGUMENT_SCHEMA_INVALID"
+  ],
+  "forbiddenPersistence": [
+    "rawArguments",
+    "rawResponseBody",
+    "requestBody",
+    "safeContextPayload",
+    "secret",
+    "authorization"
+  ],
+  "execution": {
+    "externalLlmCallsR5B4": 0,
+    "retryCount": 0,
+    "fixtureFallbackCount": 0,
+    "d365Get": 0,
+    "crmWriteback": false,
+    "productionRequests": 0
+  }
+}

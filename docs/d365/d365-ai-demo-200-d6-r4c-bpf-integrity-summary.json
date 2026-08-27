@@ -1,0 +1,12 @@
+{
+  "phase": "Phase 1C-5R2G-D6-R4C",
+  "targetInstanceCount": 200,
+  "initialStage": "授予资格",
+  "initialStageCount": 200,
+  "duplicateCount": 0,
+  "unexpectedProcessCount": 0,
+  "processOrder": 0,
+  "bpfWrites": 0,
+  "stageActions": 0,
+  "instanceIdsRecordedPrivately": true
+}

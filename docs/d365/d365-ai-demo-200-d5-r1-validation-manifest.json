@@ -1,0 +1,223 @@
+{
+  "phase": "Phase 1C-5R2G-D5-R1",
+  "environmentAlias": "TEST-ORG",
+  "generatedAt": "2026-07-17T09:11:37.484Z",
+  "contract": {
+    "explicitPilotRecords": 427,
+    "expectedPlatformBpfInstances": 24,
+    "manualBpfWritesAllowed": false,
+    "nextStageAllowed": false,
+    "finishAllowed": false,
+    "stateActionsDeferred": true
+  },
+  "workbooks": {
+    "formal": {
+      "bytes": 570890,
+      "sha256": "af40bede1df13eb40ef5718f657d21ba570d1cc29feed5a9848616ddf5fbedea"
+    },
+    "pilot": {
+      "bytes": 90392,
+      "sha256": "789e0c620199481c4de4532d14479b075a14d32eb375b20971723b3284fc1e36"
+    }
+  },
+  "expectedCounts": {
+    "Account": 7,
+    "Contact": 9,
+    "Opportunity": 24,
+    "ServiceCoverage": 15,
+    "ActualManagement": 12,
+    "Timeline": 206,
+    "InteractionSignal": 154
+  },
+  "explicitPilotRecordCount": 245,
+  "stageStats": {
+    "Account": {
+      "attempt": 7,
+      "created": 6,
+      "reused": 1,
+      "failed": 0,
+      "pending": 0
+    },
+    "Contact": {
+      "attempt": 9,
+      "created": 8,
+      "reused": 1,
+      "failed": 0,
+      "pending": 0
+    },
+    "Opportunity": {
+      "attempt": 24,
+      "created": 23,
+      "reused": 1,
+      "failed": 0,
+      "pending": 0
+    },
+    "ServiceCoverage": {
+      "attempt": 15,
+      "created": 15,
+      "reused": 0,
+      "failed": 0,
+      "pending": 0
+    },
+    "ActualManagement": {
+      "attempt": 12,
+      "created": 12,
+      "reused": 0,
+      "failed": 0,
+      "pending": 0
+    },
+    "Timeline": {
+      "attempt": 179,
+      "created": 178,
+      "reused": 0,
+      "failed": 1,
+      "pending": 27
+    },
+    "InteractionSignal": {
+      "attempt": 0,
+      "created": 0,
+      "reused": 0,
+      "failed": 0,
+      "pending": 154
+    }
+  },
+  "latestExecutionStageStats": {
+    "Account": {
+      "attempt": 7,
+      "created": 0,
+      "reused": 7,
+      "failed": 0
+    },
+    "Contact": {
+      "attempt": 9,
+      "created": 0,
+      "reused": 9,
+      "failed": 0
+    },
+    "Opportunity": {
+      "attempt": 24,
+      "created": 0,
+      "reused": 24,
+      "failed": 0
+    },
+    "ServiceCoverage": {
+      "attempt": 15,
+      "created": 0,
+      "reused": 15,
+      "failed": 0
+    },
+    "ActualManagement": {
+      "attempt": 12,
+      "created": 0,
+      "reused": 12,
+      "failed": 0
+    },
+    "Timeline": {
+      "attempt": 179,
+      "created": 174,
+      "reused": 4,
+      "failed": 1
+    },
+    "InteractionSignal": {
+      "attempt": 0,
+      "created": 0,
+      "reused": 0,
+      "failed": 0
+    }
+  },
+  "bpfSummary": {
+    "targetInstanceCount": 24,
+    "duplicateInstanceCount": 0,
+    "unexpectedProcessCount": 0,
+    "initialStageReadyCount": 24
+  },
+  "actionStats": {
+    "WinOpportunity": {
+      "attempt": 0,
+      "succeeded": 0,
+      "failed": 0
+    },
+    "LoseOpportunity": {
+      "attempt": 0,
+      "succeeded": 0,
+      "failed": 0
+    }
+  },
+  "requestCounts": {
+    "preflightGET": 7,
+    "businessCRMGET": 713,
+    "platformGET": 130,
+    "AccountPOST": 6,
+    "ContactPOST": 8,
+    "OpportunityPOST": 23,
+    "CoveragePOST": 15,
+    "ActualPOST": 12,
+    "TimelinePOST": 179,
+    "SignalPOST": 0,
+    "BpfInstancePOST": 0,
+    "BpfInstancePATCH": 0,
+    "BpfInstanceDELETE": 0,
+    "WinOpportunity": 0,
+    "LoseOpportunity": 0,
+    "PATCH": 0,
+    "DELETE": 0,
+    "Publish": 0,
+    "teamRoleMembershipChanges": 0,
+    "productionRequests": 0,
+    "externalLLMCalls": 0
+  },
+  "p0": 0,
+  "p1": 1,
+  "p2": 1,
+  "gates": {
+    "bpfAutoInstanceContractReady": true,
+    "canaryBpfIntegrityReady": true,
+    "canaryReady": true,
+    "canaryRecordsReused": true,
+    "accountImportReady": true,
+    "contactImportReady": true,
+    "opportunityImportReady": true,
+    "opportunityCount": 24,
+    "targetBpfInstanceCount": 24,
+    "duplicateBpfInstanceCount": 0,
+    "unexpectedBpfProcessCount": 0,
+    "coverageImportReady": true,
+    "actualImportReady": true,
+    "timelineImportReady": false,
+    "signalImportReady": false,
+    "basePilotDataImportCompleted": false,
+    "pilotStateActionsDeferred": true,
+    "winOpportunityCount": 0,
+    "loseOpportunityCount": 0,
+    "pilotImportCompleted": false,
+    "pilotExactReadbackReady": false,
+    "pilotExactIdManifestReady": false,
+    "partialExactIdManifestReady": true,
+    "pilotCleanupAuthorized": false,
+    "cleanupExecuted": false,
+    "existingNonPilotDataModified": false,
+    "pilotScopeExceeded": false,
+    "fullImportStarted": false,
+    "productionIsolationReady": true,
+    "fullImportReady": false,
+    "fullImportAuthorized": false
+  },
+  "blockers": [
+    {
+      "severity": "P1",
+      "status": 400,
+      "token": "TL-1630",
+      "entity": "annotation",
+      "expectedDate": "2026-07-30",
+      "message": "System date cannot be set to a date in the future",
+      "residualRecordCount": 0,
+      "resolutionRequired": "Approve a separate frozen-data projection rule for future-dated annotations or defer import until the date is no longer future."
+    }
+  ],
+  "validatorRecovery": {
+    "token": "TL-0122",
+    "falseNegativeConfirmed": true,
+    "existingRecordReposted": false,
+    "correctedSourceDateField": "createdon"
+  }
+}

@@ -1,0 +1,376 @@
+{
+  "label": "Validated LLM Analysis Snapshot",
+  "contractVersion": "Demo LLM Narrative Contract v1",
+  "snapshots": [
+    {
+      "label": "Validated LLM Analysis Snapshot",
+      "opportunityToken": "DEMO-OPP-001",
+      "healthScore": 93.22,
+      "healthGrade": "S",
+      "executiveSummary": "当前进展总体稳定，可按既定节奏跟进。",
+      "riskExplanation": [
+        "当前证据未支持新增重大风险。"
+      ],
+      "recommendedActionDraft": [
+        {
+          "action": "继续按现有节奏监控",
+          "basis": "由服务器根据确定性代码和安全证据展开",
+          "evidence": [
+            "E01",
+            "E02",
+            "E03",
+            "E04",
+            "E05"
+          ],
+          "ownerRole": "待人工指定",
+          "dueWindow": "待人工确定",
+          "status": "Draft"
+        }
+      ],
+      "limitationStatement": [
+        "客户及联系人身份已脱敏。",
+        "模型仅接收金额区间，不接收精确金额。",
+        "未向模型提供原始活动记录正文。",
+        "Health Score 与 Grade 由确定性引擎负责。",
+        "输出为分析草案，仍需人工确认。"
+      ],
+      "confidenceBand": "HIGH",
+      "evidence": [
+        {
+          "alias": "E01",
+          "token": "safeContext.dataQualityCodes"
+        },
+        {
+          "alias": "E02",
+          "token": "safeContext.decisionReadiness"
+        },
+        {
+          "alias": "E03",
+          "token": "safeContext.priority"
+        },
+        {
+          "alias": "E04",
+          "token": "safeContext.stagnationBand"
+        },
+        {
+          "alias": "E05",
+          "token": "safeContext.varianceCategory"
+        }
+      ],
+      "providerAlias": "DeepSeek",
+      "modelAlias": "deepseek-v4-pro",
+      "contractVersion": "Demo LLM Narrative Contract v1",
+      "providerProfile": "DeepSeek Pro Minimal Narrative v1",
+      "requestHash": "e4dba6d67b09a322ab34cb714c853223c3367cd052d3ef5fdabfef8a8b10cac0",
+      "responseHash": "fb270e333a82f8cdd44c7612ab5f6f0aa4d0fc6cb6559a2b5311da7d5480821a",
+      "contextVersion": "Safe Context v2",
+      "validatedAt": "2026-07-20T02:07:27.495Z",
+      "latencyMs": 167,
+      "tokenUsage": {
+        "prompt_tokens": 957,
+        "completion_tokens": 217,
+        "total_tokens": 1174
+      },
+      "estimatedCostUsd": 0,
+      "safetyResult": "pass",
+      "externalModelCalled": true,
+      "crmWriteback": false
+    },
+    {
+      "label": "Validated LLM Analysis Snapshot",
+      "opportunityToken": "DEMO-OPP-046",
+      "healthScore": 77.83,
+      "healthGrade": "B",
+      "executiveSummary": "当前需要人工复核关键事实与下一步条件。",
+      "riskExplanation": [
+        "推进停滞信号需要优先复核。"
+      ],
+      "recommendedActionDraft": [
+        {
+          "action": "确认下一步推进条件",
+          "basis": "由服务器根据确定性代码和安全证据展开",
+          "evidence": [
+            "E01",
+            "E02",
+            "E03",
+            "E04",
+            "E05"
+          ],
+          "ownerRole": "待人工指定",
+          "dueWindow": "待人工确定",
+          "status": "Draft"
+        }
+      ],
+      "limitationStatement": [
+        "客户及联系人身份已脱敏。",
+        "模型仅接收金额区间，不接收精确金额。",
+        "未向模型提供原始活动记录正文。",
+        "Health Score 与 Grade 由确定性引擎负责。",
+        "输出为分析草案，仍需人工确认。"
+      ],
+      "confidenceBand": "HIGH",
+      "evidence": [
+        {
+          "alias": "E01",
+          "token": "safeContext.dataQualityCodes"
+        },
+        {
+          "alias": "E02",
+          "token": "safeContext.decisionReadiness"
+        },
+        {
+          "alias": "E03",
+          "token": "safeContext.priority"
+        },
+        {
+          "alias": "E04",
+          "token": "safeContext.stagnationBand"
+        },
+        {
+          "alias": "E05",
+          "token": "safeContext.varianceCategory"
+        }
+      ],
+      "providerAlias": "DeepSeek",
+      "modelAlias": "deepseek-v4-pro",
+      "contractVersion": "Demo LLM Narrative Contract v1",
+      "providerProfile": "DeepSeek Pro Minimal Narrative v1",
+      "requestHash": "c9dd49e4fe0910704ae337303267984078e1fb854bb385338af3513eb3f30996",
+      "responseHash": "1375aed47614144e16102bc9a6ca0bb276f2ec2f2bdf03cabf80e57cf612e65f",
+      "contextVersion": "Safe Context v2",
+      "validatedAt": "2026-07-20T02:07:30.032Z",
+      "latencyMs": 111,
+      "tokenUsage": {
+        "prompt_tokens": 959,
+        "completion_tokens": 216,
+        "total_tokens": 1175
+      },
+      "estimatedCostUsd": 0,
+      "safetyResult": "pass",
+      "externalModelCalled": true,
+      "crmWriteback": false
+    },
+    {
+      "label": "Validated LLM Analysis Snapshot",
+      "opportunityToken": "DEMO-OPP-017",
+      "healthScore": 92.55,
+      "healthGrade": "S",
+      "executiveSummary": "当前进展总体稳定，可按既定节奏跟进。",
+      "riskExplanation": [
+        "当前证据未支持新增重大风险。"
+      ],
+      "recommendedActionDraft": [
+        {
+          "action": "继续按现有节奏监控",
+          "basis": "由服务器根据确定性代码和安全证据展开",
+          "evidence": [
+            "E01",
+            "E02",
+            "E03",
+            "E04",
+            "E05"
+          ],
+          "ownerRole": "待人工指定",
+          "dueWindow": "待人工确定",
+          "status": "Draft"
+        }
+      ],
+      "limitationStatement": [
+        "客户及联系人身份已脱敏。",
+        "模型仅接收金额区间，不接收精确金额。",
+        "未向模型提供原始活动记录正文。",
+        "Health Score 与 Grade 由确定性引擎负责。",
+        "输出为分析草案，仍需人工确认。"
+      ],
+      "confidenceBand": "HIGH",
+      "evidence": [
+        {
+          "alias": "E01",
+          "token": "safeContext.dataQualityCodes"
+        },
+        {
+          "alias": "E02",
+          "token": "safeContext.decisionReadiness"
+        },
+        {
+          "alias": "E03",
+          "token": "safeContext.priority"
+        },
+        {
+          "alias": "E04",
+          "token": "safeContext.stagnationBand"
+        },
+        {
+          "alias": "E05",
+          "token": "safeContext.varianceCategory"
+        }
+      ],
+      "providerAlias": "DeepSeek",
+      "modelAlias": "deepseek-v4-pro",
+      "contractVersion": "Demo LLM Narrative Contract v1",
+      "providerProfile": "DeepSeek Pro Minimal Narrative v1",
+      "requestHash": "0de8080b99a4a8b26903a6427bc742bf15adf626fdabde94d4e5b219ffa69b68",
+      "responseHash": "79b59a0e96f3fc1cf7063c55142bdb9314372a14e52faa86fbb7b92db2ddc032",
+      "contextVersion": "Safe Context v2",
+      "validatedAt": "2026-07-20T02:07:32.408Z",
+      "latencyMs": 104,
+      "tokenUsage": {
+        "prompt_tokens": 957,
+        "completion_tokens": 217,
+        "total_tokens": 1174
+      },
+      "estimatedCostUsd": 0,
+      "safetyResult": "pass",
+      "externalModelCalled": true,
+      "crmWriteback": false
+    },
+    {
+      "label": "Validated LLM Analysis Snapshot",
+      "opportunityToken": "DEMO-OPP-056",
+      "healthScore": 73.37,
+      "healthGrade": "B",
+      "executiveSummary": "当前需要人工复核关键事实与下一步条件。",
+      "riskExplanation": [
+        "推进停滞信号需要优先复核。"
+      ],
+      "recommendedActionDraft": [
+        {
+          "action": "确认下一步推进条件",
+          "basis": "由服务器根据确定性代码和安全证据展开",
+          "evidence": [
+            "E01",
+            "E02",
+            "E03",
+            "E04",
+            "E05"
+          ],
+          "ownerRole": "待人工指定",
+          "dueWindow": "待人工确定",
+          "status": "Draft"
+        }
+      ],
+      "limitationStatement": [
+        "客户及联系人身份已脱敏。",
+        "模型仅接收金额区间，不接收精确金额。",
+        "未向模型提供原始活动记录正文。",
+        "Health Score 与 Grade 由确定性引擎负责。",
+        "输出为分析草案，仍需人工确认。"
+      ],
+      "confidenceBand": "HIGH",
+      "evidence": [
+        {
+          "alias": "E01",
+          "token": "safeContext.dataQualityCodes"
+        },
+        {
+          "alias": "E02",
+          "token": "safeContext.decisionReadiness"
+        },
+        {
+          "alias": "E03",
+          "token": "safeContext.priority"
+        },
+        {
+          "alias": "E04",
+          "token": "safeContext.stagnationBand"
+        },
+        {
+          "alias": "E05",
+          "token": "safeContext.varianceCategory"
+        }
+      ],
+      "providerAlias": "DeepSeek",
+      "modelAlias": "deepseek-v4-pro",
+      "contractVersion": "Demo LLM Narrative Contract v1",
+      "providerProfile": "DeepSeek Pro Minimal Narrative v1",
+      "requestHash": "2a9ecd16ff4412c524c99b38f03877290c6f00be78d08ffb6fe1c6ef56a9dcab",
+      "responseHash": "16d759ec4d232e73221660bedb875c37f2c06193d0c0b4950a69f36eb80e8f00",
+      "contextVersion": "Safe Context v2",
+      "validatedAt": "2026-07-20T02:07:35.072Z",
+      "latencyMs": 299,
+      "tokenUsage": {
+        "prompt_tokens": 956,
+        "completion_tokens": 216,
+        "total_tokens": 1172
+      },
+      "estimatedCostUsd": 0,
+      "safetyResult": "pass",
+      "externalModelCalled": true,
+      "crmWriteback": false
+    },
+    {
+      "label": "Validated LLM Analysis Snapshot",
+      "opportunityToken": "DEMO-OPP-030",
+      "healthScore": 92.55,
+      "healthGrade": "S",
+      "executiveSummary": "当前进展总体稳定，可按既定节奏跟进。",
+      "riskExplanation": [
+        "当前证据未支持新增重大风险。"
+      ],
+      "recommendedActionDraft": [
+        {
+          "action": "继续按现有节奏监控",
+          "basis": "由服务器根据确定性代码和安全证据展开",
+          "evidence": [
+            "E01",
+            "E02",
+            "E03",
+            "E04",
+            "E05"
+          ],
+          "ownerRole": "待人工指定",
+          "dueWindow": "待人工确定",
+          "status": "Draft"
+        }
+      ],
+      "limitationStatement": [
+        "客户及联系人身份已脱敏。",
+        "模型仅接收金额区间，不接收精确金额。",
+        "未向模型提供原始活动记录正文。",
+        "Health Score 与 Grade 由确定性引擎负责。",
+        "输出为分析草案，仍需人工确认。"
+      ],
+      "confidenceBand": "HIGH",
+      "evidence": [
+        {
+          "alias": "E01",
+          "token": "safeContext.dataQualityCodes"
+        },
+        {
+          "alias": "E02",
+          "token": "safeContext.decisionReadiness"
+        },
+        {
+          "alias": "E03",
+          "token": "safeContext.priority"
+        },
+        {
+          "alias": "E04",
+          "token": "safeContext.stagnationBand"
+        },
+        {
+          "alias": "E05",
+          "token": "safeContext.varianceCategory"
+        }
+      ],
+      "providerAlias": "DeepSeek",
+      "modelAlias": "deepseek-v4-pro",
+      "contractVersion": "Demo LLM Narrative Contract v1",
+      "providerProfile": "DeepSeek Pro Minimal Narrative v1",
+      "requestHash": "a9fea29fa65dacee5f7b96d50df2a48dbb9a1ecd7732d4840166116679ddd475",
+      "responseHash": "8f78db66cc2ecddac7a05aeb29cc403eb197c22af5ef59776a06148107584664",
+      "contextVersion": "Safe Context v2",
+      "validatedAt": "2026-07-20T02:07:37.683Z",
+      "latencyMs": 107,
+      "tokenUsage": {
+        "prompt_tokens": 960,
+        "completion_tokens": 217,
+        "total_tokens": 1177
+      },
+      "estimatedCostUsd": 0,
+      "safetyResult": "pass",
+      "externalModelCalled": true,
+      "crmWriteback": false
+    }
+  ]
+}

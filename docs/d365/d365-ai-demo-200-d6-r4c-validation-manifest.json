@@ -1,0 +1,81 @@
+{
+  "phase": "Phase 1C-5R2G-D6-R4C",
+  "status": "FULL_STATE_ACTIONS_COMPLETED",
+  "entityCounts": {
+    "Account": 60,
+    "Contact": 120,
+    "Opportunity": 200,
+    "ServiceCoverage": 240,
+    "ActualManagement": 130,
+    "Timeline": 1800,
+    "InteractionSignal": 1350
+  },
+  "explicitRecordCount": 3900,
+  "stateDistribution": {
+    "Won": 91,
+    "Active": 100,
+    "Lost": 9
+  },
+  "opportunityClose": {
+    "win": 91,
+    "lose": 9,
+    "total": 100,
+    "duplicate": 0,
+    "attachments": 0
+  },
+  "bpf": {
+    "target": 200,
+    "initialStage": 200,
+    "duplicate": 0,
+    "unexpected": 0,
+    "initialStageName": "授予资格",
+    "processOrder": 0
+  },
+  "plugin": {
+    "enabled": 7,
+    "disabled": 0,
+    "ready": true
+  },
+  "requestDelta": {
+    "WinOpportunityAttempts": 83,
+    "WinOpportunitySuccess": 83,
+    "LoseOpportunityAttempts": 7,
+    "LoseOpportunitySuccess": 7,
+    "ActualPOST": 0,
+    "TimelinePOST": 0,
+    "SignalPOST": 0,
+    "OtherBusinessPOST": 0,
+    "PATCH": 0,
+    "DELETE": 0,
+    "Publish": 0,
+    "BPFWrites": 0,
+    "ProductionRequests": 0,
+    "ExternalLLMCalls": 0
+  },
+  "gates": {
+    "remainingWinActionsAuthorized": true,
+    "remainingLoseActionsAuthorized": true,
+    "remainingWinCandidateCount": 83,
+    "remainingLoseCandidateCount": 7,
+    "batchSizeMax10": true,
+    "candidateSelectionFromFrozenPlan": true,
+    "remainingWinActionsCompleted": true,
+    "remainingLoseActionsCompleted": true,
+    "opportunityCloseFinalReady": true,
+    "bpfIntegrityReady": true,
+    "actualContractReady": true,
+    "nonTargetBusinessIntegrityReady": true,
+    "finalStateDistributionReady": true,
+    "fullExactReadbackReady": true,
+    "fullExactIdManifestReady": true,
+    "fullImportCompleted": false,
+    "fullImportClosed": false,
+    "cleanupAuthorized": false,
+    "cleanupExecuted": false,
+    "gatewayFullDatasetIntegrationReady": false,
+    "productionIsolationReady": true
+  },
+  "p0": 0,
+  "p1": 0,
+  "p2": 0
+}

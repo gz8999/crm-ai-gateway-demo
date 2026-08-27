@@ -1,0 +1,66 @@
+{
+  "phase": "Phase 3C-R5B11-R2",
+  "mode": "offline-contract-repair",
+  "baselineCommit": "f7f65a756ea094c6df05781e92e37ef2a7750a71",
+  "contracts": {
+    "transport": "Provider Transport Contract v3",
+    "profile": "v6-r2",
+    "canonical": "Decision Pack Model Response v2",
+    "schemaHash": "9056533322a5b05ce7ea6be9b21f4579efc0088ff61c1a0b2e1c94a503df77eb"
+  },
+  "schemaLint": {
+    "totalSchemaNodeCount": 88,
+    "typedNodeCount": 86,
+    "anyOfNodeCount": 2,
+    "refNodeCount": 0,
+    "missingTypeAnyOfRefCount": 0,
+    "objectCount": 19,
+    "missingRequiredCount": 0,
+    "missingAdditionalPropertiesCount": 0,
+    "missingArrayItemsCount": 0,
+    "unsupportedKeywordCount": 0
+  },
+  "offlineFixture": {
+    "safeEvidenceTokenCount": 5,
+    "evidenceSupportedCategoryCount": 8,
+    "excludedUnsupportedCategories": [
+      "route"
+    ],
+    "focusedTestsPassed": 14,
+    "focusedTestsFailed": 0
+  },
+  "gates": {
+    "safeEvidenceCatalogReady": true,
+    "requestScopedCategorySchemaReady": true,
+    "categoryEvidenceSchemaBindingReady": true,
+    "categoryEvidenceRuntimeValidationReady": true,
+    "completeSafetyAssertionsReady": true,
+    "deterministicSafetyMappingReady": true,
+    "safeMappingFailureObservabilityReady": true,
+    "historicalSchemaCompatibilityReady": true,
+    "providerRequestCompatibilityReady": false,
+    "syntheticProbeAuthorized": false,
+    "realCanaryAuthorized": false
+  },
+  "requests": {
+    "externalLlmCalls": 0,
+    "d365Get": 0,
+    "crmPost": 0,
+    "crmPatch": 0,
+    "crmDelete": 0,
+    "crmWriteback": false,
+    "productionRequests": 0,
+    "browserExternalProviderRequests": 0
+  },
+  "verification": {
+    "npmTest": "passed (694/694)",
+    "npmBuild": "passed",
+    "productionBundleIsolation": "passed (2 assets)",
+    "gitDiffCheck": "passed",
+    "sensitiveScan": "passed (credential exposure 0; public GUID exposure 0)"
+  },
+  "p0Count": 0,
+  "p1Count": 0,
+  "p2Count": 0,
+  "complete": true
+}

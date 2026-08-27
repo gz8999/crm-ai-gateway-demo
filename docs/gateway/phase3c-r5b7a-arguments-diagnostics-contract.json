@@ -1,0 +1,72 @@
+{
+  "phase": "Phase 3C-R5B7A",
+  "status": "offline-only",
+  "externalLlmCalls": 0,
+  "d365Get": 0,
+  "crmWriteback": false,
+  "providerRequestCompatibilityReady": false,
+  "capture": {
+    "syntheticOnly": true,
+    "relativeDirectory": "local-artifacts/gateway/phase3c-r5b7/",
+    "files": ["arguments.raw.txt", "arguments.sha256", "parse-diagnostics.private.json"],
+    "rawFileMode": "0600",
+    "directoryMode": "0700",
+    "defaultCapture": false,
+    "publicArtifacts": false,
+    "auditUi": false,
+    "bundle": false,
+    "gitTracked": false
+  },
+  "eligibility": {
+    "testOnly": true,
+    "syntheticProbe": true,
+    "d365Record": false,
+    "runtimeEligible": false,
+    "realCanary": false,
+    "realCrmTokenCount": 0,
+    "forbiddenFieldCount": 0
+  },
+  "allowedNormalization": ["remove UTF-8 BOM", "trim leading and trailing whitespace"],
+  "parseContract": {
+    "parseCount": 1,
+    "requiresOriginalArguments": true,
+    "tolerantParser": false,
+    "repair": false,
+    "secondParse": false,
+    "businessEvaluationOnRepair": false
+  },
+  "diagnosticCategories": [
+    "TRAILING_COMMA",
+    "UNESCAPED_CONTROL_CHARACTER",
+    "UNTERMINATED_STRING",
+    "INVALID_ESCAPE",
+    "SINGLE_QUOTED_KEY_OR_VALUE",
+    "LEADING_OR_TRAILING_TEXT",
+    "INVALID_NUMBER",
+    "MISMATCHED_BRACKET",
+    "MARKDOWN_FENCE",
+    "DOUBLE_ENCODED_JSON",
+    "UNKNOWN_JSON_SYNTAX"
+  ],
+  "publicDiagnostics": [
+    "argumentsLength",
+    "argumentsSha256",
+    "utf8Valid",
+    "bomPresent",
+    "firstCharacterCategory",
+    "lastCharacterCategory",
+    "braceAndBracketCounts",
+    "quoteCount",
+    "parseErrorType",
+    "parseErrorOffset",
+    "parseErrorLine",
+    "parseErrorColumn",
+    "syntaxCategory"
+  ],
+  "privateOnlyDiagnostics": ["escapedErrorWindowMax80", "controlCharacterOffsets", "bracketStack"],
+  "lifecycle": {
+    "initial": "pending-deletion",
+    "nextStage": "delete raw arguments after hash and category are recorded",
+    "deletionEvidence": ["rawArgumentsHashBeforeDeletion", "rawFileExistsAfterDeletion", "deletionStatus"]
+  }
+}

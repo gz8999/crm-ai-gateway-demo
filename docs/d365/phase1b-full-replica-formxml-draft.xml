@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Draft only. Not a Dataverse import payload. -->
+<form name="AI Gateway Opportunity Demo - Full Replica" type="main" entity="opportunity" writeBlocked="true">
+  <header>
+    <systemTitle field="name" />
+    <control id="header_aigw_winprobabilityrank" datafieldname="aigw_winprobabilityrank" label="受注确度" classid="choice" visible="true" disabled="false" readOnly="false" />
+    <control id="header_aigw_budgetstatus" datafieldname="aigw_budgetstatus" label="是否预算内" classid="boolean" visible="true" disabled="false" readOnly="false" />
+    <control id="header_ownerid" datafieldname="ownerid" label="Owner" classid="text" visible="true" disabled="false" readOnly="false" />
+  </header>
+  <tabs>
+    <tab name="摘要" columns="2">
+      <section name="商机信息" columns="2">
+        <control id="aigw_fullreplica_aigw_customernamecn" datafieldname="aigw_customernamecn" label="客户名称(中国語)(客户)" row="1" column="0" classid="text" visible="true" disabled="false" readOnly="editable" simulationType="opportunity_text_simulation" />
+        <control id="aigw_fullreplica_name" datafieldname="name" label="Topic" row="0" column="0" classid="text" visible="true" disabled="false" readOnly="editable" />
+        <control id="aigw_fullreplica_parentaccountid" datafieldname="parentaccountid" label="Account" row="0" column="1" classid="lookup" visible="true" disabled="false" readOnly="editable" />
+        <control id="aigw_fullreplica_statuscode" datafieldname="statuscode" label="Status Reason" row="1" column="0" classid="text" visible="true" disabled="false" readOnly="editable" />
+        <control id="aigw_fullreplica_parentcontactid" datafieldname="parentcontactid" label="Contact" row="1" column="1" classid="lookup" visible="true" disabled="false" readOnly="editable" />
+        <control id="aigw_fullreplica_aigw_customercontact2" datafieldname="aigw_customercontact2" label="客户担当2" row="2" column="0" classid="text" visible="true" disabled="false" readOnly="editable" />
+        <control id="aigw_fullreplica_aigw_customercontact3" datafieldname="aigw_customercontact3" label="客户担当3" row="2" column="1" classid="text" visible="true" disabled="false" readOnly="editable" />
+        <control id="aigw_fullreplica_aigw_customercontact4" datafieldname="aigw_customercontact4" label="客户担当4" row="3" column="0" classid="text" visible="true" disabled="false" readOnly="editable" />
+        <control id="aigw_fullreplica_aigw_customercontact5" datafieldname="aigw_customercontact5" label="客户担当5" row="3" column="1" classid="text" visible="true" disabled="false" readOnly="editable" />
+        <control id="aigw_fullreplica_aigw_organizationgroup_choice" datafieldname="aigw_organizationgroup_choice" label="组织团体" row="4" column="0" classid="choice" visible="true" disabled="false" readOnly="editable" />
+        <control id="aigw_fullreplica_aigw_bookingdepartment_choice" datafieldname="aigw_bookingdepartment_choice" label="计上部门" row="4" column="1" classid="choice" visible="true" disabled="false" readOnly="editable" />
+        <control id="aigw_fullreplica_aigw_opportunitytype" datafieldname="aigw_opportunitytype" label="案件类型" row="5" column="0" classid="choice" visible="true" disabled="false" readOnly="editable" />
+        <control id="aigw_fullreplica_aigw_casestage" datafieldname="aigw_casestage" label="案件状态" row="5" column="1" classid="choice" visible="true" disabled="false" readOnly="editable" />
+        <control id="aigw_fullreplica_aigw_salesdepartment_choice" datafieldname="aigw_salesdepartment_choice" label="销售部门" row="6" column="0" classid="choice" visible="true" disabled="false" readOnly="editable" />
+        <control id="aigw_fullreplica_aigw_opportunityrelationship" datafieldname="aigw_opportunityrelationship" label="案件关系" row="6" column="1" classid="choice" visible="true" disabled="false" readOnly="editable" />
+        <control id="aigw_fullreplica_aigw_opportunitydetailtype" datafieldname="aigw_opportunitydetailtype" label="案件详细信息" row="7" column="0" classid="choice" visible="true" disabled="false" readOnly="editable" />
+        <control id="aigw_fullreplica_aigw_startdate" datafieldname="aigw_startdate" label="案件开始日" row="7" column="1" classid="date" visible="true" disabled="false" readOnly="editable" />
+        <control id="aigw_fullreplica_aigw_opportunityplace" datafieldname="aigw_opportunityplace" label="案件场所" row="8" column="0" classid="text" visible="true" disabled="false" readOnly="editable" />
+        <control id="aigw_fullreplica_description" datafieldname="description" label="Description" row="8" column="1" classid="textarea" visible="true" disabled="false" readOnly="editable" />
+        <control id="aigw_fullreplica_aigw_opportunitylist_bool" datafieldname="aigw_opportunitylist_bool" label="案件列表" row="9" column="0" classid="boolean" visible="true" disabled="false" readOnly="editable" />
+        <control id="aigw_fullreplica_transactioncurrencyid" datafieldname="transactioncurrencyid" label="Currency" row="9" column="1" classid="lookup" visible="true" disabled="false" readOnly="editable" />
+      </section>
+      <section name="汇总信息" columns="2">
+        <control id="aigw_fullreplica_aigw_priority_choice" datafieldname="aigw_priority_choice" label="Priority" row="0" column="0" classid="choice" visible="true" disabled="false" readOnly="editable" />
+        <control id="aigw_fullreplica_aigw_budgetstatus" datafieldname="aigw_budgetstatus" label="是否预算内" row="0" column="1" classid="boolean" visible="true" disabled="false" readOnly="editable" />
+        <control id="aigw_fullreplica_aigw_researchbackground_choice" datafieldname="aigw_researchbackground_choice" label="调查背景" row="1" column="0" classid="choice" visible="true" disabled="false" readOnly="editable" />
+        <control id="aigw_fullreplica_aigw_decider_choice" datafieldname="aigw_decider_choice" label="决裁者" row="1" column="1" classid="choice" visible="true" disabled="false" readOnly="editable" />
+        <control id="aigw_fullreplica_aigw_customerneed_choice" datafieldname="aigw_customerneed_choice" label="客户需求" row="2" column="0" classid="choice" visible="true" disabled="false" readOnly="editable" />
+        <control id="aigw_fullreplica_aigw_proposalcontent_choice" datafieldname="aigw_proposalcontent_choice" label="提案内容" row="2" column="1" classid="choice" visible="true" disabled="false" readOnly="editable" />
+        <control id="aigw_fullreplica_aigw_wonreason_choice" datafieldname="aigw_wonreason_choice" label="受注理由" row="3" column="0" classid="choice" visible="true" disabled="false" readOnly="editable" />
+        <control id="aigw_fullreplica_aigw_lostreason_choice" datafieldname="aigw_lostreason_choice" label="失注理由" row="3" column="1" classid="choice" visible="true" disabled="false" readOnly="editable" />
+      </section>
+      <section name="预算摘要" columns="2">
+        <control id="aigw_fullreplica_aigw_estimatedquoteamount" datafieldname="aigw_estimatedquoteamount" label="预计报价金额" row="0" column="0" classid="currency" visible="true" disabled="false" readOnly="editable" />
+        <control id="aigw_fullreplica_estimatedclosedate" datafieldname="estimatedclosedate" label="Est. close date" row="0" column="1" classid="date" visible="true" disabled="false" readOnly="editable" />
+        <control id="aigw_fullreplica_estimatedvalue" datafieldname="estimatedvalue" label="Est. revenue" row="1" column="0" classid="currency" visible="true" disabled="false" readOnly="editable" />
+        <control id="aigw_fullreplica_aigw_winprobabilityrank" datafieldname="aigw_winprobabilityrank" label="受注确度" row="1" column="1" classid="choice" visible="true" disabled="false" readOnly="editable" />
+      </section>
+      <section name="年度预算摘要" columns="2">
+        <control id="aigw_fullreplica_aigw_yearrevenuebudget" datafieldname="aigw_yearrevenuebudget" label="年度收入预算总金额" row="0" column="0" classid="decimal" visible="true" disabled="false" readOnly="readOnlyWhenCalculated" />
+        <control id="aigw_fullreplica_aigw_yeargpmpbudget" datafieldname="aigw_yeargpmpbudget" label="年度毛利润/边际利润预算总金额" row="0" column="1" classid="decimal" visible="true" disabled="false" readOnly="readOnlyWhenCalculated" />
+        <control id="aigw_fullreplica_aigw_revenuebudgetcapabilitypercentagevalue" datafieldname="aigw_revenuebudgetcapabilitypercentagevalue" label="根据受注确度计算后的收入预算金额" row="1" column="0" classid="currency" visible="true" disabled="false" readOnly="readOnlyWhenCalculated" />
+        <control id="aigw_fullreplica_aigw_gpmpbudgetprobabilityofsecuringpercentageval" datafieldname="aigw_gpmpbudgetprobabilityofsecuringpercentageval" label="根据受注确度计算后的毛利润/边际利润预算金额" row="1" column="1" classid="currency" visible="true" disabled="false" readOnly="readOnlyWhenCalculated" />
+        <control id="aigw_fullreplica_aigw_revenuebudgetcapabilitypercentagevaluebase" datafieldname="aigw_revenuebudgetcapabilitypercentagevaluebase" label="根据受注确度计算后的收入预算金额(CNY)" row="2" column="0" classid="currency" visible="true" disabled="false" readOnly="readOnlyWhenCalculated" />
+        <control id="aigw_fullreplica_aigw_gpmpbudgetprobabilityofsecuringpercentagevalbase" datafieldname="aigw_gpmpbudgetprobabilityofsecuringpercentagevalbase" label="根据受注确度计算后的毛利润/边际利润预算金额 (CNY)" row="2" column="1" classid="currency" visible="true" disabled="false" readOnly="readOnlyWhenCalculated" />
+      </section>
+      <section name="实绩摘要" columns="2">
+        <control id="aigw_fullreplica_actualclosedate" datafieldname="actualclosedate" label="Actual Close Date" row="0" column="0" classid="date" visible="true" disabled="false" readOnly="readOnlyWhenCalculated" />
+        <control id="aigw_fullreplica_aigw_yearrevenueactual" datafieldname="aigw_yearrevenueactual" label="年度收入实绩总金额" row="0" column="1" classid="currency" visible="true" disabled="false" readOnly="readOnlyWhenCalculated" />
+        <control id="aigw_fullreplica_aigw_yearrevenueactualcny" datafieldname="aigw_yearrevenueactualcny" label="年度收入实绩总金额(CNY)" row="1" column="0" classid="currency" visible="true" disabled="false" readOnly="readOnlyWhenCalculated" />
+        <control id="aigw_fullreplica_actualvalue" datafieldname="actualvalue" label="Actual Revenue" row="1" column="1" classid="currency" visible="true" disabled="false" readOnly="readOnlyWhenCalculated" />
+      </section>
+      <section name="Sales Person Info" columns="2">
+        <control id="aigw_fullreplica_aigw_sales" datafieldname="aigw_sales" label="营业负责人" row="0" column="0" classid="text" visible="true" disabled="false" readOnly="editable" />
+        <control id="aigw_fullreplica_aigw_salesperson2" datafieldname="aigw_salesperson2" label="营业负责人2" row="0" column="1" classid="text" visible="true" disabled="false" readOnly="editable" />
+        <control id="aigw_fullreplica_aigw_salesperson3" datafieldname="aigw_salesperson3" label="营业负责人3" row="1" column="0" classid="text" visible="true" disabled="false" readOnly="editable" />
+        <control id="aigw_fullreplica_aigw_salesperson4" datafieldname="aigw_salesperson4" label="营业负责人4" row="1" column="1" classid="text" visible="true" disabled="false" readOnly="editable" />
+        <control id="aigw_fullreplica_aigw_introducer" datafieldname="aigw_introducer" label="介绍人" row="2" column="0" classid="text" visible="true" disabled="false" readOnly="editable" />
+        <control id="aigw_fullreplica_ownerid" datafieldname="ownerid" label="Owner" row="2" column="1" classid="text" visible="true" disabled="false" readOnly="editable" />
+      </section>
+      <section name="商机详细信息" columns="2">
+        <control id="aigw_fullreplica_aigw_globalinitiative" datafieldname="aigw_globalinitiative" label="全球倡议" row="0" column="0" classid="choice" visible="true" disabled="false" readOnly="editable" />
+        <control id="aigw_fullreplica_aigw_alpscooperation" datafieldname="aigw_alpscooperation" label="阿尔卑斯合作" row="0" column="1" classid="boolean" visible="true" disabled="false" readOnly="editable" />
+        <control id="aigw_fullreplica_aigw_goodshandled" datafieldname="aigw_goodshandled" label="货物说明" row="1" column="0" classid="choice" visible="true" disabled="false" readOnly="editable" />
+        <control id="aigw_fullreplica_aigw_projectsize" datafieldname="aigw_projectsize" label="案件物量规模" row="1" column="1" classid="decimal" visible="true" disabled="false" readOnly="editable" />
+        <control id="aigw_fullreplica_aigw_projectsizeunit" datafieldname="aigw_projectsizeunit" label="案件物量规模单位" row="2" column="0" classid="choice" visible="true" disabled="false" readOnly="editable" />
+        <control id="aigw_fullreplica_aigw_warehousescale" datafieldname="aigw_warehousescale" label="仓库规模" row="2" column="1" classid="choice" visible="true" disabled="false" readOnly="editable" />
+        <control id="aigw_fullreplica_aigw_tradeterms" datafieldname="aigw_tradeterms" label="贸易条件" row="3" column="0" classid="choice" visible="true" disabled="false" readOnly="editable" />
+        <control id="aigw_fullreplica_aigw_transportmode" datafieldname="aigw_transportmode" label="运送模式" row="3" column="1" classid="choice" visible="true" disabled="false" readOnly="editable" />
+        <control id="aigw_fullreplica_aigw_spotcontinuous" datafieldname="aigw_spotcontinuous" label="一次性/持续性" row="4" column="0" classid="boolean" visible="true" disabled="false" readOnly="editable" />
+      </section>
+      <section name="POL&amp;POD" columns="2">
+        <control id="aigw_fullreplica_aigw_sealandpol" datafieldname="aigw_sealandpol" label="海运/陆运装货港" row="0" column="0" classid="text" visible="true" disabled="false" readOnly="editable" />
+        <control id="aigw_fullreplica_aigw_sealandpod" datafieldname="aigw_sealandpod" label="海运/陆运卸货港" row="0" column="1" classid="text" visible="true" disabled="false" readOnly="editable" />
+        <control id="aigw_fullreplica_aigw_airpol" datafieldname="aigw_airpol" label="空运装货港" row="1" column="0" classid="text" visible="true" disabled="false" readOnly="editable" />
+        <control id="aigw_fullreplica_aigw_airpod" datafieldname="aigw_airpod" label="空运卸货港" row="1" column="1" classid="text" visible="true" disabled="false" readOnly="editable" />
+      </section>
+      <section name="Timeline" columns="1"><placeholder controlid="timeline_existing_configuration" visible="true" writeBlocked="true" /></section>
+    </tab>
+    <tab name="预算" columns="3">
+      <section name="1Q" columns="3">
+        <control id="aigw_fullreplica_aigw_m4revenuebudget" datafieldname="aigw_m4revenuebudget" label="4月收入预算金额" row="0" column="0" classid="currency" visible="true" disabled="false" readOnly="editable" />
+        <control id="aigw_fullreplica_aigw_m5revenuebudget" datafieldname="aigw_m5revenuebudget" label="5月收入预算金额" row="1" column="0" classid="currency" visible="true" disabled="false" readOnly="editable" />
+        <control id="aigw_fullreplica_aigw_m6revenuebudget" datafieldname="aigw_m6revenuebudget" label="6月收入预算金额" row="2" column="0" classid="currency" visible="true" disabled="false" readOnly="editable" />
+        <control id="aigw_fullreplica_aigw_m4gpmpbudget" datafieldname="aigw_m4gpmpbudget" label="4月毛利润/边际利润预算金额" row="0" column="1" classid="currency" visible="true" disabled="false" readOnly="editable" />
+        <control id="aigw_fullreplica_aigw_m5gpmpbudget" datafieldname="aigw_m5gpmpbudget" label="5月毛利润/边际利润预算金额" row="1" column="1" classid="currency" visible="true" disabled="false" readOnly="editable" />
+        <control id="aigw_fullreplica_aigw_m6gpmpbudget" datafieldname="aigw_m6gpmpbudget" label="6月毛利润/边际利润预算金额" row="2" column="1" classid="currency" visible="true" disabled="false" readOnly="editable" />
+        <control id="aigw_fullreplica_aigw_m4volumebudget" datafieldname="aigw_m4volumebudget" label="4月物量预算数" row="0" column="2" classid="decimal" visible="true" disabled="false" readOnly="editable" />
+        <control id="aigw_fullreplica_aigw_m5volumebudget" datafieldname="aigw_m5volumebudget" label="5月物量预算数" row="1" column="2" classid="decimal" visible="true" disabled="false" readOnly="editable" />
+        <control id="aigw_fullreplica_aigw_m6volumebudget" datafieldname="aigw_m6volumebudget" label="6月物量预算数" row="2" column="2" classid="decimal" visible="true" disabled="false" readOnly="editable" />
+      </section>
+      <section name="2Q" columns="3">
+        <control id="aigw_fullreplica_aigw_m7revenuebudget" datafieldname="aigw_m7revenuebudget" label="7月收入预算金额" row="0" column="0" classid="currency" visible="true" disabled="false" readOnly="editable" />
+        <control id="aigw_fullreplica_aigw_m8revenuebudget" datafieldname="aigw_m8revenuebudget" label="8月收入预算金额" row="1" column="0" classid="currency" visible="true" disabled="false" readOnly="editable" />
+        <control id="aigw_fullreplica_aigw_m9revenuebudget" datafieldname="aigw_m9revenuebudget" label="9月收入预算金额" row="2" column="0" classid="currency" visible="true" disabled="false" readOnly="editable" />
+        <control id="aigw_fullreplica_aigw_m7gpmpbudget" datafieldname="aigw_m7gpmpbudget" label="7月毛利润/边际利润预算金额" row="0" column="1" classid="currency" visible="true" disabled="false" readOnly="editable" />
+        <control id="aigw_fullreplica_aigw_m8gpmpbudget" datafieldname="aigw_m8gpmpbudget" label="8月毛利润/边际利润预算金额" row="1" column="1" classid="currency" visible="true" disabled="false" readOnly="editable" />
+        <control id="aigw_fullreplica_aigw_m9gpmpbudget" datafieldname="aigw_m9gpmpbudget" label="9月毛利润/边际利润预算金额" row="2" column="1" classid="currency" visible="true" disabled="false" readOnly="editable" />
+        <control id="aigw_fullreplica_aigw_m7volumebudget" datafieldname="aigw_m7volumebudget" label="7月物量预算数" row="0" column="2" classid="decimal" visible="true" disabled="false" readOnly="editable" />
+        <control id="aigw_fullreplica_aigw_m8volumebudget" datafieldname="aigw_m8volumebudget" label="8月物量预算数" row="1" column="2" classid="decimal" visible="true" disabled="false" readOnly="editable" />
+        <control id="aigw_fullreplica_aigw_m9volumebudget" datafieldname="aigw_m9volumebudget" label="9月物量预算数" row="2" column="2" classid="decimal" visible="true" disabled="false" readOnly="editable" />
+      </section>
+      <section name="3Q" columns="3">
+        <control id="aigw_fullreplica_aigw_m10revenuebudget" datafieldname="aigw_m10revenuebudget" label="10月收入预算金额" row="0" column="0" classid="currency" visible="true" disabled="false" readOnly="editable" />
+        <control id="aigw_fullreplica_aigw_m11revenuebudget" datafieldname="aigw_m11revenuebudget" label="11月收入预算金额" row="1" column="0" classid="currency" visible="true" disabled="false" readOnly="editable" />
+        <control id="aigw_fullreplica_aigw_m12revenuebudget" datafieldname="aigw_m12revenuebudget" label="12月收入预算金额" row="2" column="0" classid="currency" visible="true" disabled="false" readOnly="editable" />
+        <control id="aigw_fullreplica_aigw_m10gpmpbudget" datafieldname="aigw_m10gpmpbudget" label="10月毛利润/边际利润预算金额" row="0" column="1" classid="currency" visible="true" disabled="false" readOnly="editable" />
+        <control id="aigw_fullreplica_aigw_m11gpmpbudget" datafieldname="aigw_m11gpmpbudget" label="11月毛利润/边际利润预算金额" row="1" column="1" classid="currency" visible="true" disabled="false" readOnly="editable" />
+        <control id="aigw_fullreplica_aigw_m12gpmpbudget" datafieldname="aigw_m12gpmpbudget" label="12月毛利润/边际利润预算金额" row="2" column="1" classid="currency" visible="true" disabled="false" readOnly="editable" />
+        <control id="aigw_fullreplica_aigw_m10volumebudget" datafieldname="aigw_m10volumebudget" label="10月物量预算数" row="0" column="2" classid="decimal" visible="true" disabled="false" readOnly="editable" />
+        <control id="aigw_fullreplica_aigw_m11volumebudget" datafieldname="aigw_m11volumebudget" label="11月物量预算数" row="1" column="2" classid="decimal" visible="true" disabled="false" readOnly="editable" />
+        <control id="aigw_fullreplica_aigw_m12volumebudget" datafieldname="aigw_m12volumebudget" label="12月物量预算数" row="2" column="2" classid="decimal" visible="true" disabled="false" readOnly="editable" />
+      </section>
+      <section name="4Q" columns="3">
+        <control id="aigw_fullreplica_aigw_m1revenuebudget" datafieldname="aigw_m1revenuebudget" label="1月收入预算金额" row="0" column="0" classid="currency" visible="true" disabled="false" readOnly="editable" />
+        <control id="aigw_fullreplica_aigw_m2revenuebudget" datafieldname="aigw_m2revenuebudget" label="2月收入预算金额" row="1" column="0" classid="currency" visible="true" disabled="false" readOnly="editable" />
+        <control id="aigw_fullreplica_aigw_m3revenuebudget" datafieldname="aigw_m3revenuebudget" label="3月收入预算金额" row="2" column="0" classid="currency" visible="true" disabled="false" readOnly="editable" />
+        <control id="aigw_fullreplica_aigw_m1gpmpbudget" datafieldname="aigw_m1gpmpbudget" label="1月毛利润/边际利润预算金额" row="0" column="1" classid="currency" visible="true" disabled="false" readOnly="editable" />
+        <control id="aigw_fullreplica_aigw_m2gpmpbudget" datafieldname="aigw_m2gpmpbudget" label="2月毛利润/边际利润预算金额" row="1" column="1" classid="currency" visible="true" disabled="false" readOnly="editable" />
+        <control id="aigw_fullreplica_aigw_m3gpmpbudget" datafieldname="aigw_m3gpmpbudget" label="3月毛利润/边际利润预算金额" row="2" column="1" classid="currency" visible="true" disabled="false" readOnly="editable" />
+        <control id="aigw_fullreplica_aigw_m1volumebudget" datafieldname="aigw_m1volumebudget" label="1月物量预算数" row="0" column="2" classid="decimal" visible="true" disabled="false" readOnly="editable" />
+        <control id="aigw_fullreplica_aigw_m2volumebudget" datafieldname="aigw_m2volumebudget" label="2月物量预算数" row="1" column="2" classid="decimal" visible="true" disabled="false" readOnly="editable" />
+        <control id="aigw_fullreplica_aigw_m3volumebudget" datafieldname="aigw_m3volumebudget" label="3月物量预算数" row="2" column="2" classid="decimal" visible="true" disabled="false" readOnly="editable" />
+      </section>
+    </tab>
+    <tab name="实绩" columns="1"><section name="实绩_Subgrid_Placeholder" columns="1"><placeholder controlid="actuals_subgrid_placeholder" writeBlocked="true" reason="No verified related entity or relationship in test metadata" /></section></tab>
+    <tab name="产品" systemRetained="true"><section name="系统产品与金额" columns="1"><placeholder controlid="product_system_components" writeBlocked="true" /></section></tab>
+    <tab name="文件" systemRetained="true"><section name="documents_sharepoint" columns="1"><placeholder controlid="documents_system_components" writeBlocked="true" /></section></tab>
+    <tab name="相关" systemRetained="true"><section name="related_navigation" columns="1"><placeholder controlid="related_system_navigation" writeBlocked="true" /></section></tab>
+  </tabs>
+</form>

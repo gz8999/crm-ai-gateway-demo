@@ -1,0 +1,1722 @@
+{
+  "phase": "Phase 1C-5R2G-D6-R3B",
+  "previouslyExisting": 1568,
+  "imported": 232,
+  "finalCount": 1800,
+  "categories": {
+    "phonecall": 0,
+    "appointment": 0,
+    "task": 0,
+    "historicalAnnotation": 224,
+    "sameDayAnnotation": 1,
+    "futureAnnotation": 7
+  },
+  "canaries": {
+    "sameDay": "TL-0653",
+    "historical": "passed",
+    "future": "passed"
+  },
+  "batches": [
+    {
+      "batchId": "T-sameDayAnnotation-TL-0653-CANARY",
+      "entity": "Timeline",
+      "category": "sameDayAnnotation",
+      "attempted": 1,
+      "created": 1,
+      "reused": 0,
+      "failed": 0,
+      "completed": true
+    },
+    {
+      "batchId": "T-historicalAnnotation-CANARY",
+      "entity": "Timeline",
+      "category": "historicalAnnotation",
+      "attempted": 1,
+      "created": 1,
+      "reused": 0,
+      "failed": 0,
+      "completed": true
+    },
+    {
+      "batchId": "T-futureAnnotation-CANARY",
+      "entity": "Timeline",
+      "category": "futureAnnotation",
+      "attempted": 1,
+      "created": 1,
+      "reused": 0,
+      "failed": 0,
+      "completed": true
+    },
+    {
+      "batchId": "T-historicalAnnotation-R1568-1",
+      "entity": "Timeline",
+      "category": "historicalAnnotation",
+      "attempted": 100,
+      "created": 100,
+      "reused": 0,
+      "failed": 0,
+      "completed": true
+    },
+    {
+      "batchId": "T-historicalAnnotation-R1568-2",
+      "entity": "Timeline",
+      "category": "historicalAnnotation",
+      "attempted": 100,
+      "created": 100,
+      "reused": 0,
+      "failed": 0,
+      "completed": true
+    },
+    {
+      "batchId": "T-historicalAnnotation-R1568-3",
+      "entity": "Timeline",
+      "category": "historicalAnnotation",
+      "attempted": 23,
+      "created": 23,
+      "reused": 0,
+      "failed": 0,
+      "completed": true
+    },
+    {
+      "batchId": "T-futureAnnotation-R1568-1",
+      "entity": "Timeline",
+      "category": "futureAnnotation",
+      "attempted": 6,
+      "created": 6,
+      "reused": 0,
+      "failed": 0,
+      "completed": true
+    }
+  ],
+  "records": [
+    {
+      "stableToken": "TL-0653",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-07-18",
+      "dateProjectionMode": "SameDayBodyDate",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-0657",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-07-12",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-0146",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-07-26",
+      "dateProjectionMode": "FutureBodyPlannedDate",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-0666",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-03-22",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-0670",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-07-17",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-0674",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-02-20",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-0678",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-07-17",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-0682",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-02-27",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-0686",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-07-17",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-0690",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-05-15",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-0694",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-06-20",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-0701",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-04-26",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-0705",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-04-29",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-0709",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-05-02",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-0713",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-06-25",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-0730",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-05-30",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-0734",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-06-10",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-0739",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-03-19",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-0743",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-07-17",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-0747",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-04-06",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-0751",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-07-17",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-0768",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-07-07",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-0775",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-04-05",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-0779",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-05-14",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-0784",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-04-01",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-0788",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-07-17",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-0792",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-02-01",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-0796",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-03-28",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-0801",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-06-11",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-0805",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-06-24",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-0815",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-02-09",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-0819",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-03-28",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-0823",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-05-14",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-0827",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-04-13",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-0834",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2025-12-11",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-0838",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-02-06",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-0842",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-04-04",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-0846",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-03-31",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-0850",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-05-11",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-0855",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-03-22",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-0859",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-04-08",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-0863",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-04-26",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-0867",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-03-28",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-0871",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-06-05",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-0876",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-06-19",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-0880",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-06-26",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-0885",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-01-14",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-0889",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-03-20",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-0893",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-05-25",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-0897",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-04-09",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-0904",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-03-03",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-0908",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-04-22",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-0912",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-06-11",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-0916",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-06-30",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-0923",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-06-16",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-0927",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-06-30",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-0931",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-07-14",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-0935",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-05-06",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-0939",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-07-17",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-0943",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-06-05",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-0950",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-05-25",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-0954",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-06-09",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-0959",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-06-03",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-0966",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-04-22",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-0970",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-04-29",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-0974",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-05-06",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-0978",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-01-22",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-0982",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-04-23",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-0989",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-05-21",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-0993",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-07-17",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-0997",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-03-21",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1001",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-05-09",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1005",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-06-28",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1009",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-02-08",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1013",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-04-29",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1018",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-03-14",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1022",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-05-25",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1027",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-06-29",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1034",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-04-26",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1041",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-05-06",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1045",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-05-13",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1050",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-03-28",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1054",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-07-17",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1058",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2025-12-14",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1062",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-02-10",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1066",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-04-10",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1070",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-06-27",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1074",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-07-01",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1078",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-07-06",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1082",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-02-28",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1086",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-07-17",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1090",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-03-09",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1094",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-06-11",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1099",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-01-01",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1103",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-03-21",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1110",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-04-11",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1114",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-07-11",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1118",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-06-06",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1122",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-06-16",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1126",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-06-27",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1130",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-04-21",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1134",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-05-27",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1139",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-01-14",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1143",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-03-15",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1147",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-05-14",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1151",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-03-14",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1155",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-05-13",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1162",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-03-01",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1166",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-04-21",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1170",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-06-11",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1186",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-04-08",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1190",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-07-17",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1194",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-04-07",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1198",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-06-03",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1210",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-06-10",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1229",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-03-05",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1233",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-06-20",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1238",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-06-15",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1242",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-07-12",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1247",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-05-28",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1251",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-07-17",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1266",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-04-02",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1270",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-05-13",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1275",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-05-11",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1290",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-02-22",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1294",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-05-12",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1299",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-07-04",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1306",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-03-14",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1310",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-04-05",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1321",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-03-05",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1325",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-05-14",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1330",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-05-24",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1335",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-04-29",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1341",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-07-09",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1350",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-01-18",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1354",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-03-23",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1358",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-05-27",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1362",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-02-04",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1366",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-04-05",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1371",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-05-12",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1375",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-07-17",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1379",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-05-19",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1383",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-07-17",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1394",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-03-12",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1398",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-06-04",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1403",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-02-25",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1407",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-06-12",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1412",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-03-04",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1416",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-06-20",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1421",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-02-21",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1425",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-07-17",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1429",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-03-28",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1433",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-07-17",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1437",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-02-23",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1441",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-04-27",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1445",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-06-30",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1449",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-05-28",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1453",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-06-11",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1457",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-06-26",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1461",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-06-02",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1466",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-05-19",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1470",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-07-05",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1475",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-06-21",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1479",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-07-11",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1484",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-02-28",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1488",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-06-04",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1493",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-03-03",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1497",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-07-17",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1501",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-02-19",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1505",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-07-17",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1509",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-04-01",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1513",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-04-03",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1517",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-04-06",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1529",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-06-29",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1533",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-07-17",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1537",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-07-06",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1549",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-05-19",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1553",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-07-17",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1557",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-03-23",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1561",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-05-26",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1566",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-06-15",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1570",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-07-17",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1574",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-05-20",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1579",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-03-29",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1583",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-04-23",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1587",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-05-19",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1591",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-02-24",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1595",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-03-22",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1599",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-04-18",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1603",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-05-07",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1607",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-06-09",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1611",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-07-12",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1615",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-03-06",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1619",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-05-21",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1638",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-06-21",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1642",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-06-30",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1646",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-07-10",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1650",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-05-23",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1657",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-04-16",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1663",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-02-04",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1667",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-04-18",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1671",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-06-30",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1675",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-04-03",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1679",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-06-26",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1684",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-02-27",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1688",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-07-17",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1692",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-01-27",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1696",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-04-01",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1701",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-05-27",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1705",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-07-17",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1709",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-03-23",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1713",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-04-13",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1718",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-05-31",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1724",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-04-04",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1728",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-05-22",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1733",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-05-29",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1737",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-07-07",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1748",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-06-23",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1752",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-07-04",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1756",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-07-16",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1768",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-03-23",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1772",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-06-17",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1777",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-02-18",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1781",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-04-11",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1795",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-04-17",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1799",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-06-25",
+      "dateProjectionMode": "HistoricalOverride",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-0661",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-08-05",
+      "dateProjectionMode": "FutureBodyPlannedDate",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-0717",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-07-20",
+      "dateProjectionMode": "FutureBodyPlannedDate",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-0721",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-08-15",
+      "dateProjectionMode": "FutureBodyPlannedDate",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1345",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-07-22",
+      "dateProjectionMode": "FutureBodyPlannedDate",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1541",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-07-25",
+      "dateProjectionMode": "FutureBodyPlannedDate",
+      "exactReadback": true
+    },
+    {
+      "stableToken": "TL-1545",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-08-13",
+      "dateProjectionMode": "FutureBodyPlannedDate",
+      "exactReadback": true
+    }
+  ],
+  "duplicateTokenCount": 0,
+  "missingParentCount": 0,
+  "attachmentCount": 0,
+  "bodyHashMismatchCount": 0,
+  "dateProjectionMismatchCount": 0
+}

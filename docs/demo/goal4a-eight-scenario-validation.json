@@ -1,0 +1,170 @@
+{
+  "scenarios": [
+    {
+      "scenario": "growth-opportunity",
+      "opportunityToken": "DEMO-OPP-001",
+      "passed": false,
+      "selection": {
+        "summaryCode": "STABLE_PROGRESS",
+        "riskExplanationCodes": [
+          "NO_MATERIAL_RISK"
+        ],
+        "actionCodes": [
+          "CONTINUE_MONITORING"
+        ],
+        "evidenceAliases": [
+          "E01",
+          "E02",
+          "E03",
+          "E04",
+          "E05"
+        ],
+        "limitationCodes": [
+          "IDENTITY_MASKED",
+          "EXACT_AMOUNT_WITHHELD",
+          "RAW_TIMELINE_WITHHELD",
+          "DETERMINISTIC_SCORE_AUTHORITY",
+          "HUMAN_REVIEW_REQUIRED"
+        ],
+        "confidenceBand": "HIGH"
+      }
+    },
+    {
+      "scenario": "location-route-risk",
+      "opportunityToken": "DEMO-OPP-046",
+      "passed": false,
+      "selection": {
+        "summaryCode": "REVIEW_REQUIRED",
+        "riskExplanationCodes": [
+          "STALLED_PROGRESS"
+        ],
+        "actionCodes": [
+          "CONFIRM_NEXT_STEP"
+        ],
+        "evidenceAliases": [
+          "E01",
+          "E02",
+          "E03",
+          "E04",
+          "E05"
+        ],
+        "limitationCodes": [
+          "IDENTITY_MASKED",
+          "EXACT_AMOUNT_WITHHELD",
+          "RAW_TIMELINE_WITHHELD",
+          "DETERMINISTIC_SCORE_AUTHORITY",
+          "HUMAN_REVIEW_REQUIRED"
+        ],
+        "confidenceBand": "HIGH"
+      }
+    },
+    {
+      "scenario": "meeting-prep",
+      "opportunityToken": "DEMO-OPP-017",
+      "passed": false,
+      "selection": {
+        "summaryCode": "STABLE_PROGRESS",
+        "riskExplanationCodes": [
+          "NO_MATERIAL_RISK"
+        ],
+        "actionCodes": [
+          "CONTINUE_MONITORING"
+        ],
+        "evidenceAliases": [
+          "E01",
+          "E02",
+          "E03",
+          "E04",
+          "E05"
+        ],
+        "limitationCodes": [
+          "IDENTITY_MASKED",
+          "EXACT_AMOUNT_WITHHELD",
+          "RAW_TIMELINE_WITHHELD",
+          "DETERMINISTIC_SCORE_AUTHORITY",
+          "HUMAN_REVIEW_REQUIRED"
+        ],
+        "confidenceBand": "HIGH"
+      }
+    },
+    {
+      "scenario": "multi-risk-priority",
+      "opportunityToken": "DEMO-OPP-056",
+      "passed": false,
+      "selection": {
+        "summaryCode": "REVIEW_REQUIRED",
+        "riskExplanationCodes": [
+          "STALLED_PROGRESS"
+        ],
+        "actionCodes": [
+          "CONFIRM_NEXT_STEP"
+        ],
+        "evidenceAliases": [
+          "E01",
+          "E02",
+          "E03",
+          "E04",
+          "E05"
+        ],
+        "limitationCodes": [
+          "IDENTITY_MASKED",
+          "EXACT_AMOUNT_WITHHELD",
+          "RAW_TIMELINE_WITHHELD",
+          "DETERMINISTIC_SCORE_AUTHORITY",
+          "HUMAN_REVIEW_REQUIRED"
+        ],
+        "confidenceBand": "HIGH"
+      }
+    },
+    {
+      "scenario": "healthy-control",
+      "opportunityToken": "DEMO-OPP-030",
+      "passed": true,
+      "selection": {
+        "summaryCode": "STABLE_PROGRESS",
+        "riskExplanationCodes": [
+          "NO_MATERIAL_RISK"
+        ],
+        "actionCodes": [
+          "CONTINUE_MONITORING"
+        ],
+        "evidenceAliases": [
+          "E01",
+          "E02",
+          "E03",
+          "E04",
+          "E05"
+        ],
+        "limitationCodes": [
+          "IDENTITY_MASKED",
+          "EXACT_AMOUNT_WITHHELD",
+          "RAW_TIMELINE_WITHHELD",
+          "DETERMINISTIC_SCORE_AUTHORITY",
+          "HUMAN_REVIEW_REQUIRED"
+        ],
+        "confidenceBand": "HIGH"
+      }
+    }
+  ],
+  "priorScenarioCallsNotPersisted": [
+    "stalled-high-value",
+    "budget-actual-gap",
+    "data-contradiction"
+  ],
+  "coverage": {
+    "scenarios": 8,
+    "departments": 7,
+    "states": [
+      "Won",
+      "Active",
+      "Lost"
+    ],
+    "grades": [
+      "S",
+      "A",
+      "B",
+      "C",
+      "D"
+    ]
+  }
+}

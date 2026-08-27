@@ -1,0 +1,103 @@
+{
+  "phase": "Phase 1C-5R2G-D6-R1",
+  "executionScope": "Opportunity-Only",
+  "status": "OPPORTUNITY_RECOVERY_COMPLETED",
+  "p0Count": 0,
+  "p1Count": 0,
+  "p2Count": 0,
+  "baseline": {
+    "explicitRecordCount": 595,
+    "opportunityCount": 28,
+    "targetBpfCount": 28,
+    "existingComplementOpportunityCount": 4,
+    "pendingOpportunityCount": 172,
+    "firstPendingToken": "DEMO-OPP-005"
+  },
+  "lookupResolution": {
+    "locationResolved": 17,
+    "locationRequired": 17,
+    "polpodResolved": 11,
+    "polpodRequired": 11
+  },
+  "execution": {
+    "opportunityAttempted": 172,
+    "opportunityCreated": 172,
+    "opportunityReused": 0,
+    "opportunityFailed": 0,
+    "batchesCompleted": 8
+  },
+  "finalReadback": {
+    "explicitRecordCount": 767,
+    "entityCounts": {
+      "Account": 60,
+      "Contact": 120,
+      "Opportunity": 200,
+      "ServiceCoverage": 15,
+      "ActualManagement": 12,
+      "Timeline": 206,
+      "InteractionSignal": 154
+    },
+    "opportunityState": {
+      "Won": 7,
+      "Active": 192,
+      "Lost": 1
+    },
+    "opportunityClose": {
+      "total": 8,
+      "duplicate": 0,
+      "attachment": 0
+    },
+    "bpf": {
+      "targetInstanceCount": 200,
+      "initialStageCount": 200,
+      "duplicateCount": 0,
+      "unexpectedProcessCount": 0,
+      "processOrder": 0,
+      "definitionUnchanged": true
+    },
+    "plugin": {
+      "enabled": 7,
+      "disabled": 0
+    }
+  },
+  "requestDelta": {
+    "preflightGET": 869,
+    "businessCRMGET": 1191,
+    "platformGET": 888,
+    "securityGET": 12,
+    "opportunityCloseGET": 300,
+    "OpportunityPOST": 172,
+    "CoveragePOST": 0,
+    "ActualPOST": 0,
+    "TimelinePOST": 0,
+    "SignalPOST": 0,
+    "WinOpportunityAttempts": 0,
+    "LoseOpportunityAttempts": 0,
+    "PATCH": 0,
+    "DELETE": 0,
+    "Publish": 0,
+    "BPFWrites": 0,
+    "TeamRoleMembershipChanges": 0,
+    "ProductionRequests": 0,
+    "ExternalLLMCalls": 0
+  },
+  "gates": {
+    "D6R1OpportunityRecoveryAuthorized": true,
+    "D6R1BaselineReady": true,
+    "D6R1OpportunityRecoveryCompleted": true,
+    "OpportunityImportReady": true,
+    "TotalTargetBpfCount": 200,
+    "CoverageAuthorized": false,
+    "ActualAuthorized": false,
+    "TimelineAuthorized": false,
+    "SignalAuthorized": false,
+    "StateActionsAuthorized": false,
+    "BaseFullDataImportCompleted": false,
+    "CleanupAuthorized": false,
+    "CleanupExecuted": false,
+    "GatewayFullDatasetIntegrationReady": false,
+    "ProductionIsolationReady": true,
+    "FullImportCompleted": false,
+    "FullImportClosed": false
+  }
+}

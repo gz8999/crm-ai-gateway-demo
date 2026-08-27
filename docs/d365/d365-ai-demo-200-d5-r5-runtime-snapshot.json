@@ -1,0 +1,119 @@
+{
+  "phase": "Phase 1C-5R2G-D5-R5",
+  "snapshotType": "read-only-final-acceptance",
+  "capturedAt": "2026-07-17T13:55:51.109Z",
+  "environment": {
+    "host": "org91f5f65f.crm5.dynamics.com",
+    "testEnvironmentOnly": true,
+    "productionRequests": 0
+  },
+  "explicitPilotData": {
+    "total": 427,
+    "counts": {
+      "Account": 7,
+      "Contact": 9,
+      "Opportunity": 24,
+      "ServiceCoverage": 15,
+      "ActualManagement": 12,
+      "Timeline": 206,
+      "InteractionSignal": 154
+    },
+    "missing": 0,
+    "businessMismatch": 0,
+    "parentMismatch": 0,
+    "lookupMismatch": 0,
+    "duplicatePrimaryName": 0,
+    "protectedBusinessHash": "12b4fa7942f90c444cd1c8cfa4cf2f1322a027c26cca7f2bc0619f1f4c1ed56f"
+  },
+  "opportunity": {
+    "stateDistribution": {
+      "Won": 7,
+      "Active": 16,
+      "Lost": 1
+    },
+    "dedicatedView": {
+      "name": "AI Gateway Demo 200 - Full Replica",
+      "currentRows": 24,
+      "legacyRowsExcluded": 100,
+      "publishedInModernApp": true
+    }
+  },
+  "relationships": {
+    "missing": 0,
+    "extra": 0,
+    "actualDuplicate": 0,
+    "missingSignalSource": 0,
+    "coverageWindowConflict": 0,
+    "coverageTeamMismatch": 0
+  },
+  "opportunityClose": {
+    "Win": 7,
+    "Lose": 1,
+    "Total": 8,
+    "duplicate": 0,
+    "attachments": 0
+  },
+  "bpf": {
+    "targetInstances": 24,
+    "initialStage": 24,
+    "duplicate": 0,
+    "unexpectedProcess": 0,
+    "processOrder": 0,
+    "definitionHash": "aac15b0adae5d1041df319b7dd187cc4a517c446725e6f2785e68939c015dbf8",
+    "definitionHashReady": true
+  },
+  "plugin": {
+    "enabled": 7,
+    "disabled": 0,
+    "ready": true
+  },
+  "gateway": {
+    "mappedOpportunityCount": 24,
+    "scenarioCount": 8,
+    "scenarioEvidenceReady": 8,
+    "customerIdentityMasked": true,
+    "exactAmountSentToModel": false,
+    "rawTimelineSent": false,
+    "crmWritebackEnabled": false,
+    "externalLlmEnabled": false
+  },
+  "requests": {
+    "GET": 1063,
+    "POST": 0,
+    "PATCH": 0,
+    "DELETE": 0,
+    "Publish": 0,
+    "WinOpportunity": 0,
+    "LoseOpportunity": 0,
+    "BPFWrites": 0,
+    "Cleanup": 0,
+    "FullImport": 0,
+    "ProductionRequests": 0,
+    "ExternalLLMCalls": 0,
+    "CRMWriteback": 0
+  },
+  "gates": {
+    "pilotExplicitDataIntegrityReady": true,
+    "pilotStateDistributionReady": true,
+    "opportunityCloseIntegrityReady": true,
+    "bpfRuntimeIntegrityReady": true,
+    "ordinaryUserD365RuntimeReady": true,
+    "sevenDepartmentUICoverageReady": true,
+    "timelineUIReady": true,
+    "actualCoverageUIReady": true,
+    "gatewayPilotMappingPreflightReady": true,
+    "safeContextPrivacyReady": true,
+    "productionIsolationReady": true,
+    "pilotFinalAcceptanceReady": true,
+    "pilotImportClosed": true,
+    "cleanupAuthorized": false,
+    "cleanupExecuted": false,
+    "fullImportReady": false,
+    "fullImportAuthorized": false
+  },
+  "issues": {
+    "P0": 0,
+    "P1": 0,
+    "P2": 2
+  }
+}

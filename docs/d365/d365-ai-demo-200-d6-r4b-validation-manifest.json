@@ -1,0 +1,112 @@
+{
+  "phase": "Phase 1C-5R2G-D6-R4B",
+  "authorization": "Phase 1C-5R2G-D6-R4B-R1",
+  "status": "FULL_LOSE_CANARY_COMPLETED",
+  "fullLoseCanary": {
+    "alias": "FULL-LOSE-CANARY-TOKEN",
+    "opportunityToken": "DEMO-OPP-012",
+    "actionType": "LoseOpportunity",
+    "actionStatus": "Succeeded",
+    "status": 4,
+    "expectedActualCount": 0,
+    "actualCountBefore": 0,
+    "actualCountAfter": 0,
+    "actualCreatedByStateAction": false,
+    "actualRevenue": null,
+    "actualEnd": "2026-06-30",
+    "stateTransition": "0/1 -> 2/4",
+    "opportunityCloseCreated": true,
+    "opportunityCloseActualRevenue": null,
+    "attachmentCount": 0,
+    "bpfClassification": "A / BPF Lose Side Effect=None",
+    "relatedBusinessHashUnchanged": true,
+    "requestCorrelationRecordedPrivately": true,
+    "frozenActualEndApplied": true
+  },
+  "entityCounts": {
+    "Account": 60,
+    "Contact": 120,
+    "Opportunity": 200,
+    "ServiceCoverage": 240,
+    "ActualManagement": 130,
+    "Timeline": 1800,
+    "InteractionSignal": 1350
+  },
+  "explicitRecordCount": 3900,
+  "opportunityState": {
+    "Won": 8,
+    "Active": 190,
+    "Lost": 2
+  },
+  "opportunityClose": {
+    "win": 8,
+    "lose": 2,
+    "total": 10,
+    "duplicate": 0,
+    "attachments": 0
+  },
+  "bpf": {
+    "target": 200,
+    "initialStage": 200,
+    "duplicate": 0,
+    "unexpected": 0,
+    "processOrder": 0
+  },
+  "plugin": {
+    "enabled": 7,
+    "disabled": 0
+  },
+  "requestDelta": {
+    "ActualGET": 10,
+    "LoseOpportunityAttempts": 1,
+    "LoseOpportunitySuccess": 1,
+    "WinOpportunityAttempts": 0,
+    "ActualPOST": 0,
+    "TimelinePOST": 0,
+    "SignalPOST": 0,
+    "PATCH": 0,
+    "DELETE": 0,
+    "Publish": 0,
+    "BPFWrites": 0,
+    "OtherBusinessPOST": 0,
+    "ProductionRequests": 0,
+    "ExternalLLMCalls": 0
+  },
+  "p0": 0,
+  "p1": 0,
+  "p2": 0,
+  "gates": {
+    "fullLoseCanaryAuthorized": true,
+    "fullLoseCandidateCount": 8,
+    "fullLoseCandidateSelectionReady": true,
+    "fullLosePreflightReady": true,
+    "frozenExpectedActualCountReady": true,
+    "noActualCreatedByStateAction": true,
+    "fullLoseActionExecuted": true,
+    "fullLoseReadbackReady": true,
+    "opportunityCloseReady": true,
+    "actualRevenueMayBeEmpty": true,
+    "importedTimelineIntegrityReady": true,
+    "signalIntegrityReady": true,
+    "actualIntegrityReady": true,
+    "coverageIntegrityReady": true,
+    "bpfInstanceIntegrityReady": true,
+    "bpfPlatformSideEffectClassification": "A / BPF Lose Side Effect=None",
+    "nonCanaryOpportunityIntegrityReady": true,
+    "fullDatasetExplicitRecordIntegrityReady": true,
+    "currentStateDistribution": {
+      "Won": 8,
+      "Active": 190,
+      "Lost": 2
+    },
+    "remainingWinActions": 83,
+    "remainingLoseActions": 7,
+    "fullStateActionsCompleted": false,
+    "fullImportCompleted": false,
+    "fullImportClosed": false,
+    "cleanupAuthorized": false,
+    "cleanupExecuted": false,
+    "gatewayFullDatasetIntegrationReady": false,
+    "productionIsolationReady": true
+  }
+}

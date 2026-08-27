@@ -1,0 +1,2221 @@
+{
+  "phase": "Phase 1C-5R2G-D5-R1",
+  "explicitRecordCount": 245,
+  "records": [
+    {
+      "entity": "Account",
+      "token": "A-001",
+      "parentToken": null,
+      "result": "Reused",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Account",
+      "token": "A-008",
+      "parentToken": null,
+      "result": "Reused",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Account",
+      "token": "A-010",
+      "parentToken": null,
+      "result": "Reused",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Account",
+      "token": "A-014",
+      "parentToken": null,
+      "result": "Reused",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Account",
+      "token": "A-019",
+      "parentToken": null,
+      "result": "Reused",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Account",
+      "token": "A-040",
+      "parentToken": null,
+      "result": "Reused",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Account",
+      "token": "A-050",
+      "parentToken": null,
+      "result": "Reused",
+      "r1OriginResult": "Reused",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "ActualManagement",
+      "token": "ACT-008",
+      "parentToken": "DEMO-OPP-015",
+      "result": "Reused",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "ActualManagement",
+      "token": "ACT-010",
+      "parentToken": "DEMO-OPP-019",
+      "result": "Reused",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "ActualManagement",
+      "token": "ACT-017",
+      "parentToken": "DEMO-OPP-028",
+      "result": "Reused",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "ActualManagement",
+      "token": "ACT-021",
+      "parentToken": "DEMO-OPP-038",
+      "result": "Reused",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "ActualManagement",
+      "token": "ACT-033",
+      "parentToken": "DEMO-OPP-056",
+      "result": "Reused",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "ActualManagement",
+      "token": "ACT-036",
+      "parentToken": "DEMO-OPP-062",
+      "result": "Reused",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "ActualManagement",
+      "token": "ACT-084",
+      "parentToken": "DEMO-OPP-130",
+      "result": "Reused",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "ActualManagement",
+      "token": "ACT-087",
+      "parentToken": "DEMO-OPP-135",
+      "result": "Reused",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "ActualManagement",
+      "token": "ACT-090",
+      "parentToken": "DEMO-OPP-139",
+      "result": "Reused",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "ActualManagement",
+      "token": "ACT-117",
+      "parentToken": "DEMO-OPP-181",
+      "result": "Reused",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "ActualManagement",
+      "token": "ACT-126",
+      "parentToken": "DEMO-OPP-196",
+      "result": "Reused",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "ActualManagement",
+      "token": "ACT-129",
+      "parentToken": "DEMO-OPP-199",
+      "result": "Reused",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Contact",
+      "token": "C-002",
+      "parentToken": "A-001",
+      "result": "Reused",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Contact",
+      "token": "C-016",
+      "parentToken": "A-008",
+      "result": "Reused",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Contact",
+      "token": "C-019",
+      "parentToken": "A-010",
+      "result": "Reused",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Contact",
+      "token": "C-020",
+      "parentToken": "A-010",
+      "result": "Reused",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Contact",
+      "token": "C-027",
+      "parentToken": "A-014",
+      "result": "Reused",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Contact",
+      "token": "C-028",
+      "parentToken": "A-014",
+      "result": "Reused",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Contact",
+      "token": "C-037",
+      "parentToken": "A-019",
+      "result": "Reused",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Contact",
+      "token": "C-080",
+      "parentToken": "A-040",
+      "result": "Reused",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Contact",
+      "token": "C-099",
+      "parentToken": "A-050",
+      "result": "Reused",
+      "r1OriginResult": "Reused",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Opportunity",
+      "token": "DEMO-OPP-015",
+      "parentToken": "A-050",
+      "result": "Reused",
+      "r1OriginResult": "Reused",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Opportunity",
+      "token": "DEMO-OPP-019",
+      "parentToken": "A-010",
+      "result": "Reused",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Opportunity",
+      "token": "DEMO-OPP-026",
+      "parentToken": "A-040",
+      "result": "Reused",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Opportunity",
+      "token": "DEMO-OPP-028",
+      "parentToken": "A-008",
+      "result": "Reused",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Opportunity",
+      "token": "DEMO-OPP-031",
+      "parentToken": "A-019",
+      "result": "Reused",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Opportunity",
+      "token": "DEMO-OPP-038",
+      "parentToken": "A-040",
+      "result": "Reused",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Opportunity",
+      "token": "DEMO-OPP-056",
+      "parentToken": "A-010",
+      "result": "Reused",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Opportunity",
+      "token": "DEMO-OPP-062",
+      "parentToken": "A-001",
+      "result": "Reused",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Opportunity",
+      "token": "DEMO-OPP-081",
+      "parentToken": "A-014",
+      "result": "Reused",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Opportunity",
+      "token": "DEMO-OPP-085",
+      "parentToken": "A-050",
+      "result": "Reused",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Opportunity",
+      "token": "DEMO-OPP-086",
+      "parentToken": "A-001",
+      "result": "Reused",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Opportunity",
+      "token": "DEMO-OPP-092",
+      "parentToken": "A-040",
+      "result": "Reused",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Opportunity",
+      "token": "DEMO-OPP-130",
+      "parentToken": "A-008",
+      "result": "Reused",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Opportunity",
+      "token": "DEMO-OPP-133",
+      "parentToken": "A-010",
+      "result": "Reused",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Opportunity",
+      "token": "DEMO-OPP-135",
+      "parentToken": "A-010",
+      "result": "Reused",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Opportunity",
+      "token": "DEMO-OPP-139",
+      "parentToken": "A-019",
+      "result": "Reused",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Opportunity",
+      "token": "DEMO-OPP-142",
+      "parentToken": "A-001",
+      "result": "Reused",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Opportunity",
+      "token": "DEMO-OPP-146",
+      "parentToken": "A-001",
+      "result": "Reused",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Opportunity",
+      "token": "DEMO-OPP-155",
+      "parentToken": "A-014",
+      "result": "Reused",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Opportunity",
+      "token": "DEMO-OPP-170",
+      "parentToken": "A-014",
+      "result": "Reused",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Opportunity",
+      "token": "DEMO-OPP-181",
+      "parentToken": "A-019",
+      "result": "Reused",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Opportunity",
+      "token": "DEMO-OPP-194",
+      "parentToken": "A-008",
+      "result": "Reused",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Opportunity",
+      "token": "DEMO-OPP-196",
+      "parentToken": "A-014",
+      "result": "Reused",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Opportunity",
+      "token": "DEMO-OPP-199",
+      "parentToken": "A-019",
+      "result": "Reused",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "ServiceCoverage",
+      "token": "COV-001",
+      "parentToken": "A-001",
+      "result": "Reused",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "ServiceCoverage",
+      "token": "COV-003",
+      "parentToken": "A-001",
+      "result": "Reused",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "ServiceCoverage",
+      "token": "COV-029",
+      "parentToken": "A-008",
+      "result": "Reused",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "ServiceCoverage",
+      "token": "COV-032",
+      "parentToken": "A-008",
+      "result": "Reused",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "ServiceCoverage",
+      "token": "COV-038",
+      "parentToken": "A-010",
+      "result": "Reused",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "ServiceCoverage",
+      "token": "COV-039",
+      "parentToken": "A-010",
+      "result": "Reused",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "ServiceCoverage",
+      "token": "COV-040",
+      "parentToken": "A-010",
+      "result": "Reused",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "ServiceCoverage",
+      "token": "COV-053",
+      "parentToken": "A-014",
+      "result": "Reused",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "ServiceCoverage",
+      "token": "COV-054",
+      "parentToken": "A-014",
+      "result": "Reused",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "ServiceCoverage",
+      "token": "COV-073",
+      "parentToken": "A-019",
+      "result": "Reused",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "ServiceCoverage",
+      "token": "COV-075",
+      "parentToken": "A-019",
+      "result": "Reused",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "ServiceCoverage",
+      "token": "COV-158",
+      "parentToken": "A-040",
+      "result": "Reused",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "ServiceCoverage",
+      "token": "COV-159",
+      "parentToken": "A-040",
+      "result": "Reused",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "ServiceCoverage",
+      "token": "COV-197",
+      "parentToken": "A-050",
+      "result": "Reused",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "ServiceCoverage",
+      "token": "COV-199",
+      "parentToken": "A-050",
+      "result": "Reused",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0119",
+      "parentToken": "DEMO-OPP-015",
+      "result": "Reused",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0120",
+      "parentToken": "DEMO-OPP-015",
+      "result": "Reused",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0121",
+      "parentToken": "DEMO-OPP-015",
+      "result": "Reused",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0122",
+      "parentToken": "DEMO-OPP-015",
+      "result": "Reused",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0123",
+      "parentToken": "DEMO-OPP-015",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0124",
+      "parentToken": "DEMO-OPP-015",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0125",
+      "parentToken": "DEMO-OPP-015",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0126",
+      "parentToken": "DEMO-OPP-015",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0127",
+      "parentToken": "DEMO-OPP-015",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0128",
+      "parentToken": "DEMO-OPP-015",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0129",
+      "parentToken": "DEMO-OPP-015",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0130",
+      "parentToken": "DEMO-OPP-015",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0155",
+      "parentToken": "DEMO-OPP-019",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0156",
+      "parentToken": "DEMO-OPP-019",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0157",
+      "parentToken": "DEMO-OPP-019",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0158",
+      "parentToken": "DEMO-OPP-019",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0159",
+      "parentToken": "DEMO-OPP-019",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0160",
+      "parentToken": "DEMO-OPP-019",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0161",
+      "parentToken": "DEMO-OPP-019",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0162",
+      "parentToken": "DEMO-OPP-019",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0219",
+      "parentToken": "DEMO-OPP-026",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0220",
+      "parentToken": "DEMO-OPP-026",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0221",
+      "parentToken": "DEMO-OPP-026",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0222",
+      "parentToken": "DEMO-OPP-026",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0223",
+      "parentToken": "DEMO-OPP-026",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0224",
+      "parentToken": "DEMO-OPP-026",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0225",
+      "parentToken": "DEMO-OPP-026",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0226",
+      "parentToken": "DEMO-OPP-026",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0227",
+      "parentToken": "DEMO-OPP-026",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0228",
+      "parentToken": "DEMO-OPP-026",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0237",
+      "parentToken": "DEMO-OPP-028",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0238",
+      "parentToken": "DEMO-OPP-028",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0239",
+      "parentToken": "DEMO-OPP-028",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0240",
+      "parentToken": "DEMO-OPP-028",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0241",
+      "parentToken": "DEMO-OPP-028",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0242",
+      "parentToken": "DEMO-OPP-028",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0243",
+      "parentToken": "DEMO-OPP-028",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0244",
+      "parentToken": "DEMO-OPP-028",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0245",
+      "parentToken": "DEMO-OPP-028",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0267",
+      "parentToken": "DEMO-OPP-031",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0268",
+      "parentToken": "DEMO-OPP-031",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0269",
+      "parentToken": "DEMO-OPP-031",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0270",
+      "parentToken": "DEMO-OPP-031",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0271",
+      "parentToken": "DEMO-OPP-031",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0272",
+      "parentToken": "DEMO-OPP-031",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0273",
+      "parentToken": "DEMO-OPP-031",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0274",
+      "parentToken": "DEMO-OPP-031",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0275",
+      "parentToken": "DEMO-OPP-031",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0325",
+      "parentToken": "DEMO-OPP-038",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0326",
+      "parentToken": "DEMO-OPP-038",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0327",
+      "parentToken": "DEMO-OPP-038",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0328",
+      "parentToken": "DEMO-OPP-038",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0329",
+      "parentToken": "DEMO-OPP-038",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0330",
+      "parentToken": "DEMO-OPP-038",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0331",
+      "parentToken": "DEMO-OPP-038",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0332",
+      "parentToken": "DEMO-OPP-038",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0333",
+      "parentToken": "DEMO-OPP-038",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0488",
+      "parentToken": "DEMO-OPP-056",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0489",
+      "parentToken": "DEMO-OPP-056",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0490",
+      "parentToken": "DEMO-OPP-056",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0491",
+      "parentToken": "DEMO-OPP-056",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0492",
+      "parentToken": "DEMO-OPP-056",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0493",
+      "parentToken": "DEMO-OPP-056",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0494",
+      "parentToken": "DEMO-OPP-056",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0495",
+      "parentToken": "DEMO-OPP-056",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0496",
+      "parentToken": "DEMO-OPP-056",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0497",
+      "parentToken": "DEMO-OPP-056",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0498",
+      "parentToken": "DEMO-OPP-056",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0536",
+      "parentToken": "DEMO-OPP-062",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0537",
+      "parentToken": "DEMO-OPP-062",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0538",
+      "parentToken": "DEMO-OPP-062",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0539",
+      "parentToken": "DEMO-OPP-062",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0540",
+      "parentToken": "DEMO-OPP-062",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0541",
+      "parentToken": "DEMO-OPP-062",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0542",
+      "parentToken": "DEMO-OPP-062",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0543",
+      "parentToken": "DEMO-OPP-062",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0544",
+      "parentToken": "DEMO-OPP-062",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0545",
+      "parentToken": "DEMO-OPP-062",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0546",
+      "parentToken": "DEMO-OPP-062",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0722",
+      "parentToken": "DEMO-OPP-081",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0723",
+      "parentToken": "DEMO-OPP-081",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0724",
+      "parentToken": "DEMO-OPP-081",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0725",
+      "parentToken": "DEMO-OPP-081",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0726",
+      "parentToken": "DEMO-OPP-081",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0752",
+      "parentToken": "DEMO-OPP-085",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0753",
+      "parentToken": "DEMO-OPP-085",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0754",
+      "parentToken": "DEMO-OPP-085",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0755",
+      "parentToken": "DEMO-OPP-085",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0756",
+      "parentToken": "DEMO-OPP-085",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0757",
+      "parentToken": "DEMO-OPP-086",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0758",
+      "parentToken": "DEMO-OPP-086",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0759",
+      "parentToken": "DEMO-OPP-086",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0760",
+      "parentToken": "DEMO-OPP-086",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0761",
+      "parentToken": "DEMO-OPP-086",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0762",
+      "parentToken": "DEMO-OPP-086",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0763",
+      "parentToken": "DEMO-OPP-086",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0764",
+      "parentToken": "DEMO-OPP-086",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0807",
+      "parentToken": "DEMO-OPP-092",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0808",
+      "parentToken": "DEMO-OPP-092",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0809",
+      "parentToken": "DEMO-OPP-092",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0810",
+      "parentToken": "DEMO-OPP-092",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-0811",
+      "parentToken": "DEMO-OPP-092",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-1171",
+      "parentToken": "DEMO-OPP-130",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-1172",
+      "parentToken": "DEMO-OPP-130",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-1173",
+      "parentToken": "DEMO-OPP-130",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-1174",
+      "parentToken": "DEMO-OPP-130",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-1175",
+      "parentToken": "DEMO-OPP-130",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-1176",
+      "parentToken": "DEMO-OPP-130",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-1177",
+      "parentToken": "DEMO-OPP-130",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-1178",
+      "parentToken": "DEMO-OPP-130",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-1179",
+      "parentToken": "DEMO-OPP-130",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-1180",
+      "parentToken": "DEMO-OPP-130",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-1181",
+      "parentToken": "DEMO-OPP-130",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-1182",
+      "parentToken": "DEMO-OPP-130",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-1202",
+      "parentToken": "DEMO-OPP-133",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-1203",
+      "parentToken": "DEMO-OPP-133",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-1204",
+      "parentToken": "DEMO-OPP-133",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-1205",
+      "parentToken": "DEMO-OPP-133",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-1206",
+      "parentToken": "DEMO-OPP-133",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-1214",
+      "parentToken": "DEMO-OPP-135",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-1215",
+      "parentToken": "DEMO-OPP-135",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-1216",
+      "parentToken": "DEMO-OPP-135",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-1217",
+      "parentToken": "DEMO-OPP-135",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-1218",
+      "parentToken": "DEMO-OPP-135",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-1219",
+      "parentToken": "DEMO-OPP-135",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-1220",
+      "parentToken": "DEMO-OPP-135",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-1221",
+      "parentToken": "DEMO-OPP-135",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-1222",
+      "parentToken": "DEMO-OPP-135",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-1223",
+      "parentToken": "DEMO-OPP-135",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-1224",
+      "parentToken": "DEMO-OPP-135",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-1225",
+      "parentToken": "DEMO-OPP-135",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-1252",
+      "parentToken": "DEMO-OPP-139",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-1253",
+      "parentToken": "DEMO-OPP-139",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-1254",
+      "parentToken": "DEMO-OPP-139",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-1255",
+      "parentToken": "DEMO-OPP-139",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-1256",
+      "parentToken": "DEMO-OPP-139",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-1257",
+      "parentToken": "DEMO-OPP-139",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-1258",
+      "parentToken": "DEMO-OPP-139",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-1259",
+      "parentToken": "DEMO-OPP-139",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-1260",
+      "parentToken": "DEMO-OPP-139",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-1261",
+      "parentToken": "DEMO-OPP-139",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-1262",
+      "parentToken": "DEMO-OPP-139",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-1279",
+      "parentToken": "DEMO-OPP-142",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-1280",
+      "parentToken": "DEMO-OPP-142",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-1281",
+      "parentToken": "DEMO-OPP-142",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-1282",
+      "parentToken": "DEMO-OPP-142",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-1283",
+      "parentToken": "DEMO-OPP-142",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-1284",
+      "parentToken": "DEMO-OPP-142",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-1285",
+      "parentToken": "DEMO-OPP-142",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-1286",
+      "parentToken": "DEMO-OPP-142",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-1312",
+      "parentToken": "DEMO-OPP-146",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-1313",
+      "parentToken": "DEMO-OPP-146",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-1314",
+      "parentToken": "DEMO-OPP-146",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-1315",
+      "parentToken": "DEMO-OPP-146",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-1316",
+      "parentToken": "DEMO-OPP-146",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-1317",
+      "parentToken": "DEMO-OPP-146",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-1384",
+      "parentToken": "DEMO-OPP-155",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-1385",
+      "parentToken": "DEMO-OPP-155",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-1386",
+      "parentToken": "DEMO-OPP-155",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-1387",
+      "parentToken": "DEMO-OPP-155",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-1388",
+      "parentToken": "DEMO-OPP-155",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-1389",
+      "parentToken": "DEMO-OPP-155",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-1390",
+      "parentToken": "DEMO-OPP-155",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-1518",
+      "parentToken": "DEMO-OPP-170",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-1519",
+      "parentToken": "DEMO-OPP-170",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-1520",
+      "parentToken": "DEMO-OPP-170",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-1521",
+      "parentToken": "DEMO-OPP-170",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-1522",
+      "parentToken": "DEMO-OPP-170",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-1523",
+      "parentToken": "DEMO-OPP-170",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-1524",
+      "parentToken": "DEMO-OPP-170",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-1525",
+      "parentToken": "DEMO-OPP-170",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-1623",
+      "parentToken": "DEMO-OPP-181",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-1624",
+      "parentToken": "DEMO-OPP-181",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-1625",
+      "parentToken": "DEMO-OPP-181",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-1626",
+      "parentToken": "DEMO-OPP-181",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-1627",
+      "parentToken": "DEMO-OPP-181",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-1628",
+      "parentToken": "DEMO-OPP-181",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Timeline",
+      "token": "TL-1629",
+      "parentToken": "DEMO-OPP-181",
+      "result": "Created",
+      "r1OriginResult": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    }
+  ],
+  "rejectedAttempts": [
+    {
+      "entity": "Timeline",
+      "token": "TL-1630",
+      "type": "annotation",
+      "result": "Rejected",
+      "status": 400,
+      "residualRecordCount": 0
+    }
+  ]
+}

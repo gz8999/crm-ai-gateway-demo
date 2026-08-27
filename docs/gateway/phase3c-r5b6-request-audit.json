@@ -1,0 +1,80 @@
+{
+  "phase": "PHASE3C-R5B6",
+  "records": [
+    {
+      "requestToken": "R5B6-SYNTH-V2-001",
+      "requestCorrelation": "R5B6-SYNTH-V2-001",
+      "provider": "openai-compatible",
+      "model": "deepseek-v4-pro",
+      "endpointAlias": "deepseek-beta",
+      "contextVersion": "Synthetic Safe Context v2",
+      "schemaVersion": "DeepSeek Decision Tool Schema v2",
+      "requestSchemaHash": "476cecc436dc452abc50988d337d779398159e8e0a4003bc8aa6153cbdab22b7",
+      "requestBodyHash": "dc9e8dc01707e1fa8b4dc131e5cfc8cfa43dc09c018ce6079fd825c63f4e8300",
+      "configDiff": {
+        "baselineRun": "PHASE3C-R5B5",
+        "currentRun": "PHASE3C-R5B6",
+        "changedFields": [
+          "max_tokens"
+        ],
+        "unexpectedChangedFields": [],
+        "maxTokensBefore": 1200,
+        "maxTokensAfter": 2400,
+        "stableFieldsEqual": true,
+        "r5b5RequestBodyHash": "deee02fcea89a86f113936b5fda439387dcfc47465bd331fab70aec29c869735",
+        "r5b6RequestBodyHash": "dc9e8dc01707e1fa8b4dc131e5cfc8cfa43dc09c018ce6079fd825c63f4e8300"
+      },
+      "latencyMs": 14968,
+      "tokenUsage": {
+        "completion_tokens": 1475
+      },
+      "estimatedCostUsd": 0.001475,
+      "httpStatus": 200,
+      "diagnosticCategory": "ARGUMENT_JSON_INVALID",
+      "contractResult": "not-run",
+      "evidenceResult": "not-run",
+      "safetyResult": "not-run",
+      "rawArguments": false,
+      "rawRequestBody": false,
+      "rawResponseBody": false,
+      "syntheticInputStored": false,
+      "secretStored": false,
+      "successObservation": {
+        "providerSuccessObservabilityVersion": "Provider Success Response Observability Contract v1",
+        "httpStatus": 200,
+        "choiceCount": 1,
+        "selectedChoiceIndex": 0,
+        "finishReason": "tool_calls",
+        "messageContentPresent": true,
+        "reasoningContentPresent": false,
+        "toolCallsCount": 1,
+        "toolCallType": "function",
+        "functionName": "emit_decision_pack",
+        "argumentsRuntimeType": "string",
+        "argumentsLength": 4919,
+        "argumentsSha256": "139ddd7d00bbb563ffee5e72129a4a31650195d025167fe74e35ebaf2d6ae7e4",
+        "firstNonWhitespaceCharacterCategory": "left-brace",
+        "lastNonWhitespaceCharacterCategory": "right-brace",
+        "leftBraceCount": 34,
+        "rightBraceCount": 34,
+        "leftBracketCount": 9,
+        "rightBracketCount": 9,
+        "jsonParseErrorType": "SyntaxError",
+        "jsonParseErrorPosition": null,
+        "completionTokens": 1475,
+        "maxTokens": 2400,
+        "responseId": "5785a32c-0be4-4d35-b7fa-eccf046ddb8a",
+        "requestCorrelationToken": "R5B6-SYNTH-V2-001",
+        "responseTimestamp": "2026-07-19T06:00:35.581Z",
+        "latencyMs": 14964
+      }
+    }
+  ],
+  "externalLlmCalls": 1,
+  "retryCount": 0,
+  "fixtureFallbackCount": 0,
+  "d365Get": 0,
+  "crmWriteback": false,
+  "productionRequests": 0,
+  "browserExternalProviderRequests": 0
+}

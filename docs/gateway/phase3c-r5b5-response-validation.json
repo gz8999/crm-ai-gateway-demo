@@ -1,0 +1,22 @@
+{
+  "phase": "PHASE3C-R5B5",
+  "requestToken": "R5B5-SYNTH-V2-001",
+  "status": "stopped-safety",
+  "stopReason": "OUTPUT_TRUNCATED",
+  "httpSuccess": true,
+  "choiceCountReady": true,
+  "finishReasonReady": false,
+  "toolCallReady": false,
+  "argumentStringReady": true,
+  "jsonReady": false,
+  "schemaV2Ready": false,
+  "schemaErrors": [],
+  "canonicalMappingReady": false,
+  "evidenceValidationReady": false,
+  "evidenceErrors": [],
+  "unsupportedClaimCount": 0,
+  "safetyReady": false,
+  "safetyErrors": ["OUTPUT_TRUNCATED"],
+  "hallucinationAuditReady": false,
+  "providerRequestCompatibilityReady": false
+}

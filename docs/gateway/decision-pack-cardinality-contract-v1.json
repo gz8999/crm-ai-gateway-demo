@@ -1,0 +1,54 @@
+{
+  "version": "Decision Pack Cardinality Contract v1",
+  "representation": {
+    "providerCollections": "required_slots",
+    "slotKeyPattern": "itemNN",
+    "rationale": "DeepSeek strict Tool Schema does not support minItems or maxItems"
+  },
+  "collections": {
+    "facts": {
+      "minItems": 1,
+      "maxItems": "fact_catalog_size"
+    },
+    "inferences": {
+      "minItems": 1,
+      "maxItems": 3
+    },
+    "evidence": {
+      "minItems": 1,
+      "maxItems": "selected_unique_evidence_size"
+    },
+    "recommendedActions": {
+      "minItems": 1,
+      "maxItems": 3
+    },
+    "riskCategories": {
+      "minItems": 1,
+      "maxItems": "risk_catalog_size"
+    },
+    "limitations.codes": {
+      "minItems": 1,
+      "maxItems": "approved_limitation_code_count"
+    }
+  },
+  "evidenceReferences": {
+    "fact": {
+      "minItems": 1,
+      "maxItems": 1,
+      "source": "safe_fact_catalog"
+    },
+    "inference": {
+      "minItems": 1,
+      "maxItems": "compatible_evidence_count"
+    },
+    "action": {
+      "minItems": 1,
+      "maxItems": "compatible_evidence_count"
+    },
+    "riskCategory": {
+      "minItems": 1,
+      "maxItems": "compatible_evidence_count"
+    }
+  },
+  "hash": "fce9a5277979b6c35d515395720892857ae7afcb756d627cfac6b1811792376b"
+}

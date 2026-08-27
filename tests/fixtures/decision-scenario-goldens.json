@@ -1,0 +1,58 @@
+{
+  "stalled-high-value": {
+    "defaultOpportunity": "DEMO-6C-OPP-001",
+    "priority": "High",
+    "confidence": "High",
+    "requiredText": ["high-value", "stalled", "milestone"],
+    "forbiddenClaims": ["customer said", "email confirms", "port closure", "sanction"]
+  },
+  "budget-actual-gap": {
+    "defaultOpportunity": "DEMO-6C-OPP-016",
+    "priority": "High",
+    "confidence": "High",
+    "requiredText": ["material", "budget", "recovery"],
+    "forbiddenClaims": ["customer refused", "invoice", "bank"]
+  },
+  "data-contradiction": {
+    "defaultOpportunity": "DEMO-6C-OPP-031",
+    "priority": "Medium",
+    "confidence": "Low",
+    "requiredText": ["contradiction", "data quality", "cautiously"],
+    "forbiddenClaims": ["confirmed fact", "customer decided"]
+  },
+  "growth-opportunity": {
+    "defaultOpportunity": "DEMO-6C-OPP-043",
+    "priority": "Medium",
+    "confidence": "Medium",
+    "requiredText": ["hypothesis", "whitespace", "account"],
+    "forbiddenClaims": ["guaranteed growth", "customer identity", "exact revenue"]
+  },
+  "location-route-risk": {
+    "defaultOpportunity": "DEMO-6C-OPP-055",
+    "priority": "Medium",
+    "confidence": "Medium",
+    "requiredText": ["route", "verification", "internal"],
+    "forbiddenClaims": ["port closure", "customs delay", "sanction", "real-world disruption"]
+  },
+  "meeting-prep": {
+    "defaultOpportunity": "DEMO-6C-OPP-065",
+    "priority": "Medium",
+    "confidence": "Medium",
+    "requiredText": ["meeting", "questions", "readiness"],
+    "forbiddenClaims": ["timeline", "email body", "phone transcript", "meeting transcript"]
+  },
+  "multi-risk-priority": {
+    "defaultOpportunity": "DEMO-6C-OPP-075",
+    "priority": "Critical",
+    "confidence": "Medium",
+    "requiredText": ["multiple", "management", "evidence"],
+    "forbiddenClaims": ["customer confirmed", "external event"]
+  },
+  "healthy-control": {
+    "defaultOpportunity": "DEMO-6C-OPP-091",
+    "priority": "Monitor",
+    "confidence": "High",
+    "requiredText": ["healthy", "normal monitoring", "cadence"],
+    "forbiddenClaims": ["critical", "high risk", "escalate immediately", "stalled"]
+  }
+}

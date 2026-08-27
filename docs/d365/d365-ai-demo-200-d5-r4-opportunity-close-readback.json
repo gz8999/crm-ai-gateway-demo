@@ -1,0 +1,21 @@
+{
+  "phase": "Phase 1C-5R2G-D5-R4",
+  "records": [
+    { "action": "WinOpportunity", "opportunityToken": "DEMO-OPP-015", "subject": "[AI-DEMO] Win DEMO-OPP-015", "actualRevenue": 3898, "actualEnd": "2026-05-01", "count": 1, "attachmentCount": 0 },
+    { "action": "LoseOpportunity", "opportunityToken": "DEMO-OPP-026", "subject": "[AI-DEMO] Lose DEMO-OPP-026", "actualRevenue": null, "actualEnd": "2026-05-18", "count": 1, "attachmentCount": 0 },
+    { "action": "WinOpportunity", "opportunityToken": "DEMO-OPP-028", "subject": "[AI-DEMO] Win DEMO-OPP-028", "actualRevenue": 45871, "actualEnd": "2026-04-07", "count": 1, "attachmentCount": 0 },
+    { "action": "WinOpportunity", "opportunityToken": "DEMO-OPP-038", "subject": "[AI-DEMO] Win DEMO-OPP-038", "actualRevenue": 2102671, "actualEnd": "2026-05-11", "count": 1, "attachmentCount": 0 },
+    { "action": "WinOpportunity", "opportunityToken": "DEMO-OPP-130", "subject": "[AI-DEMO] Win DEMO-OPP-130", "actualRevenue": 5634, "actualEnd": "2026-07-08", "count": 1, "attachmentCount": 0 },
+    { "action": "WinOpportunity", "opportunityToken": "DEMO-OPP-135", "subject": "[AI-DEMO] Win DEMO-OPP-135", "actualRevenue": 4073, "actualEnd": "2026-06-27", "count": 1, "attachmentCount": 0 },
+    { "action": "WinOpportunity", "opportunityToken": "DEMO-OPP-181", "subject": "[AI-DEMO] Win DEMO-OPP-181", "actualRevenue": 10872, "actualEnd": "2026-08-19", "count": 1, "attachmentCount": 0 },
+    { "action": "WinOpportunity", "opportunityToken": "DEMO-OPP-199", "subject": "[AI-DEMO] Win DEMO-OPP-199", "actualRevenue": 183875, "actualEnd": "2026-09-18", "count": 1, "attachmentCount": 0 }
+  ],
+  "summary": {
+    "winCloseCount": 7,
+    "loseCloseCount": 1,
+    "totalCloseCount": 8,
+    "attachmentCount": 0,
+    "duplicateCloseCount": 0,
+    "exactIdsStoredOnlyInPrivateManifest": true
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "phase": "Phase 1C-5R2G-D6-R3A",
+  "status": "FAILED_SAFE_STOP",
+  "currentSignalCount": 154,
+  "pendingCount": 1196,
+  "attempted": 0,
+  "created": 0,
+  "missingSourceCount": 0
+}

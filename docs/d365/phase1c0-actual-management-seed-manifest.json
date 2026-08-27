@@ -1,0 +1,32 @@
+{
+  "dryRun": true,
+  "targetTable": "aigw_actualmanagement",
+  "sourceFilter": "opportunity.name begins with [AI-DEMO]",
+  "currentSourceCount": 100,
+  "plannedRecordCount": 100,
+  "recordsPerOpportunity": 1,
+  "identifiers": {
+    "actualNamePattern": "[AI-DEMO-ACTUAL] ACT-0001..0100",
+    "association": "Resolve the current Opportunity ID at execution time; do not persist IDs in provider payloads."
+  },
+  "generation": {
+    "currency": "CNY synthetic records only",
+    "annualRevenue": "Sum of April-March synthetic monthly revenue",
+    "annualRevenueBase": "Dataverse-generated aigw_annualactualrevenue_base; never PATCH directly. With CNY transaction currency and exchange rate 1, it must equal annualRevenue.",
+    "monthlyRevenue": "Deterministic demo-only values by record index and month; no imported CRM amounts",
+    "monthlyGp": "10%-18% of monthly revenue",
+    "monthlyMp": "6%-12% of monthly revenue and never above GP or revenue",
+    "expectedOrderDate": "Synthetic fiscal-year dates only"
+  },
+  "invariants": [
+    "GP <= Revenue",
+    "MP <= GP",
+    "MP <= Revenue",
+    "No real names/routes/amounts/notes",
+    "No Opportunity fields modified"
+  ],
+  "rollback": {
+    "method": "Delete only rows whose created IDs are recorded by the Phase 1C-5 execution log.",
+    "fieldLevel": "Each create log records all submitted fields with before=null; never PATCH pre-existing actual rows during rollback."
+  }
+}

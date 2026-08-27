@@ -1,0 +1,38 @@
+{
+  "phase": "Phase 1C-5R2G-D5-R2",
+  "opportunityToken": "DEMO-OPP-015",
+  "targetProcessAlias": "aigw_ai_demo_full_replica",
+  "processOrder": 0,
+  "before": {
+    "instanceCount": 1,
+    "duplicateCount": 0,
+    "unexpectedProcessCount": 0,
+    "instanceAlias": "TARGET-BPF-INSTANCE",
+    "stateStatus": "0/1",
+    "activeStageAlias": "授予资格",
+    "traversedPathClassification": "Initial stage only"
+  },
+  "after": {
+    "instanceCount": 1,
+    "duplicateCount": 0,
+    "unexpectedProcessCount": 0,
+    "instanceAlias": "TARGET-BPF-INSTANCE",
+    "stateStatus": "0/1",
+    "activeStageAlias": "授予资格",
+    "traversedPathClassification": "Initial stage only"
+  },
+  "comparison": {
+    "sameInstance": true,
+    "stateStatusUnchanged": true,
+    "activeStageUnchanged": true,
+    "traversedPathUnchanged": true,
+    "modifiedTimestampUnchanged": true,
+    "manualBpfWrites": 0
+  },
+  "classification": {
+    "code": "A",
+    "label": "BPF Close Side Effect=None",
+    "severity": null,
+    "ready": true
+  }
+}

@@ -1,0 +1,195 @@
+{
+  "phase": "Phase 1C-5R2G-D4",
+  "executionAuthorized": false,
+  "contractFields": [
+    "entity",
+    "logicalName",
+    "sourceColumn",
+    "valueType",
+    "tokenBinding",
+    "required",
+    "createOrder",
+    "readbackFields",
+    "stateActionType"
+  ],
+  "entities": [
+    {
+      "entity": "Account",
+      "logicalName": "account",
+      "sourceColumn": "account_token",
+      "valueType": "stable token plus mapped primary name",
+      "tokenBinding": "account_token",
+      "required": [
+        "name"
+      ],
+      "createOrder": 1,
+      "readbackFields": [
+        "primary id",
+        "name",
+        "statecode",
+        "statuscode"
+      ],
+      "stateActionType": "none"
+    },
+    {
+      "entity": "Contact",
+      "logicalName": "contact",
+      "sourceColumn": "contact_token",
+      "valueType": "stable token plus mapped primary name",
+      "tokenBinding": "contact_token",
+      "required": [
+        "lastname",
+        "parentcustomerid"
+      ],
+      "createOrder": 2,
+      "readbackFields": [
+        "primary id",
+        "parentcustomerid",
+        "statecode"
+      ],
+      "stateActionType": "none"
+    },
+    {
+      "entity": "Opportunity",
+      "logicalName": "opportunity",
+      "sourceColumn": "_import_token",
+      "valueType": "stable import token",
+      "tokenBinding": "_import_token",
+      "required": [
+        "name",
+        "parentaccountid",
+        "transactioncurrencyid"
+      ],
+      "createOrder": 3,
+      "readbackFields": [
+        "primary id",
+        "statecode",
+        "statuscode",
+        "owner",
+        "modifiedon"
+      ],
+      "stateActionType": "create-active"
+    },
+    {
+      "entity": "ServiceCoverage",
+      "logicalName": "aigw_customerservicecoverage",
+      "sourceColumn": "_import_token",
+      "valueType": "stable import token",
+      "tokenBinding": "_import_token plus composite coverage key",
+      "required": [
+        "account",
+        "service type",
+        "status"
+      ],
+      "createOrder": 4,
+      "readbackFields": [
+        "primary id",
+        "account",
+        "service type",
+        "status"
+      ],
+      "stateActionType": "none"
+    },
+    {
+      "entity": "ActualManagement",
+      "logicalName": "aigw_actualmanagement",
+      "sourceColumn": "_import_token",
+      "valueType": "stable import token",
+      "tokenBinding": "_import_token plus one-per-opportunity check",
+      "required": [
+        "name",
+        "opportunity"
+      ],
+      "createOrder": 5,
+      "readbackFields": [
+        "primary id",
+        "opportunity",
+        "annual actual revenue",
+        "statecode"
+      ],
+      "stateActionType": "none"
+    },
+    {
+      "entity": "Timeline",
+      "logicalName": "phonecall/appointment/task/annotation",
+      "sourceColumn": "_import_token",
+      "valueType": "stable activity token",
+      "tokenBinding": "_import_token plus regarding opportunity",
+      "required": [
+        "activity type",
+        "regarding opportunity"
+      ],
+      "createOrder": 6,
+      "readbackFields": [
+        "primary id",
+        "regarding",
+        "activity type",
+        "statecode"
+      ],
+      "stateActionType": "none"
+    },
+    {
+      "entity": "InteractionSignal",
+      "logicalName": "aigw_interactionsignal",
+      "sourceColumn": "_import_token",
+      "valueType": "stable signal token",
+      "tokenBinding": "_import_token plus source activity token",
+      "required": [
+        "opportunity",
+        "source activity"
+      ],
+      "createOrder": 7,
+      "readbackFields": [
+        "primary id",
+        "source activity",
+        "opportunity",
+        "statecode"
+      ],
+      "stateActionType": "none"
+    },
+    {
+      "entity": "WinOpportunity",
+      "logicalName": "opportunity action",
+      "sourceColumn": "_import_token",
+      "valueType": "stable opportunity token",
+      "tokenBinding": "opportunity token",
+      "required": [
+        "existing active opportunity",
+        "children complete"
+      ],
+      "createOrder": 8,
+      "readbackFields": [
+        "statecode",
+        "statuscode",
+        "actualclosedate"
+      ],
+      "stateActionType": "official WinOpportunity only; not executed"
+    },
+    {
+      "entity": "LoseOpportunity",
+      "logicalName": "opportunity action",
+      "sourceColumn": "_import_token",
+      "valueType": "stable opportunity token",
+      "tokenBinding": "opportunity token",
+      "required": [
+        "existing active opportunity",
+        "children complete"
+      ],
+      "createOrder": 9,
+      "readbackFields": [
+        "statecode",
+        "statuscode",
+        "actualclosedate"
+      ],
+      "stateActionType": "official LoseOpportunity only; not executed"
+    }
+  ],
+  "excluded": [
+    "record GUIDs",
+    "request URL",
+    "authorization material",
+    "credential material",
+    "bulk POST/PATCH bodies",
+    "automatic execution script"
+  ]
+}

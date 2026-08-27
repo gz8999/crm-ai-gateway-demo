@@ -1,0 +1,268 @@
+{
+  "phase": "1C-5R2F-R3A",
+  "environment": "org91f5f65f.crm5.dynamics.com",
+  "solution": {
+    "id": "57462493-7477-f111-ab0e-000d3a805a4c",
+    "uniqueName": "CRMAIGatewayDemo",
+    "friendlyName": "CRM AI Gateway Demo",
+    "isManaged": false,
+    "publisherPrefix": "aigw",
+    "optionValuePrefix": 38856
+  },
+  "bpf": {
+    "workflowId": "7325b274-6b7c-f111-ab0e-70a8a50388b9",
+    "name": "销售流程 - AI Demo Full Replica",
+    "uniqueName": "aigw_ai_demo_full_replica",
+    "category": 4,
+    "type": 1,
+    "statecode": 1,
+    "statuscode": 2,
+    "primaryEntity": "opportunity",
+    "isManaged": false,
+    "processOrder": 0,
+    "modifiedOn": "2026-07-15T04:15:29Z"
+  },
+  "backingEntity": {
+    "LogicalName": "aigw_ai_demo_full_replica",
+    "SchemaName": "aigw_ai_demo_full_replica",
+    "MetadataId": "27dc1d23-5c7f-f111-ab0e-70a8a5007736",
+    "DisplayName": {
+      "1033": "销售流程 - AI Demo Full Replica"
+    },
+    "IsManaged": false,
+    "OwnershipType": "OrganizationOwned",
+    "IsCustomEntity": true,
+    "IsValidForAdvancedFind": true,
+    "EntitySetName": "aigw_ai_demo_full_replicas",
+    "PrimaryIdAttribute": "businessprocessflowinstanceid",
+    "PrimaryNameAttribute": "bpf_name",
+    "CreatedOn": "2026-07-14T08:15:28Z",
+    "ModifiedOn": "2026-07-14T08:15:28Z",
+    "IsBPFEntity": true
+  },
+  "memberships": {
+    "targetSolutionId": "57462493-7477-f111-ab0e-000d3a805a4c",
+    "bpfComponents": [
+      {
+        "@odata.etag": "W/\"12391784\"",
+        "componenttype@OData.Community.Display.V1.FormattedValue": "Workflow",
+        "componenttype": 29,
+        "rootcomponentbehavior@OData.Community.Display.V1.FormattedValue": "Include Subcomponents",
+        "rootcomponentbehavior": 0,
+        "objectid": "7325b274-6b7c-f111-ab0e-70a8a50388b9",
+        "_solutionid_value": "fd140aae-4df4-11dd-bd17-0019b9312238",
+        "solutioncomponentid": "15120b53-5c7f-f111-ab0e-70a8a5007736",
+        "rootsolutioncomponentid": null
+      },
+      {
+        "@odata.etag": "W/\"12024448\"",
+        "componenttype@OData.Community.Display.V1.FormattedValue": "Workflow",
+        "componenttype": 29,
+        "rootcomponentbehavior@OData.Community.Display.V1.FormattedValue": "Include Subcomponents",
+        "rootcomponentbehavior": 0,
+        "objectid": "7325b274-6b7c-f111-ab0e-70a8a50388b9",
+        "_solutionid_value": "57462493-7477-f111-ab0e-000d3a805a4c",
+        "solutioncomponentid": "9227b274-6b7c-f111-ab0e-70a8a50388b9",
+        "rootsolutioncomponentid": null
+      },
+      {
+        "@odata.etag": "W/\"12024449\"",
+        "componenttype@OData.Community.Display.V1.FormattedValue": "Workflow",
+        "componenttype": 29,
+        "rootcomponentbehavior@OData.Community.Display.V1.FormattedValue": "Include Subcomponents",
+        "rootcomponentbehavior": 0,
+        "objectid": "7325b274-6b7c-f111-ab0e-70a8a50388b9",
+        "_solutionid_value": "fd140aaf-4df4-11dd-bd17-0019b9312238",
+        "solutioncomponentid": "9327b274-6b7c-f111-ab0e-70a8a50388b9",
+        "rootsolutioncomponentid": null
+      }
+    ],
+    "backingEntityComponents": [
+      {
+        "@odata.etag": "W/\"12662911\"",
+        "componenttype@OData.Community.Display.V1.FormattedValue": "Entity",
+        "componenttype": 1,
+        "rootcomponentbehavior@OData.Community.Display.V1.FormattedValue": "Do not include subcomponents",
+        "rootcomponentbehavior": 1,
+        "objectid": "27dc1d23-5c7f-f111-ab0e-70a8a5007736",
+        "_solutionid_value": "57462493-7477-f111-ab0e-000d3a805a4c",
+        "solutioncomponentid": "2b7ed7f7-1081-f111-ab0e-000d3a858957",
+        "rootsolutioncomponentid": null
+      },
+      {
+        "@odata.etag": "W/\"12391783\"",
+        "componenttype@OData.Community.Display.V1.FormattedValue": "Entity",
+        "componenttype": 1,
+        "rootcomponentbehavior@OData.Community.Display.V1.FormattedValue": "Include Subcomponents",
+        "rootcomponentbehavior": 0,
+        "objectid": "27dc1d23-5c7f-f111-ab0e-70a8a5007736",
+        "_solutionid_value": "fd140aae-4df4-11dd-bd17-0019b9312238",
+        "solutioncomponentid": "ec110b53-5c7f-f111-ab0e-70a8a5007736",
+        "rootsolutioncomponentid": null
+      },
+      {
+        "@odata.etag": "W/\"12391785\"",
+        "componenttype@OData.Community.Display.V1.FormattedValue": "Entity",
+        "componenttype": 1,
+        "rootcomponentbehavior@OData.Community.Display.V1.FormattedValue": "Include Subcomponents",
+        "rootcomponentbehavior": 0,
+        "objectid": "27dc1d23-5c7f-f111-ab0e-70a8a5007736",
+        "_solutionid_value": "fd140aaf-4df4-11dd-bd17-0019b9312238",
+        "solutioncomponentid": "36120b53-5c7f-f111-ab0e-70a8a5007736",
+        "rootsolutioncomponentid": null
+      }
+    ],
+    "backingEntitySolutions": [
+      {
+        "@odata.context": "https://org91f5f65f.crm5.dynamics.com/api/data/v9.2/$metadata#solutions(solutionid,friendlyname,uniquename,ismanaged)/$entity",
+        "@odata.etag": "W/\"8553233\"",
+        "solutionid": "57462493-7477-f111-ab0e-000d3a805a4c",
+        "uniquename": "CRMAIGatewayDemo",
+        "ismanaged@OData.Community.Display.V1.FormattedValue": "Unmanaged",
+        "ismanaged": false,
+        "friendlyname": "CRM AI Gateway Demo",
+        "_organizationid_value": "2f6326b2-1d75-f111-b27b-000d3a80bc9d"
+      },
+      {
+        "@odata.context": "https://org91f5f65f.crm5.dynamics.com/api/data/v9.2/$metadata#solutions(solutionid,friendlyname,uniquename,ismanaged)/$entity",
+        "@odata.etag": "W/\"5878095\"",
+        "solutionid": "fd140aae-4df4-11dd-bd17-0019b9312238",
+        "uniquename": "Active",
+        "ismanaged@OData.Community.Display.V1.FormattedValue": "Unmanaged",
+        "ismanaged": false,
+        "friendlyname": "Active Solution",
+        "_organizationid_value": "2f6326b2-1d75-f111-b27b-000d3a80bc9d"
+      },
+      {
+        "@odata.context": "https://org91f5f65f.crm5.dynamics.com/api/data/v9.2/$metadata#solutions(solutionid,friendlyname,uniquename,ismanaged)/$entity",
+        "@odata.etag": "W/\"5878096\"",
+        "solutionid": "fd140aaf-4df4-11dd-bd17-0019b9312238",
+        "uniquename": "Default",
+        "ismanaged@OData.Community.Display.V1.FormattedValue": "Unmanaged",
+        "ismanaged": false,
+        "friendlyname": "Default Solution",
+        "_organizationid_value": "2f6326b2-1d75-f111-b27b-000d3a80bc9d"
+      }
+    ],
+    "inTargetSolution": true,
+    "otherSolutionCount": 2
+  },
+  "addSolutionComponent": {
+    "status": "confirmed",
+    "reason": "one shell-only Entity root component was added and confirmed by delayed readback"
+  },
+  "membershipRepair": {
+    "beforeInTargetSolution": false,
+    "afterInTargetSolution": true,
+    "componentType": 1,
+    "rootComponentBehavior": 1,
+    "solutionUniqueName": "CRMAIGatewayDemo"
+  },
+  "requestCounts": {
+    "GET": 34,
+    "POST": 1,
+    "PATCH": 0,
+    "DELETE": 0,
+    "Publish": 0,
+    "AddSolutionComponent": 0,
+    "ExportSolution": 1,
+    "ChoiceWrites": 0,
+    "RuntimeProbe": 0,
+    "BusinessWrites": 0
+  },
+  "knownMutationEvidence": {
+    "POST": 2,
+    "AddSolutionComponent": 1,
+    "ExportSolution": 1,
+    "Publish": 0,
+    "PATCH": 0,
+    "DELETE": 0,
+    "note": "One shell-only Add was confirmed by delayed readback; the captured successful export was one ExportSolution POST. The initial Add process did not emit its final CLI JSON, so its readback GET count is not merged into the captured 34-GET apply session."
+  },
+  "gates": {
+    "testEnvironmentVerified": true,
+    "bpfMetadataVerified": true,
+    "bpfBackingEntityVerified": true,
+    "backingEntityMembershipReady": true,
+    "backingEntityShellOnly": true,
+    "solutionExportReady": true,
+    "bpfPackageDependencyReady": true,
+    "solutionPackageFormsReady": true,
+    "solutionPackageViewsReady": true,
+    "formViewPackageMembershipReady": true,
+    "solutionPackagingReady": true,
+    "protectedBaselinePreserved": true,
+    "coreSchemaPreserved": true,
+    "choiceRepairStarted": false,
+    "choiceWrites": true,
+    "runtimeProbeStarted": false,
+    "businessRecordWrites": true,
+    "p0GatePassed": true,
+    "p1GatePassed": true,
+    "nextChoiceRepairReady": true
+  },
+  "blockers": [
+    {
+      "severity": "P1",
+      "key": "solution-package-incomplete",
+      "message": "The unmanaged export completed but did not contain every required BPF, backing entity, Form and View target."
+    }
+  ],
+  "protection": {
+    "fullReplica": {
+      "tabs": 5,
+      "sections": 21,
+      "controls": 118,
+      "uniqueFields": 109
+    },
+    "fullReplicaReady": true,
+    "protectedFormHash": "5519ce235d63873d934fc5dbd4b9fdb703e9a62e692d2c38e03396f7688030b7",
+    "protectedFormUnchanged": true,
+    "actualForm": {
+      "tabs": 1,
+      "sections": 5,
+      "controls": 41,
+      "uniqueFields": 41
+    },
+    "actualFormReady": true,
+    "actualViewUnchanged": true,
+    "bpfState": {
+      "@odata.context": "https://org91f5f65f.crm5.dynamics.com/api/data/v9.2/$metadata#workflows(workflowid,statecode,statuscode,processorder)/$entity",
+      "@odata.etag": "W/\"12394343\"",
+      "statuscode@OData.Community.Display.V1.FormattedValue": "Activated",
+      "statuscode": 2,
+      "processorder@OData.Community.Display.V1.FormattedValue": "0",
+      "processorder": 0,
+      "workflowid": "7325b274-6b7c-f111-ab0e-70a8a50388b9",
+      "statecode@OData.Community.Display.V1.FormattedValue": "Activated",
+      "statecode": 1
+    },
+    "bpfStateUnchanged": true,
+    "locationActive": 51,
+    "plugin": {
+      "assembly": {
+        "@odata.etag": "W/\"12040625\"",
+        "pluginassemblyid": "c4e5b181-767d-f111-ab0e-6045bd5b2c06",
+        "name": "CrmAiGateway.ActualTotals.Plugin"
+      },
+      "enabledSteps": 7,
+      "disabledSteps": 0
+    },
+    "pluginReady": true,
+    "alternateKeys": [
+      {
+        "MetadataId": "e5740953-f080-f111-ab0e-000d3a858957",
+        "SchemaName": "Aigw_CustomerservicecoverageKey",
+        "IsManaged": false,
+        "EntityKeyIndexStatus": "Active"
+      },
+      {
+        "MetadataId": "e1cf367d-f080-f111-ab0e-000d3a858957",
+        "SchemaName": "Aigw_InteractionTokenKey",
+        "IsManaged": false,
+        "EntityKeyIndexStatus": "Active"
+      }
+    ],
+    "alternateKeysReady": true
+  }
+}

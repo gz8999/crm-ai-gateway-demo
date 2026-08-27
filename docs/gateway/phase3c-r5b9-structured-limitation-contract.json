@@ -1,0 +1,32 @@
+{
+  "version": "Decision Pack Model Response v2",
+  "limitationCodes": [
+    "IDENTITY_MASKED",
+    "EXACT_AMOUNT_WITHHELD",
+    "RAW_TIMELINE_WITHHELD",
+    "INSUFFICIENT_EVIDENCE",
+    "DATA_CONTRADICTION",
+    "NO_ACTUAL_DATA",
+    "NO_COVERAGE_DATA",
+    "STALE_INTERACTION_DATA",
+    "MODEL_UNCERTAINTY",
+    "OTHER_APPROVED_LIMITATION"
+  ],
+  "otherApprovedLimitation": {
+    "detailField": "otherCodeDetail",
+    "detailRequiredOnlyWithCode": true
+  },
+  "localChineseLabels": {
+    "IDENTITY_MASKED": "客户及联系人身份已脱敏",
+    "EXACT_AMOUNT_WITHHELD": "模型仅接收金额区间，不接收精确金额",
+    "RAW_TIMELINE_WITHHELD": "未向模型提供原始活动记录正文",
+    "INSUFFICIENT_EVIDENCE": "当前证据不足，结论需人工复核",
+    "DATA_CONTRADICTION": "现有数据存在矛盾，需先核实事实",
+    "NO_ACTUAL_DATA": "当前未提供实绩数据",
+    "NO_COVERAGE_DATA": "当前未提供服务覆盖数据",
+    "STALE_INTERACTION_DATA": "互动信号可能已过期",
+    "MODEL_UNCERTAINTY": "模型对当前判断存在不确定性",
+    "OTHER_APPROVED_LIMITATION": "存在其他已批准的分析限制"
+  },
+  "modelPromptContainsChineseLabels": false
+}

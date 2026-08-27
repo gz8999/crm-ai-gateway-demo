@@ -1,0 +1,173 @@
+{
+  "phase": "PHASE3C-R5C-R2-R3",
+  "status": "completed-offline",
+  "rootCause": {
+    "classification": "PROVIDER_TOOL_ARGUMENT_SERIALIZATION_NONDETERMINISM",
+    "evidence": [
+      "Probe 1 and Probe 2 used byte-identical request envelopes",
+      "Both responses completed one correctly named tool call with HTTP 200",
+      "Probe 1 passed one JSON parse while Probe 2 failed one JSON parse",
+      "Transport v5 still exposed six provider-generated free-text schema nodes"
+    ],
+    "providerContractCaveat": "DeepSeek documents that function arguments may not always be valid JSON and requires caller validation."
+  },
+  "profileVersion": "DeepSeek Decision Tool Reference Only Profile v6-r5",
+  "transportContractVersion": "Provider Transport Contract v6",
+  "canonicalContractVersion": "Decision Pack Model Response v2",
+  "hashes": {
+    "inputHash": "ba843ea131b6484a50122a71157528a91c97819888bf608df0a67663efa39961",
+    "factCatalogHash": "f5f51294486d0ece758a5da113a04b25188f24bc2c1063a1924581cf62bdb6aa",
+    "selectionCatalogHash": "76d244fc9705cbbbfc5ed5706f6890e4f5fcae66d13713649298edacf55addf0",
+    "transportV5SchemaHash": "54fce23151dce092111df36ae5238795b0728bf62c96a2b6b8a2021ac944ff12",
+    "transportV6SchemaHash": "44d6a254afecd0e2e2a91ed05207582705e1fc98d5c2cddb04e355129e4c78bc",
+    "requestEnvelopeHash": "6afc4ead76c11d3adea4cb9fef13fc1ce7d567d0f8fd1938df6c27b1bfc0b8e1"
+  },
+  "schemaLint": {
+    "serializable": true,
+    "totalSchemaNodeCount": 114,
+    "typedNodeCount": 110,
+    "anyOfNodeCount": 4,
+    "refNodeCount": 0,
+    "missingTypeAnyOfRefCount": 0,
+    "missingTypeAnyOfRefPaths": [],
+    "objectCount": 27,
+    "requiredCoverageCount": 27,
+    "missingRequiredCount": 0,
+    "missingRequiredPaths": [],
+    "missingAdditionalPropertiesCount": 0,
+    "missingAdditionalPropertiesPaths": [],
+    "missingArrayItemsCount": 0,
+    "missingArrayItemsPaths": [],
+    "unsupportedKeywordCount": 0,
+    "unsupportedKeywords": [],
+    "schemaHash": "44d6a254afecd0e2e2a91ed05207582705e1fc98d5c2cddb04e355129e4c78bc"
+  },
+  "stringSurface": {
+    "transportV5": {
+      "totalStringNodeCount": 38,
+      "enumStringNodeCount": 32,
+      "patternTextCount": 6,
+      "freeTextCount": 6,
+      "freeTextPaths": [
+        "#/properties/inferences/items/properties/inference",
+        "#/properties/evidence/items/properties/value",
+        "#/properties/confidence/properties/reason",
+        "#/properties/recommendedActions/items/properties/action",
+        "#/properties/recommendedActions/items/properties/basis",
+        "#/properties/limitations/anyOf/1/properties/otherCodeDetail"
+      ],
+      "enumOnlyReady": false
+    },
+    "transportV6": {
+      "totalStringNodeCount": 50,
+      "enumStringNodeCount": 50,
+      "patternTextCount": 0,
+      "freeTextCount": 0,
+      "freeTextPaths": [],
+      "enumOnlyReady": true
+    },
+    "freeTextNodeReduction": 6
+  },
+  "counts": {
+    "factCatalog": 14,
+    "inferenceCatalog": 5,
+    "actionCatalog": 5,
+    "confidenceCatalog": 3,
+    "evidenceCatalog": 5,
+    "deterministicMappingIterations": 1000,
+    "deterministicCanonicalHashCount": 1,
+    "externalLlmCalls": 0,
+    "d365Get": 0,
+    "crmPost": 0,
+    "crmPatch": 0,
+    "crmDelete": 0,
+    "productionRequests": 0
+  },
+  "validations": {
+    "transport": {
+      "ok": true,
+      "errors": []
+    },
+    "canonical": {
+      "ok": true,
+      "errors": []
+    },
+    "readability": {
+      "ready": true,
+      "totalTextCount": 37,
+      "emptyTextCount": 0,
+      "overlongTextCount": 0,
+      "forbiddenCharacterCount": 0,
+      "truncatedTextCount": 0,
+      "meaninglessTextCount": 0,
+      "meaningLossCount": 0,
+      "factCount": 14,
+      "factReadableCount": 14,
+      "inferenceCount": 1,
+      "inferenceReadableCount": 1,
+      "actionCount": 1,
+      "actionReadableCount": 1
+    },
+    "safety": {
+      "ok": true,
+      "errors": []
+    },
+    "requestShape": {
+      "ok": true,
+      "errors": [],
+      "schema": {
+        "serializable": true,
+        "totalSchemaNodeCount": 114,
+        "typedNodeCount": 110,
+        "anyOfNodeCount": 4,
+        "refNodeCount": 0,
+        "missingTypeAnyOfRefCount": 0,
+        "missingTypeAnyOfRefPaths": [],
+        "objectCount": 27,
+        "requiredCoverageCount": 27,
+        "missingRequiredCount": 0,
+        "missingRequiredPaths": [],
+        "missingAdditionalPropertiesCount": 0,
+        "missingAdditionalPropertiesPaths": [],
+        "missingArrayItemsCount": 0,
+        "missingArrayItemsPaths": [],
+        "unsupportedKeywordCount": 0,
+        "unsupportedKeywords": [],
+        "schemaHash": "44d6a254afecd0e2e2a91ed05207582705e1fc98d5c2cddb04e355129e4c78bc"
+      }
+    },
+    "historicalIntegrity": {
+      "ready": true,
+      "checkedFileCount": 8,
+      "mismatches": []
+    }
+  },
+  "gates": {
+    "authoritativeBaselineReady": true,
+    "historicalR5CR2R2EvidenceUnchanged": true,
+    "deepseekV6R5ProfileReady": true,
+    "providerTransportV6Ready": true,
+    "strictSchemaReady": true,
+    "referenceOnlyOutputReady": true,
+    "safeFactCatalogReady": true,
+    "providerSelectionCatalogReady": true,
+    "deterministicExpansionReady": true,
+    "canonicalV2Ready": true,
+    "businessReadabilityReady": true,
+    "outputSafetyReady": true,
+    "requestShapeReady": true,
+    "retryCount": 0,
+    "fallbackCount": 0,
+    "externalLlmCalls": 0,
+    "d365Get": 0,
+    "crmWriteback": false,
+    "productionRequests": 0,
+    "providerRequestCompatibilityReady": false,
+    "realCanaryAuthorized": false,
+    "offlineJsonSerializationStabilityRepairReady": true,
+    "nextSyntheticProbeAuthorized": false
+  },
+  "p0Count": 0,
+  "p1Count": 0,
+  "p2Count": 0
+}

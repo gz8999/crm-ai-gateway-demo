@@ -1,0 +1,62 @@
+{
+  "phase": "Phase 1C-5R2G-D5-R5",
+  "scope": {
+    "opportunityCount": 24,
+    "scenarioCount": 8,
+    "source": "Compact Pilot read-only snapshot"
+  },
+  "allowedTopLevelKeys": [
+    "opportunityToken",
+    "accountToken",
+    "department",
+    "state",
+    "status",
+    "bpfStage",
+    "amountBands",
+    "varianceBand",
+    "coverageCategories",
+    "interactionSignals",
+    "timelineEvidence",
+    "relativeDateSignals",
+    "evidenceTokens",
+    "closeEvidence",
+    "safety"
+  ],
+  "scenarioCoverage": [
+    { "scenarioId": "stalled-high-value", "tokens": ["DEMO-OPP-170"], "evidenceReady": true },
+    { "scenarioId": "budget-actual-gap", "tokens": ["DEMO-OPP-031", "DEMO-OPP-056", "DEMO-OPP-086", "DEMO-OPP-142"], "evidenceReady": true },
+    { "scenarioId": "data-contradiction", "tokens": ["DEMO-OPP-038", "DEMO-OPP-199"], "evidenceReady": true },
+    { "scenarioId": "growth-opportunity", "tokens": ["DEMO-OPP-081"], "evidenceReady": true },
+    { "scenarioId": "location-route-risk", "tokens": ["DEMO-OPP-028"], "evidenceReady": true },
+    { "scenarioId": "meeting-prep", "tokens": ["DEMO-OPP-135", "DEMO-OPP-155", "DEMO-OPP-181"], "evidenceReady": true },
+    { "scenarioId": "multi-risk-priority", "tokens": ["DEMO-OPP-015", "DEMO-OPP-026", "DEMO-OPP-062", "DEMO-OPP-130", "DEMO-OPP-139"], "evidenceReady": true },
+    { "scenarioId": "healthy-control", "tokens": ["DEMO-OPP-019", "DEMO-OPP-092", "DEMO-OPP-194"], "evidenceReady": true }
+  ],
+  "forbiddenInputClasses": [
+    "customer display identity",
+    "contact identity",
+    "Dataverse GUID",
+    "exact amount",
+    "raw Timeline body",
+    "Team or User identity",
+    "OpportunityClose body",
+    "Golden answer",
+    "Scenario ID in provider input"
+  ],
+  "safety": {
+    "customerIdentityMasked": true,
+    "exactAmountSentToModel": false,
+    "rawTimelineSent": false,
+    "crmWritebackEnabled": false,
+    "externalLlmEnabled": false,
+    "contextWithGuid": 0,
+    "contextWithForbiddenKey": 0,
+    "rawContextPublished": false
+  },
+  "gates": {
+    "allPilotOpportunitiesMapped": true,
+    "allEightScenariosEvidenceReady": true,
+    "safeContextPrivacyReady": true,
+    "gatewayPilotMappingPreflightReady": true
+  }
+}

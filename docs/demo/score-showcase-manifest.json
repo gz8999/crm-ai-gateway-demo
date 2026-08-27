@@ -1,0 +1,41 @@
+{
+  "version": "goal4a-score-showcase-v1",
+  "source": "D365 Frozen Dataset",
+  "portfolioOpportunityCount": 200,
+  "showcaseCount": 24,
+  "showcaseTokens": [
+    "DEMO-OPP-001", "DEMO-OPP-002", "DEMO-OPP-003", "DEMO-OPP-004",
+    "DEMO-OPP-005", "DEMO-OPP-006", "DEMO-OPP-007", "DEMO-OPP-008",
+    "DEMO-OPP-009", "DEMO-OPP-010", "DEMO-OPP-011", "DEMO-OPP-012",
+    "DEMO-OPP-013", "DEMO-OPP-014", "DEMO-OPP-015", "DEMO-OPP-016",
+    "DEMO-OPP-017", "DEMO-OPP-018", "DEMO-OPP-019", "DEMO-OPP-026",
+    "DEMO-OPP-030", "DEMO-OPP-046", "DEMO-OPP-056", "DEMO-OPP-057"
+  ],
+  "classification": {
+    "d365FrozenRecords": {
+      "count": 24,
+      "duplicateRecordsCreated": 0,
+      "includedInPortfolioKpi": true,
+      "externalCallEligible": false
+    },
+    "syntheticScoreFixtures": {
+      "count": 8,
+      "tokens": [
+        "DEMO-6C-OPP-001", "DEMO-6C-OPP-016", "DEMO-6C-OPP-031", "DEMO-6C-OPP-043",
+        "DEMO-6C-OPP-055", "DEMO-6C-OPP-065", "DEMO-6C-OPP-075", "DEMO-6C-OPP-091"
+      ],
+      "testOnly": true,
+      "d365Record": false,
+      "source": "synthetic-score-fixture",
+      "includedInPortfolioKpi": false,
+      "externalCallEligible": false,
+      "runtimeVisible": false
+    }
+  },
+  "safety": {
+    "scenarioMetadataRuntimeExposed": false,
+    "goldenMetadataRuntimeExposed": false,
+    "externalLlmCalls": 0,
+    "crmWriteback": false
+  }
+}

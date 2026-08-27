@@ -1,0 +1,27 @@
+{
+  "phase": "Phase 3C",
+  "records": [
+    {
+      "requestToken": "PHASE3C-CANARY-01",
+      "opportunityToken": "DEMO-OPP-001",
+      "page": "cockpit",
+      "offlineScenario": null,
+      "offlineEvaluationLenses": [
+        "growth-opportunity",
+        "healthy-control"
+      ],
+      "responseContract": "not-run",
+      "safetyResult": "failed",
+      "hallucinationAudit": "failed",
+      "deterministicBaseline": null
+    }
+  ],
+  "aggregate": {
+    "completed": 0,
+    "failed": 24,
+    "totalEstimatedCostUsd": 0,
+    "avgLatencyMs": null,
+    "allResponseContractsPass": false,
+    "allSafetyPass": false
+  }
+}

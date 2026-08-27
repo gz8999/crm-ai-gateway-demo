@@ -1,0 +1,67 @@
+{
+  "phase": "PHASE3C-R5B10-R1",
+  "mode": "offline-contract-repair",
+  "rootCause": "historical_control_validation_parity_gap",
+  "providerTransportContract": {
+    "version": "Provider Transport Contract v1",
+    "schemaHash": "12838eecacdaabe7f2e1a55c660847652dcfc2abcb87e381f1b45d8aba851236",
+    "totalSchemaNodeCount": 51,
+    "missingTypeAnyOfRefCount": 0,
+    "missingRequiredCount": 0,
+    "missingAdditionalPropertiesCount": 0,
+    "unsupportedKeywordCount": 0
+  },
+  "validationProfiles": {
+    "r5b8Historical": {
+      "hash": "d904ecaa2140a60ba563b4780dfaf2b4d0d9fe2030498dec0d9b146013e0a17c",
+      "checksActionEvidence": false
+    },
+    "structuredActionV1": {
+      "hash": "ec90f6afc477076ae1755ffc695e02d143fa5ec15b3f93dba184534d62e220da",
+      "checksActionEvidence": true,
+      "actionEvidenceField": "recommendedActions[].evidenceTokens"
+    }
+  },
+  "mapping": {
+    "target": "Decision Pack Model Response v2",
+    "deterministic": true,
+    "businessFactInvention": false,
+    "transportFieldRemovedFromCanonical": true,
+    "approvedEvidenceReferencesPreserved": true
+  },
+  "historicalIntegrity": {
+    "contractV1Preserved": true,
+    "contractV2Preserved": true,
+    "r5b8EvidencePreserved": true,
+    "r5b9EvidencePreserved": true,
+    "r5b10EvidencePreserved": true
+  },
+  "requests": {
+    "externalLlmCalls": 0,
+    "d365Get": 0,
+    "crmPost": 0,
+    "crmPatch": 0,
+    "crmDelete": 0,
+    "crmWriteback": false,
+    "productionRequests": 0,
+    "retry": 0,
+    "fallback": 0
+  },
+  "gates": {
+    "historicalControlValidationParityReady": true,
+    "structuredActionEvidenceContractReady": true,
+    "providerTransportContractOfflineReady": true,
+    "strictSchemaCompletenessReady": true,
+    "deterministicCanonicalMappingReady": true,
+    "canonicalContractV2Preserved": true,
+    "existingV5ProfilePreserved": true,
+    "v6ProfileOptInReady": true,
+    "providerRequestCompatibilityReady": false,
+    "r5b11RepeatabilityReady": false,
+    "realCanaryAuthorized": false,
+    "offlineRepairComplete": true
+  },
+  "p0Count": 0,
+  "p1Count": 0,
+  "p2Count": 0
+}

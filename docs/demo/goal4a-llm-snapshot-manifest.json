@@ -1,0 +1,37 @@
+{
+  "version": "goal4a-validated-llm-snapshot-manifest-v1",
+  "contractVersion": "Demo LLM Narrative Contract v1",
+  "providerProfile": "DeepSeek Pro Minimal Narrative v1",
+  "snapshotCount": 5,
+  "priorScenarioCallsNotPersisted": [
+    "stalled-high-value",
+    "budget-actual-gap",
+    "data-contradiction"
+  ],
+  "snapshotTokens": [
+    "DEMO-OPP-001",
+    "DEMO-OPP-017",
+    "DEMO-OPP-030",
+    "DEMO-OPP-046",
+    "DEMO-OPP-056"
+  ],
+  "realContractCanary": "DEMO-OPP-002",
+  "syntheticRepeatability": {
+    "calls": 2,
+    "completedInPriorRun": true,
+    "byteStable": true
+  },
+  "liveDemo": {
+    "approvedToken": "DEMO-OPP-002",
+    "explicitUserConfirmation": true,
+    "automaticRun": false,
+    "callUsed": false
+  },
+  "safety": {
+    "rawCrmExposure": 0,
+    "exactAmountExposure": 0,
+    "rawTimelineExposure": 0,
+    "crmWriteback": false,
+    "productionRequests": 0
+  }
+}

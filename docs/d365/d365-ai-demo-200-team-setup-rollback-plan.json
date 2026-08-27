@@ -1,0 +1,18 @@
+{
+  "phase": "Phase 1C-5R2G-D3A",
+  "executionAuthorized": false,
+  "exactIdManifestRequired": true,
+  "steps": [
+    "Remove only role assignments created by the approved D3B manifest.",
+    "Remove only Team memberships created by the approved D3B manifest.",
+    "Delete only the seven exact Demo Teams created by the approved D3B manifest.",
+    "Delete the minimal role only if D3B created it and no other principal uses it."
+  ],
+  "prohibitions": [
+    "No fuzzy name deletion",
+    "No existing business Team changes",
+    "No production role changes",
+    "No business record cleanup"
+  ],
+  "rollbackPlanReady": true
+}

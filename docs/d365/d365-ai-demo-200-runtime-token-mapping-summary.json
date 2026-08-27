@@ -1,0 +1,34 @@
+{
+  "phase": "Phase 1C-5R2G-D4",
+  "publicIdPolicy": "Public artifacts contain aliases and stable tokens only; exact platform IDs remain in ignored private readback.",
+  "ownerTokenMapping": {
+    "approved": true,
+    "count": 6,
+    "mappings": {
+      "OWNER-DEMO-01": "OWNER-CANDIDATE-01",
+      "OWNER-DEMO-02": "OWNER-CANDIDATE-01",
+      "OWNER-DEMO-03": "OWNER-CANDIDATE-01",
+      "OWNER-DEMO-04": "OWNER-CANDIDATE-01",
+      "OWNER-DEMO-05": "OWNER-CANDIDATE-01",
+      "OWNER-DEMO-06": "OWNER-CANDIDATE-01"
+    }
+  },
+  "departmentTeamMapping": {
+    "approved": true,
+    "count": 7,
+    "mappings": {
+      "DEPT-01": "CRM-AI-DEMO-DEPT-01",
+      "DEPT-02": "CRM-AI-DEMO-DEPT-02",
+      "DEPT-03": "CRM-AI-DEMO-DEPT-03",
+      "DEPT-04": "CRM-AI-DEMO-DEPT-04",
+      "DEPT-05": "CRM-AI-DEMO-DEPT-05",
+      "DEPT-06": "CRM-AI-DEMO-DEPT-06",
+      "DEPT-91": "CRM-AI-DEMO-DEPT-91"
+    }
+  },
+  "canonicalRoleAssignmentCount": 7,
+  "membershipCount": 7,
+  "distinctTeamCount": 7,
+  "deletedRoleResidualReferenceCount": 0,
+  "businessDataDelta": 0
+}

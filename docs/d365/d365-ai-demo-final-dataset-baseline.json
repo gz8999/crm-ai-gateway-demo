@@ -1,0 +1,83 @@
+{
+  "phase": "Phase 1C-5R2G-D6-R5",
+  "status": "FROZEN",
+  "environmentAlias": "TEST-ORG",
+  "readOnlyEvidence": true,
+  "entityCounts": {
+    "Account": 60,
+    "Contact": 120,
+    "Opportunity": 200,
+    "ServiceCoverage": 240,
+    "ActualManagement": 130,
+    "Timeline": 1800,
+    "InteractionSignal": 1350
+  },
+  "explicitRecordCount": 3900,
+  "relationships": {
+    "contactPerAccount": true,
+    "opportunityPerAccount": true,
+    "coveragePerAccount": true,
+    "actualOnePerOpportunity": true,
+    "parentTokenCoverage": true,
+    "signalSourceCoverage": true
+  },
+  "uniqueStableTokens": true,
+  "noDuplicateBusinessRecords": true,
+  "plugin": {
+    "enabled": 7,
+    "disabled": 0,
+    "ready": true
+  },
+  "nonDemoBusinessModified": false,
+  "requestBoundary": {
+    "r5NewDataverseGets": 0,
+    "dataverseRequestsInR5": 0,
+    "productionRequests": 0,
+    "externalLlmCalls": 0,
+    "crmWriteback": 0,
+    "historicalR4C": {
+      "winOpportunity": 83,
+      "loseOpportunity": 7,
+      "timelinePost": 232,
+      "signalPost": 1196,
+      "patch": 0,
+      "delete": 0,
+      "publish": 0,
+      "bpfWrites": 0
+    }
+  },
+  "provenance": {
+    "sourcePhase": "Phase 1C-5R2G-D6-R4C",
+    "sourceCommit": "190185b",
+    "evidenceMode": "existing exact readback manifests; no new Dataverse request in R5",
+    "privateExactManifestUsed": true
+  },
+  "gates": {
+    "environmentAllowlistVerified": true,
+    "readOnlyEvidenceComplete": true,
+    "accountReady": true,
+    "contactReady": true,
+    "opportunityReady": true,
+    "coverageReady": true,
+    "actualReady": true,
+    "timelineReady": true,
+    "signalReady": true,
+    "opportunityCloseReady": true,
+    "bpfReady": true,
+    "pluginReady": true,
+    "relationshipsReady": true,
+    "choiceAndLogicalNameReady": true,
+    "safeContextContractReady": true,
+    "businessIntegrityReady": true,
+    "cleanupManifestReady": true,
+    "productionIsolationReady": true,
+    "externalLlmDisabled": true,
+    "crmWritebackDisabled": true,
+    "p0": 0,
+    "p1": 0,
+    "p2": 0,
+    "fullAcceptanceComplete": true,
+    "datasetFrozen": true,
+    "gatewayFullDatasetIntegrationReady": false
+  }
+}

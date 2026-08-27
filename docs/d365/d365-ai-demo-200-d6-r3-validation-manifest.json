@@ -1,0 +1,118 @@
+{
+  "phase": "Phase 1C-5R2G-D6-R3",
+  "status": "FAILED_SAFE_STOP",
+  "environmentAlias": "TEST-ORG",
+  "authorization": "Timeline and Interaction Signal only",
+  "blocker": {
+    "category": "R3_CHECKPOINT_BASELINE_ASSUMPTION",
+    "message": "The R3 checkpoint incorrectly required actualclosedate to be empty for every Opportunity, including the frozen Won/Lost baseline.",
+    "originalMessage": "T-phonecall-CANARY Opportunity actualclosedate changed"
+  },
+  "baseline": {
+    "explicitRecords": 1110,
+    "counts": {
+      "Account": 60,
+      "Contact": 120,
+      "Opportunity": 200,
+      "ServiceCoverage": 240,
+      "ActualManagement": 130,
+      "Timeline": 206,
+      "InteractionSignal": 154
+    },
+    "targetBpfReadbacks": 200,
+    "opportunityState": {
+      "Won": 7,
+      "Active": 192,
+      "Lost": 1
+    },
+    "opportunityClose": 8
+  },
+  "complement": {
+    "Timeline": 1594,
+    "InteractionSignal": 1196,
+    "pilotOverlap": 0,
+    "duplicateTimelineToken": 0,
+    "duplicateSignalToken": 0,
+    "missingParentToken": 0,
+    "missingSourceTimelineToken": 0
+  },
+  "timeline": {
+    "phonecall": 455,
+    "appointment": 396,
+    "task": 386,
+    "pastOrCurrentAnnotation": 350,
+    "futureAnnotation": 7,
+    "canaries": {
+      "phonecall": "TL-0001",
+      "appointment": "TL-0002",
+      "task": "TL-0003",
+      "pastOrCurrentAnnotation": "TL-0004",
+      "futureAnnotation": "TL-0146"
+    },
+    "attempted": 1,
+    "created": 1,
+    "reused": 0,
+    "failed": 1,
+    "finalCount": 207
+  },
+  "signal": {
+    "canariesDeferred": [
+      "phonecall",
+      "appointment",
+      "task",
+      "annotation"
+    ],
+    "attempted": 0,
+    "created": 0,
+    "reused": 0,
+    "failed": 0,
+    "finalCount": 154,
+    "missingSourceCount": 0
+  },
+  "requestDelta": {
+    "TimelinePOST": 1,
+    "SignalPOST": 0,
+    "PATCH": 0,
+    "DELETE": 0,
+    "Publish": 0,
+    "WinOpportunity": 0,
+    "LoseOpportunity": 0,
+    "OtherBusinessPOST": 0,
+    "ProductionRequests": 0,
+    "ExternalLLMCalls": 0
+  },
+  "gates": {
+    "RemainingTimelineComplementReady": true,
+    "RemainingSignalComplementReady": true,
+    "TimelineActivityClassificationReady": true,
+    "TimelineCanaryReady": false,
+    "FutureAnnotationContractReady": "not-reached",
+    "TimelineImportReady": false,
+    "TimelineFinalCount": 207,
+    "TimelineFailedCount": 1,
+    "SignalCanaryReady": false,
+    "SignalImportReady": false,
+    "SignalFinalCount": 154,
+    "SignalMissingSourceCount": 0,
+    "ActivityTypeIntegrityReady": true,
+    "BusinessDateIntegrityReady": true,
+    "OpportunityStateIntegrityReady": true,
+    "BPFRuntimeIntegrityReady": true,
+    "D6R3TimelineSignalImportCompleted": false,
+    "BaseFullDataImportCompleted": false,
+    "FullExplicitDataCount": 1111,
+    "FullExactReadbackReady": false,
+    "StateActionsDeferred": true,
+    "RemainingWinActions": 84,
+    "RemainingLoseActions": 8,
+    "FullImportCompleted": false,
+    "FullImportClosed": false,
+    "CleanupAuthorized": false,
+    "CleanupExecuted": false,
+    "GatewayFullDatasetIntegrationReady": false,
+    "ProductionIsolationReady": true
+  },
+  "p0Count": 0,
+  "p1Count": 1,
+  "p2Count": 0
+}

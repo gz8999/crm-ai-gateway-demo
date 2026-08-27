@@ -1,0 +1,37 @@
+{
+  "phase": "Phase 1C-5R2G-D6-R4A",
+  "actionCount": 1,
+  "actions": [
+    {
+      "alias": "FULL-WIN-CANARY-TOKEN",
+      "opportunityToken": "DEMO-OPP-001",
+      "actionType": "WinOpportunity",
+      "actionStatus": "Succeeded",
+      "status": 3,
+      "actualRevenueDoubleChecked": true,
+      "actualEnd": "2026-06-15",
+      "actualToken": "ACT-001",
+      "accountToken": "A-006",
+      "contactToken": "C-011",
+      "requestCorrelationRecordedPrivately": true,
+      "opportunityCloseCreated": true,
+      "attachmentCount": 0,
+      "bpfClassification": "A / BPF Full Win Side Effect=None",
+      "relatedBusinessHashUnchanged": true
+    }
+  ],
+  "requestDelta": {
+    "ActualGET": 1,
+    "WinOpportunityAttempts": 1,
+    "LoseOpportunity": 0,
+    "PATCH": 0,
+    "DELETE": 0,
+    "Publish": 0,
+    "BPFWrites": 0,
+    "OtherBusinessPOST": 0,
+    "ProductionRequests": 0,
+    "ExternalLLMCalls": 0
+  },
+  "otherWinActionsExecuted": 0,
+  "loseActionsExecuted": 0
+}

@@ -1,0 +1,103 @@
+{
+  "version": "1.0",
+  "status": "offline-evaluation-only",
+  "source": "existing Phase 1C-6C scenario contracts",
+  "scenarios": [
+    {
+      "scenarioId": "stalled-high-value",
+      "title": "高价值但长期停滞",
+      "inputSafeContext": { "requiredSignals": ["revenueBand", "stagnationBand", "relativeDateStatus"], "values": { "revenueBand": "over-5m", "stagnationBand": "severe", "relativeDateStatus": "overdue", "dataQualityCodes": [] } },
+      "expectedFacts": ["safeContext.revenueBand", "safeContext.stagnationBand"],
+      "expectedEvidence": ["safeContext.relativeDateStatus"],
+      "expectedPriority": "High",
+      "expectedConfidence": "High",
+      "requiredInference": ["high-value", "stalled"],
+      "requiredActions": ["milestone"],
+      "forbiddenClaims": ["customer said", "email confirms", "port closure", "sanction"]
+    },
+    {
+      "scenarioId": "budget-actual-gap",
+      "title": "预算与实绩偏差",
+      "inputSafeContext": { "requiredSignals": ["budgetBand", "actualBand", "varianceCategory"], "values": { "budgetBand": "over-1.2m", "actualBand": "under-300k", "varianceCategory": "material-negative", "dataQualityCodes": [] } },
+      "expectedFacts": ["safeContext.budgetBand", "safeContext.actualBand"],
+      "expectedEvidence": ["safeContext.varianceCategory"],
+      "expectedPriority": "High",
+      "expectedConfidence": "High",
+      "requiredInference": ["material", "budget"],
+      "requiredActions": ["recovery"],
+      "forbiddenClaims": ["customer refused", "invoice", "bank"]
+    },
+    {
+      "scenarioId": "data-contradiction",
+      "title": "数据缺失或矛盾",
+      "inputSafeContext": { "requiredSignals": ["forecastCategory", "decisionReadiness", "contradictionCodes"], "values": { "forecastCategory": "Upside", "decisionReadiness": "low", "contradictionCodes": ["budget-status-without-budget"], "missingCodes": ["missing-next-action"] } },
+      "expectedFacts": ["safeContext.forecastCategory", "safeContext.decisionReadiness"],
+      "expectedEvidence": ["safeContext.contradictionCodes"],
+      "expectedPriority": "Medium",
+      "expectedConfidence": "Low",
+      "requiredInference": ["cautiously", "contradiction"],
+      "requiredActions": ["flagged fields"],
+      "forbiddenClaims": ["confirmed fact", "customer decided"]
+    },
+    {
+      "scenarioId": "growth-opportunity",
+      "title": "客户增长机会",
+      "inputSafeContext": { "requiredSignals": ["accountAggregate.serviceCoverageBand", "accountAggregate.whitespaceCategory", "accountAggregate.opportunityTrend"], "values": { "accountAggregate": { "serviceCoverageBand": "narrow", "whitespaceCategory": "cross-sell-potential", "opportunityTrend": "expanding", "relationshipMaturity": "developing" } } },
+      "expectedFacts": ["safeContext.accountAggregate.serviceCoverageBand", "safeContext.accountAggregate.relationshipMaturity"],
+      "expectedEvidence": ["safeContext.accountAggregate.whitespaceCategory", "safeContext.accountAggregate.opportunityTrend"],
+      "expectedPriority": "Medium",
+      "expectedConfidence": "Medium",
+      "requiredInference": ["hypothesis", "account"],
+      "requiredActions": ["whitespace"],
+      "forbiddenClaims": ["guaranteed growth", "customer identity", "exact revenue"]
+    },
+    {
+      "scenarioId": "location-route-risk",
+      "title": "Location 与路线风险",
+      "inputSafeContext": { "requiredSignals": ["transportMode", "routeConsistency"], "values": { "transportMode": "air", "routeConsistency": "review-required", "dataQualityCodes": [] } },
+      "expectedFacts": ["safeContext.transportMode", "safeContext.routeConsistency"],
+      "expectedEvidence": ["safeContext.routeConsistency"],
+      "expectedPriority": "Medium",
+      "expectedConfidence": "Medium",
+      "requiredInference": ["route", "verification"],
+      "requiredActions": ["routing"],
+      "forbiddenClaims": ["port closure", "customs delay", "sanction", "real-world disruption"]
+    },
+    {
+      "scenarioId": "meeting-prep",
+      "title": "会前准备",
+      "inputSafeContext": { "requiredSignals": ["meetingWindow", "stakeholderCoverage", "openQuestionCount", "decisionReadiness"], "values": { "meetingWindow": "within-7-days", "stakeholderCoverage": "partial", "openQuestionCount": 2, "decisionReadiness": "medium" } },
+      "expectedFacts": ["safeContext.meetingWindow", "safeContext.stakeholderCoverage"],
+      "expectedEvidence": ["safeContext.openQuestionCount", "safeContext.decisionReadiness"],
+      "expectedPriority": "Medium",
+      "expectedConfidence": "Medium",
+      "requiredInference": ["meeting", "questions"],
+      "requiredActions": ["question"],
+      "forbiddenClaims": ["timeline", "email body", "phone transcript", "meeting transcript"]
+    },
+    {
+      "scenarioId": "multi-risk-priority",
+      "title": "多风险优先级",
+      "inputSafeContext": { "requiredSignals": ["priority", "stagnationBand", "dataQualityCodes"], "values": { "priority": "Critical", "stagnationBand": "severe", "dataQualityCodes": ["missing-next-action", "contradiction-status"] } },
+      "expectedFacts": ["safeContext.priority", "safeContext.stagnationBand"],
+      "expectedEvidence": ["safeContext.stagnationBand", "safeContext.dataQualityCodes"],
+      "expectedPriority": "Critical",
+      "expectedConfidence": "Medium",
+      "requiredInference": ["multiple", "management"],
+      "requiredActions": ["evidence"],
+      "forbiddenClaims": ["customer confirmed", "external event"]
+    },
+    {
+      "scenarioId": "healthy-control",
+      "title": "健康对照案件",
+      "inputSafeContext": { "requiredSignals": ["stagnationBand", "decisionReadiness", "dataQualityCodes"], "values": { "stagnationBand": "active", "decisionReadiness": "high", "dataQualityCodes": [] } },
+      "expectedFacts": ["safeContext.stagnationBand", "safeContext.decisionReadiness"],
+      "expectedEvidence": ["safeContext.dataQualityCodes"],
+      "expectedPriority": "Monitor",
+      "expectedConfidence": "High",
+      "requiredInference": ["healthy", "cadence"],
+      "requiredActions": ["cadence"],
+      "forbiddenClaims": ["critical", "high risk", "escalate immediately", "stalled"]
+    }
+  ]
+}

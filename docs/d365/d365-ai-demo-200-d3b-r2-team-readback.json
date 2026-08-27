@@ -1,0 +1,12 @@
+{
+  "ownerTeamCount": 7,
+  "distinctTeamIdCount": 7,
+  "tokens": ["DEPT-01", "DEPT-02", "DEPT-03", "DEPT-04", "DEPT-05", "DEPT-06", "DEPT-91"],
+  "allOwnerTeams": true,
+  "allInTargetBusinessUnit": true,
+  "allActive": true,
+  "allNonDefault": true,
+  "allNonSystemManaged": true,
+  "unknownNameConflicts": 0,
+  "existingBusinessTeamsModified": false
+}

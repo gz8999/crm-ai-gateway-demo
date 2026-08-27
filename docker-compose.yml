@@ -1,0 +1,16 @@
+services:
+  gateway:
+    build: .
+    container_name: crm-ai-gateway-demo
+    restart: unless-stopped
+    env_file:
+      - .env
+    environment:
+      NODE_ENV: production
+      HOST: 0.0.0.0
+      PORT: 8790
+    ports:
+      - "127.0.0.1:8790:8790"
+    volumes:
+      - ./local-artifacts:/app/local-artifacts:ro
+      - ./server/data:/app/server/data

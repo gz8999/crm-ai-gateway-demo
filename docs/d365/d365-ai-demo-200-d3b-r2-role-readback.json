@@ -1,0 +1,14 @@
+{
+  "canonicalRole": "ROLE-CANONICAL-01",
+  "canonicalRoleCount": 1,
+  "duplicateRoleCount": 0,
+  "unmanaged": true,
+  "targetBusinessUnit": "BU-CANDIDATE-01",
+  "uniquePrivilegeCount": 38,
+  "missingRequiredPrivilegeCount": 0,
+  "unexpectedBusinessPrivilegeCount": 0,
+  "deletePrivilegeCount": 0,
+  "customizationPrivilegeCount": 0,
+  "publishPrivilegeCount": 0,
+  "platformBasePrivileges": "recorded separately and excluded from unexpected business privileges"
+}

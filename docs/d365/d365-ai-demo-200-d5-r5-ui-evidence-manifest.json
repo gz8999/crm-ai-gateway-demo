@@ -1,0 +1,98 @@
+{
+  "phase": "Phase 1C-5R2G-D5-R5",
+  "evidenceType": "user-supplied-ordinary-user-read-only",
+  "environment": "org91f5f65f.crm5.dynamics.com",
+  "app": "CRM AI Gateway Demo - Modern",
+  "session": {
+    "ordinaryNonAdminUser": true,
+    "administratorSubstitution": false,
+    "businessWrites": 0,
+    "screenshotsCommitted": false
+  },
+  "files": [
+    {
+      "file": "00_identity_app_crm_ai_demo_user.png.jpg",
+      "sha256": "675043a5edf0c0827c8ed8b15b74246eb50b163550eeeb9f8c436f3ca2ab2ef9",
+      "pixels": "2114x1874",
+      "evidence": ["ordinary user alias", "target Modern App", "Actual Management list access"]
+    },
+    {
+      "file": "Xnip2026-07-17_23-46-26.jpg",
+      "sha256": "f39c3105bb1c7ee82d87ebe9ecd11789bd491fd47c216b86b5feafdaa99b789c",
+      "pixels": "2940x1602",
+      "evidence": ["DEMO-OPP-015", "Won summary", "Full Replica", "BPF"]
+    },
+    {
+      "file": "Xnip2026-07-17_23-46-38.jpg",
+      "sha256": "3096968ad3f91785f8864ce1d077bd18feffd311264f53f1b094e4e7706ab024",
+      "pixels": "2940x1602",
+      "evidence": ["DEMO-OPP-015", "Timeline", "POL/POD", "Actual total"]
+    },
+    {
+      "file": "Xnip2026-07-17_23-47-26.jpg",
+      "sha256": "dd78fabf909e6b6d4b31fd5c96dd481e71aacb899468fb40623e5b3b6a282489",
+      "pixels": "2940x1602",
+      "evidence": ["DEMO-OPP-026", "Lost summary", "Full Replica", "BPF"]
+    },
+    {
+      "file": "Xnip2026-07-17_23-47-34.jpg",
+      "sha256": "a766a4a530e2b53f6bd35997e36f9c35f82623644558878fa2626260e2ee8573",
+      "pixels": "2940x1602",
+      "evidence": ["DEMO-OPP-026", "Timeline", "POL/POD"]
+    },
+    {
+      "file": "Xnip2026-07-17_23-51-54.jpg",
+      "sha256": "657ab019fdea292db03e3b348d9e1b85de80a916ecec287acfb26052dc9ef3d5",
+      "pixels": "2940x1602",
+      "evidence": ["DEMO-OPP-199", "Won summary", "Account", "Contact", "Owner", "department"]
+    },
+    {
+      "file": "Xnip2026-07-17_23-52-00.jpg",
+      "sha256": "77a183cebbb80bea7c79ef3166d2432fc58713f562f15bbe13298223baeb8751",
+      "pixels": "2940x1602",
+      "evidence": ["DEMO-OPP-199", "Timeline", "Actual", "POL/POD", "browser console"]
+    }
+  ],
+  "directlyVisibleOpportunityTokens": [
+    "DEMO-OPP-015",
+    "DEMO-OPP-026",
+    "DEMO-OPP-199"
+  ],
+  "fixedAcceptanceSamples": [
+    { "token": "DEMO-OPP-015", "department": "06: FF", "state": "Won", "service": "FF" },
+    { "token": "DEMO-OPP-026", "department": "06: FF", "state": "Lost", "service": "FF" },
+    { "token": "DEMO-OPP-133", "department": "01: Dept1(Industry)", "state": "Active", "service": "Warehouse" },
+    { "token": "DEMO-OPP-038", "department": "02: Dept1(Distribution)", "state": "Won", "service": "Warehouse" },
+    { "token": "DEMO-OPP-194", "department": "03: Dept2(LCMS)", "state": "Active", "service": "LCMS" },
+    { "token": "DEMO-OPP-085", "department": "04: Dept3(Project Cargo)", "state": "Active", "service": "Project Cargo" },
+    { "token": "DEMO-OPP-081", "department": "05: Dept3(Dangerous Goods)", "state": "Active", "service": "Dangerous Goods" },
+    { "token": "DEMO-OPP-056", "department": "91: Others", "state": "Active", "service": "Other" }
+  ],
+  "coverageBasis": {
+    "userAttestedEightSampleReadOnlyReview": true,
+    "serverSideFixedSampleMappingReady": true,
+    "directImageTokenCountInCurrentAttachmentSet": 3,
+    "classification": "P2 evidence granularity; no functional failure"
+  },
+  "responsive": {
+    "userAttestedViewports": ["1205x767", "758px"],
+    "pageLevelHorizontalOverflow": 0,
+    "rawImagePixelsAffectedByDeviceScale": true
+  },
+  "console": {
+    "applicationSpecificErrorsObserved": 0,
+    "applicationSpecificWarningsObserved": 0,
+    "rawDevToolsCountersVisible": { "errors": 8, "warnings": 24 },
+    "visibleSources": ["Power Apps platform shell", "content.powerapps.com resources"],
+    "userFacingFailureObserved": false,
+    "classification": "P2 platform diagnostics; not represented as raw 0/0"
+  },
+  "gates": {
+    "ordinaryUserD365RuntimeReady": true,
+    "sevenDepartmentUICoverageReady": true,
+    "timelineUIReady": true,
+    "actualCoverageUIReady": true,
+    "responsiveEvidenceReady": true,
+    "noUserFacingP0P1": true
+  }
+}

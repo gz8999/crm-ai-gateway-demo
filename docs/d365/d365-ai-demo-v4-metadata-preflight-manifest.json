@@ -1,0 +1,133 @@
+{
+  "phase": "Phase 1C-5R2G-C1",
+  "mode": "read-only-metadata-preflight",
+  "environment": "test-only",
+  "workbook": {
+    "path": "artifacts/d365/CRM_AI_Gateway_D365_Chinese_Demo_Data_v4.xlsx",
+    "sizeBytes": 731565,
+    "sha256": "f08a94a3caa62950dbaa96e2767e39afe6c79072296394db9d8736a3b2f683fd",
+    "authoritative": true,
+    "originalResaved": false
+  },
+  "authority": {
+    "v2RejectedByUser": true,
+    "v3SupersededByV4": true,
+    "v4AuthoritativeWorkbook": true,
+    "v4WorkbookUserAcceptanceReady": true
+  },
+  "counts": {
+    "Account": 30,
+    "Contact": 60,
+    "Opportunity": 150,
+    "ActualManagement": 100,
+    "ServiceCoverage": 210,
+    "Timeline": 1400,
+    "InteractionSignal": 1050,
+    "totalBusinessRows": 3000
+  },
+  "departmentDistribution": {
+    "salesDepartment": {"01": 108, "03": 30, "04": 12},
+    "bookingDepartment": {"01": 63, "26": 75, "02": 6, "09": 6},
+    "opportunityDetail": {"02": 45, "03": 42, "07": 21, "91": 30, "08": 12},
+    "forbiddenDetail06Count": 0
+  },
+  "offlineValidation": {
+    "rowCountsReady": true,
+    "parentTokensReady": true,
+    "departmentBusinessContractReady": true,
+    "bookingDepartmentRelationReady": true,
+    "opportunityDetailRelationReady": true,
+    "opportunityTypeChineseReady": true,
+    "caseStageChineseReady": true,
+    "opportunityNamesUnique": true,
+    "opportunityBusinessNarrativeReady": true,
+    "actualDistribution": {"won": 55, "active": 45, "lost": 0},
+    "coverageWindowOverlapCount": 0,
+    "timelineExactDuplicateCount": 0,
+    "timelineNormalizedUniqueRatio": 0.9892857142857143,
+    "timelineBusinessAlignmentReady": true,
+    "interactionSignalCoverageRatio": 0.75,
+    "interactionSignalBusinessAlignmentReady": true
+  },
+  "metadata": {
+    "entitiesChecked": 15,
+    "unknownLogicalNames": [
+      {"entity": "opportunity", "workbookField": "primarycontactid", "deployedField": "parentcontactid"}
+    ],
+    "unknownChoiceValues": 0,
+    "choiceValueConflictGroups": 1,
+    "choiceLabelConflictGroups": 3,
+    "choiceConflicts": [
+      {"attribute": "aigw_opportunitydetailtype", "value": 91, "workbookLabel": "91: Others", "metadataLabel": "91: 其他", "rows": 30},
+      {"attribute": "aigw_goodshandled", "value": 21, "workbookLabel": "21: 医疗器械", "metadataLabel": "21: 文具", "rows": 12},
+      {"attribute": "aigw_goodshandled", "value": 91, "workbookLabel": "91: Others", "metadataLabel": "91: 其他", "rows": 66},
+      {"attribute": "aigw_globalinitiative", "value": 91, "workbookLabel": "91: Others", "metadataLabel": "91: 无", "rows": 150}
+    ],
+    "solutionFound": true,
+    "solutionManaged": false,
+    "solutionComponentCount": 176,
+    "securityRoleMetadataReady": true
+  },
+  "references": {
+    "location": {"distinctTokens": 51, "uniqueActiveMatches": 51, "ready": true},
+    "polPod": {"distinctTokens": 7, "uniqueActiveMatches": 7, "ready": true},
+    "currency": {"tokens": 1, "uniqueActiveMatches": 1, "ready": true},
+    "coverageTeam": {"tokens": 1, "uniqueMatches": 1, "ready": true},
+    "owner": {"tokens": 6, "uniqueMatches": 0, "ready": false},
+    "signalDepartmentTeam": {"tokens": 3, "uniqueMatches": 0, "ready": false}
+  },
+  "pilot": {
+    "requiredAccountCount": 3,
+    "requiredOpportunityCount": 15,
+    "requiredScenarios": ["stalled-high-value", "budget-actual-gap", "meeting-prep", "multi-risk-priority", "healthy-control"],
+    "threeAccountSolutionCount": 0,
+    "minimumConformingAccountCount": 4,
+    "fourAccountCandidate": ["A-002", "A-006", "A-015", "A-019"],
+    "datasetDefined": false,
+    "workbookGenerated": false
+  },
+  "requests": {
+    "metadataGET": 129,
+    "referenceMasterGET": 6,
+    "syntheticConflictCheckGET": 0,
+    "businessCRMRecordGET": 0,
+    "POST": 0,
+    "PATCH": 0,
+    "DELETE": 0,
+    "Publish": 0,
+    "productionRequests": 0,
+    "externalLLMCalls": 0
+  },
+  "issues": {"p0": 0, "p1": 5, "p2": 1},
+  "gates": {
+    "v4WorkbookIntegrityReady": true,
+    "v4AuthoritativeWorkbookReady": true,
+    "departmentBusinessContractReady": true,
+    "bookingDepartmentRelationReady": true,
+    "opportunityDetailRelationReady": true,
+    "opportunityTypeChineseReady": true,
+    "caseStageChineseReady": true,
+    "opportunityBusinessNarrativeReady": true,
+    "timelineBusinessAlignmentReady": true,
+    "interactionSignalBusinessAlignmentReady": true,
+    "metadataSchemaPreflightReady": false,
+    "choiceMetadataPreflightReady": false,
+    "lookupResolutionReady": false,
+    "referenceMasterReady": false,
+    "actualPreflightReady": true,
+    "coveragePreflightReady": true,
+    "timelineEntityPreflightReady": true,
+    "pilotDatasetDefined": false,
+    "pilotWorkbookGenerated": false,
+    "pilotCleanupContractReady": false,
+    "p0GatePassed": true,
+    "p1GatePassed": false,
+    "dataverseWrites": 0,
+    "businessCRMReads": 0,
+    "productionRequests": 0,
+    "externalLLMCalls": 0,
+    "pilotImportReady": false,
+    "pilotImportAuthorized": false,
+    "fullImportReady": false
+  }
+}

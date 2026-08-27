@@ -1,0 +1,8 @@
+{
+  "version": "phase3c-fast-validated-snapshots-manifest-v1",
+  "label": "Validated External Analysis Snapshot",
+  "count": 0,
+  "snapshots": [],
+  "serverOnly": true,
+  "full24CanaryValidationDeferred": true
+}

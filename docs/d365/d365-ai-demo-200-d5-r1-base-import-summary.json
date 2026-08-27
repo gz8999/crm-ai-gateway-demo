@@ -1,0 +1,86 @@
+{
+  "phase": "Phase 1C-5R2G-D5-R1",
+  "explicitPilotRecordCount": 245,
+  "expectedExplicitPilotRecordCount": 427,
+  "byEntity": {
+    "Account": {
+      "attempt": 7,
+      "created": 6,
+      "reused": 1,
+      "failed": 0,
+      "pending": 0
+    },
+    "Contact": {
+      "attempt": 9,
+      "created": 8,
+      "reused": 1,
+      "failed": 0,
+      "pending": 0
+    },
+    "Opportunity": {
+      "attempt": 24,
+      "created": 23,
+      "reused": 1,
+      "failed": 0,
+      "pending": 0
+    },
+    "ServiceCoverage": {
+      "attempt": 15,
+      "created": 15,
+      "reused": 0,
+      "failed": 0,
+      "pending": 0
+    },
+    "ActualManagement": {
+      "attempt": 12,
+      "created": 12,
+      "reused": 0,
+      "failed": 0,
+      "pending": 0
+    },
+    "Timeline": {
+      "attempt": 179,
+      "created": 178,
+      "reused": 0,
+      "failed": 1,
+      "pending": 27
+    },
+    "InteractionSignal": {
+      "attempt": 0,
+      "created": 0,
+      "reused": 0,
+      "failed": 0,
+      "pending": 154
+    }
+  },
+  "targetBpf": {
+    "targetInstanceCount": 24,
+    "duplicateInstanceCount": 0,
+    "unexpectedProcessCount": 0,
+    "initialStageReadyCount": 24
+  },
+  "finalOpportunityDistribution": {
+    "Active": 24,
+    "Won": 0,
+    "Lost": 0
+  },
+  "relationshipReadbackReady": false,
+  "plugin": {
+    "enabled": 7,
+    "disabled": 0,
+    "ready": true
+  },
+  "stateActionsDeferred": true,
+  "WinOpportunity": 0,
+  "LoseOpportunity": 0,
+  "blocker": {
+    "severity": "P1",
+    "status": 400,
+    "token": "TL-1630",
+    "entity": "annotation",
+    "expectedDate": "2026-07-30",
+    "message": "System date cannot be set to a date in the future",
+    "residualRecordCount": 0,
+    "resolutionRequired": "Approve a separate frozen-data projection rule for future-dated annotations or defer import until the date is no longer future."
+  }
+}

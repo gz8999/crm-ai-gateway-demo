@@ -1,0 +1,116 @@
+{
+  "phase": "1C-5R0",
+  "dryRun": true,
+  "writesExecuted": false,
+  "targetEnvironment": "https://your-org.crm.dynamics.com",
+  "currencyDistribution": [
+    {
+      "transactionCurrencyId": "66421c55-856e-f111-ab0d-00224818ead9",
+      "count": 100,
+      "currency": {
+        "@odata.etag": "W/\"6063997\"",
+        "currencysymbol": "￥",
+        "isocurrencycode": "CNY",
+        "exchangerate@OData.Community.Display.V1.FormattedValue": "1.000000000000",
+        "exchangerate": 1,
+        "currencyname": "Chinese Yuan",
+        "transactioncurrencyid": "66421c55-856e-f111-ab0d-00224818ead9"
+      }
+    }
+  ],
+  "opportunityFieldMapping": {
+    "transactionTotal": "aigw_yearrevenueactual",
+    "generatedBaseTotal": "aigw_yearrevenueactual_base",
+    "deprecatedIndependentCnyField": "aigw_yearrevenueactualcny",
+    "pluginWrites": [
+      "aigw_yearrevenueactual"
+    ],
+    "pluginNeverWrites": [
+      "aigw_yearrevenueactual_base",
+      "aigw_yearrevenueactualcny",
+      "any _base field"
+    ],
+    "formFutureBinding": {
+      "current": "aigw_yearrevenueactualcny",
+      "proposed": "aigw_yearrevenueactual_base",
+      "executableThisPhase": false
+    }
+  },
+  "plugin": {
+    "table": "aigw_actualmanagement",
+    "annualSourceFields": [
+      "aigw_aprilactualrevenue",
+      "aigw_mayactualrevenue",
+      "aigw_juneactualrevenue",
+      "aigw_julyactualrevenue",
+      "aigw_augustactualrevenue",
+      "aigw_septemberactualrevenue",
+      "aigw_octoberactualrevenue",
+      "aigw_novemberactualrevenue",
+      "aigw_decemberactualrevenue",
+      "aigw_januaryactualrevenue",
+      "aigw_februaryactualrevenue",
+      "aigw_marchactualrevenue"
+    ],
+    "filteringAttributes": [
+      "aigw_aprilactualrevenue",
+      "aigw_mayactualrevenue",
+      "aigw_juneactualrevenue",
+      "aigw_julyactualrevenue",
+      "aigw_augustactualrevenue",
+      "aigw_septemberactualrevenue",
+      "aigw_octoberactualrevenue",
+      "aigw_novemberactualrevenue",
+      "aigw_decemberactualrevenue",
+      "aigw_januaryactualrevenue",
+      "aigw_februaryactualrevenue",
+      "aigw_marchactualrevenue",
+      "aigw_opportunityid",
+      "transactioncurrencyid"
+    ],
+    "ignoredFilteringAttributes": [
+      "aigw_annualactualrevenue"
+    ],
+    "firstVersionCardinality": "At most one Actual Management record per Opportunity",
+    "preOperation": "Merge Target and PreImage; set Target.aigw_annualactualrevenue to rounded sum of 12 monthly Revenue fields only when changed.",
+    "postOperation": "Recalculate old/new parents; require zero or one related Actual row; update only opportunity.aigw_yearrevenueactual when changed.",
+    "currencyRule": "Actual Management transactioncurrencyid must equal related Opportunity transactioncurrencyid.",
+    "uniqueness": {
+      "create": "PreValidation query by aigw_opportunityid; reject if any record exists",
+      "updateReparent": "PreValidation query new Opportunity excluding current record; reject if occupied",
+      "databaseAlternateKeyAvailable": false,
+      "limitation": "Dataverse alternate keys cannot enforce uniqueness on a lookup alone in this design; synchronous validation is the first-version guard."
+    },
+    "recursion": [
+      "Depth and SharedVariables guard",
+      "PreOperation Target mutation instead of child Update",
+      "Parent update only when rounded total differs"
+    ]
+  },
+  "seed": {
+    "blocked": true,
+    "expectedOpportunityCount": 100,
+    "existingActualCount": 0,
+    "existingCurrencyMismatchCount": 0,
+    "currencyInheritanceRequired": true,
+    "annualChildFieldExcludedFromPayload": true,
+    "opportunityTotalsExcludedFromPayload": true
+  },
+  "futureFormChange": {
+    "required": true,
+    "targetFormId": "<FULL_REPLICA_FORM_ID>",
+    "replaceControlBinding": {
+      "from": "aigw_yearrevenueactualcny",
+      "to": "aigw_yearrevenueactual_base"
+    },
+    "preserveDeprecatedField": true,
+    "saveOnlyThenValidate": true,
+    "publishSeparateGate": true
+  },
+  "rollback": {
+    "thisPhase": "No Dataverse changes",
+    "futurePlugin": "Disable/unregister only newly registered steps under separate authorization",
+    "futureForm": "Restore exact unpublished FormXML/FormJSON baseline under separate authorization",
+    "futureSeed": "Delete only execution-recorded Actual IDs; plugin recalculates parent totals"
+  }
+}

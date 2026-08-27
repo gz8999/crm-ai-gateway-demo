@@ -1,0 +1,43 @@
+{
+  "phase": "Phase 1C-5R2G-D3A",
+  "ownerTokens": [
+    "OWNER-DEMO-01",
+    "OWNER-DEMO-02",
+    "OWNER-DEMO-03",
+    "OWNER-DEMO-04",
+    "OWNER-DEMO-05",
+    "OWNER-DEMO-06"
+  ],
+  "candidates": [
+    {
+      "alias": "OWNER-CANDIDATE-01",
+      "principalType": "systemuser",
+      "active": true,
+      "interactive": true,
+      "licensed": true,
+      "applicationUser": false,
+      "integrationUser": false,
+      "administrator": false,
+      "businessUnitAlias": "BU-CANDIDATE-01",
+      "businessUnitCompatible": true,
+      "securityReady": true,
+      "directRoleAliases": [
+        "Basic User",
+        "CRM AI Demo BPF User"
+      ],
+      "recommended": true,
+      "approvalRequired": true
+    }
+  ],
+  "recommendedMapping": {
+    "OWNER-DEMO-01": "OWNER-CANDIDATE-01",
+    "OWNER-DEMO-02": "OWNER-CANDIDATE-01",
+    "OWNER-DEMO-03": "OWNER-CANDIDATE-01",
+    "OWNER-DEMO-04": "OWNER-CANDIDATE-01",
+    "OWNER-DEMO-05": "OWNER-CANDIDATE-01",
+    "OWNER-DEMO-06": "OWNER-CANDIDATE-01"
+  },
+  "ordinaryInteractiveOwnerCandidateReady": true,
+  "ownerSetupRequired": false,
+  "ownerMappingApproved": false
+}

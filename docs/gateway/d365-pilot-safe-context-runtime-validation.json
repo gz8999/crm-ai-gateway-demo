@@ -1,0 +1,50 @@
+{
+  "phase": "Phase 1C-6F-A",
+  "validatedOpportunityCount": 24,
+  "filterOrder": [
+    "Pilot token allowlist",
+    "Authorized department scope",
+    "Safe Context builder",
+    "Deterministic decision pack"
+  ],
+  "allowedFieldGroups": [
+    "safeToken",
+    "salesDepartment",
+    "opportunityState",
+    "bpfStage",
+    "priority",
+    "amountBand",
+    "annualRevenueBand",
+    "annualMarginBand",
+    "budgetVarianceBand",
+    "marginVarianceBand",
+    "coverageCategory",
+    "interactionSignals",
+    "sanitizedTimelineSignals",
+    "relativeDateSignals",
+    "opportunityCloseExists",
+    "evidenceTokens"
+  ],
+  "prohibitedRuntimeFields": [
+    "customer display name",
+    "contact identity",
+    "Dataverse GUID",
+    "exact amount",
+    "raw Timeline text",
+    "raw OpportunityClose description",
+    "user or team identity",
+    "scenario id",
+    "Golden assertions"
+  ],
+  "results": {
+    "customerIdentityMasked": true,
+    "exactAmountSentToModel": false,
+    "rawTimelineSent": false,
+    "scenarioGoldenRuntimeExposure": 0,
+    "guidExposure": 0,
+    "crmWritebackEnabled": false,
+    "externalLlmEnabled": false,
+    "productionRequests": 0
+  },
+  "ready": true
+}

@@ -1,0 +1,51 @@
+{
+  "phase": "1C-3B-Retry",
+  "dryRun": true,
+  "executable": false,
+  "authorizationPhrase": "CONFIRM_D365_TEST_WRITE_PHASE_1C_3B_RETRY_ADD_VIEW_TO_SOLUTION",
+  "targetEnvironment": "https://your-org.crm.dynamics.com",
+  "solution": "CRMAIGatewayDemo",
+  "savedQueryId": "<ACTUAL_MANAGEMENT_VIEW_ID>",
+  "prerequisite": "Re-run all read-only membership queries immediately before POST; if any direct component exists, skip as alreadyExistsAndValid.",
+  "request": {
+    "method": "POST",
+    "endpoint": "/api/data/v9.2/AddSolutionComponent",
+    "payload": {
+      "ComponentId": "<ACTUAL_MANAGEMENT_VIEW_ID>",
+      "ComponentType": 26,
+      "SolutionUniqueName": "CRMAIGatewayDemo",
+      "AddRequiredComponents": false,
+      "DoNotIncludeSubcomponents": true
+    }
+  },
+  "responseHandling": {
+    "persist": [
+      "status",
+      "body",
+      "body.id",
+      "selected response headers",
+      "JSON-serialized body as rawResponseBodyEquivalent"
+    ],
+    "authoritativeResponseIdPath": "response.body.id",
+    "responseIdMeaning": "solutioncomponent.solutioncomponentid",
+    "membershipReadback": [
+      "GET /api/data/v9.2/solutioncomponents(<response.body.id>)",
+      "GET /api/data/v9.2/solutioncomponents?$filter=_solutionid_value eq 57462493-7477-f111-ab0e-000d3a805a4c and componenttype eq 26 and objectid eq <ACTUAL_MANAGEMENT_VIEW_ID>",
+      "GET /api/data/v9.2/solutions(57462493-7477-f111-ab0e-000d3a805a4c)/solution_solutioncomponent?$filter=componenttype eq 26 and objectid eq <ACTUAL_MANAGEMENT_VIEW_ID>"
+    ]
+  },
+  "timeoutPolicy": {
+    "postCalls": 1,
+    "retriesInSameRun": 0,
+    "pollAttempts": 8,
+    "pollIntervalMs": 1500
+  },
+  "forbidden": [
+    "SavedQuery create/update/delete",
+    "Form/Subgrid",
+    "PublishXml",
+    "Business Rule/BPF activation",
+    "data writes",
+    "Phase 1C-4"
+  ]
+}

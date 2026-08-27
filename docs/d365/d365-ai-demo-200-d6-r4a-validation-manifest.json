@@ -1,0 +1,102 @@
+{
+  "phase": "Phase 1C-5R2G-D6-R4A",
+  "status": "FULL_WIN_CANARY_COMPLETED",
+  "fullWinCanary": {
+    "alias": "FULL-WIN-CANARY-TOKEN",
+    "opportunityToken": "DEMO-OPP-001",
+    "actionType": "WinOpportunity",
+    "actionStatus": "Succeeded",
+    "status": 3,
+    "actualRevenueDoubleChecked": true,
+    "actualEnd": "2026-06-15",
+    "actualToken": "ACT-001",
+    "accountToken": "A-006",
+    "contactToken": "C-011",
+    "requestCorrelationRecordedPrivately": true,
+    "opportunityCloseCreated": true,
+    "attachmentCount": 0,
+    "bpfClassification": "A / BPF Full Win Side Effect=None",
+    "relatedBusinessHashUnchanged": true
+  },
+  "entityCounts": {
+    "Account": 60,
+    "Contact": 120,
+    "Opportunity": 200,
+    "ServiceCoverage": 240,
+    "ActualManagement": 130,
+    "Timeline": 1800,
+    "InteractionSignal": 1350
+  },
+  "explicitRecordCount": 3900,
+  "opportunityState": {
+    "Won": 8,
+    "Active": 191,
+    "Lost": 1
+  },
+  "opportunityClose": {
+    "win": 8,
+    "lose": 1,
+    "total": 9,
+    "duplicate": 0,
+    "attachments": 0
+  },
+  "bpf": {
+    "target": 200,
+    "initialStage": 200,
+    "duplicate": 0,
+    "unexpected": 0,
+    "processOrder": 0
+  },
+  "plugin": {
+    "enabled": 7,
+    "disabled": 0
+  },
+  "requestDelta": {
+    "ActualGET": 1,
+    "WinOpportunityAttempts": 1,
+    "LoseOpportunity": 0,
+    "PATCH": 0,
+    "DELETE": 0,
+    "Publish": 0,
+    "BPFWrites": 0,
+    "OtherBusinessPOST": 0,
+    "ProductionRequests": 0,
+    "ExternalLLMCalls": 0
+  },
+  "p0": 0,
+  "p1": 0,
+  "p2": 0,
+  "gates": {
+    "fullWinCanaryAuthorized": true,
+    "remainingWinCandidateCount": 84,
+    "fullWinCandidateSelectionReady": true,
+    "fullWinPreflightReady": true,
+    "actualRevenueIntegrityReady": true,
+    "fullWinActionExecuted": true,
+    "fullWinReadbackReady": true,
+    "opportunityCloseReady": true,
+    "actualCloseDateReady": true,
+    "importedTimelineIntegrityReady": true,
+    "signalIntegrityReady": true,
+    "actualIntegrityReady": true,
+    "coverageIntegrityReady": true,
+    "bpfInstanceIntegrityReady": true,
+    "bpfPlatformSideEffectClassification": "A / BPF Full Win Side Effect=None",
+    "nonCanaryOpportunityIntegrityReady": true,
+    "fullDatasetExplicitRecordIntegrityReady": true,
+    "currentStateDistribution": {
+      "Won": 8,
+      "Active": 191,
+      "Lost": 1
+    },
+    "remainingWinActions": 83,
+    "remainingLoseActions": 8,
+    "fullStateActionsCompleted": false,
+    "fullImportCompleted": false,
+    "fullImportClosed": false,
+    "cleanupAuthorized": false,
+    "cleanupExecuted": false,
+    "gatewayFullDatasetIntegrationReady": false,
+    "productionIsolationReady": true
+  }
+}

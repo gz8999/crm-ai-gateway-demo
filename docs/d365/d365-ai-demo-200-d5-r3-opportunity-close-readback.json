@@ -1,0 +1,19 @@
+{
+  "phase": "Phase 1C-5R2G-D5-R3",
+  "opportunityToken": "DEMO-OPP-026",
+  "beforeCount": 0,
+  "afterCount": 1,
+  "delta": 1,
+  "subject": "[AI-DEMO] Lose DEMO-OPP-026",
+  "actualEnd": "2026-05-18",
+  "descriptionPolicy": "synthetic-token-and-frozen-synthetic-lost-reason-only",
+  "actualRevenue": null,
+  "attachmentCount": 0,
+  "documentNoteCount": 0,
+  "activityAggregateBefore": 8,
+  "activityAggregateAfter": 9,
+  "activityAggregateDelta": 1,
+  "identityExposed": false,
+  "guidExposed": false,
+  "ready": true
+}

@@ -1,0 +1,359 @@
+{
+  "phase": "Phase 1C-5R2E-1A",
+  "title": "D365 Opportunity High-Fidelity UI Gap Audit",
+  "readOnly": true,
+  "auditReady": true,
+  "evidence": {
+    "referenceScreenshotCount": 9,
+    "classification": {
+      "summary": [
+        "商机详情页1.jpeg",
+        "商机详情页2.jpeg",
+        "商机详情页3.jpeg",
+        "商机详情页4.jpeg",
+        "商机详情页5.jpeg"
+      ],
+      "actuals": [
+        "商机详情页实绩1.jpeg",
+        "商机详情页实绩2.jpeg"
+      ],
+      "other": [
+        "商机详情页预算1.jpeg",
+        "商机详情页预算2.jpeg"
+      ],
+      "bpfCrossCuttingEvidenceCount": 9,
+      "standaloneBpfScreenshotCount": 0
+    },
+    "screenshotsCommitted": false,
+    "liveRenderedTestFormCaptured": false,
+    "evidenceLimit": "The current test implementation was audited from unpublished FormXML/FormJSON and metadata. Pixel-level comparison requires a later rendered preview after the form and process are made available in an App."
+  },
+  "environmentGate": {
+    "approvedTestHostVerified": true,
+    "organizationUniqueNameVerified": true,
+    "solutionUniqueName": "CRMAIGatewayDemo",
+    "solutionDisplayName": "CRM AI Gateway Demo",
+    "solutionManaged": false,
+    "publisherPrefix": "aigw",
+    "aiProvider": "demo",
+    "allowExternalAi": false,
+    "productionRequests": 0
+  },
+  "currentBaseline": {
+    "form": {
+      "name": "AI Gateway Opportunity Demo - Full Replica",
+      "idRef": "D365_FULL_REPLICA_FORM_ID",
+      "inactive": true,
+      "nonDefault": true,
+      "unpublishedChangesPresent": true,
+      "inApp": false,
+      "tabs": 5,
+      "sections": 19,
+      "controls": 114,
+      "uniqueBoundFields": 106,
+      "formXmlFormJsonSynchronized": true,
+      "undefinedTokens": 0,
+      "tabsInOrder": [
+        "摘要",
+        "预算",
+        "实绩",
+        "Products",
+        "Files"
+      ],
+      "summaryColumns": {
+        "left": [
+          "商机信息",
+          "Sales Person Info",
+          "商机详细信息",
+          "POL&POD"
+        ],
+        "right": [
+          "汇总信息",
+          "预算",
+          "年度预算",
+          "实绩",
+          "Timeline"
+        ]
+      },
+      "budget": {
+        "sections": ["1Q", "2Q", "3Q", "4Q"],
+        "monthlyBudgetFields": 36,
+        "monthlyFieldsOutsideBudget": 0
+      }
+    },
+    "header": {
+      "fieldOrder": [
+        "aigw_budgetstatus",
+        "aigw_winprobabilityrank",
+        "ownerid"
+      ],
+      "labels1033": [
+        "是否预算内",
+        "受注确度",
+        "Owner"
+      ]
+    },
+    "actualsSubgrid": {
+      "countInActualsTab": 1,
+      "controlId": "aigw_actualmanagement_subgrid",
+      "targetTable": "aigw_actualmanagement",
+      "relationship": "aigw_opportunity_actualmanagement",
+      "defaultView": "实绩管理 - AI Demo",
+      "recordsPerPage": 10,
+      "onlyRelatedRecords": true,
+      "search": true,
+      "viewSelector": true,
+      "chart": false,
+      "autoExpand": false,
+      "label1033": "实绩管理",
+      "label2052": "实绩管理"
+    },
+    "actualManagementView": {
+      "active": true,
+      "columns": [
+        "aigw_name",
+        "aigw_opportunityid",
+        "aigw_expectedorderdate",
+        "aigw_annualactualrevenue",
+        "aigw_annualactualrevenue_base",
+        "modifiedon"
+      ],
+      "sort": "modifiedon descending",
+      "filter": null,
+      "linkEntity": null
+    },
+    "actualManagementMainForm": {
+      "activeMainFormCount": 1,
+      "tabs": 1,
+      "sections": 1,
+      "controls": 1,
+      "onlyBoundField": "aigw_name",
+      "monthlyRevenueFieldsPresent": 0,
+      "monthlyGpFieldsPresent": 0,
+      "monthlyMpFieldsPresent": 0,
+      "annualFieldPresent": false
+    },
+    "calculatedFieldControls": {
+      "aigw_annualactualrevenue": {
+        "controlsAcrossAccessibleActualForms": 0,
+        "readOnlyControls": 0,
+        "result": "Not displayed; must be added read-only when the Actual Management entry form is built."
+      },
+      "aigw_yearrevenueactual": {
+        "controlsOnFullReplica": 1,
+        "readOnlyControls": 0,
+        "result": "Fail"
+      },
+      "aigw_yearrevenueactual_base": {
+        "controlsOnFullReplica": 1,
+        "readOnlyControls": 1,
+        "result": "Pass"
+      },
+      "aigw_yearrevenueactualcny": {
+        "controlsOnFullReplica": 0,
+        "result": "Pass"
+      }
+    },
+    "processes": {
+      "customReplicaBpf": {
+        "name": "销售流程 - AI Demo Full Replica",
+        "draftInactive": true,
+        "inApp": false,
+        "stages": [
+          {
+            "order": 1,
+            "name": "授予资格",
+            "steps": ["parentaccountid:required"]
+          },
+          {
+            "order": 2,
+            "name": "案件关闭",
+            "steps": [
+              "aigw_winprobabilityrank:optional",
+              "statuscode:optional",
+              "actualclosedate:optional"
+            ]
+          }
+        ]
+      },
+      "currentManagedSalesProcess": {
+        "active": true,
+        "managed": true,
+        "stages": ["Qualify", "Develop", "Propose", "Close"]
+      },
+      "businessRule": {
+        "name": "AI Gateway Full Replica - Required - Opportunity",
+        "draftInactive": true,
+        "specificForm": true
+      }
+    }
+  },
+  "gapMatrix": [
+    {
+      "id": "P0-01",
+      "priority": "P0",
+      "area": "Automatic totals",
+      "reference": "Summary screenshot shows annual actual totals as locked values.",
+      "current": "aigw_yearrevenueactual is displayed with disabled=false.",
+      "gap": "A plugin-derived parent total can be manually overwritten from the Full Replica form.",
+      "recommendation": "Make the Full Replica control read-only; keep aigw_yearrevenueactual_base read-only and keep aigw_yearrevenueactualcny absent."
+    },
+    {
+      "id": "P0-02",
+      "priority": "P0",
+      "area": "Actual Management entry form",
+      "reference": "The reference Actuals grid exposes annual and April-March monthly values through a related Actual Management record.",
+      "current": "The only active Actual Management Main Form contains only aigw_name.",
+      "gap": "Users cannot enter the 12 monthly Revenue/GP/MP values or verify the related Opportunity and currency.",
+      "recommendation": "Build an Actual Management Main Form with fiscal April-March sections; add aigw_annualactualrevenue as read-only."
+    },
+    {
+      "id": "P0-03",
+      "priority": "P0",
+      "area": "BPF availability",
+      "reference": "Every reference screenshot shows a two-stage Chinese process: 授予资格 then 案件关闭.",
+      "current": "The matching custom BPF is Draft/Inactive and not in an App; the active managed Sales Process has four English stages.",
+      "gap": "The rendered process will not match the reference until a separately governed activation/App/order phase is completed.",
+      "recommendation": "Complete R2E-1C, verify all intended steps, then use separate activation, security, process-order, and App gates. Do not modify the managed Sales Process."
+    },
+    {
+      "id": "P0-04",
+      "priority": "P0",
+      "area": "Release visibility",
+      "reference": "Reference screens are usable record pages inside a model-driven App.",
+      "current": "Full Replica is Inactive, non-default, unpublished, and not included in an App.",
+      "gap": "No release candidate can be visually validated in the target App yet.",
+      "recommendation": "Keep this state during repair; resolve all P0 gaps before the separate publish and App-inclusion gates."
+    },
+    {
+      "id": "P1-01",
+      "priority": "P1",
+      "area": "Header",
+      "reference": "Visible order is 受注确度, 是否预算内, 负责人.",
+      "current": "FormXML order is 是否预算内, 受注确度, ownerid; owner 1033 label is Owner.",
+      "gap": "Field order and base-language owner label differ.",
+      "recommendation": "Reorder the three header cells and align the owner base label without changing the fields."
+    },
+    {
+      "id": "P1-02",
+      "priority": "P1",
+      "area": "Tab language",
+      "reference": "Tabs are 摘要, 预算, 实绩, 产品, 文件, 相关.",
+      "current": "The five form tabs are 摘要, 预算, 实绩, Products, Files; Related remains system navigation rather than a normal tab.",
+      "gap": "Products and Files are English in the base label.",
+      "recommendation": "Use 产品 and 文件 for the base-language tab labels; continue preserving Related as system navigation."
+    },
+    {
+      "id": "P1-03",
+      "priority": "P1",
+      "area": "Option labels",
+      "reference": "Header values use ordinal labels such as 02: A and 01: 预算内.",
+      "current": "Win probability options are A/B/C/D/Y/Z and budget options are 预算内/预算外 without ordinal prefixes.",
+      "gap": "Visible option labels do not faithfully match the reference.",
+      "recommendation": "Audit value-to-label semantics before any label change; add localized display labels only under a dedicated Choice gate."
+    },
+    {
+      "id": "P1-04",
+      "priority": "P1",
+      "area": "Choice consistency",
+      "reference": "Business choices use one numbered set per field.",
+      "current": "aigw_opportunitytype and aigw_casestage contain both earlier English values and separate numbered Chinese values.",
+      "gap": "Duplicate semantic option families can produce inconsistent Designer and runtime choices.",
+      "recommendation": "Resolve the authoritative option family without deleting or rewriting values during a UI-only phase."
+    },
+    {
+      "id": "P1-05",
+      "priority": "P1",
+      "area": "Actuals grid columns",
+      "reference": "The grid spans annual total, April-March Revenue and GP columns, followed by audit columns.",
+      "current": "The default view has six summary columns and no monthly columns.",
+      "gap": "The subgrid does not reproduce the visible monthly overview.",
+      "recommendation": "Create a high-fidelity Actuals subgrid view with the confirmed monthly column set and widths; retain the current concise view as an optional selector if useful."
+    },
+    {
+      "id": "P1-06",
+      "priority": "P1",
+      "area": "Actuals interaction",
+      "reference": "The screenshot proves a related-record grid with one row and horizontal scrolling.",
+      "current": "A standard related-record subgrid exists and points to the correct table, relationship, and active view.",
+      "gap": "The record entry form is incomplete, and the screenshot does not prove inline editing.",
+      "recommendation": "Keep the related-record subgrid architecture. Use row-open Main Form entry unless the user confirms the source grid is editable."
+    },
+    {
+      "id": "P2-01",
+      "priority": "P2",
+      "area": "Mixed-language labels",
+      "reference": "The source intentionally mixes Chinese with Sales Person Info, Timeline, POL&POD and some English option values.",
+      "current": "The same pattern is partly present, but system labels and some options follow different language rules.",
+      "gap": "The mix is not yet governed field by field.",
+      "recommendation": "Create an approved label matrix instead of blanket-translating every English string."
+    },
+    {
+      "id": "P2-02",
+      "priority": "P2",
+      "area": "Grid scanability",
+      "reference": "The source uses a very wide horizontal grid with truncated headings and a scrollbar.",
+      "current": "The concise six-column view is easier to scan but not faithful.",
+      "gap": "High fidelity and day-to-day usability pull in different directions.",
+      "recommendation": "Provide a faithful monthly view plus a concise operational view through the view selector."
+    },
+    {
+      "id": "P3-01",
+      "priority": "P3",
+      "area": "Products, Files, Related",
+      "reference": "These navigation surfaces are present but not evidenced as active business workflows.",
+      "current": "Product and Documents system structures are preserved; Related remains navigation.",
+      "gap": "No functional replication gap is proven.",
+      "recommendation": "Retain without adding product or SharePoint scope."
+    },
+    {
+      "id": "P3-02",
+      "priority": "P3",
+      "area": "Multi-fiscal-year actuals",
+      "reference": "Screenshots show one April-March row but do not establish multi-year behavior.",
+      "current": "The first version enforces at most one Actual Management row per Opportunity.",
+      "gap": "Future fiscal-year history is out of scope.",
+      "recommendation": "Keep the one-record rule for this release and revisit only with a fiscal-year requirement."
+    }
+  ],
+  "requiresUserConfirmation": [
+    "Whether the source Actuals grid supports inline editing or only opens the Actual Management record form.",
+    "Whether monthly MP fields must appear in the grid; the supplied screenshots visibly prove Revenue and GP but not MP.",
+    "The exact BPF data steps and required flags; the screenshots show stage names and order but not the expanded step list.",
+    "Whether the source command should allow creating a new Actual Management record, linking an existing one, or both.",
+    "Whether the Actual Management Main Form should use four quarterly sections with three metric columns, or another entry layout.",
+    "Whether audit columns Created By/On and Modified By/On must remain in the default high-fidelity grid.",
+    "Whether the visible Actuals section heading should remain 实绩 or be hidden, because the screenshot mainly shows the grid surface."
+  ],
+  "implementationOrder": [
+    {
+      "phase": "R2E-1B",
+      "scope": "Chinese labels",
+      "items": ["Header order/label", "Products/Files labels", "approved mixed-language matrix", "Choice-label dry-run"]
+    },
+    {
+      "phase": "R2E-1C",
+      "scope": "BPF replica",
+      "items": ["confirm missing steps", "Designer save-only", "read-only metadata validation", "separate activation/App/order/security gates"]
+    },
+    {
+      "phase": "R2E-1D",
+      "scope": "Actuals entry experience",
+      "items": ["Actual Management Main Form", "read-only derived totals", "monthly view", "subgrid command behavior", "Designer save-only validation"]
+    },
+    {
+      "phase": "R2E-1E",
+      "scope": "Pre-publish integrated validation",
+      "items": ["rendered visual comparison", "FormXML/FormJSON", "BPF/App visibility", "Plugin-derived field locks", "rollback and targeted publish gate"]
+    }
+  ],
+  "requestStats": {
+    "GET": 31,
+    "POST": 0,
+    "PATCH": 0,
+    "DELETE": 0,
+    "Publish": 0,
+    "businessWrites": 0,
+    "productionRequests": 0
+  }
+}

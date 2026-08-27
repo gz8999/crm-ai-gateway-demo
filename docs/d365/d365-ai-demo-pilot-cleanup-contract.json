@@ -1,0 +1,33 @@
+{
+  "phase": "Phase 1C-5R2G-C1-R2",
+  "executionAuthorized": false,
+  "pilotDatasetDefined": false,
+  "exactRecordIdManifestAvailable": false,
+  "cleanupReady": false,
+  "requiredFutureOrder": [
+    "aigw_interactionsignal",
+    "native_timeline",
+    "aigw_actualmanagement",
+    "aigw_customerservicecoverage",
+    "opportunity",
+    "contact",
+    "account"
+  ],
+  "requiredIdentity": [
+    "stableToken",
+    "generationRunToken",
+    "pilotRunToken",
+    "exactDataverseRecordId"
+  ],
+  "forbiddenCleanupMethods": [
+    "name fuzzy delete",
+    "prefix-wide delete",
+    "Location delete",
+    "POL/POD delete",
+    "Owner/User/Team delete",
+    "Choice delete",
+    "Schema delete"
+  ],
+  "records": [],
+  "blocker": "Four-account Pilot is recommended but not approved; Owner mapping is not approved; department Team setup/mapping is unresolved; no Dataverse records were created."
+}

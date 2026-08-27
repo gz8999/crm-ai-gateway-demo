@@ -1,0 +1,13 @@
+{
+  "baselineRun": "PHASE3C-R5B5",
+  "currentRun": "PHASE3C-R5B6",
+  "changedFields": [
+    "max_tokens"
+  ],
+  "unexpectedChangedFields": [],
+  "maxTokensBefore": 1200,
+  "maxTokensAfter": 2400,
+  "stableFieldsEqual": true,
+  "r5b5RequestBodyHash": "deee02fcea89a86f113936b5fda439387dcfc47465bd331fab70aec29c869735",
+  "r5b6RequestBodyHash": "dc9e8dc01707e1fa8b4dc131e5cfc8cfa43dc09c018ce6079fd825c63f4e8300"
+}

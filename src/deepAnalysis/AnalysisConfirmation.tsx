@@ -1,0 +1,17 @@
+import type { DeepAnalysisPreview, DeepAnalysisTemplate } from "./types";
+import { useI18n } from "../i18n";
+import { localizeDeepAnalysisTemplate } from "./templateLocalization";
+
+export function AnalysisConfirmation({ preview, template, onConfirm, onCancel, onHighFidelityToggle, highFidelityConfirmed, onHighFidelityConfirmChange, running }: { preview: DeepAnalysisPreview; template: DeepAnalysisTemplate; onConfirm: () => void; onCancel: () => void; onHighFidelityToggle: (enabled: boolean) => void; highFidelityConfirmed: boolean; onHighFidelityConfirmChange: (confirmed: boolean) => void; running: boolean }) {
+  const { language, t } = useI18n();
+  const localizedTemplate = localizeDeepAnalysisTemplate(template, language);
+  const external = preview.provider === "openai-compatible" && preview.externalModelAvailable;
+  const high = preview.analysisContextMode === "high_fidelity_identity_redacted";
+  return <section className="deep-confirmation product-panel"><header><div><span>{template.code}</span><h3>{t("deepAnalysis.scopeTitle")}</h3><p>{localizedTemplate.title}</p></div><strong>{high ? t("deepAnalysis.highFidelityConfirm") : t("deepAnalysis.waitingConfirm")}</strong></header>
+    {preview.highFidelityAvailable ? <section className="high-fidelity-switch"><label><input type="checkbox" checked={high} disabled={running} onChange={(event) => onHighFidelityToggle(event.target.checked)} />{t("deepAnalysis.highFidelityToggle")}</label><p>{t("deepAnalysis.highFidelityDescription")}</p></section> : null}
+    <div className="deep-confirmation-grid"><ConfirmationList title={high ? t("deepAnalysis.sendHighFidelity") : t("deepAnalysis.useSafeContext")} items={preview.availableData} /><ConfirmationList title={t("deepAnalysis.neverSend")} items={preview.neverSent} tone="safe" /><ConfirmationList title={t("deepAnalysis.currentLimitations")} items={preview.currentLimitations} tone="limited" /></div>
+    {high ? <section className="high-fidelity-modal" role="dialog" aria-modal="true" aria-labelledby="high-fidelity-confirm-title"><h3 id="high-fidelity-confirm-title">{t("deepAnalysis.highFidelityModalTitle")}</h3><ul><li>{t("deepAnalysis.crmOriginalSent")}</li><li>{t("deepAnalysis.timelineOriginalSent")}</li><li>{t("deepAnalysis.exactAmountSentHigh")}</li><li>{t("deepAnalysis.highFidelityDescription")}</li><li>{t("deepAnalysis.neverSend")}: {t("deepAnalysis.highFidelityNeverSendDetails")}</li></ul><label className="high-fidelity-consent"><input type="checkbox" checked={highFidelityConfirmed} disabled={running} onChange={(event) => onHighFidelityConfirmChange(event.target.checked)} />{t("deepAnalysis.highFidelityConfirmText")}</label></section> : null}
+    <footer><p>{high ? t("deepAnalysis.highFidelityOnlyOne") : external ? t("deepAnalysis.externalWillRun") : t("deepAnalysis.demoWillRun")}</p><div><button type="button" className="secondary" disabled={running} onClick={onCancel}>{t("deepAnalysis.returnTemplates")}</button><button type="button" disabled={running || (high && !highFidelityConfirmed)} onClick={(event) => { event.preventDefault(); if (!running && (!high || highFidelityConfirmed)) onConfirm(); }}>{high ? t("deepAnalysis.confirmStartHigh") : external ? t("deepAnalysis.startExternal") : t("deepAnalysis.startDemo")}</button></div></footer></section>;
+}
+
+function ConfirmationList({ title, items, tone = "" }: { title: string; items: string[]; tone?: string }) { return <section className={tone}><h3>{title}</h3><ul>{items.map((item) => <li key={item}>{item}</li>)}</ul></section>; }

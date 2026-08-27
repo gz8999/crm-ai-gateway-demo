@@ -1,0 +1,52 @@
+{
+  "phase": "Phase 1C-6F-A",
+  "dataSource": "D365 Pilot",
+  "environment": {
+    "allowedHostname": "org91f5f65f.crm5.dynamics.com",
+    "productionRequests": 0,
+    "methods": ["GET"]
+  },
+  "scope": {
+    "opportunityCount": 24,
+    "defaultOpportunityToken": "DEMO-OPP-199",
+    "entities": {
+      "account": 7,
+      "contact": 9,
+      "opportunity": 24,
+      "actualManagement": 12,
+      "serviceCoverage": 15,
+      "timeline": 206,
+      "interactionSignal": 154,
+      "opportunityClose": 8,
+      "bpf": 24
+    },
+    "stateDistribution": { "active": 16, "won": 7, "lost": 1 }
+  },
+  "departments": [
+    { "id": "all", "label": "全部部门", "count": 24 },
+    { "id": "dept1-industry", "label": "Dept1 Industry", "count": 1 },
+    { "id": "dept1-distribution", "label": "Dept1 Distribution", "count": 2 },
+    { "id": "dept2-lcms", "label": "Dept2 LCMS", "count": 1 },
+    { "id": "dept3-project-cargo", "label": "Dept3 Project Cargo", "count": 1 },
+    { "id": "dept3-dangerous-goods", "label": "Dept3 Dangerous Goods", "count": 1 },
+    { "id": "ff", "label": "FF", "count": 17 },
+    { "id": "others", "label": "Others", "count": 1 }
+  ],
+  "readOnlyApis": [
+    "GET /api/pilot/runtime-status",
+    "GET /api/pilot/portfolio",
+    "GET /api/pilot/opportunities/:token",
+    "GET /api/pilot/safe-context/:token",
+    "GET /api/pilot/decision-pack/:token"
+  ],
+  "security": {
+    "pilotTokenAllowlist": true,
+    "departmentFilterBeforeSafeContext": true,
+    "customerIdentityMasked": true,
+    "exactAmountSentToModel": false,
+    "rawTimelineSent": false,
+    "crmWritebackEnabled": false,
+    "externalLlmEnabled": false,
+    "silentFallback": false
+  }
+}

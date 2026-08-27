@@ -1,0 +1,3462 @@
+{
+  "version": "3B-v1",
+  "sourceCommit": "5616845",
+  "scoringTimestamp": "2026-07-18T00:00:00.000Z",
+  "dataset": {
+    "opportunity": 200,
+    "account": 60,
+    "contact": 120,
+    "actual": 130,
+    "coverage": 240,
+    "timeline": 1800,
+    "signal": 1350,
+    "opportunityClose": 100,
+    "bpf": 200,
+    "stateDistribution": {
+      "active": 100,
+      "won": 91,
+      "lost": 9
+    }
+  },
+  "repeatability": {
+    "repetitions": 3,
+    "scoreDifferenceCount": 0,
+    "gradeDifferenceCount": 0,
+    "evidenceDifferenceCount": 0,
+    "rankingDifferenceCount": 0,
+    "digests": [
+      {
+        "score": "5be880df50a466ba7ce6741593930acaf00a4349e68660f9759131c1c1f3fa7b",
+        "evidence": "c0d578eec13d8c4ba62596e318625dee0f37e09cf5ac0fa2e91437889ddf7d53",
+        "ranking": "8b93370487236f8dc45a9ac4e7953be3472ae5016bcacce83b583e82421a0eb6",
+        "grade": "5c2b45a6bf7cd690c5a74a4aaebdf1eeeb3b0113caadc829ddac57525bea9bcb"
+      },
+      {
+        "score": "5be880df50a466ba7ce6741593930acaf00a4349e68660f9759131c1c1f3fa7b",
+        "evidence": "c0d578eec13d8c4ba62596e318625dee0f37e09cf5ac0fa2e91437889ddf7d53",
+        "ranking": "8b93370487236f8dc45a9ac4e7953be3472ae5016bcacce83b583e82421a0eb6",
+        "grade": "5c2b45a6bf7cd690c5a74a4aaebdf1eeeb3b0113caadc829ddac57525bea9bcb"
+      },
+      {
+        "score": "5be880df50a466ba7ce6741593930acaf00a4349e68660f9759131c1c1f3fa7b",
+        "evidence": "c0d578eec13d8c4ba62596e318625dee0f37e09cf5ac0fa2e91437889ddf7d53",
+        "ranking": "8b93370487236f8dc45a9ac4e7953be3472ae5016bcacce83b583e82421a0eb6",
+        "grade": "5c2b45a6bf7cd690c5a74a4aaebdf1eeeb3b0113caadc829ddac57525bea9bcb"
+      }
+    ],
+    "ready": true
+  },
+  "calibration": {
+    "groupStats": {
+      "state": {
+        "Active": {
+          "count": 100,
+          "mean": 71.98,
+          "median": 72.7,
+          "standardDeviation": 5.41,
+          "minimum": 61.43,
+          "maximum": 77.83,
+          "gradeDistribution": {
+            "A": 0,
+            "B": 61,
+            "C": 39,
+            "D": 0
+          }
+        },
+        "Lost": {
+          "count": 9,
+          "mean": 61.87,
+          "median": 60.47,
+          "standardDeviation": 1.89,
+          "minimum": 59.8,
+          "maximum": 64.12,
+          "gradeDistribution": {
+            "A": 0,
+            "B": 0,
+            "C": 9,
+            "D": 0
+          }
+        },
+        "Won": {
+          "count": 91,
+          "mean": 91.97,
+          "median": 92.55,
+          "standardDeviation": 1.62,
+          "minimum": 88.9,
+          "maximum": 93.22,
+          "gradeDistribution": {
+            "A": 91,
+            "B": 0,
+            "C": 0,
+            "D": 0
+          }
+        }
+      },
+      "stage": {
+        "Qualify": {
+          "count": 200,
+          "mean": 80.62,
+          "median": 77.83,
+          "standardDeviation": 11.3,
+          "minimum": 59.8,
+          "maximum": 93.22,
+          "gradeDistribution": {
+            "A": 91,
+            "B": 61,
+            "C": 48,
+            "D": 0
+          }
+        }
+      },
+      "actualPresence": {
+        "none": {
+          "count": 70,
+          "mean": 71.74,
+          "median": 75.33,
+          "standardDeviation": 6.42,
+          "minimum": 59.8,
+          "maximum": 77.83,
+          "gradeDistribution": {
+            "A": 0,
+            "B": 39,
+            "C": 31,
+            "D": 0
+          }
+        },
+        "present": {
+          "count": 130,
+          "mean": 85.4,
+          "median": 92.55,
+          "standardDeviation": 10.44,
+          "minimum": 63.35,
+          "maximum": 93.22,
+          "gradeDistribution": {
+            "A": 91,
+            "B": 22,
+            "C": 17,
+            "D": 0
+          }
+        }
+      },
+      "closePresence": {
+        "none": {
+          "count": 100,
+          "mean": 71.98,
+          "median": 72.7,
+          "standardDeviation": 5.41,
+          "minimum": 61.43,
+          "maximum": 77.83,
+          "gradeDistribution": {
+            "A": 0,
+            "B": 61,
+            "C": 39,
+            "D": 0
+          }
+        },
+        "present": {
+          "count": 100,
+          "mean": 89.26,
+          "median": 92.55,
+          "standardDeviation": 8.77,
+          "minimum": 59.8,
+          "maximum": 93.22,
+          "gradeDistribution": {
+            "A": 91,
+            "B": 0,
+            "C": 9,
+            "D": 0
+          }
+        }
+      },
+      "department": {
+        "Dept1 Distribution": {
+          "count": 4,
+          "mean": 81.78,
+          "median": 77.17,
+          "standardDeviation": 9.91,
+          "minimum": 67.82,
+          "maximum": 92.55,
+          "gradeDistribution": {
+            "A": 2,
+            "B": 1,
+            "C": 1,
+            "D": 0
+          }
+        },
+        "Dept1 Industry": {
+          "count": 11,
+          "mean": 75.06,
+          "median": 77.17,
+          "standardDeviation": 10.4,
+          "minimum": 60.47,
+          "maximum": 93.22,
+          "gradeDistribution": {
+            "A": 2,
+            "B": 5,
+            "C": 4,
+            "D": 0
+          }
+        },
+        "Dept2 LCMS": {
+          "count": 6,
+          "mean": 85.42,
+          "median": 77.83,
+          "standardDeviation": 7.81,
+          "minimum": 77.17,
+          "maximum": 93.22,
+          "gradeDistribution": {
+            "A": 3,
+            "B": 3,
+            "C": 0,
+            "D": 0
+          }
+        },
+        "Dept3 Dangerous Goods": {
+          "count": 2,
+          "mean": 76.58,
+          "median": 75.33,
+          "standardDeviation": 1.25,
+          "minimum": 75.33,
+          "maximum": 77.83,
+          "gradeDistribution": {
+            "A": 0,
+            "B": 2,
+            "C": 0,
+            "D": 0
+          }
+        },
+        "Dept3 Project Cargo": {
+          "count": 3,
+          "mean": 72.79,
+          "median": 77.17,
+          "standardDeviation": 6.2,
+          "minimum": 64.02,
+          "maximum": 77.17,
+          "gradeDistribution": {
+            "A": 0,
+            "B": 2,
+            "C": 1,
+            "D": 0
+          }
+        },
+        "FF": {
+          "count": 172,
+          "mean": 80.93,
+          "median": 77.83,
+          "standardDeviation": 11.45,
+          "minimum": 59.8,
+          "maximum": 93.22,
+          "gradeDistribution": {
+            "A": 83,
+            "B": 47,
+            "C": 42,
+            "D": 0
+          }
+        },
+        "Others": {
+          "count": 2,
+          "mean": 83.3,
+          "median": 73.37,
+          "standardDeviation": 9.92,
+          "minimum": 73.37,
+          "maximum": 93.22,
+          "gradeDistribution": {
+            "A": 1,
+            "B": 1,
+            "C": 0,
+            "D": 0
+          }
+        }
+      },
+      "amountBand": {
+        "none": {
+          "count": 200,
+          "mean": 80.62,
+          "median": 77.83,
+          "standardDeviation": 11.3,
+          "minimum": 59.8,
+          "maximum": 93.22,
+          "gradeDistribution": {
+            "A": 91,
+            "B": 61,
+            "C": 48,
+            "D": 0
+          }
+        }
+      },
+      "timelineDensity": {
+        "rich": {
+          "count": 200,
+          "mean": 80.62,
+          "median": 77.83,
+          "standardDeviation": 11.3,
+          "minimum": 59.8,
+          "maximum": 93.22,
+          "gradeDistribution": {
+            "A": 91,
+            "B": 61,
+            "C": 48,
+            "D": 0
+          }
+        }
+      },
+      "signalDensity": {
+        "rich": {
+          "count": 200,
+          "mean": 80.62,
+          "median": 77.83,
+          "standardDeviation": 11.3,
+          "minimum": 59.8,
+          "maximum": 93.22,
+          "gradeDistribution": {
+            "A": 91,
+            "B": 61,
+            "C": 48,
+            "D": 0
+          }
+        }
+      },
+      "coverage": {
+        "broad": {
+          "count": 200,
+          "mean": 80.62,
+          "median": 77.83,
+          "standardDeviation": 11.3,
+          "minimum": 59.8,
+          "maximum": 93.22,
+          "gradeDistribution": {
+            "A": 91,
+            "B": 61,
+            "C": 48,
+            "D": 0
+          }
+        }
+      }
+    },
+    "featureCorrelation": {
+      "opportunityState": 0.88,
+      "stage": 0,
+      "actualPresence": 0.52,
+      "closePresence": 0.72,
+      "department": 0.07,
+      "amountBand": 0,
+      "timelineDensity": 0.49,
+      "signalDensity": 0.49,
+      "coverage": 0
+    },
+    "featureContribution": {
+      "pipeline": {
+        "averageScore": 77,
+        "weight": 0.25,
+        "weightedContribution": 19.25
+      },
+      "completeness": {
+        "averageScore": 71.41,
+        "weight": 0.2,
+        "weightedContribution": 14.28
+      },
+      "profitability": {
+        "averageScore": 84.09,
+        "weight": 0.2,
+        "weightedContribution": 16.82
+      },
+      "engagement": {
+        "averageScore": 89.74,
+        "weight": 0.15,
+        "weightedContribution": 13.46
+      },
+      "risk": {
+        "averageScore": 82.06,
+        "weight": 0.15,
+        "weightedContribution": 12.31
+      },
+      "confidence": {
+        "averageScore": 90,
+        "weight": 0.05,
+        "weightedContribution": 4.5
+      }
+    },
+    "statusMasked": {
+      "scoreChange": {
+        "mean": 0.07,
+        "median": 0,
+        "standardDeviation": 4.38,
+        "minimum": -2.5,
+        "maximum": 18.8
+      },
+      "changedScoreCount": 161,
+      "changedGradeCount": 9,
+      "activeInternalRanking": [
+        {
+          "opportunityToken": "DEMO-OPP-115",
+          "rank": 1,
+          "healthScore": 62.63
+        },
+        {
+          "opportunityToken": "DEMO-OPP-134",
+          "rank": 2,
+          "healthScore": 62.63
+        },
+        {
+          "opportunityToken": "DEMO-OPP-013",
+          "rank": 3,
+          "healthScore": 63.35
+        },
+        {
+          "opportunityToken": "DEMO-OPP-068",
+          "rank": 4,
+          "healthScore": 63.35
+        },
+        {
+          "opportunityToken": "DEMO-OPP-027",
+          "rank": 5,
+          "healthScore": 64.02
+        },
+        {
+          "opportunityToken": "DEMO-OPP-047",
+          "rank": 6,
+          "healthScore": 64.02
+        },
+        {
+          "opportunityToken": "DEMO-OPP-062",
+          "rank": 7,
+          "healthScore": 64.02
+        },
+        {
+          "opportunityToken": "DEMO-OPP-069",
+          "rank": 8,
+          "healthScore": 64.02
+        },
+        {
+          "opportunityToken": "DEMO-OPP-078",
+          "rank": 9,
+          "healthScore": 64.02
+        },
+        {
+          "opportunityToken": "DEMO-OPP-084",
+          "rank": 10,
+          "healthScore": 64.02
+        },
+        {
+          "opportunityToken": "DEMO-OPP-132",
+          "rank": 11,
+          "healthScore": 64.02
+        },
+        {
+          "opportunityToken": "DEMO-OPP-139",
+          "rank": 12,
+          "healthScore": 64.02
+        },
+        {
+          "opportunityToken": "DEMO-OPP-168",
+          "rank": 13,
+          "healthScore": 64.02
+        },
+        {
+          "opportunityToken": "DEMO-OPP-010",
+          "rank": 14,
+          "healthScore": 65.13
+        },
+        {
+          "opportunityToken": "DEMO-OPP-060",
+          "rank": 15,
+          "healthScore": 65.13
+        },
+        {
+          "opportunityToken": "DEMO-OPP-066",
+          "rank": 16,
+          "healthScore": 65.13
+        },
+        {
+          "opportunityToken": "DEMO-OPP-101",
+          "rank": 17,
+          "healthScore": 65.13
+        },
+        {
+          "opportunityToken": "DEMO-OPP-106",
+          "rank": 18,
+          "healthScore": 65.13
+        },
+        {
+          "opportunityToken": "DEMO-OPP-141",
+          "rank": 19,
+          "healthScore": 65.13
+        },
+        {
+          "opportunityToken": "DEMO-OPP-175",
+          "rank": 20,
+          "healthScore": 66.52
+        },
+        {
+          "opportunityToken": "DEMO-OPP-023",
+          "rank": 21,
+          "healthScore": 67.15
+        },
+        {
+          "opportunityToken": "DEMO-OPP-118",
+          "rank": 22,
+          "healthScore": 67.15
+        },
+        {
+          "opportunityToken": "DEMO-OPP-035",
+          "rank": 23,
+          "healthScore": 67.18
+        },
+        {
+          "opportunityToken": "DEMO-OPP-070",
+          "rank": 24,
+          "healthScore": 67.82
+        },
+        {
+          "opportunityToken": "DEMO-OPP-077",
+          "rank": 25,
+          "healthScore": 67.82
+        },
+        {
+          "opportunityToken": "DEMO-OPP-138",
+          "rank": 26,
+          "healthScore": 67.82
+        },
+        {
+          "opportunityToken": "DEMO-OPP-159",
+          "rank": 27,
+          "healthScore": 67.82
+        },
+        {
+          "opportunityToken": "DEMO-OPP-042",
+          "rank": 28,
+          "healthScore": 69.02
+        },
+        {
+          "opportunityToken": "DEMO-OPP-149",
+          "rank": 29,
+          "healthScore": 69.02
+        },
+        {
+          "opportunityToken": "DEMO-OPP-164",
+          "rank": 30,
+          "healthScore": 69.02
+        },
+        {
+          "opportunityToken": "DEMO-OPP-011",
+          "rank": 31,
+          "healthScore": 69.68
+        },
+        {
+          "opportunityToken": "DEMO-OPP-016",
+          "rank": 32,
+          "healthScore": 69.68
+        },
+        {
+          "opportunityToken": "DEMO-OPP-032",
+          "rank": 33,
+          "healthScore": 69.68
+        },
+        {
+          "opportunityToken": "DEMO-OPP-037",
+          "rank": 34,
+          "healthScore": 69.68
+        },
+        {
+          "opportunityToken": "DEMO-OPP-121",
+          "rank": 35,
+          "healthScore": 69.68
+        },
+        {
+          "opportunityToken": "DEMO-OPP-136",
+          "rank": 36,
+          "healthScore": 69.68
+        },
+        {
+          "opportunityToken": "DEMO-OPP-158",
+          "rank": 37,
+          "healthScore": 69.68
+        },
+        {
+          "opportunityToken": "DEMO-OPP-165",
+          "rank": 38,
+          "healthScore": 69.68
+        },
+        {
+          "opportunityToken": "DEMO-OPP-170",
+          "rank": 39,
+          "healthScore": 69.68
+        },
+        {
+          "opportunityToken": "DEMO-OPP-019",
+          "rank": 40,
+          "healthScore": 70.87
+        },
+        {
+          "opportunityToken": "DEMO-OPP-033",
+          "rank": 41,
+          "healthScore": 72.7
+        },
+        {
+          "opportunityToken": "DEMO-OPP-054",
+          "rank": 42,
+          "healthScore": 72.7
+        },
+        {
+          "opportunityToken": "DEMO-OPP-063",
+          "rank": 43,
+          "healthScore": 72.7
+        },
+        {
+          "opportunityToken": "DEMO-OPP-076",
+          "rank": 44,
+          "healthScore": 72.7
+        },
+        {
+          "opportunityToken": "DEMO-OPP-083",
+          "rank": 45,
+          "healthScore": 72.7
+        },
+        {
+          "opportunityToken": "DEMO-OPP-153",
+          "rank": 46,
+          "healthScore": 72.7
+        },
+        {
+          "opportunityToken": "DEMO-OPP-154",
+          "rank": 47,
+          "healthScore": 72.7
+        },
+        {
+          "opportunityToken": "DEMO-OPP-167",
+          "rank": 48,
+          "healthScore": 72.7
+        },
+        {
+          "opportunityToken": "DEMO-OPP-180",
+          "rank": 49,
+          "healthScore": 72.7
+        },
+        {
+          "opportunityToken": "DEMO-OPP-176",
+          "rank": 50,
+          "healthScore": 72.98
+        },
+        {
+          "opportunityToken": "DEMO-OPP-048",
+          "rank": 51,
+          "healthScore": 73.37
+        },
+        {
+          "opportunityToken": "DEMO-OPP-056",
+          "rank": 52,
+          "healthScore": 73.37
+        },
+        {
+          "opportunityToken": "DEMO-OPP-160",
+          "rank": 53,
+          "healthScore": 73.37
+        },
+        {
+          "opportunityToken": "DEMO-OPP-173",
+          "rank": 54,
+          "healthScore": 73.37
+        },
+        {
+          "opportunityToken": "DEMO-OPP-187",
+          "rank": 55,
+          "healthScore": 73.37
+        },
+        {
+          "opportunityToken": "DEMO-OPP-189",
+          "rank": 56,
+          "healthScore": 73.37
+        },
+        {
+          "opportunityToken": "DEMO-OPP-196",
+          "rank": 57,
+          "healthScore": 73.37
+        },
+        {
+          "opportunityToken": "DEMO-OPP-025",
+          "rank": 58,
+          "healthScore": 76.03
+        },
+        {
+          "opportunityToken": "DEMO-OPP-061",
+          "rank": 59,
+          "healthScore": 76.53
+        },
+        {
+          "opportunityToken": "DEMO-OPP-081",
+          "rank": 60,
+          "healthScore": 76.53
+        },
+        {
+          "opportunityToken": "DEMO-OPP-059",
+          "rank": 61,
+          "healthScore": 77.17
+        },
+        {
+          "opportunityToken": "DEMO-OPP-089",
+          "rank": 62,
+          "healthScore": 77.17
+        },
+        {
+          "opportunityToken": "DEMO-OPP-105",
+          "rank": 63,
+          "healthScore": 77.17
+        },
+        {
+          "opportunityToken": "DEMO-OPP-111",
+          "rank": 64,
+          "healthScore": 77.17
+        },
+        {
+          "opportunityToken": "DEMO-OPP-131",
+          "rank": 65,
+          "healthScore": 77.17
+        },
+        {
+          "opportunityToken": "DEMO-OPP-004",
+          "rank": 66,
+          "healthScore": 77.87
+        },
+        {
+          "opportunityToken": "DEMO-OPP-087",
+          "rank": 67,
+          "healthScore": 77.87
+        },
+        {
+          "opportunityToken": "DEMO-OPP-007",
+          "rank": 68,
+          "healthScore": 78.37
+        },
+        {
+          "opportunityToken": "DEMO-OPP-008",
+          "rank": 69,
+          "healthScore": 78.37
+        },
+        {
+          "opportunityToken": "DEMO-OPP-041",
+          "rank": 70,
+          "healthScore": 78.37
+        },
+        {
+          "opportunityToken": "DEMO-OPP-044",
+          "rank": 71,
+          "healthScore": 78.37
+        },
+        {
+          "opportunityToken": "DEMO-OPP-050",
+          "rank": 72,
+          "healthScore": 78.37
+        },
+        {
+          "opportunityToken": "DEMO-OPP-085",
+          "rank": 73,
+          "healthScore": 78.37
+        },
+        {
+          "opportunityToken": "DEMO-OPP-133",
+          "rank": 74,
+          "healthScore": 78.37
+        },
+        {
+          "opportunityToken": "DEMO-OPP-146",
+          "rank": 75,
+          "healthScore": 78.37
+        },
+        {
+          "opportunityToken": "DEMO-OPP-163",
+          "rank": 76,
+          "healthScore": 78.37
+        },
+        {
+          "opportunityToken": "DEMO-OPP-186",
+          "rank": 77,
+          "healthScore": 78.37
+        },
+        {
+          "opportunityToken": "DEMO-OPP-191",
+          "rank": 78,
+          "healthScore": 78.37
+        },
+        {
+          "opportunityToken": "DEMO-OPP-018",
+          "rank": 79,
+          "healthScore": 78.53
+        },
+        {
+          "opportunityToken": "DEMO-OPP-052",
+          "rank": 80,
+          "healthScore": 78.53
+        },
+        {
+          "opportunityToken": "DEMO-OPP-094",
+          "rank": 81,
+          "healthScore": 78.53
+        },
+        {
+          "opportunityToken": "DEMO-OPP-103",
+          "rank": 82,
+          "healthScore": 78.53
+        },
+        {
+          "opportunityToken": "DEMO-OPP-108",
+          "rank": 83,
+          "healthScore": 78.53
+        },
+        {
+          "opportunityToken": "DEMO-OPP-116",
+          "rank": 84,
+          "healthScore": 78.53
+        },
+        {
+          "opportunityToken": "DEMO-OPP-144",
+          "rank": 85,
+          "healthScore": 78.53
+        },
+        {
+          "opportunityToken": "DEMO-OPP-183",
+          "rank": 86,
+          "healthScore": 78.53
+        },
+        {
+          "opportunityToken": "DEMO-OPP-002",
+          "rank": 87,
+          "healthScore": 79.03
+        },
+        {
+          "opportunityToken": "DEMO-OPP-031",
+          "rank": 88,
+          "healthScore": 79.03
+        },
+        {
+          "opportunityToken": "DEMO-OPP-046",
+          "rank": 89,
+          "healthScore": 79.03
+        },
+        {
+          "opportunityToken": "DEMO-OPP-057",
+          "rank": 90,
+          "healthScore": 79.03
+        },
+        {
+          "opportunityToken": "DEMO-OPP-075",
+          "rank": 91,
+          "healthScore": 79.03
+        },
+        {
+          "opportunityToken": "DEMO-OPP-086",
+          "rank": 92,
+          "healthScore": 79.03
+        },
+        {
+          "opportunityToken": "DEMO-OPP-092",
+          "rank": 93,
+          "healthScore": 79.03
+        },
+        {
+          "opportunityToken": "DEMO-OPP-142",
+          "rank": 94,
+          "healthScore": 79.03
+        },
+        {
+          "opportunityToken": "DEMO-OPP-148",
+          "rank": 95,
+          "healthScore": 79.03
+        },
+        {
+          "opportunityToken": "DEMO-OPP-155",
+          "rank": 96,
+          "healthScore": 79.03
+        },
+        {
+          "opportunityToken": "DEMO-OPP-171",
+          "rank": 97,
+          "healthScore": 79.03
+        },
+        {
+          "opportunityToken": "DEMO-OPP-184",
+          "rank": 98,
+          "healthScore": 79.03
+        },
+        {
+          "opportunityToken": "DEMO-OPP-193",
+          "rank": 99,
+          "healthScore": 79.03
+        },
+        {
+          "opportunityToken": "DEMO-OPP-194",
+          "rank": 100,
+          "healthScore": 79.03
+        }
+      ]
+    },
+    "statusLeakageRisk": {
+      "level": "Medium",
+      "stateCorrelation": 0.88,
+      "gradeChangeRate": 0.05,
+      "stateIsOneDimension": true,
+      "activeOnlyRankingRetained": true,
+      "recalibrationRequired": false,
+      "followUp": "保留为 P2 校准观察项；在扩展样本或业务权重变更前复核状态相关性。"
+    },
+    "activeOnly": {
+      "count": 100,
+      "scoreRange": {
+        "minimum": 61.43,
+        "maximum": 77.83,
+        "spread": 16.4
+      },
+      "gradeDistribution": {
+        "A": 0,
+        "B": 61,
+        "C": 39,
+        "D": 0
+      },
+      "priorityGroups": {
+        "High": {
+          "count": 39,
+          "mean": 65.79,
+          "median": 65.32,
+          "standardDeviation": 2.25,
+          "minimum": 61.43,
+          "maximum": 68.48,
+          "gradeDistribution": {
+            "A": 0,
+            "B": 0,
+            "C": 39,
+            "D": 0
+          }
+        },
+        "Medium": {
+          "count": 61,
+          "mean": 75.94,
+          "median": 77.17,
+          "standardDeviation": 2.13,
+          "minimum": 70.87,
+          "maximum": 77.83,
+          "gradeDistribution": {
+            "A": 0,
+            "B": 61,
+            "C": 0,
+            "D": 0
+          }
+        }
+      },
+      "amountRankCorrelation": 0,
+      "riskRankCorrelation": -0.8492721386893599,
+      "riskSeparation": {
+        "riskyCount": 39,
+        "monitorCount": 0,
+        "riskyMean": 65.79,
+        "monitorMean": 0,
+        "separated": true
+      },
+      "healthyControlCheck": {
+        "runtimeScenarioIdExposed": false,
+        "rule": "offline healthy-control remains non-escalated",
+        "ready": true
+      }
+    },
+    "counterfactual": {
+      "count": 602,
+      "monotonicityViolationCount": 0,
+      "checks": [
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "stagnation",
+          "passed": true
+        },
+        {
+          "name": "overdue",
+          "passed": true
+        },
+        {
+          "name": "contradiction",
+          "passed": true
+        },
+        {
+          "name": "state-won-direction",
+          "passed": true
+        },
+        {
+          "name": "state-lost-direction",
+          "passed": true
+        }
+      ],
+      "stateVariants": {
+        "active": 90.55,
+        "won": 92.55,
+        "lost": 71.25
+      },
+      "ready": true
+    },
+    "gradeCalibration": {
+      "histogram": {
+        "0-9.99": 0,
+        "10-19.990000000000002": 0,
+        "20-29.990000000000002": 0,
+        "30-39.99": 0,
+        "40-49.99": 0,
+        "50-59.99": 2,
+        "60-69.99": 46,
+        "70-79.99": 61,
+        "80-89.99": 22,
+        "90-100": 69
+      },
+      "distribution": {
+        "A": 91,
+        "B": 61,
+        "C": 48,
+        "D": 0
+      },
+      "minimumScore": 59.8,
+      "maximumScore": 93.22,
+      "dZeroExplanation": "冻结数据最低分仍高于 D 等级下限；不为制造 D 等级而调整阈值。",
+      "recalibrationRequired": false
+    },
+    "confidenceSeparation": {
+      "highHealthLowConfidence": 0,
+      "lowHealthHighConfidence": 9,
+      "qualityLoweredConfidence": 100,
+      "ready": true
+    },
+    "scenarioDistribution": {
+      "runtime": "not_exposed_by_design",
+      "offlineEvaluationContracts": 8,
+      "note": "Scenario ID 只保留在离线评价侧，不进入 D365 Safe Context 或 Provider 输入。"
+    }
+  },
+  "gates": {
+    "Health Score Baseline Frozen": true,
+    "Health Score Deterministic Ready": true,
+    "Status Leakage Audit Ready": true,
+    "Status Leakage Risk": "Medium",
+    "Active Opportunity Discrimination Ready": true,
+    "Counterfactual Validation Ready": true,
+    "Health Score Calibration Ready": true,
+    "Health Score Confidence Separation Ready": true,
+    "External Model Request Contract Ready": true,
+    "External Model Response Contract Ready": true,
+    "External Provider Harness Ready": true,
+    "Model Evaluation Contract Ready": true,
+    "Deterministic Baseline Evaluation Ready": true,
+    "External LLM Canary Selection Ready": true,
+    "External LLM Canary Ready": true,
+    "External LLM Canary Authorized": false,
+    "External LLM Calls": 0,
+    "CRM Writeback": false,
+    "Raw CRM Exposure": 0,
+    "Exact Amount Exposure": 0,
+    "Raw Timeline Exposure": 0,
+    "Scenario Golden Runtime Exposure": 0,
+    "Production Isolation Ready": true,
+    "P0 Count": 0,
+    "P1 Count": 0,
+    "P2 Count": 1,
+    "Goal 3B Complete": true
+  },
+  "issueCounts": {
+    "P0": 0,
+    "P1": 0,
+    "P2": 1
+  },
+  "requestStats": {
+    "GET": 179,
+    "POST": 0,
+    "PATCH": 0,
+    "DELETE": 0,
+    "Publish": 0,
+    "ProductionRequests": 0,
+    "ExternalLLMCalls": 0,
+    "CRMWrites": 0
+  },
+  "externalLlmCalls": 0,
+  "crmWriteback": false,
+  "productionRequests": 0
+}

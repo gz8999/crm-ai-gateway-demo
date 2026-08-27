@@ -1,0 +1,26 @@
+{
+  "phase": "Phase 1C-5R2G-D6-R2",
+  "environmentAlias": "TEST-ORG",
+  "generatedAt": "2026-07-18T02:38:11.142Z",
+  "productionRequests": 0,
+  "externalLlmCalls": 0,
+  "p0": 0,
+  "p1": 0,
+  "p2": 0,
+  "targetInstanceCount": 200,
+  "initialStageAlias": "授予资格",
+  "initialStageCount": 200,
+  "duplicateCount": 0,
+  "unexpectedProcessCount": 0,
+  "instanceIdChangedCount": 0,
+  "stagePathChangedCount": 0,
+  "processOrder": 0,
+  "definitionHash": "aac15b0adae5d1041df319b7dd187cc4a517c446725e6f2785e68939c015dbf8",
+  "manualBpfWrites": {
+    "POST": 0,
+    "PATCH": 0,
+    "DELETE": 0,
+    "nextStage": 0,
+    "complete": 0
+  }
+}

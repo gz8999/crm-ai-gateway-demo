@@ -1,0 +1,37 @@
+{
+  "phase": "Phase 1C-5R2G-D5-R2",
+  "opportunityToken": "DEMO-OPP-015",
+  "before": {
+    "opportunityCloseCount": 0,
+    "attachmentCount": 0
+  },
+  "after": {
+    "opportunityCloseCount": 1,
+    "delta": 1,
+    "uniqueRelationshipReady": true,
+    "subject": "[AI-DEMO] Win DEMO-OPP-015",
+    "actualRevenue": 3898,
+    "actualEnd": "2026-05-01",
+    "status": "Completed",
+    "descriptionSynthetic": true,
+    "descriptionContainsIdentity": false,
+    "descriptionContainsEmail": false,
+    "descriptionContainsPhone": false,
+    "descriptionContainsGuid": false,
+    "descriptionContainsTimelineText": false,
+    "descriptionContainsAiJudgment": false,
+    "attachmentCount": 0,
+    "exactIdStoredPrivately": true
+  },
+  "importedTimeline": {
+    "beforeCount": 12,
+    "afterCount": 12,
+    "unchanged": true
+  },
+  "activityAggregate": {
+    "beforeCount": 9,
+    "afterCount": 10,
+    "expectedPlatformDelta": 1
+  },
+  "ready": true
+}

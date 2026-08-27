@@ -1,0 +1,22 @@
+{
+  "phase": "Phase 1C-5R2G-D6-R4C",
+  "before": {
+    "win": 8,
+    "lose": 2,
+    "total": 10
+  },
+  "actions": {
+    "win": 83,
+    "lose": 7,
+    "total": 90
+  },
+  "after": {
+    "win": 91,
+    "lose": 9,
+    "total": 100
+  },
+  "duplicateCount": 0,
+  "attachmentCount": 0,
+  "actualContract": "Expected Actual Count=1 requires one matching Actual; Expected Actual Count=0 requires zero Actuals.",
+  "exactIdsRecordedPrivately": true
+}

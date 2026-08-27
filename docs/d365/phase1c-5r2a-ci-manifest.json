@@ -1,0 +1,53 @@
+{
+  "phase": "1C-5R2A-CI2",
+  "status": "workflow-defined-not-executed",
+  "runner": "windows-latest",
+  "workflow": ".github/workflows/actual-totals-plugin-windows-ci.yml",
+  "script": "plugins/ActualTotals/scripts/Invoke-WindowsCi.ps1",
+  "triggers": [
+    "workflow_dispatch",
+    "pull_request",
+    "push to main"
+  ],
+  "operations": [
+    "npm ci",
+    "npm test",
+    "npm run build",
+    "dotnet restore Core tests",
+    "dotnet restore net462 Plugin",
+    "dotnet test Core tests Release with TRX",
+    "require ACTUAL_TOTALS_SNK_BASE64 and fail without fallback",
+    "dotnet build Plugin net462 Release with stable injected Demo strong-name key",
+    "managed assembly metadata and forbidden-string inspection",
+    "artifact manifest, SHA-256, dependency list, and test summary generation"
+  ],
+  "artifactDirectory": "plugins/ActualTotals/artifacts/Release",
+  "artifactFiles": [
+    "CrmAiGateway.ActualTotals.Plugin.dll",
+    "build-manifest.json",
+    "plugin-sha256.txt",
+    "dependency-list.json",
+    "test-summary.json",
+    "assembly-inspection.json"
+  ],
+  "signing": {
+    "currentProjectSignedByDefault": false,
+    "ci": "Stable Demo strong-name key decoded from ACTUAL_TOTALS_SNK_BASE64 and deleted before upload",
+    "keyCommitted": false,
+    "keyUploaded": false,
+    "stableIdentity": true,
+    "secretRequired": "ACTUAL_TOTALS_SNK_BASE64",
+    "randomFallback": false,
+    "deploymentGate": "All build-manifest gates must pass and publicKeyToken must remain stable across approved builds"
+  },
+  "dataverse": {
+    "connected": false,
+    "pacAuth": false,
+    "registration": false,
+    "deployment": false,
+    "publish": false,
+    "dataWrites": false
+  },
+  "seedBlocked": true,
+  "executionBlocker": "The current workspace is not a Git repository and has no GitHub remote, so the Windows workflow has not been executed in this phase."
+}

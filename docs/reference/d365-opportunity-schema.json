@@ -1,0 +1,286 @@
+{
+  "schemaVersion": 1,
+  "source": "curated-project-mapping",
+  "fields": [
+    {
+      "sourceLogicalName": "new_related_department",
+      "targetLogicalName": "aigw_bookingdepartment_choice",
+      "type": "choice",
+      "purpose": "basic:bookingDepartment",
+      "safeContextPolicy": "keep",
+      "providerPayloadPolicy": "keep"
+    },
+    {
+      "sourceLogicalName": "new_budgeted_or_not",
+      "targetLogicalName": "aigw_budgetstatus",
+      "type": "yesNo",
+      "purpose": "salesProgress:budgetStatus",
+      "safeContextPolicy": "keep",
+      "providerPayloadPolicy": "keep"
+    },
+    {
+      "sourceLogicalName": "new_status",
+      "targetLogicalName": "aigw_casestage",
+      "type": "choice",
+      "purpose": "salesProgress:opportunityStage",
+      "safeContextPolicy": "keep",
+      "providerPayloadPolicy": "keep"
+    },
+    {
+      "sourceLogicalName": null,
+      "targetLogicalName": "aigw_customernamecn",
+      "type": "text",
+      "purpose": "customer:customerNameCn",
+      "safeContextPolicy": "exclude",
+      "providerPayloadPolicy": "forbidden"
+    },
+    {
+      "sourceLogicalName": "new_customerneed",
+      "targetLogicalName": "aigw_customerneed_choice",
+      "type": "choice",
+      "purpose": "qualification:customerNeed",
+      "safeContextPolicy": "summarize",
+      "providerPayloadPolicy": "summarize"
+    },
+    {
+      "sourceLogicalName": "new_decider",
+      "targetLogicalName": "aigw_decider_choice",
+      "type": "choice",
+      "purpose": "qualification:decisionMakerStatus",
+      "safeContextPolicy": "keep",
+      "providerPayloadPolicy": "keep"
+    },
+    {
+      "sourceLogicalName": "new_estimated_quote_amount",
+      "targetLogicalName": "aigw_estimatedquoteamount",
+      "type": "currency",
+      "purpose": "quote:estimatedQuoteBand",
+      "safeContextPolicy": "band",
+      "providerPayloadPolicy": "band"
+    },
+    {
+      "sourceLogicalName": "new_global_initiative_key",
+      "targetLogicalName": "aigw_globalinitiative",
+      "type": "yesNo",
+      "purpose": "opportunityDetail:globalInitiative",
+      "safeContextPolicy": "keep",
+      "providerPayloadPolicy": "keep"
+    },
+    {
+      "sourceLogicalName": "new_goods_handled",
+      "targetLogicalName": "aigw_goodshandled",
+      "type": "choice",
+      "purpose": "logistics:cargoDescription",
+      "safeContextPolicy": "keep",
+      "providerPayloadPolicy": "keep"
+    },
+    {
+      "sourceLogicalName": null,
+      "targetLogicalName": "aigw_lostreason",
+      "type": "multiline",
+      "purpose": "salesProgress:lostReasonSummary",
+      "safeContextPolicy": "summarize",
+      "providerPayloadPolicy": "summarize"
+    },
+    {
+      "sourceLogicalName": "new_bd_details",
+      "targetLogicalName": "aigw_opportunitydetailtype",
+      "type": "choice",
+      "purpose": "opportunityDetail:opportunityDetailType",
+      "safeContextPolicy": "keep",
+      "providerPayloadPolicy": "keep"
+    },
+    {
+      "sourceLogicalName": "new_pipeline_list",
+      "targetLogicalName": "aigw_opportunitylist_bool",
+      "type": "yesNo",
+      "purpose": "basic:opportunityList",
+      "safeContextPolicy": "keep",
+      "providerPayloadPolicy": "keep"
+    },
+    {
+      "sourceLogicalName": "new_location",
+      "targetLogicalName": "aigw_opportunitylocation",
+      "type": "lookup",
+      "purpose": "basic:opportunityPlace",
+      "safeContextPolicy": "exclude",
+      "providerPayloadPolicy": "forbidden"
+    },
+    {
+      "sourceLogicalName": "new_bd_newexisting",
+      "targetLogicalName": "aigw_opportunitytype",
+      "type": "choice",
+      "purpose": "basic:opportunityType",
+      "safeContextPolicy": "keep",
+      "providerPayloadPolicy": "keep"
+    },
+    {
+      "sourceLogicalName": "new_organization_group",
+      "targetLogicalName": "aigw_organizationgroup_choice",
+      "type": "choice",
+      "purpose": "basic:organizationGroup",
+      "safeContextPolicy": "keep",
+      "providerPayloadPolicy": "keep"
+    },
+    {
+      "sourceLogicalName": "new_priority",
+      "targetLogicalName": "aigw_priority_choice",
+      "type": "choice",
+      "purpose": "salesProgress:priority",
+      "safeContextPolicy": "keep",
+      "providerPayloadPolicy": "keep"
+    },
+    {
+      "sourceLogicalName": null,
+      "targetLogicalName": "aigw_progresssummary",
+      "type": "multiline",
+      "purpose": "opportunityDetail:sanitizedProgressSummary",
+      "safeContextPolicy": "summarize",
+      "providerPayloadPolicy": "summarize"
+    },
+    {
+      "sourceLogicalName": "new_project_size",
+      "targetLogicalName": "aigw_projectsize",
+      "type": "decimal",
+      "purpose": "logistics:volumeSize",
+      "safeContextPolicy": "band",
+      "providerPayloadPolicy": "band"
+    },
+    {
+      "sourceLogicalName": "new_project_size_unit",
+      "targetLogicalName": "aigw_projectsizeunit",
+      "type": "choice",
+      "purpose": "logistics:volumeUnit",
+      "safeContextPolicy": "keep",
+      "providerPayloadPolicy": "keep"
+    },
+    {
+      "sourceLogicalName": "new_proposedsolution",
+      "targetLogicalName": "aigw_proposalcontent_choice",
+      "type": "choice",
+      "purpose": "qualification:proposalContent",
+      "safeContextPolicy": "summarize",
+      "providerPayloadPolicy": "summarize"
+    },
+    {
+      "sourceLogicalName": "new_background",
+      "targetLogicalName": "aigw_researchbackground_choice",
+      "type": "choice",
+      "purpose": "qualification:researchBackground",
+      "safeContextPolicy": "keep",
+      "providerPayloadPolicy": "keep"
+    },
+    {
+      "sourceLogicalName": "new_bd_group",
+      "targetLogicalName": "aigw_salesdepartment_choice",
+      "type": "choice",
+      "purpose": "basic:salesDepartment",
+      "safeContextPolicy": "keep",
+      "providerPayloadPolicy": "keep"
+    },
+    {
+      "sourceLogicalName": "new_spot_continuous",
+      "targetLogicalName": "aigw_spotcontinuous",
+      "type": "boolean",
+      "purpose": "logistics:oneTimeOrContinuous",
+      "safeContextPolicy": "keep",
+      "providerPayloadPolicy": "keep"
+    },
+    {
+      "sourceLogicalName": "new_startdate",
+      "targetLogicalName": "aigw_startdate",
+      "type": "date",
+      "purpose": "basic:startDateStatus",
+      "safeContextPolicy": "relativeDate",
+      "providerPayloadPolicy": "relativeDate"
+    },
+    {
+      "sourceLogicalName": "new_trade_terms",
+      "targetLogicalName": "aigw_tradeterms",
+      "type": "choice",
+      "purpose": "logistics:tradeTerms",
+      "safeContextPolicy": "keep",
+      "providerPayloadPolicy": "keep"
+    },
+    {
+      "sourceLogicalName": "new_transport_mode",
+      "targetLogicalName": "aigw_transportmode",
+      "type": "choice",
+      "purpose": "logistics:transportMode",
+      "safeContextPolicy": "keep",
+      "providerPayloadPolicy": "keep"
+    },
+    {
+      "sourceLogicalName": "new_warehouse_scale",
+      "targetLogicalName": "aigw_warehousescale",
+      "type": "choice",
+      "purpose": "logistics:warehouseScale",
+      "safeContextPolicy": "band",
+      "providerPayloadPolicy": "band"
+    },
+    {
+      "sourceLogicalName": "new_capability",
+      "targetLogicalName": "aigw_winprobabilityrank",
+      "type": "choice",
+      "purpose": "salesProgress:winProbability",
+      "safeContextPolicy": "keep",
+      "providerPayloadPolicy": "keep"
+    },
+    {
+      "sourceLogicalName": null,
+      "targetLogicalName": "aigw_wonreason",
+      "type": "multiline",
+      "purpose": "salesProgress:wonReasonSummary",
+      "safeContextPolicy": "summarize",
+      "providerPayloadPolicy": "summarize"
+    },
+    {
+      "sourceLogicalName": "description",
+      "targetLogicalName": "description",
+      "type": "multiline",
+      "purpose": "opportunityDetail:sanitizedDescription",
+      "safeContextPolicy": "summarize",
+      "providerPayloadPolicy": "summarize"
+    },
+    {
+      "sourceLogicalName": "estimatedclosedate",
+      "targetLogicalName": "estimatedclosedate",
+      "type": "date",
+      "purpose": "quote:expectedOrderStatus",
+      "safeContextPolicy": "relativeDate",
+      "providerPayloadPolicy": "relativeDate"
+    },
+    {
+      "sourceLogicalName": "estimatedvalue",
+      "targetLogicalName": "estimatedvalue",
+      "type": "currency",
+      "purpose": "quote:budgetAmountBand",
+      "safeContextPolicy": "band",
+      "providerPayloadPolicy": "band"
+    },
+    {
+      "sourceLogicalName": "name",
+      "targetLogicalName": "name",
+      "type": "text",
+      "purpose": "basic:opportunityName",
+      "safeContextPolicy": "summarize",
+      "providerPayloadPolicy": "summarize"
+    },
+    {
+      "sourceLogicalName": "parentaccountid",
+      "targetLogicalName": "parentaccountid",
+      "type": "lookup",
+      "purpose": "customer:customerRef",
+      "safeContextPolicy": "exclude",
+      "providerPayloadPolicy": "forbidden"
+    },
+    {
+      "sourceLogicalName": "statuscode",
+      "targetLogicalName": "statuscode",
+      "type": "choice",
+      "purpose": "basic:statusReason",
+      "safeContextPolicy": "keep",
+      "providerPayloadPolicy": "keep"
+    }
+  ]
+}

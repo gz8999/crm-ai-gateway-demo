@@ -1,0 +1,26 @@
+{
+  "phase": "Phase 1C-5R2G-D6-R5",
+  "status": "FROZEN",
+  "process": {
+    "name": "销售流程 - AI Demo Full Replica",
+    "uniqueName": "aigw_ai_demo_full_replica",
+    "definitionHash": "aac15b0adae5d1041df319b7dd187cc4a517c446725e6f2785e68939c015dbf8",
+    "state": "Active",
+    "processOrder": 0
+  },
+  "targetInstanceCount": 200,
+  "initialStage": "授予资格",
+  "initialStageCount": 200,
+  "traversedPath": "initial",
+  "duplicateCount": 0,
+  "unexpectedProcessCount": 0,
+  "bpfWrites": 0,
+  "stageActions": 0,
+  "instanceIdsRecordedPrivately": true,
+  "gates": {
+    "targetCountReady": true,
+    "stageReady": true,
+    "definitionReady": true,
+    "noBpfWrites": true
+  }
+}

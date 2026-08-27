@@ -1,0 +1,235 @@
+{
+  "phase": "Phase 1C-5R2G-D1",
+  "currency": {
+    "token": "CNY",
+    "resolved": true
+  },
+  "location": {
+    "distinctWorkbookValues": 17,
+    "resolved": true,
+    "mappings": [
+      {
+        "source": "04: Beijing",
+        "target": "01: Beijing"
+      },
+      {
+        "source": "06: Shenzhen",
+        "target": "06: Shenzhen"
+      },
+      {
+        "source": "05: Guangzhou",
+        "target": "05: Guangzhou"
+      },
+      {
+        "source": "11: Qingdao",
+        "target": "12: Qingdao"
+      },
+      {
+        "source": "03: Suzhou",
+        "target": "29: Suzhou"
+      },
+      {
+        "source": "10: Ningbo",
+        "target": "32: Ningbo"
+      },
+      {
+        "source": "13: Dalian",
+        "target": "13: Dalian"
+      },
+      {
+        "source": "14: Wuxi",
+        "target": "30: Wuxi"
+      },
+      {
+        "source": "09: Wuhan",
+        "target": "09: Wuhan"
+      },
+      {
+        "source": "07: Chongqing",
+        "target": "04: Chongqing"
+      },
+      {
+        "source": "02: Shanghai",
+        "target": "02: Shanghai"
+      },
+      {
+        "source": "08: Chengdu",
+        "target": "10: Chengdu"
+      },
+      {
+        "source": "18: Hefei",
+        "target": "23: Hefei"
+      },
+      {
+        "source": "16: Xiamen",
+        "target": "18: Xiamen"
+      },
+      {
+        "source": "12: Tianjin",
+        "target": "03: Tianjin"
+      },
+      {
+        "source": "15: Hangzhou",
+        "target": "07: Hangzhou"
+      },
+      {
+        "source": "17: Nanjing",
+        "target": "08: Nanjing"
+      }
+    ]
+  },
+  "polPod": {
+    "distinctWorkbookValues": 21,
+    "resolved": false,
+    "mappings": [
+      {
+        "source": "2501: SGSIN",
+        "target": "1619: SGSIN"
+      },
+      {
+        "source": "0405: CNTAO",
+        "target": "0430: CNTAO"
+      },
+      {
+        "source": "9999: OTR",
+        "target": "9999: OTR"
+      },
+      {
+        "source": "NRT: Tokyo Narita",
+        "target": null
+      },
+      {
+        "source": "PEK: Beijing Capital",
+        "target": null
+      },
+      {
+        "source": "2201: DEHAM",
+        "target": "0560: DEHAM"
+      },
+      {
+        "source": "0402: CNSHA",
+        "target": "0402: CNSHA"
+      },
+      {
+        "source": "AMS: Amsterdam",
+        "target": null
+      },
+      {
+        "source": "SZX: Shenzhen Baoan",
+        "target": null
+      },
+      {
+        "source": "1153: KRPUS",
+        "target": "1153: KRPUS"
+      },
+      {
+        "source": "0403: CNNGB",
+        "target": "0374: CNNGB"
+      },
+      {
+        "source": "SIN: Singapore",
+        "target": null
+      },
+      {
+        "source": "0406: CNYTN",
+        "target": "0484: CNYTN"
+      },
+      {
+        "source": "1305: MXZLO",
+        "target": "1305: MXZLO"
+      },
+      {
+        "source": "CAN: Guangzhou Baiyun",
+        "target": null
+      },
+      {
+        "source": "PVG: Shanghai Pudong",
+        "target": null
+      },
+      {
+        "source": "LAX: Los Angeles",
+        "target": null
+      },
+      {
+        "source": "0404: CNTNJ",
+        "target": null
+      },
+      {
+        "source": "1121: JPTYO",
+        "target": "1121: JPTYO"
+      },
+      {
+        "source": "DXB: Dubai",
+        "target": null
+      },
+      {
+        "source": "1759: USATL",
+        "target": "1759: USATL"
+      }
+    ]
+  },
+  "owner": {
+    "phase": "Phase 1C-5R2G-D1",
+    "ownerTokens": [
+      "OWNER-DEMO-01",
+      "OWNER-DEMO-02",
+      "OWNER-DEMO-03",
+      "OWNER-DEMO-04",
+      "OWNER-DEMO-05",
+      "OWNER-DEMO-06"
+    ],
+    "candidateCount": 2,
+    "strategies": [
+      {
+        "id": "OWNER-STRATEGY-A",
+        "description": "Map all six synthetic Owner tokens to one approved implementation principal.",
+        "candidateAliases": [
+          "OWNER-CANDIDATE-01"
+        ],
+        "approved": false
+      },
+      {
+        "id": "OWNER-STRATEGY-B",
+        "description": "Distribute six synthetic Owner tokens across two approved implementation principals.",
+        "candidateAliases": [
+          "OWNER-CANDIDATE-01",
+          "OWNER-CANDIDATE-02"
+        ],
+        "approved": false
+      }
+    ],
+    "approvalRequired": true,
+    "ownerMappingApproved": false
+  },
+  "departmentTeams": {
+    "phase": "Phase 1C-5R2G-D1",
+    "departmentTokens": [
+      "DEPT-01",
+      "DEPT-02",
+      "DEPT-03",
+      "DEPT-04",
+      "DEPT-05",
+      "DEPT-06",
+      "DEPT-91"
+    ],
+    "qualifiedExistingTeamCandidateCount": 0,
+    "departmentTeamCandidatesReady": false,
+    "teamSetupRequired": true,
+    "noSharedTeamRule": "Three or more department tokens must never share one Team.",
+    "departmentTeamMappingApproved": false
+  },
+  "coverageDepartmentProjection": {
+    "海运出口": "DEPT-06",
+    "空运出口": "DEPT-06",
+    "空运进口": "DEPT-06",
+    "海运进口": "DEPT-06",
+    "国内运输": "DEPT-01",
+    "仓储运营": "DEPT-01",
+    "物流咨询": "DEPT-01",
+    "门店配送": "DEPT-02",
+    "电脑采购与部署": "DEPT-03",
+    "项目物流": "DEPT-04",
+    "危险品物流": "DEPT-05",
+    "绿色物流": "DEPT-91"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "version": "Phase 3C R6 Schema Error Classification v1",
+  "categories": [
+    "MISSING_REQUIRED_PROPERTY",
+    "UNEXPECTED_PROPERTY",
+    "TYPE_MISMATCH",
+    "ENUM_MISMATCH",
+    "CONST_MISMATCH",
+    "ARRAY_MIN_ITEMS",
+    "ARRAY_MAX_ITEMS",
+    "PATTERN_MISMATCH",
+    "STRING_TOO_LONG",
+    "EVIDENCE_NOT_ALLOWLISTED",
+    "EVIDENCE_DUPLICATE",
+    "CATEGORY_EVIDENCE_INCOMPATIBLE",
+    "SAFETY_STATEMENT_INVALID",
+    "UNKNOWN_SCHEMA_FAILURE"
+  ],
+  "onlineResult": {
+    "failureLayer": "post_schema_selection_reference_validation",
+    "structuralSchemaReady": true,
+    "semanticContractReady": false,
+    "schemaErrorCount": 0,
+    "primarySchemaFailureClass": "ARRAY_MIN_ITEMS",
+    "affectedJsonPath": "/inferences",
+    "schemaKeyword": "minItems",
+    "secondaryFailureCount": 1
+  }
+}

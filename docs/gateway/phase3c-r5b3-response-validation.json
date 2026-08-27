@@ -1,0 +1,20 @@
+{
+  "phase": "PHASE3C-R5B3",
+  "requestToken": "R5B3-SYNTH-V2-001",
+  "httpSuccess": false,
+  "toolCallReady": false,
+  "jsonReady": false,
+  "schemaV2Ready": false,
+  "schemaErrors": [],
+  "canonicalMappingReady": false,
+  "evidenceReady": false,
+  "evidenceErrors": [],
+  "unsupportedClaimCount": 0,
+  "hallucinationAuditReady": false,
+  "safetyReady": false,
+  "safetyErrors": [],
+  "status": "stopped-safety",
+  "stopReason": "output_not_json",
+  "providerRequestCompatibilityReady": false,
+  "rawOutputStored": false
+}

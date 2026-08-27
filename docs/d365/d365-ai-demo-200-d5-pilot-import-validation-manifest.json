@@ -1,0 +1,148 @@
+{
+  "phase": "Phase 1C-5R2G-D5",
+  "environmentAlias": "TEST-ORG",
+  "generatedAt": "2026-07-17T08:22:49.760Z",
+  "workbooks": {
+    "formal": {
+      "bytes": 570890,
+      "sha256": "af40bede1df13eb40ef5718f657d21ba570d1cc29feed5a9848616ddf5fbedea"
+    },
+    "pilot": {
+      "bytes": 90392,
+      "sha256": "789e0c620199481c4de4532d14479b075a14d32eb375b20971723b3284fc1e36"
+    }
+  },
+  "expectedCounts": {
+    "Account": 7,
+    "Contact": 9,
+    "Opportunity": 24,
+    "ServiceCoverage": 15,
+    "ActualManagement": 12,
+    "Timeline": 206,
+    "InteractionSignal": 154
+  },
+  "stageStats": {
+    "Account": {
+      "attempt": 1,
+      "created": 1,
+      "reused": 0,
+      "failed": 0
+    },
+    "Contact": {
+      "attempt": 1,
+      "created": 1,
+      "reused": 0,
+      "failed": 0
+    },
+    "Opportunity": {
+      "attempt": 1,
+      "created": 1,
+      "reused": 0,
+      "failed": 0
+    },
+    "ServiceCoverage": {
+      "attempt": 0,
+      "created": 0,
+      "reused": 0,
+      "failed": 0
+    },
+    "ActualManagement": {
+      "attempt": 0,
+      "created": 0,
+      "reused": 0,
+      "failed": 0
+    },
+    "Timeline": {
+      "attempt": 0,
+      "created": 0,
+      "reused": 0,
+      "failed": 0
+    },
+    "InteractionSignal": {
+      "attempt": 0,
+      "created": 0,
+      "reused": 0,
+      "failed": 0
+    }
+  },
+  "actionStats": {
+    "WinOpportunity": {
+      "attempt": 0,
+      "succeeded": 0,
+      "reused": 0,
+      "failed": 0
+    },
+    "LoseOpportunity": {
+      "attempt": 0,
+      "succeeded": 0,
+      "reused": 0,
+      "failed": 0
+    }
+  },
+  "requestCounts": {
+    "preflightGET": 339,
+    "businessCRMGET": 8,
+    "platformGET": 17,
+    "AccountPOST": 1,
+    "ContactPOST": 1,
+    "OpportunityPOST": 1,
+    "CoveragePOST": 0,
+    "ActualPOST": 0,
+    "TimelinePOST": 0,
+    "SignalPOST": 0,
+    "WinOpportunity": 0,
+    "LoseOpportunity": 0,
+    "PATCH": 0,
+    "DELETE": 0,
+    "Publish": 0,
+    "teamRoleMembershipChanges": 0,
+    "productionRequests": 0,
+    "externalLLMCalls": 0
+  },
+  "p0": 0,
+  "p1": 1,
+  "p2": 0,
+  "partialCreatedRecordCount": 3,
+  "unexpectedBpfInstanceCount": 1,
+  "businessDataDelta": {
+    "Account": 1,
+    "Contact": 1,
+    "Opportunity": 1,
+    "BpfInstancePlatformSideEffect": 1,
+    "OtherPilotRecords": 0
+  },
+  "gates": {
+    "c1PilotImportAuthorized": true,
+    "pilotPreflightReady": true,
+    "canaryReady": false,
+    "accountImportReady": false,
+    "contactImportReady": false,
+    "opportunityImportReady": false,
+    "coverageImportReady": false,
+    "actualImportReady": false,
+    "timelineImportReady": false,
+    "signalImportReady": false,
+    "winActionReady": false,
+    "loseActionReady": false,
+    "pilotImportCompleted": false,
+    "pilotExactReadbackReady": false,
+    "pilotStateDistributionReady": false,
+    "pilotExactIdManifestReady": false,
+    "partialExactIdManifestReady": true,
+    "pilotCleanupReady": false,
+    "pilotCleanupAuthorized": false,
+    "cleanupExecuted": false,
+    "existingBusinessDataModified": false,
+    "pilotScopeExceeded": false,
+    "fullImportStarted": false,
+    "productionIsolationReady": true,
+    "fullImportReady": false,
+    "fullImportAuthorized": false
+  },
+  "blockers": [
+    {
+      "status": null,
+      "message": "Platform automatically created one target BPF instance for the Canary Opportunity; the hard no-BPF Canary gate failed."
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "argumentsLength": 4719,
+  "argumentsSha256": "93ba87f41ddb4e39908faf389fa5ffe67197c66ebc75008340968919190d8945",
+  "utf8Valid": true,
+  "bomPresent": false,
+  "firstCharacterCategory": "left-brace",
+  "lastCharacterCategory": "right-brace",
+  "leftBraceCount": 34,
+  "rightBraceCount": 34,
+  "leftBracketCount": 9,
+  "rightBracketCount": 9,
+  "quoteCount": 432,
+  "parseErrorType": "SyntaxError",
+  "parseErrorOffset": null,
+  "parseErrorLine": null,
+  "parseErrorColumn": null,
+  "syntaxCategory": "UNKNOWN_JSON_SYNTAX"
+}

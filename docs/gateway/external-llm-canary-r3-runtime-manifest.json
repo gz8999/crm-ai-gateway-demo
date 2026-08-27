@@ -1,0 +1,61 @@
+{
+  "phase": "Phase 3C R3",
+  "runId": "PHASE3C-R3",
+  "status": "stopped-safety",
+  "stopReason": "old_key_revocation_unverified",
+  "stoppedBeforeExternalCall": true,
+  "createdAt": "2026-07-18T23:08:08.121Z",
+  "provider": {
+    "provider": "openai-compatible",
+    "model": "deepseek-v4-pro",
+    "endpoint": "https://api.deepseek.com/beta",
+    "nativeJsonMode": "strict-tool",
+    "nativeJsonReady": true
+  },
+  "keyGate": {
+    "oldKeyRevoked": false,
+    "newServerSideSecretReady": false,
+    "newKeyExposedBrowser": false,
+    "newKeyPresentGit": false,
+    "newKeyPresentReports": false,
+    "newKeyPresentLogs": false,
+    "newKeyPresentBundle": false
+  },
+  "freeze": {
+    "count": 24,
+    "excludedConsumedCount": 1,
+    "replacementCount": 1,
+    "duplicateTokenCount": 0,
+    "contractCanaryToken": "DEMO-OPP-002",
+    "freezeReady": true,
+    "coverageGaps": [
+      "healthGrade:Z",
+      "confidence:Low"
+    ]
+  },
+  "contractCanary": {
+    "authorized": true,
+    "executed": false,
+    "jsonReady": false,
+    "schemaReady": false,
+    "safetyReady": false
+  },
+  "execution": {
+    "externalLlmCalls": 0,
+    "contractValidResponses": 0,
+    "businessEvaluatedResponses": 0,
+    "failedResponses": 0,
+    "remainingRequests": 24,
+    "crmWriteback": false,
+    "productionRequests": 0,
+    "browserExternalProviderRequests": 0
+  },
+  "safeContext": {
+    "version": "Safe Context v2",
+    "rawCrmExposure": 0,
+    "exactAmountExposure": 0,
+    "rawTimelineExposure": 0,
+    "scenarioGoldenExposure": 0
+  },
+  "decision": "Phase 3C R3 Complete=false"
+}

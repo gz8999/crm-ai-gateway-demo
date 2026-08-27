@@ -1,0 +1,22 @@
+{
+  "phase": "Phase 1C-5R2G-D5-R4",
+  "selectionRule": "Frozen Desired State=Won AND live state=Active AND OpportunityClose count=0; exclude completed Canaries and non-Pilot records",
+  "executionOrder": "stable token ascending",
+  "actions": [
+    { "sequence": 1, "opportunityToken": "DEMO-OPP-028", "actualToken": "ACT-017", "actualRevenue": 45871, "actualEnd": "2026-04-07", "status": 3, "httpStatus": 204, "attemptCount": 1, "success": true, "opportunityCloseCount": 1, "bpfClassification": "A" },
+    { "sequence": 2, "opportunityToken": "DEMO-OPP-038", "actualToken": "ACT-021", "actualRevenue": 2102671, "actualEnd": "2026-05-11", "status": 3, "httpStatus": 204, "attemptCount": 1, "success": true, "opportunityCloseCount": 1, "bpfClassification": "A" },
+    { "sequence": 3, "opportunityToken": "DEMO-OPP-130", "actualToken": "ACT-084", "actualRevenue": 5634, "actualEnd": "2026-07-08", "status": 3, "httpStatus": 204, "attemptCount": 1, "success": true, "opportunityCloseCount": 1, "bpfClassification": "A" },
+    { "sequence": 4, "opportunityToken": "DEMO-OPP-135", "actualToken": "ACT-087", "actualRevenue": 4073, "actualEnd": "2026-06-27", "status": 3, "httpStatus": 204, "attemptCount": 1, "success": true, "opportunityCloseCount": 1, "bpfClassification": "A" },
+    { "sequence": 5, "opportunityToken": "DEMO-OPP-181", "actualToken": "ACT-117", "actualRevenue": 10872, "actualEnd": "2026-08-19", "status": 3, "httpStatus": 204, "attemptCount": 1, "success": true, "opportunityCloseCount": 1, "bpfClassification": "A" },
+    { "sequence": 6, "opportunityToken": "DEMO-OPP-199", "actualToken": "ACT-129", "actualRevenue": 183875, "actualEnd": "2026-09-18", "status": 3, "httpStatus": 204, "attemptCount": 1, "success": true, "opportunityCloseCount": 1, "bpfClassification": "A" }
+  ],
+  "summary": {
+    "attempts": 6,
+    "successes": 6,
+    "failedToken": null,
+    "unexecutedCandidateCount": 0,
+    "stateDistributionBefore": { "won": 1, "active": 22, "lost": 1 },
+    "stateDistributionAfter": { "won": 7, "active": 16, "lost": 1 },
+    "privateExactIdManifestReady": true
+  }
+}

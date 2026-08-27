@@ -1,0 +1,79 @@
+{
+  "sourceFile": "所有案件+7-17.xlsx",
+  "sourceRows": 2917,
+  "sourceUsedFor": "aggregate distributions, field structure and Choice labels only",
+  "salesDepartmentDistribution": [
+    {
+      "department": "06: FF",
+      "sourceCount": 2510,
+      "sourceRatio": 0.8622466506355204,
+      "demoCount": 172,
+      "demoRatio": 0.86,
+      "topBookingDepartments": "09: Shanghai Ocean Export(690)；14: Guangzhou branch(613)；07: Shanghai Air Export(408)；08: Shanghai Air Import(256)；02: International Div.(214)",
+      "topOpportunityDetails": "05: 货运代理(1949)；07: 物流咨询(431)；91: 其他(36)；03: 运输(26)；08: 项目物流(21)",
+      "topTransportModes": "03: OE(1192)；01: AE(655)；02: AI(340)；04: OI(195)；91: Others(73)"
+    },
+    {
+      "department": "01: Dept1(Industry)",
+      "sourceCount": 160,
+      "sourceRatio": 0.05496392992098935,
+      "demoCount": 11,
+      "demoRatio": 0.055,
+      "topBookingDepartments": "06: Chongqing branch(65)；01: Domestic Div.(35)；05: Suzhou branch(21)；17: [FCC](8)；14: Guangzhou branch(5)",
+      "topOpportunityDetails": "02: 仓库运营(71)；91: 其他(20)；05: 货运代理(18)；03: 运输(15)；01: 仓库(15)",
+      "topTransportModes": "91: Others(73)；06: Domestic(72)；03: OE(12)；01: AE(2)；04: OI(1)"
+    },
+    {
+      "department": "03: Dept2(LCMS)",
+      "sourceCount": 86,
+      "sourceRatio": 0.029543112332531776,
+      "demoCount": 6,
+      "demoRatio": 0.03,
+      "topBookingDepartments": "01: Domestic Div.(81)；91: Others(2)；06: Chongqing branch(1)；05: Suzhou branch(1)；04: Dalian branch(1)",
+      "topOpportunityDetails": "91: 其他(47)；06: LCMS（运输管理系统）(35)；01: 仓库(3)；08: 项目物流(1)",
+      "topTransportModes": "91: Others(85)；06: Domestic(1)"
+    },
+    {
+      "department": "02: Dept1(Distribution)",
+      "sourceCount": 64,
+      "sourceRatio": 0.02198557196839574,
+      "demoCount": 4,
+      "demoRatio": 0.02,
+      "topBookingDepartments": "01: Domestic Div.(31)；03: Beijing branch(15)；02: International Div.(4)；91: Others(4)；19: [LHK](2)",
+      "topOpportunityDetails": "02: 仓库运营(22)；03: 运输(19)；08: 项目物流(6)；05: 货运代理(5)；07: 物流咨询(5)",
+      "topTransportModes": "06: Domestic(41)；91: Others(19)；01: AE(2)；04: OI(1)；03: OE(1)"
+    },
+    {
+      "department": "04: Dept3(Project Cargo)",
+      "sourceCount": 46,
+      "sourceRatio": 0.01580212985228444,
+      "demoCount": 3,
+      "demoRatio": 0.015,
+      "topBookingDepartments": "02: International Div.(15)；05: Suzhou branch(9)；04: Dalian branch(4)；03: Beijing branch(3)；01: Domestic Div.(3)",
+      "topOpportunityDetails": "08: 项目物流(30)；05: 货运代理(6)；91: 其他(5)；07: 物流咨询(2)；03: 运输(2)",
+      "topTransportModes": "91: Others(20)；01: AE(12)；03: OE(11)；06: Domestic(2)；02: AI(1)"
+    },
+    {
+      "department": "05: Dept3(Dangerous Goods)",
+      "sourceCount": 25,
+      "sourceRatio": 0.008588114050154586,
+      "demoCount": 2,
+      "demoRatio": 0.01,
+      "topBookingDepartments": "17: [FCC](25)",
+      "topOpportunityDetails": "05: 货运代理(14)；08: 项目物流(4)；91: 其他(4)；01: 仓库(2)；03: 运输(1)",
+      "topTransportModes": "03: OE(12)；06: Domestic(8)；91: Others(3)；01: AE(2)"
+    },
+    {
+      "department": "91: Others",
+      "sourceCount": 20,
+      "sourceRatio": 0.006870491240123669,
+      "demoCount": 2,
+      "demoRatio": 0.01,
+      "topBookingDepartments": "01: Domestic Div.(7)；14: Guangzhou branch(5)；03: Beijing branch(3)；06: Chongqing branch(2)；05: Suzhou branch(2)",
+      "topOpportunityDetails": "91: 其他(6)；05: 货运代理(6)；06: LCMS（运输管理系统）(5)；01: 仓库(2)；03: 运输(1)",
+      "topTransportModes": "91: Others(12)；03: OE(5)；01: AE(2)；06: Domestic(1)"
+    }
+  ],
+  "noRawIdentityIncluded": true,
+  "noRawDescriptionIncluded": true
+}

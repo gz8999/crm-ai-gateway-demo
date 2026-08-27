@@ -1,0 +1,45 @@
+{
+  "phase": "Phase 1C-5R2G-D6-R5",
+  "status": "FROZEN",
+  "timeline": {
+    "count": 1800,
+    "allowedActivityTypes": [
+      "phonecall",
+      "appointment",
+      "task",
+      "annotation"
+    ],
+    "missingParent": 0,
+    "duplicateToken": 0,
+    "attachmentCount": 0,
+    "bodyHashMismatch": 0,
+    "dateProjectionMismatch": 0,
+    "annotationReferenceDate": "2026-07-18",
+    "annotationModes": {
+      "HistoricalOverride": 224,
+      "SameDayBodyDate": 1,
+      "FutureBodyPlannedDate": 7
+    }
+  },
+  "interactionSignal": {
+    "count": 1350,
+    "missingSource": 0,
+    "activityTypeMismatch": 0,
+    "businessDateMismatch": 0,
+    "choiceMismatch": 0,
+    "departmentMismatch": 0,
+    "sanitizedSummaryRequired": true
+  },
+  "historyPreserved": {
+    "localCheckpointFailureCount": 1,
+    "serverRejectionCount": 1,
+    "failedToken": "TL-0653",
+    "failureIsNotCurrentPostFailure": true
+  },
+  "gates": {
+    "timelineReady": true,
+    "signalReady": true,
+    "annotationContractReady": true,
+    "sourceTraceabilityReady": true
+  }
+}

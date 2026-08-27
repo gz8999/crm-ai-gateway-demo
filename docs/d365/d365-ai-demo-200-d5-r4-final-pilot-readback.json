@@ -1,0 +1,35 @@
+{
+  "phase": "Phase 1C-5R2G-D5-R4",
+  "explicitPilotRecords": 427,
+  "entityCounts": {
+    "account": 7,
+    "contact": 9,
+    "opportunity": 24,
+    "serviceCoverage": 15,
+    "actualManagement": 12,
+    "timeline": 206,
+    "interactionSignal": 154
+  },
+  "opportunityStateDistribution": { "won": 7, "active": 16, "lost": 1 },
+  "opportunityClose": { "win": 7, "lose": 1, "total": 8, "attachments": 0 },
+  "bpf": { "targetInstances": 24, "duplicates": 0, "unexpectedProcesses": 0, "initialStage": 24 },
+  "plugin": { "enabled": 7, "disabled": 0 },
+  "securityGraph": { "ownerReady": true, "ownerTeams": 7, "memberships": 7, "teamRoleAssignments": 7 },
+  "protectedBusinessHash": {
+    "before": "12b4fa7942f90c444cd1c8cfa4cf2f1322a027c26cca7f2bc0619f1f4c1ed56f",
+    "after": "12b4fa7942f90c444cd1c8cfa4cf2f1322a027c26cca7f2bc0619f1f4c1ed56f",
+    "mismatchCount": 0
+  },
+  "gates": {
+    "pilotStateActionsCompleted": true,
+    "pilotImportCompleted": true,
+    "pilotExactReadbackReady": true,
+    "pilotExactIdManifestReady": true,
+    "pilotCleanupManifestReady": true,
+    "pilotCleanupAuthorized": false,
+    "cleanupExecuted": false,
+    "fullImportStarted": false,
+    "fullImportReady": false,
+    "productionIsolationReady": true
+  }
+}

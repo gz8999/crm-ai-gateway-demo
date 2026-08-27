@@ -1,0 +1,1994 @@
+{
+  "phase": "1C-5R2F-R3B",
+  "environment": "org91f5f65f.crm5.dynamics.com",
+  "mode": "apply",
+  "approvedChoiceCount": 12,
+  "approvedOptionCount": 75,
+  "languagePolicy": {
+    "languageCode": 1033,
+    "availableLanguageCodes": [
+      1033,
+      2052
+    ],
+    "chineseLcidConfirmed": true,
+    "englishLabelDeferred": false
+  },
+  "fields": [
+    {
+      "entity": "aigw_customerservicecoverage",
+      "attribute": "aigw_servicetype",
+      "status": "complete",
+      "inserted": [
+        {
+          "index": 0,
+          "chinese": "国内运输",
+          "english": "Domestic Transport",
+          "value": 388560000,
+          "reportedValue": 388560000,
+          "status": "confirmed",
+          "retry": false,
+          "responseStatus": 200,
+          "responseKeys": [
+            "@odata.context",
+            "NewOptionValue"
+          ],
+          "readbackCount": 1
+        },
+        {
+          "index": 1,
+          "chinese": "国际海运",
+          "english": "International Ocean Freight",
+          "value": 388560001,
+          "reportedValue": 388560001,
+          "status": "confirmed",
+          "retry": false,
+          "responseStatus": 200,
+          "responseKeys": [
+            "@odata.context",
+            "NewOptionValue"
+          ],
+          "readbackCount": 2
+        },
+        {
+          "index": 2,
+          "chinese": "国际空运",
+          "english": "International Air Freight",
+          "value": 388560002,
+          "reportedValue": 388560002,
+          "status": "confirmed",
+          "retry": false,
+          "responseStatus": 200,
+          "responseKeys": [
+            "@odata.context",
+            "NewOptionValue"
+          ],
+          "readbackCount": 3
+        },
+        {
+          "index": 3,
+          "chinese": "铁路运输",
+          "english": "Rail Freight",
+          "value": 388560003,
+          "reportedValue": 388560003,
+          "status": "confirmed",
+          "retry": false,
+          "responseStatus": 200,
+          "responseKeys": [
+            "@odata.context",
+            "NewOptionValue"
+          ],
+          "readbackCount": 4
+        },
+        {
+          "index": 4,
+          "chinese": "仓储运营",
+          "english": "Warehouse Operations",
+          "value": 388560004,
+          "reportedValue": 388560004,
+          "status": "confirmed",
+          "retry": false,
+          "responseStatus": 200,
+          "responseKeys": [
+            "@odata.context",
+            "NewOptionValue"
+          ],
+          "readbackCount": 5
+        },
+        {
+          "index": 5,
+          "chinese": "门店配送",
+          "english": "Store Delivery",
+          "value": 388560005,
+          "reportedValue": 388560005,
+          "status": "confirmed",
+          "retry": false,
+          "responseStatus": 200,
+          "responseKeys": [
+            "@odata.context",
+            "NewOptionValue"
+          ],
+          "readbackCount": 6
+        },
+        {
+          "index": 6,
+          "chinese": "冷链物流",
+          "english": "Cold Chain Logistics",
+          "value": 388560006,
+          "reportedValue": 388560006,
+          "status": "confirmed",
+          "retry": false,
+          "responseStatus": 200,
+          "responseKeys": [
+            "@odata.context",
+            "NewOptionValue"
+          ],
+          "readbackCount": 7
+        },
+        {
+          "index": 7,
+          "chinese": "跨境电商物流",
+          "english": "Cross-border E-commerce Logistics",
+          "value": 388560007,
+          "reportedValue": 388560007,
+          "status": "confirmed",
+          "retry": false,
+          "responseStatus": 200,
+          "responseKeys": [
+            "@odata.context",
+            "NewOptionValue"
+          ],
+          "readbackCount": 8
+        },
+        {
+          "index": 8,
+          "chinese": "供应链解决方案",
+          "english": "Supply Chain Solutions",
+          "value": 388560008,
+          "reportedValue": 388560008,
+          "status": "confirmed",
+          "retry": false,
+          "responseStatus": 200,
+          "responseKeys": [
+            "@odata.context",
+            "NewOptionValue"
+          ],
+          "readbackCount": 9
+        },
+        {
+          "index": 9,
+          "chinese": "其他",
+          "english": "Other",
+          "value": 388560009,
+          "reportedValue": 388560009,
+          "status": "confirmed",
+          "retry": false,
+          "responseStatus": 200,
+          "responseKeys": [
+            "@odata.context",
+            "NewOptionValue"
+          ],
+          "readbackCount": 10
+        }
+      ],
+      "beforeCount": 0,
+      "after": {
+        "metadataId": "43054675-ef80-f111-ab0e-000d3a858957",
+        "logicalName": "aigw_servicetype",
+        "schemaName": "Aigw_Servicetype",
+        "displayName": {
+          "1033": "Service Type",
+          "2052": "服务类型"
+        },
+        "attributeType": "Picklist",
+        "isGlobal": false,
+        "optionSetName": "aigw_customerservicecoverage_aigw_servicetype",
+        "options": [
+          {
+            "value": 388560000,
+            "labels": {
+              "1033": "Domestic Transport",
+              "2052": "国内运输"
+            }
+          },
+          {
+            "value": 388560001,
+            "labels": {
+              "1033": "International Ocean Freight",
+              "2052": "国际海运"
+            }
+          },
+          {
+            "value": 388560002,
+            "labels": {
+              "1033": "International Air Freight",
+              "2052": "国际空运"
+            }
+          },
+          {
+            "value": 388560003,
+            "labels": {
+              "1033": "Rail Freight",
+              "2052": "铁路运输"
+            }
+          },
+          {
+            "value": 388560004,
+            "labels": {
+              "1033": "Warehouse Operations",
+              "2052": "仓储运营"
+            }
+          },
+          {
+            "value": 388560005,
+            "labels": {
+              "1033": "Store Delivery",
+              "2052": "门店配送"
+            }
+          },
+          {
+            "value": 388560006,
+            "labels": {
+              "1033": "Cold Chain Logistics",
+              "2052": "冷链物流"
+            }
+          },
+          {
+            "value": 388560007,
+            "labels": {
+              "1033": "Cross-border E-commerce Logistics",
+              "2052": "跨境电商物流"
+            }
+          },
+          {
+            "value": 388560008,
+            "labels": {
+              "1033": "Supply Chain Solutions",
+              "2052": "供应链解决方案"
+            }
+          },
+          {
+            "value": 388560009,
+            "labels": {
+              "1033": "Other",
+              "2052": "其他"
+            }
+          }
+        ]
+      },
+      "orderOption": {
+        "status": "not-needed"
+      },
+      "ready": true
+    },
+    {
+      "entity": "aigw_customerservicecoverage",
+      "attribute": "aigw_coveragestatus",
+      "status": "complete",
+      "inserted": [
+        {
+          "index": 0,
+          "chinese": "已覆盖",
+          "english": "Covered",
+          "value": 388560000,
+          "reportedValue": 388560000,
+          "status": "confirmed",
+          "retry": false,
+          "responseStatus": 200,
+          "responseKeys": [
+            "@odata.context",
+            "NewOptionValue"
+          ],
+          "readbackCount": 1
+        },
+        {
+          "index": 1,
+          "chinese": "提案中",
+          "english": "In Proposal",
+          "value": 388560001,
+          "reportedValue": 388560001,
+          "status": "confirmed",
+          "retry": false,
+          "responseStatus": 200,
+          "responseKeys": [
+            "@odata.context",
+            "NewOptionValue"
+          ],
+          "readbackCount": 2
+        },
+        {
+          "index": 2,
+          "chinese": "未覆盖",
+          "english": "Not Covered",
+          "value": 388560002,
+          "reportedValue": 388560002,
+          "status": "confirmed",
+          "retry": false,
+          "responseStatus": 200,
+          "responseKeys": [
+            "@odata.context",
+            "NewOptionValue"
+          ],
+          "readbackCount": 3
+        },
+        {
+          "index": 3,
+          "chinese": "曾经覆盖",
+          "english": "Previously Covered",
+          "value": 388560003,
+          "reportedValue": 388560003,
+          "status": "confirmed",
+          "retry": false,
+          "responseStatus": 200,
+          "responseKeys": [
+            "@odata.context",
+            "NewOptionValue"
+          ],
+          "readbackCount": 4
+        },
+        {
+          "index": 4,
+          "chinese": "已停止",
+          "english": "Stopped",
+          "value": 388560004,
+          "reportedValue": 388560004,
+          "status": "confirmed",
+          "retry": false,
+          "responseStatus": 200,
+          "responseKeys": [
+            "@odata.context",
+            "NewOptionValue"
+          ],
+          "readbackCount": 5
+        },
+        {
+          "index": 5,
+          "chinese": "待确认",
+          "english": "To Be Confirmed",
+          "value": 388560005,
+          "reportedValue": 388560005,
+          "status": "confirmed",
+          "retry": false,
+          "responseStatus": 200,
+          "responseKeys": [
+            "@odata.context",
+            "NewOptionValue"
+          ],
+          "readbackCount": 6
+        }
+      ],
+      "beforeCount": 0,
+      "after": {
+        "metadataId": "f8054675-ef80-f111-ab0e-000d3a858957",
+        "logicalName": "aigw_coveragestatus",
+        "schemaName": "Aigw_Coveragestatus",
+        "displayName": {
+          "1033": "Coverage Status",
+          "2052": "覆盖状态"
+        },
+        "attributeType": "Picklist",
+        "isGlobal": false,
+        "optionSetName": "aigw_customerservicecoverage_aigw_coveragestatus",
+        "options": [
+          {
+            "value": 388560000,
+            "labels": {
+              "1033": "Covered",
+              "2052": "已覆盖"
+            }
+          },
+          {
+            "value": 388560001,
+            "labels": {
+              "1033": "In Proposal",
+              "2052": "提案中"
+            }
+          },
+          {
+            "value": 388560002,
+            "labels": {
+              "1033": "Not Covered",
+              "2052": "未覆盖"
+            }
+          },
+          {
+            "value": 388560003,
+            "labels": {
+              "1033": "Previously Covered",
+              "2052": "曾经覆盖"
+            }
+          },
+          {
+            "value": 388560004,
+            "labels": {
+              "1033": "Stopped",
+              "2052": "已停止"
+            }
+          },
+          {
+            "value": 388560005,
+            "labels": {
+              "1033": "To Be Confirmed",
+              "2052": "待确认"
+            }
+          }
+        ]
+      },
+      "orderOption": {
+        "status": "not-needed"
+      },
+      "ready": true
+    },
+    {
+      "entity": "aigw_customerservicecoverage",
+      "attribute": "aigw_servicesatisfaction",
+      "status": "complete",
+      "inserted": [
+        {
+          "index": 0,
+          "chinese": "很满意",
+          "english": "Very Satisfied",
+          "value": 388560000,
+          "reportedValue": 388560000,
+          "status": "confirmed",
+          "retry": false,
+          "responseStatus": 200,
+          "responseKeys": [
+            "@odata.context",
+            "NewOptionValue"
+          ],
+          "readbackCount": 1
+        },
+        {
+          "index": 1,
+          "chinese": "满意",
+          "english": "Satisfied",
+          "value": 388560001,
+          "reportedValue": 388560001,
+          "status": "confirmed",
+          "retry": false,
+          "responseStatus": 200,
+          "responseKeys": [
+            "@odata.context",
+            "NewOptionValue"
+          ],
+          "readbackCount": 2
+        },
+        {
+          "index": 2,
+          "chinese": "一般",
+          "english": "Neutral",
+          "value": 388560002,
+          "reportedValue": 388560002,
+          "status": "confirmed",
+          "retry": false,
+          "responseStatus": 200,
+          "responseKeys": [
+            "@odata.context",
+            "NewOptionValue"
+          ],
+          "readbackCount": 3
+        },
+        {
+          "index": 3,
+          "chinese": "需改善",
+          "english": "Needs Improvement",
+          "value": 388560003,
+          "reportedValue": 388560003,
+          "status": "confirmed",
+          "retry": false,
+          "responseStatus": 200,
+          "responseKeys": [
+            "@odata.context",
+            "NewOptionValue"
+          ],
+          "readbackCount": 4
+        },
+        {
+          "index": 4,
+          "chinese": "未确认",
+          "english": "Unconfirmed",
+          "value": 388560004,
+          "reportedValue": 388560004,
+          "status": "confirmed",
+          "retry": false,
+          "responseStatus": 200,
+          "responseKeys": [
+            "@odata.context",
+            "NewOptionValue"
+          ],
+          "readbackCount": 5
+        }
+      ],
+      "beforeCount": 0,
+      "after": {
+        "metadataId": "a3243a87-ef80-f111-ab0e-000d3a858957",
+        "logicalName": "aigw_servicesatisfaction",
+        "schemaName": "Aigw_Servicesatisfaction",
+        "displayName": {
+          "1033": "Service Satisfaction",
+          "2052": "服务满意度"
+        },
+        "attributeType": "Picklist",
+        "isGlobal": false,
+        "optionSetName": "aigw_customerservicecoverage_aigw_servicesatisfaction",
+        "options": [
+          {
+            "value": 388560000,
+            "labels": {
+              "1033": "Very Satisfied",
+              "2052": "很满意"
+            }
+          },
+          {
+            "value": 388560001,
+            "labels": {
+              "1033": "Satisfied",
+              "2052": "满意"
+            }
+          },
+          {
+            "value": 388560002,
+            "labels": {
+              "1033": "Neutral",
+              "2052": "一般"
+            }
+          },
+          {
+            "value": 388560003,
+            "labels": {
+              "1033": "Needs Improvement",
+              "2052": "需改善"
+            }
+          },
+          {
+            "value": 388560004,
+            "labels": {
+              "1033": "Unconfirmed",
+              "2052": "未确认"
+            }
+          }
+        ]
+      },
+      "orderOption": {
+        "status": "not-needed"
+      },
+      "ready": true
+    },
+    {
+      "entity": "aigw_customerservicecoverage",
+      "attribute": "aigw_revenueband",
+      "status": "complete",
+      "inserted": [
+        {
+          "index": 0,
+          "chinese": "无收入",
+          "english": "No Revenue",
+          "value": 388560000,
+          "reportedValue": 388560000,
+          "status": "confirmed",
+          "retry": false,
+          "responseStatus": 200,
+          "responseKeys": [
+            "@odata.context",
+            "NewOptionValue"
+          ],
+          "readbackCount": 1
+        },
+        {
+          "index": 1,
+          "chinese": "低",
+          "english": "Low",
+          "value": 388560001,
+          "reportedValue": 388560001,
+          "status": "confirmed",
+          "retry": false,
+          "responseStatus": 200,
+          "responseKeys": [
+            "@odata.context",
+            "NewOptionValue"
+          ],
+          "readbackCount": 2
+        },
+        {
+          "index": 2,
+          "chinese": "中",
+          "english": "Medium",
+          "value": 388560002,
+          "reportedValue": 388560002,
+          "status": "confirmed",
+          "retry": false,
+          "responseStatus": 200,
+          "responseKeys": [
+            "@odata.context",
+            "NewOptionValue"
+          ],
+          "readbackCount": 3
+        },
+        {
+          "index": 3,
+          "chinese": "高",
+          "english": "High",
+          "value": 388560003,
+          "reportedValue": 388560003,
+          "status": "confirmed",
+          "retry": false,
+          "responseStatus": 200,
+          "responseKeys": [
+            "@odata.context",
+            "NewOptionValue"
+          ],
+          "readbackCount": 4
+        },
+        {
+          "index": 4,
+          "chinese": "战略级",
+          "english": "Strategic",
+          "value": 388560004,
+          "reportedValue": 388560004,
+          "status": "confirmed",
+          "retry": false,
+          "responseStatus": 200,
+          "responseKeys": [
+            "@odata.context",
+            "NewOptionValue"
+          ],
+          "readbackCount": 5
+        },
+        {
+          "index": 5,
+          "chinese": "未确认",
+          "english": "Unconfirmed",
+          "value": 388560005,
+          "reportedValue": 388560005,
+          "status": "confirmed",
+          "retry": false,
+          "responseStatus": 200,
+          "responseKeys": [
+            "@odata.context",
+            "NewOptionValue"
+          ],
+          "readbackCount": 6
+        }
+      ],
+      "beforeCount": 0,
+      "after": {
+        "metadataId": "5bc74081-ef80-f111-ab0e-000d3a858957",
+        "logicalName": "aigw_revenueband",
+        "schemaName": "Aigw_Revenueband",
+        "displayName": {
+          "1033": "Revenue Band",
+          "2052": "收入区间"
+        },
+        "attributeType": "Picklist",
+        "isGlobal": false,
+        "optionSetName": "aigw_customerservicecoverage_aigw_revenueband",
+        "options": [
+          {
+            "value": 388560000,
+            "labels": {
+              "1033": "No Revenue",
+              "2052": "无收入"
+            }
+          },
+          {
+            "value": 388560001,
+            "labels": {
+              "1033": "Low",
+              "2052": "低"
+            }
+          },
+          {
+            "value": 388560002,
+            "labels": {
+              "1033": "Medium",
+              "2052": "中"
+            }
+          },
+          {
+            "value": 388560003,
+            "labels": {
+              "1033": "High",
+              "2052": "高"
+            }
+          },
+          {
+            "value": 388560004,
+            "labels": {
+              "1033": "Strategic",
+              "2052": "战略级"
+            }
+          },
+          {
+            "value": 388560005,
+            "labels": {
+              "1033": "Unconfirmed",
+              "2052": "未确认"
+            }
+          }
+        ]
+      },
+      "orderOption": {
+        "status": "not-needed"
+      },
+      "ready": true
+    },
+    {
+      "entity": "aigw_customerservicecoverage",
+      "attribute": "aigw_marginband",
+      "status": "complete",
+      "inserted": [
+        {
+          "index": 0,
+          "chinese": "负毛利",
+          "english": "Negative Margin",
+          "value": 388560000,
+          "reportedValue": 388560000,
+          "status": "confirmed",
+          "retry": false,
+          "responseStatus": 200,
+          "responseKeys": [
+            "@odata.context",
+            "NewOptionValue"
+          ],
+          "readbackCount": 1
+        },
+        {
+          "index": 1,
+          "chinese": "低",
+          "english": "Low",
+          "value": 388560001,
+          "reportedValue": 388560001,
+          "status": "confirmed",
+          "retry": false,
+          "responseStatus": 200,
+          "responseKeys": [
+            "@odata.context",
+            "NewOptionValue"
+          ],
+          "readbackCount": 2
+        },
+        {
+          "index": 2,
+          "chinese": "正常",
+          "english": "Normal",
+          "value": 388560002,
+          "reportedValue": 388560002,
+          "status": "confirmed",
+          "retry": false,
+          "responseStatus": 200,
+          "responseKeys": [
+            "@odata.context",
+            "NewOptionValue"
+          ],
+          "readbackCount": 3
+        },
+        {
+          "index": 3,
+          "chinese": "较高",
+          "english": "Higher",
+          "value": 388560003,
+          "reportedValue": 388560003,
+          "status": "confirmed",
+          "retry": false,
+          "responseStatus": 200,
+          "responseKeys": [
+            "@odata.context",
+            "NewOptionValue"
+          ],
+          "readbackCount": 4
+        },
+        {
+          "index": 4,
+          "chinese": "未确认",
+          "english": "Unconfirmed",
+          "value": 388560004,
+          "reportedValue": 388560004,
+          "status": "confirmed",
+          "retry": false,
+          "responseStatus": 200,
+          "responseKeys": [
+            "@odata.context",
+            "NewOptionValue"
+          ],
+          "readbackCount": 5
+        }
+      ],
+      "beforeCount": 0,
+      "after": {
+        "metadataId": "1ac84081-ef80-f111-ab0e-000d3a858957",
+        "logicalName": "aigw_marginband",
+        "schemaName": "Aigw_Marginband",
+        "displayName": {
+          "1033": "Margin Band",
+          "2052": "毛利区间"
+        },
+        "attributeType": "Picklist",
+        "isGlobal": false,
+        "optionSetName": "aigw_customerservicecoverage_aigw_marginband",
+        "options": [
+          {
+            "value": 388560000,
+            "labels": {
+              "1033": "Negative Margin",
+              "2052": "负毛利"
+            }
+          },
+          {
+            "value": 388560001,
+            "labels": {
+              "1033": "Low",
+              "2052": "低"
+            }
+          },
+          {
+            "value": 388560002,
+            "labels": {
+              "1033": "Normal",
+              "2052": "正常"
+            }
+          },
+          {
+            "value": 388560003,
+            "labels": {
+              "1033": "Higher",
+              "2052": "较高"
+            }
+          },
+          {
+            "value": 388560004,
+            "labels": {
+              "1033": "Unconfirmed",
+              "2052": "未确认"
+            }
+          }
+        ]
+      },
+      "orderOption": {
+        "status": "not-needed"
+      },
+      "ready": true
+    },
+    {
+      "entity": "aigw_interactionsignal",
+      "attribute": "aigw_activitytype",
+      "status": "complete",
+      "inserted": [
+        {
+          "index": 0,
+          "chinese": "电话",
+          "english": "Phone Call",
+          "value": 388560000,
+          "reportedValue": 388560000,
+          "status": "confirmed",
+          "retry": false,
+          "responseStatus": 200,
+          "responseKeys": [
+            "@odata.context",
+            "NewOptionValue"
+          ],
+          "readbackCount": 1
+        },
+        {
+          "index": 1,
+          "chinese": "会议",
+          "english": "Meeting",
+          "value": 388560001,
+          "reportedValue": 388560001,
+          "status": "confirmed",
+          "retry": false,
+          "responseStatus": 200,
+          "responseKeys": [
+            "@odata.context",
+            "NewOptionValue"
+          ],
+          "readbackCount": 2
+        },
+        {
+          "index": 2,
+          "chinese": "任务",
+          "english": "Task",
+          "value": 388560002,
+          "reportedValue": 388560002,
+          "status": "confirmed",
+          "retry": false,
+          "responseStatus": 200,
+          "responseKeys": [
+            "@odata.context",
+            "NewOptionValue"
+          ],
+          "readbackCount": 3
+        },
+        {
+          "index": 3,
+          "chinese": "Note",
+          "english": "Note",
+          "value": 388560003,
+          "reportedValue": 388560003,
+          "status": "confirmed",
+          "retry": false,
+          "responseStatus": 200,
+          "responseKeys": [
+            "@odata.context",
+            "NewOptionValue"
+          ],
+          "readbackCount": 4
+        },
+        {
+          "index": 4,
+          "chinese": "邮件沟通摘要",
+          "english": "Email Communication Summary",
+          "value": 388560004,
+          "reportedValue": 388560004,
+          "status": "confirmed",
+          "retry": false,
+          "responseStatus": 200,
+          "responseKeys": [
+            "@odata.context",
+            "NewOptionValue"
+          ],
+          "readbackCount": 5
+        },
+        {
+          "index": 5,
+          "chinese": "现场拜访",
+          "english": "On-site Visit",
+          "value": 388560005,
+          "reportedValue": 388560005,
+          "status": "confirmed",
+          "retry": false,
+          "responseStatus": 200,
+          "responseKeys": [
+            "@odata.context",
+            "NewOptionValue"
+          ],
+          "readbackCount": 6
+        },
+        {
+          "index": 6,
+          "chinese": "内部会议",
+          "english": "Internal Meeting",
+          "value": 388560006,
+          "reportedValue": 388560006,
+          "status": "confirmed",
+          "retry": false,
+          "responseStatus": 200,
+          "responseKeys": [
+            "@odata.context",
+            "NewOptionValue"
+          ],
+          "readbackCount": 7
+        }
+      ],
+      "beforeCount": 0,
+      "after": {
+        "metadataId": "d9431cd5-ef80-f111-ab0e-000d3a858957",
+        "logicalName": "aigw_activitytype",
+        "schemaName": "Aigw_Activitytype",
+        "displayName": {
+          "1033": "Activity Type",
+          "2052": "活动类型"
+        },
+        "attributeType": "Picklist",
+        "isGlobal": false,
+        "optionSetName": "aigw_interactionsignal_aigw_activitytype",
+        "options": [
+          {
+            "value": 388560000,
+            "labels": {
+              "1033": "Phone Call",
+              "2052": "电话"
+            }
+          },
+          {
+            "value": 388560001,
+            "labels": {
+              "1033": "Meeting",
+              "2052": "会议"
+            }
+          },
+          {
+            "value": 388560002,
+            "labels": {
+              "1033": "Task",
+              "2052": "任务"
+            }
+          },
+          {
+            "value": 388560003,
+            "labels": {
+              "1033": "Note",
+              "2052": "Note"
+            }
+          },
+          {
+            "value": 388560004,
+            "labels": {
+              "1033": "Email Communication Summary",
+              "2052": "邮件沟通摘要"
+            }
+          },
+          {
+            "value": 388560005,
+            "labels": {
+              "1033": "On-site Visit",
+              "2052": "现场拜访"
+            }
+          },
+          {
+            "value": 388560006,
+            "labels": {
+              "1033": "Internal Meeting",
+              "2052": "内部会议"
+            }
+          }
+        ]
+      },
+      "orderOption": {
+        "status": "not-needed"
+      },
+      "ready": true
+    },
+    {
+      "entity": "aigw_interactionsignal",
+      "attribute": "aigw_direction",
+      "status": "complete",
+      "inserted": [
+        {
+          "index": 0,
+          "chinese": "客户→我方",
+          "english": "Customer to Us",
+          "value": 388560000,
+          "reportedValue": 388560000,
+          "status": "confirmed",
+          "retry": false,
+          "responseStatus": 200,
+          "responseKeys": [
+            "@odata.context",
+            "NewOptionValue"
+          ],
+          "readbackCount": 1
+        },
+        {
+          "index": 1,
+          "chinese": "我方→客户",
+          "english": "Us to Customer",
+          "value": 388560001,
+          "reportedValue": 388560001,
+          "status": "confirmed",
+          "retry": false,
+          "responseStatus": 200,
+          "responseKeys": [
+            "@odata.context",
+            "NewOptionValue"
+          ],
+          "readbackCount": 2
+        },
+        {
+          "index": 2,
+          "chinese": "内部",
+          "english": "Internal",
+          "value": 388560002,
+          "reportedValue": 388560002,
+          "status": "confirmed",
+          "retry": false,
+          "responseStatus": 200,
+          "responseKeys": [
+            "@odata.context",
+            "NewOptionValue"
+          ],
+          "readbackCount": 3
+        }
+      ],
+      "beforeCount": 0,
+      "after": {
+        "metadataId": "73441cd5-ef80-f111-ab0e-000d3a858957",
+        "logicalName": "aigw_direction",
+        "schemaName": "Aigw_Direction",
+        "displayName": {
+          "1033": "Direction",
+          "2052": "互动方向"
+        },
+        "attributeType": "Picklist",
+        "isGlobal": false,
+        "optionSetName": "aigw_interactionsignal_aigw_direction",
+        "options": [
+          {
+            "value": 388560000,
+            "labels": {
+              "1033": "Customer to Us",
+              "2052": "客户→我方"
+            }
+          },
+          {
+            "value": 388560001,
+            "labels": {
+              "1033": "Us to Customer",
+              "2052": "我方→客户"
+            }
+          },
+          {
+            "value": 388560002,
+            "labels": {
+              "1033": "Internal",
+              "2052": "内部"
+            }
+          }
+        ]
+      },
+      "orderOption": {
+        "status": "not-needed"
+      },
+      "ready": true
+    },
+    {
+      "entity": "aigw_interactionsignal",
+      "attribute": "aigw_resultcategory",
+      "status": "complete",
+      "inserted": [
+        {
+          "index": 0,
+          "chinese": "已确认",
+          "english": "Confirmed",
+          "value": 388560000,
+          "reportedValue": 388560000,
+          "status": "confirmed",
+          "retry": false,
+          "responseStatus": 200,
+          "responseKeys": [
+            "@odata.context",
+            "NewOptionValue"
+          ],
+          "readbackCount": 1
+        },
+        {
+          "index": 1,
+          "chinese": "部分确认",
+          "english": "Partially Confirmed",
+          "value": 388560001,
+          "reportedValue": 388560001,
+          "status": "confirmed",
+          "retry": false,
+          "responseStatus": 200,
+          "responseKeys": [
+            "@odata.context",
+            "NewOptionValue"
+          ],
+          "readbackCount": 2
+        },
+        {
+          "index": 2,
+          "chinese": "待客户回复",
+          "english": "Awaiting Customer",
+          "value": 388560002,
+          "reportedValue": 388560002,
+          "status": "confirmed",
+          "retry": false,
+          "responseStatus": 200,
+          "responseKeys": [
+            "@odata.context",
+            "NewOptionValue"
+          ],
+          "readbackCount": 3
+        },
+        {
+          "index": 3,
+          "chinese": "待内部处理",
+          "english": "Awaiting Internal Action",
+          "value": 388560003,
+          "reportedValue": 388560003,
+          "status": "confirmed",
+          "retry": false,
+          "responseStatus": 200,
+          "responseKeys": [
+            "@odata.context",
+            "NewOptionValue"
+          ],
+          "readbackCount": 4
+        },
+        {
+          "index": 4,
+          "chinese": "延期",
+          "english": "Delayed",
+          "value": 388560004,
+          "reportedValue": 388560004,
+          "status": "confirmed",
+          "retry": false,
+          "responseStatus": 200,
+          "responseKeys": [
+            "@odata.context",
+            "NewOptionValue"
+          ],
+          "readbackCount": 5
+        },
+        {
+          "index": 5,
+          "chinese": "拒绝",
+          "english": "Rejected",
+          "value": 388560005,
+          "reportedValue": 388560005,
+          "status": "confirmed",
+          "retry": false,
+          "responseStatus": 200,
+          "responseKeys": [
+            "@odata.context",
+            "NewOptionValue"
+          ],
+          "readbackCount": 6
+        },
+        {
+          "index": 6,
+          "chinese": "完成",
+          "english": "Completed",
+          "value": 388560006,
+          "reportedValue": 388560006,
+          "status": "confirmed",
+          "retry": false,
+          "responseStatus": 200,
+          "responseKeys": [
+            "@odata.context",
+            "NewOptionValue"
+          ],
+          "readbackCount": 7
+        },
+        {
+          "index": 7,
+          "chinese": "无结果",
+          "english": "No Result",
+          "value": 388560007,
+          "reportedValue": 388560007,
+          "status": "confirmed",
+          "retry": false,
+          "responseStatus": 200,
+          "responseKeys": [
+            "@odata.context",
+            "NewOptionValue"
+          ],
+          "readbackCount": 8
+        }
+      ],
+      "beforeCount": 0,
+      "after": {
+        "metadataId": "8ee21bdb-ef80-f111-ab0e-000d3a858957",
+        "logicalName": "aigw_resultcategory",
+        "schemaName": "Aigw_Resultcategory",
+        "displayName": {
+          "1033": "Result Category",
+          "2052": "结果类别"
+        },
+        "attributeType": "Picklist",
+        "isGlobal": false,
+        "optionSetName": "aigw_interactionsignal_aigw_resultcategory",
+        "options": [
+          {
+            "value": 388560000,
+            "labels": {
+              "1033": "Confirmed",
+              "2052": "已确认"
+            }
+          },
+          {
+            "value": 388560001,
+            "labels": {
+              "1033": "Partially Confirmed",
+              "2052": "部分确认"
+            }
+          },
+          {
+            "value": 388560002,
+            "labels": {
+              "1033": "Awaiting Customer",
+              "2052": "待客户回复"
+            }
+          },
+          {
+            "value": 388560003,
+            "labels": {
+              "1033": "Awaiting Internal Action",
+              "2052": "待内部处理"
+            }
+          },
+          {
+            "value": 388560004,
+            "labels": {
+              "1033": "Delayed",
+              "2052": "延期"
+            }
+          },
+          {
+            "value": 388560005,
+            "labels": {
+              "1033": "Rejected",
+              "2052": "拒绝"
+            }
+          },
+          {
+            "value": 388560006,
+            "labels": {
+              "1033": "Completed",
+              "2052": "完成"
+            }
+          },
+          {
+            "value": 388560007,
+            "labels": {
+              "1033": "No Result",
+              "2052": "无结果"
+            }
+          }
+        ]
+      },
+      "orderOption": {
+        "status": "not-needed"
+      },
+      "ready": true
+    },
+    {
+      "entity": "aigw_interactionsignal",
+      "attribute": "aigw_customerresponselevel",
+      "status": "complete",
+      "inserted": [
+        {
+          "index": 0,
+          "chinese": "积极",
+          "english": "Positive",
+          "value": 388560000,
+          "reportedValue": 388560000,
+          "status": "confirmed",
+          "retry": false,
+          "responseStatus": 200,
+          "responseKeys": [
+            "@odata.context",
+            "NewOptionValue"
+          ],
+          "readbackCount": 1
+        },
+        {
+          "index": 1,
+          "chinese": "正常",
+          "english": "Normal",
+          "value": 388560001,
+          "reportedValue": 388560001,
+          "status": "confirmed",
+          "retry": false,
+          "responseStatus": 200,
+          "responseKeys": [
+            "@odata.context",
+            "NewOptionValue"
+          ],
+          "readbackCount": 2
+        },
+        {
+          "index": 2,
+          "chinese": "低频",
+          "english": "Low Frequency",
+          "value": 388560002,
+          "reportedValue": 388560002,
+          "status": "confirmed",
+          "retry": false,
+          "responseStatus": 200,
+          "responseKeys": [
+            "@odata.context",
+            "NewOptionValue"
+          ],
+          "readbackCount": 3
+        },
+        {
+          "index": 3,
+          "chinese": "无回复",
+          "english": "No Response",
+          "value": 388560003,
+          "reportedValue": 388560003,
+          "status": "confirmed",
+          "retry": false,
+          "responseStatus": 200,
+          "responseKeys": [
+            "@odata.context",
+            "NewOptionValue"
+          ],
+          "readbackCount": 4
+        },
+        {
+          "index": 4,
+          "chinese": "明确拒绝",
+          "english": "Explicit Rejection",
+          "value": 388560004,
+          "reportedValue": 388560004,
+          "status": "confirmed",
+          "retry": false,
+          "responseStatus": 200,
+          "responseKeys": [
+            "@odata.context",
+            "NewOptionValue"
+          ],
+          "readbackCount": 5
+        }
+      ],
+      "beforeCount": 0,
+      "after": {
+        "metadataId": "5c6e1405-f080-f111-ab0e-000d3a858957",
+        "logicalName": "aigw_customerresponselevel",
+        "schemaName": "Aigw_Customerresponselevel",
+        "displayName": {
+          "1033": "Customer Response Level",
+          "2052": "客户响应程度"
+        },
+        "attributeType": "Picklist",
+        "isGlobal": false,
+        "optionSetName": "aigw_interactionsignal_aigw_customerresponselevel",
+        "options": [
+          {
+            "value": 388560000,
+            "labels": {
+              "1033": "Positive",
+              "2052": "积极"
+            }
+          },
+          {
+            "value": 388560001,
+            "labels": {
+              "1033": "Normal",
+              "2052": "正常"
+            }
+          },
+          {
+            "value": 388560002,
+            "labels": {
+              "1033": "Low Frequency",
+              "2052": "低频"
+            }
+          },
+          {
+            "value": 388560003,
+            "labels": {
+              "1033": "No Response",
+              "2052": "无回复"
+            }
+          },
+          {
+            "value": 388560004,
+            "labels": {
+              "1033": "Explicit Rejection",
+              "2052": "明确拒绝"
+            }
+          }
+        ]
+      },
+      "orderOption": {
+        "status": "not-needed"
+      },
+      "ready": true
+    },
+    {
+      "entity": "aigw_interactionsignal",
+      "attribute": "aigw_sentiment",
+      "status": "complete",
+      "inserted": [
+        {
+          "index": 0,
+          "chinese": "正面",
+          "english": "Positive",
+          "value": 388560000,
+          "reportedValue": 388560000,
+          "status": "confirmed",
+          "retry": false,
+          "responseStatus": 200,
+          "responseKeys": [
+            "@odata.context",
+            "NewOptionValue"
+          ],
+          "readbackCount": 1
+        },
+        {
+          "index": 1,
+          "chinese": "中性",
+          "english": "Neutral",
+          "value": 388560001,
+          "reportedValue": 388560001,
+          "status": "confirmed",
+          "retry": false,
+          "responseStatus": 200,
+          "responseKeys": [
+            "@odata.context",
+            "NewOptionValue"
+          ],
+          "readbackCount": 2
+        },
+        {
+          "index": 2,
+          "chinese": "偏负面",
+          "english": "Slightly Negative",
+          "value": 388560002,
+          "reportedValue": 388560002,
+          "status": "confirmed",
+          "retry": false,
+          "responseStatus": 200,
+          "responseKeys": [
+            "@odata.context",
+            "NewOptionValue"
+          ],
+          "readbackCount": 3
+        },
+        {
+          "index": 3,
+          "chinese": "负面",
+          "english": "Negative",
+          "value": 388560003,
+          "reportedValue": 388560003,
+          "status": "confirmed",
+          "retry": false,
+          "responseStatus": 200,
+          "responseKeys": [
+            "@odata.context",
+            "NewOptionValue"
+          ],
+          "readbackCount": 4
+        },
+        {
+          "index": 4,
+          "chinese": "未判断",
+          "english": "Undetermined",
+          "value": 388560004,
+          "reportedValue": 388560004,
+          "status": "confirmed",
+          "retry": false,
+          "responseStatus": 200,
+          "responseKeys": [
+            "@odata.context",
+            "NewOptionValue"
+          ],
+          "readbackCount": 5
+        }
+      ],
+      "beforeCount": 0,
+      "after": {
+        "metadataId": "8fa7160b-f080-f111-ab0e-000d3a858957",
+        "logicalName": "aigw_sentiment",
+        "schemaName": "Aigw_Sentiment",
+        "displayName": {
+          "1033": "Sentiment",
+          "2052": "情绪"
+        },
+        "attributeType": "Picklist",
+        "isGlobal": false,
+        "optionSetName": "aigw_interactionsignal_aigw_sentiment",
+        "options": [
+          {
+            "value": 388560000,
+            "labels": {
+              "1033": "Positive",
+              "2052": "正面"
+            }
+          },
+          {
+            "value": 388560001,
+            "labels": {
+              "1033": "Neutral",
+              "2052": "中性"
+            }
+          },
+          {
+            "value": 388560002,
+            "labels": {
+              "1033": "Slightly Negative",
+              "2052": "偏负面"
+            }
+          },
+          {
+            "value": 388560003,
+            "labels": {
+              "1033": "Negative",
+              "2052": "负面"
+            }
+          },
+          {
+            "value": 388560004,
+            "labels": {
+              "1033": "Undetermined",
+              "2052": "未判断"
+            }
+          }
+        ]
+      },
+      "orderOption": {
+        "status": "not-needed"
+      },
+      "ready": true
+    },
+    {
+      "entity": "aigw_interactionsignal",
+      "attribute": "aigw_objectioncategory",
+      "status": "complete",
+      "inserted": [
+        {
+          "index": 0,
+          "chinese": "价格",
+          "english": "Price",
+          "value": 388560000,
+          "reportedValue": 388560000,
+          "status": "confirmed",
+          "retry": false,
+          "responseStatus": 200,
+          "responseKeys": [
+            "@odata.context",
+            "NewOptionValue"
+          ],
+          "readbackCount": 1
+        },
+        {
+          "index": 1,
+          "chinese": "时效",
+          "english": "Timeliness",
+          "value": 388560001,
+          "reportedValue": 388560001,
+          "status": "confirmed",
+          "retry": false,
+          "responseStatus": 200,
+          "responseKeys": [
+            "@odata.context",
+            "NewOptionValue"
+          ],
+          "readbackCount": 2
+        },
+        {
+          "index": 2,
+          "chinese": "服务能力",
+          "english": "Service Capability",
+          "value": 388560002,
+          "reportedValue": 388560002,
+          "status": "confirmed",
+          "retry": false,
+          "responseStatus": 200,
+          "responseKeys": [
+            "@odata.context",
+            "NewOptionValue"
+          ],
+          "readbackCount": 3
+        },
+        {
+          "index": 3,
+          "chinese": "实施周期",
+          "english": "Implementation Cycle",
+          "value": 388560003,
+          "reportedValue": 388560003,
+          "status": "confirmed",
+          "retry": false,
+          "responseStatus": 200,
+          "responseKeys": [
+            "@odata.context",
+            "NewOptionValue"
+          ],
+          "readbackCount": 4
+        },
+        {
+          "index": 4,
+          "chinese": "合同条款",
+          "english": "Contract Terms",
+          "value": 388560004,
+          "reportedValue": 388560004,
+          "status": "confirmed",
+          "retry": false,
+          "responseStatus": 200,
+          "responseKeys": [
+            "@odata.context",
+            "NewOptionValue"
+          ],
+          "readbackCount": 5
+        },
+        {
+          "index": 5,
+          "chinese": "系统接口",
+          "english": "System Interface",
+          "value": 388560005,
+          "reportedValue": 388560005,
+          "status": "confirmed",
+          "retry": false,
+          "responseStatus": 200,
+          "responseKeys": [
+            "@odata.context",
+            "NewOptionValue"
+          ],
+          "readbackCount": 6
+        },
+        {
+          "index": 6,
+          "chinese": "合规",
+          "english": "Compliance",
+          "value": 388560006,
+          "reportedValue": 388560006,
+          "status": "confirmed",
+          "retry": false,
+          "responseStatus": 200,
+          "responseKeys": [
+            "@odata.context",
+            "NewOptionValue"
+          ],
+          "readbackCount": 7
+        },
+        {
+          "index": 7,
+          "chinese": "其他",
+          "english": "Other",
+          "value": 388560007,
+          "reportedValue": 388560007,
+          "status": "confirmed",
+          "retry": false,
+          "responseStatus": 200,
+          "responseKeys": [
+            "@odata.context",
+            "NewOptionValue"
+          ],
+          "readbackCount": 8
+        }
+      ],
+      "beforeCount": 0,
+      "after": {
+        "metadataId": "758021f3-ef80-f111-ab0e-000d3a858957",
+        "logicalName": "aigw_objectioncategory",
+        "schemaName": "Aigw_Objectioncategory",
+        "displayName": {
+          "1033": "Objection Category",
+          "2052": "异议类别"
+        },
+        "attributeType": "Picklist",
+        "isGlobal": false,
+        "optionSetName": "aigw_interactionsignal_aigw_objectioncategory",
+        "options": [
+          {
+            "value": 388560000,
+            "labels": {
+              "1033": "Price",
+              "2052": "价格"
+            }
+          },
+          {
+            "value": 388560001,
+            "labels": {
+              "1033": "Timeliness",
+              "2052": "时效"
+            }
+          },
+          {
+            "value": 388560002,
+            "labels": {
+              "1033": "Service Capability",
+              "2052": "服务能力"
+            }
+          },
+          {
+            "value": 388560003,
+            "labels": {
+              "1033": "Implementation Cycle",
+              "2052": "实施周期"
+            }
+          },
+          {
+            "value": 388560004,
+            "labels": {
+              "1033": "Contract Terms",
+              "2052": "合同条款"
+            }
+          },
+          {
+            "value": 388560005,
+            "labels": {
+              "1033": "System Interface",
+              "2052": "系统接口"
+            }
+          },
+          {
+            "value": 388560006,
+            "labels": {
+              "1033": "Compliance",
+              "2052": "合规"
+            }
+          },
+          {
+            "value": 388560007,
+            "labels": {
+              "1033": "Other",
+              "2052": "其他"
+            }
+          }
+        ]
+      },
+      "orderOption": {
+        "status": "not-needed"
+      },
+      "ready": true
+    },
+    {
+      "entity": "aigw_interactionsignal",
+      "attribute": "aigw_serviceissuecategory",
+      "status": "complete",
+      "inserted": [
+        {
+          "index": 0,
+          "chinese": "运输时效",
+          "english": "Transport Timeliness",
+          "value": 388560000,
+          "reportedValue": 388560000,
+          "status": "confirmed",
+          "retry": false,
+          "responseStatus": 200,
+          "responseKeys": [
+            "@odata.context",
+            "NewOptionValue"
+          ],
+          "readbackCount": 1
+        },
+        {
+          "index": 1,
+          "chinese": "服务质量",
+          "english": "Service Quality",
+          "value": 388560001,
+          "reportedValue": 388560001,
+          "status": "confirmed",
+          "retry": false,
+          "responseStatus": 200,
+          "responseKeys": [
+            "@odata.context",
+            "NewOptionValue"
+          ],
+          "readbackCount": 2
+        },
+        {
+          "index": 2,
+          "chinese": "计费",
+          "english": "Billing",
+          "value": 388560002,
+          "reportedValue": 388560002,
+          "status": "confirmed",
+          "retry": false,
+          "responseStatus": 200,
+          "responseKeys": [
+            "@odata.context",
+            "NewOptionValue"
+          ],
+          "readbackCount": 3
+        },
+        {
+          "index": 3,
+          "chinese": "系统接口",
+          "english": "System Interface",
+          "value": 388560003,
+          "reportedValue": 388560003,
+          "status": "confirmed",
+          "retry": false,
+          "responseStatus": 200,
+          "responseKeys": [
+            "@odata.context",
+            "NewOptionValue"
+          ],
+          "readbackCount": 4
+        },
+        {
+          "index": 4,
+          "chinese": "仓储作业",
+          "english": "Warehouse Operations",
+          "value": 388560004,
+          "reportedValue": 388560004,
+          "status": "confirmed",
+          "retry": false,
+          "responseStatus": 200,
+          "responseKeys": [
+            "@odata.context",
+            "NewOptionValue"
+          ],
+          "readbackCount": 5
+        },
+        {
+          "index": 5,
+          "chinese": "合规",
+          "english": "Compliance",
+          "value": 388560005,
+          "reportedValue": 388560005,
+          "status": "confirmed",
+          "retry": false,
+          "responseStatus": 200,
+          "responseKeys": [
+            "@odata.context",
+            "NewOptionValue"
+          ],
+          "readbackCount": 6
+        },
+        {
+          "index": 6,
+          "chinese": "其他",
+          "english": "Other",
+          "value": 388560006,
+          "reportedValue": 388560006,
+          "status": "confirmed",
+          "retry": false,
+          "responseStatus": 200,
+          "responseKeys": [
+            "@odata.context",
+            "NewOptionValue"
+          ],
+          "readbackCount": 7
+        }
+      ],
+      "beforeCount": 0,
+      "after": {
+        "metadataId": "84a8160b-f080-f111-ab0e-000d3a858957",
+        "logicalName": "aigw_serviceissuecategory",
+        "schemaName": "Aigw_Serviceissuecategory",
+        "displayName": {
+          "1033": "Service Issue Category",
+          "2052": "服务问题类别"
+        },
+        "attributeType": "Picklist",
+        "isGlobal": false,
+        "optionSetName": "aigw_interactionsignal_aigw_serviceissuecategory",
+        "options": [
+          {
+            "value": 388560000,
+            "labels": {
+              "1033": "Transport Timeliness",
+              "2052": "运输时效"
+            }
+          },
+          {
+            "value": 388560001,
+            "labels": {
+              "1033": "Service Quality",
+              "2052": "服务质量"
+            }
+          },
+          {
+            "value": 388560002,
+            "labels": {
+              "1033": "Billing",
+              "2052": "计费"
+            }
+          },
+          {
+            "value": 388560003,
+            "labels": {
+              "1033": "System Interface",
+              "2052": "系统接口"
+            }
+          },
+          {
+            "value": 388560004,
+            "labels": {
+              "1033": "Warehouse Operations",
+              "2052": "仓储作业"
+            }
+          },
+          {
+            "value": 388560005,
+            "labels": {
+              "1033": "Compliance",
+              "2052": "合规"
+            }
+          },
+          {
+            "value": 388560006,
+            "labels": {
+              "1033": "Other",
+              "2052": "其他"
+            }
+          }
+        ]
+      },
+      "orderOption": {
+        "status": "not-needed"
+      },
+      "ready": true
+    }
+  ],
+  "totalConfirmedOptions": 75,
+  "noChoiceDeletion": true,
+  "noChoiceUpdate": true,
+  "requestCounts": {
+    "GET": 165,
+    "POST": 79,
+    "PATCH": 0,
+    "DELETE": 2,
+    "Publish": 1,
+    "ChoiceInsert": 75,
+    "OrderOption": 0,
+    "ProbeCreate": 3,
+    "ProbeDelete": 2
+  }
+}

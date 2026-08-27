@@ -1,0 +1,289 @@
+{
+  "sharedSyntheticInputHash": "c29324c327e500c9e9a8ac7d17edee4f581df91659ca9943dbc22874ab6e3ac0",
+  "sharedSyntheticInputHashConsistent": true,
+  "changedJsonPaths": [
+    "$.messages[0].content",
+    "$.messages[1].content",
+    "$.tools[0].function.description",
+    "$.tools[0].function.parameters.properties.limitations.anyOf[0]",
+    "$.tools[0].function.parameters.properties.limitations.anyOf[1]",
+    "$.tools[0].function.parameters.properties.limitations.items",
+    "$.tools[0].function.parameters.properties.limitations.type",
+    "$.tools[0].function.parameters.properties.safety.properties.crmWritebackEnabled",
+    "$.tools[0].function.parameters.properties.safety.properties.crmWritebackPerformed",
+    "$.tools[0].function.parameters.properties.safety.properties.customerIdentityMasked",
+    "$.tools[0].function.parameters.properties.safety.properties.exactAmountSentToModel",
+    "$.tools[0].function.parameters.properties.safety.properties.exactAmountWithheld",
+    "$.tools[0].function.parameters.properties.safety.properties.identityMasked",
+    "$.tools[0].function.parameters.properties.safety.properties.policyCodes",
+    "$.tools[0].function.parameters.properties.safety.properties.rawTimelineSent",
+    "$.tools[0].function.parameters.properties.safety.properties.rawTimelineWithheld",
+    "$.tools[0].function.parameters.properties.safety.required[0]",
+    "$.tools[0].function.parameters.properties.safety.required[1]",
+    "$.tools[0].function.parameters.properties.safety.required[2]",
+    "$.tools[0].function.parameters.properties.safety.required[3]",
+    "$.tools[0].function.parameters.properties.safety.required[4]"
+  ],
+  "systemPromptDiffPaths": [
+    "$.messages[0].content"
+  ],
+  "userPromptDiffPaths": [
+    "$.messages[1].content"
+  ],
+  "toolNameDiffPaths": [],
+  "toolDescriptionDiffPaths": [
+    "$.tools[0].function.description"
+  ],
+  "toolParameterDiffPaths": [
+    "$.tools[0].function.parameters.properties.limitations.anyOf[0]",
+    "$.tools[0].function.parameters.properties.limitations.anyOf[1]",
+    "$.tools[0].function.parameters.properties.limitations.items",
+    "$.tools[0].function.parameters.properties.limitations.type",
+    "$.tools[0].function.parameters.properties.safety.properties.crmWritebackEnabled",
+    "$.tools[0].function.parameters.properties.safety.properties.crmWritebackPerformed",
+    "$.tools[0].function.parameters.properties.safety.properties.customerIdentityMasked",
+    "$.tools[0].function.parameters.properties.safety.properties.exactAmountSentToModel",
+    "$.tools[0].function.parameters.properties.safety.properties.exactAmountWithheld",
+    "$.tools[0].function.parameters.properties.safety.properties.identityMasked",
+    "$.tools[0].function.parameters.properties.safety.properties.policyCodes",
+    "$.tools[0].function.parameters.properties.safety.properties.rawTimelineSent",
+    "$.tools[0].function.parameters.properties.safety.properties.rawTimelineWithheld",
+    "$.tools[0].function.parameters.properties.safety.required[0]",
+    "$.tools[0].function.parameters.properties.safety.required[1]",
+    "$.tools[0].function.parameters.properties.safety.required[2]",
+    "$.tools[0].function.parameters.properties.safety.required[3]",
+    "$.tools[0].function.parameters.properties.safety.required[4]"
+  ],
+  "requiredDiffPaths": [
+    {
+      "path": "$.tools[0].function.parameters.properties.limitations.anyOf[0].required",
+      "r5b8": null,
+      "r5b9": [
+        "codes"
+      ]
+    },
+    {
+      "path": "$.tools[0].function.parameters.properties.limitations.anyOf[1].required",
+      "r5b8": null,
+      "r5b9": [
+        "codes",
+        "otherCodeDetail"
+      ]
+    },
+    {
+      "path": "$.tools[0].function.parameters.properties.safety.required",
+      "r5b8": [
+        "customerIdentityMasked",
+        "exactAmountSentToModel",
+        "rawTimelineSent",
+        "crmWritebackEnabled"
+      ],
+      "r5b9": [
+        "identityMasked",
+        "exactAmountWithheld",
+        "rawTimelineWithheld",
+        "crmWritebackPerformed",
+        "policyCodes"
+      ]
+    }
+  ],
+  "enumDiffPaths": [
+    {
+      "path": "$.tools[0].function.parameters.properties.limitations.anyOf[0].properties.codes.items.enum",
+      "r5b8": null,
+      "r5b9": [
+        "IDENTITY_MASKED",
+        "EXACT_AMOUNT_WITHHELD",
+        "RAW_TIMELINE_WITHHELD",
+        "INSUFFICIENT_EVIDENCE",
+        "DATA_CONTRADICTION",
+        "NO_ACTUAL_DATA",
+        "NO_COVERAGE_DATA",
+        "STALE_INTERACTION_DATA",
+        "MODEL_UNCERTAINTY"
+      ]
+    },
+    {
+      "path": "$.tools[0].function.parameters.properties.limitations.anyOf[1].properties.codes.items.enum",
+      "r5b8": null,
+      "r5b9": [
+        "IDENTITY_MASKED",
+        "EXACT_AMOUNT_WITHHELD",
+        "RAW_TIMELINE_WITHHELD",
+        "INSUFFICIENT_EVIDENCE",
+        "DATA_CONTRADICTION",
+        "NO_ACTUAL_DATA",
+        "NO_COVERAGE_DATA",
+        "STALE_INTERACTION_DATA",
+        "MODEL_UNCERTAINTY",
+        "OTHER_APPROVED_LIMITATION"
+      ]
+    },
+    {
+      "path": "$.tools[0].function.parameters.properties.safety.properties.crmWritebackEnabled.enum",
+      "r5b8": [
+        false
+      ],
+      "r5b9": null
+    },
+    {
+      "path": "$.tools[0].function.parameters.properties.safety.properties.crmWritebackPerformed.enum",
+      "r5b8": null,
+      "r5b9": [
+        false
+      ]
+    },
+    {
+      "path": "$.tools[0].function.parameters.properties.safety.properties.customerIdentityMasked.enum",
+      "r5b8": [
+        true
+      ],
+      "r5b9": null
+    },
+    {
+      "path": "$.tools[0].function.parameters.properties.safety.properties.exactAmountSentToModel.enum",
+      "r5b8": [
+        false
+      ],
+      "r5b9": null
+    },
+    {
+      "path": "$.tools[0].function.parameters.properties.safety.properties.exactAmountWithheld.enum",
+      "r5b8": null,
+      "r5b9": [
+        true
+      ]
+    },
+    {
+      "path": "$.tools[0].function.parameters.properties.safety.properties.identityMasked.enum",
+      "r5b8": null,
+      "r5b9": [
+        true
+      ]
+    },
+    {
+      "path": "$.tools[0].function.parameters.properties.safety.properties.policyCodes.items.enum",
+      "r5b8": null,
+      "r5b9": [
+        "SAFE_CONTEXT_ONLY",
+        "NO_RAW_CRM",
+        "NO_IDENTITY",
+        "NO_EXACT_AMOUNT",
+        "NO_RAW_TIMELINE",
+        "NO_CRM_WRITEBACK"
+      ]
+    },
+    {
+      "path": "$.tools[0].function.parameters.properties.safety.properties.rawTimelineSent.enum",
+      "r5b8": [
+        false
+      ],
+      "r5b9": null
+    },
+    {
+      "path": "$.tools[0].function.parameters.properties.safety.properties.rawTimelineWithheld.enum",
+      "r5b8": null,
+      "r5b9": [
+        true
+      ]
+    }
+  ],
+  "stats": {
+    "r5b8": {
+      "requestBodyHash": "fea29f42ab55d6b889f08b445395c446bac9224d49522f188256d24bd720bd11",
+      "schemaHash": "476cecc436dc452abc50988d337d779398159e8e0a4003bc8aa6153cbdab22b7",
+      "schemaCharacterLength": 2295,
+      "systemPromptCharacterLength": 354,
+      "userPromptCharacterLength": 1048,
+      "promptCharacterLength": 1402,
+      "toolName": "emit_decision_pack",
+      "toolDescriptionCharacterLength": 316,
+      "nestedDepth": 6,
+      "objectCount": 8,
+      "arrayCount": 7,
+      "additionalPropertiesFalseCount": 8,
+      "requiredNodeCount": 8,
+      "enumNodeCount": 8
+    },
+    "r5b9": {
+      "requestBodyHash": "38f815d20bbb27cb6099364a3a8c086c377c921945e7f008aef483100bfa9035",
+      "schemaHash": "e1b9906537a2e2c7a4f33ee20d777b6d207c31b029d060b9d2be2e6cfa0e8162",
+      "schemaCharacterLength": 3186,
+      "systemPromptCharacterLength": 626,
+      "userPromptCharacterLength": 1048,
+      "promptCharacterLength": 1674,
+      "toolName": "emit_decision_pack",
+      "toolDescriptionCharacterLength": 365,
+      "nestedDepth": 6,
+      "objectCount": 10,
+      "arrayCount": 9,
+      "additionalPropertiesFalseCount": 10,
+      "requiredNodeCount": 10,
+      "enumNodeCount": 11
+    }
+  },
+  "requestBodyHashes": {
+    "A": "fea29f42ab55d6b889f08b445395c446bac9224d49522f188256d24bd720bd11",
+    "B": "c53bbbba9516c0aa670e084e241338931179100984402cb21e7310de6b841610",
+    "C": "456c1041c260d0b755f453165cc69cc5221c724405cafa45e4dcbeb07aa72b7b",
+    "D": "38f815d20bbb27cb6099364a3a8c086c377c921945e7f008aef483100bfa9035"
+  },
+  "variantVariableCheck": {
+    "AtoB": [
+      "$.messages[0].content",
+      "$.messages[1].content"
+    ],
+    "AtoC": [
+      "$.tools[0].function.description",
+      "$.tools[0].function.parameters.properties.limitations.anyOf[0]",
+      "$.tools[0].function.parameters.properties.limitations.anyOf[1]",
+      "$.tools[0].function.parameters.properties.limitations.items",
+      "$.tools[0].function.parameters.properties.limitations.type",
+      "$.tools[0].function.parameters.properties.safety.properties.crmWritebackEnabled",
+      "$.tools[0].function.parameters.properties.safety.properties.crmWritebackPerformed",
+      "$.tools[0].function.parameters.properties.safety.properties.customerIdentityMasked",
+      "$.tools[0].function.parameters.properties.safety.properties.exactAmountSentToModel",
+      "$.tools[0].function.parameters.properties.safety.properties.exactAmountWithheld",
+      "$.tools[0].function.parameters.properties.safety.properties.identityMasked",
+      "$.tools[0].function.parameters.properties.safety.properties.policyCodes",
+      "$.tools[0].function.parameters.properties.safety.properties.rawTimelineSent",
+      "$.tools[0].function.parameters.properties.safety.properties.rawTimelineWithheld",
+      "$.tools[0].function.parameters.properties.safety.required[0]",
+      "$.tools[0].function.parameters.properties.safety.required[1]",
+      "$.tools[0].function.parameters.properties.safety.required[2]",
+      "$.tools[0].function.parameters.properties.safety.required[3]",
+      "$.tools[0].function.parameters.properties.safety.required[4]"
+    ],
+    "BtoD": [
+      "$.tools[0].function.description",
+      "$.tools[0].function.parameters.properties.limitations.anyOf[0]",
+      "$.tools[0].function.parameters.properties.limitations.anyOf[1]",
+      "$.tools[0].function.parameters.properties.limitations.items",
+      "$.tools[0].function.parameters.properties.limitations.type",
+      "$.tools[0].function.parameters.properties.safety.properties.crmWritebackEnabled",
+      "$.tools[0].function.parameters.properties.safety.properties.crmWritebackPerformed",
+      "$.tools[0].function.parameters.properties.safety.properties.customerIdentityMasked",
+      "$.tools[0].function.parameters.properties.safety.properties.exactAmountSentToModel",
+      "$.tools[0].function.parameters.properties.safety.properties.exactAmountWithheld",
+      "$.tools[0].function.parameters.properties.safety.properties.identityMasked",
+      "$.tools[0].function.parameters.properties.safety.properties.policyCodes",
+      "$.tools[0].function.parameters.properties.safety.properties.rawTimelineSent",
+      "$.tools[0].function.parameters.properties.safety.properties.rawTimelineWithheld",
+      "$.tools[0].function.parameters.properties.safety.required[0]",
+      "$.tools[0].function.parameters.properties.safety.required[1]",
+      "$.tools[0].function.parameters.properties.safety.required[2]",
+      "$.tools[0].function.parameters.properties.safety.required[3]",
+      "$.tools[0].function.parameters.properties.safety.required[4]"
+    ],
+    "CtoD": [
+      "$.messages[0].content",
+      "$.messages[1].content"
+    ],
+    "aToBPromptOnly": true,
+    "aToCSchemaOnly": true,
+    "bToDSchemaOnly": true,
+    "cToDPromptOnly": true,
+    "allBodiesShareCommonRuntimeSettings": true,
+    "allSharedInputHashesMatch": true
+  }
+}

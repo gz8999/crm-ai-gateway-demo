@@ -1,0 +1,137 @@
+{
+  "schemaVersion": "DeepSeek Decision Tool Schema v1",
+  "toolName": "emit_decision_pack",
+  "allowedSchemaKeywords": [
+    "type",
+    "properties",
+    "required",
+    "additionalProperties",
+    "items",
+    "enum",
+    "anyOf",
+    "$ref",
+    "$defs"
+  ],
+  "tool": {
+    "type": "function",
+    "function": {
+      "name": "emit_decision_pack",
+      "strict": true,
+      "parameters": {
+        "type": "object",
+        "properties": {
+          "facts": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "label": { "type": "string" },
+                "value": { "type": "string" },
+                "evidenceToken": { "type": "string" }
+              },
+              "required": ["label", "value", "evidenceToken"],
+              "additionalProperties": false
+            }
+          },
+          "inferences": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "inference": { "type": "string" },
+                "evidenceTokens": { "type": "array", "items": { "type": "string" } }
+              },
+              "required": ["inference", "evidenceTokens"],
+              "additionalProperties": false
+            }
+          },
+          "evidence": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "evidenceToken": { "type": "string" },
+                "value": { "type": "string" }
+              },
+              "required": ["evidenceToken", "value"],
+              "additionalProperties": false
+            }
+          },
+          "confidence": {
+            "type": "object",
+            "properties": {
+              "level": { "enum": ["High", "Medium", "Low"] },
+              "reason": { "type": "string" }
+            },
+            "required": ["level", "reason"],
+            "additionalProperties": false
+          },
+          "recommendedActions": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "action": { "type": "string" },
+                "ownerRole": { "type": "string" },
+                "dueWindow": { "type": "string" },
+                "basis": { "type": "string" },
+                "draftStatus": { "enum": ["Draft only"] }
+              },
+              "required": ["action", "ownerRole", "dueWindow", "basis", "draftStatus"],
+              "additionalProperties": false
+            }
+          },
+          "priority": { "enum": ["Critical", "High", "Medium", "Low", "Monitor"] },
+          "riskCategories": { "type": "array", "items": { "type": "string" } },
+          "provider": { "type": "string" },
+          "model": { "type": "string" },
+          "modelVersion": { "type": "string" },
+          "fallback": {
+            "type": "object",
+            "properties": {
+              "state": { "enum": ["not_applicable", "used"] },
+              "reason": { "type": "string" }
+            },
+            "required": ["state", "reason"],
+            "additionalProperties": false
+          },
+          "safety": {
+            "type": "object",
+            "properties": {
+              "customerIdentityMasked": { "enum": [true] },
+              "exactAmountSentToModel": { "enum": [false] },
+              "rawTimelineSent": { "enum": [false] },
+              "crmWritebackEnabled": { "enum": [false] }
+            },
+            "required": ["customerIdentityMasked", "exactAmountSentToModel", "rawTimelineSent", "crmWritebackEnabled"],
+            "additionalProperties": false
+          },
+          "limitations": { "type": "array", "items": { "type": "string" } }
+        },
+        "required": ["facts", "inferences", "evidence", "confidence", "recommendedActions", "priority", "riskCategories", "provider", "model", "modelVersion", "fallback", "safety", "limitations"],
+        "additionalProperties": false
+      }
+    }
+  },
+  "canonicalMapping": {
+    "recommendedActions.draftStatus": "recommendedActions.status",
+    "fallback": "required object with state and reason; canonical response keeps the object"
+  },
+  "lint": {
+    "serializable": true,
+    "objectCount": 8,
+    "requiredCoverageCount": 8,
+    "missingRequiredCount": 0,
+    "missingAdditionalPropertiesCount": 0,
+    "missingArrayItemsCount": 0,
+    "unsupportedKeywordCount": 0,
+    "unsupportedKeywords": [],
+    "schemaHash": "a376afe2f6bd222b626d40413c6b971e5993d673785d371520487cda5ad2b1d2"
+  },
+  "runtimeSafety": {
+    "externalCallsInR5A": 0,
+    "crmWriteback": false,
+    "productionRequests": 0,
+    "rawCrmExposure": 0
+  }
+}

@@ -1,0 +1,161 @@
+{
+  "phase": "GOAL 4B-R2",
+  "startedAt": "2026-07-21T02:47:06.147Z",
+  "completedAt": "2026-07-21T02:47:58.516Z",
+  "git": {
+    "branch": "main",
+    "head": "8f82c611e28fed9471b2dc195304a0679a98a44d",
+    "headShort": "8f82c61",
+    "relation0ea5932": "0ea5932 is ancestor of HEAD",
+    "relation236f5f1": "236f5f1 is not ancestor of HEAD",
+    "mergeBase0ea5932To236f5f1": "c416da7b259cfcda8b34bdd2fec764b897ceaaf9"
+  },
+  "frozenTransport": {
+    "jsonOutputTransport": true,
+    "responseFormatJsonObject": true,
+    "toolsSent": false,
+    "toolChoiceSent": false,
+    "singleContentParse": true,
+    "repair": false,
+    "retry": false,
+    "fallback": false
+  },
+  "inherited": {
+    "syntheticReady": true,
+    "demo075Ready": true,
+    "demo010Ready": true,
+    "demo030Ready": true,
+    "retryCount": 0,
+    "fallbackCount": 0
+  },
+  "samples": {
+    "DEMO-OPP-008": {
+      "label": "DEMO-OPP-008",
+      "ok": true,
+      "providerOk": true,
+      "semanticOk": true,
+      "reason": "",
+      "diagnosticCategory": "",
+      "requestBodyHash": "135cbbdaee64c2a0c97ce9b5ec972776db6cf1a8ba272a3347788a7472357085",
+      "requestSchemaHash": "735f1fbbaadb6ebb04c91b73077f8aefe16ea08d038163e6e2007fd70349baf3",
+      "evidenceContractHash": "06cbc257c7b36912787556bbbc0190a39867aa586a50b2f610465ad8919477a7",
+      "evidenceAliasCount": 8,
+      "semantic": {
+        "ok": true,
+        "reason": "",
+        "contradictionReady": true,
+        "manualReviewReady": true,
+        "confidenceLowered": true,
+        "noCertainSide": true,
+        "factInferenceSeparated": true,
+        "timelineNotEnumerated": true,
+        "preflight": {
+          "ok": true,
+          "reason": "",
+          "timelineCount": 5,
+          "signalCount": 4,
+          "actualMissing": true,
+          "contradictionHintCount": 5
+        }
+      },
+      "observation": {
+        "httpStatus": 200,
+        "choiceCount": 1,
+        "finishReason": "stop",
+        "messageContentPresent": true,
+        "messageContentType": "string",
+        "messageContentLength": 2319,
+        "messageContentHash": "cfdcf2aa1afa5c33eeb88b61c21ad13eabf85f490d7870f22408d2073a4d150d",
+        "responseBodyHash": "1f6c5e53f8a6a97b0d34d333ce3afac471d0f9fb05bc5aae27f10b0eaf175a14",
+        "responseIdHash": "55013e14fbcbeaa26b325b0eaedaba8397d0a494ca1f86f0abbd3a3e7e6b9591",
+        "latencyMs": 414,
+        "tokenUsage": {
+          "prompt_tokens": 6602,
+          "completion_tokens": 1019,
+          "total_tokens": 7621
+        },
+        "estimatedCost": 0
+      }
+    },
+    "DEMO-OPP-002": {
+      "label": "DEMO-OPP-002",
+      "ok": true,
+      "providerOk": true,
+      "semanticOk": true,
+      "reason": "",
+      "diagnosticCategory": "",
+      "requestBodyHash": "3da78c01af891d5286f6bbfd03cfb1d52b2514cda54d306b60690f83641530c8",
+      "requestSchemaHash": "735f1fbbaadb6ebb04c91b73077f8aefe16ea08d038163e6e2007fd70349baf3",
+      "evidenceContractHash": "06cbc257c7b36912787556bbbc0190a39867aa586a50b2f610465ad8919477a7",
+      "evidenceAliasCount": 8,
+      "semantic": {
+        "ok": true,
+        "reason": "",
+        "coverageGapReady": true,
+        "confidenceLowered": true,
+        "limitationsReady": true,
+        "avoidsStrongConclusion": true,
+        "nextDataActionReady": true,
+        "factInferenceSeparated": true,
+        "preflight": {
+          "ok": true,
+          "reason": "",
+          "timelineCount": 6,
+          "signalCount": 4,
+          "actualMissing": true
+        }
+      },
+      "observation": {
+        "httpStatus": 200,
+        "choiceCount": 1,
+        "finishReason": "stop",
+        "messageContentPresent": true,
+        "messageContentType": "string",
+        "messageContentLength": 2466,
+        "messageContentHash": "03db5bd99ac6b7d0f147d350020e532a2e6d603c9ba9ca2ac3edc78a32a28508",
+        "responseBodyHash": "82f14005111ff67a0555ec587b6726b00b5674102e37f8c004e7602237d05779",
+        "responseIdHash": "a065b693551abc2008e08d045acb1b9a32d8dbb02a6cd8e6b465cce94382ba1a",
+        "latencyMs": 178,
+        "tokenUsage": {
+          "prompt_tokens": 7596,
+          "completion_tokens": 1094,
+          "total_tokens": 8690
+        },
+        "estimatedCost": 0
+      }
+    }
+  },
+  "requestStats": {
+    "externalLlmCalls": 2,
+    "d365Get": 2,
+    "crmPost": 0,
+    "crmPatch": 0,
+    "crmDelete": 0,
+    "productionRequests": 0
+  },
+  "retryCount": 0,
+  "fallbackCount": 0,
+  "safety": {
+    "customerIdentityExposure": 0,
+    "crmWriteback": false,
+    "rawCrmExposure": 0,
+    "rawTimelineExposure": 0,
+    "exactAmountExposure": 0
+  },
+  "issues": {
+    "p0": 0,
+    "p1": 0,
+    "p2": 1
+  },
+  "gates": {
+    "jsonOutputTransportReady": true,
+    "providerRequestCompatibilityReady": true,
+    "fiveSampleValidationReady": true,
+    "executiveSynthesisUiReady": false,
+    "highFidelityToggleReady": false,
+    "globalLocalizationReady": false,
+    "crmDataConnectionWidgetReady": false,
+    "riskPriorityInitialPositionReady": false,
+    "goal4bReady": false
+  }
+}

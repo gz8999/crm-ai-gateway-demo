@@ -1,0 +1,63 @@
+{
+  "phase": "Phase 1C-5R2G-D5",
+  "cleanupReady": false,
+  "cleanupAuthorized": false,
+  "cleanupExecuted": false,
+  "reverseOrder": [
+    {
+      "entity": "InteractionSignal",
+      "tokens": []
+    },
+    {
+      "entity": "Timeline",
+      "tokens": []
+    },
+    {
+      "entity": "ActualManagement",
+      "tokens": []
+    },
+    {
+      "entity": "ServiceCoverage",
+      "tokens": []
+    },
+    {
+      "entity": "Opportunity",
+      "tokens": [
+        "DEMO-OPP-015"
+      ]
+    },
+    {
+      "entity": "Contact",
+      "tokens": [
+        "C-099"
+      ]
+    },
+    {
+      "entity": "Account",
+      "tokens": [
+        "A-050"
+      ]
+    }
+  ],
+  "excluded": [
+    "Currency",
+    "Location",
+    "POL/POD",
+    "Owner/User",
+    "Demo Teams",
+    "Canonical Role",
+    "Choice",
+    "Schema",
+    "BPF",
+    "Solution"
+  ],
+  "platformActionSideEffects": {
+    "opportunityCloseRows": 0,
+    "explicitDeleteAuthorized": false
+  },
+  "unexpectedPlatformSideEffects": {
+    "targetBpfInstanceRows": 1,
+    "includedInCleanup": false,
+    "reason": "BPF instance deletion is not authorized."
+  }
+}

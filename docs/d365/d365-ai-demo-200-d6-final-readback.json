@@ -1,0 +1,207 @@
+{
+  "phase": "Phase 1C-5R2G-D6",
+  "status": "D6_R4B_FULL_LOSE_CANARY_COMPLETED",
+  "capturedAt": "2026-07-18T08:29:47.179Z",
+  "partialExactReadbackReady": true,
+  "currentExplicitCounts": {
+    "Account": 60,
+    "Contact": 120,
+    "Opportunity": 200,
+    "ServiceCoverage": 240,
+    "ActualManagement": 130,
+    "Timeline": 1800,
+    "InteractionSignal": 1350
+  },
+  "currentExplicitRecordCount": 3900,
+  "finalTargetCounts": {
+    "Account": 60,
+    "Contact": 120,
+    "Opportunity": 200,
+    "ServiceCoverage": 240,
+    "ActualManagement": 130,
+    "Timeline": 1800,
+    "InteractionSignal": 1350
+  },
+  "finalTargetExplicitRecordCount": 3900,
+  "stateDistribution": {
+    "Won": 8,
+    "Active": 190,
+    "Lost": 2
+  },
+  "opportunityClose": {
+    "total": 10,
+    "win": 8,
+    "lose": 2,
+    "duplicate": 0,
+    "attachments": 0,
+    "newCloseCount": 1
+  },
+  "bpf": {
+    "total": 200,
+    "newCount": 0,
+    "duplicate": 0,
+    "unexpectedProcess": 0,
+    "initialStage": 200,
+    "processOrder": 0
+  },
+  "plugin": {
+    "enabled": 7,
+    "disabled": 0
+  },
+  "coverage": {
+    "total": 240,
+    "perAccount": 4
+  },
+  "actual": {
+    "total": 130,
+    "uniquePerOpportunity": true,
+    "parentSyncCount": 118,
+    "unexpectedBusinessChangeCount": 0
+  },
+  "timelineSignalDelta": {
+    "Timeline": 0,
+    "InteractionSignal": 0
+  },
+  "requestDelta": {
+    "preflightGET": 1746,
+    "businessCRMGET": 3194,
+    "platformGET": 1377,
+    "securityGET": 12,
+    "opportunityCloseGET": 472,
+    "AccountPOST": 0,
+    "ContactPOST": 0,
+    "OpportunityPOST": 0,
+    "CoveragePOST": 225,
+    "ActualPOST": 118,
+    "TimelinePOST": 0,
+    "SignalPOST": 0,
+    "BpfInstancePOST": 0,
+    "BpfInstancePATCH": 0,
+    "BpfInstanceDELETE": 0,
+    "WinOpportunityAttempts": 0,
+    "WinOpportunitySuccess": 0,
+    "LoseOpportunityAttempts": 0,
+    "LoseOpportunitySuccess": 0,
+    "PATCH": 0,
+    "DELETE": 0,
+    "Publish": 0,
+    "BPFWrites": 0,
+    "TeamRoleMembershipChanges": 0,
+    "ProductionRequests": 0,
+    "ExternalLLMCalls": 0
+  },
+  "fullReady": false,
+  "baseFullDataImportCompleted": false,
+  "fullImportCompleted": false,
+  "cleanupAuthorized": false,
+  "gatewayFullDatasetIntegrationReady": false,
+  "d6R3": {
+    "status": "FAILED_SAFE_STOP",
+    "currentCounts": {
+      "Account": 60,
+      "Contact": 120,
+      "Opportunity": 200,
+      "ServiceCoverage": 240,
+      "ActualManagement": 130,
+      "Timeline": 207,
+      "InteractionSignal": 154
+    },
+    "blocker": {
+      "category": "R3_CHECKPOINT_BASELINE_ASSUMPTION",
+      "message": "The R3 checkpoint incorrectly required actualclosedate to be empty for every Opportunity, including the frozen Won/Lost baseline.",
+      "originalMessage": "T-phonecall-CANARY Opportunity actualclosedate changed"
+    },
+    "productionRequests": 0
+  },
+  "d6R3A": {
+    "status": "FAILED_SAFE_STOP",
+    "currentCounts": {
+      "Account": 60,
+      "Contact": 120,
+      "Opportunity": 200,
+      "ServiceCoverage": 240,
+      "ActualManagement": 130,
+      "Timeline": 1568,
+      "InteractionSignal": 154
+    },
+    "blocker": {
+      "category": "SAME_DAY_ANNOTATION_SYSTEM_DATE",
+      "token": "TL-0653",
+      "activityEntity": "annotation",
+      "businessEffectiveDate": "2026-07-18",
+      "message": "Dataverse rejected the same-day overriddencreatedon timestamp because it was still in the future relative to server time."
+    },
+    "stateActionsDeferred": true,
+    "productionRequests": 0
+  },
+  "d6R3B": {
+    "status": "COMPLETED",
+    "entityCounts": {
+      "Account": 60,
+      "Contact": 120,
+      "Opportunity": 200,
+      "ServiceCoverage": 240,
+      "ActualManagement": 130,
+      "Timeline": 1800,
+      "InteractionSignal": 1350
+    },
+    "explicitRecords": 3900,
+    "opportunityState": {
+      "Won": 7,
+      "Active": 192,
+      "Lost": 1
+    },
+    "opportunityClose": 8,
+    "bpf": {
+      "targetInstanceCount": 200,
+      "initialStageCount": 200,
+      "duplicateCount": 0,
+      "unexpectedProcessCount": 0
+    },
+    "timeline": {
+      "count": 1800,
+      "duplicateTokenCount": 0
+    },
+    "signal": {
+      "count": 1350,
+      "duplicateTokenCount": 0,
+      "missingSourceCount": 0
+    },
+    "stateActionsDeferred": true,
+    "productionRequests": 0
+  },
+  "d6R4A": {
+    "status": "COMPLETED",
+    "opportunityState": {
+      "Won": 8,
+      "Active": 191,
+      "Lost": 1
+    },
+    "opportunityClose": 9,
+    "fullWinCanaryToken": "DEMO-OPP-001",
+    "bpfClassification": "A / BPF Full Win Side Effect=None",
+    "remainingWinActions": 83,
+    "remainingLoseActions": 8,
+    "productionRequests": 0
+  },
+  "d6R4B": {
+    "status": "COMPLETED",
+    "opportunityState": {
+      "Won": 8,
+      "Active": 190,
+      "Lost": 2
+    },
+    "opportunityClose": 10,
+    "fullLoseCanaryToken": "DEMO-OPP-012",
+    "expectedActualCount": 0,
+    "actualCountBeforeAfter": [
+      0,
+      0
+    ],
+    "actualCreatedByStateAction": false,
+    "bpfClassification": "A / BPF Lose Side Effect=None",
+    "remainingWinActions": 83,
+    "remainingLoseActions": 7,
+    "productionRequests": 0
+  }
+}

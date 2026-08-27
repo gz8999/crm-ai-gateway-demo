@@ -1,0 +1,25 @@
+{
+  "phase": "Phase 1C-5R2G-D6-R2",
+  "environmentAlias": "TEST-ORG",
+  "generatedAt": "2026-07-18T02:38:11.142Z",
+  "productionRequests": 0,
+  "externalLlmCalls": 0,
+  "p0": 0,
+  "p1": 0,
+  "p2": 0,
+  "expectedParentSyncCount": 118,
+  "verifiedParentSyncCount": 118,
+  "unexpectedBusinessChangeCount": 0,
+  "allowedDeltaFields": [
+    "aigw_yearrevenueactual",
+    "modifiedon",
+    "versionnumber"
+  ],
+  "stateStatusIntegrity": true,
+  "actualCloseDateIntegrity": true,
+  "protectedBusinessHashIntegrity": true,
+  "plugin": {
+    "enabled": 7,
+    "disabled": 0
+  }
+}

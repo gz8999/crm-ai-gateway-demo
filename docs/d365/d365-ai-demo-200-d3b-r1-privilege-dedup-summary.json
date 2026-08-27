@@ -1,0 +1,14 @@
+{
+  "status": "blocked_before_privilege_apply",
+  "deduplicationKey": "PrivilegeId",
+  "duplicatePrivilegeIdCount": 0,
+  "privilegeDepthConflictCount": 0,
+  "rejectedCapabilityMappings": [
+    { "entity": "aigw_actualmanagement", "privileges": ["Create", "Read", "Write", "Append", "AppendTo"], "requestedDepth": "Local-or-approved-scope", "supportedDepth": "Global-only" },
+    { "entity": "aigw_location", "privileges": ["Read", "AppendTo"], "requestedDepth": "Organization", "supportedDepth": "Global-only" },
+    { "entity": "aigw_polpodlocation", "privileges": ["Read", "AppendTo"], "requestedDepth": "Organization", "supportedDepth": "Global-only" },
+    { "entity": "transactioncurrency", "privileges": ["Read", "AppendTo"], "requestedDepth": "Organization", "supportedDepth": "Global-only" }
+  ],
+  "deletePrivilegeCount": 0,
+  "customizationPublishPrivilegeCount": 0
+}

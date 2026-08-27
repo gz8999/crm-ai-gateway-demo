@@ -1,0 +1,221 @@
+{
+  "phase": "1C-5R2F-R3C",
+  "environment": "org91f5f65f.crm5.dynamics.com",
+  "generatedAt": "2026-07-16T13:35:27.325Z",
+  "probe": {
+    "started": true,
+    "token": "[AI-DEMO-SCHEMA-PROBE]-R3C-1784208963769-7208eff7",
+    "created": {
+      "token": "[AI-DEMO-SCHEMA-PROBE]-R3C-1784208963769-7208eff7",
+      "accountId": "c85db946-1b81-f111-ab0e-000d3a858957",
+      "opportunityId": "c95db946-1b81-f111-ab0e-000d3a858957",
+      "coverages": [
+        "cb5db946-1b81-f111-ab0e-000d3a858957",
+        "ebe8134d-1b81-f111-ab0e-000d3a858957"
+      ],
+      "signals": [
+        "ece8134d-1b81-f111-ab0e-000d3a858957",
+        "ede8134d-1b81-f111-ab0e-000d3a858957",
+        "eee8134d-1b81-f111-ab0e-000d3a858957"
+      ],
+      "coverageSet": "aigw_customerservicecoverages",
+      "signalSet": "aigw_interactionsignals"
+    },
+    "validation": [
+      {
+        "check": "Account readable",
+        "ok": true
+      },
+      {
+        "check": "Opportunity readable",
+        "ok": true
+      },
+      {
+        "check": "Coverage two rows and Choice values round-trip",
+        "ok": true
+      },
+      {
+        "check": "Signal three rows and all Choice values round-trip",
+        "ok": true
+      },
+      {
+        "check": "Coverage alternate key duplicate blocked",
+        "ok": true,
+        "status": 412
+      },
+      {
+        "check": "Signal alternate key duplicate blocked",
+        "ok": true,
+        "status": 412
+      },
+      {
+        "check": "Probe execution",
+        "ok": false,
+        "error": {
+          "status": 400,
+          "message": "Could not find a property named 'aigw_ai_demo_full_replicaid' on type 'Microsoft.Dynamics.CRM.aigw_ai_demo_full_replica'."
+        }
+      }
+    ],
+    "cleanup": {
+      "ok": true,
+      "deleted": [
+        {
+          "setName": "aigw_interactionsignals",
+          "id": "ece8134d-1b81-f111-ab0e-000d3a858957"
+        },
+        {
+          "setName": "aigw_interactionsignals",
+          "id": "ede8134d-1b81-f111-ab0e-000d3a858957"
+        },
+        {
+          "setName": "aigw_interactionsignals",
+          "id": "eee8134d-1b81-f111-ab0e-000d3a858957"
+        },
+        {
+          "setName": "aigw_customerservicecoverages",
+          "id": "cb5db946-1b81-f111-ab0e-000d3a858957"
+        },
+        {
+          "setName": "aigw_customerservicecoverages",
+          "id": "ebe8134d-1b81-f111-ab0e-000d3a858957"
+        },
+        {
+          "setName": "opportunities",
+          "id": "c95db946-1b81-f111-ab0e-000d3a858957"
+        },
+        {
+          "setName": "accounts",
+          "id": "c85db946-1b81-f111-ab0e-000d3a858957"
+        }
+      ],
+      "residual": 0
+    },
+    "createdCounts": {
+      "account": 1,
+      "opportunity": 1,
+      "coverage": 2,
+      "signal": 3
+    }
+  },
+  "readOnlyRecovery": {
+    "reason": "The original auxiliary BPF query used an incorrect hard-coded primary ID attribute after all required probe checks had passed.",
+    "secondProbeExecuted": false,
+    "metadata": {
+      "logicalName": "aigw_ai_demo_full_replica",
+      "entitySetName": "aigw_ai_demo_full_replicas",
+      "primaryIdAttribute": "businessprocessflowinstanceid",
+      "isBpfEntity": true
+    },
+    "probeOpportunityRowCount": 0,
+    "bpfWriteRequests": 0,
+    "team": {
+      "token": "TEST-TEAM-TOKEN",
+      "recordId": "4d441a2f-cd6d-f111-ab0d-00224818ead9",
+      "isDefault": true,
+      "teamType": 0,
+      "nameRead": false
+    },
+    "getRequests": 3,
+    "recovered": true
+  },
+  "exactIdsOnly": true,
+  "navigation": [
+    {
+      "entity": "aigw_customerservicecoverage",
+      "attribute": "aigw_accountid",
+      "unique": true,
+      "relationshipSchemaName": "aigw_account_customerservicecoverage",
+      "referencedEntity": "account",
+      "referencingEntity": "aigw_customerservicecoverage",
+      "navigationProperty": "Aigw_Accountid",
+      "targetEntitySet": "accounts",
+      "requiredLevel": "ApplicationRequired"
+    },
+    {
+      "entity": "aigw_customerservicecoverage",
+      "attribute": "aigw_responsibledepartment",
+      "unique": true,
+      "relationshipSchemaName": "aigw_team_customerservicecoverage_responsibledepartment",
+      "referencedEntity": "team",
+      "referencingEntity": "aigw_customerservicecoverage",
+      "navigationProperty": "Aigw_Responsibledepartment",
+      "targetEntitySet": "teams",
+      "requiredLevel": "ApplicationRequired"
+    },
+    {
+      "entity": "aigw_interactionsignal",
+      "attribute": "aigw_accountid",
+      "unique": true,
+      "relationshipSchemaName": "aigw_account_interactionsignal",
+      "referencedEntity": "account",
+      "referencingEntity": "aigw_interactionsignal",
+      "navigationProperty": "Aigw_Accountid",
+      "targetEntitySet": "accounts",
+      "requiredLevel": "ApplicationRequired"
+    },
+    {
+      "entity": "aigw_interactionsignal",
+      "attribute": "aigw_opportunityid",
+      "unique": true,
+      "relationshipSchemaName": "aigw_opportunity_interactionsignal",
+      "referencedEntity": "opportunity",
+      "referencingEntity": "aigw_interactionsignal",
+      "navigationProperty": "Aigw_Opportunityid",
+      "targetEntitySet": "opportunities",
+      "requiredLevel": "None"
+    },
+    {
+      "entity": "aigw_interactionsignal",
+      "attribute": "aigw_salesdepartment",
+      "unique": true,
+      "relationshipSchemaName": "aigw_team_interactionsignal_salesdepartment",
+      "referencedEntity": "team",
+      "referencingEntity": "aigw_interactionsignal",
+      "navigationProperty": "Aigw_Salesdepartment",
+      "targetEntitySet": "teams",
+      "requiredLevel": "ApplicationRequired"
+    }
+  ],
+  "requestCounts": {
+    "GET": 78,
+    "POST": 9,
+    "PATCH": 0,
+    "DELETE": 7,
+    "Publish": 0,
+    "ChoiceWrites": 0,
+    "SolutionWrites": 0,
+    "ProbeCreateAttempts": 9,
+    "ProbeCreateSuccesses": 7,
+    "DuplicateAttempts": 2,
+    "DuplicateRejections": 2,
+    "ProbeDeletes": 7
+  },
+  "writeCounts": {
+    "probeCreateAttempts": 9,
+    "probeCreateSuccesses": 7,
+    "duplicateAttempts": 2,
+    "duplicateRejections": 2,
+    "probeDeletes": 7
+  },
+  "phaseRequestCounts": {
+    "GET": 196,
+    "POST": 9,
+    "PATCH": 0,
+    "DELETE": 7,
+    "Publish": 0,
+    "ChoiceWrites": 0,
+    "SolutionWrites": 0
+  },
+  "finalGate": {
+    "p0Count": 0,
+    "p1Count": 0,
+    "p2Count": 2,
+    "formViewSecurityPhaseReady": true,
+    "demoDataDesignPhaseReady": true,
+    "demoDataGenerationReady": false
+  },
+  "productionRequests": 0,
+  "externalLlmCalls": 0,
+  "realBusinessDataWrites": 0
+}

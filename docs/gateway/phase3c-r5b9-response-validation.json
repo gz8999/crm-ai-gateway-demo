@@ -1,0 +1,30 @@
+{
+  "responseContractVersion": "Decision Pack Model Response v2",
+  "probes": [
+    {
+      "probe": 1,
+      "jsonParseReady": false,
+      "schemaReady": false,
+      "schemaErrors": [
+        "output_not_json"
+      ],
+      "canonicalMappingReady": false,
+      "limitationCodesReady": false,
+      "safetyPolicyCodesReady": false,
+      "evidenceReady": false,
+      "evidenceErrors": [
+        "not_run"
+      ],
+      "safetyReady": false,
+      "businessForbiddenLabelCount": null,
+      "unsupportedClaimCount": 0
+    }
+  ],
+  "totals": {
+    "json": "0/1",
+    "schema": "0/0",
+    "canonical": "0/0",
+    "evidence": "0/0",
+    "safety": "0/0"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "version": "Provider Transport Contract v5",
+  "profile": "v6-r4",
+  "purpose": "Remove provider-generated Fact text while preserving request-scoped evidence and Canonical v2 readability.",
+  "activation": "explicit-opt-in",
+  "modelFactShape": {
+    "facts": [
+      {
+        "factCode": "request-scoped-enum"
+      }
+    ]
+  },
+  "safeFactCatalog": {
+    "version": "Safe Fact Catalog v1",
+    "fields": [
+      "factCode",
+      "label",
+      "value",
+      "evidenceToken"
+    ],
+    "providerMayGenerateLabel": false,
+    "providerMayGenerateValue": false,
+    "exactFactCodeRequired": true,
+    "duplicateFactCodeAllowed": false,
+    "unknownFactCodeAllowed": false
+  },
+  "canonicalMapping": {
+    "deterministic": true,
+    "sortByFactCode": true,
+    "target": "Decision Pack Model Response v2",
+    "generatedBusinessFactCount": 0
+  },
+  "strictSchema": {
+    "frozenSyntheticHash": "54fce23151dce092111df36ae5238795b0728bf62c96a2b6b8a2021ac944ff12",
+    "expectedFrozenSyntheticHash": "54fce23151dce092111df36ae5238795b0728bf62c96a2b6b8a2021ac944ff12",
+    "requestScoped": true,
+    "additionalProperties": false,
+    "serializable": true,
+    "totalSchemaNodeCount": 86,
+    "typedNodeCount": 84,
+    "anyOfNodeCount": 2,
+    "refNodeCount": 0,
+    "missingTypeAnyOfRefCount": 0,
+    "missingTypeAnyOfRefPaths": [],
+    "objectCount": 19,
+    "requiredCoverageCount": 19,
+    "missingRequiredCount": 0,
+    "missingRequiredPaths": [],
+    "missingAdditionalPropertiesCount": 0,
+    "missingAdditionalPropertiesPaths": [],
+    "missingArrayItemsCount": 0,
+    "missingArrayItemsPaths": [],
+    "unsupportedKeywordCount": 0,
+    "unsupportedKeywords": [],
+    "schemaHash": "54fce23151dce092111df36ae5238795b0728bf62c96a2b6b8a2021ac944ff12"
+  },
+  "historicalCompatibility": {
+    "transportV1V4Modified": false,
+    "r5cR2EvidenceModified": false,
+    "historicalIntegrityReady": true
+  },
+  "runtimeStatus": {
+    "offlineReady": true,
+    "providerRequestCompatibilityReady": false,
+    "providerTransportRepeatabilityReady": false,
+    "onlineSyntheticProbeAuthorized": false,
+    "realCanaryAuthorized": false
+  }
+}

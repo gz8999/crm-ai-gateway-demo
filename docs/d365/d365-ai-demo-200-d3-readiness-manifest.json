@@ -1,0 +1,120 @@
+{
+  "phase": "Phase 1C-5R2G-D3A",
+  "generatedAt": "2026-07-17T04:16:44.438Z",
+  "host": "org91f5f65f.crm5.dynamics.com",
+  "authoritative": {
+    "dataWorkbook": "CRM_AI_Gateway_D365_Demo_200_v1_1.xlsx",
+    "projectionCandidate": "CRM_AI_Gateway_D365_Demo_200_ProjectionCandidate_v1.xlsx",
+    "originalV1HistoricalBaseline": true
+  },
+  "integrity": {
+    "v1_1": {
+      "filename": "CRM_AI_Gateway_D365_Demo_200_v1_1.xlsx",
+      "sizeBytes": 952684,
+      "sha256": "e19e41b95c4392858e2702c0b4a239fb545697947bd556832d17734304ad28dd",
+      "reimportSucceeded": true,
+      "formulaErrorCount": 0
+    },
+    "projectionCandidate": {
+      "filename": "CRM_AI_Gateway_D365_Demo_200_ProjectionCandidate_v1.xlsx",
+      "sizeBytes": 566684,
+      "sha256": "7a3a1d5b0cc3b0a4137f9eeaf33cacd707ef07f965bf8c8478aa235cfb1a5f11",
+      "reimportSucceeded": true,
+      "formulaErrorCount": 0
+    },
+    "counts": {
+      "Account": 60,
+      "Contact": 120,
+      "Opportunity": 200,
+      "ActualManagement": 130,
+      "ServiceCoverage": 240,
+      "Timeline": 1800,
+      "InteractionSignal": 1350
+    },
+    "choice": {
+      "customerNeedUnknownCount": 0,
+      "proposalUnknownCount": 0,
+      "lcmsTmsViolationCount": 0,
+      "choiceSemanticConflictCount": 0
+    },
+    "primaryNames": {
+      "ready": true,
+      "duplicateCount": 0,
+      "overMaxLengthCount": 0,
+      "ActualManagement": 130,
+      "ServiceCoverage": 240,
+      "InteractionSignal": 1350
+    },
+    "polPod": {
+      "resolvedExactCount": 6,
+      "resolvedNormalizedCount": 5,
+      "fallbackOTRCount": 10,
+      "blockedCount": 0
+    },
+    "publicWorkbookGuidAudit": {
+      "businessRecordGuidCount": 0,
+      "structuralGuidAliasCount": 1,
+      "classification": "One GUID-shaped legacy source schema alias exists in FieldMapping; it is not a Dataverse record ID or import value."
+    }
+  },
+  "runtime": {
+    "ordinaryCandidateCount": 1,
+    "targetBusinessUnitCount": 1,
+    "teamNameConflictCount": 0,
+    "reusableMinimalRoleCount": 0,
+    "references": {
+      "CNY": 1,
+      "Location": 51,
+      "PolPod": 2072
+    }
+  },
+  "requests": {
+    "metadataGET": 14,
+    "systemUserGET": 1,
+    "teamGET": 1,
+    "businessUnitGET": 1,
+    "securityRoleGET": 1,
+    "rolePrivilegeGET": 2,
+    "membershipGET": 2,
+    "referenceMasterGET": 3,
+    "businessCRMGET": 0,
+    "POST": 0,
+    "PATCH": 0,
+    "DELETE": 0,
+    "Publish": 0,
+    "productionRequests": 0,
+    "externalLLMCalls": 0
+  },
+  "gates": {
+    "Demo200V1_1IntegrityReady": true,
+    "ProjectionCandidateIntegrityReady": true,
+    "D2RemediationRecheckReady": true,
+    "OrdinaryInteractiveOwnerCandidateReady": true,
+    "OwnerMappingApproved": false,
+    "TargetBusinessUnitReady": true,
+    "SevenTeamSpecificationsReady": true,
+    "TeamNameConflictCount": 0,
+    "MinimalSecurityRoleReady": true,
+    "RoleReuseCandidateReady": false,
+    "RoleCreationRequired": true,
+    "TeamSetupExecutionPlanReady": true,
+    "TeamSetupRollbackPlanReady": true,
+    "TeamSetupAuthorized": false,
+    "DepartmentTeamMappingApproved": false,
+    "ProjectionCandidateRecheckReady": true,
+    "ImportProjectionReady": false,
+    "CompactPilotRecheckReady": true,
+    "CompactPilotApproved": false,
+    "PilotWorkbookGenerated": false,
+    "P0Count": 0,
+    "P1Count": 0,
+    "P2Count": 2,
+    "DataverseWrites": 0,
+    "BusinessCRMReads": 0,
+    "ProductionRequests": 0,
+    "ExternalLLMCalls": 0,
+    "PilotImportReady": false,
+    "PilotImportAuthorized": false,
+    "FullImportReady": false
+  }
+}

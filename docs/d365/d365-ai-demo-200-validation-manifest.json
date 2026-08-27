@@ -1,0 +1,322 @@
+{
+  "dataset": "CRM AI Gateway D365 Demo 200 v1",
+  "generationRunToken": "CRM-DEMO-200-GEN-001",
+  "sourceReference": {
+    "filename": "所有案件+7-17.xlsx",
+    "sourceOpportunityRows": 2917,
+    "usage": "aggregate distributions and form structure only",
+    "rawIdentitiesCopied": false,
+    "rawDescriptionsCopied": false,
+    "rawAmountsCopied": false
+  },
+  "counts": {
+    "Account": 60,
+    "Contact": 120,
+    "Opportunity": 200,
+    "ActualManagement": 130,
+    "ServiceCoverage": 240,
+    "Timeline": 1800,
+    "InteractionSignal": 1350,
+    "TotalBusinessRows": 3900
+  },
+  "departmentDistribution": {
+    "06: FF": 172,
+    "04: Dept3(Project Cargo)": 3,
+    "01: Dept1(Industry)": 11,
+    "02: Dept1(Distribution)": 4,
+    "05: Dept3(Dangerous Goods)": 2,
+    "91: Others": 2,
+    "03: Dept2(LCMS)": 6
+  },
+  "stateDistribution": {
+    "赢单": 91,
+    "开放": 100,
+    "丢单": 9
+  },
+  "scenarioDistribution": {
+    "budget-actual-gap": 20,
+    "healthy-control": 20,
+    "location-route-risk": 20,
+    "background-business": 40,
+    "meeting-prep": 20,
+    "growth-opportunity": 20,
+    "data-contradiction": 20,
+    "stalled-high-value": 20,
+    "multi-risk-priority": 20
+  },
+  "timeline": {
+    "count": 1800,
+    "exactDuplicateCount": 0,
+    "normalizedUniqueRatio": 1.0,
+    "appointmentCount": 448,
+    "minimumAppointmentCharacters": 588
+  },
+  "signal": {
+    "count": 1350,
+    "coverageRatio": 0.75,
+    "missingSourceCount": 0
+  },
+  "anonymization": {
+    "customerNameExactOverlap": 0,
+    "caseNameExactOverlap": 0,
+    "descriptionExactOverlap": 0,
+    "budgetExactOverlap": 0,
+    "guidCount": 0,
+    "emailCount": 0,
+    "phoneCount": 0
+  },
+  "rules": [
+    {
+      "id": "COUNT-ACCOUNT",
+      "name": "Account数量",
+      "passed": true,
+      "actual": 60,
+      "expected": "=60"
+    },
+    {
+      "id": "COUNT-CONTACT",
+      "name": "Contact数量",
+      "passed": true,
+      "actual": 120,
+      "expected": "=120"
+    },
+    {
+      "id": "COUNT-OPPORTUNITY",
+      "name": "Opportunity数量",
+      "passed": true,
+      "actual": 200,
+      "expected": "=200"
+    },
+    {
+      "id": "COUNT-ACTUAL",
+      "name": "Actual数量",
+      "passed": true,
+      "actual": 130,
+      "expected": "=130"
+    },
+    {
+      "id": "COUNT-COVERAGE",
+      "name": "Coverage数量",
+      "passed": true,
+      "actual": 240,
+      "expected": "=240"
+    },
+    {
+      "id": "COUNT-TIMELINE",
+      "name": "Timeline数量",
+      "passed": true,
+      "actual": 1800,
+      "expected": "=1800"
+    },
+    {
+      "id": "COUNT-SIGNAL",
+      "name": "Signal数量",
+      "passed": true,
+      "actual": 1350,
+      "expected": "=1350"
+    },
+    {
+      "id": "DEPT-001",
+      "name": "销售部门数量与比例",
+      "passed": true,
+      "actual": "{\"06: FF\": 172, \"04: Dept3(Project Cargo)\": 3, \"01: Dept1(Industry)\": 11, \"02: Dept1(Distribution)\": 4, \"05: Dept3(Dangerous Goods)\": 2, \"91: Others\": 2, \"03: Dept2(LCMS)\": 6}",
+      "expected": "精确匹配"
+    },
+    {
+      "id": "STATE-001",
+      "name": "开放/赢单/丢单",
+      "passed": true,
+      "actual": "{\"赢单\": 91, \"开放\": 100, \"丢单\": 9}",
+      "expected": "100/91/9"
+    },
+    {
+      "id": "REL-001",
+      "name": "Opportunity父Account",
+      "passed": true,
+      "actual": 0,
+      "expected": "全部存在"
+    },
+    {
+      "id": "REL-002",
+      "name": "Opportunity父Contact同Account",
+      "passed": true,
+      "actual": 0,
+      "expected": "全部一致"
+    },
+    {
+      "id": "ACT-001",
+      "name": "Actual父Opportunity与唯一性",
+      "passed": true,
+      "actual": 0,
+      "expected": "130条唯一"
+    },
+    {
+      "id": "ACT-002",
+      "name": "Actual状态分配",
+      "passed": true,
+      "actual": "{\"赢单\": 91, \"开放\": 39}",
+      "expected": "91/39/0"
+    },
+    {
+      "id": "COV-001",
+      "name": "Coverage每Account四条",
+      "passed": true,
+      "actual": 0,
+      "expected": "4/Account"
+    },
+    {
+      "id": "TL-001",
+      "name": "Timeline按商机至少三种类型",
+      "passed": true,
+      "actual": 0,
+      "expected": ">=3"
+    },
+    {
+      "id": "TL-002",
+      "name": "Timeline精确重复",
+      "passed": true,
+      "actual": 0,
+      "expected": "=0"
+    },
+    {
+      "id": "TL-003",
+      "name": "Timeline规范化唯一率",
+      "passed": true,
+      "actual": 1.0,
+      "expected": ">=95%"
+    },
+    {
+      "id": "TL-004",
+      "name": "会议简报八段结构",
+      "passed": true,
+      "actual": 448,
+      "expected": "全部通过"
+    },
+    {
+      "id": "SIG-001",
+      "name": "Signal来源Timeline",
+      "passed": true,
+      "actual": 0,
+      "expected": "全部存在"
+    },
+    {
+      "id": "SIG-002",
+      "name": "Signal覆盖率",
+      "passed": true,
+      "actual": 0.75,
+      "expected": "=75%"
+    },
+    {
+      "id": "NAME-001",
+      "name": "客户名称未照抄源表",
+      "passed": true,
+      "actual": 0,
+      "expected": "=0"
+    },
+    {
+      "id": "NAME-002",
+      "name": "案件名称未照抄源表",
+      "passed": true,
+      "actual": 0,
+      "expected": "=0"
+    },
+    {
+      "id": "TEXT-001",
+      "name": "案件说明未照抄源表",
+      "passed": true,
+      "actual": 0,
+      "expected": "=0"
+    },
+    {
+      "id": "AMOUNT-001",
+      "name": "预算金额未与源表精确重合",
+      "passed": true,
+      "actual": 0,
+      "expected": "=0碰撞"
+    },
+    {
+      "id": "BIZ-001",
+      "name": "部门业务关系",
+      "passed": true,
+      "actual": 0,
+      "expected": "=0"
+    },
+    {
+      "id": "SAFE-001",
+      "name": "GUID扫描",
+      "passed": true,
+      "actual": 0,
+      "expected": "=0"
+    },
+    {
+      "id": "SAFE-002",
+      "name": "Email扫描",
+      "passed": true,
+      "actual": 0,
+      "expected": "=0"
+    },
+    {
+      "id": "SAFE-003",
+      "name": "电话号码扫描",
+      "passed": true,
+      "actual": 0,
+      "expected": "=0"
+    },
+    {
+      "id": "SAFE-004",
+      "name": "生产环境Hostname",
+      "passed": true,
+      "actual": 0,
+      "expected": "=0"
+    },
+    {
+      "id": "SAFE-005",
+      "name": "外部LLM调用",
+      "passed": true,
+      "actual": 0,
+      "expected": "=0"
+    },
+    {
+      "id": "SAFE-006",
+      "name": "Dataverse请求",
+      "passed": true,
+      "actual": 0,
+      "expected": "=0"
+    }
+  ],
+  "gates": {
+    "WorkbookGenerated": true,
+    "SourceStructureReferenced": true,
+    "DepartmentDistributionReady": true,
+    "OpportunityNarrativeReady": true,
+    "TimelineQualityReady": true,
+    "InteractionSignalReady": true,
+    "AnonymizationReady": true,
+    "WorkbookTechnicalValidationReady": true,
+    "WorkbookUserAcceptanceReady": false,
+    "PilotImportReady": false,
+    "FullImportReady": false
+  },
+  "workbook": {
+    "filename": "CRM_AI_Gateway_D365_Demo_200_v1.xlsx",
+    "sizeBytes": 828128,
+    "sha256": "8b5ccf042669b64a42652fde5cac901ffd599408a3dab5911cd884c0c2c9aacb",
+    "reimportSucceeded": true,
+    "formulaErrorCount": 0,
+    "sheetCount": 21
+  },
+  "requests": {
+    "dataverseGET": 0,
+    "dataversePOST": 0,
+    "dataversePATCH": 0,
+    "dataverseDELETE": 0,
+    "publish": 0,
+    "productionRequests": 0,
+    "externalLlmCalls": 0
+  },
+  "issues": {
+    "P0": 0,
+    "P1": 0,
+    "P2": 0
+  }
+}

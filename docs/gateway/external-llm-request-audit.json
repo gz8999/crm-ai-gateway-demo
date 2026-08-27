@@ -1,0 +1,25 @@
+{
+  "phase": "Phase 3C",
+  "records": [
+    {
+      "requestToken": "PHASE3C-CANARY-01",
+      "opportunityToken": "DEMO-OPP-001",
+      "page": "cockpit",
+      "provider": "openai-compatible",
+      "model": "deepseek-v4-flash",
+      "contextVersion": "Safe Context v2",
+      "safeContextHash": null,
+      "providerInputHash": null,
+      "latencyMs": null,
+      "attempts": 1,
+      "httpStatus": 200,
+      "tokenUsage": null,
+      "estimatedCostUsd": null,
+      "timestamp": "2026-07-18T18:44:28.708Z"
+    }
+  ],
+  "requestCount": 1,
+  "externalModelCalls": 1,
+  "crmWriteback": false,
+  "productionRequests": 0
+}

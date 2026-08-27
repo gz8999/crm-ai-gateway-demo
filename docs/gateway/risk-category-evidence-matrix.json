@@ -1,0 +1,68 @@
+{
+  "version": "Risk Category Evidence Matrix v1",
+  "catalogVersion": "Canonical Risk Category Catalog v1",
+  "categories": [
+    {
+      "code": "contradiction",
+      "allowedEvidenceTypes": [
+        "DATA_QUALITY",
+        "DECISION_READINESS"
+      ]
+    },
+    {
+      "code": "gap",
+      "allowedEvidenceTypes": [
+        "FINANCIAL_VARIANCE"
+      ]
+    },
+    {
+      "code": "growth",
+      "allowedEvidenceTypes": [
+        "SERVICE_COVERAGE",
+        "ACCOUNT_GROWTH"
+      ]
+    },
+    {
+      "code": "healthy",
+      "allowedEvidenceTypes": [
+        "PIPELINE_PROGRESS",
+        "DATA_QUALITY",
+        "DECISION_READINESS"
+      ]
+    },
+    {
+      "code": "meeting",
+      "allowedEvidenceTypes": [
+        "ENGAGEMENT"
+      ]
+    },
+    {
+      "code": "multi-risk",
+      "allowedEvidenceTypes": [
+        "PIPELINE_PROGRESS",
+        "DATA_QUALITY"
+      ]
+    },
+    {
+      "code": "portfolio-priority",
+      "allowedEvidenceTypes": [
+        "PORTFOLIO_SCOPE",
+        "PIPELINE_PROGRESS"
+      ]
+    },
+    {
+      "code": "route",
+      "allowedEvidenceTypes": [
+        "ROUTE_CONSISTENCY"
+      ]
+    },
+    {
+      "code": "stalled",
+      "allowedEvidenceTypes": [
+        "PIPELINE_PROGRESS",
+        "FINANCIAL_BAND",
+        "RELATIVE_DATE"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "phase": "Phase 1C-5R2G-D5",
+  "records": [
+    {
+      "entity": "Account",
+      "token": "A-050",
+      "parentToken": null,
+      "result": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Contact",
+      "token": "C-099",
+      "parentToken": "A-050",
+      "result": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    },
+    {
+      "entity": "Opportunity",
+      "token": "DEMO-OPP-015",
+      "parentToken": "A-050",
+      "result": "Created",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    }
+  ]
+}

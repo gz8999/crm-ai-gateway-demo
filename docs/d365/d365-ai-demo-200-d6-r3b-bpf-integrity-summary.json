@@ -1,0 +1,10 @@
+{
+  "phase": "Phase 1C-5R2G-D6-R3B",
+  "targetInstanceCount": 200,
+  "initialStageCount": 200,
+  "duplicateCount": 0,
+  "unexpectedProcessCount": 0,
+  "processOrder": 0,
+  "definitionHash": "aac15b0adae5d1041df319b7dd187cc4a517c446725e6f2785e68939c015dbf8",
+  "manualBpfWrites": 0
+}

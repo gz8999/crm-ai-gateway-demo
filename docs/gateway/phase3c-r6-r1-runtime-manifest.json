@@ -1,0 +1,399 @@
+{
+  "phase": "PHASE 3C-R6-R1",
+  "baselineCommit": "99565a1",
+  "implementationBaseline": "ffdbb7e",
+  "profile": "v6-r6",
+  "provider": "DeepSeek",
+  "model": "deepseek-v4-pro",
+  "transportContractVersion": "Provider Transport Contract v7",
+  "canonicalContractVersion": "Decision Pack Model Response v2",
+  "cardinalityContractVersion": "Decision Pack Cardinality Contract v1",
+  "cardinalityContractHash": "fce9a5277979b6c35d515395720892857ae7afcb756d627cfac6b1811792376b",
+  "cardinalityDecision": {
+    "case": "A",
+    "transportInferencesMinItemsBeforeRepair": 0,
+    "canonicalInferencesMinItems": 1,
+    "runtimeValidatorMinItems": 1,
+    "selectionReferencesMinItems": 1,
+    "inferenceEvidenceTokensMinItems": 1,
+    "authoritativeInferencesMinItems": 1
+  },
+  "schemaParity": {
+    "ready": true,
+    "profile": "v6-r6",
+    "transportContractVersion": "Provider Transport Contract v7",
+    "cardinalityContractVersion": "Decision Pack Cardinality Contract v1",
+    "cardinalityContractHash": "fce9a5277979b6c35d515395720892857ae7afcb756d627cfac6b1811792376b",
+    "toolSchemaHash": "c93f3998a705af0a3fa9de3943d66be69b64f7c2aad0b278397b3c4492b72ce6",
+    "runtimeSchemaHash": "c93f3998a705af0a3fa9de3943d66be69b64f7c2aad0b278397b3c4492b72ce6",
+    "schemaCardinalityMismatchCount": 0,
+    "runtimeOnlyCardinalityRules": 0,
+    "toolOnlyCardinalityRules": 0,
+    "independentCardinalityConstants": 0,
+    "directChecks": [
+      {
+        "path": "facts",
+        "rejectedAtToolSchema": true
+      },
+      {
+        "path": "inferences",
+        "rejectedAtToolSchema": true
+      },
+      {
+        "path": "recommendedActions",
+        "rejectedAtToolSchema": true
+      },
+      {
+        "path": "riskCategories",
+        "rejectedAtToolSchema": true
+      },
+      {
+        "path": "limitations.codes",
+        "rejectedAtToolSchema": true
+      },
+      {
+        "path": "inference.evidenceTokens",
+        "rejectedAtToolSchema": true
+      },
+      {
+        "path": "action.evidenceTokens",
+        "rejectedAtToolSchema": true
+      },
+      {
+        "path": "riskCategory.evidenceTokens",
+        "rejectedAtToolSchema": true
+      }
+    ],
+    "lint": {
+      "serializable": true,
+      "totalSchemaNodeCount": 387,
+      "typedNodeCount": 166,
+      "anyOfNodeCount": 14,
+      "refNodeCount": 207,
+      "missingTypeAnyOfRefCount": 0,
+      "missingTypeAnyOfRefPaths": [],
+      "objectCount": 91,
+      "requiredCoverageCount": 91,
+      "missingRequiredCount": 0,
+      "missingRequiredPaths": [],
+      "missingAdditionalPropertiesCount": 0,
+      "missingAdditionalPropertiesPaths": [],
+      "missingArrayItemsCount": 0,
+      "missingArrayItemsPaths": [],
+      "unsupportedKeywordCount": 0,
+      "unsupportedKeywords": [],
+      "schemaHash": "c93f3998a705af0a3fa9de3943d66be69b64f7c2aad0b278397b3c4492b72ce6"
+    },
+    "requestShapeReady": true
+  },
+  "validCorpus": {
+    "ready": true,
+    "generated": 1000,
+    "passed": 1000,
+    "unexpectedFailureCount": 0,
+    "deterministicHashMismatchCount": 0,
+    "canonicalHashCount": 940,
+    "coverageReady": true,
+    "coverage": {
+      "inferenceCodes": [
+        "INF-COVERAGE-REVIEW",
+        "INF-DATA-QUALITY",
+        "INF-DECISION-READINESS",
+        "INF-FINANCIAL-VARIANCE",
+        "INF-PIPELINE-STALL"
+      ],
+      "actionCodes": [
+        "ACT-CONFIRM-DECISION",
+        "ACT-CONFIRM-NEXT-STEP",
+        "ACT-RECONCILE-DATA",
+        "ACT-REVIEW-COVERAGE",
+        "ACT-REVIEW-VARIANCE"
+      ],
+      "riskCodes": [
+        "contradiction",
+        "gap",
+        "growth",
+        "healthy",
+        "meeting",
+        "multi-risk",
+        "portfolio-priority",
+        "route",
+        "stalled"
+      ],
+      "limitationCodes": [
+        "DATA_CONTRADICTION",
+        "EXACT_AMOUNT_WITHHELD",
+        "IDENTITY_MASKED",
+        "INSUFFICIENT_EVIDENCE",
+        "MODEL_UNCERTAINTY",
+        "NO_ACTUAL_DATA",
+        "NO_COVERAGE_DATA",
+        "RAW_TIMELINE_WITHHELD",
+        "STALE_INTERACTION_DATA"
+      ],
+      "evidenceTypes": [
+        "ACCOUNT_GROWTH",
+        "DATA_QUALITY",
+        "DECISION_READINESS",
+        "ENGAGEMENT",
+        "FINANCIAL_BAND",
+        "FINANCIAL_VARIANCE",
+        "PIPELINE_PROGRESS",
+        "PORTFOLIO_SCOPE",
+        "RELATIVE_DATE",
+        "ROUTE_CONSISTENCY",
+        "SERVICE_COVERAGE"
+      ],
+      "minimumInference": true,
+      "maximumInference": true,
+      "singleEvidence": true,
+      "multipleEvidence": true
+    },
+    "failures": []
+  },
+  "invalidCorpus": {
+    "ready": true,
+    "caseCount": 21,
+    "rejectedCount": 21,
+    "unexpectedPassCount": 0,
+    "results": [
+      {
+        "name": "inferences_below_min",
+        "rejected": true,
+        "errorCount": 2,
+        "schemaRejected": true
+      },
+      {
+        "name": "inference_evidence_missing",
+        "rejected": true,
+        "errorCount": 3,
+        "schemaRejected": true
+      },
+      {
+        "name": "inference_evidence_empty",
+        "rejected": true,
+        "errorCount": 3,
+        "schemaRejected": true
+      },
+      {
+        "name": "inference_evidence_unknown",
+        "rejected": true,
+        "errorCount": 3,
+        "schemaRejected": true
+      },
+      {
+        "name": "inference_evidence_duplicate",
+        "rejected": true,
+        "errorCount": 3,
+        "schemaRejected": true
+      },
+      {
+        "name": "risk_evidence_incompatible",
+        "rejected": true,
+        "errorCount": 3,
+        "schemaRejected": true
+      },
+      {
+        "name": "inference_code_unknown",
+        "rejected": true,
+        "errorCount": 3,
+        "schemaRejected": true
+      },
+      {
+        "name": "extra_field",
+        "rejected": true,
+        "errorCount": 1,
+        "schemaRejected": true
+      },
+      {
+        "name": "wrong_field_type",
+        "rejected": true,
+        "errorCount": 2,
+        "schemaRejected": true
+      },
+      {
+        "name": "canonical_mapping_omission",
+        "rejected": true,
+        "errorCount": 1,
+        "schemaRejected": true
+      },
+      {
+        "name": "health_score_override",
+        "rejected": true,
+        "errorCount": 1,
+        "schemaRejected": true
+      },
+      {
+        "name": "fact_selection_empty",
+        "rejected": true,
+        "errorCount": 2,
+        "schemaRejected": true
+      },
+      {
+        "name": "action_selection_empty",
+        "rejected": true,
+        "errorCount": 2,
+        "schemaRejected": true
+      },
+      {
+        "name": "action_evidence_empty",
+        "rejected": true,
+        "errorCount": 3,
+        "schemaRejected": true
+      },
+      {
+        "name": "risk_evidence_empty",
+        "rejected": true,
+        "errorCount": 3,
+        "schemaRejected": true
+      },
+      {
+        "name": "safety_statement_invalid",
+        "rejected": true,
+        "errorCount": 1,
+        "schemaRejected": true
+      },
+      {
+        "name": "limitations_below_min",
+        "rejected": true,
+        "errorCount": 2,
+        "schemaRejected": true
+      },
+      {
+        "name": "limitations_duplicate",
+        "rejected": true,
+        "errorCount": 2,
+        "schemaRejected": false
+      },
+      {
+        "name": "inference_reference_duplicate",
+        "rejected": true,
+        "errorCount": 1,
+        "schemaRejected": false
+      },
+      {
+        "name": "action_reference_unknown",
+        "rejected": true,
+        "errorCount": 3,
+        "schemaRejected": true
+      },
+      {
+        "name": "risk_reference_unknown",
+        "rejected": true,
+        "errorCount": 3,
+        "schemaRejected": true
+      }
+    ]
+  },
+  "inputSafety": {
+    "ready": true,
+    "forbiddenFieldCount": 0,
+    "realCrmTokenCount": 0,
+    "guidCount": 0,
+    "identityCount": 0,
+    "exactAmountCount": 0,
+    "rawTimelineCount": 0,
+    "scenarioGoldenCount": 0
+  },
+  "hashes": {
+    "cardinalityContractHash": "fce9a5277979b6c35d515395720892857ae7afcb756d627cfac6b1811792376b",
+    "schemaHash": "c93f3998a705af0a3fa9de3943d66be69b64f7c2aad0b278397b3c4492b72ce6",
+    "requestSchemaHash": "c93f3998a705af0a3fa9de3943d66be69b64f7c2aad0b278397b3c4492b72ce6",
+    "requestEnvelopeHash": "438282e09833d724fb92ae402ea06325a3176f842d217b64aa08991b19c4b7fa",
+    "requestByteHash": "3d599b80009f122c9d48d46a7c87ba186dd3c91242c21adb161ea102b0dceebc",
+    "evidenceAllowlistHash": "6761b620d3c936cf42c770b7de11c6789c1992fe9f08ff36eaa2c1f50fa03d5f"
+  },
+  "offlineReady": true,
+  "probe": {
+    "authorized": true,
+    "executed": true,
+    "ready": false,
+    "httpStatus": 200,
+    "finishReason": "tool_calls",
+    "toolCallCount": 1,
+    "toolCallName": "emit_decision_pack",
+    "jsonReady": true,
+    "transportSchemaReady": false,
+    "inferenceCardinalityReady": false,
+    "selectionReferencesReady": false,
+    "factEvidenceReady": false,
+    "inferenceActionEvidenceReady": false,
+    "riskCategoryEvidenceReady": false,
+    "canonicalMappingReady": false,
+    "canonicalV2Ready": false,
+    "readabilityReady": false,
+    "safetyReady": false,
+    "unsupportedCrmFactCount": 0,
+    "hallucinationHardFailureCount": 0,
+    "healthScoreOverrideCount": 0,
+    "latencyMs": 16963,
+    "usage": {
+      "prompt_tokens": 7934,
+      "completion_tokens": 1941,
+      "total_tokens": 9875
+    },
+    "estimatedCostUsd": 0.003037,
+    "argumentsLength": 4772,
+    "argumentsSha256": "5c8dac6338be89dab548c323cbe7ceff993e6791042dd73f1cbb505dc5da288c",
+    "requestEnvelopeHash": "438282e09833d724fb92ae402ea06325a3176f842d217b64aa08991b19c4b7fa",
+    "requestSchemaHash": "c93f3998a705af0a3fa9de3943d66be69b64f7c2aad0b278397b3c4492b72ce6",
+    "correlationHash": "3befd7d99eba2396b8d92c7a98ab2bdcd1c3ab65d7eee6acec3b7abf1b335d30",
+    "rawArgumentsCount": 0,
+    "retryCount": 0,
+    "fallbackCount": 0
+  },
+  "requestStats": {
+    "externalLlmCalls": 1,
+    "httpSuccess": 1,
+    "httpFailure": 0,
+    "toolCallCount": 1,
+    "jsonParseSuccess": 1,
+    "transportValidResponseCount": 0,
+    "canonicalValidResponseCount": 0,
+    "safetyValidResponseCount": 0,
+    "retryCount": 0,
+    "fallbackCount": 0,
+    "d365Get": 0,
+    "crmPost": 0,
+    "crmPatch": 0,
+    "crmDelete": 0,
+    "crmWriteback": false,
+    "productionRequests": 0,
+    "browserExternalProviderRequests": 0
+  },
+  "gates": {
+    "inferenceCardinalityContractReady": true,
+    "cardinalityContractSingleSourceReady": true,
+    "toolRuntimeSchemaParityReady": true,
+    "schemaCardinalityMismatchCount": 0,
+    "runtimeOnlyCardinalityRules": 0,
+    "toolOnlyCardinalityRules": 0,
+    "validCorpusReady": true,
+    "invalidCorpusFailClosed": true,
+    "canonicalMappingCoverage": 100,
+    "secretIsolationReady": true,
+    "singleOnlineContractProbeReady": false,
+    "providerRequestCompatibilityReady": false,
+    "providerRepeatabilityReady": false,
+    "realCanaryAuthorized": false,
+    "executiveDemoDeterministicModeReady": true,
+    "retryCount": 0,
+    "fallbackCount": 0,
+    "d365Get": 0,
+    "crmWriteback": false,
+    "productionRequests": 0,
+    "rawArgumentsCount": 0
+  },
+  "p0Count": 0,
+  "p1Count": 1,
+  "p2Count": 0,
+  "secret": {
+    "ready": true,
+    "browserExposure": false,
+    "gitExposure": false,
+    "bundleExposure": false,
+    "logExposure": false,
+    "reportExposure": false
+  },
+  "stopReason": "ARGUMENT_SCHEMA_INVALID"
+}

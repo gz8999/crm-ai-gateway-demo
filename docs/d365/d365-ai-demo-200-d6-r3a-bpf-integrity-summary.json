@@ -1,0 +1,9 @@
+{
+  "phase": "Phase 1C-5R2G-D6-R3A",
+  "status": "FAILED_SAFE_STOP",
+  "targetInstanceCount": 200,
+  "initialStageCount": 200,
+  "duplicateCount": 0,
+  "unexpectedProcessCount": 0,
+  "manualBpfWrites": 0
+}

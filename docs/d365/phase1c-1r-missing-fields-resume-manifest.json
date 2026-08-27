@@ -1,0 +1,1488 @@
+{
+  "phase": "1C-1R",
+  "title": "Existing Actual Management table missing-only attribute resume",
+  "dryRun": true,
+  "executable": true,
+  "blocked": false,
+  "blockedReasons": [],
+  "authorizationPhrase": "CONFIRM_D365_TEST_WRITE_PHASE_1C_1R_MISSING_FIELDS",
+  "targetEnvironment": "https://your-org.crm.dynamics.com",
+  "solution": "CRMAIGatewayDemo",
+  "entityAlreadyExistsAndValid": true,
+  "entity": {
+    "metadataId": "<ACTUAL_MANAGEMENT_ENTITY_METADATA_ID>",
+    "logicalName": "aigw_actualmanagement",
+    "schemaName": "aigw_ActualManagement",
+    "ownershipType": "OrganizationOwned",
+    "isManaged": false,
+    "primaryNameAttribute": "aigw_name",
+    "entitySetName": "aigw_actualmanagements",
+    "objectTypeCode": 11722,
+    "tableInSolution": true
+  },
+  "primaryAttribute": {
+    "metadataId": "<ACTUAL_MANAGEMENT_PRIMARY_ATTRIBUTE_ID>",
+    "logicalName": "aigw_name",
+    "schemaName": "aigw_Name",
+    "type": "String",
+    "requiredLevel": "ApplicationRequired",
+    "maxLength": 200,
+    "mismatches": []
+  },
+  "reconciliation": {
+    "alreadyExistsAndValidCount": 0,
+    "missingCount": 38,
+    "existsButMismatchCount": 0,
+    "alreadyExistsAndValid": [],
+    "missing": [
+      "aigw_expectedorderdate",
+      "aigw_annualactualrevenue",
+      "aigw_aprilactualrevenue",
+      "aigw_aprilactualgp",
+      "aigw_aprilactualmp",
+      "aigw_mayactualrevenue",
+      "aigw_mayactualgp",
+      "aigw_mayactualmp",
+      "aigw_juneactualrevenue",
+      "aigw_juneactualgp",
+      "aigw_juneactualmp",
+      "aigw_julyactualrevenue",
+      "aigw_julyactualgp",
+      "aigw_julyactualmp",
+      "aigw_augustactualrevenue",
+      "aigw_augustactualgp",
+      "aigw_augustactualmp",
+      "aigw_septemberactualrevenue",
+      "aigw_septemberactualgp",
+      "aigw_septemberactualmp",
+      "aigw_octoberactualrevenue",
+      "aigw_octoberactualgp",
+      "aigw_octoberactualmp",
+      "aigw_novemberactualrevenue",
+      "aigw_novemberactualgp",
+      "aigw_novemberactualmp",
+      "aigw_decemberactualrevenue",
+      "aigw_decemberactualgp",
+      "aigw_decemberactualmp",
+      "aigw_januaryactualrevenue",
+      "aigw_januaryactualgp",
+      "aigw_januaryactualmp",
+      "aigw_februaryactualrevenue",
+      "aigw_februaryactualgp",
+      "aigw_februaryactualmp",
+      "aigw_marchactualrevenue",
+      "aigw_marchactualgp",
+      "aigw_marchactualmp"
+    ],
+    "existsButMismatch": []
+  },
+  "writes": {
+    "entityRequests": [],
+    "primaryAttributeRequests": [],
+    "webApiDryRun": {
+      "headers": {
+        "MSCRM.SolutionUniqueName": "CRMAIGatewayDemo"
+      },
+      "endpoint": "/api/data/v9.2/EntityDefinitions(LogicalName='aigw_actualmanagement')/Attributes",
+      "requestCount": 38,
+      "requests": [
+        {
+          "method": "POST",
+          "endpoint": "/api/data/v9.2/EntityDefinitions(LogicalName='aigw_actualmanagement')/Attributes",
+          "logicalName": "aigw_expectedorderdate",
+          "payload": {
+            "@odata.type": "Microsoft.Dynamics.CRM.DateTimeAttributeMetadata",
+            "SchemaName": "aigw_ExpectedOrderDate",
+            "DisplayName": {
+              "@odata.type": "Microsoft.Dynamics.CRM.Label",
+              "LocalizedLabels": [
+                {
+                  "@odata.type": "Microsoft.Dynamics.CRM.LocalizedLabel",
+                  "Label": "Expected Order Date",
+                  "LanguageCode": 1033
+                },
+                {
+                  "@odata.type": "Microsoft.Dynamics.CRM.LocalizedLabel",
+                  "Label": "预计下单日",
+                  "LanguageCode": 2052
+                }
+              ]
+            },
+            "RequiredLevel": {
+              "Value": "None",
+              "CanBeChanged": true,
+              "ManagedPropertyLogicalName": "canmodifyrequirementlevelsettings"
+            },
+            "Format": "DateOnly"
+          },
+          "headers": {
+            "MSCRM.SolutionUniqueName": "CRMAIGatewayDemo"
+          }
+        },
+        {
+          "method": "POST",
+          "endpoint": "/api/data/v9.2/EntityDefinitions(LogicalName='aigw_actualmanagement')/Attributes",
+          "logicalName": "aigw_annualactualrevenue",
+          "payload": {
+            "@odata.type": "Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+            "SchemaName": "aigw_AnnualActualRevenue",
+            "DisplayName": {
+              "@odata.type": "Microsoft.Dynamics.CRM.Label",
+              "LocalizedLabels": [
+                {
+                  "@odata.type": "Microsoft.Dynamics.CRM.LocalizedLabel",
+                  "Label": "Annual Actual Revenue",
+                  "LanguageCode": 1033
+                },
+                {
+                  "@odata.type": "Microsoft.Dynamics.CRM.LocalizedLabel",
+                  "Label": "年度实绩收入",
+                  "LanguageCode": 2052
+                }
+              ]
+            },
+            "RequiredLevel": {
+              "Value": "None",
+              "CanBeChanged": true,
+              "ManagedPropertyLogicalName": "canmodifyrequirementlevelsettings"
+            },
+            "Precision": 2,
+            "PrecisionSource": 2,
+            "MinValue": 0,
+            "MaxValue": 100000000000
+          },
+          "headers": {
+            "MSCRM.SolutionUniqueName": "CRMAIGatewayDemo"
+          }
+        },
+        {
+          "method": "POST",
+          "endpoint": "/api/data/v9.2/EntityDefinitions(LogicalName='aigw_actualmanagement')/Attributes",
+          "logicalName": "aigw_aprilactualrevenue",
+          "payload": {
+            "@odata.type": "Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+            "SchemaName": "aigw_AprilActualRevenue",
+            "DisplayName": {
+              "@odata.type": "Microsoft.Dynamics.CRM.Label",
+              "LocalizedLabels": [
+                {
+                  "@odata.type": "Microsoft.Dynamics.CRM.LocalizedLabel",
+                  "Label": "April Actual Revenue",
+                  "LanguageCode": 1033
+                },
+                {
+                  "@odata.type": "Microsoft.Dynamics.CRM.LocalizedLabel",
+                  "Label": "4月实绩收入",
+                  "LanguageCode": 2052
+                }
+              ]
+            },
+            "RequiredLevel": {
+              "Value": "None",
+              "CanBeChanged": true,
+              "ManagedPropertyLogicalName": "canmodifyrequirementlevelsettings"
+            },
+            "Precision": 2,
+            "PrecisionSource": 2,
+            "MinValue": -100000000000000,
+            "MaxValue": 100000000000000
+          },
+          "headers": {
+            "MSCRM.SolutionUniqueName": "CRMAIGatewayDemo"
+          }
+        },
+        {
+          "method": "POST",
+          "endpoint": "/api/data/v9.2/EntityDefinitions(LogicalName='aigw_actualmanagement')/Attributes",
+          "logicalName": "aigw_aprilactualgp",
+          "payload": {
+            "@odata.type": "Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+            "SchemaName": "aigw_AprilActualGP",
+            "DisplayName": {
+              "@odata.type": "Microsoft.Dynamics.CRM.Label",
+              "LocalizedLabels": [
+                {
+                  "@odata.type": "Microsoft.Dynamics.CRM.LocalizedLabel",
+                  "Label": "April Actual GP",
+                  "LanguageCode": 1033
+                },
+                {
+                  "@odata.type": "Microsoft.Dynamics.CRM.LocalizedLabel",
+                  "Label": "4月实绩毛利润",
+                  "LanguageCode": 2052
+                }
+              ]
+            },
+            "RequiredLevel": {
+              "Value": "None",
+              "CanBeChanged": true,
+              "ManagedPropertyLogicalName": "canmodifyrequirementlevelsettings"
+            },
+            "Precision": 2,
+            "PrecisionSource": 2,
+            "MinValue": -100000000000000,
+            "MaxValue": 100000000000000
+          },
+          "headers": {
+            "MSCRM.SolutionUniqueName": "CRMAIGatewayDemo"
+          }
+        },
+        {
+          "method": "POST",
+          "endpoint": "/api/data/v9.2/EntityDefinitions(LogicalName='aigw_actualmanagement')/Attributes",
+          "logicalName": "aigw_aprilactualmp",
+          "payload": {
+            "@odata.type": "Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+            "SchemaName": "aigw_AprilActualMP",
+            "DisplayName": {
+              "@odata.type": "Microsoft.Dynamics.CRM.Label",
+              "LocalizedLabels": [
+                {
+                  "@odata.type": "Microsoft.Dynamics.CRM.LocalizedLabel",
+                  "Label": "April Actual MP",
+                  "LanguageCode": 1033
+                },
+                {
+                  "@odata.type": "Microsoft.Dynamics.CRM.LocalizedLabel",
+                  "Label": "4月实绩边际利润",
+                  "LanguageCode": 2052
+                }
+              ]
+            },
+            "RequiredLevel": {
+              "Value": "None",
+              "CanBeChanged": true,
+              "ManagedPropertyLogicalName": "canmodifyrequirementlevelsettings"
+            },
+            "Precision": 2,
+            "PrecisionSource": 2,
+            "MinValue": -100000000000000,
+            "MaxValue": 100000000000000
+          },
+          "headers": {
+            "MSCRM.SolutionUniqueName": "CRMAIGatewayDemo"
+          }
+        },
+        {
+          "method": "POST",
+          "endpoint": "/api/data/v9.2/EntityDefinitions(LogicalName='aigw_actualmanagement')/Attributes",
+          "logicalName": "aigw_mayactualrevenue",
+          "payload": {
+            "@odata.type": "Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+            "SchemaName": "aigw_MayActualRevenue",
+            "DisplayName": {
+              "@odata.type": "Microsoft.Dynamics.CRM.Label",
+              "LocalizedLabels": [
+                {
+                  "@odata.type": "Microsoft.Dynamics.CRM.LocalizedLabel",
+                  "Label": "May Actual Revenue",
+                  "LanguageCode": 1033
+                },
+                {
+                  "@odata.type": "Microsoft.Dynamics.CRM.LocalizedLabel",
+                  "Label": "5月实绩收入",
+                  "LanguageCode": 2052
+                }
+              ]
+            },
+            "RequiredLevel": {
+              "Value": "None",
+              "CanBeChanged": true,
+              "ManagedPropertyLogicalName": "canmodifyrequirementlevelsettings"
+            },
+            "Precision": 2,
+            "PrecisionSource": 2,
+            "MinValue": -100000000000000,
+            "MaxValue": 100000000000000
+          },
+          "headers": {
+            "MSCRM.SolutionUniqueName": "CRMAIGatewayDemo"
+          }
+        },
+        {
+          "method": "POST",
+          "endpoint": "/api/data/v9.2/EntityDefinitions(LogicalName='aigw_actualmanagement')/Attributes",
+          "logicalName": "aigw_mayactualgp",
+          "payload": {
+            "@odata.type": "Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+            "SchemaName": "aigw_MayActualGP",
+            "DisplayName": {
+              "@odata.type": "Microsoft.Dynamics.CRM.Label",
+              "LocalizedLabels": [
+                {
+                  "@odata.type": "Microsoft.Dynamics.CRM.LocalizedLabel",
+                  "Label": "May Actual GP",
+                  "LanguageCode": 1033
+                },
+                {
+                  "@odata.type": "Microsoft.Dynamics.CRM.LocalizedLabel",
+                  "Label": "5月实绩毛利润",
+                  "LanguageCode": 2052
+                }
+              ]
+            },
+            "RequiredLevel": {
+              "Value": "None",
+              "CanBeChanged": true,
+              "ManagedPropertyLogicalName": "canmodifyrequirementlevelsettings"
+            },
+            "Precision": 2,
+            "PrecisionSource": 2,
+            "MinValue": -100000000000000,
+            "MaxValue": 100000000000000
+          },
+          "headers": {
+            "MSCRM.SolutionUniqueName": "CRMAIGatewayDemo"
+          }
+        },
+        {
+          "method": "POST",
+          "endpoint": "/api/data/v9.2/EntityDefinitions(LogicalName='aigw_actualmanagement')/Attributes",
+          "logicalName": "aigw_mayactualmp",
+          "payload": {
+            "@odata.type": "Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+            "SchemaName": "aigw_MayActualMP",
+            "DisplayName": {
+              "@odata.type": "Microsoft.Dynamics.CRM.Label",
+              "LocalizedLabels": [
+                {
+                  "@odata.type": "Microsoft.Dynamics.CRM.LocalizedLabel",
+                  "Label": "May Actual MP",
+                  "LanguageCode": 1033
+                },
+                {
+                  "@odata.type": "Microsoft.Dynamics.CRM.LocalizedLabel",
+                  "Label": "5月实绩边际利润",
+                  "LanguageCode": 2052
+                }
+              ]
+            },
+            "RequiredLevel": {
+              "Value": "None",
+              "CanBeChanged": true,
+              "ManagedPropertyLogicalName": "canmodifyrequirementlevelsettings"
+            },
+            "Precision": 2,
+            "PrecisionSource": 2,
+            "MinValue": -100000000000000,
+            "MaxValue": 100000000000000
+          },
+          "headers": {
+            "MSCRM.SolutionUniqueName": "CRMAIGatewayDemo"
+          }
+        },
+        {
+          "method": "POST",
+          "endpoint": "/api/data/v9.2/EntityDefinitions(LogicalName='aigw_actualmanagement')/Attributes",
+          "logicalName": "aigw_juneactualrevenue",
+          "payload": {
+            "@odata.type": "Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+            "SchemaName": "aigw_JuneActualRevenue",
+            "DisplayName": {
+              "@odata.type": "Microsoft.Dynamics.CRM.Label",
+              "LocalizedLabels": [
+                {
+                  "@odata.type": "Microsoft.Dynamics.CRM.LocalizedLabel",
+                  "Label": "June Actual Revenue",
+                  "LanguageCode": 1033
+                },
+                {
+                  "@odata.type": "Microsoft.Dynamics.CRM.LocalizedLabel",
+                  "Label": "6月实绩收入",
+                  "LanguageCode": 2052
+                }
+              ]
+            },
+            "RequiredLevel": {
+              "Value": "None",
+              "CanBeChanged": true,
+              "ManagedPropertyLogicalName": "canmodifyrequirementlevelsettings"
+            },
+            "Precision": 2,
+            "PrecisionSource": 2,
+            "MinValue": -100000000000000,
+            "MaxValue": 100000000000000
+          },
+          "headers": {
+            "MSCRM.SolutionUniqueName": "CRMAIGatewayDemo"
+          }
+        },
+        {
+          "method": "POST",
+          "endpoint": "/api/data/v9.2/EntityDefinitions(LogicalName='aigw_actualmanagement')/Attributes",
+          "logicalName": "aigw_juneactualgp",
+          "payload": {
+            "@odata.type": "Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+            "SchemaName": "aigw_JuneActualGP",
+            "DisplayName": {
+              "@odata.type": "Microsoft.Dynamics.CRM.Label",
+              "LocalizedLabels": [
+                {
+                  "@odata.type": "Microsoft.Dynamics.CRM.LocalizedLabel",
+                  "Label": "June Actual GP",
+                  "LanguageCode": 1033
+                },
+                {
+                  "@odata.type": "Microsoft.Dynamics.CRM.LocalizedLabel",
+                  "Label": "6月实绩毛利润",
+                  "LanguageCode": 2052
+                }
+              ]
+            },
+            "RequiredLevel": {
+              "Value": "None",
+              "CanBeChanged": true,
+              "ManagedPropertyLogicalName": "canmodifyrequirementlevelsettings"
+            },
+            "Precision": 2,
+            "PrecisionSource": 2,
+            "MinValue": -100000000000000,
+            "MaxValue": 100000000000000
+          },
+          "headers": {
+            "MSCRM.SolutionUniqueName": "CRMAIGatewayDemo"
+          }
+        },
+        {
+          "method": "POST",
+          "endpoint": "/api/data/v9.2/EntityDefinitions(LogicalName='aigw_actualmanagement')/Attributes",
+          "logicalName": "aigw_juneactualmp",
+          "payload": {
+            "@odata.type": "Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+            "SchemaName": "aigw_JuneActualMP",
+            "DisplayName": {
+              "@odata.type": "Microsoft.Dynamics.CRM.Label",
+              "LocalizedLabels": [
+                {
+                  "@odata.type": "Microsoft.Dynamics.CRM.LocalizedLabel",
+                  "Label": "June Actual MP",
+                  "LanguageCode": 1033
+                },
+                {
+                  "@odata.type": "Microsoft.Dynamics.CRM.LocalizedLabel",
+                  "Label": "6月实绩边际利润",
+                  "LanguageCode": 2052
+                }
+              ]
+            },
+            "RequiredLevel": {
+              "Value": "None",
+              "CanBeChanged": true,
+              "ManagedPropertyLogicalName": "canmodifyrequirementlevelsettings"
+            },
+            "Precision": 2,
+            "PrecisionSource": 2,
+            "MinValue": -100000000000000,
+            "MaxValue": 100000000000000
+          },
+          "headers": {
+            "MSCRM.SolutionUniqueName": "CRMAIGatewayDemo"
+          }
+        },
+        {
+          "method": "POST",
+          "endpoint": "/api/data/v9.2/EntityDefinitions(LogicalName='aigw_actualmanagement')/Attributes",
+          "logicalName": "aigw_julyactualrevenue",
+          "payload": {
+            "@odata.type": "Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+            "SchemaName": "aigw_JulyActualRevenue",
+            "DisplayName": {
+              "@odata.type": "Microsoft.Dynamics.CRM.Label",
+              "LocalizedLabels": [
+                {
+                  "@odata.type": "Microsoft.Dynamics.CRM.LocalizedLabel",
+                  "Label": "July Actual Revenue",
+                  "LanguageCode": 1033
+                },
+                {
+                  "@odata.type": "Microsoft.Dynamics.CRM.LocalizedLabel",
+                  "Label": "7月实绩收入",
+                  "LanguageCode": 2052
+                }
+              ]
+            },
+            "RequiredLevel": {
+              "Value": "None",
+              "CanBeChanged": true,
+              "ManagedPropertyLogicalName": "canmodifyrequirementlevelsettings"
+            },
+            "Precision": 2,
+            "PrecisionSource": 2,
+            "MinValue": -100000000000000,
+            "MaxValue": 100000000000000
+          },
+          "headers": {
+            "MSCRM.SolutionUniqueName": "CRMAIGatewayDemo"
+          }
+        },
+        {
+          "method": "POST",
+          "endpoint": "/api/data/v9.2/EntityDefinitions(LogicalName='aigw_actualmanagement')/Attributes",
+          "logicalName": "aigw_julyactualgp",
+          "payload": {
+            "@odata.type": "Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+            "SchemaName": "aigw_JulyActualGP",
+            "DisplayName": {
+              "@odata.type": "Microsoft.Dynamics.CRM.Label",
+              "LocalizedLabels": [
+                {
+                  "@odata.type": "Microsoft.Dynamics.CRM.LocalizedLabel",
+                  "Label": "July Actual GP",
+                  "LanguageCode": 1033
+                },
+                {
+                  "@odata.type": "Microsoft.Dynamics.CRM.LocalizedLabel",
+                  "Label": "7月实绩毛利润",
+                  "LanguageCode": 2052
+                }
+              ]
+            },
+            "RequiredLevel": {
+              "Value": "None",
+              "CanBeChanged": true,
+              "ManagedPropertyLogicalName": "canmodifyrequirementlevelsettings"
+            },
+            "Precision": 2,
+            "PrecisionSource": 2,
+            "MinValue": -100000000000000,
+            "MaxValue": 100000000000000
+          },
+          "headers": {
+            "MSCRM.SolutionUniqueName": "CRMAIGatewayDemo"
+          }
+        },
+        {
+          "method": "POST",
+          "endpoint": "/api/data/v9.2/EntityDefinitions(LogicalName='aigw_actualmanagement')/Attributes",
+          "logicalName": "aigw_julyactualmp",
+          "payload": {
+            "@odata.type": "Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+            "SchemaName": "aigw_JulyActualMP",
+            "DisplayName": {
+              "@odata.type": "Microsoft.Dynamics.CRM.Label",
+              "LocalizedLabels": [
+                {
+                  "@odata.type": "Microsoft.Dynamics.CRM.LocalizedLabel",
+                  "Label": "July Actual MP",
+                  "LanguageCode": 1033
+                },
+                {
+                  "@odata.type": "Microsoft.Dynamics.CRM.LocalizedLabel",
+                  "Label": "7月实绩边际利润",
+                  "LanguageCode": 2052
+                }
+              ]
+            },
+            "RequiredLevel": {
+              "Value": "None",
+              "CanBeChanged": true,
+              "ManagedPropertyLogicalName": "canmodifyrequirementlevelsettings"
+            },
+            "Precision": 2,
+            "PrecisionSource": 2,
+            "MinValue": -100000000000000,
+            "MaxValue": 100000000000000
+          },
+          "headers": {
+            "MSCRM.SolutionUniqueName": "CRMAIGatewayDemo"
+          }
+        },
+        {
+          "method": "POST",
+          "endpoint": "/api/data/v9.2/EntityDefinitions(LogicalName='aigw_actualmanagement')/Attributes",
+          "logicalName": "aigw_augustactualrevenue",
+          "payload": {
+            "@odata.type": "Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+            "SchemaName": "aigw_AugustActualRevenue",
+            "DisplayName": {
+              "@odata.type": "Microsoft.Dynamics.CRM.Label",
+              "LocalizedLabels": [
+                {
+                  "@odata.type": "Microsoft.Dynamics.CRM.LocalizedLabel",
+                  "Label": "August Actual Revenue",
+                  "LanguageCode": 1033
+                },
+                {
+                  "@odata.type": "Microsoft.Dynamics.CRM.LocalizedLabel",
+                  "Label": "8月实绩收入",
+                  "LanguageCode": 2052
+                }
+              ]
+            },
+            "RequiredLevel": {
+              "Value": "None",
+              "CanBeChanged": true,
+              "ManagedPropertyLogicalName": "canmodifyrequirementlevelsettings"
+            },
+            "Precision": 2,
+            "PrecisionSource": 2,
+            "MinValue": -100000000000000,
+            "MaxValue": 100000000000000
+          },
+          "headers": {
+            "MSCRM.SolutionUniqueName": "CRMAIGatewayDemo"
+          }
+        },
+        {
+          "method": "POST",
+          "endpoint": "/api/data/v9.2/EntityDefinitions(LogicalName='aigw_actualmanagement')/Attributes",
+          "logicalName": "aigw_augustactualgp",
+          "payload": {
+            "@odata.type": "Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+            "SchemaName": "aigw_AugustActualGP",
+            "DisplayName": {
+              "@odata.type": "Microsoft.Dynamics.CRM.Label",
+              "LocalizedLabels": [
+                {
+                  "@odata.type": "Microsoft.Dynamics.CRM.LocalizedLabel",
+                  "Label": "August Actual GP",
+                  "LanguageCode": 1033
+                },
+                {
+                  "@odata.type": "Microsoft.Dynamics.CRM.LocalizedLabel",
+                  "Label": "8月实绩毛利润",
+                  "LanguageCode": 2052
+                }
+              ]
+            },
+            "RequiredLevel": {
+              "Value": "None",
+              "CanBeChanged": true,
+              "ManagedPropertyLogicalName": "canmodifyrequirementlevelsettings"
+            },
+            "Precision": 2,
+            "PrecisionSource": 2,
+            "MinValue": -100000000000000,
+            "MaxValue": 100000000000000
+          },
+          "headers": {
+            "MSCRM.SolutionUniqueName": "CRMAIGatewayDemo"
+          }
+        },
+        {
+          "method": "POST",
+          "endpoint": "/api/data/v9.2/EntityDefinitions(LogicalName='aigw_actualmanagement')/Attributes",
+          "logicalName": "aigw_augustactualmp",
+          "payload": {
+            "@odata.type": "Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+            "SchemaName": "aigw_AugustActualMP",
+            "DisplayName": {
+              "@odata.type": "Microsoft.Dynamics.CRM.Label",
+              "LocalizedLabels": [
+                {
+                  "@odata.type": "Microsoft.Dynamics.CRM.LocalizedLabel",
+                  "Label": "August Actual MP",
+                  "LanguageCode": 1033
+                },
+                {
+                  "@odata.type": "Microsoft.Dynamics.CRM.LocalizedLabel",
+                  "Label": "8月实绩边际利润",
+                  "LanguageCode": 2052
+                }
+              ]
+            },
+            "RequiredLevel": {
+              "Value": "None",
+              "CanBeChanged": true,
+              "ManagedPropertyLogicalName": "canmodifyrequirementlevelsettings"
+            },
+            "Precision": 2,
+            "PrecisionSource": 2,
+            "MinValue": -100000000000000,
+            "MaxValue": 100000000000000
+          },
+          "headers": {
+            "MSCRM.SolutionUniqueName": "CRMAIGatewayDemo"
+          }
+        },
+        {
+          "method": "POST",
+          "endpoint": "/api/data/v9.2/EntityDefinitions(LogicalName='aigw_actualmanagement')/Attributes",
+          "logicalName": "aigw_septemberactualrevenue",
+          "payload": {
+            "@odata.type": "Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+            "SchemaName": "aigw_SeptemberActualRevenue",
+            "DisplayName": {
+              "@odata.type": "Microsoft.Dynamics.CRM.Label",
+              "LocalizedLabels": [
+                {
+                  "@odata.type": "Microsoft.Dynamics.CRM.LocalizedLabel",
+                  "Label": "September Actual Revenue",
+                  "LanguageCode": 1033
+                },
+                {
+                  "@odata.type": "Microsoft.Dynamics.CRM.LocalizedLabel",
+                  "Label": "9月实绩收入",
+                  "LanguageCode": 2052
+                }
+              ]
+            },
+            "RequiredLevel": {
+              "Value": "None",
+              "CanBeChanged": true,
+              "ManagedPropertyLogicalName": "canmodifyrequirementlevelsettings"
+            },
+            "Precision": 2,
+            "PrecisionSource": 2,
+            "MinValue": -100000000000000,
+            "MaxValue": 100000000000000
+          },
+          "headers": {
+            "MSCRM.SolutionUniqueName": "CRMAIGatewayDemo"
+          }
+        },
+        {
+          "method": "POST",
+          "endpoint": "/api/data/v9.2/EntityDefinitions(LogicalName='aigw_actualmanagement')/Attributes",
+          "logicalName": "aigw_septemberactualgp",
+          "payload": {
+            "@odata.type": "Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+            "SchemaName": "aigw_SeptemberActualGP",
+            "DisplayName": {
+              "@odata.type": "Microsoft.Dynamics.CRM.Label",
+              "LocalizedLabels": [
+                {
+                  "@odata.type": "Microsoft.Dynamics.CRM.LocalizedLabel",
+                  "Label": "September Actual GP",
+                  "LanguageCode": 1033
+                },
+                {
+                  "@odata.type": "Microsoft.Dynamics.CRM.LocalizedLabel",
+                  "Label": "9月实绩毛利润",
+                  "LanguageCode": 2052
+                }
+              ]
+            },
+            "RequiredLevel": {
+              "Value": "None",
+              "CanBeChanged": true,
+              "ManagedPropertyLogicalName": "canmodifyrequirementlevelsettings"
+            },
+            "Precision": 2,
+            "PrecisionSource": 2,
+            "MinValue": -100000000000000,
+            "MaxValue": 100000000000000
+          },
+          "headers": {
+            "MSCRM.SolutionUniqueName": "CRMAIGatewayDemo"
+          }
+        },
+        {
+          "method": "POST",
+          "endpoint": "/api/data/v9.2/EntityDefinitions(LogicalName='aigw_actualmanagement')/Attributes",
+          "logicalName": "aigw_septemberactualmp",
+          "payload": {
+            "@odata.type": "Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+            "SchemaName": "aigw_SeptemberActualMP",
+            "DisplayName": {
+              "@odata.type": "Microsoft.Dynamics.CRM.Label",
+              "LocalizedLabels": [
+                {
+                  "@odata.type": "Microsoft.Dynamics.CRM.LocalizedLabel",
+                  "Label": "September Actual MP",
+                  "LanguageCode": 1033
+                },
+                {
+                  "@odata.type": "Microsoft.Dynamics.CRM.LocalizedLabel",
+                  "Label": "9月实绩边际利润",
+                  "LanguageCode": 2052
+                }
+              ]
+            },
+            "RequiredLevel": {
+              "Value": "None",
+              "CanBeChanged": true,
+              "ManagedPropertyLogicalName": "canmodifyrequirementlevelsettings"
+            },
+            "Precision": 2,
+            "PrecisionSource": 2,
+            "MinValue": -100000000000000,
+            "MaxValue": 100000000000000
+          },
+          "headers": {
+            "MSCRM.SolutionUniqueName": "CRMAIGatewayDemo"
+          }
+        },
+        {
+          "method": "POST",
+          "endpoint": "/api/data/v9.2/EntityDefinitions(LogicalName='aigw_actualmanagement')/Attributes",
+          "logicalName": "aigw_octoberactualrevenue",
+          "payload": {
+            "@odata.type": "Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+            "SchemaName": "aigw_OctoberActualRevenue",
+            "DisplayName": {
+              "@odata.type": "Microsoft.Dynamics.CRM.Label",
+              "LocalizedLabels": [
+                {
+                  "@odata.type": "Microsoft.Dynamics.CRM.LocalizedLabel",
+                  "Label": "October Actual Revenue",
+                  "LanguageCode": 1033
+                },
+                {
+                  "@odata.type": "Microsoft.Dynamics.CRM.LocalizedLabel",
+                  "Label": "10月实绩收入",
+                  "LanguageCode": 2052
+                }
+              ]
+            },
+            "RequiredLevel": {
+              "Value": "None",
+              "CanBeChanged": true,
+              "ManagedPropertyLogicalName": "canmodifyrequirementlevelsettings"
+            },
+            "Precision": 2,
+            "PrecisionSource": 2,
+            "MinValue": -100000000000000,
+            "MaxValue": 100000000000000
+          },
+          "headers": {
+            "MSCRM.SolutionUniqueName": "CRMAIGatewayDemo"
+          }
+        },
+        {
+          "method": "POST",
+          "endpoint": "/api/data/v9.2/EntityDefinitions(LogicalName='aigw_actualmanagement')/Attributes",
+          "logicalName": "aigw_octoberactualgp",
+          "payload": {
+            "@odata.type": "Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+            "SchemaName": "aigw_OctoberActualGP",
+            "DisplayName": {
+              "@odata.type": "Microsoft.Dynamics.CRM.Label",
+              "LocalizedLabels": [
+                {
+                  "@odata.type": "Microsoft.Dynamics.CRM.LocalizedLabel",
+                  "Label": "October Actual GP",
+                  "LanguageCode": 1033
+                },
+                {
+                  "@odata.type": "Microsoft.Dynamics.CRM.LocalizedLabel",
+                  "Label": "10月实绩毛利润",
+                  "LanguageCode": 2052
+                }
+              ]
+            },
+            "RequiredLevel": {
+              "Value": "None",
+              "CanBeChanged": true,
+              "ManagedPropertyLogicalName": "canmodifyrequirementlevelsettings"
+            },
+            "Precision": 2,
+            "PrecisionSource": 2,
+            "MinValue": -100000000000000,
+            "MaxValue": 100000000000000
+          },
+          "headers": {
+            "MSCRM.SolutionUniqueName": "CRMAIGatewayDemo"
+          }
+        },
+        {
+          "method": "POST",
+          "endpoint": "/api/data/v9.2/EntityDefinitions(LogicalName='aigw_actualmanagement')/Attributes",
+          "logicalName": "aigw_octoberactualmp",
+          "payload": {
+            "@odata.type": "Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+            "SchemaName": "aigw_OctoberActualMP",
+            "DisplayName": {
+              "@odata.type": "Microsoft.Dynamics.CRM.Label",
+              "LocalizedLabels": [
+                {
+                  "@odata.type": "Microsoft.Dynamics.CRM.LocalizedLabel",
+                  "Label": "October Actual MP",
+                  "LanguageCode": 1033
+                },
+                {
+                  "@odata.type": "Microsoft.Dynamics.CRM.LocalizedLabel",
+                  "Label": "10月实绩边际利润",
+                  "LanguageCode": 2052
+                }
+              ]
+            },
+            "RequiredLevel": {
+              "Value": "None",
+              "CanBeChanged": true,
+              "ManagedPropertyLogicalName": "canmodifyrequirementlevelsettings"
+            },
+            "Precision": 2,
+            "PrecisionSource": 2,
+            "MinValue": -100000000000000,
+            "MaxValue": 100000000000000
+          },
+          "headers": {
+            "MSCRM.SolutionUniqueName": "CRMAIGatewayDemo"
+          }
+        },
+        {
+          "method": "POST",
+          "endpoint": "/api/data/v9.2/EntityDefinitions(LogicalName='aigw_actualmanagement')/Attributes",
+          "logicalName": "aigw_novemberactualrevenue",
+          "payload": {
+            "@odata.type": "Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+            "SchemaName": "aigw_NovemberActualRevenue",
+            "DisplayName": {
+              "@odata.type": "Microsoft.Dynamics.CRM.Label",
+              "LocalizedLabels": [
+                {
+                  "@odata.type": "Microsoft.Dynamics.CRM.LocalizedLabel",
+                  "Label": "November Actual Revenue",
+                  "LanguageCode": 1033
+                },
+                {
+                  "@odata.type": "Microsoft.Dynamics.CRM.LocalizedLabel",
+                  "Label": "11月实绩收入",
+                  "LanguageCode": 2052
+                }
+              ]
+            },
+            "RequiredLevel": {
+              "Value": "None",
+              "CanBeChanged": true,
+              "ManagedPropertyLogicalName": "canmodifyrequirementlevelsettings"
+            },
+            "Precision": 2,
+            "PrecisionSource": 2,
+            "MinValue": -100000000000000,
+            "MaxValue": 100000000000000
+          },
+          "headers": {
+            "MSCRM.SolutionUniqueName": "CRMAIGatewayDemo"
+          }
+        },
+        {
+          "method": "POST",
+          "endpoint": "/api/data/v9.2/EntityDefinitions(LogicalName='aigw_actualmanagement')/Attributes",
+          "logicalName": "aigw_novemberactualgp",
+          "payload": {
+            "@odata.type": "Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+            "SchemaName": "aigw_NovemberActualGP",
+            "DisplayName": {
+              "@odata.type": "Microsoft.Dynamics.CRM.Label",
+              "LocalizedLabels": [
+                {
+                  "@odata.type": "Microsoft.Dynamics.CRM.LocalizedLabel",
+                  "Label": "November Actual GP",
+                  "LanguageCode": 1033
+                },
+                {
+                  "@odata.type": "Microsoft.Dynamics.CRM.LocalizedLabel",
+                  "Label": "11月实绩毛利润",
+                  "LanguageCode": 2052
+                }
+              ]
+            },
+            "RequiredLevel": {
+              "Value": "None",
+              "CanBeChanged": true,
+              "ManagedPropertyLogicalName": "canmodifyrequirementlevelsettings"
+            },
+            "Precision": 2,
+            "PrecisionSource": 2,
+            "MinValue": -100000000000000,
+            "MaxValue": 100000000000000
+          },
+          "headers": {
+            "MSCRM.SolutionUniqueName": "CRMAIGatewayDemo"
+          }
+        },
+        {
+          "method": "POST",
+          "endpoint": "/api/data/v9.2/EntityDefinitions(LogicalName='aigw_actualmanagement')/Attributes",
+          "logicalName": "aigw_novemberactualmp",
+          "payload": {
+            "@odata.type": "Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+            "SchemaName": "aigw_NovemberActualMP",
+            "DisplayName": {
+              "@odata.type": "Microsoft.Dynamics.CRM.Label",
+              "LocalizedLabels": [
+                {
+                  "@odata.type": "Microsoft.Dynamics.CRM.LocalizedLabel",
+                  "Label": "November Actual MP",
+                  "LanguageCode": 1033
+                },
+                {
+                  "@odata.type": "Microsoft.Dynamics.CRM.LocalizedLabel",
+                  "Label": "11月实绩边际利润",
+                  "LanguageCode": 2052
+                }
+              ]
+            },
+            "RequiredLevel": {
+              "Value": "None",
+              "CanBeChanged": true,
+              "ManagedPropertyLogicalName": "canmodifyrequirementlevelsettings"
+            },
+            "Precision": 2,
+            "PrecisionSource": 2,
+            "MinValue": -100000000000000,
+            "MaxValue": 100000000000000
+          },
+          "headers": {
+            "MSCRM.SolutionUniqueName": "CRMAIGatewayDemo"
+          }
+        },
+        {
+          "method": "POST",
+          "endpoint": "/api/data/v9.2/EntityDefinitions(LogicalName='aigw_actualmanagement')/Attributes",
+          "logicalName": "aigw_decemberactualrevenue",
+          "payload": {
+            "@odata.type": "Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+            "SchemaName": "aigw_DecemberActualRevenue",
+            "DisplayName": {
+              "@odata.type": "Microsoft.Dynamics.CRM.Label",
+              "LocalizedLabels": [
+                {
+                  "@odata.type": "Microsoft.Dynamics.CRM.LocalizedLabel",
+                  "Label": "December Actual Revenue",
+                  "LanguageCode": 1033
+                },
+                {
+                  "@odata.type": "Microsoft.Dynamics.CRM.LocalizedLabel",
+                  "Label": "12月实绩收入",
+                  "LanguageCode": 2052
+                }
+              ]
+            },
+            "RequiredLevel": {
+              "Value": "None",
+              "CanBeChanged": true,
+              "ManagedPropertyLogicalName": "canmodifyrequirementlevelsettings"
+            },
+            "Precision": 2,
+            "PrecisionSource": 2,
+            "MinValue": -100000000000000,
+            "MaxValue": 100000000000000
+          },
+          "headers": {
+            "MSCRM.SolutionUniqueName": "CRMAIGatewayDemo"
+          }
+        },
+        {
+          "method": "POST",
+          "endpoint": "/api/data/v9.2/EntityDefinitions(LogicalName='aigw_actualmanagement')/Attributes",
+          "logicalName": "aigw_decemberactualgp",
+          "payload": {
+            "@odata.type": "Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+            "SchemaName": "aigw_DecemberActualGP",
+            "DisplayName": {
+              "@odata.type": "Microsoft.Dynamics.CRM.Label",
+              "LocalizedLabels": [
+                {
+                  "@odata.type": "Microsoft.Dynamics.CRM.LocalizedLabel",
+                  "Label": "December Actual GP",
+                  "LanguageCode": 1033
+                },
+                {
+                  "@odata.type": "Microsoft.Dynamics.CRM.LocalizedLabel",
+                  "Label": "12月实绩毛利润",
+                  "LanguageCode": 2052
+                }
+              ]
+            },
+            "RequiredLevel": {
+              "Value": "None",
+              "CanBeChanged": true,
+              "ManagedPropertyLogicalName": "canmodifyrequirementlevelsettings"
+            },
+            "Precision": 2,
+            "PrecisionSource": 2,
+            "MinValue": -100000000000000,
+            "MaxValue": 100000000000000
+          },
+          "headers": {
+            "MSCRM.SolutionUniqueName": "CRMAIGatewayDemo"
+          }
+        },
+        {
+          "method": "POST",
+          "endpoint": "/api/data/v9.2/EntityDefinitions(LogicalName='aigw_actualmanagement')/Attributes",
+          "logicalName": "aigw_decemberactualmp",
+          "payload": {
+            "@odata.type": "Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+            "SchemaName": "aigw_DecemberActualMP",
+            "DisplayName": {
+              "@odata.type": "Microsoft.Dynamics.CRM.Label",
+              "LocalizedLabels": [
+                {
+                  "@odata.type": "Microsoft.Dynamics.CRM.LocalizedLabel",
+                  "Label": "December Actual MP",
+                  "LanguageCode": 1033
+                },
+                {
+                  "@odata.type": "Microsoft.Dynamics.CRM.LocalizedLabel",
+                  "Label": "12月实绩边际利润",
+                  "LanguageCode": 2052
+                }
+              ]
+            },
+            "RequiredLevel": {
+              "Value": "None",
+              "CanBeChanged": true,
+              "ManagedPropertyLogicalName": "canmodifyrequirementlevelsettings"
+            },
+            "Precision": 2,
+            "PrecisionSource": 2,
+            "MinValue": -100000000000000,
+            "MaxValue": 100000000000000
+          },
+          "headers": {
+            "MSCRM.SolutionUniqueName": "CRMAIGatewayDemo"
+          }
+        },
+        {
+          "method": "POST",
+          "endpoint": "/api/data/v9.2/EntityDefinitions(LogicalName='aigw_actualmanagement')/Attributes",
+          "logicalName": "aigw_januaryactualrevenue",
+          "payload": {
+            "@odata.type": "Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+            "SchemaName": "aigw_JanuaryActualRevenue",
+            "DisplayName": {
+              "@odata.type": "Microsoft.Dynamics.CRM.Label",
+              "LocalizedLabels": [
+                {
+                  "@odata.type": "Microsoft.Dynamics.CRM.LocalizedLabel",
+                  "Label": "January Actual Revenue",
+                  "LanguageCode": 1033
+                },
+                {
+                  "@odata.type": "Microsoft.Dynamics.CRM.LocalizedLabel",
+                  "Label": "1月实绩收入",
+                  "LanguageCode": 2052
+                }
+              ]
+            },
+            "RequiredLevel": {
+              "Value": "None",
+              "CanBeChanged": true,
+              "ManagedPropertyLogicalName": "canmodifyrequirementlevelsettings"
+            },
+            "Precision": 2,
+            "PrecisionSource": 2,
+            "MinValue": -100000000000000,
+            "MaxValue": 100000000000000
+          },
+          "headers": {
+            "MSCRM.SolutionUniqueName": "CRMAIGatewayDemo"
+          }
+        },
+        {
+          "method": "POST",
+          "endpoint": "/api/data/v9.2/EntityDefinitions(LogicalName='aigw_actualmanagement')/Attributes",
+          "logicalName": "aigw_januaryactualgp",
+          "payload": {
+            "@odata.type": "Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+            "SchemaName": "aigw_JanuaryActualGP",
+            "DisplayName": {
+              "@odata.type": "Microsoft.Dynamics.CRM.Label",
+              "LocalizedLabels": [
+                {
+                  "@odata.type": "Microsoft.Dynamics.CRM.LocalizedLabel",
+                  "Label": "January Actual GP",
+                  "LanguageCode": 1033
+                },
+                {
+                  "@odata.type": "Microsoft.Dynamics.CRM.LocalizedLabel",
+                  "Label": "1月实绩毛利润",
+                  "LanguageCode": 2052
+                }
+              ]
+            },
+            "RequiredLevel": {
+              "Value": "None",
+              "CanBeChanged": true,
+              "ManagedPropertyLogicalName": "canmodifyrequirementlevelsettings"
+            },
+            "Precision": 2,
+            "PrecisionSource": 2,
+            "MinValue": -100000000000000,
+            "MaxValue": 100000000000000
+          },
+          "headers": {
+            "MSCRM.SolutionUniqueName": "CRMAIGatewayDemo"
+          }
+        },
+        {
+          "method": "POST",
+          "endpoint": "/api/data/v9.2/EntityDefinitions(LogicalName='aigw_actualmanagement')/Attributes",
+          "logicalName": "aigw_januaryactualmp",
+          "payload": {
+            "@odata.type": "Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+            "SchemaName": "aigw_JanuaryActualMP",
+            "DisplayName": {
+              "@odata.type": "Microsoft.Dynamics.CRM.Label",
+              "LocalizedLabels": [
+                {
+                  "@odata.type": "Microsoft.Dynamics.CRM.LocalizedLabel",
+                  "Label": "January Actual MP",
+                  "LanguageCode": 1033
+                },
+                {
+                  "@odata.type": "Microsoft.Dynamics.CRM.LocalizedLabel",
+                  "Label": "1月实绩边际利润",
+                  "LanguageCode": 2052
+                }
+              ]
+            },
+            "RequiredLevel": {
+              "Value": "None",
+              "CanBeChanged": true,
+              "ManagedPropertyLogicalName": "canmodifyrequirementlevelsettings"
+            },
+            "Precision": 2,
+            "PrecisionSource": 2,
+            "MinValue": -100000000000000,
+            "MaxValue": 100000000000000
+          },
+          "headers": {
+            "MSCRM.SolutionUniqueName": "CRMAIGatewayDemo"
+          }
+        },
+        {
+          "method": "POST",
+          "endpoint": "/api/data/v9.2/EntityDefinitions(LogicalName='aigw_actualmanagement')/Attributes",
+          "logicalName": "aigw_februaryactualrevenue",
+          "payload": {
+            "@odata.type": "Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+            "SchemaName": "aigw_FebruaryActualRevenue",
+            "DisplayName": {
+              "@odata.type": "Microsoft.Dynamics.CRM.Label",
+              "LocalizedLabels": [
+                {
+                  "@odata.type": "Microsoft.Dynamics.CRM.LocalizedLabel",
+                  "Label": "February Actual Revenue",
+                  "LanguageCode": 1033
+                },
+                {
+                  "@odata.type": "Microsoft.Dynamics.CRM.LocalizedLabel",
+                  "Label": "2月实绩收入",
+                  "LanguageCode": 2052
+                }
+              ]
+            },
+            "RequiredLevel": {
+              "Value": "None",
+              "CanBeChanged": true,
+              "ManagedPropertyLogicalName": "canmodifyrequirementlevelsettings"
+            },
+            "Precision": 2,
+            "PrecisionSource": 2,
+            "MinValue": -100000000000000,
+            "MaxValue": 100000000000000
+          },
+          "headers": {
+            "MSCRM.SolutionUniqueName": "CRMAIGatewayDemo"
+          }
+        },
+        {
+          "method": "POST",
+          "endpoint": "/api/data/v9.2/EntityDefinitions(LogicalName='aigw_actualmanagement')/Attributes",
+          "logicalName": "aigw_februaryactualgp",
+          "payload": {
+            "@odata.type": "Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+            "SchemaName": "aigw_FebruaryActualGP",
+            "DisplayName": {
+              "@odata.type": "Microsoft.Dynamics.CRM.Label",
+              "LocalizedLabels": [
+                {
+                  "@odata.type": "Microsoft.Dynamics.CRM.LocalizedLabel",
+                  "Label": "February Actual GP",
+                  "LanguageCode": 1033
+                },
+                {
+                  "@odata.type": "Microsoft.Dynamics.CRM.LocalizedLabel",
+                  "Label": "2月实绩毛利润",
+                  "LanguageCode": 2052
+                }
+              ]
+            },
+            "RequiredLevel": {
+              "Value": "None",
+              "CanBeChanged": true,
+              "ManagedPropertyLogicalName": "canmodifyrequirementlevelsettings"
+            },
+            "Precision": 2,
+            "PrecisionSource": 2,
+            "MinValue": -100000000000000,
+            "MaxValue": 100000000000000
+          },
+          "headers": {
+            "MSCRM.SolutionUniqueName": "CRMAIGatewayDemo"
+          }
+        },
+        {
+          "method": "POST",
+          "endpoint": "/api/data/v9.2/EntityDefinitions(LogicalName='aigw_actualmanagement')/Attributes",
+          "logicalName": "aigw_februaryactualmp",
+          "payload": {
+            "@odata.type": "Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+            "SchemaName": "aigw_FebruaryActualMP",
+            "DisplayName": {
+              "@odata.type": "Microsoft.Dynamics.CRM.Label",
+              "LocalizedLabels": [
+                {
+                  "@odata.type": "Microsoft.Dynamics.CRM.LocalizedLabel",
+                  "Label": "February Actual MP",
+                  "LanguageCode": 1033
+                },
+                {
+                  "@odata.type": "Microsoft.Dynamics.CRM.LocalizedLabel",
+                  "Label": "2月实绩边际利润",
+                  "LanguageCode": 2052
+                }
+              ]
+            },
+            "RequiredLevel": {
+              "Value": "None",
+              "CanBeChanged": true,
+              "ManagedPropertyLogicalName": "canmodifyrequirementlevelsettings"
+            },
+            "Precision": 2,
+            "PrecisionSource": 2,
+            "MinValue": -100000000000000,
+            "MaxValue": 100000000000000
+          },
+          "headers": {
+            "MSCRM.SolutionUniqueName": "CRMAIGatewayDemo"
+          }
+        },
+        {
+          "method": "POST",
+          "endpoint": "/api/data/v9.2/EntityDefinitions(LogicalName='aigw_actualmanagement')/Attributes",
+          "logicalName": "aigw_marchactualrevenue",
+          "payload": {
+            "@odata.type": "Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+            "SchemaName": "aigw_MarchActualRevenue",
+            "DisplayName": {
+              "@odata.type": "Microsoft.Dynamics.CRM.Label",
+              "LocalizedLabels": [
+                {
+                  "@odata.type": "Microsoft.Dynamics.CRM.LocalizedLabel",
+                  "Label": "March Actual Revenue",
+                  "LanguageCode": 1033
+                },
+                {
+                  "@odata.type": "Microsoft.Dynamics.CRM.LocalizedLabel",
+                  "Label": "3月实绩收入",
+                  "LanguageCode": 2052
+                }
+              ]
+            },
+            "RequiredLevel": {
+              "Value": "None",
+              "CanBeChanged": true,
+              "ManagedPropertyLogicalName": "canmodifyrequirementlevelsettings"
+            },
+            "Precision": 2,
+            "PrecisionSource": 2,
+            "MinValue": -100000000000000,
+            "MaxValue": 100000000000000
+          },
+          "headers": {
+            "MSCRM.SolutionUniqueName": "CRMAIGatewayDemo"
+          }
+        },
+        {
+          "method": "POST",
+          "endpoint": "/api/data/v9.2/EntityDefinitions(LogicalName='aigw_actualmanagement')/Attributes",
+          "logicalName": "aigw_marchactualgp",
+          "payload": {
+            "@odata.type": "Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+            "SchemaName": "aigw_MarchActualGP",
+            "DisplayName": {
+              "@odata.type": "Microsoft.Dynamics.CRM.Label",
+              "LocalizedLabels": [
+                {
+                  "@odata.type": "Microsoft.Dynamics.CRM.LocalizedLabel",
+                  "Label": "March Actual GP",
+                  "LanguageCode": 1033
+                },
+                {
+                  "@odata.type": "Microsoft.Dynamics.CRM.LocalizedLabel",
+                  "Label": "3月实绩毛利润",
+                  "LanguageCode": 2052
+                }
+              ]
+            },
+            "RequiredLevel": {
+              "Value": "None",
+              "CanBeChanged": true,
+              "ManagedPropertyLogicalName": "canmodifyrequirementlevelsettings"
+            },
+            "Precision": 2,
+            "PrecisionSource": 2,
+            "MinValue": -100000000000000,
+            "MaxValue": 100000000000000
+          },
+          "headers": {
+            "MSCRM.SolutionUniqueName": "CRMAIGatewayDemo"
+          }
+        },
+        {
+          "method": "POST",
+          "endpoint": "/api/data/v9.2/EntityDefinitions(LogicalName='aigw_actualmanagement')/Attributes",
+          "logicalName": "aigw_marchactualmp",
+          "payload": {
+            "@odata.type": "Microsoft.Dynamics.CRM.MoneyAttributeMetadata",
+            "SchemaName": "aigw_MarchActualMP",
+            "DisplayName": {
+              "@odata.type": "Microsoft.Dynamics.CRM.Label",
+              "LocalizedLabels": [
+                {
+                  "@odata.type": "Microsoft.Dynamics.CRM.LocalizedLabel",
+                  "Label": "March Actual MP",
+                  "LanguageCode": 1033
+                },
+                {
+                  "@odata.type": "Microsoft.Dynamics.CRM.LocalizedLabel",
+                  "Label": "3月实绩边际利润",
+                  "LanguageCode": 2052
+                }
+              ]
+            },
+            "RequiredLevel": {
+              "Value": "None",
+              "CanBeChanged": true,
+              "ManagedPropertyLogicalName": "canmodifyrequirementlevelsettings"
+            },
+            "Precision": 2,
+            "PrecisionSource": 2,
+            "MinValue": -100000000000000,
+            "MaxValue": 100000000000000
+          },
+          "headers": {
+            "MSCRM.SolutionUniqueName": "CRMAIGatewayDemo"
+          }
+        }
+      ]
+    }
+  },
+  "timeoutPolicy": {
+    "requestTimeoutMs": 60000,
+    "postRetries": 0,
+    "metadataPollAttempts": 8,
+    "metadataPollIntervalMs": 1500,
+    "behavior": "After any POST error or timeout, poll metadata first. Treat a matching server-created attribute as success. Never retry POST in the same run. A later run may include the field only after metadata confirms it is still absent."
+  },
+  "forbidden": [
+    "EntityDefinitions table POST",
+    "aigw_name",
+    "Lookup",
+    "RelationshipDefinitions",
+    "savedqueries",
+    "systemforms",
+    "FormXML/FormJSON",
+    "records",
+    "PublishXml",
+    "metadata deletion"
+  ],
+  "rollback": "No automatic deletion. Log each newly created MetadataId. Any physical field/table deletion requires separate authorization; repeated runs only create fields still classified missing.",
+  "boundaryChecks": {
+    "noEntityCreate": true,
+    "noPrimaryName": true,
+    "noLookup": true,
+    "noRelationship": true,
+    "noViewFormDataPublish": true,
+    "fixedEndpoint": true,
+    "solutionHeaderEveryRequest": true,
+    "explicitCnyAbsent": true,
+    "baseFieldsAbsent": true
+  }
+}

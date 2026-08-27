@@ -1,0 +1,201 @@
+{
+  "validCorpus": {
+    "ready": true,
+    "generated": 1000,
+    "passed": 1000,
+    "unexpectedFailureCount": 0,
+    "deterministicHashMismatchCount": 0,
+    "canonicalHashCount": 940,
+    "coverageReady": true,
+    "coverage": {
+      "inferenceCodes": [
+        "INF-COVERAGE-REVIEW",
+        "INF-DATA-QUALITY",
+        "INF-DECISION-READINESS",
+        "INF-FINANCIAL-VARIANCE",
+        "INF-PIPELINE-STALL"
+      ],
+      "actionCodes": [
+        "ACT-CONFIRM-DECISION",
+        "ACT-CONFIRM-NEXT-STEP",
+        "ACT-RECONCILE-DATA",
+        "ACT-REVIEW-COVERAGE",
+        "ACT-REVIEW-VARIANCE"
+      ],
+      "riskCodes": [
+        "contradiction",
+        "gap",
+        "growth",
+        "healthy",
+        "meeting",
+        "multi-risk",
+        "portfolio-priority",
+        "route",
+        "stalled"
+      ],
+      "limitationCodes": [
+        "DATA_CONTRADICTION",
+        "EXACT_AMOUNT_WITHHELD",
+        "IDENTITY_MASKED",
+        "INSUFFICIENT_EVIDENCE",
+        "MODEL_UNCERTAINTY",
+        "NO_ACTUAL_DATA",
+        "NO_COVERAGE_DATA",
+        "RAW_TIMELINE_WITHHELD",
+        "STALE_INTERACTION_DATA"
+      ],
+      "evidenceTypes": [
+        "ACCOUNT_GROWTH",
+        "DATA_QUALITY",
+        "DECISION_READINESS",
+        "ENGAGEMENT",
+        "FINANCIAL_BAND",
+        "FINANCIAL_VARIANCE",
+        "PIPELINE_PROGRESS",
+        "PORTFOLIO_SCOPE",
+        "RELATIVE_DATE",
+        "ROUTE_CONSISTENCY",
+        "SERVICE_COVERAGE"
+      ],
+      "minimumInference": true,
+      "maximumInference": true,
+      "singleEvidence": true,
+      "multipleEvidence": true
+    },
+    "failures": []
+  },
+  "invalidCorpus": {
+    "ready": true,
+    "caseCount": 21,
+    "rejectedCount": 21,
+    "unexpectedPassCount": 0,
+    "results": [
+      {
+        "name": "inferences_below_min",
+        "rejected": true,
+        "errorCount": 2,
+        "schemaRejected": true
+      },
+      {
+        "name": "inference_evidence_missing",
+        "rejected": true,
+        "errorCount": 3,
+        "schemaRejected": true
+      },
+      {
+        "name": "inference_evidence_empty",
+        "rejected": true,
+        "errorCount": 3,
+        "schemaRejected": true
+      },
+      {
+        "name": "inference_evidence_unknown",
+        "rejected": true,
+        "errorCount": 3,
+        "schemaRejected": true
+      },
+      {
+        "name": "inference_evidence_duplicate",
+        "rejected": true,
+        "errorCount": 3,
+        "schemaRejected": true
+      },
+      {
+        "name": "risk_evidence_incompatible",
+        "rejected": true,
+        "errorCount": 3,
+        "schemaRejected": true
+      },
+      {
+        "name": "inference_code_unknown",
+        "rejected": true,
+        "errorCount": 3,
+        "schemaRejected": true
+      },
+      {
+        "name": "extra_field",
+        "rejected": true,
+        "errorCount": 1,
+        "schemaRejected": true
+      },
+      {
+        "name": "wrong_field_type",
+        "rejected": true,
+        "errorCount": 2,
+        "schemaRejected": true
+      },
+      {
+        "name": "canonical_mapping_omission",
+        "rejected": true,
+        "errorCount": 1,
+        "schemaRejected": true
+      },
+      {
+        "name": "health_score_override",
+        "rejected": true,
+        "errorCount": 1,
+        "schemaRejected": true
+      },
+      {
+        "name": "fact_selection_empty",
+        "rejected": true,
+        "errorCount": 2,
+        "schemaRejected": true
+      },
+      {
+        "name": "action_selection_empty",
+        "rejected": true,
+        "errorCount": 2,
+        "schemaRejected": true
+      },
+      {
+        "name": "action_evidence_empty",
+        "rejected": true,
+        "errorCount": 3,
+        "schemaRejected": true
+      },
+      {
+        "name": "risk_evidence_empty",
+        "rejected": true,
+        "errorCount": 3,
+        "schemaRejected": true
+      },
+      {
+        "name": "safety_statement_invalid",
+        "rejected": true,
+        "errorCount": 1,
+        "schemaRejected": true
+      },
+      {
+        "name": "limitations_below_min",
+        "rejected": true,
+        "errorCount": 2,
+        "schemaRejected": true
+      },
+      {
+        "name": "limitations_duplicate",
+        "rejected": true,
+        "errorCount": 2,
+        "schemaRejected": false
+      },
+      {
+        "name": "inference_reference_duplicate",
+        "rejected": true,
+        "errorCount": 1,
+        "schemaRejected": false
+      },
+      {
+        "name": "action_reference_unknown",
+        "rejected": true,
+        "errorCount": 3,
+        "schemaRejected": true
+      },
+      {
+        "name": "risk_reference_unknown",
+        "rejected": true,
+        "errorCount": 3,
+        "schemaRejected": true
+      }
+    ]
+  }
+}

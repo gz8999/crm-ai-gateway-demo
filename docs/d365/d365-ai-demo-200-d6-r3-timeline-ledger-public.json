@@ -1,0 +1,19 @@
+{
+  "phase": "Phase 1C-5R2G-D6-R3",
+  "status": "FAILED_SAFE_STOP",
+  "finalImportedTimelineCount": 207,
+  "opportunityCloseExcludedCount": 8,
+  "records": [
+    {
+      "stableToken": "TL-0001",
+      "activityEntity": "phonecall",
+      "createdOrReused": "Created",
+      "result": "Created",
+      "businessEffectiveDate": "2025-11-09",
+      "dateProjectionMode": "ScheduledEnd",
+      "exactReadback": true,
+      "cleanupEligibility": true
+    }
+  ],
+  "pendingCount": 1593
+}

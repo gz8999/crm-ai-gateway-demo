@@ -1,0 +1,74 @@
+{
+  "phase": "Phase 1C-5R2G-C1-R1 direct offline correction",
+  "sourceWorkbook": "CRM_AI_Gateway_D365_Chinese_Demo_Data_v4.xlsx",
+  "sourceSha256": "f08a94a3caa62950dbaa96e2767e39afe6c79072296394db9d8736a3b2f683fd",
+  "derivedWorkbook": "CRM_AI_Gateway_D365_Chinese_Demo_Data_v4_1.xlsx",
+  "derivedSha256": "1447d01c62e8e692c871ff9b0189a11bfc8eb48457a7eb47e09509878747b268",
+  "corrections": [
+    {
+      "entity": "opportunity",
+      "workbookField": "primarycontactid",
+      "correctedField": "parentcontactid",
+      "rows": 150,
+      "tokenValuesChanged": false,
+      "status": "PASS"
+    },
+    {
+      "attribute": "aigw_opportunitydetailtype",
+      "value": 91,
+      "beforeLabel": "91: Others",
+      "afterLabel": "91: 其他",
+      "rows": 30,
+      "valueChanged": false,
+      "status": "PASS"
+    },
+    {
+      "attribute": "aigw_goodshandled",
+      "beforeValue": 21,
+      "beforeLabel": "21: 医疗器械",
+      "afterValue": 20,
+      "afterLabel": "20: 医疗器械",
+      "rows": 12,
+      "semanticCorrection": true,
+      "status": "PASS"
+    },
+    {
+      "attribute": "aigw_goodshandled",
+      "value": 91,
+      "beforeLabel": "91: Others",
+      "afterLabel": "91: 其他",
+      "rows": 66,
+      "valueChanged": false,
+      "status": "PASS"
+    },
+    {
+      "attribute": "aigw_globalinitiative",
+      "value": 91,
+      "beforeLabel": "91: Others",
+      "afterLabel": "91: 无",
+      "rows": 150,
+      "valueChanged": false,
+      "status": "PASS"
+    }
+  ],
+  "unchanged": {
+    "businessRowCount": 3000,
+    "account": 30,
+    "contact": 60,
+    "opportunity": 150,
+    "actualManagement": 100,
+    "serviceCoverage": 210,
+    "timeline": 1400,
+    "interactionSignal": 1050,
+    "stableRecordTokens": true,
+    "departmentDistribution": true,
+    "scenarioDistribution": true,
+    "timelineContent": true,
+    "signalContent": true
+  },
+  "remainingDecisions": [
+    "OWNER-DEMO-01..06 approved active Owner mapping",
+    "DEPT-01/03/04 approved distinct Team mapping",
+    "Pilot contract: keep 3 Accounts with reduced scenarios or approve 4-Account candidate"
+  ]
+}

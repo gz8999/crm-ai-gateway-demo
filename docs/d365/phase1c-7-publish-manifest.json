@@ -1,0 +1,63 @@
+{
+  "phase": "1C-7",
+  "title": "Explicit targeted publish gate",
+  "dryRun": true,
+  "authorizationPhrase": "CONFIRM_D365_TEST_WRITE_PHASE_1C_7_PUBLISH",
+  "targetEnvironment": "https://your-org.crm.dynamics.com",
+  "solution": "CRMAIGatewayDemo",
+  "writes": {
+    "publishableNow": {
+      "scope": [
+        "aigw_actualmanagement table",
+        "its attributes",
+        "its lookup/relationship",
+        "its system view"
+      ],
+      "expectedToRequireOpportunityPublish": false,
+      "webApiDryRun": {
+        "method": "POST",
+        "endpoint": "/api/data/v9.2/PublishXml",
+        "payload": {
+          "ParameterXml": "<importexportxml><entities><entity>aigw_actualmanagement</entity></entities></importexportxml>"
+        }
+      }
+    },
+    "blockedFromThisManifest": {
+      "fullReplicaOpportunityForm": true,
+      "reason": "Web API PublishXml form publication can require publishing the opportunity entity. This manifest must not publish opportunity. Keep the Form/Subgrid unpublished unless a separately proven component-specific Designer publish is authorized."
+    },
+    "broadPublishForbidden": true,
+    "stopConditions": [
+      "ParameterXml would include opportunity",
+      "Dataverse reports opportunity must be published",
+      "PublishAllXml or broad entity publication is required"
+    ]
+  },
+  "prerequisites": [
+    "All custom table component IDs known",
+    "C1/C2 performed without publish",
+    "View has no Demo filter",
+    "Backups and hashes current",
+    "No unresolved custom-table placeholder"
+  ],
+  "validation": [
+    "Only aigw_actualmanagement becomes published",
+    "Relationship and generated base attributes are usable",
+    "View executes and has no filter",
+    "Opportunity component state and protected Form hashes remain unchanged"
+  ],
+  "publishImpact": "Targeted entity publish of the new custom table is supported in principle. Relationship publication should be satisfied by publishing its referencing custom table. Any requirement to publish opportunity is an immediate stop condition.",
+  "rollback": "Publishing is not fully reversible. Retain all metadata backups; remove new components from App/solution references and seek separate physical-delete authorization if abandonment is required.",
+  "forbidden": [
+    "Production CRM",
+    "Existing Business Rule/BPF activation or modification",
+    "Opportunity data mutation unless explicitly stated",
+    "External LLM",
+    "Broad PublishXml"
+  ],
+  "safeSequence": [
+    "Target-publish only aigw_actualmanagement before seed or Form Designer binding.",
+    "Add and Save the Subgrid only after the custom table is available.",
+    "Do not publish the Opportunity Form under this manifest."
+  ]
+}

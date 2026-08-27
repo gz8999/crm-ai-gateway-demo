@@ -1,0 +1,81 @@
+{
+  "phase": "Phase 1C-5R2G-C1-R2",
+  "sourceWorkbook": "artifacts/d365/CRM_AI_Gateway_D365_Chinese_Demo_Data_v4_1.xlsx",
+  "sourceSha256": "1447d01c62e8e692c871ff9b0189a11bfc8eb48457a7eb47e09509878747b268",
+  "selectionStatus": "BLOCKED",
+  "requiredCounts": {
+    "Account": 3,
+    "Contact": 6,
+    "Opportunity": 15,
+    "ActualManagement": "8-12",
+    "ServiceCoverage": 21,
+    "Timeline": "100-140",
+    "InteractionSignal": "75% of selected Timeline"
+  },
+  "requiredCoverage": {
+    "salesDepartments": [
+      1,
+      3,
+      4
+    ],
+    "bookingDepartments": [
+      1,
+      26,
+      2,
+      9
+    ],
+    "states": [
+      "Active",
+      "Won",
+      "Lost"
+    ],
+    "scenarios": [
+      "stalled-high-value",
+      "budget-actual-gap",
+      "meeting-prep",
+      "multi-risk-priority",
+      "healthy-control"
+    ],
+    "opportunityDetails": [
+      2,
+      3,
+      7,
+      8,
+      91
+    ]
+  },
+  "exhaustiveSelectionResult": {
+    "accountPopulation": 30,
+    "threeAccountCombinationCount": 4060,
+    "conformingThreeAccountCount": 0,
+    "minimumConformingAccountCount": 4,
+    "conformingFourAccountCount": 1
+  },
+  "recommendedContractChangeCandidate": {
+    "accountTokens": [
+      "A-002",
+      "A-006",
+      "A-015",
+      "A-019"
+    ],
+    "Account": 4,
+    "Contact": 8,
+    "Opportunity": 20,
+    "ActualManagement": 12,
+    "ServiceCoverage": 28,
+    "Timeline": 260,
+    "InteractionSignal": 194,
+    "selectedSignalRatio": 0.7461538461538462,
+    "fullWorkbookSignalRatio": 0.75,
+    "note": "All existing Signal rows linked to the selected complete Timeline stories are included. This remains a recommendation, not an approved Pilot selection."
+  },
+  "reason": "v4 partitions stalled-high-value, budget-actual-gap and healthy-control into distinct Account groups; meeting-prep plus multi-risk-priority can share one boundary Account, so at least four Accounts are required.",
+  "selectedTokens": [],
+  "pilotDatasetDefined": false,
+  "pilotWorkbookGenerated": false,
+  "pilotImportReady": false,
+  "pilotImportAuthorized": false,
+  "fourAccountPilotRecommended": true,
+  "fourAccountPilotApproved": false,
+  "recommendationStatus": "FOUR_ACCOUNT_RECOMMENDED_NOT_APPROVED"
+}

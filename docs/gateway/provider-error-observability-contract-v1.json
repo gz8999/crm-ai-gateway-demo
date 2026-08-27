@@ -1,0 +1,73 @@
+{
+  "contractVersion": "Provider Error Observability Contract v1",
+  "purpose": "Fail-closed, metadata-only observation of provider HTTP errors.",
+  "allowedFields": [
+    "httpStatus",
+    "providerErrorCode",
+    "providerErrorType",
+    "providerErrorParam",
+    "sanitizedErrorMessage",
+    "requestCorrelationToken",
+    "responseTimestamp",
+    "endpointAlias",
+    "modelAlias",
+    "requestSchemaHash",
+    "requestBodyHash",
+    "responseBodyHash",
+    "bodyTruncated",
+    "bodyAvailable",
+    "contentType",
+    "bodyLength"
+  ],
+  "responseHandling": {
+    "json": "Extract only error.code, error.type, error.param and error.message; accept the same allowlist at the top level for nonstandard JSON.",
+    "text": "Sanitize and length-limit text to 500 characters.",
+    "html": "Do not retain body text; keep content type, status, hash, length and availability.",
+    "empty": "Keep status and an empty-body hash; bodyAvailable is false.",
+    "bodyReadMax": 1,
+    "rawBodyPersisted": false
+  },
+  "redaction": {
+    "patterns": [
+      "sk-* secrets",
+      "Bearer tokens",
+      "api_key/access_token/client_secret assignments",
+      "authorization and cookie values",
+      "email addresses",
+      "phone numbers",
+      "GUIDs",
+      "URL query secrets",
+      "CRM tokens outside the safe correlation allowlist"
+    ],
+    "maximumSanitizedMessageLength": 500,
+    "secretPrefixOrSuffixPreserved": false
+  },
+  "execution": {
+    "retryCount": 0,
+    "fixtureFallbackCount": 0,
+    "failClosed": true,
+    "requestMutation": false,
+    "schemaRelaxation": false
+  },
+  "forbiddenFields": [
+    "apiKey",
+    "authorization",
+    "cookie",
+    "rawRequestBody",
+    "safeContextPayload",
+    "rawResponseBody",
+    "customerIdentity",
+    "contactIdentity",
+    "guid",
+    "exactAmount",
+    "rawTimeline",
+    "completeHtmlErrorPage"
+  ],
+  "publicExposure": {
+    "auditAllowlistOnly": true,
+    "consoleRawBody": false,
+    "markdownRawBody": false,
+    "jsonRawBody": false,
+    "browserSecret": false
+  }
+}

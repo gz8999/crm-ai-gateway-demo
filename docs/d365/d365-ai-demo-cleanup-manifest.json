@@ -1,0 +1,40 @@
+{
+  "phase": "Phase 1C-5R2G-D6-R5",
+  "status": "FROZEN_NOT_EXECUTED",
+  "cleanupAuthorized": false,
+  "cleanupExecuted": false,
+  "exactIdsPrivate": true,
+  "currentImportedExplicitRecordCount": 3900,
+  "reverseOrder": [
+    "InteractionSignal",
+    "Timeline",
+    "ActualManagement",
+    "ServiceCoverage",
+    "Opportunity",
+    "Contact",
+    "Account"
+  ],
+  "eligibleRecordTokenCounts": {
+    "Account": 60,
+    "Contact": 120,
+    "Opportunity": 200,
+    "ServiceCoverage": 240,
+    "ActualManagement": 130,
+    "Timeline": 1800,
+    "InteractionSignal": 1350
+  },
+  "opportunityCloseRule": "Do not directly delete OpportunityClose; deletion or state restoration requires a separate authorization.",
+  "bpfRule": "Do not delete BPF instances or definitions; keep the target process and stage intact.",
+  "neverCleanup": [
+    "Currency",
+    "Location",
+    "POL/POD",
+    "Owner/User",
+    "Demo Teams",
+    "Canonical Role",
+    "Choice",
+    "Schema",
+    "BPF Definition",
+    "Solution"
+  ]
+}

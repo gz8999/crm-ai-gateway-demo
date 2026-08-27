@@ -1,0 +1,304 @@
+{
+  "phase": "1C-5R2F-R2",
+  "environment": "org91f5f65f.crm5.dynamics.com",
+  "mode": "dry-run",
+  "approvedOptionCount": 75,
+  "fields": [
+    {
+      "entity": "aigw_customerservicecoverage",
+      "attribute": "aigw_servicetype",
+      "status": "not-started-package-gate",
+      "approvedChinese": [
+        "国内运输",
+        "国际海运",
+        "国际空运",
+        "铁路运输",
+        "仓储运营",
+        "门店配送",
+        "冷链物流",
+        "跨境电商物流",
+        "供应链解决方案",
+        "其他"
+      ],
+      "approvedEnglish": [
+        "Domestic Transport",
+        "International Ocean Freight",
+        "International Air Freight",
+        "Rail Freight",
+        "Warehouse Operations",
+        "Store Delivery",
+        "Cold Chain Logistics",
+        "Cross-border E-commerce Logistics",
+        "Supply Chain Solutions",
+        "Other"
+      ],
+      "beforeCount": null,
+      "inserted": [],
+      "after": null
+    },
+    {
+      "entity": "aigw_customerservicecoverage",
+      "attribute": "aigw_coveragestatus",
+      "status": "not-started-package-gate",
+      "approvedChinese": [
+        "已覆盖",
+        "提案中",
+        "未覆盖",
+        "曾经覆盖",
+        "已停止",
+        "待确认"
+      ],
+      "approvedEnglish": [
+        "Covered",
+        "In Proposal",
+        "Not Covered",
+        "Previously Covered",
+        "Stopped",
+        "To Be Confirmed"
+      ],
+      "beforeCount": null,
+      "inserted": [],
+      "after": null
+    },
+    {
+      "entity": "aigw_customerservicecoverage",
+      "attribute": "aigw_servicesatisfaction",
+      "status": "not-started-package-gate",
+      "approvedChinese": [
+        "很满意",
+        "满意",
+        "一般",
+        "需改善",
+        "未确认"
+      ],
+      "approvedEnglish": [
+        "Very Satisfied",
+        "Satisfied",
+        "Neutral",
+        "Needs Improvement",
+        "Unconfirmed"
+      ],
+      "beforeCount": null,
+      "inserted": [],
+      "after": null
+    },
+    {
+      "entity": "aigw_customerservicecoverage",
+      "attribute": "aigw_revenueband",
+      "status": "not-started-package-gate",
+      "approvedChinese": [
+        "无收入",
+        "低",
+        "中",
+        "高",
+        "战略级",
+        "未确认"
+      ],
+      "approvedEnglish": [
+        "No Revenue",
+        "Low",
+        "Medium",
+        "High",
+        "Strategic",
+        "Unconfirmed"
+      ],
+      "beforeCount": null,
+      "inserted": [],
+      "after": null
+    },
+    {
+      "entity": "aigw_customerservicecoverage",
+      "attribute": "aigw_marginband",
+      "status": "not-started-package-gate",
+      "approvedChinese": [
+        "负毛利",
+        "低",
+        "正常",
+        "较高",
+        "未确认"
+      ],
+      "approvedEnglish": [
+        "Negative Margin",
+        "Low",
+        "Normal",
+        "Higher",
+        "Unconfirmed"
+      ],
+      "beforeCount": null,
+      "inserted": [],
+      "after": null
+    },
+    {
+      "entity": "aigw_interactionsignal",
+      "attribute": "aigw_activitytype",
+      "status": "not-started-package-gate",
+      "approvedChinese": [
+        "电话",
+        "会议",
+        "任务",
+        "Note",
+        "邮件沟通摘要",
+        "现场拜访",
+        "内部会议"
+      ],
+      "approvedEnglish": [
+        "Phone Call",
+        "Meeting",
+        "Task",
+        "Note",
+        "Email Communication Summary",
+        "On-site Visit",
+        "Internal Meeting"
+      ],
+      "beforeCount": null,
+      "inserted": [],
+      "after": null
+    },
+    {
+      "entity": "aigw_interactionsignal",
+      "attribute": "aigw_direction",
+      "status": "not-started-package-gate",
+      "approvedChinese": [
+        "客户→我方",
+        "我方→客户",
+        "内部"
+      ],
+      "approvedEnglish": [
+        "Customer to Us",
+        "Us to Customer",
+        "Internal"
+      ],
+      "beforeCount": null,
+      "inserted": [],
+      "after": null
+    },
+    {
+      "entity": "aigw_interactionsignal",
+      "attribute": "aigw_resultcategory",
+      "status": "not-started-package-gate",
+      "approvedChinese": [
+        "已确认",
+        "部分确认",
+        "待客户回复",
+        "待内部处理",
+        "延期",
+        "拒绝",
+        "完成",
+        "无结果"
+      ],
+      "approvedEnglish": [
+        "Confirmed",
+        "Partially Confirmed",
+        "Awaiting Customer",
+        "Awaiting Internal Action",
+        "Delayed",
+        "Rejected",
+        "Completed",
+        "No Result"
+      ],
+      "beforeCount": null,
+      "inserted": [],
+      "after": null
+    },
+    {
+      "entity": "aigw_interactionsignal",
+      "attribute": "aigw_customerresponselevel",
+      "status": "not-started-package-gate",
+      "approvedChinese": [
+        "积极",
+        "正常",
+        "低频",
+        "无回复",
+        "明确拒绝"
+      ],
+      "approvedEnglish": [
+        "Positive",
+        "Normal",
+        "Low Frequency",
+        "No Response",
+        "Explicit Rejection"
+      ],
+      "beforeCount": null,
+      "inserted": [],
+      "after": null
+    },
+    {
+      "entity": "aigw_interactionsignal",
+      "attribute": "aigw_sentiment",
+      "status": "not-started-package-gate",
+      "approvedChinese": [
+        "正面",
+        "中性",
+        "偏负面",
+        "负面",
+        "未判断"
+      ],
+      "approvedEnglish": [
+        "Positive",
+        "Neutral",
+        "Slightly Negative",
+        "Negative",
+        "Undetermined"
+      ],
+      "beforeCount": null,
+      "inserted": [],
+      "after": null
+    },
+    {
+      "entity": "aigw_interactionsignal",
+      "attribute": "aigw_objectioncategory",
+      "status": "not-started-package-gate",
+      "approvedChinese": [
+        "价格",
+        "时效",
+        "服务能力",
+        "实施周期",
+        "合同条款",
+        "系统接口",
+        "合规",
+        "其他"
+      ],
+      "approvedEnglish": [
+        "Price",
+        "Timeliness",
+        "Service Capability",
+        "Implementation Cycle",
+        "Contract Terms",
+        "System Interface",
+        "Compliance",
+        "Other"
+      ],
+      "beforeCount": null,
+      "inserted": [],
+      "after": null
+    },
+    {
+      "entity": "aigw_interactionsignal",
+      "attribute": "aigw_serviceissuecategory",
+      "status": "not-started-package-gate",
+      "approvedChinese": [
+        "运输时效",
+        "服务质量",
+        "计费",
+        "系统接口",
+        "仓储作业",
+        "合规",
+        "其他"
+      ],
+      "approvedEnglish": [
+        "Transport Timeliness",
+        "Service Quality",
+        "Billing",
+        "System Interface",
+        "Warehouse Operations",
+        "Compliance",
+        "Other"
+      ],
+      "beforeCount": null,
+      "inserted": [],
+      "after": null
+    }
+  ],
+  "totalConfirmedOptions": 0,
+  "noChoiceDeletion": true
+}

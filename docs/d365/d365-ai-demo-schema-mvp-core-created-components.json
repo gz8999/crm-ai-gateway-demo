@@ -1,0 +1,652 @@
+{
+  "schemaVersion": "phase1c-schema-mvp-core-1.0",
+  "generatedAt": "2026-07-16T08:46:27.809Z",
+  "status": "completed",
+  "mode": "apply",
+  "environment": {
+    "hostname": "org91f5f65f.crm5.dynamics.com",
+    "productionRequests": 0
+  },
+  "solution": {
+    "uniqueName": "CRMAIGatewayDemo",
+    "displayName": "CRM AI Gateway Demo",
+    "publisherPrefix": "aigw"
+  },
+  "requestCounts": {
+    "GET": 123,
+    "POST": 1,
+    "PATCH": 0,
+    "DELETE": 0,
+    "Publish": 1
+  },
+  "created": {
+    "entities": [],
+    "attributes": [],
+    "relationships": [],
+    "keys": [],
+    "solutionComponents": []
+  },
+  "existing": {
+    "entities": [
+      {
+        "entity": "aigw_customerservicecoverage",
+        "metadataId": "cf427ceb-ee80-f111-ab0e-000d3a858957"
+      },
+      {
+        "entity": "aigw_interactionsignal",
+        "metadataId": "6d4d308d-ef80-f111-ab0e-000d3a858957"
+      }
+    ],
+    "attributes": [
+      {
+        "entity": "opportunity",
+        "logicalName": "aigw_nextaction",
+        "metadataId": "17867ce5-ee80-f111-ab0e-000d3a858957"
+      },
+      {
+        "entity": "opportunity",
+        "logicalName": "aigw_nextactiondate",
+        "metadataId": "fc417ceb-ee80-f111-ab0e-000d3a858957"
+      },
+      {
+        "entity": "aigw_customerservicecoverage",
+        "logicalName": "aigw_servicetype",
+        "metadataId": "43054675-ef80-f111-ab0e-000d3a858957"
+      },
+      {
+        "entity": "aigw_customerservicecoverage",
+        "logicalName": "aigw_coveragestatus",
+        "metadataId": "f8054675-ef80-f111-ab0e-000d3a858957"
+      },
+      {
+        "entity": "aigw_customerservicecoverage",
+        "logicalName": "aigw_startdate",
+        "metadataId": "bdb13e7b-ef80-f111-ab0e-000d3a858957"
+      },
+      {
+        "entity": "aigw_customerservicecoverage",
+        "logicalName": "aigw_enddate",
+        "metadataId": "47b23e7b-ef80-f111-ab0e-000d3a858957"
+      },
+      {
+        "entity": "aigw_customerservicecoverage",
+        "logicalName": "aigw_nextopportunitywindow",
+        "metadataId": "edc64081-ef80-f111-ab0e-000d3a858957"
+      },
+      {
+        "entity": "aigw_customerservicecoverage",
+        "logicalName": "aigw_revenueband",
+        "metadataId": "5bc74081-ef80-f111-ab0e-000d3a858957"
+      },
+      {
+        "entity": "aigw_customerservicecoverage",
+        "logicalName": "aigw_marginband",
+        "metadataId": "1ac84081-ef80-f111-ab0e-000d3a858957"
+      },
+      {
+        "entity": "aigw_customerservicecoverage",
+        "logicalName": "aigw_servicesatisfaction",
+        "metadataId": "a3243a87-ef80-f111-ab0e-000d3a858957"
+      },
+      {
+        "entity": "aigw_customerservicecoverage",
+        "logicalName": "aigw_lastproposaldate",
+        "metadataId": "38253a87-ef80-f111-ab0e-000d3a858957"
+      },
+      {
+        "entity": "aigw_customerservicecoverage",
+        "logicalName": "aigw_notes",
+        "metadataId": "95273a87-ef80-f111-ab0e-000d3a858957"
+      },
+      {
+        "entity": "aigw_customerservicecoverage",
+        "logicalName": "aigw_demotoken",
+        "metadataId": "0f283a87-ef80-f111-ab0e-000d3a858957"
+      },
+      {
+        "entity": "aigw_interactionsignal",
+        "logicalName": "aigw_interactiontoken",
+        "metadataId": "e6b323cf-ef80-f111-ab0e-000d3a858957"
+      },
+      {
+        "entity": "aigw_interactionsignal",
+        "logicalName": "aigw_sourceactivitytoken",
+        "metadataId": "8db423cf-ef80-f111-ab0e-000d3a858957"
+      },
+      {
+        "entity": "aigw_interactionsignal",
+        "logicalName": "aigw_activitydate",
+        "metadataId": "5f431cd5-ef80-f111-ab0e-000d3a858957"
+      },
+      {
+        "entity": "aigw_interactionsignal",
+        "logicalName": "aigw_activitytype",
+        "metadataId": "d9431cd5-ef80-f111-ab0e-000d3a858957"
+      },
+      {
+        "entity": "aigw_interactionsignal",
+        "logicalName": "aigw_direction",
+        "metadataId": "73441cd5-ef80-f111-ab0e-000d3a858957"
+      },
+      {
+        "entity": "aigw_interactionsignal",
+        "logicalName": "aigw_resultcategory",
+        "metadataId": "8ee21bdb-ef80-f111-ab0e-000d3a858957"
+      },
+      {
+        "entity": "aigw_interactionsignal",
+        "logicalName": "aigw_nextstep",
+        "metadataId": "4be31bdb-ef80-f111-ab0e-000d3a858957"
+      },
+      {
+        "entity": "aigw_interactionsignal",
+        "logicalName": "aigw_budgetmentioned",
+        "metadataId": "d5d716e1-ef80-f111-ab0e-000d3a858957"
+      },
+      {
+        "entity": "aigw_interactionsignal",
+        "logicalName": "aigw_decisionmakerinvolved",
+        "metadataId": "056b1ded-ef80-f111-ab0e-000d3a858957"
+      },
+      {
+        "entity": "aigw_interactionsignal",
+        "logicalName": "aigw_objectionpresent",
+        "metadataId": "d87f21f3-ef80-f111-ab0e-000d3a858957"
+      },
+      {
+        "entity": "aigw_interactionsignal",
+        "logicalName": "aigw_objectioncategory",
+        "metadataId": "758021f3-ef80-f111-ab0e-000d3a858957"
+      },
+      {
+        "entity": "aigw_interactionsignal",
+        "logicalName": "aigw_competitormentioned",
+        "metadataId": "f28021f3-ef80-f111-ab0e-000d3a858957"
+      },
+      {
+        "entity": "aigw_interactionsignal",
+        "logicalName": "aigw_commitmentmade",
+        "metadataId": "acf719f9-ef80-f111-ab0e-000d3a858957"
+      },
+      {
+        "entity": "aigw_interactionsignal",
+        "logicalName": "aigw_commitmentduedate",
+        "metadataId": "c39912ff-ef80-f111-ab0e-000d3a858957"
+      },
+      {
+        "entity": "aigw_interactionsignal",
+        "logicalName": "aigw_commitmentcompleted",
+        "metadataId": "4e9a12ff-ef80-f111-ab0e-000d3a858957"
+      },
+      {
+        "entity": "aigw_interactionsignal",
+        "logicalName": "aigw_customerresponselevel",
+        "metadataId": "5c6e1405-f080-f111-ab0e-000d3a858957"
+      },
+      {
+        "entity": "aigw_interactionsignal",
+        "logicalName": "aigw_sentiment",
+        "metadataId": "8fa7160b-f080-f111-ab0e-000d3a858957"
+      },
+      {
+        "entity": "aigw_interactionsignal",
+        "logicalName": "aigw_serviceissuecategory",
+        "metadataId": "84a8160b-f080-f111-ab0e-000d3a858957"
+      },
+      {
+        "entity": "aigw_interactionsignal",
+        "logicalName": "aigw_issueresolved",
+        "metadataId": "8a0e0d11-f080-f111-ab0e-000d3a858957"
+      },
+      {
+        "entity": "aigw_interactionsignal",
+        "logicalName": "aigw_sanitizedsummary",
+        "metadataId": "230f0d11-f080-f111-ab0e-000d3a858957"
+      },
+      {
+        "entity": "aigw_interactionsignal",
+        "logicalName": "aigw_demotoken",
+        "metadataId": "b90f0d11-f080-f111-ab0e-000d3a858957"
+      }
+    ],
+    "relationships": [
+      {
+        "schemaName": "aigw_account_customerservicecoverage",
+        "metadataId": "c92c0a17-f080-f111-ab0e-000d3a858957"
+      },
+      {
+        "schemaName": "aigw_team_customerservicecoverage_responsibledepartment",
+        "metadataId": "1d400e23-f080-f111-ab0e-000d3a858957"
+      },
+      {
+        "schemaName": "aigw_account_interactionsignal",
+        "metadataId": "6a4f122f-f080-f111-ab0e-000d3a858957"
+      },
+      {
+        "schemaName": "aigw_opportunity_interactionsignal",
+        "metadataId": "8ed80c3b-f080-f111-ab0e-000d3a858957"
+      },
+      {
+        "schemaName": "aigw_team_interactionsignal_salesdepartment",
+        "metadataId": "6fdd1547-f080-f111-ab0e-000d3a858957"
+      }
+    ],
+    "keys": [
+      {
+        "entity": "aigw_customerservicecoverage",
+        "schemaName": "Aigw_CustomerservicecoverageKey",
+        "metadataId": "e5740953-f080-f111-ab0e-000d3a858957",
+        "status": "Active"
+      },
+      {
+        "entity": "aigw_interactionsignal",
+        "schemaName": "Aigw_InteractionTokenKey",
+        "metadataId": "e1cf367d-f080-f111-ab0e-000d3a858957",
+        "status": "Active"
+      }
+    ],
+    "solutionComponents": [
+      {
+        "label": "aigw_customerservicecoverage",
+        "componentType": 1,
+        "objectId": "cf427ceb-ee80-f111-ab0e-000d3a858957"
+      },
+      {
+        "label": "aigw_interactionsignal",
+        "componentType": 1,
+        "objectId": "6d4d308d-ef80-f111-ab0e-000d3a858957"
+      },
+      {
+        "label": "aigw_nextaction",
+        "componentType": 2,
+        "objectId": "17867ce5-ee80-f111-ab0e-000d3a858957"
+      },
+      {
+        "label": "aigw_nextactiondate",
+        "componentType": 2,
+        "objectId": "fc417ceb-ee80-f111-ab0e-000d3a858957"
+      },
+      {
+        "label": "aigw_account_customerservicecoverage",
+        "componentType": 10,
+        "objectId": "c92c0a17-f080-f111-ab0e-000d3a858957",
+        "source": "entity-root-subcomponent",
+        "rootObjectId": "cf427ceb-ee80-f111-ab0e-000d3a858957",
+        "rootComponentBehavior": 0
+      },
+      {
+        "label": "aigw_team_customerservicecoverage_responsibledepartment",
+        "componentType": 10,
+        "objectId": "1d400e23-f080-f111-ab0e-000d3a858957",
+        "source": "entity-root-subcomponent",
+        "rootObjectId": "cf427ceb-ee80-f111-ab0e-000d3a858957",
+        "rootComponentBehavior": 0
+      },
+      {
+        "label": "aigw_account_interactionsignal",
+        "componentType": 10,
+        "objectId": "6a4f122f-f080-f111-ab0e-000d3a858957",
+        "source": "entity-root-subcomponent",
+        "rootObjectId": "6d4d308d-ef80-f111-ab0e-000d3a858957",
+        "rootComponentBehavior": 0
+      },
+      {
+        "label": "aigw_opportunity_interactionsignal",
+        "componentType": 10,
+        "objectId": "8ed80c3b-f080-f111-ab0e-000d3a858957",
+        "source": "entity-root-subcomponent",
+        "rootObjectId": "6d4d308d-ef80-f111-ab0e-000d3a858957",
+        "rootComponentBehavior": 0
+      },
+      {
+        "label": "aigw_team_interactionsignal_salesdepartment",
+        "componentType": 10,
+        "objectId": "6fdd1547-f080-f111-ab0e-000d3a858957",
+        "source": "entity-root-subcomponent",
+        "rootObjectId": "6d4d308d-ef80-f111-ab0e-000d3a858957",
+        "rootComponentBehavior": 0
+      },
+      {
+        "label": "Aigw_CustomerservicecoverageKey",
+        "componentType": 14,
+        "objectId": "e5740953-f080-f111-ab0e-000d3a858957",
+        "source": "entity-root-subcomponent",
+        "rootObjectId": "cf427ceb-ee80-f111-ab0e-000d3a858957",
+        "rootComponentBehavior": 0
+      },
+      {
+        "label": "Aigw_InteractionTokenKey",
+        "componentType": 14,
+        "objectId": "e1cf367d-f080-f111-ab0e-000d3a858957",
+        "source": "entity-root-subcomponent",
+        "rootObjectId": "6d4d308d-ef80-f111-ab0e-000d3a858957",
+        "rootComponentBehavior": 0
+      }
+    ]
+  },
+  "choices": [
+    {
+      "name": "Service Type",
+      "source": "local",
+      "globalName": null,
+      "labels": [
+        "国内运输",
+        "国际海运",
+        "国际空运",
+        "铁路运输",
+        "仓储运营",
+        "门店配送",
+        "冷链物流",
+        "跨境电商物流",
+        "供应链解决方案",
+        "其他"
+      ]
+    },
+    {
+      "name": "Coverage Status",
+      "source": "local",
+      "globalName": null,
+      "labels": [
+        "已覆盖",
+        "提案中",
+        "未覆盖",
+        "曾经覆盖",
+        "已停止",
+        "待确认"
+      ]
+    },
+    {
+      "name": "Revenue Band",
+      "source": "local",
+      "globalName": null,
+      "labels": [
+        "无收入",
+        "低",
+        "中",
+        "高",
+        "战略级",
+        "未确认"
+      ]
+    },
+    {
+      "name": "Margin Band",
+      "source": "local",
+      "globalName": null,
+      "labels": [
+        "负毛利",
+        "低",
+        "正常",
+        "较高",
+        "未确认"
+      ]
+    },
+    {
+      "name": "Service Satisfaction",
+      "source": "local",
+      "globalName": null,
+      "labels": [
+        "很满意",
+        "满意",
+        "一般",
+        "需改善",
+        "未确认"
+      ]
+    },
+    {
+      "name": "Activity Type",
+      "source": "local",
+      "globalName": null,
+      "labels": [
+        "电话",
+        "会议",
+        "任务",
+        "Note",
+        "邮件沟通摘要",
+        "现场拜访",
+        "内部会议"
+      ]
+    },
+    {
+      "name": "Direction",
+      "source": "local",
+      "globalName": null,
+      "labels": [
+        "客户→我方",
+        "我方→客户",
+        "内部"
+      ]
+    },
+    {
+      "name": "Result Category",
+      "source": "local",
+      "globalName": null,
+      "labels": [
+        "已确认",
+        "部分确认",
+        "待客户回复",
+        "待内部处理",
+        "延期",
+        "拒绝",
+        "完成",
+        "无结果"
+      ]
+    },
+    {
+      "name": "Objection Category",
+      "source": "local",
+      "globalName": null,
+      "labels": [
+        "价格",
+        "时效",
+        "服务能力",
+        "实施周期",
+        "合同条款",
+        "系统接口",
+        "合规",
+        "其他"
+      ]
+    },
+    {
+      "name": "Customer Response Level",
+      "source": "local",
+      "globalName": null,
+      "labels": [
+        "积极",
+        "正常",
+        "低频",
+        "无回复",
+        "明确拒绝"
+      ]
+    },
+    {
+      "name": "Sentiment",
+      "source": "local",
+      "globalName": null,
+      "labels": [
+        "正面",
+        "中性",
+        "偏负面",
+        "负面",
+        "未判断"
+      ]
+    },
+    {
+      "name": "Service Issue Category",
+      "source": "local",
+      "globalName": null,
+      "labels": [
+        "运输时效",
+        "服务质量",
+        "计费",
+        "系统接口",
+        "仓储作业",
+        "合规",
+        "其他"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "schemaName": "aigw_account_customerservicecoverage",
+      "metadataId": "c92c0a17-f080-f111-ab0e-000d3a858957",
+      "source": "existing"
+    },
+    {
+      "schemaName": "aigw_team_customerservicecoverage_responsibledepartment",
+      "metadataId": "1d400e23-f080-f111-ab0e-000d3a858957",
+      "source": "existing"
+    },
+    {
+      "schemaName": "aigw_account_interactionsignal",
+      "metadataId": "6a4f122f-f080-f111-ab0e-000d3a858957",
+      "source": "existing"
+    },
+    {
+      "schemaName": "aigw_opportunity_interactionsignal",
+      "metadataId": "8ed80c3b-f080-f111-ab0e-000d3a858957",
+      "source": "existing"
+    },
+    {
+      "schemaName": "aigw_team_interactionsignal_salesdepartment",
+      "metadataId": "6fdd1547-f080-f111-ab0e-000d3a858957",
+      "source": "existing"
+    }
+  ],
+  "keys": [
+    {
+      "entity": "aigw_customerservicecoverage",
+      "schemaName": "Aigw_CustomerservicecoverageKey",
+      "attributes": [
+        "aigw_accountid",
+        "aigw_servicetype",
+        "aigw_startdate"
+      ],
+      "metadataId": "e5740953-f080-f111-ab0e-000d3a858957",
+      "status": "Active"
+    },
+    {
+      "entity": "aigw_interactionsignal",
+      "schemaName": "Aigw_InteractionTokenKey",
+      "attributes": [
+        "aigw_interactiontoken"
+      ],
+      "metadataId": "e1cf367d-f080-f111-ab0e-000d3a858957",
+      "status": "Active"
+    }
+  ],
+  "gates": {
+    "Test Environment Verified": true,
+    "Opportunity Fields Created": true,
+    "Coverage Entity Created": true,
+    "Signal Entity Created": true,
+    "Choice Metadata Ready": true,
+    "Relationships Ready": true,
+    "Interaction Token Alternate Key Ready": true,
+    "Coverage Alternate Key Ready": true,
+    "Solution Components Ready": true,
+    "Chinese Labels Ready": true,
+    "Protected Baseline Preserved": true,
+    "Business Record Writes": 0,
+    "Production Requests": 0,
+    "External LLM Calls": 0,
+    "P0": 0,
+    "P1": 0,
+    "Core Schema Implementation Ready": true,
+    "Form View Security Phase Ready": false,
+    "Demo Data Phase": false
+  },
+  "resumedFrom": {
+    "status": "stopped",
+    "error": {
+      "message": "Solution membership readback failed for aigw_account_customerservicecoverage.",
+      "status": null,
+      "code": null
+    },
+    "requestCounts": {
+      "GET": 112,
+      "POST": 1,
+      "PATCH": 0,
+      "DELETE": 0,
+      "Publish": 0
+    },
+    "created": {
+      "entities": [],
+      "attributes": [],
+      "relationships": [],
+      "keys": [],
+      "solutionComponents": []
+    }
+  },
+  "preflight": {
+    "solution": {
+      "id": "57462493-7477-f111-ab0e-000d3a805a4c",
+      "uniqueName": "CRMAIGatewayDemo",
+      "displayName": "CRM AI Gateway Demo",
+      "isManaged": false
+    },
+    "publisher": {
+      "id": "25ae9b3a-7477-f111-ab0e-000d3a805a4c",
+      "prefix": "aigw"
+    },
+    "organizations": 1,
+    "app": {
+      "id": "916afe4b-607e-f111-ab0e-002248eb1915",
+      "name": "CRM AI Gateway Demo - Modern",
+      "uniqueName": "aigw_CRMAIGatewayDemoModern",
+      "isManaged": false
+    },
+    "bpf": {
+      "id": "7325b274-6b7c-f111-ab0e-70a8a50388b9",
+      "name": "销售流程 - AI Demo Full Replica",
+      "statecode": 1,
+      "statuscode": 2,
+      "primaryentity": "opportunity"
+    },
+    "protection": {
+      "protectedFormHash": "0195534810cdd76961f1b5ff1db20ea0c857b692c758ab4262fb8d52a63e542a",
+      "fullReplicaFormHash": "60f783956efeace5526ca1f460a9d81eb585eea4d15feed1646cca650c33d61a",
+      "actualFormHash": "3975a9775982a11b7c88f9b4504b0084ddefa7a876a52e0b330934e50b392d44",
+      "actualViewHash": "0f85be73bfb6d7e1579de8b83bef19d3e065b9b049b1750c63401ed118659ee5",
+      "fullReplicaStructure": {
+        "tabs": 5,
+        "sections": 19,
+        "controls": 115,
+        "uniqueFields": 107
+      }
+    },
+    "locationActiveCount": 51,
+    "plugin": {
+      "assemblies": 1,
+      "types": 3,
+      "steps": 7,
+      "enabled": 7,
+      "disabled": 0
+    },
+    "opportunityExistingAttributeHash": "5956b4b216c40f8f3fa54b531062b020e130767c684e902b742f01768ad9c921",
+    "componentsBeforeCount": 175,
+    "entitiesBefore": {
+      "aigw_customerservicecoverage": true,
+      "aigw_interactionsignal": true,
+      "aigw_location": true,
+      "aigw_polpodlocation": true
+    }
+  },
+  "postflight": {
+    "protectedHashes": {
+      "protectedBefore": "0195534810cdd76961f1b5ff1db20ea0c857b692c758ab4262fb8d52a63e542a",
+      "protectedAfter": "0195534810cdd76961f1b5ff1db20ea0c857b692c758ab4262fb8d52a63e542a",
+      "fullBefore": "60f783956efeace5526ca1f460a9d81eb585eea4d15feed1646cca650c33d61a",
+      "fullAfter": "60f783956efeace5526ca1f460a9d81eb585eea4d15feed1646cca650c33d61a",
+      "actualBefore": "3975a9775982a11b7c88f9b4504b0084ddefa7a876a52e0b330934e50b392d44",
+      "actualAfter": "3975a9775982a11b7c88f9b4504b0084ddefa7a876a52e0b330934e50b392d44",
+      "actualViewBefore": "0f85be73bfb6d7e1579de8b83bef19d3e065b9b049b1750c63401ed118659ee5",
+      "actualViewAfter": "0f85be73bfb6d7e1579de8b83bef19d3e065b9b049b1750c63401ed118659ee5"
+    },
+    "opportunityExistingAttributeHashAfter": "5956b4b216c40f8f3fa54b531062b020e130767c684e902b742f01768ad9c921",
+    "publishedEntities": [
+      "aigw_customerservicecoverage",
+      "aigw_interactionsignal",
+      "opportunity"
+    ]
+  }
+}

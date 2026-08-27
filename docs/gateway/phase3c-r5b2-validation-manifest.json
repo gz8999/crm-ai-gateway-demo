@@ -1,0 +1,72 @@
+{
+  "phase": "PHASE3C-R5B2",
+  "baselineCommit": "ca56fa0",
+  "scope": "offline-schema-repair-only",
+  "historicalEvidencePreserved": true,
+  "r5b1ProbeRetried": false,
+  "r5b2": {
+    "externalLlmCalls": 0,
+    "d365Get": 0,
+    "crmWriteback": false,
+    "productionRequests": 0,
+    "syntheticProbeExecuted": false,
+    "realCanaryExecuted": false,
+    "providerChanged": false,
+    "modelChanged": false,
+    "providerRequestCompatibilityReady": false
+  },
+  "v1Audit": {
+    "totalSchemaNodeCount": 41,
+    "typedNodeCount": 33,
+    "anyOfNodeCount": 0,
+    "refNodeCount": 0,
+    "missingTypeAnyOfRefCount": 8,
+    "missingTypeAnyOfRefPaths": [
+      "#/properties/confidence/properties/level",
+      "#/properties/recommendedActions/items/properties/draftStatus",
+      "#/properties/priority",
+      "#/properties/fallback/properties/state",
+      "#/properties/safety/properties/customerIdentityMasked",
+      "#/properties/safety/properties/exactAmountSentToModel",
+      "#/properties/safety/properties/rawTimelineSent",
+      "#/properties/safety/properties/crmWritebackEnabled"
+    ],
+    "missingRequiredCount": 0,
+    "missingAdditionalPropertiesCount": 0,
+    "unsupportedKeywordCount": 0,
+    "schemaHash": "a376afe2f6bd222b626d40413c6b971e5993d673785d371520487cda5ad2b1d2"
+  },
+  "v2Audit": {
+    "totalSchemaNodeCount": 41,
+    "typedNodeCount": 41,
+    "anyOfNodeCount": 0,
+    "refNodeCount": 0,
+    "missingTypeAnyOfRefCount": 0,
+    "missingTypeAnyOfRefPaths": [],
+    "objectCount": 8,
+    "missingRequiredCount": 0,
+    "missingAdditionalPropertiesCount": 0,
+    "missingArrayItemsCount": 0,
+    "unsupportedKeywordCount": 0,
+    "schemaHash": "476cecc436dc452abc50988d337d779398159e8e0a4003bc8aa6153cbdab22b7"
+  },
+  "gates": {
+    "DeepSeek Strict Schema Offline Ready": true,
+    "Schema Node Completeness Ready": true,
+    "Canonical Mapping Ready": true,
+    "Evidence Validation Ready": true,
+    "Safety Contract Ready": true,
+    "Provider Request Compatibility Ready": false,
+    "External LLM Calls": 0,
+    "D365 GET": 0,
+    "CRM Writeback": false,
+    "Production Requests": 0,
+    "P0 Count": 0,
+    "P1 Count": 0,
+    "P2 Count": 1
+  },
+  "evaluation": {
+    "evaluateQuality": "Not Run",
+    "reason": "D365 GET prohibited by R5B2 boundary"
+  }
+}

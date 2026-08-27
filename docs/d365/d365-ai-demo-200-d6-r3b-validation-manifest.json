@@ -1,0 +1,127 @@
+{
+  "phase": "Phase 1C-5R2G-D6-R3B",
+  "status": "COMPLETED",
+  "environmentAlias": "TEST-ORG",
+  "referenceDate": "2026-07-18",
+  "projectionRules": {
+    "strictPast": "HistoricalOverride",
+    "sameDay": "SameDayBodyDate",
+    "future": "FutureBodyPlannedDate"
+  },
+  "baseline": {
+    "explicitRecords": 2472,
+    "Timeline": 1568,
+    "InteractionSignal": 154
+  },
+  "imported": {
+    "Timeline": 232,
+    "InteractionSignal": 1196
+  },
+  "final": {
+    "entityCounts": {
+      "Account": 60,
+      "Contact": 120,
+      "Opportunity": 200,
+      "ServiceCoverage": 240,
+      "ActualManagement": 130,
+      "Timeline": 1800,
+      "InteractionSignal": 1350
+    },
+    "explicitRecords": 3900,
+    "opportunityState": {
+      "Won": 7,
+      "Active": 192,
+      "Lost": 1
+    },
+    "opportunityClose": 8,
+    "bpf": {
+      "targetInstanceCount": 200,
+      "initialStageCount": 200,
+      "duplicateCount": 0,
+      "unexpectedProcessCount": 0
+    },
+    "plugin": {
+      "enabled": 7,
+      "disabled": 0,
+      "ready": true
+    },
+    "workflow": {
+      "name": "销售流程 - AI Demo Full Replica",
+      "uniqueName": "aigw_ai_demo_full_replica",
+      "statecode": 1,
+      "statuscode": 2,
+      "processOrder": 0,
+      "modifiedon": "2026-07-15T04:15:29Z",
+      "definitionHash": "aac15b0adae5d1041df319b7dd187cc4a517c446725e6f2785e68939c015dbf8"
+    }
+  },
+  "historyPreserved": {
+    "localCheckpointFailureCount": 1,
+    "serverRejectionCount": 1,
+    "failedToken": "TL-0653",
+    "correlationCaptured": false
+  },
+  "requests": {
+    "uniqueHttpGetCumulativeD6": 21960,
+    "finalizationReadOnlyGetDelta": 5521,
+    "auditClassificationsOverlap": true,
+    "auditClassificationCumulative": {
+      "preflightGet": 12487,
+      "timelineGet": 3190,
+      "signalGet": 2392,
+      "parentOpportunityIntegrityGet": 299,
+      "bpfGet": 4215
+    },
+    "timelinePostR3B": 232,
+    "historicalAnnotationPost": 224,
+    "sameDayAnnotationPost": 1,
+    "futureAnnotationPost": 7,
+    "signalPostR3B": 1196,
+    "finalizationTimelinePost": 0,
+    "finalizationSignalPost": 0,
+    "patch": 0,
+    "delete": 0,
+    "publish": 0,
+    "winOpportunity": 0,
+    "loseOpportunity": 0,
+    "otherBusinessPost": 0,
+    "bpfWrites": 0,
+    "productionRequests": 0,
+    "externalLlmCalls": 0
+  },
+  "p0Count": 0,
+  "p1Count": 0,
+  "p2Count": 0,
+  "gates": {
+    "AnnotationProjectionReferenceDateReady": true,
+    "SameDayAnnotationContractReady": true,
+    "TL0653FixedProjectionModeReady": true,
+    "TL0653CanaryReady": true,
+    "AnnotationProjectionCanaryReady": true,
+    "RemainingTimelineComplementReady": true,
+    "TimelineImportReady": true,
+    "TimelineFinalCount": 1800,
+    "TimelineFinalFailedCount": 0,
+    "RemainingSignalComplementReady": true,
+    "SignalCanaryReady": true,
+    "SignalImportReady": true,
+    "SignalFinalCount": 1350,
+    "SignalMissingSourceCount": 0,
+    "BusinessDateIntegrityReady": true,
+    "OpportunityStateIntegrityReady": true,
+    "BPFRuntimeIntegrityReady": true,
+    "D6R3BTimelineSignalImportCompleted": true,
+    "BaseFullDataImportCompleted": true,
+    "FullExplicitDataCount": 3900,
+    "FullExactReadbackReady": true,
+    "StateActionsDeferred": true,
+    "RemainingWinActions": 84,
+    "RemainingLoseActions": 8,
+    "FullImportCompleted": false,
+    "FullImportClosed": false,
+    "CleanupAuthorized": false,
+    "CleanupExecuted": false,
+    "GatewayFullDatasetIntegrationReady": false,
+    "ProductionIsolationReady": true
+  }
+}

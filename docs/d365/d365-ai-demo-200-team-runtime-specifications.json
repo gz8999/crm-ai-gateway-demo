@@ -1,0 +1,95 @@
+{
+  "phase": "Phase 1C-5R2G-D3A",
+  "targetBusinessUnitAlias": "BU-CANDIDATE-01",
+  "teams": [
+    {
+      "teamToken": "DEPT-01",
+      "proposedTeamName": "CRM-AI-DEMO-DEPT-01",
+      "business": "Dept1 Industry",
+      "teamType": "Owner Team",
+      "businessUnitAlias": "BU-CANDIDATE-01",
+      "initialMemberAlias": "OWNER-CANDIDATE-01",
+      "requiredRoleAlias": "ROLE-CANDIDATE-CRM-AI-DEMO-DEPARTMENT-MINIMAL",
+      "existingNameConflict": false,
+      "readyForCreation": true,
+      "creationApproved": false
+    },
+    {
+      "teamToken": "DEPT-02",
+      "proposedTeamName": "CRM-AI-DEMO-DEPT-02",
+      "business": "Dept1 Distribution",
+      "teamType": "Owner Team",
+      "businessUnitAlias": "BU-CANDIDATE-01",
+      "initialMemberAlias": "OWNER-CANDIDATE-01",
+      "requiredRoleAlias": "ROLE-CANDIDATE-CRM-AI-DEMO-DEPARTMENT-MINIMAL",
+      "existingNameConflict": false,
+      "readyForCreation": true,
+      "creationApproved": false
+    },
+    {
+      "teamToken": "DEPT-03",
+      "proposedTeamName": "CRM-AI-DEMO-DEPT-03",
+      "business": "Dept2 LCMS",
+      "teamType": "Owner Team",
+      "businessUnitAlias": "BU-CANDIDATE-01",
+      "initialMemberAlias": "OWNER-CANDIDATE-01",
+      "requiredRoleAlias": "ROLE-CANDIDATE-CRM-AI-DEMO-DEPARTMENT-MINIMAL",
+      "existingNameConflict": false,
+      "readyForCreation": true,
+      "creationApproved": false
+    },
+    {
+      "teamToken": "DEPT-04",
+      "proposedTeamName": "CRM-AI-DEMO-DEPT-04",
+      "business": "Dept3 Project Cargo",
+      "teamType": "Owner Team",
+      "businessUnitAlias": "BU-CANDIDATE-01",
+      "initialMemberAlias": "OWNER-CANDIDATE-01",
+      "requiredRoleAlias": "ROLE-CANDIDATE-CRM-AI-DEMO-DEPARTMENT-MINIMAL",
+      "existingNameConflict": false,
+      "readyForCreation": true,
+      "creationApproved": false
+    },
+    {
+      "teamToken": "DEPT-05",
+      "proposedTeamName": "CRM-AI-DEMO-DEPT-05",
+      "business": "Dept3 Dangerous Goods",
+      "teamType": "Owner Team",
+      "businessUnitAlias": "BU-CANDIDATE-01",
+      "initialMemberAlias": "OWNER-CANDIDATE-01",
+      "requiredRoleAlias": "ROLE-CANDIDATE-CRM-AI-DEMO-DEPARTMENT-MINIMAL",
+      "existingNameConflict": false,
+      "readyForCreation": true,
+      "creationApproved": false
+    },
+    {
+      "teamToken": "DEPT-06",
+      "proposedTeamName": "CRM-AI-DEMO-DEPT-06",
+      "business": "FF",
+      "teamType": "Owner Team",
+      "businessUnitAlias": "BU-CANDIDATE-01",
+      "initialMemberAlias": "OWNER-CANDIDATE-01",
+      "requiredRoleAlias": "ROLE-CANDIDATE-CRM-AI-DEMO-DEPARTMENT-MINIMAL",
+      "existingNameConflict": false,
+      "readyForCreation": true,
+      "creationApproved": false
+    },
+    {
+      "teamToken": "DEPT-91",
+      "proposedTeamName": "CRM-AI-DEMO-DEPT-91",
+      "business": "Others",
+      "teamType": "Owner Team",
+      "businessUnitAlias": "BU-CANDIDATE-01",
+      "initialMemberAlias": "OWNER-CANDIDATE-01",
+      "requiredRoleAlias": "ROLE-CANDIDATE-CRM-AI-DEMO-DEPARTMENT-MINIMAL",
+      "existingNameConflict": false,
+      "readyForCreation": true,
+      "creationApproved": false
+    }
+  ],
+  "uniqueTeamNames": true,
+  "distinctTeamPerDepartmentToken": true,
+  "teamNameConflictCount": 0,
+  "sevenTeamSpecificationsReady": true,
+  "departmentTeamMappingApproved": false
+}

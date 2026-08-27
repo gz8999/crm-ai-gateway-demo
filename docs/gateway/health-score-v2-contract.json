@@ -1,0 +1,67 @@
+{
+  "contractVersion": "Opportunity Health Score Contract v2",
+  "componentVersion": "health-score-engine-2.0.0",
+  "weightVersion": "six-dimensions-v1",
+  "thresholdVersion": "grade-thresholds-v2",
+  "weights": {
+    "pipeline": 0.25,
+    "completeness": 0.2,
+    "profitability": 0.2,
+    "engagement": 0.15,
+    "risk": 0.15,
+    "confidence": 0.05
+  },
+  "thresholds": {
+    "S": 90,
+    "A": 80,
+    "B": 70,
+    "C": 60,
+    "D": 50,
+    "Z": 0
+  },
+  "grades": [
+    "S",
+    "A",
+    "B",
+    "C",
+    "D",
+    "Z"
+  ],
+  "datasetBaseline": {
+    "opportunity": 200,
+    "account": 60,
+    "contact": 120,
+    "actual": 130,
+    "coverage": 240,
+    "timeline": 1800,
+    "signal": 1350,
+    "opportunityClose": 100,
+    "bpf": 200,
+    "stateDistribution": {
+      "active": 100,
+      "won": 91,
+      "lost": 9
+    }
+  },
+  "runtimeHost": "org91f5f65f.crm5.dynamics.com",
+  "sourceCommit": "fce2bd6",
+  "scoringTimestamp": "2026-07-19T00:00:00.000Z",
+  "scoreCount": 200,
+  "summary": {
+    "count": 200,
+    "averageScore": 80.61,
+    "minimumScore": 59.8,
+    "maximumScore": 93.22,
+    "gradeDistribution": {
+      "S": 68,
+      "A": 23,
+      "B": 61,
+      "C": 46,
+      "D": 2,
+      "Z": 0
+    }
+  },
+  "contractHash": "7ccf36b40017a4ee3b32f9508026dc7ebdefbca05eec750a4a657984b3cd5e2c",
+  "scoreDigest": "e72abddd40ecd94cfdbae1f8d9fefbfd613e212d9a4c0f7ff14d23af6ca86f70",
+  "rankingDigest": "ac75a5c5a9f71c57d2dfaf9df212200c5dbeaa57c9c9d49eaf744808b8440ccb"
+}

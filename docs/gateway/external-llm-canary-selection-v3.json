@@ -1,0 +1,50 @@
+{
+  "version": "external-llm-canary-selection-v3",
+  "runId": "PHASE3C-R2",
+  "selectionOnly": true,
+  "providerInputScenarioIds": false,
+  "count": 24,
+  "records": [
+    { "opportunityToken": "DEMO-OPP-001", "evaluationLenses": ["growth-opportunity", "healthy-control"] },
+    { "opportunityToken": "DEMO-OPP-008", "evaluationLenses": ["data-contradiction", "growth-opportunity"] },
+    { "opportunityToken": "DEMO-OPP-012", "evaluationLenses": ["budget-actual-gap", "growth-opportunity"] },
+    { "opportunityToken": "DEMO-OPP-026", "evaluationLenses": ["budget-actual-gap", "growth-opportunity"] },
+    { "opportunityToken": "DEMO-OPP-030", "evaluationLenses": ["growth-opportunity", "healthy-control"] },
+    { "opportunityToken": "DEMO-OPP-046", "evaluationLenses": ["data-contradiction", "growth-opportunity"] },
+    { "opportunityToken": "DEMO-OPP-056", "evaluationLenses": ["budget-actual-gap", "data-contradiction", "growth-opportunity"] },
+    { "opportunityToken": "DEMO-OPP-057", "evaluationLenses": ["data-contradiction", "growth-opportunity"] },
+    { "opportunityToken": "DEMO-OPP-002", "evaluationLenses": ["data-contradiction", "growth-opportunity"] },
+    { "opportunityToken": "DEMO-OPP-003", "evaluationLenses": ["growth-opportunity", "healthy-control"] },
+    { "opportunityToken": "DEMO-OPP-004", "evaluationLenses": ["data-contradiction", "growth-opportunity"] },
+    { "opportunityToken": "DEMO-OPP-005", "evaluationLenses": ["growth-opportunity", "healthy-control"] },
+    { "opportunityToken": "DEMO-OPP-006", "evaluationLenses": ["growth-opportunity", "healthy-control"] },
+    { "opportunityToken": "DEMO-OPP-007", "evaluationLenses": ["data-contradiction", "growth-opportunity"] },
+    { "opportunityToken": "DEMO-OPP-009", "evaluationLenses": ["growth-opportunity", "healthy-control"] },
+    { "opportunityToken": "DEMO-OPP-010", "evaluationLenses": ["data-contradiction", "growth-opportunity"] },
+    { "opportunityToken": "DEMO-OPP-011", "evaluationLenses": ["data-contradiction", "growth-opportunity"] },
+    { "opportunityToken": "DEMO-OPP-013", "evaluationLenses": ["budget-actual-gap", "data-contradiction", "growth-opportunity"] },
+    { "opportunityToken": "DEMO-OPP-014", "evaluationLenses": ["growth-opportunity", "healthy-control"] },
+    { "opportunityToken": "DEMO-OPP-015", "evaluationLenses": ["growth-opportunity", "healthy-control"] },
+    { "opportunityToken": "DEMO-OPP-016", "evaluationLenses": ["data-contradiction", "growth-opportunity"] },
+    { "opportunityToken": "DEMO-OPP-017", "evaluationLenses": ["growth-opportunity", "meeting-prep", "healthy-control"] },
+    { "opportunityToken": "DEMO-OPP-018", "evaluationLenses": ["data-contradiction", "growth-opportunity"] },
+    { "opportunityToken": "DEMO-OPP-019", "evaluationLenses": ["budget-actual-gap", "data-contradiction", "growth-opportunity"] }
+  ],
+  "coverage": {
+    "departments": ["Dept1 Distribution", "Dept1 Industry", "Dept2 LCMS", "Dept3 Dangerous Goods", "Dept3 Project Cargo", "FF", "Others"],
+    "states": ["Active", "Lost", "Won"],
+    "healthBands": ["high", "low", "medium"],
+    "confidenceLevels": ["High", "Medium"],
+    "evaluationLenses": ["budget-actual-gap", "data-contradiction", "growth-opportunity", "healthy-control", "meeting-prep"],
+    "offlineScenarioLenses": ["stalled-high-value", "budget-actual-gap", "data-contradiction", "growth-opportunity", "location-route-risk", "meeting-prep", "multi-risk-priority", "healthy-control"]
+  },
+  "safety": {
+    "noGuid": true,
+    "noExactAmounts": true,
+    "noRawTimeline": true,
+    "noIdentity": true,
+    "noGoldenMetadataToProvider": true,
+    "externalLlmCalls": 0,
+    "crmWriteback": false
+  }
+}

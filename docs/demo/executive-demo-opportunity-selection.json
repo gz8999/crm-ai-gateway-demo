@@ -1,0 +1,32 @@
+{
+  "version": "goal4a-executive-selection-v1",
+  "selectionOnly": true,
+  "runtimeScenarioMetadata": false,
+  "records": [
+    { "scenario": "stalled-high-value", "opportunityToken": "DEMO-OPP-026", "purpose": "高风险停滞与关闭事实复核" },
+    { "scenario": "budget-actual-gap", "opportunityToken": "DEMO-OPP-012", "purpose": "预算实绩偏差与无 Actual 边界" },
+    { "scenario": "data-contradiction", "opportunityToken": "DEMO-OPP-008", "purpose": "数据矛盾与置信度分离" },
+    { "scenario": "growth-opportunity", "opportunityToken": "DEMO-OPP-001", "purpose": "健康赢单与增长机会" },
+    { "scenario": "location-route-risk", "opportunityToken": "DEMO-OPP-046", "purpose": "危险品部门路线一致性复核" },
+    { "scenario": "meeting-prep", "opportunityToken": "DEMO-OPP-017", "purpose": "安全 Timeline 与 Signal 会前摘要" },
+    { "scenario": "multi-risk-priority", "opportunityToken": "DEMO-OPP-056", "purpose": "多信号优先级复核" },
+    { "scenario": "healthy-control", "opportunityToken": "DEMO-OPP-030", "purpose": "健康对照与非高风险基准" }
+  ],
+  "meetingShowcase": {
+    "highRiskPreparation": "DEMO-OPP-056",
+    "healthyFollowup": "DEMO-OPP-017"
+  },
+  "opportunity360ShowcaseCount": 8,
+  "coverage": {
+    "scenarios": 8,
+    "departments": 7,
+    "states": ["Won", "Active", "Lost"],
+    "grades": ["S", "A", "B", "C", "D"]
+  },
+  "safety": {
+    "testSideOnly": true,
+    "providerInput": false,
+    "runtimeUiScenarioId": false,
+    "goldenMetadata": false
+  }
+}

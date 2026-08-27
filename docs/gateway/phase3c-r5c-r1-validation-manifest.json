@@ -1,0 +1,63 @@
+{
+  "phase": "PHASE3C-R5C-R1",
+  "status": "offline-repair-complete",
+  "profile": "v6-r3",
+  "transportContract": "Provider Transport Contract v4",
+  "rootCause": {
+    "exactMalformedCharacterRecoverable": false,
+    "schemaSizeRegression": false,
+    "anyOfBranchRegression": false,
+    "unrestrictedTransportTextSurface": true,
+    "realParseDiagnosticsGap": true
+  },
+  "schema": {
+    "hash": "63e279545bc601ff16d89c4cad4ede283c029c25c647ca13506106de1b07e27e",
+    "bytes": 6652,
+    "nodes": 84,
+    "missingTypeAnyOfRefCount": 0,
+    "missingRequiredCount": 0,
+    "missingAdditionalPropertiesCount": 0,
+    "unsupportedKeywordCount": 0,
+    "allEvidenceReferencesRequestScoped": true,
+    "safeTextPatternReady": true
+  },
+  "behavior": {
+    "legacyProfilesModified": false,
+    "historicalReportsModified": false,
+    "singleJsonParse": true,
+    "responseRepair": false,
+    "retryCount": 0,
+    "fixtureFallbackCount": 0,
+    "rawArgumentsExposure": 0,
+    "rawResponseExposure": 0,
+    "safeParseDiagnosticsReady": true
+  },
+  "requests": {
+    "externalLlmCalls": 0,
+    "d365Get": 0,
+    "crmPost": 0,
+    "crmPatch": 0,
+    "crmDelete": 0,
+    "crmWriteback": false,
+    "productionRequests": 0,
+    "browserExternalRequests": 0
+  },
+  "gates": {
+    "serializationHardenedTransportOfflineReady": true,
+    "requestScopedEvidenceReady": true,
+    "safeTextConstraintReady": true,
+    "safeSuccessDiagnosticsReady": true,
+    "canonicalV2MappingReady": true,
+    "historicalCompatibilityReady": true,
+    "providerRequestCompatibilityReady": false,
+    "syntheticProbeAuthorized": false,
+    "realCanaryAuthorized": false,
+    "remainingCanaryExecutionAuthorized": false
+  },
+  "p0Count": 0,
+  "p1Count": 0,
+  "p2Count": 1,
+  "p2": [
+    "Provider acceptance and serialization repeatability require a separately authorized Synthetic Probe."
+  ]
+}

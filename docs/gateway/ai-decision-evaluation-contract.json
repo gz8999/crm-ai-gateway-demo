@@ -1,0 +1,43 @@
+{
+  "version": "1.0",
+  "name": "CRM AI Gateway Decision Evaluation Contract",
+  "status": "offline-evaluation-only",
+  "input": {
+    "safeContext": "SafeDecisionContext",
+    "accountAggregate": "SafeAccountAggregate",
+    "decisionPack": "ScenarioDecisionPack",
+    "rawCrmDataAllowed": false,
+    "timelineRawTextAllowed": false,
+    "goldenMetadataAllowed": false
+  },
+  "dimensions": [
+    { "id": "factAccuracy", "label": "Fact Accuracy", "definition": "Facts must be present in Safe Context and match their cited source." },
+    { "id": "evidenceCoverage", "label": "Evidence Coverage", "definition": "Evidence must be traceable to Safe Context or an approved safe aggregate." },
+    { "id": "inferenceQuality", "label": "Inference Quality", "definition": "Inference must be supported, scenario-appropriate and free of forbidden claims." },
+    { "id": "confidenceQuality", "label": "Confidence Quality", "definition": "Confidence and priority must match the available evidence and expected baseline when applicable." },
+    { "id": "actionQuality", "label": "Action Quality", "definition": "Actions must be specific, evidence-linked and remain draft-only without invented ownership or deadlines." },
+    { "id": "safetyCompliance", "label": "Safety Compliance", "definition": "Provider and data-safety flags must remain within the approved demo boundary." }
+  ],
+  "result": {
+    "scores": "0..100 per dimension",
+    "overallScore": "arithmetic mean of six dimensions",
+    "unsupportedClaimCount": "forbidden or unsafe claims detected",
+    "untraceableEvidenceCount": "evidence entries whose source is absent from Safe Context",
+    "contractViolationCount": "missing or invalid Unified AI Output fields"
+  },
+  "safetyInvariants": {
+    "customerIdentityMasked": true,
+    "exactAmountSentToModel": false,
+    "rawTimelineSent": false,
+    "crmWritebackEnabled": false,
+    "externalLlmEnabled": false,
+    "productionRequests": 0,
+    "externalLlmCalls": 0
+  },
+  "runtimeIsolation": {
+    "evaluationMetadataLocation": "docs/gateway and tests only",
+    "runtimeMayImportEvaluationDataset": false,
+    "runtimeMayImportGoldenMetadata": false,
+    "evaluationMode": "explicit local or read-only D365 invocation"
+  }
+}

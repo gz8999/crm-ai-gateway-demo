@@ -1,0 +1,99 @@
+{
+  "phase": "PHASE3C-R5B8",
+  "officialContract": {
+    "toolCalls": "https://api-docs.deepseek.com/guides/tool_calls/",
+    "chatCompletion": "https://api-docs.deepseek.com/api/create-chat-completion/"
+  },
+  "rootCause": {
+    "confirmed": true,
+    "category": "duplicate_schema_message_injection",
+    "evidence": "The V2 parameter schema was accepted by DeepSeek strict mode. Both remediation profiles produced Tool Arguments that passed one JSON parse and strict mapping without changing the parameter schema. Because duplicate removal and Tool description changed together, neither change is claimed as the sole cause."
+  },
+  "remediation": {
+    "parameterSchemaChanged": false,
+    "schemaRelaxed": false,
+    "duplicateSchemaRemovedFromUserMessage": true,
+    "functionDescriptionAdded": true,
+    "changedFields": [
+      "messages.1.content",
+      "tools.0.function.description"
+    ],
+    "unexpectedChangedFields": []
+  },
+  "hashes": {
+    "v2ParameterSchemaHash": "476cecc436dc452abc50988d337d779398159e8e0a4003bc8aa6153cbdab22b7",
+    "remediatedParameterSchemaHash": "476cecc436dc452abc50988d337d779398159e8e0a4003bc8aa6153cbdab22b7",
+    "v2ToolDefinitionHash": "d15e5d5e0c7d1669bd341d462a10fe77be10080942d6127fc40bf98551283ff8",
+    "remediatedToolDefinitionHash": "117b6d841067b89c11344347e39576a0652e3a522929bd03da9ba1ced7f60ae6",
+    "v2RequestBodyHash": "dc9e8dc01707e1fa8b4dc131e5cfc8cfa43dc09c018ce6079fd825c63f4e8300",
+    "remediatedRequestBodyHash": "6c827ac75b479bfca89ee611ec3d2be2e77bf576388343789a4338e7e27377fc"
+  },
+  "strictContract": {
+    "requiredFieldsPreserved": true,
+    "additionalPropertiesFalsePreserved": true,
+    "nestedObjectsPreserved": true,
+    "arraysPreserved": true,
+    "parameterSchemaHashPreserved": true,
+    "nodeCompleteness": {
+      "totalSchemaNodeCount": 41,
+      "objectCount": 8,
+      "missingTypeAnyOfRefCount": 0,
+      "missingRequiredCount": 0,
+      "missingAdditionalPropertiesCount": 0,
+      "missingArrayItemsCount": 0,
+      "unsupportedKeywordCount": 0
+    }
+  },
+  "attempts": [
+    {
+      "requestToken": "R5B8-SYNTH-V3-001",
+      "externalLlmCalls": 1,
+      "httpStatus": 200,
+      "jsonParseReady": true,
+      "schemaMappingReady": true,
+      "safetyReady": false,
+      "safetyBlockedPatternKey": "raw_timeline",
+      "retryCount": 0
+    },
+    {
+      "requestToken": "R5B8-SYNTH-V4-002",
+      "externalLlmCalls": 1,
+      "httpStatus": 200,
+      "jsonParseReady": true,
+      "schemaMappingReady": true,
+      "safetyReady": false,
+      "safetyBlockedPatternKey": "raw_timeline",
+      "retryCount": 0
+    }
+  ],
+  "probe": {
+    "status": "stopped-safety",
+    "stopReason": "sensitive_output_rejected",
+    "externalLlmCalls": 2,
+    "externalLlmCallsThisAttempt": 1,
+    "httpStatus": 200,
+    "finishReason": "tool_calls",
+    "toolCallCount": 1,
+    "argumentsRuntimeType": "string",
+    "argumentsLength": 3934,
+    "argumentsSha256": "e6370748832cea5e7f9e70ca4e57d86972c1338ab1e3eb307e21cfc1f1a4968c",
+    "utf8Valid": true,
+    "parseErrorOffset": null,
+    "rawFileExistsAfterDelete": false,
+    "safetyBlockedPatternKey": "raw_timeline",
+    "response": {
+      "httpTransportReady": true,
+      "finishReasonReady": true,
+      "toolCallReady": true,
+      "argumentStringReady": true,
+      "jsonParseReady": true,
+      "schemaValidationReady": true,
+      "canonicalMappingReady": true,
+      "evidenceValidationReady": null,
+      "safetyValidationReady": false,
+      "unsupportedClaimCount": 0
+    },
+    "providerRequestCompatibilityReady": true,
+    "outputSafetyHold": true
+  }
+}

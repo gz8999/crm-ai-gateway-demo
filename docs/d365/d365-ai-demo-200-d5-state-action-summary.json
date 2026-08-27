@@ -1,0 +1,17 @@
+{
+  "phase": "Phase 1C-5R2G-D5",
+  "createAllAsActive": true,
+  "directCloseFieldPatch": false,
+  "planned": {
+    "Active": 16,
+    "Won": 7,
+    "Lost": 1
+  },
+  "actions": [],
+  "finalDistribution": null,
+  "requestCounts": {
+    "WinOpportunity": 0,
+    "LoseOpportunity": 0,
+    "PATCH": 0
+  }
+}

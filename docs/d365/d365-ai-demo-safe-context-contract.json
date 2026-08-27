@@ -1,0 +1,152 @@
+{
+  "version": "R5-1",
+  "source": "D365 Read Adapter -> Safe Context Builder -> AI Gateway",
+  "rules": {
+    "departmentFilterBeforeSafeContext": true,
+    "customerIdentityMasked": true,
+    "exactAmountSentToModel": false,
+    "rawTimelineSent": false,
+    "crmWritebackEnabled": false,
+    "externalLLMDefault": false,
+    "scenarioAndGoldenMetadataExcluded": true
+  },
+  "allowedFields": [
+    {
+      "field": "recordToken",
+      "meaning": "synthetic stable token",
+      "mapping": "token",
+      "privacy": "safe"
+    },
+    {
+      "field": "departmentBand",
+      "meaning": "sales department category",
+      "mapping": "department band",
+      "privacy": "safe category"
+    },
+    {
+      "field": "stateCategory",
+      "meaning": "Active/Won/Lost",
+      "mapping": "state category",
+      "privacy": "safe category"
+    },
+    {
+      "field": "bpfStage",
+      "meaning": "current process stage",
+      "mapping": "stage label",
+      "privacy": "safe category"
+    },
+    {
+      "field": "priorityBand",
+      "meaning": "priority category",
+      "mapping": "priority band",
+      "privacy": "safe category"
+    },
+    {
+      "field": "amountBand",
+      "meaning": "CRM amount range",
+      "mapping": "range only",
+      "privacy": "banded"
+    },
+    {
+      "field": "annualRevenueBand",
+      "meaning": "annual revenue range",
+      "mapping": "range only",
+      "privacy": "banded"
+    },
+    {
+      "field": "annualMarginBand",
+      "meaning": "annual margin range",
+      "mapping": "range only",
+      "privacy": "banded"
+    },
+    {
+      "field": "budgetVarianceBand",
+      "meaning": "budget versus actual category",
+      "mapping": "variance band",
+      "privacy": "banded"
+    },
+    {
+      "field": "marginVarianceBand",
+      "meaning": "margin variance category",
+      "mapping": "variance band",
+      "privacy": "banded"
+    },
+    {
+      "field": "relativeDateStatus",
+      "meaning": "relative timing",
+      "mapping": "relative date",
+      "privacy": "safe category"
+    },
+    {
+      "field": "coverageCategory",
+      "meaning": "service coverage category",
+      "mapping": "coverage category",
+      "privacy": "safe category"
+    },
+    {
+      "field": "routeConsistency",
+      "meaning": "route reference consistency",
+      "mapping": "consistency flag",
+      "privacy": "safe category"
+    },
+    {
+      "field": "interactionSignal",
+      "meaning": "sanitized interaction category",
+      "mapping": "signal category",
+      "privacy": "sanitized"
+    },
+    {
+      "field": "timelineSummary",
+      "meaning": "sanitized activity summary",
+      "mapping": "summary only",
+      "privacy": "sanitized"
+    },
+    {
+      "field": "evidenceToken",
+      "meaning": "traceable evidence token",
+      "mapping": "token",
+      "privacy": "safe"
+    },
+    {
+      "field": "meetingWindow",
+      "meaning": "meeting readiness window",
+      "mapping": "derived signal",
+      "privacy": "derived"
+    },
+    {
+      "field": "stakeholderCoverage",
+      "meaning": "role coverage category",
+      "mapping": "derived signal",
+      "privacy": "derived"
+    },
+    {
+      "field": "openQuestionCount",
+      "meaning": "count of open questions",
+      "mapping": "derived count",
+      "privacy": "aggregate"
+    },
+    {
+      "field": "decisionReadiness",
+      "meaning": "decision readiness category",
+      "mapping": "derived signal",
+      "privacy": "derived"
+    }
+  ],
+  "forbiddenFields": [
+    "customer display name",
+    "contact identity",
+    "email",
+    "phone",
+    "address",
+    "Dataverse GUID",
+    "exact amount",
+    "raw Timeline body",
+    "raw OpportunityClose text",
+    "contract detail",
+    "User/Team identity",
+    "Scenario ID",
+    "Golden assertions",
+    "expected AI answer",
+    "credentials"
+  ]
+}

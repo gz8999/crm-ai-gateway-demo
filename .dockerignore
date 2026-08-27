@@ -1,0 +1,10 @@
+node_modules
+dist
+.git
+.env
+.env.*
+local-artifacts
+server/data/audit-log.json
+backups
+*.tgz
+.DS_Store

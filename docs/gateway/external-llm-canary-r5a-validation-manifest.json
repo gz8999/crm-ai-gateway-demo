@@ -1,0 +1,82 @@
+{
+  "phase": "Phase 3C-R5A",
+  "status": "offline-ready",
+  "baselineCommit": "a643f79",
+  "historical": {
+    "r2ExternalCalls": 1,
+    "r3ExternalCalls": 0,
+    "r4ExternalCalls": 1,
+    "r4ContractValidResponses": 0,
+    "r4ConsumedTokens": ["DEMO-OPP-001", "DEMO-OPP-002"],
+    "r4FailureEvidencePreserved": true,
+    "providerErrorBodyReady": false,
+    "providerErrorObservabilityGap": true
+  },
+  "schema": {
+    "version": "DeepSeek Decision Tool Schema v1",
+    "toolName": "emit_decision_pack",
+    "objectCount": 8,
+    "requiredCoverageCount": 8,
+    "missingRequiredCount": 0,
+    "missingAdditionalPropertiesCount": 0,
+    "missingArrayItemsCount": 0,
+    "unsupportedKeywordCount": 0,
+    "schemaHash": "a376afe2f6bd222b626d40413c6b971e5993d673785d371520487cda5ad2b1d2"
+  },
+  "requestShape": {
+    "strictToolCalling": true,
+    "singleTool": true,
+    "toolChoiceNameMatches": true,
+    "responseFormatMixedWithStrictTool": false,
+    "stream": false,
+    "retryCount": 0
+  },
+  "fixtures": {
+    "syntheticOnly": true,
+    "validMinimal": true,
+    "validFull": true,
+    "nestedExtraRejected": true,
+    "missingRequiredRejected": true,
+    "wrongTypeRejected": true,
+    "badEvidenceRejected": true,
+    "invalidConfidenceRejected": true,
+    "invalidPriorityRejected": true,
+    "emptyLimitationsRejected": true,
+    "missingActionFieldRejected": true
+  },
+  "safety": {
+    "externalLlmCallsR5A": 0,
+    "crmWriteback": false,
+    "productionRequests": 0,
+    "rawCrmExposure": 0,
+    "exactAmountExposure": 0,
+    "rawTimelineExposure": 0,
+    "secretExposure": 0
+  },
+  "gates": {
+    "r4FailureEvidencePreserved": true,
+    "providerErrorBodyReady": false,
+    "providerErrorObservabilityGap": true,
+    "deepSeekStrictRequestShapeReady": true,
+    "deepSeekStrictSchemaReady": true,
+    "allObjectPropertiesRequiredReady": true,
+    "allObjectsAdditionalPropertiesFalseReady": true,
+    "canonicalResponseMappingReady": true,
+    "syntheticFixtureValidationReady": true,
+    "externalLlmCallsZero": true,
+    "crmWritebackDisabled": true,
+    "productionIsolationReady": true,
+    "phase3cR5aComplete": true
+  },
+  "issues": {
+    "p0": 0,
+    "p1": 1,
+    "p2": 0,
+    "items": ["Provider Error Body Observability Gap remains; R4 HTTP 400 root cause cannot be confirmed without a future authorized call with sanitized error capture."]
+  },
+  "newCanarySelection": {
+    "created": false,
+    "calls": 0,
+    "nextStageRequirement": "Exclude the two consumed tokens, retain 22 unconsumed records, add 2 replacements, and obtain separate authorization."
+  }
+}

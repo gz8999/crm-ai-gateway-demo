@@ -1,0 +1,20 @@
+{
+  "phase": "Phase 1C-5R2G-D3A",
+  "counts": {
+    "Account": 7,
+    "Contact": 9,
+    "Opportunity": 24,
+    "ActualManagement": 12,
+    "ServiceCoverage": 15,
+    "Timeline": 206,
+    "InteractionSignal": 154
+  },
+  "opportunityCount": 24,
+  "coversAllSevenDepartments": true,
+  "coversAllEightScenarios": true,
+  "coversRequiredBusiness": true,
+  "coversOpenWonLost": true,
+  "compactPilotTechnicalCandidateReady": true,
+  "compactPilotApproved": false,
+  "pilotWorkbookGenerated": false
+}

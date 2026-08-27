@@ -1,0 +1,39 @@
+{
+  "phase": "Phase 1C-5R2G-D6-R3B",
+  "referenceDate": "2026-07-18",
+  "referenceSource": "R3A Dataverse Date header",
+  "rules": [
+    {
+      "condition": "businessDate < referenceDate",
+      "mode": "HistoricalOverride",
+      "allowedDateField": "overriddencreatedon"
+    },
+    {
+      "condition": "businessDate = referenceDate",
+      "mode": "SameDayBodyDate",
+      "bodyMarker": "business-node-date",
+      "systemDateFieldsAllowed": false
+    },
+    {
+      "condition": "businessDate > referenceDate",
+      "mode": "FutureBodyPlannedDate",
+      "bodyMarker": "planned-node-date",
+      "systemDateFieldsAllowed": false
+    }
+  ],
+  "frozenCanary": {
+    "token": "TL-0653",
+    "businessDate": "2026-07-18",
+    "mode": "SameDayBodyDate",
+    "reclassifiedOnResume": false
+  },
+  "forbiddenDateFieldsForBodyModes": [
+    "createdon",
+    "modifiedon",
+    "overriddencreatedon",
+    "scheduledstart",
+    "scheduledend",
+    "actualstart",
+    "actualend"
+  ]
+}

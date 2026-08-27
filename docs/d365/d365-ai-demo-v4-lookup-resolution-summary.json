@@ -1,0 +1,116 @@
+{
+  "phase": "Phase 1C-5R2G-C1-R2",
+  "publicSafe": true,
+  "containsRecordIds": false,
+  "lookups": [
+    {
+      "field": "opportunity.parentaccountid",
+      "target": "account",
+      "resolution": "pilot parent token",
+      "ready": true
+    },
+    {
+      "field": "opportunity.parentcontactid",
+      "target": "contact",
+      "resolution": "workbook Contact token",
+      "ready": true
+    },
+    {
+      "field": "opportunity.transactioncurrencyid",
+      "target": "transactioncurrency",
+      "tokens": 1,
+      "uniqueActiveMatches": 1,
+      "ready": true
+    },
+    {
+      "field": "opportunity.ownerid",
+      "target": "systemuser|team",
+      "tokens": 6,
+      "uniqueActiveMatches": 0,
+      "ready": false,
+      "candidateMappingReady": true,
+      "mappingApproved": false
+    },
+    {
+      "field": "opportunity.aigw_opportunitylocation",
+      "target": "aigw_location",
+      "tokens": 51,
+      "uniqueActiveMatches": 51,
+      "ready": true
+    },
+    {
+      "field": "opportunity.aigw_sealandpollookup",
+      "target": "aigw_polpodlocation",
+      "ready": true
+    },
+    {
+      "field": "opportunity.aigw_sealandpodlookup",
+      "target": "aigw_polpodlocation",
+      "ready": true
+    },
+    {
+      "field": "opportunity.aigw_airpollookup",
+      "target": "aigw_polpodlocation",
+      "ready": true
+    },
+    {
+      "field": "opportunity.aigw_airpodlookup",
+      "target": "aigw_polpodlocation",
+      "ready": true
+    },
+    {
+      "field": "aigw_actualmanagement.aigw_opportunityid",
+      "target": "opportunity",
+      "resolution": "pilot parent token",
+      "ready": true
+    },
+    {
+      "field": "aigw_customerservicecoverage.aigw_accountid",
+      "target": "account",
+      "resolution": "pilot parent token",
+      "ready": true
+    },
+    {
+      "field": "aigw_customerservicecoverage.aigw_responsibledepartment",
+      "target": "team",
+      "tokens": 1,
+      "uniqueMatches": 1,
+      "ready": true
+    },
+    {
+      "field": "aigw_interactionsignal.aigw_accountid",
+      "target": "account",
+      "resolution": "pilot parent token",
+      "ready": true
+    },
+    {
+      "field": "aigw_interactionsignal.aigw_opportunityid",
+      "target": "opportunity",
+      "resolution": "pilot parent token",
+      "ready": true
+    },
+    {
+      "field": "aigw_interactionsignal.aigw_salesdepartment",
+      "target": "team",
+      "tokens": 3,
+      "uniqueMatches": 0,
+      "ready": false,
+      "candidateCount": 0,
+      "mappingApproved": false,
+      "teamSetupRequired": true
+    }
+  ],
+  "stringFieldsNotRequiringReferenceResolution": [
+    "opportunity.aigw_sales",
+    "opportunity.aigw_salesperson2",
+    "opportunity.aigw_salesperson3",
+    "opportunity.aigw_salesperson4",
+    "opportunity.aigw_introducer"
+  ],
+  "privateManifest": "local-artifacts/d365/d365-ai-demo-v4-lookup-resolution-private.json",
+  "lookupResolutionReady": false,
+  "sourceWorkbook": "artifacts/d365/CRM_AI_Gateway_D365_Chinese_Demo_Data_v4_1.xlsx",
+  "privateOwnerCandidates": "local-artifacts/d365/d365-ai-demo-owner-mapping-private.json",
+  "privateTeamCandidates": "local-artifacts/d365/d365-ai-demo-team-mapping-private.json",
+  "reason": "Owner candidates exist but are not approved; no three suitable secured department Team candidates exist."
+}

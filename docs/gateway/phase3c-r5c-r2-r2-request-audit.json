@@ -1,0 +1,81 @@
+{
+  "phase": "PHASE3C-R5C-R2-R2",
+  "status": "stopped-safety",
+  "stopReason": "ARGUMENT_JSON_INVALID",
+  "hashes": {
+    "syntheticInputHash": "ba843ea131b6484a50122a71157528a91c97819888bf608df0a67663efa39961",
+    "requestEnvelopeHash": "b140e2ef21a756916827dd9fadaa0143461e130d0375411188d0b721154c846f",
+    "requestEnvelopeByteHash": "74e66344961316d2fa9a01afdb64328d92b6cd802747e077dcec03b76e91e8f5",
+    "transportV5SchemaHash": "54fce23151dce092111df36ae5238795b0728bf62c96a2b6b8a2021ac944ff12",
+    "canonicalV2SchemaHash": "fb5f9464ff2e4728b5a28b6f278ccbfe9b9683563435b30821b19a130d5a44d4",
+    "evidenceAllowlistHash": "3d62a2ceee39828e10e817e16e58ad580aa503c12dc2b7af609455e673fcce48",
+    "evidenceTypeIndexHash": "d43de9fe17f4975b4aea3281a26ba0121b83032882658e8c8a9ea416d8dfdf95",
+    "safeFactCatalogHash": "f5f51294486d0ece758a5da113a04b25188f24bc2c1063a1924581cf62bdb6aa",
+    "riskCatalogHash": "2b5956e819b576474905b2194ed9fc7c359c2ddb4331e15f4ca2d48dd58234c6",
+    "evidenceMatrixHash": "af3c5253ace35854aade414087a2152bf0c0074741b5d4860032a166e22ab63c",
+    "safetyContractHash": "fa4a614988d97ef97f3d7509d71fce385c4160c16a0e6927d035f89a067e1768",
+    "fixedFieldContractHash": "6c1876a2036b67e61455f84f18033a25b2c22318d782e0046f8ca661bf7a7424",
+    "executionConfigHash": "58e17a25ad290fd40f3bdc0aa1ac6d8693292e3e6553c018a431658e948dcc55"
+  },
+  "counts": {
+    "externalLlmCalls": 2,
+    "httpSuccess": 2,
+    "toolCallSuccess": 2,
+    "jsonParseSuccess": 1,
+    "transportV5Success": 1,
+    "factReferenceSuccess": 1,
+    "riskCategoryCompatibilitySuccess": 1,
+    "fixedFieldsSuccess": 1,
+    "safetyStatementsSuccess": 1,
+    "canonicalMappingSuccess": 1,
+    "canonicalContractSuccess": 1,
+    "evidenceSuccess": 1,
+    "readabilitySuccess": 1,
+    "safetySuccess": 1,
+    "hallucinationAuditCompleted": 1,
+    "hallucinationHardFailure": 0,
+    "retryCount": 0,
+    "fallbackCount": 0,
+    "d365Get": 0,
+    "crmPost": 0,
+    "crmPatch": 0,
+    "crmDelete": 0,
+    "productionRequests": 0,
+    "browserExternalRequests": 0
+  },
+  "provider": "DeepSeek",
+  "model": "deepseek-v4-pro",
+  "endpointAlias": "deepseek-beta",
+  "probes": [
+    {
+      "requestToken": "R5C-R2-R2-SYNTH-1",
+      "requestCorrelation": "R5C-R2-R2-SYNTH-1-b140e2ef21a7",
+      "requestEnvelopeHash": "b140e2ef21a756916827dd9fadaa0143461e130d0375411188d0b721154c846f",
+      "requestEnvelopeByteHash": "74e66344961316d2fa9a01afdb64328d92b6cd802747e077dcec03b76e91e8f5",
+      "attempts": 1,
+      "httpStatus": 200,
+      "latencyMs": 15522,
+      "usage": {
+        "prompt_tokens": 3891,
+        "completion_tokens": 1381,
+        "total_tokens": 5272
+      },
+      "estimatedCostUsd": 0.0016695
+    },
+    {
+      "requestToken": "R5C-R2-R2-SYNTH-2",
+      "requestCorrelation": "R5C-R2-R2-SYNTH-2-b140e2ef21a7",
+      "requestEnvelopeHash": "b140e2ef21a756916827dd9fadaa0143461e130d0375411188d0b721154c846f",
+      "requestEnvelopeByteHash": "74e66344961316d2fa9a01afdb64328d92b6cd802747e077dcec03b76e91e8f5",
+      "attempts": 1,
+      "httpStatus": 200,
+      "latencyMs": 14141,
+      "usage": {
+        "prompt_tokens": 3891,
+        "completion_tokens": 1326,
+        "total_tokens": 5217
+      },
+      "estimatedCostUsd": 0.0016464
+    }
+  ]
+}

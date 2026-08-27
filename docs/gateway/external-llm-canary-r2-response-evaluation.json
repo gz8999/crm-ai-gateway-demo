@@ -1,0 +1,13 @@
+{
+  "phase": "Phase 3C",
+  "runId": "PHASE3C-R2",
+  "records": [],
+  "aggregate": {
+    "completed": 0,
+    "failed": 24,
+    "totalEstimatedCostUsd": 0,
+    "avgLatencyMs": null,
+    "allResponseContractsPass": false,
+    "allSafetyPass": false
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "phase": "Phase 1C-5R2G-D1",
+  "dataset": "CRM-DEMO-200-GEN-001",
+  "requiredOrder": [
+    "InteractionSignal",
+    "Timeline",
+    "ActualManagement",
+    "ServiceCoverage",
+    "Opportunity",
+    "Contact",
+    "Account"
+  ],
+  "stableTokenRequired": true,
+  "generationRunTokenRequired": true,
+  "exactRecordIdManifestAvailable": false,
+  "executionAuthorized": false,
+  "cleanupReady": false,
+  "excluded": [
+    "Location",
+    "POL/POD",
+    "Owner/User",
+    "Team",
+    "Choice",
+    "Schema",
+    "BPF",
+    "Solution Component"
+  ]
+}
