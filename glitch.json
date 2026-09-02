@@ -1,0 +1,5 @@
+{
+  "install": "npm install",
+  "build": "npm run build",
+  "start": "node server/index.mjs"
+}
