@@ -1,7 +1,6 @@
 import "dotenv/config";
 import express from "express";
 import path from "node:path";
-import { fileURLToPath } from "node:url";
 import { buildAiDemoContext, buildProviderContext } from "./ai/contextBuilder.mjs";
 import { runAiAction } from "./ai/actionService.mjs";
 import { runAi, runAiDemoChat } from "./ai/aiService.mjs";
@@ -21,10 +20,12 @@ import { createNarrativeService } from "./narrative/narrativeService.mjs";
 import { createStartupDiagnostics } from "./startup/startupDiagnostics.mjs";
 import opportunitiesTemplate from "./data/opportunities.example.json" with { type: "json" };
 
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const rootDir = path.resolve(__dirname, "..");
+// Paths resolve from the process working directory so the module stays bundle-safe
+// (serverless bundlers convert to CommonJS where import.meta.url is unavailable).
+// Static assets under /dist are served by the host CDN in serverless environments.
+const rootDir = process.cwd();
 const mockStore = createJsonStore({
-  auditPath: path.join(__dirname, "data", "audit-log.json"),
+  auditPath: path.join(rootDir, "server", "data", "audit-log.json"),
   initialOpportunities: opportunitiesTemplate,
   transformOpportunities: (templates) => generateSyntheticOpportunities(templates, {
     count: Number(process.env.MOCK_OPPORTUNITY_COUNT || 54),
