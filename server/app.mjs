@@ -19,12 +19,13 @@ import { createPilotRuntimeService } from "./pilot/pilotRuntimeService.mjs";
 import { createFrozenDatasetRuntimeService } from "./d365/frozenDatasetRuntimeService.mjs";
 import { createNarrativeService } from "./narrative/narrativeService.mjs";
 import { createStartupDiagnostics } from "./startup/startupDiagnostics.mjs";
+import opportunitiesTemplate from "./data/opportunities.example.json" with { type: "json" };
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const rootDir = path.resolve(__dirname, "..");
 const mockStore = createJsonStore({
-  opportunitiesPath: path.join(__dirname, "data", "opportunities.example.json"),
   auditPath: path.join(__dirname, "data", "audit-log.json"),
+  initialOpportunities: opportunitiesTemplate,
   transformOpportunities: (templates) => generateSyntheticOpportunities(templates, {
     count: Number(process.env.MOCK_OPPORTUNITY_COUNT || 54),
   }),

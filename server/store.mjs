@@ -1,7 +1,10 @@
 import { readFile, writeFile } from "node:fs/promises";
 import { mapDynamicsOpportunities } from "./dynamicsMapper.mjs";
 
-export function createJsonStore({ opportunitiesPath, auditPath, transformOpportunities = (items) => items }) {
+export function createJsonStore({ opportunitiesPath, auditPath, transformOpportunities = (items) => items, initialOpportunities = null }) {
+  let memoryAudit = null;
+  let usingMemoryAudit = false;
+
   async function readJson(path, fallback) {
     try {
       return JSON.parse(await readFile(path, "utf8"));
@@ -11,27 +14,47 @@ export function createJsonStore({ opportunitiesPath, auditPath, transformOpportu
   }
 
   async function writeJson(path, value) {
-    await writeFile(path, `${JSON.stringify(value, null, 2)}\n`);
+    try {
+      await writeFile(path, `${JSON.stringify(value, null, 2)}\n`);
+    } catch (error) {
+      // Read-only filesystems (serverless) fall back to an in-memory ledger.
+      if (["EACCES", "EROFS", "ENOENT"].includes(error?.code)) {
+        usingMemoryAudit = true;
+        return;
+      }
+      throw error;
+    }
   }
 
   return {
     async listOpportunities() {
-      return transformOpportunities(await readJson(opportunitiesPath, []));
+      const templates = initialOpportunities ?? (await readJson(opportunitiesPath, []));
+      return transformOpportunities(templates);
     },
     async getOpportunity(id) {
       const opportunities = await this.listOpportunities();
       return opportunities.find((item) => item.id === id) || null;
     },
     async getAuditLog() {
+      if (usingMemoryAudit) return memoryAudit ?? [];
       return readJson(auditPath, []);
     },
     async appendAudit(entry) {
-      const current = await this.getAuditLog();
+      const current = usingMemoryAudit ? (memoryAudit ?? []) : await this.getAuditLog();
       const next = [{ id: `AUD-${String(current.length + 1).padStart(4, "0")}`, ...entry }, ...current].slice(0, 100);
+      if (usingMemoryAudit) {
+        memoryAudit = next;
+        return next[0];
+      }
       await writeJson(auditPath, next);
+      if (usingMemoryAudit) memoryAudit = next;
       return next[0];
     },
     async resetAuditLog() {
+      if (usingMemoryAudit) {
+        memoryAudit = [];
+        return;
+      }
       await writeJson(auditPath, []);
     },
   };

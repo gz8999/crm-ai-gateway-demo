@@ -1,10 +1,7 @@
-import { readFileSync } from "node:fs";
-import { fileURLToPath } from "node:url";
 import { buildScenarioDecisionPack } from "./deterministicProvider.mjs";
 import { buildSafePortfolio } from "./safeContext.mjs";
 import { rankHealthScores, scoreOpportunityHealth } from "../../src/services/healthScoreEngine/index.js";
-
-const rawPortfolio = JSON.parse(readFileSync(fileURLToPath(new URL("../data/decision-portfolio.json", import.meta.url)), "utf8"));
+import rawPortfolio from "../data/decision-portfolio.json" with { type: "json" };
 const safePortfolio = buildSafePortfolio(rawPortfolio);
 
 export const scenarioDescriptors = [
